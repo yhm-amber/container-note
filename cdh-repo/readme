@@ -1,2 +1,2 @@
-: image build by : docker build -t cdh-repo:nginx .
-:   usage e.g.   : docker run -d --name cdh-repo -p 8088:80 -- cdh-repo
+: image build by :    docker build -t cdh-repo .
+:   usage e.g.   :    docker run -d --name cdh-repo -p 8088:80 -- cdh-repo

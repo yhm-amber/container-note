@@ -1,4 +1,4 @@
-FROM nginx:stable-alpine
-COPY ./r /usr/share/nginx/html
+FROM httpd:alpine
+COPY ./r /usr/local/apache2/htdocs
 COPY readme /README
 COPY Dockerfile /DOCKERFILE
