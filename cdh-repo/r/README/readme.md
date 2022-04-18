@@ -128,34 +128,34 @@ All done, your SCM database is configured correctly!
 其中：
 
 - 参数：
-
+  
   - `--host` 后面，是你数据库的地址。用的是默认端口号。
   - `--scm-host` 后面，是这个刚刚安装了 `cloudera-manager-server` 包的节点地址。
-
+  
   这两者建议用节点在集群网络中的主机名——最原始的手段就是对每个节点的 `/etc/hosts` 里都配上集群每个 IP 与主机名的对应。
-
-  如果是在 Kubernetes 里，如果后端终点为数据库的 SVC 对象名为 `cdh-metadb-svc` 并在 `db-meta` NS 中的话，数据库（即要写在选项 `--host` 后）的主机名，可 能是这个样的： `cdh-metadb-svc-clusterip.db-meta.svc.cluster.local` 。
-
+  
+  如果是在 Kubernetes 里，如果后端终点为数据库的 SVC 对象名为 `cdh-metadb-svc` 并在 `db-meta` NS 中的话，数据库（即要写在选项 `--host` 后）的主机名，可能是这个样的： `cdh-metadb-svc-clusterip.db-meta.svc.cluster.local` 。
+  
 - 数据库需要有一些初步的配置，下面有示例代码。
-
+  
   对于 MySQL ，请使用 `5` 版本而不是 `8` 版本。
-
+  
 - 执行这个命令的节点**需要 JDBC Driver ：**
-
+  
   - driver: [`mysql-connector-java-5.1.49.tar.gz`](https://downloads.mysql.com/archives/get/p/3/file/mysql-connector-java-5.1.49.tar.gz) （或[这个](../metadb/mysql-connector-java-5.1.49.tar.gz)）
   - md5: `e7bc11a55398bad0ea8548163deabaa8`
   - gpg: [`mysql-connector-java-5.1.49.tar.gz.asc`](https://downloads.mysql.com/archives/gpg/?file=mysql-connector-java-5.1.49.tar.gz&p=3) （或[这个](../metadb/mysql-connector-java-5.1.49.tar.gz.asc)）
-
+  
   解压并把里面的 `.jar` 文件放到 `/usr/share/java` 内即可：
-
+  
   ~~~ sh
   mkdir -p -- /usr/share/java
   tar -xzf mysql-connector-java-5.1.49.tar.gz -C /usr/share/java
   (cd /usr/share/java && ln -s -- ./mysql-connector-java-5.1.49/mysql-connector-java-5.1.49-bin.jar ./mysql-connector-java.jar)
   ~~~
+  
 
-
-
+  
 
 
 ### 示例的环境
@@ -170,21 +170,21 @@ All done, your SCM database is configured correctly!
 mkhosts ()
 {
     local counts="${1:-3}" &&
-
+    
     echo &&
     seq "$counts" |
         xargs -i -- echo 10.28.3.10{} cent{} &&
     echo &&
-
+    
     :;
 } &&
 
 mkhosts 3 | cut -d' ' -f1 |
-
+    
     xargs -i -- ssh root@{} -- "
-
+        
         $(declare -f -- mkhosts)"' ;
-
+        
         mkhosts 3 | tee -a -- /etc/hosts &&
         echo ::: $HOSTNAME :: done ::: ' ;
 ~~~

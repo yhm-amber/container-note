@@ -1,0 +1,5 @@
+[cm-v6.3.1-local]
+name=cm-6.3.1-local
+baseurl=http://localhost:80/cm/6.3.1/withdependencies
+enabled=1
+gpgcheck=0
