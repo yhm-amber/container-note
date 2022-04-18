@@ -173,7 +173,7 @@ mkhosts ()
     
     echo &&
     seq "$counts" |
-        xargs -i -- echo 10.28.3.10{} cent{} &&
+        xargs -i{n} -- echo 10.28.3.10{n} cent{n} &&
     echo &&
     
     :;
@@ -181,7 +181,7 @@ mkhosts ()
 
 mkhosts 3 | cut -d' ' -f1 |
     
-    xargs -i -- ssh root@{} -- "
+    xargs -i{ip} -- ssh root@{ip} -- "
         
         $(declare -f -- mkhosts)"' ;
         
