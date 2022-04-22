@@ -1,5 +1,13 @@
+*.tar
+*.tgz
 *.bz2
 *.parcel
 *.rpm
 *.xz
 *.gz
+*.iso
+*.box
+*.vsix
+*.exe
+*.qcow2
+*.zst
