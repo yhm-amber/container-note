@@ -1,2 +1,4 @@
-: image build by :    docker build -t yhm/cdh-repo:httpd .
+: image build by :    docker build -t yhm/cdh-repo:httpd -- .
+:  or build by   :    podman build -t yhm/cdh-repo:httpd -f Dockerfile -- .
+
 :   usage e.g.   :    docker run -d --name cdh-repo -p 8088:80 -- cdh-repo
