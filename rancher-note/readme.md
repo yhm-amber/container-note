@@ -155,6 +155,18 @@ Happy Containering!
 看 Pod 是 `Pending` 状态。需要等会儿，它可能要现拉镜像，具体原因看 Event 。
 
 
+## 牧场主在领航员上
+
+上面是快速开始，这部分整理完整文档里的一些信息：
+
+ref: https://rancher.com/docs/rancher/v2.6/en/installation/install-rancher-on-k8s/
+
+### xxx
+
+
+
+
+
 ----
 
 (todo ...)
