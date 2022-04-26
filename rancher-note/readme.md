@@ -152,6 +152,7 @@ kubectl get secret --namespace cattle-system bootstrap-secret -o go-template='{{
 Happy Containering!
 ~~~
 
+看 Pod 是 `Pending` 状态。需要等会儿，它可能要现拉镜像，具体原因看 Event 。
 
 
 ----
