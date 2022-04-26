@@ -1,14 +1,22 @@
 *.tar
+
 *.tgz
+*.txz
+
 *.bz2
 *.parcel
 *.rpm
+
 *.xz
 *.gz
+*.zst
+
 *.iso
 *.box
+*.qcow2
+
 *.vsix
 *.exe
-*.qcow2
-*.zst
+
+*[0-9]
 
