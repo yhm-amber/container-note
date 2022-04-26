@@ -106,7 +106,9 @@ helm install \
 上面的：
 
 - `<PASSWORD_FOR_RANCHER_ADMIN>` 改成你登录 Rancher 的 `admin` 用户的密码。
-
+- `<IP_OF_LINUX_NODE>.sslip.io` 里的 `<IP_OF_LINUX_NODE>` 改为你的一个 IP ：
+  
+  > 该命令需要一个将流量转发到 Linux 计算机的域名。为简单起见，在本教程中，您可以使用假域名来创建概念验证。假域名的一个例子是 `<IP_OF_LINUX_NODE>.sslip.io` 。
 
 
 
