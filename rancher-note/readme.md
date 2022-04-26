@@ -23,9 +23,11 @@ helm install \
   --namespace cattle-system \
   --set hostname=<IP_OF_LINUX_NODE>.sslip.io \
   --set replicas=1 \
-  --set bootstrapPassword=<PASSWORD_FOR_RANCHER_ADMIN> 、
+  --set bootstrapPassword=<PASSWORD_FOR_RANCHER_ADMIN> \
   -- rancher rancher-latest/rancher ;
 ~~~
+
+上面的 `<PASSWORD_FOR_RANCHER_ADMIN>` 改成你登录 Rancher 的 `admin` 用户的密码。
 
 
 
