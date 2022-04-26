@@ -109,6 +109,13 @@ helm install \
 - `<IP_OF_LINUX_NODE>.sslip.io` 里的 `<IP_OF_LINUX_NODE>` 改为你的一个 IP ：
   
   > 该命令需要一个将流量转发到 Linux 计算机的域名。为简单起见，在本教程中，您可以使用假域名来创建概念验证。假域名的一个例子是 `<IP_OF_LINUX_NODE>.sslip.io` 。
+  > 
+  > ...
+  > 
+  > 现在，如果您在 Web 浏览器中导航到 `<IP_OF_LINUX_NODE>.sslip.io` ，您应该会看到 Rancher UI 。
+  > 
+  > 为了简化这些说明，我们使用了伪造的域名和自签名证书来执行此安装。因此，您可能需要向 Web 浏览器添加安全例外才能看到 Rancher UI 。请注意，对于生产安装，您需要使用负载均衡器、真实域名和真实证书进行高可用性设置。
+  > 
 
 
 
