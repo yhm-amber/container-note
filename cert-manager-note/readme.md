@@ -7,7 +7,7 @@ ref: https://cert-manager.io/docs/
 
 安装可以用 `helm` 也可以下载 `cmctl` 来安装。
 
-## `cmctl`
+## 用 `cmctl`
 
 ref: https://cert-manager.io/docs/usage/cmctl
 
@@ -24,7 +24,7 @@ cmctl check api
 
 别的使用见上面 ref 或者 `cmctl --help` 的标准输出内容。
 
-## `helm`
+## 用 `helm`
 
 ### 安装
 
