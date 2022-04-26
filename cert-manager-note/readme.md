@@ -37,7 +37,7 @@ helm install \
   --namespace cert-manager \
   --create-namespace \
   --set installCRDs=true \
-  -- cert-manager jetstack/cert-manager
+  -- cert-manager jetstack/cert-manager ;
 ~~~
 
 out:
