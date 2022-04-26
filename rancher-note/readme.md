@@ -11,7 +11,15 @@
 
 ref: https://rancher.com/docs/rancher/v2.6/en/overview/architecture/
 
-> ![image](https://user-images.githubusercontent.com/103625580/165257322-6c78df07-8d75-4794-b120-b7d00b061ed3.png)
+> 大多数 Rancher 2.x 软件都在 Rancher Server 上运行。 Rancher Server 包括用于管理整个 Rancher 部署的所有软件组件。
+> 
+> 下图说明了 Rancher 2.x 的高级架构。该图描述了一个 Rancher Server 的安装，该安装管理两个下游 Kubernetes 集群：一个由 RKE 创建，另一个由 Amazon EKS (Elastic Kubernetes Service) 创建。
+> 
+> 为了获得最佳性能和安全性，我们建议为 Rancher management server 使用专用的 Kubernetes 集群。不建议在此群集上运行用户工作负载。部署 Rancher 后，您可以创建或导入集群以运行您的工作负载。
+> 
+> 下图显示了用户如何通过 Rancher 的身份验证代理，操作 Rancher 启动的 Kubernetes 集群和托管的 Kubernetes 集群：
+> 
+> ![通过 Rancher 的身份验证代理管理 Kubernetes 集群](https://user-images.githubusercontent.com/103625580/165257322-6c78df07-8d75-4794-b120-b7d00b061ed3.png)
 > 
 
 ### 架构建议
