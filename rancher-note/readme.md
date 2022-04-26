@@ -154,6 +154,9 @@ Happy Containering!
 
 看 Pod 是 `Pending` 状态。需要等会儿，它可能要现拉镜像，具体原因看 Event 。
 
+![image](https://user-images.githubusercontent.com/103625580/165270061-0f9f218b-355f-45b4-8421-a1575593a331.png)
+
+
 
 ## 牧场主在领航员上
 
