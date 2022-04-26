@@ -97,6 +97,7 @@ ref: https://rancher.com/docs/rancher/v2.6/en/quick-start-guide/deployment/quick
 ~~~ sh
 helm install \
   --namespace cattle-system \
+  --create-namespace \
   --set hostname=<IP_OF_LINUX_NODE>.sslip.io \
   --set replicas=1 \
   --set bootstrapPassword=<PASSWORD_FOR_RANCHER_ADMIN> \
