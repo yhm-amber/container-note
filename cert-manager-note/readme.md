@@ -40,10 +40,12 @@ helm install \
   -- cert-manager jetstack/cert-manager
 ~~~
 
+想要看所有可以在 `set` Flag 设置的配置项的话：
+
 > A full list of available Helm values is on [cert-manager's ArtifactHub page](https://artifacthub.io/packages/helm/cert-manager/cert-manager).
 > 
 
-想要看这意味着原子化执行了什么 YAML ，把 `install` 改为 `template` 然后你就能跟它在标准输出见面。
+想要看这意味着原子化执行了什么 YAML 的话：把 `install` 改为 `template` 然后你就能跟它在标准输出见面。
 
 ### 验证
 
@@ -52,6 +54,16 @@ ref: https://cert-manager.io/docs/installation/verify/#manual-verification
 ~~~ sh
 kubectl get pods -n cert-manager
 ~~~
+
+然后看里面的东西（参考上面的 ref 连接）。
+
+或者只是这样：
+
+~~~ sh
+cmctl check api
+~~~
+
+需要本节点有 `cmctl` 命令（获取方式见前文）。
 
 ### 卸载
 
