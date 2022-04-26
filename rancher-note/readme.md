@@ -103,7 +103,9 @@ helm install \
   -- rancher rancher-latest/rancher ;
 ~~~
 
-上面的 `<PASSWORD_FOR_RANCHER_ADMIN>` 改成你登录 Rancher 的 `admin` 用户的密码。
+上面的：
+
+- `<PASSWORD_FOR_RANCHER_ADMIN>` 改成你登录 Rancher 的 `admin` 用户的密码。
 
 
 
