@@ -157,6 +157,12 @@ Happy Containering!
 ![image](https://user-images.githubusercontent.com/103625580/165270061-0f9f218b-355f-45b4-8421-a1575593a331.png)
 
 
+卸载：
+
+~~~ sh
+helm -n cattle-system uninstall -- rancher
+~~~
+
 
 ## 牧场主在领航员上
 
