@@ -1,7 +1,7 @@
 
 ## 安装
 
-ref: https://openebs.io/docs/user-guishang es/quickstart
+ref: https://openebs.io/docs/user-guides/quickstart
 
 
 ### use `helm`
