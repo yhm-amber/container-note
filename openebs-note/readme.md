@@ -20,7 +20,11 @@ kubectl apply -f https://openebs.github.io/charts/openebs-operator.yaml
 
 ## 配置默认
 
-需要配置存储类 `openebs-hostpath` 为默认：
+需要配置存储类 `openebs-hostpath` 为默认。
+
+ref: https://kubernetes.io/zh/docs/tasks/administer-cluster/change-default-storage-class/
+
+设为默认：
 
 ~~~ sh
 kubectl patch storageclass openebs-hostpath -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
