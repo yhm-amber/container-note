@@ -7,7 +7,7 @@ ref: https://openebs.io/docs/user-guides/quickstart
 ### use `helm`
 
 ~~~ sh
-helm repo add openebs https://openebs.github.io/charts
+helm repo add -- openebs https://openebs.github.io/charts
 # helm repo update
 helm install --namespace openebs --create-namespace -- openebs openebs/openebs
 ~~~
@@ -27,7 +27,7 @@ ref: https://kubernetes.io/zh/docs/tasks/administer-cluster/change-default-stora
 设为默认：
 
 ~~~ sh
-kubectl patch storageclass openebs-hostpath -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
+kubectl patch storageclass -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}' -- openebs-hostpath
 ~~~
 
 验证：
