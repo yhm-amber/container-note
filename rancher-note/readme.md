@@ -134,12 +134,12 @@ NOTE: Rancher may take several minutes to fully initialize. Please standby while
 
 Check out our docs at https://rancher.com/docs/
 
-If you provided your own bootstrap password during installation, browse to https://10.28.3.100.sslip.io to get started.
+If you provided your own bootstrap password during installation, browse to https://10.11.10.100.sslip.io to get started.
 
 If this is the first time you installed Rancher, get started by running this command and clicking the URL it generates:
 
 ```
-echo https://10.28.3.100.sslip.io/dashboard/?setup=$(kubectl get secret --namespace cattle-system bootstrap-secret -o go-template='{{.data.bootstrapPassword|base64decode}}')
+echo https://10.11.10.100.sslip.io/dashboard/?setup=$(kubectl get secret --namespace cattle-system bootstrap-secret -o go-template='{{.data.bootstrapPassword|base64decode}}')
 ```
 
 To get just the bootstrap password on its own, run:
