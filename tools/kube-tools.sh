@@ -1,3 +1,4 @@
+
 klsctl ()
 {
     : usage demo:
@@ -5,11 +6,11 @@ klsctl ()
     
     : ::::::::::: :
     
-    (($# != 3)) && echo para err 🥲 && exit 233 ;
+    (($# != 3)) && echo para err 🥲 && return 233 ;
     
     local namefix="${1}" &&
     local cmd="${2}" &&
-    local svc="${3}" &&
+    local svcs="${3}" &&
     
     kubectl get no |
         
@@ -19,16 +20,16 @@ klsctl ()
             
             echo : :::: $HOSTNAME ... start ... $(date +%s) :::: : ;
             
-            systemctl '"$cmd"' '"$svc"' ;
+            systemctl '"'$cmd'"' -- '"$svcs"' ;
             
             echo : :::: $HOSTNAME ... done ... $(date +%s) :::: : ' |
         
-        tee kubelet-"$namefix"-"$cmd"-"$svc".log &&
+        tee kubelet-"$namefix"-"$cmd"-"($svcs)".log &&
     
     
     (
-        echo ==================== ;
-        ls kubelet-"$namefix"-"$cmd"-"$svc".log ) &&
+        echo : =========== : ;
+        ls kubelet-"$namefix"-"$cmd"-"($svcs)".log ) &&
     
     :;
 } ;
