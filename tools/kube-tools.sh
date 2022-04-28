@@ -1,3 +1,6 @@
+: have a lot of fun 🤗 :
+
+
 
 klsctl ()
 {
@@ -24,12 +27,12 @@ klsctl ()
             
             echo : :::: $HOSTNAME ... done ... $(date +%s) :::: : ' |
         
-        tee kubelet-"$namefix"-"$cmd"-"($svcs)".log &&
+        tee "($svcs)"-"$namefix"-"$cmd".log &&
     
     
     (
         echo : =========== : ;
-        ls kubelet-"$namefix"-"$cmd"-"($svcs)".log ) &&
+        ls "($svcs)"-"$namefix"-"$cmd".log ) &&
     
     :;
 } ;
