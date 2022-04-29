@@ -7,7 +7,7 @@ ref: https://kubesphere.io/zh/docs/quick-start/minimal-kubesphere-on-k8s/
 
 ### 安装
 
-安装前，务必先搞好一个默认的存储类。可以参考[这里](../openebs-note)。
+**安装前，务必先搞好一个默认的存储类。可以参考[这里](../openebs-note)。**
 
 这就是最简单的安装步骤：
 
@@ -15,6 +15,8 @@ ref: https://kubesphere.io/zh/docs/quick-start/minimal-kubesphere-on-k8s/
 kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.2.1/kubesphere-installer.yaml
 kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.2.1/cluster-configuration.yaml
 ~~~
+
+*（如果没有 Kubernetes 集群又暂且不想研究的话，可以用 [`sealos`](https://github.com/fanux/sealos) 这个工具来比较省心地创建一个。想快速研究 Kubernetes 的话可以看看 [`K8E`](https://github.com/xiaods/k8e) 这个项目的安装说明。）*
 
 ### 检查
 
