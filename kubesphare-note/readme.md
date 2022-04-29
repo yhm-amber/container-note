@@ -7,6 +7,8 @@ ref: https://kubesphere.io/zh/docs/quick-start/minimal-kubesphere-on-k8s/
 
 ### 安装
 
+务必先搞好一个默认的存储类。可以参考[这里](../openebs-note)。
+
 ~~~ sh
 kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.2.1/kubesphere-installer.yaml
 kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.2.1/cluster-configuration.yaml
