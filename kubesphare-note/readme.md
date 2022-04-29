@@ -7,7 +7,9 @@ ref: https://kubesphere.io/zh/docs/quick-start/minimal-kubesphere-on-k8s/
 
 ### 安装
 
-务必先搞好一个默认的存储类。可以参考[这里](../openebs-note)。
+安装前，务必先搞好一个默认的存储类。可以参考[这里](../openebs-note)。
+
+这就是最简单的安装步骤：
 
 ~~~ sh
 kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.2.1/kubesphere-installer.yaml
@@ -16,9 +18,13 @@ kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3
 
 ### 检查
 
+执行过上面的，再执行这个，就能看到安装过程中的日志输出了。
+
 ~~~ sh
 kubectl logs -n kubesphere-system $(kubectl get pod -n kubesphere-system -l app=ks-install -o jsonpath='{.items[0].metadata.name}') -f
 ~~~
+
+最后会出一个欢迎界面一样的日志信息，上面有管理员账户的初始密码以及一个可用的访问地址。
 
 out:
 
