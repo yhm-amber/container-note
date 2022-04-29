@@ -26,7 +26,7 @@ kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3
 kubectl logs -n kubesphere-system $(kubectl get pod -n kubesphere-system -l app=ks-install -o jsonpath='{.items[0].metadata.name}') -f
 ~~~
 
-最后会出一个欢迎界面一样的日志信息，上面有管理员账户的初始密码以及一个可用的访问地址。
+它打到最后，成了的话，就会给你打出一个欢迎界面一样的信息。上面有管理员账户的初始密码以及一个可用的访问地址。
 
 out:
 
