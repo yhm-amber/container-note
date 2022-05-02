@@ -90,6 +90,12 @@ ref: https://rancher.com/docs/rancher/v2.6/en/quick-start-guide/deployment/quick
 
 ### 本体
 
+首先在 `helm` 里添加注册（[详见](https://rancher.com/docs/rancher/v2.6/en/installation/install-rancher-on-k8s/#1-add-the-helm-chart-repository)）：
+
+~~~ sh
+helm repo add -- rancher-stable https://releases.rancher.com/server-charts/stable
+~~~
+
 基于 ref 链接，接下来步骤就是用 `helm` 安装 Rancher 。
 
 整理命令：
@@ -101,7 +107,7 @@ helm install \
   --set hostname=<IP_OF_LINUX_NODE>.sslip.io \
   --set replicas=1 \
   --set bootstrapPassword=<PASSWORD_FOR_RANCHER_ADMIN> \
-  -- rancher rancher-latest/rancher ;
+  -- rancher rancher-stable/rancher ;
 ~~~
 
 上面的：
@@ -127,7 +133,7 @@ helm install \
   --set hostname=10.11.10.101.sslip.io \
   --set replicas=1 \
   --set bootstrapPassword='321-123-aA--' \
-  -- rancher rancher-latest/rancher ;
+  -- rancher rancher-stable/rancher ;
 ~~~
 
 out ：
