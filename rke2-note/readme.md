@@ -66,13 +66,15 @@ curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | INSTALL_RKE2_MIRROR
 
 然后就可以对 `rke2-server` 服务使用各种 `systemctl` 指令了。
 
-上面的脚本有好几个选项，这里对我比较重要的有两个：
+上面的脚本有好几个选项，这里对我比较重要的有：
 
-- 选择安装源： `INSTALL_RKE2_MIRROR=cn`
-- 选择离线包目录： `INSTALL_RKE2_ARTIFACT_PATH=/root/rke2-artifacts`
+- 选择安装源： `INSTALL_RKE2_MIRROR=cn` （这个是 [`cn`](http://rancher-mirror.rancher.cn/rke2/install.sh) 来源脚本特有的功能）
+- 选择离线包目录： `INSTALL_RKE2_ARTIFACT_PATH=/root/rke2-artifacts` （离线包下载[见这里](https://github.com/rancher/rke2/releases)）
 - 决定节点类型： `INSTALL_RKE2_TYPE=agent` （这个变量空着的话值就默认是 `server` 了）
 
 这两方面放在最初由 Docker 公司提供出来的产品下的话就也都不是需要操心的方面了。
+
+*——软件源就是镜像源，换镜像源就能换软件源（从而不必维护两套难搞的脚本）；离线目录可以转换为离线镜像，用 `load` 加载就好从而也没有指定目录什么事儿了；节点类型的话完全可以直接指定拉去不同的镜像就是，反正这里这个变量的值的变化也是类似的效果。*
 
 如果你熟悉 `docker` 或者 `podman` 这样的 Docker 风格的容器工具的使用，下面的步骤中，你会发现，它们都很容易涉及为容器化的。
 
@@ -82,7 +84,7 @@ curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | INSTALL_RKE2_MIRROR
 
 **要想加入已有集群，就在第一次启动前创建特定的配置文件并填入内容**。后面会提到它就是 `/etc/rancher/rke2/config.yaml` （[见](https://docs.rancher.cn/docs/rke2/install/ha/_index)），不过由于这里是首次创建集群的第一个节点，所以不需要手动创建这个文件。
 
-——这个如果要做成容器化，就只需要搞一个 `-v` 挂载就是，譬如 `-v ./cluster-a/etc:/etc/rancher/rke2` ，然后别的步骤都是一模一样只需要改变一下被作用的目录就好。
+*——这个如果要做成容器化，就只需要搞一个 `-v` 挂载就是，譬如 `-v ./cluster-a/etc:/etc/rancher/rke2` ，然后别的步骤都是一模一样只需要改变一下被作用的目录就好。不就是自定义配置嘛！*
 
 如果没有指定离线的方式，这个 `systemctl start rke2-server.service` 会需要十分漫长的等待。这个过程中，它会对系统的软件和配置目录动很多手脚，最终把集群所需要的命令和配置都部署到系统里。
 
@@ -196,7 +198,8 @@ tls-san:
   - 在 `<token from server node>` 处的内容就是它要加入的节点的 `/var/lib/rancher/rke2/server/node-token` 文件的内容。
   - 在 `<server>` 处要写能够访问到被加入集群的 `server` 的 IP 或者域名。
   
-  Windows 节点上的 `agent` 安装见原文。
+
+Windows 节点上的 `agent` 安装见原文。
 
 
 
