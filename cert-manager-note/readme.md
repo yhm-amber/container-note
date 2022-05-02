@@ -31,7 +31,7 @@ cmctl check api
 ref: https://cert-manager.io/docs/installation/helm
 
 ~~~ sh
-helm repo add jetstack https://charts.jetstack.io
+helm repo add -- jetstack https://charts.jetstack.io
 # helm repo update
 helm install \
   --namespace cert-manager \
