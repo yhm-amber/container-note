@@ -138,6 +138,7 @@ curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | INSTALL_RKE2_MIRROR
 ~~~ sh
 mkdir ~/.kube
 cat /etc/rancher/rke2/rke2.yaml | tee ~/.kube/config
+chmod 400 ~/.kube/config
 ~~~
 
 以对 `kubectl` 命令做出配置。
