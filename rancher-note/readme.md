@@ -118,11 +118,23 @@ helm install \
   > 为了简化这些说明，我们使用了伪造的域名和自签名证书来执行此安装。因此，您可能需要向 Web 浏览器添加安全例外才能看到 Rancher UI 。请注意，对于生产安装，您需要使用负载均衡器、真实域名和真实证书进行高可用性设置。
   > 
 
-命令执行的 out ：
+我执行的：
+
+~~~ sh
+helm install \
+  --namespace cattle-system \
+  --create-namespace \
+  --set hostname=10.11.10.101.sslip.io \
+  --set replicas=1 \
+  --set bootstrapPassword='321-123-aA--' \
+  -- rancher rancher-latest/rancher ;
+~~~
+
+out ：
 
 ~~~ text
 NAME: rancher
-LAST DEPLOYED: Tue Apr 26 17:17:07 2022
+LAST DEPLOYED: Mon May  2 13:30:56 2022
 NAMESPACE: cattle-system
 STATUS: deployed
 REVISION: 1
@@ -134,12 +146,12 @@ NOTE: Rancher may take several minutes to fully initialize. Please standby while
 
 Check out our docs at https://rancher.com/docs/
 
-If you provided your own bootstrap password during installation, browse to https://10.11.10.100.sslip.io to get started.
+If you provided your own bootstrap password during installation, browse to https://10.11.10.101.sslip.io to get started.
 
 If this is the first time you installed Rancher, get started by running this command and clicking the URL it generates:
 
 ```
-echo https://10.11.10.100.sslip.io/dashboard/?setup=$(kubectl get secret --namespace cattle-system bootstrap-secret -o go-template='{{.data.bootstrapPassword|base64decode}}')
+echo https://10.11.10.101.sslip.io/dashboard/?setup=$(kubectl get secret --namespace cattle-system bootstrap-secret -o go-template='{{.data.bootstrapPassword|base64decode}}')
 ```
 
 To get just the bootstrap password on its own, run:
