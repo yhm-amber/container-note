@@ -5,6 +5,8 @@
 
 ## 架构
 
+> 战斗之前要明白自己到底在为什么战斗……
+
 ### 软件架构
 
 这里讲的是 Rancher 具体是什么。
@@ -80,7 +82,7 @@ ref: https://rancher.com/docs/rancher/v2.6/en/overview/architecture-recommendati
 
 ref: https://rancher.com/docs/rancher/v2.6/en/quick-start-guide/deployment/quickstart-manual-setup/
 
-示例是在 K3S 上部署的，在 RKE2 上也行。
+示例是在 K3S 上部署的，在 RKE2 上也行。我有[关于 RKE2 的笔记](../rke2-note)。
 
 他们还有一个简单示例，是用的 `docker run` ，但是这个命令开权限了，不好。而且容器里面也不止一个进程，容器被当节点用了，不好。
 
