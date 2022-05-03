@@ -82,8 +82,10 @@ curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | INSTALL_RKE2_MIRROR
 
 ~~~ sh
 snapper create -d 'pub rke2 9345 6443' --command '
-    firewall-cmd --zone=public --add-port=9345/tcp --add-port=6443/tcp --permanent '
+    firewall-cmd --zone=public --add-port=9345/tcp --add-port=9345/udp --add-port=6443/tcp --permanent '
 sudo systemctl reload firewalld
+: check:
+sudo firewall-cmd --zone=public --list-ports --permanent
 ~~~
 
 之后，你就可以对 `rke2-server` 服务使用各种 `systemctl` 指令了。
