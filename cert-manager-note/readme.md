@@ -44,7 +44,7 @@ out:
 
 ~~~ text
 NAME: cert-manager
-LAST DEPLOYED: Tue Apr 26 15:57:29 2022
+LAST DEPLOYED: Tue May  3 11:37:11 2022
 NAMESPACE: cert-manager
 STATUS: deployed
 REVISION: 1
