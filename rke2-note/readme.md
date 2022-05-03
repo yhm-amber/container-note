@@ -184,7 +184,7 @@ tls-san:
 
 Windows 节点上的 `agent` 安装见原文。
 
-### 用 `snapper` 监视得到的
+### 来自 `snapper` 的记录
 
 这个 `snapper` 是一个来自 SUSE 组织的工具，它可以让你很方便地使用文件系统的快照功能。
 
