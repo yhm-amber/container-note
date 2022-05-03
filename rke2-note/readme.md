@@ -23,16 +23,16 @@
 
 ref: https://docs.rancher.cn/docs/rke2/install/quickstart/_index
 
-命令：
+命令示例：
 
 ~~~ sh
 curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh |
   INSTALL_RKE2_MIRROR=cn RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -
 ~~~
 
-没错，这个步骤完全是脚本完成的。
+没错，他们分发软件是靠脚本完成的。
 
-脚本做的事情，他们[在这里](https://docs.rancher.cn/docs/rke2/install/methods/_index)是这么说的：
+脚本做的事情，[在这里](https://docs.rancher.cn/docs/rke2/install/methods/_index)是这么说的：
 
 > 当安装脚本被执行时，它会判断它是什么类型的系统。如果它是一个使用 RPM 的操作系统（比如 CentOS 或 RHEL），它将执行基于 RPM 的安装，否则脚本会默认为 tarball。基于 RPM 的安装将在下面介绍。
 > 
