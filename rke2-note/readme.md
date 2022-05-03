@@ -1,8 +1,8 @@
 
 ## 开始之前需要明确的提要
 
-- RKE2 是一个 Kubernetes 发行版， K3S 是又一个，二者有类似的地方。
-- Rancher 是一个 Kubernetes 管理系统，需要用 `helm` 安在 Kubernetes 上（这还需要这个 Kubernetes 已经准备好足够的东西）或者采用 Docker 的方式（但还是在容器内做同样的事情），可以管理包括自身被部署集群在内的多个 Kubernetes 集群。
+- [RKE2](https://docs.rke2.io/) 是一个 Kubernetes 发行版， K3S 是又一个，二者有类似的地方。
+- [Rancher](../rancher-note) 是一个 Kubernetes 管理系统，需要用 `helm` 安在 Kubernetes 上（这还需要这个 Kubernetes 已经准备好足够的东西）或者采用 Docker 的方式（但还是在容器内做同样的事情），可以管理包括自身被部署集群在内的多个 Kubernetes 集群。
 - 上述的 RKE2 、 K3S 、 Rancher 都是组织 RancherLab 的作品；上述的 Kubernetes 并不是值一样具体的容器编排系统产品，而是指一类这样的产品。
 
 ## 快速开始
