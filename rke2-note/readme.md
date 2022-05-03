@@ -203,7 +203,7 @@ tls-san:
   - 在 `<token from server node>` 处的内容就是它要加入的节点的 `/var/lib/rancher/rke2/server/node-token` 文件的内容。
   - 在 `<server>` 处要写能够访问到被加入集群的 `server` 的 IP 或者域名。
   
-*除了要用到的服务二进制（或启动模式）不同外也没有别的不同。需要事先准备的配置文件也几乎一样。*
+*跟增加 `server` 比，除了要用到的服务二进制（或启动模式）不同外也没有别的不同。需要事先准备的配置文件也几乎一样。*
 
 Windows 节点上的 `agent` 安装见原文。
 
