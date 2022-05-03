@@ -88,52 +88,19 @@ curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | INSTALL_RKE2_MIRROR
 
 如果没有指定离线的方式，这个 `systemctl start rke2-server.service` 会需要十分漫长的等待。这个过程中，它会对系统的软件和配置目录动很多手脚，最终把集群所需要的命令和配置都部署到系统里。
 
-从脚本到初次启动服务的整个过程，对配置的改变是这些：
+它都做了哪些事，见后文用 `snapper` 监视的结果。
 
-~~~ text
-+..... /etc/cni
-+..... /etc/cni/net.d
-+..... /etc/cni/net.d/10-canal.conflist
-+..... /etc/cni/net.d/calico-kubeconfig
-+..... /etc/rancher
-+..... /etc/rancher/node
-+..... /etc/rancher/node/password
-+..... /etc/rancher/rke2
-+..... /etc/rancher/rke2/rke2.yaml
-+..... /etc/systemd/system/multi-user.target.wants/rke2-server.service
-+..... /etc/systemd/system/rke2-agent.service
-+..... /etc/systemd/system/rke2-server.service
+在 `systemctl start rke2-server.service` 经过漫长等待结束后，集群就安装完成了。
+
+好了以后别忘了把 `9345` 和 `6443` 端口开放：
+
+~~~ sh
+snapper create -d 'pub rke2 9345 6443' --command '
+    firewall-cmd --zone=public --add-port=9345/tcp --add-port=6443/tcp --permanent '
+sudo systemctl reload firewalld
 ~~~
 
-这在我这里是 `snapper status 15..16` 这个命令的输出结果。前面的 `+.....` 表示增加了文件。
-
-我事先是在 `snapper create -d rke2 --command bash` 里完成的整个安装操作，这会在整个操作开始前和结束后分别生成一对快照；
-
-然后我用 `snapper list` 确定了这对快照的编号：
-
-~~~ text
-  # | Type   | Pre # | Date                     | User | Used Space | Cleanup | Description                | Userdata
-----+--------+-------+--------------------------+------+------------+---------+----------------------------+--------------
- 0  | single |       |                          | root |            |         | current                    |
- 1  | single |       | Thu Apr  7 13:09:17 2022 | root |   3.02 MiB | number  | first root filesystem      |
- 2  | single |       | Thu Apr  7 14:05:50 2022 | root |  17.43 MiB | number  | after installation         | important=yes
- 3  | pre    |       | Thu Apr  7 15:34:39 2022 | root | 640.00 KiB | number  | yast language              |
- 4  | pre    |       | Thu Apr  7 15:35:28 2022 | root | 416.00 KiB | number  | zypp(ruby.ruby2.5)         | important=no
- 5  | post   |     4 | Thu Apr  7 15:44:55 2022 | root |  13.77 MiB | number  |                            | important=no
- 6  | post   |     3 | Thu Apr  7 15:44:57 2022 | root | 160.00 KiB | number  |                            |
-...
-...
-15  | pre    |       | Mon May  2 15:04:42 2022 | root |   1.84 MiB |         | rke2                       |
-16  | post   |    15 | Mon May  2 23:07:29 2022 | root |  16.00 KiB |         | rke2                       |
-~~~
-
-上面这就是 `list` 子命令的输出（中间有省略）。根据 `Description` 可见，我要比对的快照分别是 `15` 和 `16` ，因为前面创建这两个快照的命令有被用上了 `-d rke2` 选项。
-
-新增的文件里，在 `/etc/systemd/system` 下的两个文件就是脚本所创，这里的 `multi-user.target.wants` 里的文件是因为我对这个服务使用了 `system enable` 。除此以外就是 `/etc/cni` 和 `/etc/rancher` 这两个目录以及里面的全部子内容了。
-
-其余的改变， `snapper` 并未对其追踪，便不予列出。（反正……元数据没了的话，数据就算在也等于不在了——类似于这么个道理。）
-
-在 `systemctl start rke2-server.service` 经过漫长等待结束后，集群就安装完成了。但相应的配置文件还没到位，还需要执行以下：
+以及让 `kubeconfig` 到位：
 
 ~~~ sh
 mkdir ~/.kube
@@ -141,19 +108,21 @@ cat /etc/rancher/rke2/rke2.yaml | tee ~/.kube/config
 chmod 400 ~/.kube/config
 ~~~
 
-以对 `kubectl` 命令做出配置。
+然后就可以用 `kubectl get no` 验证，这第一个节点是否 `Ready` 了；或者像这样使用 `kubectl` 命令：
 
-然后就可以用 `kubectl get no` 验证，这第一个节点是否 `Ready` 了。
+~~~ sh
+/var/lib/rancher/rke2/bin/kubectl --kubeconfig /etc/rancher/rke2/rke2.yaml get no
+~~~
 
 更多信息：
 
 > 运行此安装程序后：
 > 
-> - rke2-server 服务将被安装。rke2-server 服务将被配置为在节点重启后或进程崩溃或被杀时自动重启。
-> - 其他的实用程序将被安装在/var/lib/rancher/rke2/bin/。它们包括 kubectl, crictl, 和 ctr. 注意，这些东西默认不在你的路径上。
-> - 还有两个清理脚本会安装到 /usr/local/bin/rke2 的路径上。它们是 rke2-killall.sh和rke2-uninstall.sh。
-> - 一个 kubeconfig 文件将被写入/etc/rancher/rke2/rke2.yaml。
-> - 一个可用于注册其他 server 或 agent 节点的令牌将在 /var/lib/rancher/rke2/server/node-token 文件中创建。
+> - `rke2-server` 服务将被安装。 `rke2-server` 服务将被配置为在节点重启后或进程崩溃或被杀时自动重启。
+> - 其他的实用程序将被安装在 `/var/lib/rancher/rke2/bin/` 。它们包括 `kubectl` , `crictl` , 和 `ctr` 。注意，这些东西默认不在你的路径上。
+> - 还有两个清理脚本会安装到 `/usr/local/bin/rke2` 的路径上。它们是 `rke2-killall.sh` 和 `rke2-uninstall.sh` 。
+> - 一个 `kubeconfig` 文件将被写入 `/etc/rancher/rke2/rke2.yaml` 。
+> - 一个可用于注册其他 `server` 或 `agent` 节点的令牌将在 `/var/lib/rancher/rke2/server/node-token` 文件中创建。
 > 
 
 ### 2. 增加 `server` 节点
@@ -207,5 +176,133 @@ tls-san:
 
 Windows 节点上的 `agent` 安装见原文。
 
+### 基于 `snapper` 的监视结果
 
+这是一个来自 SUSE 组织的工具，可以很方便地使用文件系统的快照功能。
+
+在 `openSUSE Leap 15.2` 发行版中，默认配置（ `root` ）下的系统快照，只会去监视所有配置性的目录，不会管二进制甚至是数据的目录。
+
+#### 脚本
+
+我是在 `snapper create -d 'rke2 sh' --command bash` 中做了执行脚本的操作。
+
+它会在操作开始前和结束（按 `Ctrl-D` 可以结束）后，这两个时机，打一对相关联的快照。
+
+这是我的 `snapper list` ：
+
+~~~ text
+  # | Type   | Pre # | Date                            | User | Used Space | Cleanup | Description           | Userdata
+----+--------+-------+---------------------------------+------+------------+---------+-----------------------+--------------
+ 0  | single |       |                                 | root |            |         | current               |
+ 1* | single |       | Mon 11 Apr 2022 11:35:07 AM CST | root |  16.00 KiB |         | first root filesystem |
+ 2  | single |       | Mon 11 Apr 2022 02:23:02 PM CST | root |  20.02 MiB | number  | after installation    | important=yes
+ 3  | pre    |       | Thu 14 Apr 2022 11:04:07 AM CST | root |   4.20 MiB | number  | zypp(zypper)          | important=yes
+ 4  | post   |     3 | Thu 14 Apr 2022 11:07:42 AM CST | root |  11.40 MiB | number  |                       | important=yes
+ 5  | pre    |       | Thu 14 Apr 2022 11:16:42 AM CST | root |  96.00 KiB | number  | zypp(zypper)          | important=no
+ 6  | post   |     5 | Thu 14 Apr 2022 11:17:49 AM CST | root | 968.00 KiB | number  |                       | important=no
+ 7  | pre    |       | Thu 14 Apr 2022 11:18:10 AM CST | root |  64.00 KiB | number  | zypp(zypper)          | important=no
+ 8  | post   |     7 | Thu 14 Apr 2022 11:18:16 AM CST | root |   1.26 MiB | number  |                       | important=no
+ 9  | pre    |       | Tue 03 May 2022 01:59:01 PM CST | root |   1.84 MiB |         | rke2 sh               |
+10  | post   |     9 | Tue 03 May 2022 02:01:02 PM CST | root |  16.00 KiB |         | rke2 sh               |
+~~~
+
+可以看到，这对快照的序号分别是 `9` 和 `10` 。
+
+那么用 `snapper status 9..10` 就能看到这期间的系统配置变化：
+
+~~~ text
++..... /etc/systemd/system/rke2-agent.service
++..... /etc/systemd/system/rke2-server.service
+~~~
+
+看，增加了这两个文件。
+
+这就是注册服务。
+
+这分别是它们的内容：
+
+- `rke2-agent.service` ：
+  
+  ~~~ service
+  [Unit]
+  Description=Rancher Kubernetes Engine v2 (agent)
+  Documentation=https://github.com/rancher/rke2#readme
+  Wants=network-online.target
+  After=network-online.target
+  Conflicts=rke2-server.service
+  
+  [Install]
+  WantedBy=multi-user.target
+  
+  [Service]
+  Type=notify
+  EnvironmentFile=-/etc/default/%N
+  EnvironmentFile=-/etc/sysconfig/%N
+  EnvironmentFile=-/opt/rke2/lib/systemd/system/%N.env
+  KillMode=process
+  Delegate=yes
+  LimitNOFILE=1048576
+  LimitNPROC=infinity
+  LimitCORE=infinity
+  TasksMax=infinity
+  TimeoutStartSec=0
+  Restart=always
+  RestartSec=5s
+  ExecStartPre=/bin/sh -xc '! /usr/bin/systemctl is-enabled --quiet nm-cloud-setup.service'
+  ExecStartPre=-/sbin/modprobe br_netfilter
+  ExecStartPre=-/sbin/modprobe overlay
+  ExecStart=/opt/rke2/bin/rke2 agent
+  ExecStopPost=-/bin/sh -c "systemd-cgls /system.slice/%n | grep -Eo '[0-9]+ (containerd|kubelet)' | awk '{print $1}' | xargs -r kill"
+  ~~~
+  
+- `rke2-server.service` ：
+  
+  ~~~ service
+  [Unit]
+  Description=Rancher Kubernetes Engine v2 (server)
+  Documentation=https://github.com/rancher/rke2#readme
+  Wants=network-online.target
+  After=network-online.target
+  Conflicts=rke2-agent.service
+  
+  [Install]
+  WantedBy=multi-user.target
+  
+  [Service]
+  Type=notify
+  EnvironmentFile=-/etc/default/%N
+  EnvironmentFile=-/etc/sysconfig/%N
+  EnvironmentFile=-/opt/rke2/lib/systemd/system/%N.env
+  KillMode=process
+  Delegate=yes
+  LimitNOFILE=1048576
+  LimitNPROC=infinity
+  LimitCORE=infinity
+  TasksMax=infinity
+  TimeoutStartSec=0
+  Restart=always
+  RestartSec=5s
+  ExecStartPre=/bin/sh -xc '! /usr/bin/systemctl is-enabled --quiet nm-cloud-setup.service'
+  ExecStartPre=-/sbin/modprobe br_netfilter
+  ExecStartPre=-/sbin/modprobe overlay
+  ExecStart=/opt/rke2/bin/rke2 server
+  ExecStopPost=-/bin/sh -c "systemd-cgls /system.slice/%n | grep -Eo '[0-9]+ (containerd|kubelet)' | awk '{print $1}' | xargs -r kill"
+  ~~~
+  
+
+#### 服务启动
+
+服务启动会受到 `/etc/rancher/rke2/config.yaml` 内容的影响，决定它是创建新的集群还是加入集群。
+
+不过不论哪种，要对系统增加的配置是一样的，不同仅仅在于内容。
+
+服务文件在 `/etc/systemd/system` 目录创建好后，才可进行后续步骤；如果对某个服务执行 `systemctl enable` 命令的话，就会在该目录的 `multi-user.target.wants` 子目录里新增对应服务的软链接文件。这个不再做记录。
+
+我是在 `snapper create -d 'rke2 start' --command bash` 中做了执了启动的操作。
+
+它会在操作开始前和结束（按 `Ctrl-D` 可以结束）后，这两个时机，打一对相关联的快照。
+
+这个命令的执行会很久，所以很久后才能 `Ctrl-D` 。
+
+完成后，这是我的 `snapper list` ：
 
