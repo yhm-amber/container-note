@@ -130,7 +130,7 @@ helm install \
 helm install \
   --namespace cattle-system \
   --create-namespace \
-  --set hostname=10.11.10.101.sslip.io \
+  --set hostname=10.11.110.101.sslip.io \
   --set replicas=1 \
   --set bootstrapPassword='321-123-aA--' \
   -- rancher rancher-stable/rancher ;
@@ -140,7 +140,7 @@ out ：
 
 ~~~ text
 NAME: rancher
-LAST DEPLOYED: Mon May  2 13:30:56 2022
+LAST DEPLOYED: Tue May  3 12:02:55 2022
 NAMESPACE: cattle-system
 STATUS: deployed
 REVISION: 1
@@ -152,12 +152,12 @@ NOTE: Rancher may take several minutes to fully initialize. Please standby while
 
 Check out our docs at https://rancher.com/docs/
 
-If you provided your own bootstrap password during installation, browse to https://10.11.10.101.sslip.io to get started.
+If you provided your own bootstrap password during installation, browse to https://10.11.110.101.sslip.io to get started.
 
 If this is the first time you installed Rancher, get started by running this command and clicking the URL it generates:
 
 ```
-echo https://10.11.10.101.sslip.io/dashboard/?setup=$(kubectl get secret --namespace cattle-system bootstrap-secret -o go-template='{{.data.bootstrapPassword|base64decode}}')
+echo https://10.11.110.101.sslip.io/dashboard/?setup=$(kubectl get secret --namespace cattle-system bootstrap-secret -o go-template='{{.data.bootstrapPassword|base64decode}}')
 ```
 
 To get just the bootstrap password on its own, run:
