@@ -76,23 +76,9 @@ curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | INSTALL_RKE2_MIRROR
 
 如果你熟悉 `docker` 或者 `podman` 这样的 Docker 风格的容器工具的使用，你会发现，如何有条理地发放软件，它们是专业的。
 
-这个脚本执行完，你就可以对 `rke2-server` 服务使用各种 `systemctl` 指令了。
+这个脚本执行完，会提示你对 `PATH` 增加内容。
 
-当你初次启动它的时候，它会真正开始做初始化的工作，比如搞一些二进制文件（包括 `kubectl` 命令）到特定目录，比如真正开始安装 RKE2 集群。
-
-这个启动会被 `/etc/rancher/rke2/config.yaml` 影响，不过这里创建集群第一个节点的话，就不需要事先创建这个文件。
-
-*——这个如果要做成容器化，就只需要搞一个 `-v` 挂载就是。*
-
-如果没有指定离线的方式，这个 `systemctl start rke2-server.service` 会需要十分漫长的等待。
-
-*——这也是一个不灵活的方面。如果采用容器化的方案，我随时都可以更改镜像源，甚至可以灵活地在任何时机 `load` 某个尚缺的镜像。总之，我和计算机都只需要做自己该做的事。*
-
-在这个漫长的等待过程中，把集群所需要的命令和配置都部署到系统里。具体对系统配置的变化见后文用 `snapper` 监视的结果。
-
-在 `systemctl start rke2-server.service` 经过漫长等待结束后，集群就安装完成了。
-
-好了以后别忘了把 `9345` 和 `6443` 端口开放：
+还有一点很重要。请对防火墙增加端口 `9345` 和 `6443` 的开放：
 
 ~~~ sh
 snapper create -d 'pub rke2 9345 6443' --command '
@@ -100,7 +86,29 @@ snapper create -d 'pub rke2 9345 6443' --command '
 sudo systemctl reload firewalld
 ~~~
 
-以及让 `kubeconfig` 到位：
+之后，你就可以对 `rke2-server` 服务使用各种 `systemctl` 指令了。
+
+当你初次 `start` 它的时候，它会开始做初始化的工作。
+
+这时候其实才是真正开始安装 RKE2 集群。它会搞一些二进制文件（包括 `kubectl` 命令）到特定目录。
+
+这个启动会受 `/etc/rancher/rke2/config.yaml` 影响。不过这里创建集群第一个节点的话，就不需要事先创建这个文件。
+
+*——这个如果要做成容器化，就只需要搞一个 `-v` 挂载就是。*
+
+如果没有指定离线的方式，这个 `systemctl start rke2-server.service` 会需要十分漫长的等待。
+
+*——这也是一个不灵活的方面。如果采用容器化的方案，我随时都可以更改镜像源，甚至可以灵活地在任何时机 `load` 某个尚缺的镜像。总之，我和计算机都只需要做自己该做的事。*
+
+在这个漫长的等待过程中，把集群所需要的命令和配置都部署到系统里。
+
+等待时，可以在同一个节点的另一个 SHell 上用 `journalctl -u rke2-server -f` 查看日志。
+
+这个过程具体对系统配置的变化，见后文用 `snapper` 监视的结果。
+
+在 `systemctl start rke2-server.service` 经过漫长等待结束后，集群就安装完成了。
+
+最后，让 `kubeconfig` 到位：
 
 ~~~ sh
 mkdir ~/.kube
@@ -150,7 +158,7 @@ tls-san:
 - 在 `<token from server node>` 处的内容就是它要加入的节点的 `/var/lib/rancher/rke2/server/node-token` 文件的内容。
 - 而 `<ip>` 和 `<domain>` 处就写能够访问到被加入集群的 `server` 的 IP 或者域名（不需要端口号）。
 
-最好给第一个 `server` 也创建这样一个配置。
+最好给第一个 `server` 也创建这样一个配置，并重启它。
 
 ### 3. 增加 `agent` 节点
 
