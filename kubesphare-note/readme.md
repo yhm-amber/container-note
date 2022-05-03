@@ -16,7 +16,7 @@ kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3
 kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.2.1/cluster-configuration.yaml
 ~~~
 
-*（如果没有 Kubernetes 集群又暂且不想研究的话，可以用 [`sealos`](https://github.com/fanux/sealos) 这个工具来比较省心地创建一个。想快速研究 Kubernetes 的话可以看看 [`K8E`](https://github.com/xiaods/k8e) 这个项目的安装说明。）*
+*（如果没有 Kubernetes 集群又暂且不想研究的话，可以用 [`sealos`](https://github.com/fanux/sealos) 这个工具来比较省心地创建一个。想快速研究 Kubernetes 的话可以看看 [`K8E`](https://github.com/xiaods/k8e) 这个项目的安装说明，或者[看我这里](../rke2-note)动手搞一搞 RKE2 。多找点事儿做以后，用任何 Kubernetes 发行版的时候也就都能如履平地一点。）*
 
 ### 检查
 
