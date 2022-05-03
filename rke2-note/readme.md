@@ -26,7 +26,8 @@ ref: https://docs.rancher.cn/docs/rke2/install/quickstart/_index
 命令：
 
 ~~~ sh
-curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | INSTALL_RKE2_MIRROR=cn RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -
+curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh |
+  INSTALL_RKE2_MIRROR=cn RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -
 ~~~
 
 没错，这个步骤完全是脚本完成的。
