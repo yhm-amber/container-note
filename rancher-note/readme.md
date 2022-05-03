@@ -96,7 +96,7 @@ ref: https://rancher.com/docs/rancher/v2.6/en/quick-start-guide/deployment/quick
 
 上面 ref 里有相应步骤，但我不照那个来，因为我觉得它可能过时了。
 
-我照着 `cert-manager` 它自己的[手册](https://cert-manager.io/docs/installation)来，并基于此做了[整理](../cert-manager-note)。这部分步骤可以参考这个整理。
+我照着 `cert-manager` [它自己的手册](https://cert-manager.io/docs/installation)来，并基于此做了[整理](../cert-manager-note)。这部分步骤可以参考这个整理。
 
 ### 本体
 
