@@ -23,14 +23,7 @@
 
 ref: https://docs.rancher.cn/docs/rke2/install/quickstart/_index
 
-命令示例：
-
-~~~ sh
-curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh |
-  INSTALL_RKE2_MIRROR=cn RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -
-~~~
-
-没错，他们分发软件是靠脚本完成的。
+他们分发软件是靠脚本完成的。
 
 脚本做的事情，[在这里](https://docs.rancher.cn/docs/rke2/install/methods/_index)是这么说的：
 
@@ -41,22 +34,27 @@ curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh |
 
 除了选择安装方式和验证安装包以外，就是注册服务了。
 
-页面也提到了部分系统上使用包管理器的方案。不过，我个人认为，最好是能够容器化起来。容器技术已经成熟了，没必要再用包管理器甚至是脚本这样的笨拙的手法。不论是单次启动并执行完退出的，还是服务性质的常驻着用的，这些工作都是可以用容器的方案解决的。
+下面做离线安装的演示。所有必要的离线文件都放在当前目录的 `rke2-artifacts` 目录下。
 
-*——单次就是 `run --rm` 常驻就是 `run -d` 。*
+我的命令：
 
-安装包格式和系统发行版自然也无需选择，而且更不用再自己维护验证安装包的代码。最重要的，这个方案根本不需要改变系统目录，要被改变的也只是 `/var/lib` 下的 `docker` 或者 `containers` 目录而已；而且，具体怎么改变，根本不用你管。
+~~~ sh
+: 通过能够连通外网的节点取得安装脚本
+ssh 10.11.111.101 -- curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | tee rke2-artifacts/install.sh
+: 然后在 snapper 的对快照的监控下使用 cat rke2-artifacts/install.sh | RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh - 这一安装命令
+snapper create -d 'rke2 calico' --command 'cat rke2-artifacts/install.sh | RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -'
+~~~
 
-现在的 RKE2 部署还没有那样的方案。姑且先用脚本吧。
-
-我得到的屏幕输出：
+经过 `cat rke2-artifacts/install.sh | RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -` 安装后，这是我得到的屏幕输出：
 
 ~~~ text
 [WARN]  /usr/local is read-only or a mount point; installing to /opt/rke2
-[INFO]  finding release for channel stable
-[INFO]  using v1.22.8-rke2r1 as release
-[INFO]  downloading checksums at https://rancher-mirror.oss-cn-beijing.aliyuncs.com/rke2/releases/download/v1.22.8-rke2r1/sha256sum-amd64.txt
-[INFO]  downloading tarball at https://rancher-mirror.oss-cn-beijing.aliyuncs.com/rke2/releases/download/v1.22.8-rke2r1/rke2.linux-amd64.tar.gz
+[INFO]  staging local checksums from rke2-artifacts/sha256sum-amd64.txt
+[INFO]  staging zst airgap image tarball from rke2-artifacts/rke2-images.linux-amd64.tar.zst
+[INFO]  staging tarball from rke2-artifacts/rke2.linux-amd64.tar.gz
+[INFO]  verifying airgap tarball
+grep: /tmp/rke2-install.1u6e2nK7JX/rke2-images.checksums: No such file or directory
+[INFO]  installing airgap tarball to /var/lib/rancher/rke2/agent/images
 [INFO]  verifying tarball
 [INFO]  unpacking tarball file to /opt/rke2
 [INFO]  updating tarball contents to reflect install path
@@ -64,66 +62,65 @@ curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh |
 [INFO]  install complete; you may want to run:  export PATH=$PATH:/opt/rke2/bin
 ~~~
 
-上面的脚本有好几个选项，这里对我比较重要的有：
+对于脚本，这几个选项（变量）可能对你比较重要：
 
 - 选择安装源： `INSTALL_RKE2_MIRROR=cn` （这个是 [`cn`](http://rancher-mirror.rancher.cn/rke2/install.sh) 来源脚本特有的功能）
 - 选择离线包目录： `INSTALL_RKE2_ARTIFACT_PATH=/root/rke2-artifacts` （离线包下载[见这里](https://github.com/rancher/rke2/releases)）
 - 决定节点类型： `INSTALL_RKE2_TYPE=agent` （这个变量空着的话值就默认是 `server` 了）
 - 选择网络插件： `RKE2_CNI=calico` （它等于用 `--cni` 选项配置）
 
-这两方面放在最初由 Docker 公司提供出来的产品下的话就也都不是需要操心的方面了：
+基于 `snapper` 的监控结果（详细见后文）来看，新增的配置性文件就是在 `/etc/systemd/system` 目录下的 `rke2-agent.service` 和 `rke2-server.service` 。
 
-*——软件源就是镜像源，换镜像源就能换软件源（从而不必维护两套难搞的脚本）；离线目录可以转换为离线镜像，用 `load` 加载就好从而也没有指定目录什么事儿了；安装模式（主动也好网卡选择也好）本质上就是用不同的镜像或者对镜像的不同传参，在这脚本里这方面的变量的值的变化也是类似的效果。*
+这个和 ref 里提到的脚本会做的事基本相符。也就是说，脚本的工作是可以用容器方案代替的。
 
-如果你熟悉 `docker` 或者 `podman` 这样的 Docker 风格的容器工具的使用，你会发现，如何有条理地发放软件，它们是专业的。
+他们对于特定系统当然也有使用包管理器的方案。不过不论哪种，其实都不如直接拉取镜像创建容器来得好的。
 
-这个脚本执行完，会提示你对 `PATH` 增加内容。
+*——如果分发部署能容器化的话，什么注册服务、部署二进制，就只是镜像拉取而已了。单次执行就是 `run --rm` ，常驻就是 `run -d` ，下载就是 `pull` ，想离线就 `save` 然后 `load` 。验证和系统兼容的方面自然都是无需考虑。对用户提供的也只需要是如何使用镜像的命令而已，而不是一个复杂到没边儿的「脚本」。想要注册成可被 `systemctl` 控制的服务也不是不可以，甚至 `.service` 文件的内容也可以通过运行容器里的某个二进制给生成出来；并且服务停止命令也不需要是粗暴地杀死特定名称的进程了，而只要把那几个特定名称的常驻后台容器停止就好。而且整个过程中也不需要改变容器的数据目录以外的目录，不会对系统产生难以追踪的影响。可见，**如何正确发放软件**， Docker 公司的人们给出的方案是专业的。他们是做得好啊。*
 
-还有一点很重要。请对防火墙增加端口 `9345` 和 `6443` 的开放：
+接下来，必要的端口开放：
 
 ~~~ sh
 snapper create -d 'pub rke2 9345 6443' --command '
     firewall-cmd --zone=public --add-port=9345/tcp --add-port=9345/udp --add-port=6443/tcp --permanent '
+: 刷新配置
 sudo systemctl reload firewalld
-: check:
+: 检查
 sudo firewall-cmd --zone=public --list-ports --permanent
 ~~~
 
-之后，你就可以对 `rke2-server` 服务使用各种 `systemctl` 指令了。
+然后就可以启动 `rke2-server.service` 服务了。对于目前的 RKE2 ，首次启动该服务就是对集群的安装，所以这个启动我也会用 `snapper` 的对快照监控起来。
 
-当你初次 `start` 它的时候，它会开始做初始化的工作。
+首次启动会受 `/etc/rancher/rke2/config.yaml` 影响。如果要增加新的节点就要有这个文件，而且要编辑好，创建集群的第一个节点则不需要有它。
 
-这时候其实才是真正开始安装 RKE2 集群。它会搞一些二进制文件（包括 `kubectl` 命令）到特定目录。
+~~~ sh
+snapper create -d 'rke2 first server start' --command 'systemctl start rke2-server.service'
+~~~
 
-这个启动会受 `/etc/rancher/rke2/config.yaml` 影响。不过这里创建集群第一个节点的话，就不需要事先创建这个文件。
-
-*——这个如果要做成容器化，就只需要搞一个 `-v` 挂载就是。*
-
-如果没有指定离线的方式，这个 `systemctl start rke2-server.service` 会需要十分漫长的等待。
-
-*——这也是一个不灵活的方面。如果采用容器化的方案，我随时都可以更改镜像源，甚至可以灵活地在任何时机 `load` 某个尚缺的镜像。总之，我和计算机都只需要做自己该做的事。*
-
-在这个漫长的等待过程中，把集群所需要的命令和配置都部署到系统里。
+如果不是离线安装（离线安装就是赋值了 `INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts` 这个选项），你会等很久。
 
 等待时，可以在同一个节点的另一个 SHell 上用 `journalctl -u rke2-server -f` 查看日志。
 
-这个过程具体对系统配置的变化，见后文用 `snapper` 监视的结果。
+基于 `snapper` 监控的结果可知，对于系统配置方面，这个过程会新增以下文件和目录：
 
-在 `systemctl start rke2-server.service` 经过漫长等待结束后，集群就安装完成了。
-
-最后，让 `kubeconfig` 到位：
-
-~~~ sh
-mkdir ~/.kube
-cat /etc/rancher/rke2/rke2.yaml | tee ~/.kube/config
-chmod 400 ~/.kube/config
+~~~ text
++..... /etc/cni
++..... /etc/cni/net.d
++..... /etc/rancher
++..... /etc/rancher/node
++..... /etc/rancher/node/password
++..... /etc/rancher/rke2
++..... /etc/rancher/rke2/rke2.yaml
 ~~~
 
-然后就可以用 `kubectl get no` 验证，这第一个节点是否 `Ready` 了；或者像这样使用 `kubectl` 命令：
+除此以外，还会增加一些二进制（在默认的系统快照配置方案下这些不会被追踪到）。
+
+然后你就可以像这样验证，这第一个节点，是否 `Ready` 了：
 
 ~~~ sh
 /var/lib/rancher/rke2/bin/kubectl --kubeconfig /etc/rancher/rke2/rke2.yaml get no
 ~~~
+
+或者，使用别的等价的方式，比如做好必要的 `PATH` 变更或软链接增加，并把 `/etc/rancher/rke2/rke2.yaml` 这个 `kubeconfig` 文件写入到 `~/.kube/config` 里（记得把它的权限变成 `chmod 400` 哦）。
 
 更多信息（来自 ref 链接）：
 
