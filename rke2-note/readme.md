@@ -184,133 +184,301 @@ tls-san:
 
 Windows 节点上的 `agent` 安装见原文。
 
-### 基于 `snapper` 的监视结果
+### 用 `snapper` 监视得到的
 
-这是一个来自 SUSE 组织的工具，可以很方便地使用文件系统的快照功能。
+这个 `snapper` 是一个来自 SUSE 组织的工具，它可以让你很方便地使用文件系统的快照功能。
 
 在 `openSUSE Leap 15.2` 发行版中，默认配置（ `root` ）下的系统快照，只会去监视所有配置性的目录，不会管二进制甚至是数据的目录。
 
-#### 脚本
+这里详细描述一下我是怎么用它的。
 
-我是在 `snapper create -d 'rke2 sh' --command bash` 中做了执行脚本的操作。
+下文基于前面创建第一个节点的步骤。整个过程中使用了三次对快照的创建，被监控的动作分别是：
 
-它会在操作开始前和结束（按 `Ctrl-D` 可以结束）后，这两个时机，打一对相关联的快照。
+- 脚本执行： `cat rke2-artifacts/install.sh | RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -`
+- 端口开放： `firewall-cmd --zone=public --add-port=9345/tcp --add-port=9345/udp --add-port=6443/tcp --permanent`
+- 服务首启： `systemctl start rke2-server.service`
 
-这是我的 `snapper list` ：
+这是三者完成以后，我的 `snapper list` 的输出内容：
 
 ~~~ text
-  # | Type   | Pre # | Date                            | User | Used Space | Cleanup | Description           | Userdata
-----+--------+-------+---------------------------------+------+------------+---------+-----------------------+--------------
- 0  | single |       |                                 | root |            |         | current               |
- 1* | single |       | Mon 11 Apr 2022 11:35:07 AM CST | root |  16.00 KiB |         | first root filesystem |
- 2  | single |       | Mon 11 Apr 2022 02:23:02 PM CST | root |  20.02 MiB | number  | after installation    | important=yes
- 3  | pre    |       | Thu 14 Apr 2022 11:04:07 AM CST | root |   4.20 MiB | number  | zypp(zypper)          | important=yes
- 4  | post   |     3 | Thu 14 Apr 2022 11:07:42 AM CST | root |  11.40 MiB | number  |                       | important=yes
- 5  | pre    |       | Thu 14 Apr 2022 11:16:42 AM CST | root |  96.00 KiB | number  | zypp(zypper)          | important=no
- 6  | post   |     5 | Thu 14 Apr 2022 11:17:49 AM CST | root | 968.00 KiB | number  |                       | important=no
- 7  | pre    |       | Thu 14 Apr 2022 11:18:10 AM CST | root |  64.00 KiB | number  | zypp(zypper)          | important=no
- 8  | post   |     7 | Thu 14 Apr 2022 11:18:16 AM CST | root |   1.26 MiB | number  |                       | important=no
- 9  | pre    |       | Tue 03 May 2022 01:59:01 PM CST | root |   1.84 MiB |         | rke2 sh               |
-10  | post   |     9 | Tue 03 May 2022 02:01:02 PM CST | root |  16.00 KiB |         | rke2 sh               |
+ # | Type   | Pre # | Date                            | User | Used Space | Cleanup | Description             | Userdata
+---+--------+-------+---------------------------------+------+------------+---------+-------------------------+--------------
+0  | single |       |                                 | root |            |         | current                 |
+1* | single |       | Thu 07 Apr 2022 04:26:00 PM CST | root | 436.00 KiB |         | first root filesystem   |
+2  | single |       | Thu 07 Apr 2022 04:39:31 PM CST | root |  28.27 MiB | number  | after installation      | important=yes
+3  | pre    |       | Tue 03 May 2022 11:06:07 PM CST | root |   1.77 MiB |         | rke2 calico             |
+4  | post   |     3 | Tue 03 May 2022 11:06:18 PM CST | root |  16.00 KiB |         | rke2 calico             |
+5  | pre    |       | Tue 03 May 2022 11:14:25 PM CST | root |  16.00 KiB |         | pub rke2 9345 6443      |
+6  | post   |     5 | Tue 03 May 2022 11:14:26 PM CST | root | 160.00 KiB |         | pub rke2 9345 6443      |
+7  | pre    |       | Tue 03 May 2022 11:41:03 PM CST | root | 320.00 KiB |         | rke2 first server start |
+8  | post   |     7 | Tue 03 May 2022 11:44:33 PM CST | root | 176.00 KiB |         | rke2 first server start |
 ~~~
 
-可以看到，这对快照的序号分别是 `9` 和 `10` 。
+下文基于它来检查发生的变化。
 
-那么用 `snapper status 9..10` 就能看到这期间的系统配置变化：
+#### 脚本执行
+
+根据之前给 `-d` 的备注信息 `rke2 calico` 可以看到，这个阶段的对快照的序号分别是 `3` 和 `4` 。
+
+那么用 `snapper status 3..4` 就能看到这期间的系统配置变化：
 
 ~~~ text
 +..... /etc/systemd/system/rke2-agent.service
 +..... /etc/systemd/system/rke2-server.service
 ~~~
 
-看，增加了这两个文件。
+就是说，对于系统配置而言，变化只有这些。
 
-这就是注册服务。
+在这个位置增加 `.service` 文件就是注册服务。
 
-这分别是它们的内容：
+分别看看它们的内容吧：
 
-- `rke2-agent.service` ：
-  
-  ~~~ service
-  [Unit]
-  Description=Rancher Kubernetes Engine v2 (agent)
-  Documentation=https://github.com/rancher/rke2#readme
-  Wants=network-online.target
-  After=network-online.target
-  Conflicts=rke2-server.service
-  
-  [Install]
-  WantedBy=multi-user.target
-  
-  [Service]
-  Type=notify
-  EnvironmentFile=-/etc/default/%N
-  EnvironmentFile=-/etc/sysconfig/%N
-  EnvironmentFile=-/opt/rke2/lib/systemd/system/%N.env
-  KillMode=process
-  Delegate=yes
-  LimitNOFILE=1048576
-  LimitNPROC=infinity
-  LimitCORE=infinity
-  TasksMax=infinity
-  TimeoutStartSec=0
-  Restart=always
-  RestartSec=5s
-  ExecStartPre=/bin/sh -xc '! /usr/bin/systemctl is-enabled --quiet nm-cloud-setup.service'
-  ExecStartPre=-/sbin/modprobe br_netfilter
-  ExecStartPre=-/sbin/modprobe overlay
-  ExecStart=/opt/rke2/bin/rke2 agent
-  ExecStopPost=-/bin/sh -c "systemd-cgls /system.slice/%n | grep -Eo '[0-9]+ (containerd|kubelet)' | awk '{print $1}' | xargs -r kill"
-  ~~~
-  
-- `rke2-server.service` ：
-  
-  ~~~ service
-  [Unit]
-  Description=Rancher Kubernetes Engine v2 (server)
-  Documentation=https://github.com/rancher/rke2#readme
-  Wants=network-online.target
-  After=network-online.target
-  Conflicts=rke2-agent.service
-  
-  [Install]
-  WantedBy=multi-user.target
-  
-  [Service]
-  Type=notify
-  EnvironmentFile=-/etc/default/%N
-  EnvironmentFile=-/etc/sysconfig/%N
-  EnvironmentFile=-/opt/rke2/lib/systemd/system/%N.env
-  KillMode=process
-  Delegate=yes
-  LimitNOFILE=1048576
-  LimitNPROC=infinity
-  LimitCORE=infinity
-  TasksMax=infinity
-  TimeoutStartSec=0
-  Restart=always
-  RestartSec=5s
-  ExecStartPre=/bin/sh -xc '! /usr/bin/systemctl is-enabled --quiet nm-cloud-setup.service'
-  ExecStartPre=-/sbin/modprobe br_netfilter
-  ExecStartPre=-/sbin/modprobe overlay
-  ExecStart=/opt/rke2/bin/rke2 server
-  ExecStopPost=-/bin/sh -c "systemd-cgls /system.slice/%n | grep -Eo '[0-9]+ (containerd|kubelet)' | awk '{print $1}' | xargs -r kill"
-  ~~~
-  
+##### `rke2-agent.service`
+
+~~~ service
+[Unit]
+Description=Rancher Kubernetes Engine v2 (agent)
+Documentation=https://github.com/rancher/rke2#readme
+Wants=network-online.target
+After=network-online.target
+Conflicts=rke2-server.service
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=notify
+EnvironmentFile=-/etc/default/%N
+EnvironmentFile=-/etc/sysconfig/%N
+EnvironmentFile=-/opt/rke2/lib/systemd/system/%N.env
+KillMode=process
+Delegate=yes
+LimitNOFILE=1048576
+LimitNPROC=infinity
+LimitCORE=infinity
+TasksMax=infinity
+TimeoutStartSec=0
+Restart=always
+RestartSec=5s
+ExecStartPre=/bin/sh -xc '! /usr/bin/systemctl is-enabled --quiet nm-cloud-setup.service'
+ExecStartPre=-/sbin/modprobe br_netfilter
+ExecStartPre=-/sbin/modprobe overlay
+ExecStart=/opt/rke2/bin/rke2 agent
+ExecStopPost=-/bin/sh -c "systemd-cgls /system.slice/%n | grep -Eo '[0-9]+ (containerd|kubelet)' | awk '{print $1}' | xargs -r kill"
+~~~
+
+##### `rke2-server.service`
+
+~~~ service
+[Unit]
+Description=Rancher Kubernetes Engine v2 (server)
+Documentation=https://github.com/rancher/rke2#readme
+Wants=network-online.target
+After=network-online.target
+Conflicts=rke2-agent.service
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=notify
+EnvironmentFile=-/etc/default/%N
+EnvironmentFile=-/etc/sysconfig/%N
+EnvironmentFile=-/opt/rke2/lib/systemd/system/%N.env
+KillMode=process
+Delegate=yes
+LimitNOFILE=1048576
+LimitNPROC=infinity
+LimitCORE=infinity
+TasksMax=infinity
+TimeoutStartSec=0
+Restart=always
+RestartSec=5s
+ExecStartPre=/bin/sh -xc '! /usr/bin/systemctl is-enabled --quiet nm-cloud-setup.service'
+ExecStartPre=-/sbin/modprobe br_netfilter
+ExecStartPre=-/sbin/modprobe overlay
+ExecStart=/opt/rke2/bin/rke2 server
+ExecStopPost=-/bin/sh -c "systemd-cgls /system.slice/%n | grep -Eo '[0-9]+ (containerd|kubelet)' | awk '{print $1}' | xargs -r kill"
+~~~
+
+#### 开放端口
+
+根据之前给 `-d` 的备注信息 `pub rke2 9345 6443` 可以看到，这个阶段的对快照的序号分别是 `5` 和 `6` 。
+
+那么用 `snapper status 5..6` 就能看到这期间的系统配置变化：
+
+~~~ text
+c..... /etc/firewalld/zones/public.xml
+c..... /etc/firewalld/zones/public.xml.old
+~~~
+
+就是说，对于系统配置而言，变化只有这些。
+
+这就是 `firewall-cmd` 命令的效果。
+
+内容：
+
+##### `public.xml`
+
+~~~ xml
+<?xml version="1.0" encoding="utf-8"?>
+<zone>
+  <short>Public</short>
+  <description>For use in public areas. You do not trust the other computers on networks to not harm your computer. Only selected incoming connections are accepted.</description>
+  <service name="ssh"/>
+  <service name="dhcpv6-client"/>
+  <port port="9345" protocol="tcp"/>
+  <port port="9345" protocol="udp"/>
+  <port port="6443" protocol="tcp"/>
+</zone>
+~~~
+
+这里面我们可以看到我们加入的规则。
+
+我们可以用 `snapper diff 5..6 /etc/firewalld/zones/public.xml` 看到具体的改变：
+
+~~~ text
+--- /.snapshots/5/snapshot/etc/firewalld/zones/public.xml       2022-04-07 16:36:26.836000000 +0800
++++ /.snapshots/6/snapshot/etc/firewalld/zones/public.xml       2022-05-03 23:14:26.302837842 +0800
+@@ -4,4 +4,7 @@
+   <description>For use in public areas. You do not trust the other computers on networks to not harm your computer. Only selected incoming connections are accepted.</description>
+   <service name="ssh"/>
+   <service name="dhcpv6-client"/>
++  <port port="9345" protocol="tcp"/>
++  <port port="9345" protocol="udp"/>
++  <port port="6443" protocol="tcp"/>
+ </zone>
+~~~
+
+##### `public.xml.old`
+
+~~~ xml
+<?xml version="1.0" encoding="utf-8"?>
+<zone>
+  <short>Public</short>
+  <description>For use in public areas. You do not trust the other computers on networks to not harm your computer. Only selected incoming connections are accepted.</description>
+  <service name="ssh"/>
+  <service name="dhcpv6-client"/>
+  <port port="9345" protocol="tcp"/>
+  <port port="9345" protocol="udp"/>
+</zone>
+~~~
+
+似乎，一次 `firewall-cmd` 有多个 `--add-port` 出现的话，就会被细化成多次 `firewall-cmd` 命令的等效。
+
+所以才导致 `.old` 文件只会记录上一次的一个小的变化。
+
+当然这只是猜测。
+
+我们可以用 `snapper diff 5..6 /etc/firewalld/zones/public.xml.old` 看到具体的改变：
+
+~~~ text
+--- /.snapshots/5/snapshot/etc/firewalld/zones/public.xml.old   2022-04-07 16:36:26.424000000 +0800
++++ /.snapshots/6/snapshot/etc/firewalld/zones/public.xml.old   2022-05-03 23:14:26.302837842 +0800
+@@ -4,4 +4,6 @@
+   <description>For use in public areas. You do not trust the other computers on networks to not harm your computer. Only selected incoming connections are accepted.</description>
+   <service name="ssh"/>
+   <service name="dhcpv6-client"/>
++  <port port="9345" protocol="tcp"/>
++  <port port="9345" protocol="udp"/>
+ </zone>
+~~~
+
+可以确定的是，一个有仨 `--add-port` 的 `firewall-cmd` 命令，会让这个 `.old` 文件也多出两行来。
 
 #### 服务启动
 
-服务启动会受到 `/etc/rancher/rke2/config.yaml` 内容的影响，决定它是创建新的集群还是加入集群。
+根据之前给 `-d` 的备注信息 `rke2 first server start` 可以看到，这个阶段的对快照的序号分别是 `7` 和 `8` 。
 
-不过不论哪种，要对系统增加的配置是一样的，不同仅仅在于内容。
+那么用 `snapper status 7..8` 就能看到这期间的系统配置变化：
 
-服务文件在 `/etc/systemd/system` 目录创建好后，才可进行后续步骤；如果对某个服务执行 `systemctl enable` 命令的话，就会在该目录的 `multi-user.target.wants` 子目录里新增对应服务的软链接文件。这个不再做记录。
+~~~ text
++..... /etc/cni
++..... /etc/cni/net.d
++..... /etc/rancher
++..... /etc/rancher/node
++..... /etc/rancher/node/password
++..... /etc/rancher/rke2
++..... /etc/rancher/rke2/rke2.yaml
+~~~
 
-我是在 `snapper create -d 'rke2 start' --command bash` 中做了执了启动的操作。
+就是说，对于系统配置而言，变化只有这些。
 
-它会在操作开始前和结束（按 `Ctrl-D` 可以结束）后，这两个时机，打一对相关联的快照。
+这就是 `systemctl start rke2-server.service` 命令在阻塞期间新增的东西。
 
-这个命令的执行会很久，所以很久后才能 `Ctrl-D` 。
+其实只有三样： `/etc/cni/net.d` `/etc/rancher/node/password` `/etc/rancher/rke2/rke2.yaml` 。
 
-完成后，这是我的 `snapper list` ：
+后两者，一个是非明文了的密码，另一个就是本集群的 `kubeconfig` 。
+
+其中，在这个命令完成后，在 `/etc/cni/net.d` 内会出现 `10-canal.conflist` 和 `calico-kubeconfig` 两个文件。
+
+内容：
+
+##### `10-canal.conflist`
+
+~~~ json
+{
+  "name": "k8s-pod-network",
+  "cniVersion": "0.3.1",
+  "plugins": [
+    {
+      "type": "calico",
+      "log_level": "info",
+      "datastore_type": "kubernetes",
+      "nodename": "opensuse-1",
+      "mtu": 1450,
+      "ipam": {
+          "type": "host-local",
+          "ranges": [
+              [
+                  {
+                      "subnet": "usePodCidr"
+                  }
+              ]
+          ]
+      },
+      "policy": {
+          "type": "k8s"
+      },
+      "kubernetes": {
+          "kubeconfig": "/etc/cni/net.d/calico-kubeconfig"
+      }
+    },
+    {
+      "type": "portmap",
+      "snat": true,
+      "capabilities": {"portMappings": true}
+    },
+    {
+      "type": "bandwidth",
+      "capabilities": {"bandwidth": true}
+    }
+  ]
+}
+~~~
+
+##### `calico-kubeconfig`
+
+~~~ yaml
+# Kubeconfig file for Calico CNI plugin.
+apiVersion: v1
+kind: Config
+clusters:
+- name: local
+  cluster:
+    server: https://[10.43.0.1]:443
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJlRENDQVIrZ0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQWtNU0l3SUFZRFZRUUREQmx5YTJVeUxYTmwKY25abGNpMWpZVUF4TmpVeE5Ua3lORFl6TUI0WERUSXlNRFV3TXpFMU5ERXdNMW9YRFRNeU1EUXpNREUxTkRFdwpNMW93SkRFaU1DQUdBMVVFQXd3WmNtdGxNaTF6WlhKMlpYSXRZMkZBTVRZMU1UVTVNalEyTXpCWk1CTUdCeXFHClNNNDlBZ0VHQ0NxR1NNNDlBd0VIQTBJQUJLM0I1aUdQc3BITUJZS01oUnVGeUw1NTJKd1Q0SlFnL1RLc0piOUMKaUk3Z2FWNzR0SDBkN0gwUXJJLzN6N3VQQTNxSG5vSWpTcUNIL0FiczFhdVVXSWFqUWpCQU1BNEdBMVVkRHdFQgovd1FFQXdJQ3BEQVBCZ05WSFJNQkFmOEVCVEFEQVFIL01CMEdBMVVkRGdRV0JCU0dPUUpiRVNlVzBBZmQ5dkZzCkdNY0dQeThZQ3pBS0JnZ3Foa2pPUFFRREFnTkhBREJFQWlBemJUMThxZnc4UWZMUUxvdUl0NnpXaFQrbEp1ZzQKRmpYaC9qUHpRS3Q1TGdJZ0dEMGt3ZTBEYldIZFRJOE9zZThlL0Q4VzhwTjNMM2VEdjdGNm0xS1V6SDA9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+users:
+- name: calico
+  user:
+    token: eyJhbGciOiJSUzI1NiIsImtpZCI6Im9kRHl6MDNaZ2taMnAxYzBIM0VyWVlNcTBiSlNWakt4M0lRUnUxZU5NTzgifQ.eyJhdWQiOlsiaHR0cHM6Ly9rdWJlcm5ldGVzLmRlZmF1bHQuc3ZjLmNsdXN0ZXIubG9jYWwiLCJya2UyIl0sImV4cCI6MTY4MzEyODcwNiwiaWF0IjoxNjUxNTkyNzA2LCJpc3MiOiJodHRwczovL2t1YmVybmV0ZXMuZGVmYXVsdC5zdmMuY2x1c3Rlci5sb2NhbCIsImt1YmVybmV0ZXMuaW8iOnsibmFtZXNwYWNlIjoia3ViZS1zeXN0ZW0iLCJwb2QiOnsibmFtZSI6InJrZTItY2FuYWwtNHpwOWgiLCJ1aWQiOiIzN2NhNGI4OS05YWEzLTQ4NzgtYTBmNC03OTk0MDZhNTIxNzkifSwic2VydmljZWFjY291bnQiOnsibmFtZSI6ImNhbmFsIiwidWlkIjoiYTkyNjE3MzctMmNiZC00NmQxLTk2NWUtZGM5NWZjNzk0ZmQ1In0sIndhcm5hZnRlciI6MTY1MTU5NjMxM30sIm5iZiI6MTY1MTU5MjcwNiwic3ViIjoic3lzdGVtOnNlcnZpY2VhY2NvdW50Omt1YmUtc3lzdGVtOmNhbmFsIn0.bejLr2Ryp6WFeTvfuu4cb3KhgK3srl3mi7PrKfvs7WoOLH_lP2gY1wF5sZGpB9Y6J1dhET_U1Gw-pBuICz6z-8gf15fxobM5RKou230lUkxMbahP2MLbkDIDyCn09-si7jG4JnMnQBcQS6rzc49ZMpDW1FESszFHP3QtUmtLCGtonVNLnLfh3zaBek64n9FB-Y4l3fDT-4kmN7qRQDkdAXljP_PQTpEMg7qmDD1P5bXUeHi3lZ_lM0oALprgwgoqf0MZ5_e9z5zLN4QJRTu6nu01H0IF8KZD3frzaad-bJa-pRX1-v1w19etFL3Ql3zR0urtQqUGveKLvOqfCDmW_g
+contexts:
+- name: calico-context
+  context:
+    cluster: local
+    user: calico
+current-context: calico-context
+~~~
+
+
 
