@@ -167,6 +167,7 @@ ref: https://docs.rancher.cn/docs/rke2/install/ha/_index
 和前一步区别是，在启动 `rke2-server.service` 服务之前，请先创建 `/etc/rancher/rke2/config.yaml` （和它的所在目录），并在其中加入以下内容：
 
 ~~~ yaml
+server: https://<server>:9345
 token: <token from server node>
 tls-san:
   - <ip>
@@ -176,8 +177,11 @@ tls-san:
 
 其中：
 
+- 在 `<server>` 处要写能够访问到第一个 `server` 的 IP 或者域名。
 - 在 `<token from server node>` 处的内容就是它要加入的节点的 `/var/lib/rancher/rke2/server/node-token` 文件的内容。
 - 而 `<ip>` 和 `<domain>` 处就写能够访问到被加入集群的 `server` 的 IP 或者域名（不需要端口号）。
+
+最好给第一个 `server` 也创建这样一个配置。
 
 ### 3. 增加 `agent` 节点
 
