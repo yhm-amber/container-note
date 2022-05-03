@@ -45,7 +45,7 @@ ssh 10.11.111.101 -- curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh 
 snapper create -d 'rke2 calico' --command 'cat rke2-artifacts/install.sh | RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -'
 ~~~
 
-经过 `cat rke2-artifacts/install.sh | RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -` 安装后，这是我得到的屏幕输出：
+在经过如上的步骤实际用命令 `cat rke2-artifacts/install.sh | RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -` 开始并完成安装后，这是我得到的屏幕输出：
 
 ~~~ text
 [WARN]  /usr/local is read-only or a mount point; installing to /opt/rke2
@@ -67,7 +67,7 @@ grep: /tmp/rke2-install.1u6e2nK7JX/rke2-images.checksums: No such file or direct
 - 选择安装源： `INSTALL_RKE2_MIRROR=cn` （这个是 [`cn`](http://rancher-mirror.rancher.cn/rke2/install.sh) 来源脚本特有的功能）
 - 选择离线包目录： `INSTALL_RKE2_ARTIFACT_PATH=/root/rke2-artifacts` （离线包下载[见这里](https://github.com/rancher/rke2/releases)）
 - 决定节点类型： `INSTALL_RKE2_TYPE=agent` （这个变量空着的话值就默认是 `server` 了）
-- 选择网络插件： `RKE2_CNI=calico` （它等于用 `--cni` 选项配置）
+- 选择网络插件： `RKE2_CNI=calico` （它等于脚本的 `--cni` 选项）
 
 基于 `snapper` 的监控结果（详细见后文）来看，新增的配置性文件就是在 `/etc/systemd/system` 目录下的 `rke2-agent.service` 和 `rke2-server.service` 。
 
