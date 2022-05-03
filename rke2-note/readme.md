@@ -26,7 +26,7 @@ ref: https://docs.rancher.cn/docs/rke2/install/quickstart/_index
 命令：
 
 ~~~ sh
-curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | INSTALL_RKE2_MIRROR=cn sh -
+curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | INSTALL_RKE2_MIRROR=cn RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -
 ~~~
 
 没错，这个步骤完全是脚本完成的。
@@ -69,6 +69,7 @@ curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | INSTALL_RKE2_MIRROR
 - 选择安装源： `INSTALL_RKE2_MIRROR=cn` （这个是 [`cn`](http://rancher-mirror.rancher.cn/rke2/install.sh) 来源脚本特有的功能）
 - 选择离线包目录： `INSTALL_RKE2_ARTIFACT_PATH=/root/rke2-artifacts` （离线包下载[见这里](https://github.com/rancher/rke2/releases)）
 - 决定节点类型： `INSTALL_RKE2_TYPE=agent` （这个变量空着的话值就默认是 `server` 了）
+- 选择网络插件： `RKE2_CNI=calico` （它等于用 `--cni` 选项配置）
 
 这两方面放在最初由 Docker 公司提供出来的产品下的话就也都不是需要操心的方面了：
 
