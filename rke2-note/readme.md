@@ -64,8 +64,6 @@ curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | INSTALL_RKE2_MIRROR
 [INFO]  install complete; you may want to run:  export PATH=$PATH:/opt/rke2/bin
 ~~~
 
-然后就可以对 `rke2-server` 服务使用各种 `systemctl` 指令了。
-
 上面的脚本有好几个选项，这里对我比较重要的有：
 
 - 选择安装源： `INSTALL_RKE2_MIRROR=cn` （这个是 [`cn`](http://rancher-mirror.rancher.cn/rke2/install.sh) 来源脚本特有的功能）
@@ -78,13 +76,13 @@ curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | INSTALL_RKE2_MIRROR
 
 如果你熟悉 `docker` 或者 `podman` 这样的 Docker 风格的容器工具的使用，下面的步骤中，你会发现，它们都很容易涉及为容器化的。
 
-说回到服务。
+脚本执行完，就可以对 `rke2-server` 服务使用各种 `systemctl` 指令了。
 
 当你初次启动它的时候，它会真正开始做初始化的工作，比如搞一些二进制文件（包括 `kubectl` 命令）到特定目录，比如真正开始安装 RKE2 集群。
 
-**要想加入已有集群，就在第一次启动前创建特定的配置文件并填入内容**。后面会提到它就是 `/etc/rancher/rke2/config.yaml` （[见](https://docs.rancher.cn/docs/rke2/install/ha/_index)），不过由于这里是首次创建集群的第一个节点，所以不需要手动创建这个文件。
+这个启动会被 `/etc/rancher/rke2/config.yaml` 影响，不过这里创建集群第一个节点的话，就不需要事先创建这个文件。
 
-*——这个如果要做成容器化，就只需要搞一个 `-v` 挂载就是，譬如 `-v ./cluster-a/etc:/etc/rancher/rke2` ，然后别的步骤都是一模一样只需要改变一下被作用的目录就好。不就是自定义配置嘛！*
+*——这个如果要做成容器化，就只需要搞一个 `-v` 挂载就是。*
 
 如果没有指定离线的方式，这个 `systemctl start rke2-server.service` 会需要十分漫长的等待。这个过程中，它会对系统的软件和配置目录动很多手脚，最终把集群所需要的命令和配置都部署到系统里。
 
@@ -114,7 +112,7 @@ chmod 400 ~/.kube/config
 /var/lib/rancher/rke2/bin/kubectl --kubeconfig /etc/rancher/rke2/rke2.yaml get no
 ~~~
 
-更多信息：
+更多信息（来自 ref 链接）：
 
 > 运行此安装程序后：
 > 
