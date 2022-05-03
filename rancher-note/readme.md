@@ -84,7 +84,9 @@ ref: https://rancher.com/docs/rancher/v2.6/en/quick-start-guide/deployment/quick
 
 他们还有一个简单示例，是用的 `docker run` ，但是这个命令开权限了，不好。而且容器里面也不止一个进程，容器被当节点用了，不好。
 
-我试过在用 `sealos` 装的 Kubernetes 上执行下面步骤，所有都没问题，就只有 Rancher Server 节点的 `443` 端口没被聆听，从而只能集群内用。可见如果不是在指定 Kubernetes **发行版**上安装的话，还是会有一些依赖问题的。（相比起来套路野蛮的 [KubeSphare](../kubesphare-note) 适应能力就强很多了……😗）
+我试过在用 `sealos` 装的 Kubernetes 上执行下面步骤，所有都没问题，就只有 Rancher Server 节点的 `443` 端口没被聆听，从而只能集群内用。可见，如果不是在**被指定的 Kubernetes 发行版**上安装的话， Rancher 的使用可能还是会多多少少有一些依赖问题的，当然这个不影响主要功能，就是反向代理要自己解决一下比较麻烦。
+
+*（相比起来套路野蛮的 [KubeSphare](../kubesphare-note) 适应能力就强很多了：管他娘的正不正式， `nodeport` 直接用，别的问题别地儿考虑……就挺省心的😗）*
 
 ### 证书管理器
 
