@@ -21,7 +21,7 @@ ref: https://rancher.com/docs/rancher/v2.6/en/overview/architecture/
 > 
 > 下图显示了用户如何通过 Rancher 的身份验证代理，操作 Rancher 启动的 Kubernetes 集群和托管的 Kubernetes 集群：
 > 
-> ![通过 Rancher 的身份验证代理管理 Kubernetes 集群](https://user-images.githubusercontent.com/103625580/165257322-6c78df07-8d75-4794-b120-b7d00b061ed3.png)
+> ![通过 Rancher 的身份验证代理管理 Kubernetes 集群](./rancher-architecture-rancher-api-server.svg)
 > 
 
 ### 架构建议
@@ -38,7 +38,7 @@ ref: https://rancher.com/docs/rancher/v2.6/en/overview/architecture-recommendati
 > 
 > 如果（部署于 Kubernetes 中的） Rancher 旨在管理下游 Kubernetes 集群，那么这个运行 Rancher Server 的 Kubernetes 集群也应该与下游用户集群分别为两个集群。
 > 
-> ![Rancher Server 与用户集群的分离](https://user-images.githubusercontent.com/103625580/165258283-887c9c2c-9237-477d-a8ea-323781252a1b.png)
+> ![Rancher Server 与用户集群的分离](./rancher-architecture-separation-of-rancher-server.svg)
 > 
 
 #### 负载均衡建议
@@ -50,7 +50,7 @@ ref: https://rancher.com/docs/rancher/v2.6/en/overview/architecture-recommendati
 > - 入口控制器会将 HTTP 重定向到 HTTPS，并在端口 TCP/443 上终止 SSL/TLS。
 > - 入口控制器会将流量转发到 Rancher 部署中 pod 上的端口 TCP/80。
 > 
-> ![Rancher 安装在具有第 4 层负载均衡器的 Kubernetes 集群上，描述了入口控制器上的 SSL 终止](https://user-images.githubusercontent.com/103625580/165258895-1659d5f8-d1ba-45c8-917d-40cb137ee0df.png)
+> ![Rancher 安装在具有第 4 层负载均衡器的 Kubernetes 集群上，描述了入口控制器上的 SSL 终止](./rancher2ha.svg)
 > 
 
 #### 别的……
@@ -65,13 +65,13 @@ ref: https://rancher.com/docs/rancher/v2.6/en/overview/architecture-recommendati
 > 
 > 底层 Kubernetes 集群的一个选项是使用 K3s Kubernetes 。 K3s 是 Rancher 的 CNCF 认证的 Kubernetes 发行版。它易于安装，占用的内存只有 Kubernetes 的一半，全部以小于 100 MB 的二进制文件形式存在。 K3s 的另一个优点是，它允许外部数据存储保存群集数据，从而允许将 K3s 服务器节点视为临时节点。
 > 
-> ![运行牧场主管理服务器的 K3s Kubernetes 集群的架构](https://user-images.githubusercontent.com/103625580/165259318-6b09f919-938f-4aa9-8015-54a13ae98a65.png)
+> ![运行牧场主管理服务器的 K3s Kubernetes 集群的架构](./k3s-server-storage.svg)
 > 
 > rke:
 > 
 > 在 RKE 安装中，群集数据在群集中的三个 etcd 节点中的每一个节点上复制，从而在其中一个节点发生故障时提供冗余和数据重复。
 > 
-> ![运行 Rancher 管理服务器的 RKE Kubernetes 集群的架构](https://user-images.githubusercontent.com/103625580/165259367-8177279a-c781-4950-b932-0db7b46a14ed.png)
+> ![运行 Rancher 管理服务器的 RKE Kubernetes 集群的架构](./rke-server-storage.svg)
 > 
 
 更多请参考上面的 ref 链接。
