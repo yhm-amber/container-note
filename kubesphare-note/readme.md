@@ -18,6 +18,8 @@ kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3
 
 *（如果没有 Kubernetes 集群又暂且不想研究的话，可以用 [`sealos`](https://github.com/fanux/sealos) 这个工具来比较省心地创建一个。想快速研究 Kubernetes 的话可以看看 [`K8E`](https://github.com/xiaods/k8e) 这个项目的安装说明，或者[看我这里](../rke2-note)动手搞一搞 RKE2 。多找点事儿做以后，用任何 Kubernetes 发行版的时候也就都能如履平地一点。）*
 
+*（上面如果网不好从 github.com 下东西失败的话，可以尝试使用 ghproxy 做代理（[这是使用说明](https://ghproxy.com)）。注意，人家是个人支撑的免费项目，别用得太过火。）*
+
 ### 检查
 
 执行过上面的，再执行这个，就能看到安装过程中的日志输出了。
