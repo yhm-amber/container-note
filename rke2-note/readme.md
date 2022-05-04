@@ -133,6 +133,15 @@ snapper create -d 'rke2 first server start' --command 'systemctl start rke2-serv
 > - 一个可用于注册其他 `server` 或 `agent` 节点的令牌将在 `/var/lib/rancher/rke2/server/node-token` 文件中创建。
 > 
 
+在我这里，两个清理脚本的所在路径是 `/opt/rke2/bin` 。
+
+其中卸载脚本，通过 `snapper create -d 'rke2 un' --command /opt/rke2/bin/rke2-uninstall.sh` 监控它的执行，你会确认到的它带来的变化是：
+
+- 它删除了 `/etc/cni` 和 `/etc/rancher` 两个目录
+- 它在 `/etc/systemd/system` 目录下删除了 `rke2-agent.service` 和 `rke2-server.service` 两个文件
+
+以及其它一些不被 `snapper` 默认的系统快照配置所追踪的文件。
+
 ### 2. 增加 `server` 节点
 
 其实就是高可用。
