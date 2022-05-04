@@ -34,18 +34,18 @@ ref: https://docs.rancher.cn/docs/rke2/install/quickstart/_index
 
 除了选择安装方式和验证安装包以外，就是注册服务了。
 
-下面做离线安装的演示。所有必要的离线文件都放在当前目录的 `rke2-artifacts` 目录下。
+下面做离线安装的演示。必要的离线文件 `rke2-images-cilium.linux-amd64.tar.zst` 放在当前目录的 `rke2-artifacts` 目录下。
 
 我的命令：
 
 ~~~ sh
 : 通过能够连通外网的节点取得安装脚本
 ssh 10.11.111.101 -- curl -sfL http://rancher-mirror.rancher.cn/rke2/install.sh | tee rke2-artifacts/install.sh
-: 然后在 snapper 的对快照的监控下使用 cat rke2-artifacts/install.sh | RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh - 这一安装命令
-snapper create -d 'rke2 calico' --command 'cat rke2-artifacts/install.sh | RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -'
+: 然后在 snapper 的对快照的监控下使用 cat rke2-artifacts/install.sh | RKE2_CNI=cilium INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh - 这一安装命令
+snapper create -d 'rke2 sh' --command 'cat rke2-artifacts/install.sh | RKE2_CNI=cilium INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -'
 ~~~
 
-在经过如上的步骤实际用命令 `cat rke2-artifacts/install.sh | RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -` 开始并完成安装后，这是我得到的屏幕输出：
+在经过如上的步骤实际用命令 `cat rke2-artifacts/install.sh | RKE2_CNI=cilium INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -` 开始并完成安装后，这是我得到的屏幕输出：
 
 ~~~ text
 [WARN]  /usr/local is read-only or a mount point; installing to /opt/rke2
@@ -67,7 +67,7 @@ grep: /tmp/rke2-install.1u6e2nK7JX/rke2-images.checksums: No such file or direct
 - 选择安装源： `INSTALL_RKE2_MIRROR=cn` （这个是 [`cn`](http://rancher-mirror.rancher.cn/rke2/install.sh) 来源脚本特有的功能）
 - 选择离线包目录： `INSTALL_RKE2_ARTIFACT_PATH=/root/rke2-artifacts` （离线包下载[见这里](https://github.com/rancher/rke2/releases)）
 - 决定节点类型： `INSTALL_RKE2_TYPE=agent` （这个变量空着的话值就默认是 `server` 了）
-- 选择网络插件： `RKE2_CNI=calico` （它等于脚本的 `--cni` 选项）
+- 选择网络插件： `RKE2_CNI=cilium` （它等于脚本的 `--cni` 选项）
 
 基于 `snapper` 的监控结果（详细见后文）来看，新增的配置性文件就是在 `/etc/systemd/system` 目录下的 `rke2-agent.service` 和 `rke2-server.service` 。
 
@@ -203,7 +203,7 @@ Windows 节点上的 `agent` 安装见原文。
 
 下文基于前面创建第一个节点的步骤。整个过程中使用了三次对快照的创建，被监控的动作分别是：
 
-- 脚本执行： `cat rke2-artifacts/install.sh | RKE2_CNI=calico INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -`
+- 脚本执行： `cat rke2-artifacts/install.sh | RKE2_CNI=cilium INSTALL_RKE2_ARTIFACT_PATH=rke2-artifacts sh -`
 - 端口开放： `firewall-cmd --zone=public --add-port=9345/tcp --add-port=9345/udp --add-port=6443/tcp --permanent`
 - 服务首启： `systemctl start rke2-server.service`
 
@@ -215,8 +215,8 @@ Windows 节点上的 `agent` 安装见原文。
 0  | single |       |                                 | root |            |         | current                 |
 1* | single |       | Thu 07 Apr 2022 04:26:00 PM CST | root | 436.00 KiB |         | first root filesystem   |
 2  | single |       | Thu 07 Apr 2022 04:39:31 PM CST | root |  28.27 MiB | number  | after installation      | important=yes
-3  | pre    |       | Tue 03 May 2022 11:06:07 PM CST | root |   1.77 MiB |         | rke2 calico             |
-4  | post   |     3 | Tue 03 May 2022 11:06:18 PM CST | root |  16.00 KiB |         | rke2 calico             |
+3  | pre    |       | Tue 03 May 2022 11:06:07 PM CST | root |   1.77 MiB |         | rke2 sh                 |
+4  | post   |     3 | Tue 03 May 2022 11:06:18 PM CST | root |  16.00 KiB |         | rke2 sh                 |
 5  | pre    |       | Tue 03 May 2022 11:14:25 PM CST | root |  16.00 KiB |         | pub rke2 9345 6443      |
 6  | post   |     5 | Tue 03 May 2022 11:14:26 PM CST | root | 160.00 KiB |         | pub rke2 9345 6443      |
 7  | pre    |       | Tue 03 May 2022 11:41:03 PM CST | root | 320.00 KiB |         | rke2 first server start |
@@ -227,7 +227,7 @@ Windows 节点上的 `agent` 安装见原文。
 
 #### 脚本执行
 
-根据之前给 `-d` 的备注信息 `rke2 calico` 可以看到，这个阶段的对快照的序号分别是 `3` 和 `4` 。
+根据之前给 `-d` 的备注信息 `rke2 sh` 可以看到，这个阶段的对快照的序号分别是 `3` 和 `4` 。
 
 那么用 `snapper status 3..4` 就能看到这期间的系统配置变化：
 
