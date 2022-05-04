@@ -34,7 +34,9 @@ ref: https://docs.rancher.cn/docs/rke2/install/quickstart/_index
 
 除了选择安装方式和验证安装包以外，就是注册服务了。
 
-下面做离线安装的演示。必要的离线文件 `rke2-images-cilium.linux-amd64.tar.zst` 放在当前目录的 `rke2-artifacts` 目录下。
+下面做离线安装的演示。必要的离线文件 `rke2-images.linux-amd64.tar.zst` 放在当前目录的 `rke2-artifacts` 目录下。
+
+*（他们[官网](https://docs.rancher.cn/docs/rke2/install/airgap/_index)说有 `rke2-images-cilium.linux-amd64.tar.zst` 和 `rke2-images-core.linux-amd64.tar.zst` 就好，不过我试了，会在启动服务的步骤报错，必须有 `rke2-images.linux-amd64.tar.zst` 。他们自己把脚本部分的影响波及到了服务初启动步骤，可功能验证估计是分着来的，结果自己都没发现按照他们的离线方案来会走不通。如果这部分部署能够容器化，离线不离线的就也没这么多屁事儿了。）*
 
 我的命令：
 
@@ -50,11 +52,7 @@ snapper create -d 'rke2 sh' --command 'cat rke2-artifacts/install.sh | RKE2_CNI=
 ~~~ text
 [WARN]  /usr/local is read-only or a mount point; installing to /opt/rke2
 [INFO]  staging local checksums from rke2-artifacts/sha256sum-amd64.txt
-[INFO]  staging zst airgap image tarball from rke2-artifacts/rke2-images.linux-amd64.tar.zst
 [INFO]  staging tarball from rke2-artifacts/rke2.linux-amd64.tar.gz
-[INFO]  verifying airgap tarball
-grep: /tmp/rke2-install.1u6e2nK7JX/rke2-images.checksums: No such file or directory
-[INFO]  installing airgap tarball to /var/lib/rancher/rke2/agent/images
 [INFO]  verifying tarball
 [INFO]  unpacking tarball file to /opt/rke2
 [INFO]  updating tarball contents to reflect install path
