@@ -36,7 +36,7 @@ ref: https://docs.rancher.cn/docs/rke2/install/quickstart/_index
 
 下面做离线安装的演示。必要的离线文件 `rke2-images.linux-amd64.tar.zst` 放在当前目录的 `rke2-artifacts` 目录下。
 
-*（他们[官网](https://docs.rancher.cn/docs/rke2/install/airgap/_index)说有 `rke2-images-cilium.linux-amd64.tar.zst` 和 `rke2-images-core.linux-amd64.tar.zst` 就好，不过我试了，会在启动服务的步骤报错，必须有 `rke2-images.linux-amd64.tar.zst` 。他们自己把脚本部分的影响波及到了服务初启动步骤，可功能验证估计是分着来的，结果自己都没发现按照他们的离线方案来会走不通。如果这部分部署能够容器化，离线不离线的就也没这么多屁事儿了。）*
+*（对于我的安装需要，他们[官网](https://docs.rancher.cn/docs/rke2/install/airgap/_index)说有 `rke2-images-cilium.linux-amd64.tar.zst` 和 `rke2-images-core.linux-amd64.tar.zst` 就好。不过我用一台只能连内网的机器试了，会在启动服务的步骤报错，必须有 `rke2-images.linux-amd64.tar.zst` 才行，事实上只有它就行。他们自己把脚本部分的影响波及到了服务初启动步骤，可功能验证估计是分着来的，结果自己都没发现按照他们的离线方案来会走不通，他们现在的这个帮助分工协作的模块化方案其实并不能成功发挥任何作用。如果这部分部署能够容器化，离线不离线的就也没这么多屁事儿了。）*
 
 我的命令：
 
@@ -52,7 +52,11 @@ snapper create -d 'rke2 sh' --command 'cat rke2-artifacts/install.sh | RKE2_CNI=
 ~~~ text
 [WARN]  /usr/local is read-only or a mount point; installing to /opt/rke2
 [INFO]  staging local checksums from rke2-artifacts/sha256sum-amd64.txt
+[INFO]  staging zst airgap image tarball from rke2-artifacts/rke2-images.linux-amd64.tar.zst
 [INFO]  staging tarball from rke2-artifacts/rke2.linux-amd64.tar.gz
+[INFO]  verifying airgap tarball
+grep: /tmp/rke2-install.sexyziki5m/rke2-images.checksums: No such file or directory
+[INFO]  installing airgap tarball to /var/lib/rancher/rke2/agent/images
 [INFO]  verifying tarball
 [INFO]  unpacking tarball file to /opt/rke2
 [INFO]  updating tarball contents to reflect install path
@@ -153,10 +157,7 @@ ref: https://docs.rancher.cn/docs/rke2/install/ha/_index
 ~~~ yaml
 server: https://<server>:9345
 token: <token from server node>
-tls-san:
-  - <ip>
-  - <domain>
-  - ...
+tls-san: [<ip>,<domain>,...]
 ~~~
 
 其中：
@@ -419,7 +420,9 @@ c..... /etc/firewalld/zones/public.xml.old
 
 其中，在这个命令完成后，在 `/etc/cni/net.d` 内会出现 `10-canal.conflist` 和 `calico-kubeconfig` 两个文件。
 
-内容：
+事实上，我不知道这是为何。我选择的网络插件是 `cilium` ，但它们和它们的内容与此毫不相干。
+
+这是它们的内容：
 
 ##### `10-canal.conflist`
 
