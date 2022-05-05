@@ -1,0 +1,72 @@
+: :::: build :::: :
+
+docker build -t "$(basename "$PWD")" -f Dockerfile -- .
+
+: :::: usage :::: :
+
+
+# 用 rancher-proxy 做个使用例
+# 即让对本机的 7788 端口的访问变为对 10.106.211.8:443,10.121.101.19:443 的访问
+
+# demo such as make a rancher-proxy
+# that make localhost:7788 -> 10.106.211.8:443,10.121.101.19:443
+
+
+: 简单地启动
+: just start
+
+docker run -d --restart=always --name rancher-proxy -p 7788:7788 -- simple-proxy sh /start.sh rancher 7788 10.106.211.8:443,10.121.101.19:443
+
+: 或者
+: or
+
+docker run  -d --restart=always --name rancher-proxy -p 7788:7788 --env SERVICE_NAME=rancher --env PORT_HERE=7788 --env IP_PORT_REMOTES=10.106.211.8:443,10.121.101.19:443 -- simple-proxy sh /start.sh
+
+
+: 两者效果一样。
+: it will be same .
+
+
+
+
+
+
+: 建议头回玩儿的话就先执行下这个看看待会儿给添加的配置是个啥
+: if wans to get conf to stdout to check it
+
+docker run --rm -- simple-proxy sh /get-stream-conf.sh rancher 7788 10.106.211.8:443,10.121.101.19:443
+
+: 或者这样效果该也一样
+: or other way same
+
+docker run --rm --env SERVICE_NAME=rancher --env PORT_HERE=7788 IP_PORT_REMOTES=10.106.211.8:443,10.121.101.19:443 -- simple-proxy sh /get-stream-conf.sh
+
+
+
+
+
+: 更细致地操作
+: other way
+
+
+: 首先. 给它这容器创出来
+: 1. create container use as a rancher proxy service
+
+docker container create -p 7788:7788 --name rancher-proxy -- simple-proxy
+
+: 完后. 生成那个配置并给它整进去
+: 2. add .conf file into container
+
+docker run --rm -- simple-proxy sh /get-stream-conf.sh rancher 7788 10.106.211.8:443,10.121.101.19:443 | tee rancher.conf &&
+docker cp -- ./rancher.conf rancher-proxy:/etc/nginx/stream-conf.d/rancher.conf
+
+: 再完后. 更改个选项
+: 3. add restart always
+
+docker container update --restart=always -- rancher-proxy
+
+: 最后. 把它启开
+: 4. start it
+
+docker container start -- rancher-proxy
+
