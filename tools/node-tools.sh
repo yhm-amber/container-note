@@ -42,11 +42,21 @@ allnodesrun ()
     : awk /somefix/'{print$1}' /etc/hosts |
     :     allnodesrun : dmidecode -t system ';' dmidecode -s system-serial-number ';' dmidecode -s system-product-name
     
+    NODES="$(cat -)" &&
     
     local msg_cmd="$(for a in "$@";do printf "'$a'"' ';done)" &&
-    local msg_bg=': ::: $(date %s.%N) .. $HOSTNAME .. begin .. '"$msg_cmd"' ::: :' &&
-    local msg_ed=': ::: $(date %s.%N) .. $HOSTNAME .. ed($?) .. '"$msg_cmd"' ::: :' &&
+    local msg_bg='">" ::: "$HOSTNAME" : start : "$(date +%s.%N)" ::: "<"' &&
+    local msg_ed='">" ::: "$HOSTNAME" : done"($?)" : "$(date +%s.%N)" ::: "<"' &&
     
-    xargs -i{host} -- ssh {host} -- set -o pipefail ';' echo "$msg_bg" ';' "$@" ';' echo "$msg_ed" ';' echo ;
+    echo command = "$msg_cmd" &&
+    
+    echo "$NODES" |
+        
+        xargs -i{host} -- ssh {host} -- \
+          set -o pipefail ';' \
+          echo "$msg_bg" "$msg_cmd" ';' \
+          "$@" ';' echo "$msg_ed" "$msg_cmd" ';' \
+          echo &&
+    :;
 } ;
 
