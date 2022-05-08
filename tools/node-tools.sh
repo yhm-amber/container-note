@@ -27,3 +27,17 @@ pack_servicelogs ()
     ls "$save_place"/"$outname".tar.xz &&
     :;
 } ;
+
+
+
+allnodesrun ()
+{
+    `# usage demo: awk /somefix/'{print$1}' /etc/hosts | allnodesrun cat xxx '|' awk`
+    
+    local msg_cmd="$(for a in "$@";do printf "'$a'"' ';done)" &&
+    local msg_bg=': ::: $(date %s.%N) .. $HOSTNAME .. begin .. '"$msg_cmd"' ::: :' &&
+    local msg_ed=': ::: $(date %s.%N) .. $HOSTNAME .. ed($?) .. '"$msg_cmd"' ::: :' &&
+    
+    xargs -i{host} -- ssh {host} -- set -o pipefail ';' echo "$msg_bg" ';' "$@" ';' echo "$msg_ed" ';' echo ;
+} ;
+
