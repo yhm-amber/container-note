@@ -9,19 +9,24 @@ pack_servicelogs ()
     
     local outname="$(echo $service_name | tr / :)"-logs-"$HOSTNAME"-"$date_bg"_"$date_ed" &&
     
-    get_files ()
+    getfiles_at_time ()
     {
-        : usage demo: get_files inceptor1 2021-10-11 2021-12-22 ;
+        : usage demo: getfiles_at_time /var/log/inceptor1 '*.log*' 2021-10-11 2021-12-22 ;
         
-        find -- /var/log/"${1:-$service_name}" \
-          -name '*.log*' \
-          -newermt "${2:-$date_bg}" \
-          -and ! -newermt "${3:-$date_ed}" &&
+        find -- "${1:-/var/log/$service_name}" \
+          -name "${2:-*.log*}" \
+          -newermt "${3:-$date_bg}" \
+          -and ! -newermt "${4:-$date_ed}" |
+            
+            while read p ;
+            do
+                echo "'$p'" ;
+            done &&
         
         :;
     } &&
     
-    tar -cf- -- $(get_files "$service_name" "$date_bg" "$date_ed") |
+    tar -cf- -- $(getfiles_at_time /var/log/"$service_name" '*.log*' "$date_bg" "$date_ed") |
         xz -T0 --best > "$save_place"/"$outname".tar.xz &&
     
     ls "$save_place"/"$outname".tar.xz &&
