@@ -140,9 +140,9 @@ kubej_chks ()
         
         local dir="$(mktemp --directory -- kube_java_checks.XXXXXXXXXX)" &&
         {
-            (kubejstat "-gcutil -t" "$(kubejps 1 "$@")" 1000 5 "$@" | tee "$dir"/jstat:"$*".log | wc -l && echo :ok kubejstat) &
-            (kubejmap hive "-histo:live" "$(kubejps 1 "$@")" "$@" | tee "$dir"/hive-jmap:"$*".log | wc -l && echo :ok kubejmap) &
-            (kubejstark hive "-l" "$(kubejps 1 "$@")" "$@" | tee "$dir"/hive-jstark:"$*".log | wc -l && echo :ok kubejstark) &
+            (kubejstat "-gcutil -t" "$(kubejps 1 "$@")" 1000 5 "$@" | tee "$dir"/jstat-"$(kubejps 2 "$@")":"$*".log | wc -l && echo :ok kubejstat) &
+            (kubejmap hive "-histo:live" "$(kubejps 1 "$@")" "$@" | tee "$dir"/hive-jmap-"$(kubejps 2 "$@")":"$*".log | wc -l && echo :ok kubejmap) &
+            (kubejstark hive "-l" "$(kubejps 1 "$@")" "$@" | tee "$dir"/hive-jstark-"$(kubejps 2 "$@")":"$*".log | wc -l && echo :ok kubejstark) &
             
             wait ;
         } ;
