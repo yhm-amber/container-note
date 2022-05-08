@@ -9,7 +9,7 @@ FROM scratch
 
 容器文件或者封口器的集群文件都是这么写。
 
-（感谢 [`sealerio/sealer`](https://github.com/sealerio/sealer) 的作者 [`fanux`](https://github.com/fanux) 给予的提示。）
+（感谢 [`sealerio/sealer`](https://github.com/sealerio/sealer) 的创作者 [`fanux`](https://github.com/fanux) 给予的提示。）
 
 我不知道为什么是 `scratch` 这个单词，我不知道这和那个同名的幼儿编程软件是不是有什么关系……
 
