@@ -37,7 +37,11 @@ pack_servicelogs ()
 
 allnodesrun ()
 {
-    `# usage demo: awk /somefix/'{print$1}' /etc/hosts | allnodesrun cat xxx '|' awk`
+    : usage demo:
+    : 
+    : awk /somefix/'{print$1}' /etc/hosts |
+    :     allnodesrun : dmidecode -t system ';' dmidecode -s system-serial-number ';' dmidecode -s system-product-name`
+    
     
     local msg_cmd="$(for a in "$@";do printf "'$a'"' ';done)" &&
     local msg_bg=': ::: $(date %s.%N) .. $HOSTNAME .. begin .. '"$msg_cmd"' ::: :' &&
