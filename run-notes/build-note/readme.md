@@ -13,4 +13,6 @@ FROM scratch
 
 这个是它的 `dockerhub` 页面： https://hub.docker.com/_/scratch/
 
+里面大体意思说，虽然在我们 Hub 里有这么个镜像存储库，但它不可被拉取运行或者改名。这个镜像是 `docker` 在自己 Hub 里的一个保留镜像，保留就是占位的意思——不理解的话就想想「保留字」是什么含义来着😃，总之，你不能用这个镜像，你也不能把别的镜像叫这个名字，你不能运行它，你可以在 `Dockerfile` 里头写 `FROM scratch` 然后它就知道你现在不是要用基础镜像而是要构建基础镜像了。
+
 更多见： https://codeburst.io/docker-from-scratch-2a84552470c8
