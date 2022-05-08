@@ -11,7 +11,7 @@ pack_servicelogs ()
     
     getfiles_at_time ()
     {
-        : usage demo: getfiles_at_time /var/log/inceptor1 '*.log*' 2021-10-11 2021-12-22 ;
+        : usage demo: getfiles_at_time /var/log/kubelet '*.log*' 2021-10-11 2021-12-22 ;
         
         find -- "${1:-/var/log/$service_name}" \
           -name "${2:-*.log*}" \
