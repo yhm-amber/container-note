@@ -40,7 +40,7 @@ allnodesrun ()
     : usage demo:
     : 
     : awk /somefix/'{print$1}' /etc/hosts |
-    :     allnodesrun : dmidecode -t system ';' dmidecode -s system-serial-number ';' dmidecode -s system-product-name`
+    :     allnodesrun : dmidecode -t system ';' dmidecode -s system-serial-number ';' dmidecode -s system-product-name
     
     
     local msg_cmd="$(for a in "$@";do printf "'$a'"' ';done)" &&
