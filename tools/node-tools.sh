@@ -1,13 +1,15 @@
-pack_servicelogs ()
+packer ()
 {
-    : usage demo: pack_servicelogs kubelet 2021-10-11 2021-12-22 /mnt/logs ;
+    : usage demo: packer '*.log*' kubelet 2021-10-11 2021-12-22 /mnt/logs.bak --remove-files ;
     
-    local service_name="${1}" &&
-    local date_bg="${2}" &&
-    local date_ed="${3}" &&
-    local save_place="${4:-.}" &&
+    local file_mod="${1}" &&
+    local service_name="${2}" &&
+    local date_bg="${3}" &&
+    local date_ed="${4}" &&
+    local save_place="${5:-.}" &&
+    local tar_more_flags="${6}" &&
     
-    local outname="$(echo $service_name | tr / :)"-logs-"$HOSTNAME"-"$date_bg"_"$date_ed" &&
+    local outname="$(echo "$service_name" | tr / : | tr . _)"-"$(echo "$file_mod" | tr -d '*' | tr / :)"-"$HOSTNAME"-"$date_bg"_"$date_ed" &&
     
     getfiles_at_time ()
     {
@@ -26,7 +28,7 @@ pack_servicelogs ()
         :;
     } &&
     
-    tar -cf- -- $(getfiles_at_time /var/log/"$service_name" '*.log*' "$date_bg" "$date_ed") |
+    tar $tar_more_flags -chf- -- $(getfiles_at_time /var/log/"$service_name" "$file_mod" "$date_bg" "$date_ed") |
         xz -T0 --best > "$save_place"/"$outname".tar.xz &&
     
     ls "$save_place"/"$outname".tar.xz &&
