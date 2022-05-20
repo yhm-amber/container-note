@@ -84,4 +84,4 @@ Caused by:
   SSL error: received early EOF; class=Ssl (16); code=Eof (-20)
 [root@e3 ~]# cargo install starship --locked
 <font color="#55FF55"><b>    Updating</b></font> crates.io index
-</pre>
+<font color="#55FFFF"><b>       Fetch</b></font> [===&gt;                     ]  16.73%, 8.89KiB/s    </pre>
