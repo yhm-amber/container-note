@@ -1,5 +1,5 @@
-ref: https://mirrors.ustc.edu.cn/help/brew.git.html
-ref: https://brew.sh/
+ref: https://mirrors.ustc.edu.cn/help/brew.git.html  
+ref: https://brew.sh/  
 
 ## 安装
 
@@ -19,5 +19,9 @@ export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
 sudo -u admin -- /bin/bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ~~~
 
-效果
+<details>
+<summary>效果</summary>
+
+</details>
+
 
