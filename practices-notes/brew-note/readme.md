@@ -32,6 +32,7 @@ export HOMEBREW_BOTTLE_DOMAIN="https://github.com/Homebrew/homebrew-bundle.git"
 也不要 `sudo -u admin -- 命令` 这样子，这会导致环境变量应用不成功。
 
 <details>
+
 <summary>我的过程记录</summary>
 
 <pre>[root@e2 ~]# echo &apos;
