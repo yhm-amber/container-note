@@ -18,7 +18,7 @@
 
 ### 部署
 
-有两种部署：
+有两层含义：
 
 - 部署 `sealos` 这个单二进制
 - 使用 `sealos` 部署 Kubernetes （这里选用版本 `v1.21.12` ）
@@ -40,14 +40,14 @@
 read xx # 回车后输入你这多台机器的密码然后再回车结束输入
 
 : 再执行这一条命令就能按照你的参数部署 Kubernetes 了
-sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --master 10.101.100.73 --pkg-url https://sealyun.oss-cn-xx.xxx.com/e1d1aaab0831a5153dfc03686d0d6b17-v1.21.12/kube1.21.12.tar.gz --version v1.21.12
+sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --master 10.101.100.73 --pkg-url https://sealyun.oss-cn-xx.xxx.com/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-v1.21.12/kube1.21.12.tar.gz --version v1.21.12
 ~~~
 
 密码、地址、离线包、版本号。
 
 离线包可以下下来填路径，也可以填一个网络路径。
 
-示例代码的网络路径不可用，可用的路径请通过[官网](https://sealyun.com)获取。
+示例代码的网络路径不可用，可用的路径（即地址）请通过[官网](https://sealyun.com)获取。
 
 <details>
 
