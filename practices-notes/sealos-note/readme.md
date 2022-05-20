@@ -27,7 +27,7 @@
 
 下载单二进制文件 `sealos` 到 `PATH` 目录下，然后就没有然后了，接下来就可以用 `sealos` 命令了。
 
-下载地址见项目 [Releases](https://github.com/labring/sealos/releases) 页面。
+下载地址见[项目 Releases 页面](https://github.com/labring/sealos/releases)。
 
 这个页面还给出了另外一种途径：拉取 `fanux/sealos` 镜像（ `docker.io/fanux/sealos:latest` ）。但我没找到这个镜像的使用说明。
 
