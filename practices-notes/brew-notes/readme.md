@@ -5,7 +5,7 @@ ref: https://brew.sh/
 
 ### 配置选项
 
-执行这些，并把这些也添加到 `/etc/profile.d/env-brew.sh` 中：
+执行这些，并把这些也添加到 `/etc/profile.d/env-brew.sh` 或 `~/.bash_profile` 中：
 
 ~~~ sh
 export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
@@ -24,8 +24,12 @@ export HOMEBREW_BOTTLE_DOMAIN="https://github.com/Homebrew/homebrew-bundle.git"
 ### 安装
 
 ~~~ sh
-sudo -u admin -- /bin/bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ~~~
+
+不支持使用 `root` 用户。
+
+也不要 `sudo -u admin -- 命令` 这样子，这会导致环境变量应用不成功。
 
 <details>
 <summary>我的过程记录</summary>
