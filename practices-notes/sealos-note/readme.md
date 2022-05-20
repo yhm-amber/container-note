@@ -43,11 +43,11 @@ read xx # 回车后输入你这多台机器的密码然后再回车结束输入
 sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --master 10.101.100.73 --pkg-url https://sealyun.oss-cn-xx.xxx.com/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-v1.21.12/kube1.21.12.tar.gz --version v1.21.12
 ~~~
 
-密码、地址、离线包、版本号。
+**密码、地址、离线包、版本号——我只是提供这些，然后就可以了。**
 
-离线包可以下下来填路径，也可以填一个网络路径。
+离线包可以下下来填本地路径，也可以填一个网络路径（即网址）。
 
-示例代码的网络路径不可用，可用的路径（即地址）请通过[官网](https://sealyun.com)获取。
+示例代码的网络路径不可用，可用的网址请通过[官网](https://sealyun.com)获取。
 
 <details>
 
