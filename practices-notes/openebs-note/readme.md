@@ -3,6 +3,12 @@
 
 ref: https://openebs.io/docs/user-guides/quickstart
 
+有俩途径：
+
+- use `helm`
+- use `kubectl`
+
+选一个就好。
 
 ### use `helm`
 
