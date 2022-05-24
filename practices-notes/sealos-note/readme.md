@@ -101,7 +101,7 @@ sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --maste
 
 问题已经提交了 Issue ，就是开头提到的 [issue-1044](https://github.com/labring/sealos/issues/1044) 。
 
-我吧其中我编辑的比较重要的内容也记录在了 [*这里*](.issue/labring.sealos.1044.part-note.md) 。
+其中我编辑的部分内容，我也在 [*这里*](.issue/labring.sealos.1044.part-note.md) 做了记录。
 
 #### 卸载
 
