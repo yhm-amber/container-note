@@ -284,15 +284,15 @@ Roles:              <font color="#FF5555"><b>master</b></font>
 > ~~~
 > 
 
-ref: https://kubernetes.io/zh/docs/concepts/scheduling-eviction/taint-and-toleration/
+ref: https://kubernetes.io/zh/docs/concepts/scheduling-eviction/taint-and-toleration/  
 
 另外：
 
 > 从 v1.20 开始，此污点已弃用，并将在 v1.25 中将其删除，取而代之的是 `node-role.kubernetes.io/control-plane` 。
 > 
 
-ref: https://kubernetes.io/zh/docs/reference/labels-annotations-taints/
-ref also: https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/implementation-details/
+ref: https://kubernetes.io/zh/docs/reference/labels-annotations-taints/  
+ref also: https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/implementation-details/  
 
 这个是 `v1.19.x` ，所以仍然是旧的污点名。
 
