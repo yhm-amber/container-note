@@ -1,5 +1,4 @@
 
-### Kubernetes
 
 你需要给 `sealos` 传的参数，只有必要的信息。
 
