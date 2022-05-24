@@ -45,7 +45,13 @@ read xx # 回车后输入你这多台机器的密码然后再回车结束输入
 sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --master 10.101.100.73 --pkg-url https://sealyun.oss-cn-xx.xxx.com/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-v1.21.12/kube1.21.12.tar.gz --version v1.21.12
 ~~~
 
-关于规划：
+密码、地址、离线包、版本号——我只是提供这些，然后就可以了。
+
+离线包可以下下来填本地路径，也可以填一个网络路径（即网址）。
+
+示例代码的网络路径不可用，可用的网址请通过[官网](https://sealyun.com)获取。
+
+关于节点的规划：
 
 - 如果节点不足三台，只保留一个 Master 即可，但需要时不时备份 ETCD 。
 - 如果只有三台，建议三台都规划为 Master ，这是高可用最少要有的数量。
@@ -70,11 +76,6 @@ sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --maste
 sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --master 10.101.100.73 --pkg-url https://sealyun.oss-cn-xx.xxx.com/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-v1.21.12/kube1.21.12.tar.gz --version v1.21.12
 ~~~
 
-**密码、地址、离线包、版本号——我只是提供这些，然后就可以了。**
-
-离线包可以下下来填本地路径，也可以填一个网络路径（即网址）。
-
-示例代码的网络路径不可用，可用的网址请通过[官网](https://sealyun.com)获取。
 
 完整的过程记录见 [*此链接*](.rec/init/v1.21.12-eg.md) 。
 
@@ -96,7 +97,7 @@ sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --maste
 </pre>
 
 
-但是， `v1.21.12` 有问题，节点持续是 `NotReady` 。
+但是， `v1.21.12` 有问题：节点持续为 `NotReady` 。
 
 问题已经提交了 Issue ，就是开头提到的 [issue-1044](https://github.com/labring/sealos/issues/1044) 。
 
