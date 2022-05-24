@@ -2,7 +2,7 @@
 
 使用它能快速部署一个 Kubernetes 。
 
-## 示例
+## 准备
 
 ### 机器
 
@@ -35,13 +35,38 @@
 
 你需要给 `sealos` 传的参数，只有必要的信息。
 
-#### `v1.21.12`
+命令示例：
 
 ~~~ sh
 : 把你的密码存入一个变量
 read xx # 回车后输入你这多台机器的密码然后再回车结束输入
 
 : 再执行这一条命令就能按照你的参数部署 Kubernetes 了
+sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --master 10.101.100.73 --pkg-url https://sealyun.oss-cn-xx.xxx.com/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-v1.21.12/kube1.21.12.tar.gz --version v1.21.12
+~~~
+
+关于规划：
+
+- 如果节点不足三台，只保留一个 Master 即可，但需要时不时备份 ETCD 。
+- 如果只有三台，建议三台都规划为 Master ，这是高可用最少要有的数量。
+- 如果你有三台以上的节点，建议只用三或五台做 Master ，不需要太多，剩下的都是 Node 就好。
+
+如果规划中没有 Node 或 Node 过少，则需要让一部分或所有 Master 承担 Node 的职能——要允许它们也能被调度 Pod 。具体怎么做，下文会提到。
+
+
+## 示例
+
+这里有两个版本。
+
+已经验证：这两个版本都能顺利安装，但只有 `v1.19.16` 安装后可用。
+
+### `v1.21.12`
+
+该版本可顺利安装，但安装后不可用。详见 [issue-1044](https://github.com/labring/sealos/issues/1044) 。
+
+#### 安装
+
+~~~ sh
 sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --master 10.101.100.73 --pkg-url https://sealyun.oss-cn-xx.xxx.com/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-v1.21.12/kube1.21.12.tar.gz --version v1.21.12
 ~~~
 
@@ -73,20 +98,11 @@ sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --maste
 
 但是， `v1.21.12` 有问题，节点持续是 `NotReady` 。
 
-记录在这里了： https://github.com/labring/sealos/issues/1044
+问题已经提交了 Issue ，就是开头提到的 [issue-1044](https://github.com/labring/sealos/issues/1044) 。
 
-我的两个编辑也同时记录在了这里： [`.issue/labring.sealos.1044.part-note.md`](.issue/labring.sealos.1044.part-note.md)
+我吧其中我编辑的比较重要的内容也记录在了 [*这里*](.issue/labring.sealos.1044.part-note.md) 。
 
-
-#### `v1.19.16`
-
-~~~ sh
-sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --master 10.101.100.73 --pkg-url https://sealyun.oss-cn-xxxxxxx.xxxxxxxx.xxx/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-v1.19.16/kube1.19.16.tar.gz --version v1.19.16
-~~~
-
-完整的过程记录见 [*此链接*](.rec/init/v1.19.16-eg.md) 。
-
-### 卸载
+#### 卸载
 
 删除整个集群：
 
@@ -97,9 +113,32 @@ sealos clean --all
 完整的过程记录见 [*此链接*](.rec/clean-all/v1.21.12-eg.md) 。
 
 
-### 增加 Master 调度
+### `v1.19.16`
 
-我这集群里没有 node ，需要 master 来顶 node 的活：允许 Pod 被往自己身上调度。
+#### 安装
+
+~~~ sh
+sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --master 10.101.100.73 --pkg-url https://sealyun.oss-cn-xxxxxxx.xxxxxxxx.xxx/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-v1.19.16/kube1.19.16.tar.gz --version v1.19.16
+~~~
+
+完整的过程记录见 [*此链接*](.rec/init/v1.19.16-eg.md) 。
+
+#### 卸载
+
+同上，更多可参考帮助文档。
+
+
+
+## 后续工作
+
+你可能需要做的一些：
+
+- 允许对 Master 节点调度。
+- 安装存储类并设置一个默认。
+
+### 允许 Master 调度
+
+我这示例的集群里没有 node ，所以，需要 master 来顶 node 的活：允许 Pod 被往自己身上调度。
 
 可以用 `kubectl describe no 节点名` 查看这个节点的污点：
 
@@ -258,3 +297,8 @@ ref also: https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/implementa
 这个是 `v1.19.x` ，所以仍然是旧的污点名。
 
 上面的几个 ref 是这样搜索到的： `site:kubernetes.io node-role.kubernetes.io/master:NoSchedule` 。
+
+### 存储类
+
+参考 [`openebs-note`](../openebs-note) 。
+
