@@ -47,9 +47,9 @@ sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --maste
 
 密码、地址、离线包、版本号——我只是提供这些，然后就可以了。
 
-离线包可以下下来填本地路径，也可以填一个网络路径（即网址）。
+离线包地址，可以下下来填本地路径，也可以填一个网络路径（即网址）。
 
-示例代码的网络路径不可用，可用的网址请通过[官网](https://sealyun.com)获取。
+示例代码的网址不可用，可用的网址可以通过 [sealyun](https://sealyun.com) 获取。
 
 见到像这样的字样就算安装成了：
 
@@ -82,6 +82,8 @@ sealos init --passwd "$xx" --master 10.101.100.71 --master 10.101.100.72 --maste
 这里有两个版本。
 
 已经验证：这两个版本都能顺利安装，但只有 `v1.19.16` 安装后可用。
+
+需要关注的特性：用 `sealos` 提供的离线包安装的话，从 `v1.20.0` 开始，容器运行时从之前的 `docker` 替换成了 `containerd` 。
 
 ### `v1.21.12`
 
@@ -294,7 +296,7 @@ ref: https://kubernetes.io/zh/docs/concepts/scheduling-eviction/taint-and-tolera
 ref: https://kubernetes.io/zh/docs/reference/labels-annotations-taints/  
 ref also: https://kubernetes.io/zh/docs/reference/setup-tools/kubeadm/implementation-details/  
 
-这个是 `v1.19.x` ，所以仍然是旧的污点名。
+上面成功且可用的示例是 `v1.19.x` 。对于它，仍然使用旧的污点名。
 
 上面的几个 ref 是这样搜索到的： `site:kubernetes.io node-role.kubernetes.io/master:NoSchedule` 。
 
