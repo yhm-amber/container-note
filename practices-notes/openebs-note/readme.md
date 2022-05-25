@@ -20,9 +20,8 @@ helm install --namespace openebs --create-namespace -- openebs openebs/openebs
 
 out:
 
-~~~ text
-NAME: openebs
-LAST DEPLOYED: Tue May  3 13:42:32 2022
+<pre>NAME: openebs
+LAST DEPLOYED: Wed May 25 18:28:10 2022
 NAMESPACE: openebs
 STATUS: deployed
 REVISION: 1
@@ -41,25 +40,25 @@ and Jiva (non-csi) volumes, you will have to run the following command to includ
 the older provisioners:
 
 helm upgrade openebs openebs/openebs \
-        --namespace openebs \
-        --set legacy.enabled=true \
-        --reuse-values
+	--namespace openebs \
+	--set legacy.enabled=true \
+	--reuse-values
 
 For other engines, you will need to perform a few more additional steps to
-enable the engine, configure the engines (e.g. creating pools) and create
-StorageClasses.
+enable the engine, configure the engines (e.g. creating pools) and create 
+StorageClasses. 
 
 For example, cStor can be enabled using commands like:
 
 helm upgrade openebs openebs/openebs \
-        --namespace openebs \
-        --set cstor.enabled=true \
-        --reuse-values
+	--namespace openebs \
+	--set cstor.enabled=true \
+	--reuse-values
 
-For more information,
+For more information, 
 - view the online documentation at https://openebs.io/docs or
 - connect with an active community on Kubernetes slack #openebs channel.
-~~~
+</pre>
 
 ### use `kubectl`
 
