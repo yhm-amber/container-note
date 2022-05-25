@@ -267,7 +267,7 @@ Roles:              <font color="#FF5555"><b>master</b></font>
 <font color="#FF5555"><b>Taints</b></font>:             &lt;none&gt;
 [root@e1 ~]# </pre>
 
-在我的示例里，我需要像这样对三个节点都执行一下这个：
+在我的示例里，我需要像这样对待一下我的三个节点（它们的执行位置在哪个 Master 都一样）：
 
 ~~~~~ sh
 kubectl taint no e1 node-role.kubernetes.io/master:NoSchedule-
