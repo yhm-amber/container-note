@@ -16,9 +16,12 @@ kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3
 kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.2.1/cluster-configuration.yaml
 ~~~
 
-*（如果没有 Kubernetes 集群又暂且不想研究的话，可以用 [`sealos`](https://github.com/fanux/sealos) 这个工具来比较省心地创建一个，[这是我整理的笔记](../sealos-note)。想快速研究 Kubernetes 的话可以看看 [`K8E`](https://github.com/xiaods/k8e) 这个项目的安装说明，或者[看我这里](../rke2-note)动手搞一搞 RKE2 ，这样你就可以明白一个 Kubernetes 可以比较简单地怎样建立，但这个步骤不一定能用所以你可以还是回来用 `sealos` 。）*
+- *可以使用 [`sealos`](https://github.com/fanux/sealos) 比较省心地创建一个 Kubernetes ，如果你有节点却缺一个 Kubernetes 集群的话。[对于它我整理了一些笔记](../sealos-note)。*
+- *想快速了解 Kubernetes 的一些特性的话，可以看看 [`K8E`](https://github.com/xiaods/k8e) 这个项目的安装说明，或者[看我这个笔记](../rke2-note)并动手搞一搞 RKE2 ，这样你就或许就能比较简单地明白一点儿 Kubernetes 的特性。*
 
-*（上面如果网不好从 github.com 下东西失败的话，可以尝试使用 ghproxy 做代理（[这是使用说明](https://ghproxy.com)）。注意，人家这是个个人支撑的免费项目，别用得太过火。）*
+（网络访问的问题请自行解决，总之，下载到这俩 `.yaml` 文件并 `apply` 它们就好。）
+
+（你可以尝试用 [ghproxy](https://ghproxy.com) 解决下载慢的问题。不过，需要注意的是， [ghproxy](https://ghproxy.com) 是一个由个人出钱承担流量等费用并免费对外服务的项目，别过于频繁或大量地使用（特别是别在定时调度的脚本里去用它）。）
 
 ### 检查
 
