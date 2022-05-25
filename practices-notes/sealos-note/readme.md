@@ -267,9 +267,17 @@ Roles:              <font color="#FF5555"><b>master</b></font>
 <font color="#FF5555"><b>Taints</b></font>:             &lt;none&gt;
 [root@e1 ~]# </pre>
 
-另外两个节点也都执行一下 `kubectl taint no e1 node-role.kubernetes.io/master:NoSchedule-` 就好了。
+在我的示例里，我需要像这样对三个节点都执行一下这个：
 
-注意，别漏了那个最后的 `-` ，它表示去掉这样的一项：
+~~~~~ sh
+kubectl taint no e1 node-role.kubernetes.io/master:NoSchedule-
+kubectl taint no e2 node-role.kubernetes.io/master:NoSchedule-
+kubectl taint no e3 node-role.kubernetes.io/master:NoSchedule-
+~~~~~
+
+注意，别漏了那个最后的 `-` 。它表示 `减去` 的意思。
+
+更多关于此：
 
 > 你可以使用命令 kubectl taint 给节点增加一个污点。比如，
 > 
