@@ -16,7 +16,7 @@ kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3
 kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.2.1/cluster-configuration.yaml
 ~~~
 
-- *可以使用 [`sealos`](https://github.com/fanux/sealos) 比较省心地创建一个 Kubernetes ，如果你有节点却缺一个 Kubernetes 集群的话。[对于它我整理了一些笔记](../sealos-note)。*
+- *可以使用 [`sealos`](https://github.com/fanux/sealos) 比较省心地创建一个 Kubernetes ，如果你有哪怕只是一个受你控制的节点、却缺一个 Kubernetes 集群的话。[对于它我整理了一些笔记](../sealos-note)。*
 - *想快速了解 Kubernetes 的一些特性的话，可以看看 [`K8E`](https://github.com/xiaods/k8e) 这个项目的安装说明，或者[看我这个笔记](../rke2-note)并动手搞一搞 RKE2 ，这样你就或许就能比较简单地明白一点儿 Kubernetes 的特性。*
 
 （网络访问的问题请自行解决，总之，下载到这俩 `.yaml` 文件并 `apply` 它们就好。）
