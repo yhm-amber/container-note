@@ -807,4 +807,28 @@ https://kubesphere.io             2022-04-25 17:19:02
 ……真的很简单，而且很直观、安装过程里该有的都有了；根本用不到他们的 `kubekey` 工具……
 
 
+## 问题记录
+
+### 执行看日志命令啥也没有
+
+
+首先，看看 Pod 的状态
+
+~~~ sh
+kubectl get pod -n kubesphere-system
+~~~
+
+如果只有一个 `ks-installer` 开头的，而且它还 Pending 的话，那我猜基本上不是 Kubesphare 的问题，因为这意味着 Kubesphare 都还在娘胎里没生出来呢。
+
+为什么生不出来呢？这就要问问 Kubernetes 了。（这俩名字乍一看还挺像的……长度也一样……）
+
+在我的示例里，我用 `sealos` 只安了仨主，没有从，因为我只有仨节点。到这里为止，一切都还合理，但我没有把任何一个节点的 `NoSchedule` 的 `taint` 给去掉，这就是问题了。
+
+我对我的节点都使用了 `kubectl taint no 节点名 node-role.kubernetes.io/master:NoSchedule-` 效果拔群。
+
+问题就解决了。
+
+（我是 `1.19.x` 版本的 Kubernetes ，所以是这样写。高版本应该不是这样写。可以尝试用搜索引擎（如 [Qwant](https://qwant.com) ）搜索 `site:kubernetes.io node-role.kubernetes.io/master:NoSchedule` 以寻找帮助。）
+
+
 
