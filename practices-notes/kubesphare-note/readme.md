@@ -31,7 +31,9 @@ kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3
 kubectl logs -n kubesphere-system $(kubectl get pod -n kubesphere-system -l app=ks-install -o jsonpath='{.items[0].metadata.name}') -f
 ~~~
 
-它打到最后，成了的话，就会给你打出一个欢迎界面一样的信息。上面有管理员账户的初始密码以及一个可用的访问地址：
+日志内容会流到标准输出。如果还在安装过程，命令会阻塞；如果安装完成，它会一口气输出完然后完成这个命令。
+
+安装完成的话，你会在最后看到一个类似是欢迎界面一样的信息，上面有管理员账户的初始密码以及一个可用的访问地址。这是一个完成安装后，执行上面命令得到的标准输出的最后几十行的内容：
 
 ~~~ text
 TASK [ks-core/prepare : KubeSphere | Initing KubeSphere] ***********************
