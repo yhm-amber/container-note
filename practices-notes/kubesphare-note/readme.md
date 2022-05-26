@@ -84,7 +84,7 @@ https://kubesphere.io             2022-04-25 17:19:02
 
 <details>
 
-<summary>点这里展开看完整内容</summary>
+<summary>点这里展开看示例的完整内容</summary>
 
 ~~~ text
 2022-04-25T17:08:17+08:00 INFO     : shell-operator latest
