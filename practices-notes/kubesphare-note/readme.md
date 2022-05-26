@@ -7,7 +7,7 @@ ref: https://kubesphere.io/zh/docs/quick-start/minimal-kubesphere-on-k8s/
 
 ### 安装
 
-**安装前，务必先搞好一个默认的存储类。可以参考[这里](../openebs-note)。**
+**安装前，务必先搞好一个默认的 StorageClass （存储类）。可以参考[这里](../openebs-note)。**
 
 这就是最简单的安装步骤：
 
@@ -19,7 +19,7 @@ kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3
 - *可以使用 [`sealos`](https://github.com/fanux/sealos) 比较省心地创建一个 Kubernetes ，如果你有哪怕只是一个受你控制的节点、却缺一个 Kubernetes 集群的话。[对于它我整理了一些笔记](../sealos-note)。*
 - *想快速了解 Kubernetes 的一些特性的话，可以看看 [`K8E`](https://github.com/xiaods/k8e) 这个项目的安装说明，或者[看我这个笔记](../rke2-note)并动手搞一搞 RKE2 ，这样你就或许就能比较简单地明白一点儿 Kubernetes 的特性。*
 
-（网络访问的问题请自行解决，总之，下载到这俩 `.yaml` 文件并 `apply` 它们就好。）
+（网络访问的问题请自行解决，总之，下载到这俩 `.yaml` 文件并 `apply` 它们就好。本存储库也[副本了这俩文件](.release/v3.2.1)。）
 
 （你可以尝试用 [ghproxy](https://ghproxy.com) 解决下载慢的问题。不过，需要注意的是， [ghproxy](https://ghproxy.com) 是一个由个人出钱承担流量等费用并免费对外服务的项目，别过于频繁或大量地使用（特别是别在定时调度的脚本里去用它）。）
 
@@ -31,9 +31,56 @@ kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3
 kubectl logs -n kubesphere-system $(kubectl get pod -n kubesphere-system -l app=ks-install -o jsonpath='{.items[0].metadata.name}') -f
 ~~~
 
-它打到最后，成了的话，就会给你打出一个欢迎界面一样的信息。上面有管理员账户的初始密码以及一个可用的访问地址。
+它打到最后，成了的话，就会给你打出一个欢迎界面一样的信息。上面有管理员账户的初始密码以及一个可用的访问地址：
 
-out:
+~~~ text
+TASK [ks-core/prepare : KubeSphere | Initing KubeSphere] ***********************
+changed: [localhost] => (item=role-templates.yaml)
+
+TASK [ks-core/prepare : KubeSphere | Generating kubeconfig-admin] **************
+skipping: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=25   changed=18   unreachable=0    failed=0    skipped=13   rescued=0    ignored=0
+
+Start installing monitoring
+Start installing multicluster
+Start installing openpitrix
+Start installing network
+**************************************************
+Waiting for all tasks to be completed ...
+task network status is successful  (1/4)
+task openpitrix status is successful  (2/4)
+task multicluster status is successful  (3/4)
+task monitoring status is successful  (4/4)
+**************************************************
+Collecting installation results ...
+#####################################################
+###              Welcome to KubeSphere!           ###
+#####################################################
+
+Console: http://10.11.10.100:30880
+Account: admin
+Password: P@88w0rd
+
+NOTES：
+  1. After you log into the console, please check the
+     monitoring status of service components in
+     "Cluster Management". If any service is not
+     ready, please wait patiently until all components
+     are up and running.
+  2. Please change the default password after login.
+
+#####################################################
+https://kubesphere.io             2022-04-25 17:19:02
+#####################################################
+~~~
+
+你看到的最后可能不是这个，那就得再等等。
+
+<details>
+
+<summary>完整的输出内容</summary>
 
 ~~~ text
 2022-04-25T17:08:17+08:00 INFO     : shell-operator latest
@@ -807,7 +854,10 @@ https://kubesphere.io             2022-04-25 17:19:02
 #####################################################
 ~~~
 
-……真的很简单，而且很直观、安装过程里该有的都有了；根本用不到他们的 `kubekey` 工具……
+</details>
+
+
+……真的很简单，而且很直观、安装过程里该有的都有了。也根本用不到他们的 `kubekey` 工具……
 
 
 ## 问题记录
