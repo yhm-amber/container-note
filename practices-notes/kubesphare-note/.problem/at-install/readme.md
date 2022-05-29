@@ -295,4 +295,4 @@ Error from server (NotFound): services "ks-console" not found
 
 **Installer Version**
 
-`https://github.com/kubesphere/ks-installer/releases/download/v3.2.1/kubesphere-installer.yaml`
+[`https://github.com/kubesphere/ks-installer/releases/download/v3.2.1/kubesphere-installer.yaml`](https://github.com/kubesphere/ks-installer/releases/download/v3.2.1/kubesphere-installer.yaml)
