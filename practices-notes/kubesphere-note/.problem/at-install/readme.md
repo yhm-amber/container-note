@@ -63,11 +63,11 @@ https://kubesphere.io             2022-xx-xx xx:xx:xx
 
 But, I'm getting these things now 🤒 : 
 
-![ks-in-logs-xx.png](https://github.com/yhm-amber/container-note/raw/main/practices-notes/kubesphare-note/.problem/at-install/ks-in-logs-xx.png)
+![ks-in-logs-xx.png](https://github.com/yhm-amber/container-note/raw/main/practices-notes/kubesphere-note/.problem/at-install/ks-in-logs-xx.png)
 
 And, by the app Lens , I found that these `redis-ha-haproxy` pods may have some problem : 
 
-![p](https://github.com/yhm-amber/container-note/raw/main/practices-notes/kubesphare-note/.problem/at-install/ks-in-x.png)
+![p](https://github.com/yhm-amber/container-note/raw/main/practices-notes/kubesphere-note/.problem/at-install/ks-in-x.png)
 
 They say `Node is not ready` , but my Kubernetes node is `ready` now ... (so, is the 'node' here may not means kubernetes node ? .... 🤔)
 
