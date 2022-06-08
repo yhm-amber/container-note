@@ -1,7 +1,6 @@
 ref: https://artifacthub.io/packages/helm/ygqygq2/mysql
 
 
-
 ~~~ sh
 helm repo add -- ygqygq2 https://ygqygq2.github.io/charts
 helm pull --untardir ygqygq2 --untar -- ygqygq2/mysql
