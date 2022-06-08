@@ -69,7 +69,7 @@ Nacos can be accessed:
 
 ~~~ sh
 (cd ygqygq2/mysql && helm dependency build) &&
-helm install --namespace mysql --create-namespace -- mysql ygqygq2/mysql
+helm install --namespace mysql --create-namespace --set root.password='123#@!AaA' -- mysql ygqygq2/mysql
 ~~~
 
 <details>
@@ -92,7 +92,7 @@ Saving 1 charts
 Downloading common from repo https://charts.bitnami.com/bitnami
 Deleting outdated charts
 NAME: mysql
-LAST DEPLOYED: Wed Jun  8 15:45:14 2022
+LAST DEPLOYED: Wed Jun  8 16:17:52 2022
 NAMESPACE: mysql
 STATUS: deployed
 REVISION: 1
@@ -133,7 +133,7 @@ To upgrade this helm chart:
   1. Obtain the password as described on the 'Administrator credentials' section and set the 'root.password' parameter as shown below:
 
       ROOT_PASSWORD=$(kubectl get secret --namespace mysql mysql-mysql -o jsonpath="{.data.mysql-root-password}" | base64 --decode)
-      helm upgrade mysql bitnami/mysql --set root.password=$ROOT_PASSWORD
+      helm upgrade mysql bitnami/mysql --set root.password=$R
 ~~~
 
 </details>
