@@ -179,6 +179,8 @@ documentation:
 https://cert-manager.io/docs/usage/ingress/
 ~~~~
 
+see also: https://github.com/cert-manager/cert-manager/issues/4646#issuecomment-1149350807
+
 </details>
 
 
