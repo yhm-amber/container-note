@@ -98,3 +98,88 @@ cmctl check api
 helm --namespace cert-manager delete -- cert-manager
 ~~~
 
+### 一些问题
+
+即便是 `fetch` 下来，也可能由于网络原因不能成功安装。
+
+离线的办法没有，重试的办法有一个：
+
+~~~ sh
+helm fetch jetstack/cert-manager --untar && cd cert-manager &&
+while ! helm install --namespace cert-manager --create-namespace --set installCRDs=true -- cert-manager . ;
+do helm uninstall cert-manager -n cert-manager ; done
+~~~
+
+<details>
+
+<summary>
+stdout/stderr :
+</summary>
+
+~~~~
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+Error: INSTALLATION FAILED: failed post-install: timed out waiting for the condition
+release "cert-manager" uninstalled
+NAME: cert-manager
+LAST DEPLOYED: Wed Jun  8 01:28:05 2022
+NAMESPACE: cert-manager
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+cert-manager v1.8.0 has been deployed successfully!
+
+In order to begin issuing certificates, you will need to set up a ClusterIssuer
+or Issuer resource (for example, by creating a 'letsencrypt-staging' issuer).
+
+More information on the different types of issuers and how to configure them
+can be found in our documentation:
+
+https://cert-manager.io/docs/configuration/
+
+For information on how to configure cert-manager to automatically provision
+Certificates for Ingress resources, take a look at the `ingress-shim`
+documentation:
+
+https://cert-manager.io/docs/usage/ingress/
+~~~~
+
+</details>
+
+
+
