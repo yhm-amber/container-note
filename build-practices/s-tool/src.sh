@@ -1,3 +1,4 @@
+
 dateinner ()
 {
     : dateinner 2020-02-02 2020-03-01 ;
@@ -137,6 +138,17 @@ spring.profiles.active={SERV_PROF_ACTIVE} '
     :;
 } ;
 
+
+: ::::::::: :
+
+installer ()
+{
+    echo "$@" | xargs -n1 | xargs -I {F} -- echo '
+        {F} ()
+        {
+            podman run --rm -i -- s-tool {F} "$@" ;
+        } ' ;
+} ;
 
 : ::::::::: :
 
