@@ -1,3 +1,7 @@
+
+
+# Helm install
+
 ref: [`https://goharbor.io/docs/2.5.0/install-config/harbor-ha-helm`](https://goharbor.io/docs/2.5.0/install-config/harbor-ha-helm)  
 ref: [`https://artifacthub.io/packages/helm/harbor/harbor`](https://artifacthub.io/packages/helm/harbor/harbor)  
 
@@ -46,6 +50,33 @@ For more details, please visit https://github.com/goharbor/harbor
 
 但是我从集群外部真的能访问这个域名解析出来的 IP 地址吗？回头试试吧。
 
-*另外，一开始尝试了一下 rancher 的应用市场，然后那玩意儿莫名其妙地失败了……资源都创建了但应用那边就说自己失败，不知道为啥。。。*
 
+
+
+# Operator install
+
+Harbor 支持使用 Operator 创建实例。
+
+Operator 支持 Helm 部署。
+
+ref: 
+
+- https://github.com/goharbor/harbor-operator/pkgs/container/harbor-operator
+- https://github.com/goharbor/harbor-operator/blob/master/docs/installation/kustomization-all-in-one.md
+- https://github.com/goharbor/harbor-operator/blob/master/docs/installation/by-helm-chart.md
+- https://github.com/goharbor/harbor-operator/tree/master/charts/harbor-operator
+
+需要：
+
+- `Kubernetes` 。
+- [`cert-manager`](../cert-manager-note) 。
+- Ingress controller ，如默认的 [Nginx Ingress](../nginx-ingress-note) 。
+- `kubectl` 。
+- `helm` (v3) 。
+
+安装：
+
+~~~ sh
+
+~~~
 
