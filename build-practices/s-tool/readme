@@ -1,0 +1,23 @@
+
+: build
+
+podman bud -t "$(basename "$PWD")" -f Dockerfile -- .
+
+: install once
+
+eval "$(podman run --rm -- s-tool cat src.sh)"
+
+: list tools
+
+podman run --rm -- s-tool 
+
+: use:
+
+: 'cat | (proptools t XXX=xxx ...)'
+: 'cat | (proptools t XXX=xxx ...) | (proptools d -D " ")'
+: 'cat | (proptools d -D " ") | (proptools t XXX=xxx ...)'
+
+: todo
+
+之后把外面可用的工具都变成 podman/docker run 的使用方式，固定住解释器。
+
