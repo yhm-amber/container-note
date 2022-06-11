@@ -1,23 +1,50 @@
 
 : build
 
-podman bud -t "$(basename "$PWD")" -f Dockerfile -- .
+podman build -t "$(basename "$PWD")" -f Dockerfile -- .
 
-: install once
-
-eval "$(podman run --rm -- s-tool cat src.sh)"
 
 : list tools
 
-podman run --rm -- s-tool 
+podman run --rm -- s-tool
 
-: use:
+: show define of tool dateinner
 
-: 'cat | (proptools t XXX=xxx ...)'
-: 'cat | (proptools t XXX=xxx ...) | (proptools d -D " ")'
-: 'cat | (proptools d -D " ") | (proptools t XXX=xxx ...)'
+podman run --rm -- s-tool declare -f dateinner
+
+: use
+
+cat | podman run --rm -i -- s-tool proptools t XXX=xxx ...
+cat | podman run --rm -i -- s-tool proptools t XXX=xxx ... | podman run --rm -i -- s-tool proptools d -D " "
+cat | podman run --rm -i -- s-tool proptools d -D " " | podman run --rm -i -- s-tool proptools t XXX=xxx ...
+
+
+: install-out once
+
+eval "$(podman run --rm -- s-tool cat src.sh)"
+
+
+: use if install-outed
+
+cat | (proptools t XXX=xxx ...)
+cat | (proptools t XXX=xxx ...) | (proptools d -D " "
+cat | (proptools d -D " ") | (proptools t XXX=xxx ...)
 
 : todo
 
-之后把外面可用的工具都变成 podman/docker run 的使用方式，固定住解释器。
+normal install:
+proptools ()
+{
+    podman run --rm -i -- s-tool proptools "$@" ;
+} ;
+
+installer ()
+{
+    echo "$@" | xargs -n1 | xargs -I {F} -- echo '
+        {F} ()
+        {
+            podman run --rm -i -- s-tool {F} "$@" ;
+        } ' ;
+}
+
 
