@@ -1,50 +1,73 @@
 
-: build
+: build by
 
 podman build -t "$(basename "$PWD")" -f Dockerfile -- .
 
 
+
+
+
+
+
 : list tools
 
-podman run --rm -- s-tool
+podman run --rm -- s-tool declare -F
 
 : show define of tool dateinner
 
 podman run --rm -- s-tool declare -f dateinner
 
-: use
+
+
+
+
+
+
+: use before installed
 
 cat | podman run --rm -i -- s-tool proptools t XXX=xxx ...
 cat | podman run --rm -i -- s-tool proptools t XXX=xxx ... | podman run --rm -i -- s-tool proptools d -D " "
 cat | podman run --rm -i -- s-tool proptools d -D " " | podman run --rm -i -- s-tool proptools t XXX=xxx ...
 
 
-: install-out once
+
+
+: install a tool once by installer such as proptools
+
+eval "$(podman run --rm -- s-tool inataller proptools)"
+
+: use if install by installer
+
+cat | proptools t XXX=xxx ...
+cat | proptools t XXX=xxx ... | proptools d -D " "
+cat | proptools d -D " " | proptools t XXX=xxx ...
+
+
+
+
+: install-out all once
 
 eval "$(podman run --rm -- s-tool cat src.sh)"
-
 
 : use if install-outed
 
 cat | (proptools t XXX=xxx ...)
-cat | (proptools t XXX=xxx ...) | (proptools d -D " "
+cat | (proptools t XXX=xxx ...) | (proptools d -D " ")
 cat | (proptools d -D " ") | (proptools t XXX=xxx ...)
 
-: todo
 
-normal install:
-proptools ()
-{
-    podman run --rm -i -- s-tool proptools "$@" ;
-} ;
 
-installer ()
-{
-    echo "$@" | xargs -n1 | xargs -I {F} -- echo '
-        {F} ()
-        {
-            podman run --rm -i -- s-tool {F} "$@" ;
-        } ' ;
-}
 
+
+
+
+: other
+
+还有别的需要就根据汕头的提示自己举一反三吧。应该也够了。。。
+
+: see help use less is suggested
+
+podman run --rm -- s-tool | less
+
+: 不要把这个 readme 当代码交给 SHell 去执行！！！否则你眼前的东西可能会变得妈都不认识了……
 
