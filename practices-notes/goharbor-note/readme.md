@@ -70,7 +70,7 @@ ref:
 
 - `Kubernetes` 。
 - [`cert-manager`](../cert-manager-note) 。
-- Ingress controller ，如默认的 [Nginx Ingress](../nginx-ingress-note) 。
+- Ingress controller ，如默认的 [Nginx Ingress](../ingress-note#kubernetes-default-nginx-ingress) 。
 - `kubectl` 。
 - `helm` (v3) 。
 
