@@ -49,7 +49,8 @@ cat | podman run --rm -i -- flan-door proptools d -D " " | podman run --rm -i --
 
 : install some toys into an env by installer, such as proptools and metas
 
-eval "$(podman run --rm -- ghcr.io/yhm-amber/flan-door:latest inataller ghcr.io/yhm-amber/flan-door:latest metas proptools)"
+eval "$(podman run --rm -- ghcr.io/yhm-amber/flan-door:latest installer ghcr.io/yhm-amber/flan-door:latest metas proptools)"
+eval "$(podman run --rm -- flan-door installer flan-door metas proptools)"
 
 
 
