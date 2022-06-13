@@ -271,7 +271,7 @@ installer ()
 
 helper ()
 {
-    declare -f -- "$@" ||
+    declare -f -- ''"$@" ||
         cat readme ;
 } &&
 
