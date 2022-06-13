@@ -7,20 +7,27 @@ podman build -t flan-door -f Dockerfile -- .
 
 
 
+: show readme
+
+podman run --rm -- flan-door helper
+podman run --rm -- flan-door helper | less
 
 
-: list tools
+
+
+: list toys
 
 podman run --rm -- flan-door lister
 podman run --rm -- flan-door lister metas dateinner
+podman run --rm -- flan-door metas lister
 
 
 
 
-: show define
+: show toys define
 
-podman run --rm -- flan-door helper dateinner
-podman run --rm -- flan-door metas helper ask_user
+podman run --rm -- flan-door helper metas dateinner
+podman run --rm -- flan-door metas helper ask_user historisch
 
 
 
@@ -37,28 +44,38 @@ cat | podman run --rm -i -- flan-door proptools d -D " " | podman run --rm -i --
 
 
 
-: install a tool once by installer such as proptools
 
-eval "$(podman run --rm -- flan-door inataller proptools)"
 
-: use if install by installer
+
+: install some toys into an env by installer, such as proptools and metas
+
+eval "$(podman run --rm -- ghcr.io/yhm-amber/flan-door:latest inataller ghcr.io/yhm-amber/flan-door:latest metas proptools)"
+
+
+
+: use if installed by installer
 
 cat | proptools t XXX=xxx ...
 cat | proptools t XXX=xxx ... | proptools d -D " "
 cat | proptools d -D " " | proptools t XXX=xxx ...
+metas helper ask_user
 
 
 
 
-: install-out all once
+
+: install-out all into an env
 
 eval "$(podman run --rm -- flan-door cat src.sh)"
+
+
 
 : use if install-outed
 
 cat | (proptools t XXX=xxx ...)
 cat | (proptools t XXX=xxx ...) | (proptools d -D " ")
 cat | (proptools d -D " ") | (proptools t XXX=xxx ...)
+(metas helper ask_user)
 
 
 
@@ -69,10 +86,4 @@ cat | (proptools d -D " ") | (proptools t XXX=xxx ...)
 : other
 
 还有别的需要就根据汕头的提示自己举一反三吧。应该也够了。。。
-
-: see help use less is suggested
-
-podman run --rm -- s-tool | less
-
-: 不要把这个 readme 当代码交给 SHell 去执行！！！否则你眼前的东西可能会变得妈都不认识了……
 
