@@ -7,8 +7,8 @@
 🦷 工具集的实现基于内部环境的原理。
 🤓 这就好比芙兰酱的门被打开然后里面有好多玩具。
 
-🐢 想列出工具请使用 list/,, 命令，
-🐡 想寻求帮助请使用 help/?? 命令。
+🐢 想列出工具请使用 lister/,, 命令： docker run --rm -- flan-door lister
+🐡 想寻求帮助请使用 helper/?? 命令： docker run --rm -- flan-door helper
 
 🐦 你也可以直接查看工作目录中的 readme 文件。
 🦑 玩得愉快！
