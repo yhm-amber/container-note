@@ -1,1 +1,0 @@
-: split -d -b 1024MiB -a 1 -- ../cdh-repo.txz ./cdh-repo.txz.
