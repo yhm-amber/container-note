@@ -1,8 +1,11 @@
 FROM bash
-WORKDIR /s-tool
-COPY readme .
-COPY src.sh .
-RUN ln -s /s-tool/src.sh /etc/profile.d/s-tool.sh
-ENTRYPOINT ["bash", "/s-tool/src.sh"]
 
-CMD ["cat","readme"]
+WORKDIR /flan-doors
+RUN ln -s /flan-doors/src.sh /etc/profile.d/flan-doors.sh
+
+COPY Dockerfile .
+COPY {src.sh,readme} .
+
+ENTRYPOINT ["bash", "/flan-doors/src.sh"]
+
+CMD ["cat","welcome"]
