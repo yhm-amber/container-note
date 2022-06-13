@@ -261,7 +261,7 @@ installer ()
     echo "$@" | xargs -n1 | xargs -I {F} -- echo '
         {F} ()
         {
-            podman run --rm -i -- "$img_name" {F} "$@" ;
+            podman run --rm -i -- '"'$img_name'"' {F} "$@" ;
         } ' ;
 } ;
 
