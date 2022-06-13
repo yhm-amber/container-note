@@ -279,7 +279,7 @@ helper ()
 
 lister ()
 {
-    declare -F -- "$@" ||
+    declare -F -- ''"$@" ||
         declare -F ;
 } &&
 
