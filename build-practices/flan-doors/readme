@@ -1,7 +1,7 @@
 
 : build by
 
-podman build -t "$(basename "$PWD")" -f Dockerfile -- .
+podman build -t flan-door -f Dockerfile -- .
 
 
 
@@ -11,11 +11,16 @@ podman build -t "$(basename "$PWD")" -f Dockerfile -- .
 
 : list tools
 
-podman run --rm -- s-tool declare -F
+podman run --rm -- flan-door lister
+podman run --rm -- flan-door lister metas dateinner
 
-: show define of tool dateinner
 
-podman run --rm -- s-tool declare -f dateinner
+
+
+: show define
+
+podman run --rm -- flan-door helper dateinner
+podman run --rm -- flan-door metas helper ask_user
 
 
 
@@ -25,16 +30,16 @@ podman run --rm -- s-tool declare -f dateinner
 
 : use before installed
 
-cat | podman run --rm -i -- s-tool proptools t XXX=xxx ...
-cat | podman run --rm -i -- s-tool proptools t XXX=xxx ... | podman run --rm -i -- s-tool proptools d -D " "
-cat | podman run --rm -i -- s-tool proptools d -D " " | podman run --rm -i -- s-tool proptools t XXX=xxx ...
+cat | podman run --rm -i -- flan-door proptools t XXX=xxx ...
+cat | podman run --rm -i -- flan-door proptools t XXX=xxx ... | podman run --rm -i -- flan-door proptools d -D " "
+cat | podman run --rm -i -- flan-door proptools d -D " " | podman run --rm -i -- flan-door proptools t XXX=xxx ...
 
 
 
 
 : install a tool once by installer such as proptools
 
-eval "$(podman run --rm -- s-tool inataller proptools)"
+eval "$(podman run --rm -- flan-door inataller proptools)"
 
 : use if install by installer
 
@@ -47,7 +52,7 @@ cat | proptools d -D " " | proptools t XXX=xxx ...
 
 : install-out all once
 
-eval "$(podman run --rm -- s-tool cat src.sh)"
+eval "$(podman run --rm -- flan-door cat src.sh)"
 
 : use if install-outed
 
