@@ -256,10 +256,12 @@ spring.profiles.active={SERV_PROF_ACTIVE} '
 
 installer ()
 {
+    local img_name="$1" && shift 1 &&
+    
     echo "$@" | xargs -n1 | xargs -I {F} -- echo '
         {F} ()
         {
-            podman run --rm -i -- s-tool {F} "$@" ;
+            podman run --rm -i -- "$img_name" {F} "$@" ;
         } ' ;
 } ;
 
