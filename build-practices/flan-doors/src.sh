@@ -1,16 +1,127 @@
+: :::::::::::::::::::::::::::::::::::: :
+: :::: Welcome Into Flandre Doors :::: :
+: :::::::::::::::::::::::::::::::::::: :
+
+
+
+: ::::::::: lib toys ::::::::: :
+
+metas ()
+{
+    : from hmrg-grmh/meta-shells
+    
+    :;
+    
+    ask_user ()
+    {
+        predesc="${1:-Hey 👻}"
+        ask="${2:-what should i ask ???}" &&
+        anss="${3:-[y/n] (:p)}" &&
+        
+        cases="${4:-
+            case \"\$ans\" in 
+                
+                y|\'\') echo 😦 yup\?\? ; break ;; 
+                n) echo 🤔 no\? ; break ;; 
+                *) echo 🤨 ahh\? what is \'\$"{"ans:-:p"}"\' \? ;; esac }" &&
+        
+        
+        echo "$predesc" &&
+        while read -p "$ask $anss " -- ans ;
+        do eval "$cases" ; done ;
+    } &&
+    
+    historisch ()
+    {
+        : '"历史什么也没有做。"'
+        : '"History is did Nothing ."'
+        
+        : ::: 使用例 ::: :;
+        : ::: usage ::: :;
+        
+        : historisch {K} '(f="$(cat -)" && echo "${{K}}" | xargs -i:..{K}..: -- echo "$f") |' 'cat -' K1 K2
+        : historisch {K} '(f="$(cat -)" && echo "${{K}}" | xargs -i:_{K}_: -- echo "$f") |' 'cat -' K1 K2
+        : historisch {} 'local {}="$1" && shift 1 &&' ':' K1 K2
+        
+        
+        
+        : ::: 知识 ::: :;
+        : ::: lib ::: :;
+        
+        test function = "$(type -t histories)" || { echo :: lib err 😅 ; return 231 ; } ;
+        
+        
+        
+        : ::: 应用 ::: :;
+        : ::: run ::: :;
+        
+        
+        
+        eval "$(histories 'local {}="${1}" && shift 1 &&' {} head log tail) :" &&
+        
+        eval "$(histories "$log" "$head" "$@") $tail" &&
+        
+        :;
+    } &&
+    
+    histories ()
+    {
+        : 'Today, is History !!'
+        : 'Today, we Make History !!'
+        : 'and Today, we Are the Part of History !!'
+        
+        : '"历史什么也没有做。"'
+        : '"History is did Nothing ."'
+        
+        : ::: 使用例 ::: :;
+        : ::: usage ::: :;
+        
+        : see commands inner historisch fun define ;
+        
+        : ::: 代码 ::: :;
+        : ::: codes ::: :;
+        
+        local log="${1}" && shift 1 &&
+        local mod="${1}" && shift 1 &&
+        
+        echo "$@" | xargs -n1 | xargs -i"${mod}" -- echo "$log" &&
+        
+        :;
+    } &&
+    
+    
+    
+    : || { 1>&2 echo fun err ; exit 7 ; }
+    
+    :;
+    
+    "$@" ;
+} ;
 
 dateinner ()
 {
     : dateinner 2020-02-02 2020-03-01 ;
     : dateinner 2020-02-02 2020-01-01 ;
+    : dateinner 2020-02-02T10:13:00 2020-02-03 hour %FT%T ;
     
-    local bg_s="$(date -d"$1" +%s)" && shift 1 &&
-    local ed_s="$(date -d"$1" +%s)" && shift 1 &&
+    :;
     
-    seq -- "$bg_s" "$(echo "$ed_s - $bg_s" | bc | tr -d '.|[0-9]')86400" "$ed_s" |
-        xargs -i -P1 -- date -d@'{}' +%F &&
+    local bg_s="$(date -d"$1" -- +%s)" && shift 1 &&
+    local ed_s="$(date -d"$1" -- +%s)" && shift 1 &&
+    
+    local stp="${1}" && shift 1 &&
+    local fmt="${1}" && shift 1 &&
+    
+    : &&
+    
+    local step_to="$(echo "$ed_s - $bg_s" | bc | tr -d '.|[0-9]')" &&
+    local step_len="$(date -d "next ${stp:-day} $(date -d@0 -- +%FT%T%z)" -- +%s)" &&
+    
+    seq -- "$bg_s" "${step_to}${step_len}" "$ed_s" |
+        xargs -i -P1 -- date -d@{} -- +"${fmt:-%F}" &&
     :;
 } ;
+
 
 proptools ()
 {
@@ -139,7 +250,8 @@ spring.profiles.active={SERV_PROF_ACTIVE} '
 } ;
 
 
-: ::::::::: :
+
+: ::::::::: fun toys ::::::::: :
 
 installer ()
 {
@@ -150,6 +262,28 @@ installer ()
         } ' ;
 } ;
 
-: ::::::::: :
+
+
+: ::::::::: man toys ::::::::: :
+
+helper ()
+{
+    declare -f -- "$@" ||
+        cat readme ;
+} &&
+
+?? () { helper "$@" ; } ;
+
+lister ()
+{
+    declare -F -- "$@" ||
+        declare -F ;
+} &&
+
+,, () { lister "$@" ; } ;
+
+
+
+: ::::::::: main run ::::::::: :
 
 "$@" ;
