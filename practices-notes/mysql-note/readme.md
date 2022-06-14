@@ -147,5 +147,6 @@ spec:
    grant all on `{}`.* to "{}"@"%" identified by "{}-P@88w0rd" ; show grants for "{}"@"%" ;
    ~~~~
    
+   当然，这部分行为是不能被 `mysqluser` 的 Kubernetes Kind 追踪并同步的。
 
 
