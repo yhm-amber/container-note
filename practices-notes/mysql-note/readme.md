@@ -1,6 +1,8 @@
 
 # RadonDB note
 
+集群 MySQL 在 Kubernetes 上有几个云原生方案， RadonDB 是其中之一。
+
 ## install by operator
 
 新版本的 RadonDB 只支持使用 Operator 创建实例。
