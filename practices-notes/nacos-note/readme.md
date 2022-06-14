@@ -13,7 +13,7 @@ cd operator/chart/nacos-operator
 helm install -n operators --create-namespace -- nacos-operator .
 ~~~
 
-nacos :
+nacos like this :
 
 ~~~ yaml
 apiVersion: nacos.io/v1alpha1
@@ -35,6 +35,28 @@ spec:
     requests:
       storage: 1Gi
     storageClass: default
+~~~
+
+or like this :
+
+~~~ yaml
+apiVersion: nacos.io/v1alpha1
+kind: Nacos
+metadata:
+  name: nacos-cluster
+  namespace: nacos
+spec:
+  type: cluster
+  image: nacos/nacos-server:1.4.1
+  replicas: 3
+  
+  database:
+    type: mysql
+    mysqlHost: mysql-leader.meta-db.svc.cluster.local
+    mysqlDb: nacos
+    mysqlUser: nacos
+    mysqlPort: "3306"
+    mysqlPassword: "P@88w0rd--nacos"
 ~~~
 
 
