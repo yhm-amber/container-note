@@ -13,7 +13,7 @@ cd operator/chart/nacos-operator
 helm install -n operators --create-namespace -- nacos-operator .
 ~~~
 
-nacos like this :
+nacos resource define like this :
 
 ~~~ yaml
 apiVersion: nacos.io/v1alpha1
