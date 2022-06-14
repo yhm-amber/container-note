@@ -1,7 +1,7 @@
 
 # RadonDB note
 
-## user man
+## user account management
 
 see :
 
