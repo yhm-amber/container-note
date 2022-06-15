@@ -171,7 +171,7 @@ release "hub-harbor" uninstalled
 goharbor_simple_helmer ()
 {
     : demo
-    : goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '.*' '.*' 'adminadmin'
+    : goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '' '.*' 'adminadmin'
     
     
     : :;
@@ -180,8 +180,8 @@ goharbor_simple_helmer ()
     local appname="$1" && shift 1 &&
     local appns="$1" && shift 1 &&
     local port="$1" && shift 1 &&
-    local exname="$1" && shift 1 &&
-    local export="$1" && shift 1 &&
+    local ex_port="$1" && shift 1 &&
+    local ex_name="$1" && shift 1 &&
     local pass="$1" && shift 1 &&
     
     (test ! -z "$appchart" && test ! -z "$appname") || { echo 至少要有前两个参数 ; return 2 ; } ;
@@ -194,13 +194,13 @@ goharbor_simple_helmer ()
         expose.tls.enabled=false
         expose.nodePort.ports.http.nodePort='"${port:-30002}"'
         expose.tls.commonName="{}"
-        externalURL="http://{}:'"${export:-${port:-30002}}"'"
+        externalURL="http://{}'"${ex_port:+:}${ex_port:-}"'"
         harborAdminPassword="'"${pass:-Harbor12345}"'"
         secretKey="not-a-secure-key" ' &&
     
     local prop_sets="$(
         
-        printf %s "${exname:-.*}" |
+        printf %s "${ex_name:-.*}" |
             xargs -0I {} -- echo "${PROP_TEMP:-$prop_tmep}" |
             
             xargs -- echo | tr -- ' ' , )" &&
@@ -214,13 +214,13 @@ goharbor_simple_helmer ()
 </details>
 
 ~~~ sh
-goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '.*' '.*' 'adminadmin'
+goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '' '.*' 'adminadmin'
 ~~~
 
 得到：
 
 ~~~ text
-helm install -n hub --create-namespace --set 'expose.type=nodePort,expose.tls.enabled=false,expose.nodePort.ports.http.nodePort=30002,expose.tls.commonName=.*,externalURL=http://.*:.*,harborAdminPassword=adminadmin,secretKey=not-a-secure-key' -- hub-harbor harbor/harbor
+helm install -n hub --create-namespace --set 'expose.type=nodePort,expose.tls.enabled=false,expose.nodePort.ports.http.nodePort=30002,expose.tls.commonName=.*,externalURL=http://.*,harborAdminPassword=adminadmin,secretKey=not-a-secure-key' -- hub-harbor harbor/harbor
 ~~~
 
 那么
@@ -233,15 +233,15 @@ eval "$(goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '.*' '.*' 'adm
 
 ~~~ text
 NAME: hub-harbor
-LAST DEPLOYED: Wed Jun 15 12:28:22 2022
+LAST DEPLOYED: Wed Jun 15 15:45:49 2022
 NAMESPACE: hub
 STATUS: deployed
 REVISION: 1
 TEST SUITE: None
 NOTES:
 Please wait for several minutes for Harbor deployment to complete.
-Then you should be able to visit the Harbor portal at http://.*:.*
-For more details, please visit https://github.com/goharbor/harbor
+Then you should be able to visit the Harbor portal at http://.*
+For more details, please visit https://github.com/goharbor/
 ~~~
 
 😎😎
