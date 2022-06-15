@@ -159,6 +159,7 @@ release "hub-harbor" uninstalled
 
 - https://github.com/goharbor/harbor-helm/issues/650
 - https://github.com/goharbor/harbor/issues/12396
+- https://github.com/goharbor/harbor/issues/8243
 
 在 `helm` 的提示信息中的 `Then you should be able to visit the Harbor portal at` 后的地址，完全取决于你在 `values.yaml` 里的 `externalURL` 处配了啥。
 
