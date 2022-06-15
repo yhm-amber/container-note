@@ -132,6 +132,27 @@ Then you should be able to visit the Harbor portal at http://10.101.100.81:30002
 For more details, please visit https://github.com/goharbor/harbor
 ~~~
 
+## uninstall
+
+上面最后的示例卸载：
+
+~~~ sh
+helm uninstall hub-harbor -n hub
+~~~
+
+out:
+
+~~~ text
+These resources were kept due to the resource policy:
+[PersistentVolumeClaim] hub-harbor-chartmuseum
+[PersistentVolumeClaim] hub-harbor-jobservice
+[PersistentVolumeClaim] hub-harbor-registry
+
+release "hub-harbor" uninstalled
+~~~
+
+想要完全重装的话记得把卷也删了。
+
 # Operator install
 
 Harbor 支持使用 Operator 创建实例。
