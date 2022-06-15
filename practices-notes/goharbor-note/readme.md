@@ -54,14 +54,83 @@ For more details, please visit https://github.com/goharbor/harbor
 
 根据其 `values.yaml` 中的提示，我又加了这样两个设置来安装：
 
-~~~
-helm install --set expose.type=clusterIP,expose.tls.enabled=false -n hub --create-namespace -- hub harbor/harbor
+~~~ properties
+expose.type=clusterIP
+expose.tls.enabled=false
 ~~~
 
 这样的话，它会自行部署一个 Nginx 对所有服务来代理，而不是使用 Ingress 了，那么我只需要把这个负载对应的 SVC 给变成 NodePort 就好了。
 
 增加上述 `--set` 并不会影响 `helm` 部署时在命令行上的输出。
 
+**但这样仍然存在问题：即便用户名密码输入正确，它也提示错误。**
+
+对此：
+
+- 技术交流群里一个朋友帮我找到了[一个 nodeport 模式的示例](https://kubesphere.com.cn/docs/application-store/built-in-apps/harbor-app/#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)。
+- 同样的解决思路在[这里](https://github.com/goharbor/harbor-helm/issues/75#issuecomment-940080379)也被暗示过。
+
+根据示例，我找到对应配置在 `values.yaml` 中的位置，我发现在 `expose.tls.auto.commonName` 附近有这样的注释：
+
+~~~ yaml
+      # The common name used to generate the certificate, it's necessary
+      # when the type isn't "ingress"
+~~~
+
+这里是测试可用的配置（假设我要通过 `10.101.100.81` 用 nodeport 访问它）：
+
+~~~ properties
+expose.type=nodePort
+expose.tls.enabled=false
+expose.nodePort.ports.http.nodePort=30002
+expose.tls.commonName="10.101.100.81"
+externalURL="http://10.101.100.81:30002"
+harborAdminPassword="Harbor12345"
+secretKey="not-a-secure-key"
+~~~
+
+给它们用逗号分隔并加在 `--set` 后就好。
+
+<details>
+
+<summary>（譬如在 SHell 执行以下这个就能把你的代码打出来）</summary>
+
+~~~~ sh
+harbor_helm_props='
+expose.type=nodePort
+expose.tls.enabled=false
+expose.nodePort.ports.http.nodePort=30002
+expose.tls.commonName="{}"
+externalURL="http://{}:30002"
+harborAdminPassword="Harbor12345"
+secretKey="not-a-secure-key"
+' &&
+
+printf %s 10.101.100.81 | xargs -I {} -- echo "$harbor_helm_props" | (xargs -- echo | tr -- ' ' ,)
+~~~~
+
+</details>
+
+这是我的命令：
+
+~~~ sh
+helm install -n hub --create-namespace --set expose.type=nodePort,expose.tls.enabled=false,expose.nodePort.ports.http.nodePort=30002,expose.tls.commonName=10.101.100.81,externalURL=http://10.101.100.81:30002,harborAdminPassword=Harbor12345,secretKey=not-a-secure-key -- hub-harbor harbor/harbor
+~~~
+
+out:
+
+~~~ text
+NAME: hub-harbor
+LAST DEPLOYED: Wed Jun 15 11:15:57 2022
+NAMESPACE: hub
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+Please wait for several minutes for Harbor deployment to complete.
+Then you should be able to visit the Harbor portal at http://10.101.100.81:30002
+For more details, please visit https://github.com/goharbor/harbor
+~~~
 
 # Operator install
 
