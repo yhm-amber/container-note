@@ -155,6 +155,11 @@ release "hub-harbor" uninstalled
 
 ## more 😎 （🚧施工中🛠️）
 
+**下文要做的就是让 harbor 有多个对外地址，但这个事儿应该还并不能这么做。**
+
+- https://github.com/goharbor/harbor-helm/issues/650
+- https://github.com/goharbor/harbor/issues/12396
+
 在 `helm` 的提示信息中的 `Then you should be able to visit the Harbor portal at` 后的地址，完全取决于你在 `values.yaml` 里的 `externalURL` 处配了啥。
 
 ——如果把 `expose.tls.commonName` 写成 `"_"` 并把 `externalURL` 写成 `"http://_"` 的话，这个完成安装后的提示信息也会跟着变。**而且这样一来你就可以通过任何只要能访问到这个 Harbor 的地址完成登录了！！**
