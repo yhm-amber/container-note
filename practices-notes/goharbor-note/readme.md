@@ -153,11 +153,11 @@ release "hub-harbor" uninstalled
 
 想要完全重装的话记得把卷也删了。
 
-## more 😎
+## more 😎 （🚧施工中🛠️）
 
 在 `helm` 的提示信息中的 `Then you should be able to visit the Harbor portal at` 后的地址，完全取决于你在 `values.yaml` 里的 `externalURL` 处配了啥。
 
-——如果把 `expose.tls.commonName` 写成 `".*"` 并把 `externalURL` 写成 `"http://.*"` 的话，这个完成安装后的提示信息也会跟着变。**而且这样一来你就可以通过任何只要能访问到这个 Harbor 的地址完成登录了！！**
+——如果把 `expose.tls.commonName` 写成 `"_"` 并把 `externalURL` 写成 `"http://_"` 的话，这个完成安装后的提示信息也会跟着变。**而且这样一来你就可以通过任何只要能访问到这个 Harbor 的地址完成登录了！！**
 
 对于配置 `expose.tls.auto.commonName` ，它需要再有一个 `expose.tls.certSource=auto` 才能有配置 `expose.tls.commonName` 的效果。
 
@@ -171,7 +171,7 @@ release "hub-harbor" uninstalled
 goharbor_simple_helmer ()
 {
     : demo
-    : goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '' '.*' 'adminadmin'
+    : goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '' '_' 'adminadmin'
     
     
     : :;
@@ -214,37 +214,37 @@ goharbor_simple_helmer ()
 </details>
 
 ~~~ sh
-goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '' '.*' 'adminadmin'
+goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '' '_' 'adminadmin'
 ~~~
 
 得到：
 
 ~~~ text
-helm install -n hub --create-namespace --set 'expose.type=nodePort,expose.tls.enabled=false,expose.nodePort.ports.http.nodePort=30002,expose.tls.commonName=.*,externalURL=http://.*,harborAdminPassword=adminadmin,secretKey=not-a-secure-key' -- hub-harbor harbor/harbor
+helm install -n hub --create-namespace --set 'expose.type=nodePort,expose.tls.enabled=false,expose.nodePort.ports.http.nodePort=30002,expose.tls.commonName=_,externalURL=http://_,harborAdminPassword=adminadmin,secretKey=not-a-secure-key' -- hub-harbor harbor/harbor
 ~~~
 
 那么
 
 ~~~ sh
-eval "$(goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '.*' '.*' 'adminadmin')"
+eval "$(goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '' '_' 'adminadmin')"
 ~~~
 
 就能得到：
 
 ~~~ text
 NAME: hub-harbor
-LAST DEPLOYED: Wed Jun 15 15:45:49 2022
+LAST DEPLOYED: Wed Jun 15 15:55:48 2022
 NAMESPACE: hub
 STATUS: deployed
 REVISION: 1
 TEST SUITE: None
 NOTES:
 Please wait for several minutes for Harbor deployment to complete.
-Then you should be able to visit the Harbor portal at http://.*
-For more details, please visit https://github.com/goharbor/
+Then you should be able to visit the Harbor portal at http://_
+For more details, please visit https://github.com/goharbor/harbor
 ~~~
 
-😎😎
+。。。
 
 # Operator install
 
