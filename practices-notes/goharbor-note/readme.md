@@ -106,7 +106,7 @@ harborAdminPassword="Harbor12345"
 secretKey="not-a-secure-key"
 ' &&
 
-printf %s 10.101.100.81 | xargs -I {} -- echo "$harbor_helm_props" | (xargs -- echo | tr -- ' ' ,)
+printf %s 10.101.100.81 | xargs -0I {} -- echo "$harbor_helm_props" | (xargs -- echo | tr -- ' ' ,)
 ~~~~
 
 </details>
@@ -152,6 +152,99 @@ release "hub-harbor" uninstalled
 ~~~
 
 想要完全重装的话记得把卷也删了。
+
+## more 😎
+
+在 `helm` 的提示信息中的 `Then you should be able to visit the Harbor portal at` 后的地址，完全取决于你在 `values.yaml` 里的 `externalURL` 处配了啥。
+
+——如果把 `expose.tls.commonName` 写成 `".*"` 并把 `externalURL` 写成 `"http://.*"` 的话，这个完成安装后的提示信息也会跟着变。**而且这样一来你就可以通过任何只要能访问到这个 Harbor 的地址完成登录了！！**
+
+对于配置 `expose.tls.auto.commonName` ，它需要再有一个 `expose.tls.certSource=auto` 才能有配置 `expose.tls.commonName` 的效果。
+
+总的来说，你可能会用到这样的一个工具：
+
+<details>
+
+<summary>代码</summary>
+
+~~~~ sh
+goharbor_simple_helmer ()
+{
+    : demo
+    : goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '.*' '.*' 'adminadmin'
+    
+    
+    : :;
+    
+    local appchart="$1" && shift 1 &&
+    local appname="$1" && shift 1 &&
+    local appns="$1" && shift 1 &&
+    local port="$1" && shift 1 &&
+    local exname="$1" && shift 1 &&
+    local export="$1" && shift 1 &&
+    local pass="$1" && shift 1 &&
+    
+    (test ! -z "$appchart" && test ! -z "$appname") || { echo 至少要有前两个参数 ; return 2 ; } ;
+    
+    :;
+    
+    local prop_tmep='
+        
+        expose.type=nodePort
+        expose.tls.enabled=false
+        expose.nodePort.ports.http.nodePort='"${port:-30002}"'
+        expose.tls.commonName="{}"
+        externalURL="http://{}:'"${export:-${port:-30002}}"'"
+        harborAdminPassword="'"${pass:-Harbor12345}"'"
+        secretKey="not-a-secure-key" ' &&
+    
+    local prop_sets="$(
+        
+        printf %s "${exname:-.*}" |
+            xargs -0I {} -- echo "${PROP_TEMP:-$prop_tmep}" |
+            
+            xargs -- echo | tr -- ' ' , )" &&
+    
+    echo helm install -n "${appns:-default}" --create-namespace --set "'${PROR_SETS:-$prop_sets}'" -- "$appname" "$appchart" &&
+    
+    :;
+} ;
+~~~~
+
+</details>
+
+~~~ sh
+goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '.*' '.*' 'adminadmin'
+~~~
+
+得到：
+
+~~~ text
+helm install -n hub --create-namespace --set 'expose.type=nodePort,expose.tls.enabled=false,expose.nodePort.ports.http.nodePort=30002,expose.tls.commonName=.*,externalURL=http://.*:.*,harborAdminPassword=adminadmin,secretKey=not-a-secure-key' -- hub-harbor harbor/harbor
+~~~
+
+那么
+
+~~~ sh
+eval "$(goharbor_simple_helmer harbor/harbor hub-harbor hub 30002 '.*' '.*' 'adminadmin')"
+~~~
+
+就能得到：
+
+~~~ text
+NAME: hub-harbor
+LAST DEPLOYED: Wed Jun 15 12:28:22 2022
+NAMESPACE: hub
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+Please wait for several minutes for Harbor deployment to complete.
+Then you should be able to visit the Harbor portal at http://.*:.*
+For more details, please visit https://github.com/goharbor/harbor
+~~~
+
+😎😎
 
 # Operator install
 
