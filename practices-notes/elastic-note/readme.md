@@ -31,6 +31,20 @@ NOTES:
   $ helm --namespace=elasticsearch test elasticsearch
 ~~~~
 
+<details>
+
+<summary>（它这个提示信息有点问题， `NOTES` 部分按说应该是这样。。。）</summary>
+
+~~~~
+NOTES:
+1. Watch all cluster members come up.
+  $ kubectl get pods --namespace=elasticsearch -l app=elasticsearch-master -w
+2. Test cluster health using Helm test.
+  $ helm --namespace=elasticsearch test elasticsearch
+~~~~
+
+</details>
+
 ### operator
 
 用 operator 创建实例的方式部署，适用于需要灵活创建不通 ES 资源的场景。
