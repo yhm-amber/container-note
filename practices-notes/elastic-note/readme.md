@@ -1,10 +1,51 @@
 
-## install the operator by helm
+## install eck
 
-ref: https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-install-helm.html
-ref-src: https://github.com/elastic/cloud-on-k8s/tree/main/docs/operating-eck
+
+
+### repo
 
 ~~~~
-
+helm repo add -- elastic https://helm.elastic.co
 ~~~~
+
+### app
+
+ref: https://artifacthub.io/packages/helm/elastic/elasticsearch
+
+~~~ sh
+helm install -n elasticsearch --create-namespace -- elasticsearch elastic/elasticsearch
+~~~
+
+### operator
+
+refs :
+- ref: https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-install-helm.html
+- ref-src: https://github.com/elastic/cloud-on-k8s/tree/main/docs/operating-eck
+- ref-a: https://artifacthub.io/packages/helm/elastic/eck-operator
+- ref-o: https://operatorhub.io/operator/elastic-cloud-eck
+
+
+`eck-operator` ：可以用选项控制是否一起安装 `eck-operator-crds` 。
+`eck-operator-crds` ：用来单独安装 CRDs 。
+
+全局安装：
+
+~~~ sh
+helm install -n elastic-system --create-namespace -- elastic-operator elastic/eck-operator
+~~~
+
+局部安装，这样可以把 operator 限制在预定义命名空间里；其中 CRD 和 CRD 以外的部分分别安装：
+
+~~~ sh
+helm install -n elastic-system --create-namespace -- elastic-operator-crds elastic/eck-operator-crds
+helm install -n elastic-system --create-namespace \
+  --set installCRDs=false,managedNamespaces='{namespace-a, namespace-b}' \
+  --set createClusterScopedResources=false,webhook.enabled=false,config.validateStorageClass=false \
+  -- elastic-operator elastic/eck-operator
+~~~
+
+别的选项的使用见参考（ ref ）页面。
+
+然后可以基于这个里面的例子创建实例： https://operatorhub.io/operator/elastic-cloud-eck
 
