@@ -57,7 +57,7 @@ out:
 
 ~~~
 NAME: kibana
-LAST DEPLOYED: Fri Jun 17 16:11:15 2022
+LAST DEPLOYED: Fri Jun 17 16:16:48 2022
 NAMESPACE: kibana
 STATUS: deployed
 REVISION: 1
