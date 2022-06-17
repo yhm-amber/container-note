@@ -9,7 +9,7 @@
 helm repo add -- elastic https://helm.elastic.co
 ~~~~
 
-### app
+### `elasticsearch`
 
 ref: https://artifacthub.io/packages/helm/elastic/elasticsearch
 
@@ -45,7 +45,27 @@ NOTES:
 
 </details>
 
-### operator
+### `kubana`
+
+~~~ sh
+helm install -n elasticsearch --create-namespace \
+    --set elasticsearchHosts=http://elasticsearch-master.elasticsearch.svc.cluster.local:9200 \
+    -- kibana elastic/kibana
+~~~
+
+out:
+
+~~~
+NAME: kibana
+LAST DEPLOYED: Fri Jun 17 16:11:15 2022
+NAMESPACE: elasticsearch
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+~~~
+
+
+### `operator`
 
 用 operator 创建实例的方式部署，适用于需要灵活创建不通 ES 资源的场景。
 
