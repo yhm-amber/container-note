@@ -65,6 +65,20 @@ refs :
 helm install -n elastic-system --create-namespace -- elastic-operator elastic/eck-operator
 ~~~
 
+out:
+
+~~~
+NAME: elastic-operator
+LAST DEPLOYED: Fri Jun 17 16:03:16 2022
+NAMESPACE: elastic-system
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+1. Inspect the operator logs by running the following command:
+   kubectl logs -n elastic-system sts/elastic-operator
+~~~
+
 局部安装，这样可以把 operator 限制在预定义命名空间里；其中 CRD 和 CRD 以外的部分分别安装：
 
 ~~~ sh
