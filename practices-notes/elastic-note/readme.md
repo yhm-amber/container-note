@@ -49,7 +49,7 @@ NOTES:
 
 ~~~ sh
 helm install -n kibana --create-namespace \
-    --set elasticsearchHosts=http://elasticsearch-master.elasticsearch.svc.cluster.local:9200 \
+    --set elasticsearchHosts=http://elasticsearch-master-headless.elasticsearch.svc.cluster.local:9200 \
     -- kibana elastic/kibana
 ~~~
 
