@@ -45,10 +45,10 @@ NOTES:
 
 </details>
 
-### `kubana`
+### `kibana`
 
 ~~~ sh
-helm install -n elasticsearch --create-namespace \
+helm install -n kibana --create-namespace \
     --set elasticsearchHosts=http://elasticsearch-master.elasticsearch.svc.cluster.local:9200 \
     -- kibana elastic/kibana
 ~~~
@@ -58,7 +58,7 @@ out:
 ~~~
 NAME: kibana
 LAST DEPLOYED: Fri Jun 17 16:11:15 2022
-NAMESPACE: elasticsearch
+NAMESPACE: kibana
 STATUS: deployed
 REVISION: 1
 TEST SUITE: None
