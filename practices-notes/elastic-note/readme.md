@@ -17,7 +17,23 @@ ref: https://artifacthub.io/packages/helm/elastic/elasticsearch
 helm install -n elasticsearch --create-namespace -- elasticsearch elastic/elasticsearch
 ~~~
 
+out:
+
+~~~~
+NAME: elasticsearch
+LAST DEPLOYED: Fri Jun 17 11:59:45 2022
+NAMESPACE: elasticsearch
+STATUS: deployed
+REVISION: 1
+NOTES:
+1. Watch all cluster members come up.
+  $ kubectl get pods --namespace=elasticsearch -l app=elasticsearch-master -w2. Test cluster health using Helm test.
+  $ helm --namespace=elasticsearch test elasticsearch
+~~~~
+
 ### operator
+
+用 operator 创建实例的方式部署，适用于需要灵活创建不通 ES 资源的场景。
 
 refs :
 - ref: https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-install-helm.html
