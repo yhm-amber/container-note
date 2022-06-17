@@ -70,7 +70,9 @@ TEST SUITE: None
 
 ### `operator`
 
-用 operator 创建实例的方式部署，适用于需要灵活创建不通 ES 资源的场景。
+用 operator 创建实例的方式部署，适用于需要灵活创建不同 ES 资源的场景。
+
+目前，上面那俩的安装没有依赖这里创建的 CRD ，所以如果创几个就够了的话，这个 operator 的方式其实不必要。
 
 refs :
 - ref: https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-install-helm.html
@@ -114,5 +116,5 @@ helm install -n elastic-system --create-namespace \
 
 别的选项的使用见参考（ ref ）页面。
 
-然后可以基于这个里面的例子创建实例： https://operatorhub.io/operator/elastic-cloud-eck
+然后可以基于这个里面的【 Custom Resource Definitions 】的例子创建你需要的实例吧： https://operatorhub.io/operator/elastic-cloud-eck
 
