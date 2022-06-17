@@ -47,6 +47,8 @@ NOTES:
 
 ### `kibana`
 
+要配一个 es 的地址，别的没啥。
+
 ~~~ sh
 helm install -n kibana --create-namespace \
     --set elasticsearchHosts=http://elasticsearch-master-headless.elasticsearch.svc.cluster.local:9200 \
@@ -64,6 +66,7 @@ REVISION: 1
 TEST SUITE: None
 ~~~
 
+然后服务里面会有一个开放 `5901` 端口的服务。你也可以自己再创一个 `nodeport` 吧这个端口放出去。
 
 ### `operator`
 
