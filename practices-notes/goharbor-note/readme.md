@@ -252,6 +252,10 @@ For more details, please visit https://github.com/goharbor/harbor
 
 。。。
 
+## HA
+
+ref: https://tuxnotes.github.io/2021/09/02/Harbor-HA.html
+
 # Operator install
 
 Harbor 支持使用 Operator 创建实例。
