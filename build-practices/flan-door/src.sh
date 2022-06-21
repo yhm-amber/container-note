@@ -401,8 +401,10 @@ targeto ()
         local tgtdir_name="$1" && shift 1 &&
         
         
+        echo ; echo  :::::::: :: :::::::: :: :::::::: :: ::::::::
         echo  img: "'$image_name'"
         echo  usage: docker run --rm -v volume-"'$image_name'":"'/${image_name}/${tgtdir_name}'" -- "'$image_name'"
+        echo  then: You have your aim things in your volume now 🦾！ ; echo
     } &&
     
     x ()
