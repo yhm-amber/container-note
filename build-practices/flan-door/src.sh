@@ -316,7 +316,7 @@ targeto ()
         {
             echo  FROM alpine
             
-            echo  RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
+            echo  RUN sed -i '"s/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g"' /etc/apk/repositories
             echo  RUN apk --no-cache add -- bash tar zstd
             
             echo  WORKDIR /"$IMG_NAME"
@@ -337,7 +337,7 @@ targeto ()
         
         IMG_NAME="$image_name" DIR_AIM="$tgtdir_name" DIR_AIMS=$(
             
-            F='(NF+1)"\""$2"\""' rtb "$@" &&
+            F='(NF+1)"./\""$2"\""' rtb "$@" &&
             
             : ) DIR_PAIRS="$*" dockerfile_echos &&
         
