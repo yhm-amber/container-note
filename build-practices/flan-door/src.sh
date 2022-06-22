@@ -297,23 +297,34 @@ dbtoys ()
     
     row_table ()
     {
-        : row_table /opt/sdk:/opt/sdk $PWD/app:/opt/app
+        : row_table : /opt/sdk:/opt/sdk $PWD/app:/opt/app
         : get: /opt/sdk /opt/sdk'<br>'$PWD/app /opt/app
         
-        : F=1 row_table /opt/sdk:/opt/sdk $PWD/app:/opt/app
+        : F=1 row_table : /opt/sdk:/opt/sdk $PWD/app:/opt/app
         : get: /opt/sdk'<br>'$PWD/app
         
-        : W=app row_table /opt/sdk:/opt/sdk $PWD/app:/opt/app
+        : F=1 row_table , /opt/sdk,/opt/sdk $PWD/app,/opt/app
+        : get: /opt/sdk'<br>'$PWD/app
+        
+        : W=app row_table : /opt/sdk:/opt/sdk $PWD/app:/opt/app
         : get: $PWD/app /opt/app
         
-        : W=app F='(NF+1)"mv","from/"$1,"to/"$2' row_table /opt/sdk:/opt/sdk /xxx/app:/opt/app
+        : W=app F='(NF+1)"mv","from/"$1,"to/"$2' row_table : /opt/sdk:/opt/sdk /xxx/app:/opt/app
         : get: mv from//xxx/app to//opt/app
+        
+        : in dbtoys, plz use like
+        : F=1 dbtoys row_table , /opt/sdk,/opt/sdk $PWD/app,/opt/app
+        : or like
+        : dbtoys eval F=1 row_table , /opt/sdk,/opt/sdk $PWD/app,/opt/app
+        
         
         :;
         
+        local sp="$1" && shift 1 &&
+        
         for pair in "$@" ;
         do
-            echo "$pair" | tr : ' ' ;
+            echo "$pair" | tr "$sp" ' ' ;
         done |
             
             awk /"$W"/'{print$'"${F:-0}"'}' &&
