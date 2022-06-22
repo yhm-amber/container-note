@@ -65,6 +65,8 @@ spec:
 
 ref: https://github.com/nacos-group/nacos-k8s/tree/master/helm#configuration
 
+这个最终结果和上面的创建实例，会不太一样。启动失败的容器不会显示为正常运行，而是正确地显示为未就绪。
+
 need values:
 
 ~~~ properties
