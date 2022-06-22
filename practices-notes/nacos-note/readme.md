@@ -23,7 +23,7 @@ metadata:
   namespace: nacos
 spec:
   type: cluster
-  image: nacos/nacos-server:1.4.1
+  # image: nacos/nacos-server:1.4.1
   replicas: 3
   
   database:
@@ -47,7 +47,7 @@ metadata:
   namespace: nacos
 spec:
   type: cluster
-  image: nacos/nacos-server:1.4.1
+  # image: nacos/nacos-server:1.4.1
   replicas: 3
   
   database:
