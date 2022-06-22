@@ -159,7 +159,7 @@ NOTES:
 
 像上面的示例这样配置外部数据库的话，会有没有数据库的错误，即便可以从外部连接： https://github.com/alibaba/nacos/issues/6886  
 
-猜测是因为数据库空着。但我认为这个应该空着，要建什么表应当是 `nacos` 开发去规定的。
+如果为 Nacos 准备的数据库里没有表，也会导致这个错误。
 
 我在我的 `nacos` 数据库应用了 [`distribution/conf/nacos-mysql.sql`](https://github.com/alibaba/nacos/blob/2.0.3/distribution/conf/nacos-mysql.sql) 里面 的SQL ，就没什么问题了。
 
@@ -393,3 +393,16 @@ INSERT INTO roles (username, role) VALUES ('nacos', 'ROLE_ADMIN');
 ~~~
 
 </details>
+
+。。。
+
+但，我认为我为 Nacos 创建的数据库，应当就是空着的，然后 Nacos 看我指定的数据库是空的，就会自行在其中做必要的 `source nacos-mysql.sql` 。
+
+我找了一下， `nacos/nacos-server:2.0.3` 的镜像内，并没有 `nacos-mysql.sql` 这个文件，但是在 Release 的压缩包和源码中都可以找到这个文件。
+
+这意味着， Nacos 并没有被赋予在自己被指定的 database 中自动初始化 MySQL 表的能力。
+
+但我认为这是需要有的能力。所以，这依然是一个问题，至少在 `2.0.3` 版本存在这个问题，我只是找到了手动修复的途径罢了。
+
+希望在未来版本的 Helm 或 Operator 部署中可以为 Nacos 增加自动初始化外部数据库的能力：只要那个库是空的，就要执行初始化（这应该会需要用到至少一个 Init Container 吧）；如果被指定的目标库不为空但是缺少表，也最好明确报错出还缺少什么表、或什么表结构不正确，而不是像现在这样，在显眼位置的有用的信息只有一个 `No DataSource set` 而已。
+
