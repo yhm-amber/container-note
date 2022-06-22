@@ -406,3 +406,5 @@ INSERT INTO roles (username, role) VALUES ('nacos', 'ROLE_ADMIN');
 
 希望在未来版本的 Helm 或 Operator 部署中可以为 Nacos 增加自动初始化外部数据库的能力：只要那个库是空的，就要执行初始化（这应该会需要用到至少一个 Init Container 吧）；如果被指定的目标库不为空但是缺少表，也最好明确报错出还缺少什么表、或什么表结构不正确，而不是像现在这样，在显眼位置的有用的信息只有一个 `No DataSource set` 而已。
 
+（感谢 [`Evasi0n (@wangjiandev(9983583))`](https://github.com/wangjiandev) 提出的 [issue](https://github.com/alibaba/nacos/issues/6886) 👍。）
+
