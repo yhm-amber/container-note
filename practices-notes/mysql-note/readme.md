@@ -142,6 +142,12 @@ spec:
    
    替代远程 `root` 的超级用户目前是像这样创建： https://github.com/radondb/radondb-mysql-kubernetes/issues/182
    
+   或者这样或许也行：
+   
+   ~~~~ mysql
+   grant all privileges on *.* to 'dev'@'%' identified by 'P@88w0rd--dev' with grant option ;
+   ~~~~
+   
 2. 上述对非内置用户没有关系，也就是说我还是可以用这样的模板创建用户和库：
    
    ~~~~ mysql
