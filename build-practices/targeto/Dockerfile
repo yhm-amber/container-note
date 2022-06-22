@@ -10,4 +10,4 @@ COPY Dockerfile src.sh ./
 ENTRYPOINT ["bash","src.sh"]
 CMD ["cat","welcome"]
 
-COPY welcome ./
+COPY readme welcome ./
