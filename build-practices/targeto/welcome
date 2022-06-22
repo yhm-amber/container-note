@@ -2,7 +2,12 @@
 🦾 likely by the tool set `flan-door` 🦾
 
 : Install (once)
-eval "$(docker run --rm -- targeto installer targeto targeto zstd)"
+
+eval "
+    $(docker run --rm -- targeto cat src.sh)
+    $(docker run --rm -- targeto installer targeto tar zstd)
+    : "
+
 
 : Usage
 docker run --rm -- targeto cat readme
