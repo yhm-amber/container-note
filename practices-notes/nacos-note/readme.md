@@ -161,3 +161,5 @@ NOTES:
 
 猜测是因为数据库空着。但我认为这个应该空着，要建什么表应当是 `nacos` 开发去规定的。
 
+我在我的 `nacos` 数据库应用了 [`distribution/conf/nacos-mysql.sql`](https://github.com/alibaba/nacos/blob/2.0.3/distribution/conf/nacos-mysql.sql) 里面 的SQL ，就没什么问题了。（我这个是切换 tag 到版本 `2.0.3` 了，你们谁需要的话注意切到对应的 tag 版本上。）
+
