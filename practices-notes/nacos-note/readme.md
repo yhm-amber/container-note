@@ -155,4 +155,9 @@ NOTES:
    cluster: kubectl scale sts nacos-yourns-nacos --replicas=3
 ~~~~
 
+## 现存错误
+
+像上面的示例这样配置外部数据库的话，会有没有数据库的错误，即便可以从外部连接： https://github.com/alibaba/nacos/issues/6886  
+
+
 
