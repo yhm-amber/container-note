@@ -1,4 +1,18 @@
 
+## helm way
+
+ref: https://artifacthub.io/packages/helm/bitnami/redis  
+ref: https://github.com/bitnami/charts/tree/master/bitnami/redis  
+ref: https://github.com/bitnami/bitnami-docker-redis  
+
+~~~ sh
+helm repo add -- bitnami https://charts.bitnami.com/bitnami
+~~~
+
+~~~ sh
+mkdir -p -- bitnami && (cd bitnami && helm pull --untar -- bitnami/redis)
+~~~
+
 ## operator way
 
 ref: https://ot-container-kit.github.io/redis-operator/  
