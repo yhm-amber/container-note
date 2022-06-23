@@ -11,6 +11,7 @@ helm repo add -- bitnami https://charts.bitnami.com/bitnami
 
 ~~~ sh
 mkdir -p -- bitnami && (cd bitnami && helm pull --untar -- bitnami/redis)
+helm install -n redis-yourns --create-namespace --set global.redis.password=redis-pass -- redis-bitnami bitnami/redis
 ~~~
 
 ## operator way
