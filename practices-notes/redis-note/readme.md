@@ -11,7 +11,21 @@ helm repo add -- bitnami https://charts.bitnami.com/bitnami
 
 ~~~ sh
 mkdir -p -- bitnami && (cd bitnami && helm pull --untar -- bitnami/redis)
-helm install -n redis-yourns --create-namespace --set global.redis.password=redis-pass -- redis-bitnami bitnami/redis
+helm install -n redis-yourns --create-namespace --set $(
+    
+    echo '
+        
+        global.redis.password=redis-pass
+        global.storageClass=""
+        
+        image.registry=docker.io
+        image.repository=bitnami/redis
+        image.tag=6.2.7-debian-11-r0
+        image.pullSecrets=[]
+        
+        ' | xargs -i -- printf %s, {} | xargs -d, | tr ' ' , &&
+    
+    : ) -- redis-bitnami bitnami/redis
 ~~~
 
 ## operator way
