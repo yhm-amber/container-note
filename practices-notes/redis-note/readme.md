@@ -2,8 +2,8 @@
 ## operator way
 
 ref: https://ot-container-kit.github.io/redis-operator/  
-ref: https://github.com/ot-container-kit/redis-operator
-ref: https://operatorhub.io/operator/redis-operator
+ref: https://github.com/ot-container-kit/redis-operator  
+ref: https://operatorhub.io/operator/redis-operator  
 
 ~~~ sh
 helm repo add -- ot-helm https://ot-container-kit.github.io/helm-charts
@@ -11,7 +11,8 @@ helm repo add -- ot-helm https://ot-container-kit.github.io/helm-charts
 
 ## install operator
 
-ref: https://ot-container-kit.github.io/redis-operator/guide/installation.html
+ref: https://ot-container-kit.github.io/redis-operator/guide/setup.html  
+ref: https://ot-container-kit.github.io/redis-operator/guide/installation.html  
 
 you may need :
 - https://github.com/OT-CONTAINER-KIT/helm-charts.git
@@ -36,7 +37,7 @@ TEST SUITE: None
 
 ## create cluster
 
-ref: https://ot-container-kit.github.io/redis-operator/guide/redis-cluster-config.html
+ref: https://ot-container-kit.github.io/redis-operator/guide/redis-cluster-config.html  
 
 you may need :
 - https://github.com/OT-CONTAINER-KIT/helm-charts.git
