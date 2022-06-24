@@ -9,7 +9,7 @@
 targeto ()
 {
     : demo
-    : targeto gettor img-name /opt/sdk:/opt/sdk $PWD/app:/opt/app
+    : targeto gettor pkg/disc img-name /opt/sdk:/opt/sdk $PWD/app:/opt/app
     
     : should
     : get a oci img include tar.xz/zst
@@ -24,6 +24,8 @@ targeto ()
     {
         :;
         
+        
+        local tgt_type="$1" && shift 1 &&
         local image_name="$1" && shift 1 &&
         
         
@@ -33,7 +35,7 @@ targeto ()
             cd "$image_name" &&
             
             
-            d "$image_name" .tgt "$@" > Dockerfile &&
+            d "$image_name" "$tgt_type" "$@" > Dockerfile &&
             s targeto > src.sh &&
             
             c $(F=1 rtb "$@") > "$image_name".tar.zst &&
@@ -43,7 +45,7 @@ targeto ()
             
             : ) &&
         
-        o "$image_name" .tgt &&
+        o "$image_name" "$tgt_type" &&
         
         :;
         
@@ -52,17 +54,17 @@ targeto ()
     
     d ()
     {
-        : d img-name tgtdir-name /opt/sdk:/opt/sdk $PWD/app:/opt/app
+        : d img-name tgt/disc /opt/sdk:/opt/sdk $PWD/app:/opt/app
         
         :;
         
         local image_name="$1" && shift 1 &&
-        local tgtdir_name="$1" && shift 1 &&
+        local tgt_type="$1" && shift 1 &&
         
         
         
         
-        dockerfile_echos ()
+        dockerfile_echos_pkg ()
         {
             echo  FROM targeto
             
@@ -72,21 +74,40 @@ targeto ()
             echo  COPY "$IMG_NAME".tar.zst ./
             
             echo  ENV DIR_PAIRS="'$DIR_PAIRS'"
-            echo  RUN mkdir "$DIR_AIM" '&&' cd "$DIR_AIM" '&&' mkdir -p -- $DIR_AIMS
+            echo  RUN mkdir .pkg '&&' cd .pkg '&&' mkdir -p -- $DIR_AIMS
             
             echo  ENTRYPOINT '["bash","src.sh"]'
-            echo  CMD '["targeto","x","'"$IMG_NAME"'.tar.zst","'"$DIR_AIM"'"]'
+            echo  CMD '["targeto","x","pkg","'"$IMG_NAME"'.tar.zst"]'
+            
+            :;
+            
+        } &&
+        
+        dockerfile_echos_disc ()
+        {
+            echo  FROM targeto
+            
+            echo  WORKDIR /"$IMG_NAME"
+            
+            echo  COPY Dockerfile src.sh ./
+            echo  COPY "$IMG_NAME".tar.zst ./
+            
+            echo  ENV DIR_PAIRS="'$DIR_PAIRS'"
+            echo  RUN mkdir .disc
+            
+            echo  ENTRYPOINT '["bash","src.sh"]'
+            echo  CMD '["targeto","x","disc","'"$IMG_NAME"'.tar.zst"]'
             
             :;
             
         } &&
         
         
-        IMG_NAME="$image_name" DIR_AIM="$tgtdir_name" DIR_AIMS=$(
+        IMG_NAME="$image_name" DIR_PAIRS="$*" DIR_AIMS=$(
             
             F='(NF+1)"./\""$2"\""' rtb "$@" &&
             
-            : ) DIR_PAIRS="$*" dockerfile_echos &&
+            : ) dockerfile_echos_"$tgt_type" &&
         
         :;
         
@@ -109,7 +130,7 @@ targeto ()
         
     } &&
     
-    c ()
+    c () # need type.
     {
         : c /opt/sdk xxx/app
         
@@ -140,31 +161,31 @@ targeto ()
     
     o ()
     {
-        : o img-name tgtdir-name
+        : o img-name pkg/disc
         
         :;
         
         local image_name="$1" && shift 1 &&
-        local tgtdir_name="$1" && shift 1 &&
+        local tgt_type="$1" && shift 1 &&
         
         
         echo ; echo  :::::::: :: :::::::: :: :::::::: :: ::::::::
         echo  img: "'$image_name'"
-        echo  usage: docker run --rm -v volume-"'$image_name'":"'/${image_name}/${tgtdir_name}'" -- "'$image_name'"
-        echo  then: You have your aim things in your volume now 🦾！ ; echo
+        echo  usage: docker run --rm -v volume-"'$image_name'":"'/${image_name}/.${tgt_type}'" -- "'$image_name'"
+        echo  then: You have your things in your volume now 🦾！ ; echo
     } &&
     
     x ()
     {
-        : x img-name.tar.zst target-dir
+        : x pkg/disc img-name.tar.zst
         
         : xz: -c, --stdout, --to-stdout
         : xz: -d, --decompress, --uncompress
         
         :;
         
+        local tgt_type="$1" && shift 1 &&
         local xzfile="$1" && shift 1 &&
-        local tgtdir="$1" && shift 1 &&
         
         (
             mkdir -p -- from ;
@@ -180,7 +201,7 @@ targeto ()
         
         eval "$(
             
-            F='(NF+1)"mv","from/\""$1"\"","'"$tgtdir"'/\""$2"\""' rtb $DIR_PAIRS &&
+            F='(NF+1)"mv","from/\""$1"\"","'".$tgt_type"'/\""$2"\""' rtb $DIR_PAIRS &&
             
             : )" &&
         
