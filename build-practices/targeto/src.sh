@@ -40,8 +40,8 @@ targeto ()
             
             : as
             
-            : gettor sdk /opt/sdk:.
-            : gettor app $PWD/app:.
+            : gettor disc-sdk /opt/sdk:.
+            : gettor disc-app $PWD/app:.
             
             :;
             
