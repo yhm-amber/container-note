@@ -181,6 +181,7 @@ targeto ()
         local image_name="$1" && shift 1 &&
         local tgtdir_name="$1" && shift 1 &&
         
+        local X_MSG="$X_MSG" &&
         
         
         
