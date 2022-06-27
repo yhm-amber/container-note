@@ -21,7 +21,16 @@ docker run --rm -v foo-foo-v:/foo-foo/.tgt -- foo-foo
 : and you can use this `foo-foo` as ...
 : such as `init container` in Kubernetes pods . 🦝
 
-: :::: :::: :
+: :::: :::: :: :::: :::: :
+
+: and you can also
+targeto gettor _disc /opt/sdk:sdk:/opt/sdk $PWD/app:app:/opt/app
+
+: it is seems like
+targeto gettor sdk /opt/sdk/*:.
+targeto gettor app $PWD/app/*:.
+
+: :::: :::: :: :::: :::: :
 
 : 简单讲讲
 

@@ -25,6 +25,27 @@ targeto ()
         
     :;
     
+    try ()
+    {
+        t ()
+        {
+            : t function f_name
+            : t xxx xxx_name
+            
+            :;
+            
+            local t="$1" && shift 1 &&
+            local n="$1" && shift 1 &&
+            
+            test "$(type -t -- "$n")" == "$t" &&
+            
+            :;
+        } &&
+        
+        "$@" ;
+    } ;
+    
+    :;
     
     gettor ()
     {
@@ -40,8 +61,8 @@ targeto ()
             
             : as
             
-            : gettor disc-sdk /opt/sdk:.
-            : gettor disc-app $PWD/app:.
+            : gettor disc-sdk /opt/sdk/*:.
+            : gettor disc-app $PWD/app/*:.
             
             :;
             
@@ -55,7 +76,9 @@ targeto ()
                 local disc_name="$1" && shift 1 &&
                 local disc_for="$1" && shift 1 &&
                 
-                gettor disc-"$disc_name" "$disc_dir":.
+                DIR_PAIRS_MSG="from='${disc_dir}' img='disc-${disc_name}' moon='${disc_for}'" &&
+                
+                DIR_PAIRS_MSG="$DIR_PAIRS_MSG" targeto gettor disc-"$disc_name" "$disc_dir"/*:. &&
                 
                 :;
                 
@@ -71,30 +94,34 @@ targeto ()
                 local disc_name="$1" && shift 1 &&
                 local disc_for="$1" && shift 1 &&
                 
-                echo disc: now you may want your "'$disc_dir'" in disc-"$disc_name" mount as "'$disc_for'" in some container.
+                echo disc: from="'$disc_dir'" img=disc-"$disc_name" moon="'$disc_for'" &&
                 
                 :;
                 
             } &&
             
             
-            export -f -- disc_per disc_per_o || { echo fun err ; return 7 ; }
+            export -f -- $(try t function zstd && echo zstd) targeto disc_per disc_per_o ||
+                
+                { echo fun err ; return 7 ; } ;
             
             :;
             
             
             rtb "$@" | xargs -i -- $SHELL -c 'disc_per {}' &&
             
-            echo :::::::: :: :::::::: :::::::: :: :::::::: &&
+            ( echo ; echo :::::::: :: :::::::: :: :::::::: :: :::::::: ; echo ) &&
             
             rtb "$@" | xargs -i -- $SHELL -c 'disc_per_o {}' &&
+            
+            ( echo ; echo ':::: ~ 💿 fly me to the moon 💿 ~ ::::' ; echo ) &&
             
             :;
             
         } &&
         
         
-        if type -f -- mode_"$image_name" ;
+        if try t function mode_"$image_name" ;
         
         then
             
@@ -168,11 +195,11 @@ targeto ()
         } &&
         
         
-        IMG_NAME="$image_name" DIR_AIM="$tgtdir_name" DIR_AIMS=$(
+        IMG_NAME="$image_name" DIR_PAIRS="$*" DIR_AIM="$tgtdir_name" DIR_AIMS=$(
             
             F='(NF+1)"./\""$2"\""' rtb "$@" &&
             
-            : ) DIR_PAIRS="$*" dockerfile_echos &&
+            : ) DIR_PAIRS_MSG="${DIR_PAIRS_MSG:-$*}" dockerfile_echos &&
         
         :;
         
@@ -234,10 +261,14 @@ targeto ()
         local tgtdir_name="$1" && shift 1 &&
         
         
-        echo ; echo  :::::::: :: :::::::: :: :::::::: :: ::::::::
-        echo  img: "'$image_name'"
-        echo  usage: docker run --rm -v volume-"'$image_name'":"'/${image_name}/${tgtdir_name}'" -- "'$image_name'"
-        echo  then: You have your aim things in your volume now 🦾！ ; echo
+        ( echo ; echo  :::::::: :: :::::::: :: :::::::: :: :::::::: ; echo ) &&
+        echo  img name : "'$image_name'" --- you can use it as an init-container. &&
+        echo  use like : docker run --rm -v volume-"$image_name":"/${image_name}/${tgtdir_name}" -- "$image_name" &&
+        echo  chk like : docker run --rm -v volume-"$image_name":/look-it -- alpine ls -l /look-it &&
+        ( echo ; echo  🦾 ~ and You will have your aim things in your volume ~ 🦾 ; echo ) &&
+        
+        :;
+        
     } &&
     
     x ()
@@ -266,7 +297,7 @@ targeto ()
         
         eval "$(
             
-            F='(NF+1)"mv","from/\""$1"\"","'"$tgtdir"'/\""$2"\""' rtb $DIR_PAIRS &&
+            F='(NF+1)"mv","from/"$1,"'"$tgtdir"'/"$2' rtb $DIR_PAIRS &&
             
             : )" &&
         
@@ -320,7 +351,8 @@ installer ()
     echo "$@" | xargs -n1 | xargs -I {F} -- echo '
         {F} ()
         {
-            podman run --rm -i -- '"'$img_name'"' {F} "$@" ;
+            &> /dev/null type podman && alias docker=podman ;
+            docker run --rm -i -- '"'$img_name'"' {F} "$@" ;
         } ' ;
 } ;
 
