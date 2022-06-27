@@ -53,6 +53,9 @@ targeto ()
         
         local image_name="$1" && shift 1 &&
         
+        local TGT="$TGT" &&
+        
+        
         mode__disc ()
         {
             : make
@@ -66,6 +69,9 @@ targeto ()
             
             :;
             
+            export SING_MOON=':::: ~ 💿 fly me to the moon 💿 ~ ::::' &&
+            
+            
             disc_per ()
             {
                 : disc_per $PWD/app app /opt/app
@@ -76,9 +82,10 @@ targeto ()
                 local disc_name="$1" && shift 1 &&
                 local disc_for="$1" && shift 1 &&
                 
-                DIR_PAIRS_MSG="from='${disc_dir}' img='disc-${disc_name}' moon='${disc_for}'" &&
+                local X_SING="$X_SING" &&
+                local X_MSGS="from='${disc_dir}' img='disc-${disc_name}' moon='${disc_for}'" &&
                 
-                DIR_PAIRS_MSG="$DIR_PAIRS_MSG" targeto gettor disc-"$disc_name" "$disc_dir"/*:. &&
+                X_MSG="$X_MSGS sing='$X_SING'" TGT=.disc targeto gettor disc-"$disc_name" "$disc_dir"/*:. &&
                 
                 :;
                 
@@ -103,22 +110,24 @@ targeto ()
             
             export -f -- $(try t function zstd && echo zstd) targeto disc_per disc_per_o ||
                 
-                { echo fun err ; return 7 ; } ;
+                { echo fun or lib err ; return 7 ; } ;
             
             :;
             
             
-            rtb "$@" | xargs -i -- $SHELL -c 'disc_per {}' &&
+            rtb "$@" | xargs -i -- $SHELL -c 'X_SING="$SING_MOON" disc_per {}' &&
             
             ( echo ; echo :::::::: :: :::::::: :: :::::::: :: :::::::: ; echo ) &&
             
             rtb "$@" | xargs -i -- $SHELL -c 'disc_per_o {}' &&
             
-            ( echo ; echo ':::: ~ 💿 fly me to the moon 💿 ~ ::::' ; echo ) &&
+            ( echo ; echo "$SING_MOON" ; echo ) &&
             
             :;
             
         } &&
+        
+        
         
         
         if try t function mode_"$image_name" ;
@@ -141,7 +150,7 @@ targeto ()
                 cd "$image_name" &&
                 
                 
-                d "$image_name" .tgt "$@" > Dockerfile &&
+                d "$image_name" "${TGT:-.tgt}" "$@" > Dockerfile &&
                 s targeto > src.sh &&
                 
                 c $(F=1 rtb "$@") > "$image_name".tar.zst &&
@@ -150,7 +159,7 @@ targeto ()
                 
                 : ) &&
             
-            o "$image_name" .tgt &&
+            o "$image_name" "${TGT:-.tgt}" &&
             
             :;
             
@@ -190,6 +199,9 @@ targeto ()
             echo  ENTRYPOINT '["bash","src.sh"]'
             echo  CMD '["targeto","x","'"$IMG_NAME"'.tar.zst","'"$DIR_AIM"'"]'
             
+            
+            echo  ENV X_MSG="'$X_MSG'"
+            
             :;
             
         } &&
@@ -199,7 +211,7 @@ targeto ()
             
             F='(NF+1)"./\""$2"\""' rtb "$@" &&
             
-            : ) DIR_PAIRS_MSG="${DIR_PAIRS_MSG:-$*}" dockerfile_echos &&
+            : ) X_MSG="${X_MSG:-popout=.tgt}" dockerfile_echos &&
         
         :;
         
@@ -300,6 +312,8 @@ targeto ()
             F='(NF+1)"mv","from/"$1,"'"$tgtdir"'/"$2' rtb $DIR_PAIRS &&
             
             : )" &&
+        
+        echo "$X_MSG" &&
         
         :;
         
