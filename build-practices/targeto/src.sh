@@ -426,6 +426,6 @@ lister ()
 # (
 #     cd && cd container-note/build-practices/targeto &&
 #     git pull && docker build -t "$(basename $PWD)" -f Dockerfile -- . &&
-#     echo docker.io/amberyhm ghcr.io/yhm-amber | xargs -n1 | xargs -i -- docker tag targeto {}/targeto &&
+#     echo docker.io/amberyhm ghcr.io/yhm-amber | xargs -n1 | xargs -i -- echo docker tag targeto {}/targeto | $SHELL &&
 #     ( docker push docker.io/amberyhm/targeto ; docker push ghcr.io/yhm-amber/targeto ) )
 
