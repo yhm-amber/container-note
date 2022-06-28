@@ -115,13 +115,28 @@ targeto ()
             :;
             
             
-            rtb "$@" | xargs -i -- $SHELL -c 'X_SING="$SING_MOON" disc_per {}' &&
+            if ( rtb "$@" | xargs -i -- $SHELL -c 'X_SING="$SING_MOON" disc_per {}' ) ;
             
-            ( echo ; echo :::::::: :: :::::::: :: :::::::: :: :::::::: ; echo ) &&
-            
-            rtb "$@" | xargs -i -- $SHELL -c 'disc_per_o {}' &&
-            
-            ( echo ; echo "$SING_MOON" ; echo ) &&
+            then
+                
+                ( echo ; echo :::::::: :: :::::::: :: :::::::: :: :::::::: ; echo ) &&
+                
+                rtb "$@" | xargs -i -- $SHELL -c 'disc_per_o {}' &&
+                
+                ( echo ; echo "$SING_MOON" ; echo ) &&
+                
+                :;
+                
+            else
+                
+                echo '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!' &&
+                echo '!!!!!!!!!!' Err have '!!!!!!!!!!' &&
+                echo '!!!!!!!!!!' Check It '!!!!!!!!!!' &&
+                echo '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!' &&
+                
+                :;
+                
+            fi &&
             
             :;
             
