@@ -2,15 +2,25 @@
 : name
 : targeto - Tar Gettor as OCI
 
+
+
 : use
 targeto gettor foo-foo /opt/sdk:/opt/sdk $PWD/app:/opt/app
 
+
+
 : then you get an oci image named `foo-foo`
+
+
 
 : you can then use like
 docker run --rm -v foo-foo-v:/foo-foo/.tgt -- foo-foo
 
+
+
 : and then you will get a volume `foo-foo-v`
+
+
 
 : you have dir `opt/sdk` in it
 : with include things same as things in `/opt/sdk` on your node
@@ -21,14 +31,26 @@ docker run --rm -v foo-foo-v:/foo-foo/.tgt -- foo-foo
 : and you can use this `foo-foo` as ...
 : such as `init container` in Kubernetes pods . 🦝
 
+
+
 : :::: :::: :: :::: :::: :
 
+
+
 : and you can also
+
 targeto gettor _disc /opt/sdk:sdk:/opt/sdk $PWD/app:app:/opt/app
 
+
+
 : it is seems like
+
 targeto gettor sdk /opt/sdk/*:.
 targeto gettor app $PWD/app/*:.
+
+
+
+
 
 : :::: :::: :: :::: :::: :
 
