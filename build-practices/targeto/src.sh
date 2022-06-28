@@ -363,10 +363,33 @@ installer ()
 {
     local img_name="$1" && shift 1 &&
     
+    echo '
+    
+        try ()
+        {
+            t ()
+            {
+                : t function f_name
+                : t xxx xxx_name
+                
+                :;
+                
+                local t="$1" && shift 1 &&
+                local n="$1" && shift 1 &&
+                
+                test "$(type -t -- "$n")" == "$t" &&
+                
+                :;
+            } &&
+            
+            "$@" ;
+        } ; ' &&
+    
     echo "$@" | xargs -n1 | xargs -I {F} -- echo '
+        
         {F} ()
         {
-            &> /dev/null type podman && alias docker=podman ;
+            try t file podman && alias docker=podman ;
             docker run --rm -i -- '"'$img_name'"' {F} "$@" ;
         } ' ;
 } ;
