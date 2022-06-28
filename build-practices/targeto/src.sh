@@ -422,13 +422,17 @@ lister ()
 
 : :::::::::::::::::::::::::::: :
 
+
 # : simple pipeline demo
 # 
 # (
 #     cd && cd container-note/build-practices/targeto &&
-#     git pull && docker build -t "$(basename $PWD)" -f Dockerfile -- . &&
-#     eval "$(
-#         echo docker.io/amberyhm ghcr.io/yhm-amber | xargs -n1 |
-#             xargs -i -- echo docker tag targeto {}/targeto '&&' docker push {}/targeto )" )
+#     r=0 && while ! git pull ; do echo :::: $((++r)) ; done && unset -v -- r &&
+#     docker build -t "$(basename $PWD)" -f Dockerfile -- . ) &&
+# 
+# eval "$(
+#     echo docker.io/amberyhm ghcr.io/yhm-amber | xargs -n1 |
+#         xargs -i -- echo docker tag targeto {}/targeto '&&' docker push {}/targeto )"
+# 
 
 
