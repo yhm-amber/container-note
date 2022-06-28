@@ -426,6 +426,7 @@ lister ()
 # (
 #     cd && cd container-note/build-practices/targeto &&
 #     git pull && docker build -t "$(basename $PWD)" -f Dockerfile -- . &&
-#     eval "$(echo docker.io/amberyhm ghcr.io/yhm-amber | xargs -n1 | xargs -i -- echo docker tag targeto {}/targeto)" &&
-#     ( docker push docker.io/amberyhm/targeto ; docker push ghcr.io/yhm-amber/targeto ) )
+#     eval "$(
+#         echo docker.io/amberyhm ghcr.io/yhm-amber | xargs -n1 |
+#             xargs -i -- echo docker tag targeto {}/targeto '&&' docker push {}/targeto )" ;
 
