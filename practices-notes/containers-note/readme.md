@@ -1,4 +1,8 @@
 
+所有 `containers` 项目下的工具应该都适用。
+
+## 映射
+
 映射文件 `/etc/containers/registries.conf.d/000-shortnames.conf`
 
 <details>
