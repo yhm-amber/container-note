@@ -201,7 +201,7 @@ targeto ()
             echo  CMD '["targeto","x","'"$IMG_NAME"'.tar.zst","'"$DIR_AIM"'"]'
             
             
-            echo  ENV X_MSG="'$X_MSG'"
+            echo  ENV X_MSG='"'"$X_MSG"'"'
             
             :;
             
