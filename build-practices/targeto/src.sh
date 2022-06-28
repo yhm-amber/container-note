@@ -278,7 +278,7 @@ targeto ()
         echo  img name : "'$image_name'" --- you can use it as an init-container. &&
         echo  use like : docker run --rm -v volume-"$image_name":"/${image_name}/${tgtdir_name}" -- "$image_name" &&
         echo  chk like : docker run --rm -v volume-"$image_name":/look-it -- alpine ls -l /look-it &&
-        ( echo ; echo  🦾 ~ and You will have your aim things in your volume ~ 🦾 ; echo ) &&
+        ( echo ; echo  🦾 '~' and You will have your aim things in your volume '~' 🦾 ; echo ) &&
         
         :;
         
