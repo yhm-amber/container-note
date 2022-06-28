@@ -422,7 +422,8 @@ lister ()
 
 : :::::::::::::::::::::::::::: :
 
-
+# : simple pipeline demo
+# 
 # (
 #     cd && cd container-note/build-practices/targeto &&
 #     git pull && docker build -t "$(basename $PWD)" -f Dockerfile -- . &&
