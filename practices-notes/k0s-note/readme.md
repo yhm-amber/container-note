@@ -48,7 +48,7 @@ k0sctl init --controller-count 3 -- 10.101.1.71 10.101.1.72 10.101.1.73 |
 
 ## 问题
 
-我是在` openEuler 22.03 LTS` 上玩的。
+我是在 `openEuler 22.03 LTS` 上玩的。
 
 失败了，错误很简单： `os support module not found` 。
 
@@ -160,6 +160,6 @@ time="29 Jun 22 19:10 CST" level=fatal msg="failed on 3 hosts:\n - [ssh] 10.101.
 
 </details>
 
-
+这个日志分别是对三个 `openSUSE Leap 15.2` 和三个 `openEuler 22.03 LTS` 试的。
 
 
