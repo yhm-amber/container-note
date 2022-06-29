@@ -83,9 +83,11 @@ targeto ()
                 local disc_for="$1" && shift 1 &&
                 
                 local X_SING="$X_SING" &&
-                local X_MSGS="from='${disc_dir}' img='disc-${disc_name}' moon='${disc_for}'" &&
+                local X_MSGS="from='${disc_dir}' imgout='disc-${disc_name}:/disc-${disc_name}/.disc' moon='${disc_for}'" &&
                 
                 X_MSG="$X_MSGS sing='$X_SING'" TGT=.disc targeto gettor disc-"$disc_name" "$disc_dir"/*:. &&
+                
+                echo "$X_MSGS" &&
                 
                 :;
                 
@@ -101,7 +103,7 @@ targeto ()
                 local disc_name="$1" && shift 1 &&
                 local disc_for="$1" && shift 1 &&
                 
-                echo disc: from="'$disc_dir'" img=disc-"$disc_name" moon="'$disc_for'" &&
+                echo disc: "from='${disc_dir}' imgout='disc-${disc_name}:/disc-${disc_name}/.disc' moon='${disc_for}'" &&
                 
                 :;
                 
