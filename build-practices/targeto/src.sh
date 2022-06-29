@@ -260,7 +260,7 @@ targeto ()
         
         :;
         
-        tar -cPf- -- "$@" |
+        tar -c -P -f- -- "$@" |
             
             zstd -c -13 -T0 &&
         
@@ -329,7 +329,7 @@ targeto ()
         (
             zstd -c -d -- "$xzfile" |
                 
-                tar -xf- -- &&
+                tar -x -P -f- -- &&
             
             cat o.msg &&
             
