@@ -1,3 +1,10 @@
+: :: this tool is a builder :: :
+: :: to take files on node into a oci :: :
+: :: and run the oci will untar files into target dir :: :
+
+
+📜
+
 
 : name
 : targeto - Tar Gettor as OCI
