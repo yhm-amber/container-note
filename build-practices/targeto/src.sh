@@ -17,6 +17,7 @@ targeto ()
     : targeto take img-name /opt/sdk1:/opt/sdk0 $PWD/app:/opt/app
     
     
+    
     : should be
     
     
@@ -26,15 +27,20 @@ targeto ()
     : ...: name='img-name' from='$PWD/app' moon='/opt/app' sing=':::: ~ 💿 fly me to the moon 💿 ~ ::::'
     
     
+    
+    
     : and
     
     : targeto disc /opt/sdk1:sdk-initer:/opt/sdk0 $PWD/app:app-initer:/opt/app
     
     
-    : need to same as
+    
+    : should same as
     
     : targeto take sdk-initer /opt/sdk1:/opt/sdk0
     : targeto take app-initer $PWD/app:/opt/app
+    
+    
     
     
     
@@ -64,7 +70,6 @@ targeto ()
         
         { 1>&2 echo lib "'try'" lost ; return 6 ; } ;
     
-    export SING_MOON=':::: ~ 💿 fly me to the moon 💿 ~ ::::' &&
     
     :;
     
@@ -72,9 +77,26 @@ targeto ()
     
     take ()
     {
+        : take img-name /opt/sdk1:/opt/sdk0 $PWD/app:/opt/app
+        
+        
+        : should be
+        
+        
+        : then: docker run --rm -v sdk:/opt/sdk1 -v app:$PWD/app -- img-name
+        
+        : out: name='img-name' from='/opt/sdk1' moon='/opt/sdk0' sing=':::: ~ 💿 fly me to the moon 💿 ~ ::::'
+        : ...: name='img-name' from='$PWD/app' moon='/opt/app' sing=':::: ~ 💿 fly me to the moon 💿 ~ ::::'
+        
+        
         :;
         
+        
+        
         local image_name="$1" && shift 1 &&
+        
+        
+        export SING_MOON=':::: ~ 🎑 fly me to the moon 🎑 ~ ::::' &&
         
         
         mkdir -p -- "$image_name" ;
@@ -89,21 +111,32 @@ targeto ()
             
             c $(F=1 rtb "$@") > "$image_name".tar.zst &&
             
+            SING_MOON="$SING_MOON" o "$image_name" "$@" > o.msg &&
+            
             eval "$(p "$image_name")" &&
             
             : ) ;
         
         then
             
-            o "$image_name" &&
+            echo :succ "'$image_name'" "'$*'" ;
+            
+            return 0 ;
             
             :;
             
         else
             
+            echo :fail "'$image_name'" "'$*'" ;
+            
+            return 2 ;
+            
             :;
             
         fi &&
+        
+        
+        echo :done take &&
         
         :;
         
@@ -133,12 +166,7 @@ targeto ()
             local disc_name="$1" && shift 1 &&
             local disc_moon="$1" && shift 1 &&
             
-            local X_SING="$X_SING" &&
-            local X_MSGS="from='${disc_from}' name='disc-${disc_name}' moon='${disc_moon}'" &&
-            
-            X_MSG="$X_MSGS sing='$X_SING'" targeto gettor disc-"$disc_name" "$disc_from"/*:. &&
-            
-            echo "$X_MSGS" &&
+            SING_MOON="$SING_MOON" targeto take disc-"$disc_name" "$disc_from":"$disc_moon" &&
             
             :;
             
@@ -152,13 +180,11 @@ targeto ()
         
         if : &&
         
-        ( rtb "$@" | xargs -i -- $SHELL -c 'X_SING="$SING_MOON" disc_per {}' ) ;
+        ( F=0 rtb "$@" | xargs -i -- $SHELL -c 'SING_MOON="$SING_MOON" disc_per {}' ) ;
         
         then
             
-            ( echo ; echo :::::::: :: :::::::: :: :::::::: :: :::::::: ; echo ) &&
-            
-            ( echo ; echo "$SING_MOON" ; echo ) &&
+            echo :succ :disc "'$*'" &&
             
             :;
             
@@ -168,6 +194,8 @@ targeto ()
             echo 👿 '!!!!!!!!!!' disc: Err have '!!!!!!!!!!' 👿 &&
             echo 👿 '!!!!!!!!!!' disc: Check It '!!!!!!!!!!' 👿 &&
             echo 👿 '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!' 👿 &&
+            
+            echo :fail :disc "'$*'" &&
             
             :;
             
@@ -193,8 +221,6 @@ targeto ()
         
         local image_name="$1" && shift 1 &&
         
-        local X_MSG="$X_MSG" &&
-        
         
         
         dockerfile_echos ()
@@ -205,23 +231,23 @@ targeto ()
             echo                                                          &&
             echo        WORKDIR /"$IMG_NAME"                              &&
             echo                                                          &&
-            echo        COPY Dockerfile src.sh ./                         &&
+            echo        COPY Dockerfile o.msg ./                          &&
             echo        COPY "$IMG_NAME".tar.zst ./                       &&
             echo                                                          &&
             echo        ENV DIR_PAIRS="'$DIR_PAIRS'"                      &&
             echo                                                          &&
-            echo        ENTRYPOINT '["bash","/targeto/src.sh"]'                    &&
+            echo        ENTRYPOINT '["bash","/targeto/src.sh"]'           &&
             echo        CMD '["targeto","x","'"$IMG_NAME"'.tar.zst"]'     &&
             echo                                                          &&
             echo                                                          &&
-            echo        ENV X_MSG='"'"$X_MSG"'"'                          &&
+            echo        RUN cat o.msg                                     &&
             
             :;
             
         } &&
         
         
-        IMG_NAME="$image_name" DIR_PAIRS="$*" X_MSG="${X_MSG:-}" dockerfile_echos &&
+        IMG_NAME="$image_name" DIR_PAIRS="$*" dockerfile_echos &&
         
         :;
         
@@ -243,6 +269,34 @@ targeto ()
     } &&
     
     
+    o ()
+    {
+        : o img-name /opt/sdk1:/opt/sdk0 $PWD/app:/opt/app
+        
+        :;
+        
+        local image_name="$1" && shift 1 &&
+        
+        
+        in_awk ()
+        {
+            
+            printf      '(NF+1)"name=%s"'            "'${IMG_NAME}'"          &&
+            printf      ", \"from='\"%s\"'\""        '$1'                     &&
+            printf      ", \"moon='\"%s\"'\""        '$2'                     &&
+            printf      ', "sing=%s"'                "'${SING_MOON}'"         &&
+            
+            :;
+            
+        } &&
+        
+        F="$(IMG_NAME="$image_name" SING_MOON="$SING_MOON" in_awk)" rtb "$@" &&
+        
+        :;
+        
+    } &&
+    
+    
     p ()
     {
         : p img-name
@@ -257,25 +311,7 @@ targeto ()
         
     } &&
     
-    o ()
-    {
-        : o img-name tgtdir-name
-        
-        :;
-        
-        local image_name="$1" && shift 1 &&
-        local tgtdir_name="$1" && shift 1 &&
-        
-        
-        ( echo ; echo  :::::::: :: :::::::: :: :::::::: :: :::::::: ; echo ) &&
-        echo 💿 img name : "'$image_name'" --- you can use it as an init-container. &&
-        echo 🔩 use like : docker run --rm -v volume-"$image_name":"/${image_name}/${tgtdir_name}" -- "$image_name" &&
-        echo 🎛️ chk like : docker run --rm -v volume-"$image_name":/look-it -- alpine ls -l /look-it &&
-        ( echo ; echo  🦾 '~' and You will have your aim things in your volume '~' 🦾 ; echo ) &&
-        
-        :;
-        
-    } &&
+    
     
     x ()
     {
@@ -288,13 +324,33 @@ targeto ()
         
         local xzfile="$1" && shift 1 &&
         
+        if : &&
         
-        zstd -c -d -- ../"$xzfile" |
+        (
+            zstd -c -d -- "$xzfile" |
+                
+                tar -xf- -- &&
             
-            tar -xf- -- &&
+            cat o.msg &&
+            
+            : ) ;
         
+        then
+            
+            echo :succ x "$xzfile" &&
+            
+            return 0 ;
+            
+            :;
+            
+        else
+            
+            echo :fail x "$xzfile" &&
+            
+            return 16 &&
+            
+            :;
         
-        echo "$X_MSG" &&
         
         :;
         
@@ -311,8 +367,8 @@ targeto ()
         : W=app rtb /opt/sdk1:/opt/sdk0 $PWD/app:/opt/app
         : get: $PWD/app /opt/app
         
-        : W=app F='(NF+1)"mv","from/"$1,"to/"$2' rtb /opt/sdk1:/opt/sdk0 /xxx/app:/opt/app
-        : get: mv from//xxx/app to//opt/app
+        : W=sdk F="(NF+1)\"name='${image_name}'\",\"from='\"\$1\"'\",\"moon='\"\$2\"'\",\"sing='${SING_MOON}'\"" rtb /opt/sdk1:/opt/sdk0 /xxx/app:/opt/app
+        : get: name='img-name' from='/opt/sdk1' moon='/opt/sdk0' sing=':::: ~ 💿 fly me to the moon 💿 ~ ::::'
         
         :;
         
