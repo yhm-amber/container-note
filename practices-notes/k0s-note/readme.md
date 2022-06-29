@@ -1,0 +1,122 @@
+
+有名为 `k0s` 的一个单二进制工具，它能够输出默认的初始化 `yaml` 配置。
+
+单节点安装很容易，多节点集群需要配置。并不是类似于 `k3s` 那样的一个节点一个节点地来。
+
+离线文件完全来自镜像。（这里应该只是被容器运行时运行的镜像，并非集群镜像。）
+
+还有个管理工具叫 `k0sctl` ，可以很轻松地用更加简洁的配置文件（也可以生成）来安装一个 Kubernetes 集群。
+
+使用它需要先配好免密。（可参考[我这个笔记](../ssh-note#%E5%85%8D%E5%AF%86)）
+
+高可用没有 `sealos` 简单。
+
+外部运行时依赖见： https://docs.k0sproject.io/v1.23.8+k0s.0/external-runtime-deps/
+
+## install
+
+参：
+- https://docs.k0sproject.io/v1.23.8+k0s.0/k0sctl-install/
+- https://mritd.com/2021/07/29/test-the-k0s-cluster/
+
+譬如我需要 `10.101.1.71` `10.101.1.72` `10.101.1.73` 作为三个主节点，可以这样：
+
+~~~ sh
+k0sctl init --controller-count 3 -- 10.101.1.71 10.101.1.72 10.101.1.73 | k0sctl apply --config -
+~~~
+
+如果需要主节点也被调度，就这样：
+
+~~~ sh
+k0sctl init --controller-count 3 -- 10.101.1.71 10.101.1.72 10.101.1.73 |
+    
+    (
+        tmp="$(cat -)" &&
+        printf %s controller+worker |
+            xargs -I controller -- echo "$tmp"
+        : ) |
+    
+    k0sctl apply --config -
+~~~
+
+
+如果需要离线安装，我没有简洁的替换方法了，重定向成一个文件然后自己加一下吧。。。相关信息就加在 `Cluster.spec.hosts.[n].files.[n]` 节点下就好， `name` 字段需要是 `image-bundle` 。
+
+也就是说，一是，这个地方也可以用来写一些别的文件的路径和名称信息什么的，一是，每个节点里都得写一遍这玩意儿。
+
+所谓离线安装其实就是把一个 `bundle` 文件给放在所有目标节点的 `/var/lib/k0s/images/` 目录下面。可以从他们的 [github release](https://github.com/k0sproject/k0s/releases) 里找到这个文件，也可以参考[他们的离线文档](https://docs.k0sproject.io/v1.23.8+k0s.0/airgap-install/)自己打包。
+
+## 问题
+
+我是在` openEuler 22.03 LTS` 上玩的。
+
+失败了，错误很简单。
+
+详细内容：
+
+<details>
+
+<summary>
+<code>/root/.cache/k0sctl/k0sctl.log</code>
+</summary>
+
+~~~ text
+time="26 Jun 22 20:20 CST" level=info msg="###### New session ######"
+time="26 Jun 22 20:20 CST" level=debug msg="upgrade check failed: failed to get the latest version information"
+time="26 Jun 22 20:20 CST" level=debug msg="Loaded configuration:\napiVersion: k0sctl.k0sproject.io/v1beta1\nkind: Cluster\nmetadata:\n  name: k0s-cluster\nspec:\n  hosts:\n  - ssh:\n      address: 10.101.1.71\n      user: root\n      port: 22\n      keyPath: /root/.ssh/id_rsa\n    role: controller+worker\n  - ssh:\n      address: 10.101.1.72\n      user: root\n      port: 22\n      keyPath: /root/.ssh/id_rsa\n    role: controller+worker\n  - ssh:\n      address: 10.101.1.73\n      user: root\n      port: 22\n      keyPath: /root/.ssh/id_rsa\n    role: controller+worker\n  k0s:\n    version: 1.23.8+k0s.0\n    dynamicConfig: false\n    config:\n      apiVersion: k0s.k0sproject.io/v1beta1\n      kind: Cluster\n      metadata:\n        name: k0s\n      spec:\n        api:\n          k0sApiPort: 9443\n          port: 6443\n        installConfig:\n          users:\n            etcdUser: etcd\n            kineUser: kube-apiserver\n            konnectivityUser: konnectivity-server\n            kubeAPIserverUser: kube-apiserver\n            kubeSchedulerUser: kube-scheduler\n        konnectivity:\n          adminPort: 8133\n          agentPort: 8132\n        network:\n          kubeProxy:\n            disabled: false\n            mode: iptables\n          kuberouter:\n            autoMTU: true\n            mtu: 0\n            peerRouterASNs: \"\"\n            peerRouterIPs: \"\"\n          podCIDR: 10.244.0.0/16\n          provider: kuberouter\n          serviceCIDR: 10.96.0.0/12\n        podSecurityPolicy:\n          defaultPolicy: 00-k0s-privileged\n        storage:\n          type: etcd\n        telemetry:\n          enabled: true\n"
+time="26 Jun 22 20:20 CST" level=debug msg="Preparing phase 'Connect to hosts'"
+time="26 Jun 22 20:20 CST" level=info msg="\x1b[32m==> Running phase: Connect to hosts\x1b[0m"
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.71:22: executing `uname | grep -q Linux`"
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.73:22: executing `uname | grep -q Linux`"
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.72:22: executing `uname | grep -q Linux`"
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.71:22: executing `cat /etc/os-release || cat /usr/lib/os-release`"
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.71:22: NAME=\"openSUSE Leap\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.71:22: VERSION=\"15.2\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.71:22: ID=\"opensuse-leap\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.71:22: ID_LIKE=\"suse opensuse\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.71:22: VERSION_ID=\"15.2\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.71:22: PRETTY_NAME=\"openSUSE Leap 15.2\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.72:22: executing `cat /etc/os-release || cat /usr/lib/os-release`"
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.71:22: ANSI_COLOR=\"0;32\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.71:22: CPE_NAME=\"cpe:/o:opensuse:leap:15.2\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.71:22: BUG_REPORT_URL=\"https://bugs.opensuse.org\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.71:22: HOME_URL=\"https://www.opensuse.org/\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.71:22: executing `[ \"$(id -u)\" = 0 ]`"
+time="26 Jun 22 20:20 CST" level=info msg="[ssh] 10.101.1.71:22: connected"
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.72:22: NAME=\"openSUSE Leap\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.72:22: VERSION=\"15.2\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.72:22: ID=\"opensuse-leap\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.72:22: ID_LIKE=\"suse opensuse\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.72:22: VERSION_ID=\"15.2\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.72:22: PRETTY_NAME=\"openSUSE Leap 15.2\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.72:22: ANSI_COLOR=\"0;32\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.72:22: CPE_NAME=\"cpe:/o:opensuse:leap:15.2\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.72:22: BUG_REPORT_URL=\"https://bugs.opensuse.org\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.72:22: HOME_URL=\"https://www.opensuse.org/\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.72:22: executing `[ \"$(id -u)\" = 0 ]`"
+time="26 Jun 22 20:20 CST" level=info msg="[ssh] 10.101.1.72:22: connected"
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.73:22: executing `cat /etc/os-release || cat /usr/lib/os-release`"
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.73:22: NAME=\"openSUSE Leap\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.73:22: VERSION=\"15.2\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.73:22: ID=\"opensuse-leap\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.73:22: ID_LIKE=\"suse opensuse\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.73:22: VERSION_ID=\"15.2\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.73:22: PRETTY_NAME=\"openSUSE Leap 15.2\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.73:22: ANSI_COLOR=\"0;32\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.73:22: CPE_NAME=\"cpe:/o:opensuse:leap:15.2\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.73:22: BUG_REPORT_URL=\"https://bugs.opensuse.org\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.73:22: HOME_URL=\"https://www.opensuse.org/\""
+time="26 Jun 22 20:20 CST" level=debug msg="[ssh] 10.101.1.73:22: executing `[ \"$(id -u)\" = 0 ]`"
+time="26 Jun 22 20:20 CST" level=info msg="[ssh] 10.101.1.73:22: connected"
+time="26 Jun 22 20:20 CST" level=debug msg="Preparing phase 'Detect host operating systems'"
+time="26 Jun 22 20:20 CST" level=info msg="\x1b[32m==> Running phase: Detect host operating systems\x1b[0m"
+time="26 Jun 22 20:20 CST" level=info msg="###### New session ######"
+time="26 Jun 22 20:20 CST" level=error msg="apply failed - log file saved to /root/.cache/k0sctl/k0sctl.log"
+time="26 Jun 22 20:20 CST" level=fatal msg="failed on 3 hosts:\n - [ssh] 10.101.1.71:22: os support module not found\n - [ssh] 10.101.1.72:22: os support module not found\n - [ssh] 10.101.1.73:22: os support module not found"
+~~~
+
+</details>
+
+
+
+
