@@ -50,7 +50,7 @@ k0sctl init --controller-count 3 -- 10.101.1.71 10.101.1.72 10.101.1.73 |
 
 我是在` openEuler 22.03 LTS` 上玩的。
 
-失败了，错误很简单。
+失败了，错误很简单： `os support module not found` 。
 
 详细内容：
 
