@@ -38,7 +38,7 @@ COPY readme welcome ./
 
 # : simple test pipeline demo
 # 
-# while ! docker pull amberyhm/targeto ;
+# while ! docker pull amberyhm/targeto:1 ;
 # do echo ::: $((++x)) ; done &&
 # 
 # docker tag amberyhm/targeto:1 targeto &&
