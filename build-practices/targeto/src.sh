@@ -125,7 +125,7 @@ targeto ()
         
         then
             
-            echo :succ take "'$image_name'" "'$*'" ;
+            echo :succ :take "'$image_name'" "'$*'" ;
             
             return 0 ;
             
@@ -133,7 +133,7 @@ targeto ()
             
         else
             
-            echo :fail take "'$image_name'" "'$*'" ;
+            echo :fail :take "'$image_name'" "'$*'" ;
             
             return 2 ;
             
@@ -195,7 +195,7 @@ targeto ()
         
         then
             
-            echo :succ disc "'$*'" &&
+            echo :succ :disc "'$*'" &&
             
             :;
             
@@ -206,7 +206,7 @@ targeto ()
             echo 👿 '!!!!!!!!!!' disc: Check It '!!' '!!!!!!!!!!' 👿 &&
             echo 👿 '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!' 👿 &&
             
-            echo :fail disc "'$*'" &&
+            echo :fail :disc "'$*'" &&
             
             :;
             
@@ -351,7 +351,7 @@ targeto ()
         
         then
             
-            echo :succ x "$xzfile" &&
+            echo :succ :x "$xzfile" &&
             
             return 0 ;
             
@@ -359,7 +359,7 @@ targeto ()
             
         else
             
-            echo :fail x "$xzfile" &&
+            echo :fail :x "$xzfile" &&
             
             return 16 &&
             
