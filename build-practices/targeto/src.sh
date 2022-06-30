@@ -308,7 +308,7 @@ targeto ()
         
         local image_name="$1" && shift 1 &&
         
-        echo docker build -t "'$image_name'" -f Dockerfile -- . '&&' &&
+        echo docker build -t "'$image_name'" -f Dockerfile -- . &&
         
         :;
         
