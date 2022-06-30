@@ -43,6 +43,10 @@ targeto ()
     
     
     
+    :;
+    
+    export SING_MOON=':::: ~ 🌕 fly me to the moon 🌑 ~ ::::'
+    
     
     :;
     
@@ -95,8 +99,10 @@ targeto ()
         
         local image_name="$1" && shift 1 &&
         
+        local SING_MOON="$SING_MOON" &&
+        local COMP_LEVEL="$COMP_LEVEL" &&
         
-        export SING_MOON=':::: ~ 🌕 fly me to the moon 🌑 ~ ::::' &&
+        
         
         
         mkdir -p -- "$image_name" ;
@@ -109,7 +115,7 @@ targeto ()
             
             d "$image_name" "$@" > Dockerfile &&
             
-            c $(F=1 rtb "$@") > "$image_name".tar.zst &&
+            COMP_LEVEL="$COMP_LEVEL" c $(F=1 rtb "$@") > "$image_name".tar.zst &&
             
             SING_MOON="$SING_MOON" o "$image_name" "$@" > o.msg &&
             
@@ -154,6 +160,11 @@ targeto ()
         :;
         
         
+        local SING_MOON="$SING_MOON" &&
+        local COMP_LEVEL="$COMP_LEVEL" &&
+        
+        
+        
         disc_per ()
         {
             : disc_per /opt/sdk1 sdk-initer /opt/sdk0
@@ -166,7 +177,7 @@ targeto ()
             local disc_name="$1" && shift 1 &&
             local disc_moon="$1" && shift 1 &&
             
-            SING_MOON="$SING_MOON" targeto take disc-"$disc_name" "$disc_from":"$disc_moon" &&
+            SING_MOON="$SING_MOON" COMP_LEVEL="$COMP_LEVEL" targeto take disc-"$disc_name" "$disc_from":"$disc_moon" &&
             
             :;
             
@@ -227,20 +238,20 @@ targeto ()
         {
             
             
-            echo        FROM targeto                                      &&
-            echo                                                          &&
-            echo        WORKDIR /"$IMG_NAME"                              &&
-            echo                                                          &&
-            echo        COPY Dockerfile o.msg ./                          &&
-            echo        COPY "$IMG_NAME".tar.zst ./                       &&
-            echo                                                          &&
-            echo        ENV DIR_PAIRS="'$DIR_PAIRS'"                      &&
-            echo                                                          &&
-            echo        ENTRYPOINT '["bash","/targeto/src.sh"]'           &&
-            echo        CMD '["targeto","x","'"$IMG_NAME"'.tar.zst"]'     &&
-            echo                                                          &&
-            echo                                                          &&
-            echo        RUN cat o.msg '|' awk \'\{print\"💿\",\$0\}\'     &&
+            echo        FROM targeto                                          &&
+            echo                                                              &&
+            echo        WORKDIR /"$IMG_NAME"                                  &&
+            echo                                                              &&
+            echo        COPY Dockerfile o.msg ./                              &&
+            echo        COPY "$IMG_NAME".tar.zst ./                           &&
+            echo                                                              &&
+            echo        ENV DIR_PAIRS="'$DIR_PAIRS'"                          &&
+            echo                                                              &&
+            echo        ENTRYPOINT '["bash","/targeto/src.sh"]'               &&
+            echo        CMD '["targeto","x","'"$IMG_NAME"'.tar.zst"]'         &&
+            echo                                                              &&
+            echo                                                              &&
+            echo        RUN cat o.msg '|' awk \'\{print\"💿\",\$0\}\'         &&
             
             :;
             
