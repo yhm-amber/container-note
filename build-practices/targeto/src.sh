@@ -1,6 +1,6 @@
 : ::::::::::::::::::::::::::::::::::::::::::: :
-: :::: 💿 Welcome to tasting Targeto 💿 :::: :
-: :::: 🎛️ Having Fun to play with me 🎛️ :::: :
+: :::: 🌕 Welcome to tasting Targeto 🌕 :::: :
+: :::: 🌑 Having Fun to play with me 🌑 :::: :
 : ::::::::::::::::::::::::::::::::::::::::::: :
 : :::::::::::::::: :
 : :: version: 1 :: :
@@ -240,7 +240,7 @@ targeto ()
             echo        CMD '["targeto","x","'"$IMG_NAME"'.tar.zst"]'     &&
             echo                                                          &&
             echo                                                          &&
-            echo        RUN cat o.msg | awk '{print"💿",$0}'             &&
+            echo        RUN cat o.msg | awk \'\{print\"💿\",\$0\}\'       &&
             
             :;
             
@@ -308,7 +308,7 @@ targeto ()
         
         local image_name="$1" && shift 1 &&
         
-        echo docker build -t "'$image_name'" -f Dockerfile -- . &&
+        echo docker build -t "'$image_name'" -f Dockerfile -- . '&&' &&
         
         :;
         
