@@ -25,9 +25,32 @@ COPY readme welcome ./
 # eval "$(
 #     
 #     echo docker.io/amberyhm ghcr.io/yhm-amber | xargs -n1 |
-#         xargs -i -- echo docker tag targeto {}/targeto '&&' docker push {}/targeto )" ;
+#         xargs -i -- echo docker tag targeto {}/targeto '&&' docker push {}/targeto )" &&
 # 
-# docker image prune ;
+# :;
 # 
+# docker image prune &&
+# 
+# :;
+
+
+# ##################### #
+
+# : simple test pipeline demo
+# 
+# while ! docker pull amberyhm/targeto ;
+# do echo ::: $((++x)) ; done &&
+# 
+# docker tag amberyhm/targeto:1 targeto &&
+# 
+# eval "$(docker run --rm -- targeto cat src.sh)" &&
+# eval "$(docker run --rm -- targeto installer targeto zstd)" &&
+# 
+# :;
+# 
+# docker image prune &&
+# 
+# :;
+
 
  
