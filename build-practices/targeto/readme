@@ -11,49 +11,39 @@
 
 
 
-: use
-targeto gettor foo-foo /opt/sdk:/opt/sdk $PWD/app:/opt/app
+: version
+: see src.sh
 
 
 
-: then you get an oci image named `foo-foo`
+
+: usage
+
+targeto take foo-initor /opt/sdk0:/opt/sdk1 $PWD/app:/opt/app
+
+: then you get an oci image named `foo-initor`
+: there is /opt/sdk0 in image same as /opt/sdk0 on your node
 
 
 
-: you can then use like
-docker run --rm -v foo-foo-v:/foo-foo/.tgt -- foo-foo
+: or
+
+targeto disc /opt/sdk0:sdk-initor:/opt/sdk1 $PWD/app:app-initor:/opt/app
+
+: same as
+
+targeto take sdk-initor /opt/sdk0:/opt/sdk1
+targeto take app-initor $PWD/app:/opt/app
 
 
 
-: and then you will get a volume `foo-foo-v`
+
+: more see src.sh
 
 
 
-: you have dir `opt/sdk` in it
-: with include things same as things in `/opt/sdk` on your node
-: and you also have dir `opt/app` in it
-: with include things same as things in `$PWD/app` on your node
-
-: this is ALL targeto does . 🤓
-: and you can use this `foo-foo` as ...
-: such as `init container` in Kubernetes pods . 🦝
-
-
-
-: :::: :::: :: :::: :::: :
-
-
-
-: and you can also
-
-targeto gettor _disc /opt/sdk:sdk:/opt/sdk $PWD/app:app:/opt/app
-
-
-
-: it is seems like
-
-targeto gettor sdk /opt/sdk/*:.
-targeto gettor app $PWD/app/*:.
+: you can use the `foo-initor` as you like  🔩
+: such as `init container` in Kubernetes pods  🦝
 
 
 
@@ -63,33 +53,31 @@ targeto gettor app $PWD/app/*:.
 
 : 简单讲讲
 
-: 这个 targeto 就是一个方便你把本地文件打包进 OCI 镜像的脚本
-: 你应该在一个能运行 Bash 的节点上运行它
+: 我在欢迎里写的安装是会让你用容器外的环境运行它
+: 运行它就是帮你把你需要打包的东西打包
+: 它 (targeto) 是一个 Bash 脚本（ dash 或许也可以但我没测）
 
-: 它需要 zstd 
-: 我知道你可能不方便安装
-: 没关系
-: 你如果用 `eval` 执行过 `installer` 的定义了的话
-: 你就能复用到我在本镜像里已经准备好的 `zstd` 命令了
+: 脚本运行需要 zstd 命令
+: 如果你没有这个命令的话欢迎界面有行能帮你安装它——原理是复用 targeto 镜像中的 zstd 命令
 
-: 这个工具用来给你一个函数
-: 你可以用它生成一个你指定名称的镜像
-: 生成完后会有提示
-: 按照提示不带参数但是有挂载地直接执行那个镜像的话
-: 默认就是会把你刚刚打包的东西解压到这个被挂载的卷里头
-: 解压默认就是按照你打包时指定过的映射去解压
-: 你也可以改变环境变量 `DIR_PAIRS` 的内容来临时更改解压的目标
-: 这变量也是默认的打包时规定的映射被存储的地方
-: （应该也是唯一的地方了 如果我没做错什么的话……）
+: 给你打包好压缩包并构建镜像后
+: 镜像的默认（不传参）运行效果就是把相关文件解包到它原来的目录（按照绝对路径）
+: 如果你要用它当作 init container 的话你应该需要把这个目录挂给一个临时卷
+: 这样它就会向这个临时卷添加该添加的东西
 
-: 那个示例命令只是一个示例而已
-: 你可以基于它来举一反三
+: 你还可以举一反三
 : 在任何可运行 OCI 容器的地方去用
-: 比如 Eru2 、 nomad 、或者（目前）众所周知的 Kubernetes 。
-: 这里只是不再给出在别的容器使用场景中的例子了。
+: 比如 Eru2 、 nomad 、或者（目前）众所周知的 Kubernetes 或者只是让这个镜像帮你初始化好一个 docker volume 。
+
+
 
 
 
 🦾🦾🦾🦾🦾🦾🦾🦾🦾🦾🦾🦾🦾🦾🦾
 🦝🦝🦝🦝🦝🦝🦝🦝🦝🦝🦝🦝🦝🦝🦝
+
+
+
+
+
 
