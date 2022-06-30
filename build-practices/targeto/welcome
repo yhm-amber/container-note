@@ -2,19 +2,36 @@
 🦝 `targeto` - Tar Gettor as OCI 🦝
 🦾 likely by the tool set `flan-door` 🦾
 
+
+
 : Install (once)
 
 eval "$(docker run --rm -- targeto cat src.sh)"
 eval "$(docker run --rm -- targeto installer targeto zstd)"
 
-: if you have zstd command
+
+
+: if you have your zstd command there
 : you may just need to install targeto itself
 
 eval "$(docker run --rm -- targeto cat src.sh)"
 
 
+
+
 : Usage
 docker run --rm -- targeto cat readme | less
+
+
+
+
+: License
+: AGPL v3.0
+
+: more
+
+
+
 
 
 👾👾👾👾 👾👾👾👾 👾👾👾👾
