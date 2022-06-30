@@ -23,8 +23,8 @@ targeto ()
     
     : then: docker run --rm -v sdk:/opt/sdk1 -v app:$PWD/app -- img-name
     
-    : out: name='img-name' from='/opt/sdk1' moon='/opt/sdk0' sing=':::: ~ 💿 fly me to the moon 💿 ~ ::::'
-    : ...: name='img-name' from='$PWD/app' moon='/opt/app' sing=':::: ~ 💿 fly me to the moon 💿 ~ ::::'
+    : out: name='img-name' from='/opt/sdk1' moon='/opt/sdk0' sing=':::: ~ 🌕 fly me to the moon 🌑 ~ ::::'
+    : ...: name='img-name' from='$PWD/app' moon='/opt/app' sing=':::: ~ 🌕 fly me to the moon 🌑 ~ ::::'
     
     
     
@@ -85,8 +85,8 @@ targeto ()
         
         : then: docker run --rm -v sdk:/opt/sdk1 -v app:$PWD/app -- img-name
         
-        : out: name='img-name' from='/opt/sdk1' moon='/opt/sdk0' sing=':::: ~ 💿 fly me to the moon 💿 ~ ::::'
-        : ...: name='img-name' from='$PWD/app' moon='/opt/app' sing=':::: ~ 💿 fly me to the moon 💿 ~ ::::'
+        : out: name='img-name' from='/opt/sdk1' moon='/opt/sdk0' sing=':::: ~ 🌕 fly me to the moon 🌑 ~ ::::'
+        : ...: name='img-name' from='$PWD/app' moon='/opt/app' sing=':::: ~ 🌕 fly me to the moon 🌑 ~ ::::'
         
         
         :;
@@ -96,7 +96,7 @@ targeto ()
         local image_name="$1" && shift 1 &&
         
         
-        export SING_MOON=':::: ~ 🎑 fly me to the moon 🎑 ~ ::::' &&
+        export SING_MOON=':::: ~ 🌕 fly me to the moon 🌑 ~ ::::' &&
         
         
         mkdir -p -- "$image_name" ;
@@ -213,8 +213,8 @@ targeto ()
         
         : then: docker run --rm -v sdk:/opt/sdk1 -v app:$PWD/app -- img-name
         
-        : out: from='/opt/sdk1' img='img-name' moon='/opt/sdk0' sing=':::: ~ 💿 fly me to the moon 💿 ~ ::::'
-        : ...: from='$PWD/app' img='img-name' moon='/opt/app' sing=':::: ~ 💿 fly me to the moon 💿 ~ ::::'
+        : out: from='/opt/sdk1' img='img-name' moon='/opt/sdk0' sing=':::: ~ 🌕 fly me to the moon 🌑 ~ ::::'
+        : ...: from='$PWD/app' img='img-name' moon='/opt/app' sing=':::: ~ 🌕 fly me to the moon 🌑 ~ ::::'
         
         
         :;
@@ -240,7 +240,7 @@ targeto ()
             echo        CMD '["targeto","x","'"$IMG_NAME"'.tar.zst"]'     &&
             echo                                                          &&
             echo                                                          &&
-            echo        RUN cat o.msg                                     &&
+            echo        RUN cat o.msg | awk '{print"💿",$0}'             &&
             
             :;
             
@@ -257,12 +257,15 @@ targeto ()
     c ()
     {
         : c /opt/sdk0 $PWD/app
+        : COMP_LEVEL=15 c /opt/sdk0 $PWD/app
         
         :;
         
+        local COMP_LEVEL="$COMP_LEVEL" &&
+        
         tar -c -P -f- -- "$@" |
             
-            zstd -c -13 -T0 &&
+            zstd -c -"${COMP_LEVEL:-13}" -T0 &&
         
         :;
         
@@ -369,7 +372,7 @@ targeto ()
         : get: $PWD/app /opt/app
         
         : W=sdk F="(NF+1)\"name='${image_name}'\",\"from='\"\$1\"'\",\"moon='\"\$2\"'\",\"sing='${SING_MOON}'\"" rtb /opt/sdk1:/opt/sdk0 /xxx/app:/opt/app
-        : get: name='img-name' from='/opt/sdk1' moon='/opt/sdk0' sing=':::: ~ 💿 fly me to the moon 💿 ~ ::::'
+        : get: name='img-name' from='/opt/sdk1' moon='/opt/sdk0' sing=':::: ~ 🌕 fly me to the moon 🌑 ~ ::::'
         
         :;
         
