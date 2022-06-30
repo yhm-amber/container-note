@@ -38,12 +38,31 @@ targeto take app-initor $PWD/app:/opt/app
 
 
 
+: 🔩 and then you can use the `foo-initor` as you like .
+: 🦝 such as `init container` in Kubernetes pods .
+
+
+
+
+: about speed
+
+
+
+: you can use like
+
+COMP_LEVEL=16 targeto disc /opt/sdk0:sdk-initor:/opt/sdk1 $PWD/app:app-initor:/opt/app
+
+: to set a number about zstd compress .
+
+: if number is smaller: then init will be faster .
+: if number is bigger: then init will be smaller .
+
+
+
+
+
 : more see src.sh
 
-
-
-: you can use the `foo-initor` as you like  🔩
-: such as `init container` in Kubernetes pods  🦝
 
 
 
@@ -68,6 +87,11 @@ targeto take app-initor $PWD/app:/opt/app
 : 你还可以举一反三
 : 在任何可运行 OCI 容器的地方去用
 : 比如 Eru2 、 nomad 、或者（目前）众所周知的 Kubernetes 或者只是让这个镜像帮你初始化好一个 docker volume 。
+
+: 用变量 COMP_LEVEL 指定 zstd 的压缩系数
+: 数字越小的话到时候的 init 耗时越少
+: 数字越大的话到时候的 init 镜像体积越小
+: 数字默认好像是 13 来着吧？……
 
 
 
