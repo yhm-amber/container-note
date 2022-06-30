@@ -5,7 +5,7 @@ RUN apk --no-cache add -- bash tar zstd
 
 
 WORKDIR /targeto
-COPY Dockerfile src.sh ./
+COPY Dockerfile src.sh LICENSE ./
 
 ENTRYPOINT ["bash","src.sh"]
 CMD ["cat","welcome"]
