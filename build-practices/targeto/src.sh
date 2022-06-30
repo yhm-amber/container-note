@@ -251,7 +251,7 @@ targeto ()
             echo        CMD '["targeto","x","'"$IMG_NAME"'.tar.zst"]'         &&
             echo                                                              &&
             echo                                                              &&
-            echo        RUN cat o.msg '|' awk \'\{print\"💿\",\$0\}\'         &&
+            echo        RUN awk "'"'{print"💿",$0}'"'" o.msg                  &&
             
             :;
             
