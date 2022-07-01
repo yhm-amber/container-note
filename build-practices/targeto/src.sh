@@ -177,7 +177,15 @@ targeto ()
             local disc_name="$1" && shift 1 &&
             local disc_moon="$1" && shift 1 &&
             
-            SING_MOON="$SING_MOON" COMP_LEVEL="$COMP_LEVEL" targeto take disc-"$disc_name" "$disc_from":"$disc_moon" &&
+            SING_MOON="$SING_MOON" COMP_LEVEL="$COMP_LEVEL" targeto take "$(
+                
+                dirname "$disc_name" &&
+                
+                : )"/"disc-$(
+                
+                basename "$disc_name" &&
+                
+                : )" "$disc_from":"$disc_moon" &&
             
             :;
             
