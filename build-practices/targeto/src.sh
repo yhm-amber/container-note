@@ -379,7 +379,7 @@ targeto ()
         
         then
             
-            echo :succ :x "$xzfile" &&
+            echo 🧊 :succ :x "$xzfile" &&
             
             return 0 ;
             
@@ -387,7 +387,7 @@ targeto ()
             
         else
             
-            echo :fail :x "$xzfile" &&
+            echo 🍨 :fail :x "$xzfile" &&
             
             return 16 &&
             
