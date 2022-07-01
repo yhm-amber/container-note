@@ -101,6 +101,7 @@ targeto ()
         
         local SING_MOON="$SING_MOON" &&
         local COMP_LEVEL="$COMP_LEVEL" &&
+        local RTB_D="$RTB_D" &&
         
         
         
@@ -115,7 +116,7 @@ targeto ()
             
             d "$(basename "$image_name")" "$@" > Dockerfile &&
             
-            COMP_LEVEL="$COMP_LEVEL" c $(F=1 rtb "$@") > "$(basename "$image_name")".tar.zst &&
+            COMP_LEVEL="$COMP_LEVEL" c $(RTB_D="$RTB_D" F=1 rtb "$@") > "$(basename "$image_name")".tar.zst &&
             
             SING_MOON="$SING_MOON" o "$image_name" "$@" > o.msg &&
             
@@ -162,6 +163,8 @@ targeto ()
         
         local SING_MOON="$SING_MOON" &&
         local COMP_LEVEL="$COMP_LEVEL" &&
+        local RTB_D="$RTB_D" &&
+        
         
         
         
@@ -199,7 +202,13 @@ targeto ()
         
         if : &&
         
-        ( F=0 rtb "$@" | xargs -i -- $SHELL -c 'SING_MOON="$SING_MOON" disc_per {}' ) ;
+        (
+            
+            RTB_D="$RTB_D" F=0 rtb "$@" |
+                
+                xargs -i -- $SHELL -c 'SING_MOON="$SING_MOON" disc_per {}' &&
+            
+            : ) ;
         
         then
             
@@ -298,6 +307,10 @@ targeto ()
         
         local image_name="$1" && shift 1 &&
         
+        local RTB_D="$RTB_D" &&
+        
+        
+        
         
         in_awk ()
         {
@@ -311,7 +324,7 @@ targeto ()
             
         } &&
         
-        F="$(IMG_NAME="$image_name" SING_MOON="$SING_MOON" in_awk)" rtb "$@" &&
+        RTB_D="$RTB_D" F="$(IMG_NAME="$image_name" SING_MOON="$SING_MOON" in_awk)" rtb "$@" &&
         
         :;
         
