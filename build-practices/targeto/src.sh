@@ -105,17 +105,17 @@ targeto ()
         
         
         
-        mkdir -p -- "$image_name" ;
+        mkdir -p -- "$(basename "$image_name")" ;
         
         if : &&
         
         (
-            cd "$image_name" &&
+            cd "$(basename "$image_name")" &&
             
             
-            d "$image_name" "$@" > Dockerfile &&
+            d "$(basename "$image_name")" "$@" > Dockerfile &&
             
-            COMP_LEVEL="$COMP_LEVEL" c $(F=1 rtb "$@") > "$image_name".tar.zst &&
+            COMP_LEVEL="$COMP_LEVEL" c $(F=1 rtb "$@") > "$(basename "$image_name")".tar.zst &&
             
             SING_MOON="$SING_MOON" o "$image_name" "$@" > o.msg &&
             
@@ -125,7 +125,7 @@ targeto ()
         
         then
             
-            echo :succ :take "'$image_name'" "'$*'" ;
+            echo 🥽 :succ :take "'$image_name'" "'$*'" ;
             
             return 0 ;
             
@@ -133,7 +133,7 @@ targeto ()
             
         else
             
-            echo :fail :take "'$image_name'" "'$*'" ;
+            echo 👙 :fail :take "'$image_name'" "'$*'" ;
             
             return 2 ;
             
@@ -195,7 +195,7 @@ targeto ()
         
         then
             
-            echo :succ :disc "'$*'" &&
+            echo 🥽 :succ :disc "'$*'" &&
             
             :;
             
@@ -206,7 +206,7 @@ targeto ()
             echo 👿 '!!!!!!!!!!' disc: Check It '!!' '!!!!!!!!!!' 👿 &&
             echo 👿 '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!' 👿 &&
             
-            echo :fail :disc "'$*'" &&
+            echo 👙 :fail :disc "'$*'" &&
             
             :;
             
@@ -285,7 +285,7 @@ targeto ()
     
     o ()
     {
-        : o img-name /opt/sdk1:/opt/sdk0 $PWD/app:/opt/app
+        : o ns/img-name /opt/sdk1:/opt/sdk0 $PWD/app:/opt/app
         
         :;
         
@@ -313,7 +313,7 @@ targeto ()
     
     p ()
     {
-        : p img-name
+        : p ns/img-name
         
         :;
         
