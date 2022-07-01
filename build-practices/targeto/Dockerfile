@@ -15,7 +15,7 @@ COPY readme welcome ./
 
 # ##################### #
 
-# : simple pipeline demo
+# : simple pipeline demo 🩱
 # 
 # (
 #     cd && cd container-note/build-practices/targeto &&
@@ -36,7 +36,7 @@ COPY readme welcome ./
 
 # ##################### #
 
-# : simple test pipeline demo
+# : simple test pipeline demo 🩰
 # 
 # while ! docker pull amberyhm/targeto:1 ;
 # do echo ::: $((++x)) ; done &&
