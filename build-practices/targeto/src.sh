@@ -237,19 +237,18 @@ targeto ()
         dockerfile_echos ()
         {
             
-            
             echo        FROM targeto                                          &&
             echo                                                              &&
             echo        WORKDIR /"$IMG_NAME"                                  &&
-            echo                                                              &&
-            echo        COPY Dockerfile o.msg ./                              &&
-            echo        COPY "$IMG_NAME".tar.zst ./                           &&
             echo                                                              &&
             echo        ENV DIR_PAIRS="'$DIR_PAIRS'"                          &&
             echo                                                              &&
             echo        ENTRYPOINT '["bash","/targeto/src.sh"]'               &&
             echo        CMD '["targeto","x","'"$IMG_NAME"'.tar.zst"]'         &&
             echo                                                              &&
+            echo                                                              &&
+            echo        COPY Dockerfile "$IMG_NAME".tar.zst ./                &&
+            echo        COPY o.msg ./                                         &&
             echo                                                              &&
             echo        RUN awk "'"'{print"💿",$0}'"'" o.msg                  &&
             
