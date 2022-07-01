@@ -12,12 +12,10 @@
 
 
 
-
-: Install (once)
+: Install (once) 🧊
 
 eval "$(docker run --rm -- targeto cat src.sh)"
 eval "$(docker run --rm -- targeto installer targeto zstd)"
-
 
 
 
@@ -30,22 +28,19 @@ eval "$(docker run --rm -- targeto cat src.sh)"
 
 
 
+: Usage 🦪
 
-: Usage
 docker run --rm -- targeto cat readme | less
 
 
 
 
 
-: License
+: License 🍆
 : AGPL v3.0
 
 : see it more
 docker run --rm -- targeto cat LICENSE | less
-
-
-
 
 
 
