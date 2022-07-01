@@ -17,16 +17,16 @@
 
 
 
-: usage
+: usage 🧃
 
 targeto take foo-initor /opt/sdk0:/opt/sdk1 $PWD/app:/opt/app
 
-: then you get an oci image named `foo-initor`
-: there is /opt/sdk0 in image same as /opt/sdk0 on your node
+: 🔩 then you get an oci image named `foo-initor` .
+: 🦝 there is /opt/sdk0 in image same as /opt/sdk0 on your node .
 
 
 
-: or
+: or 🍸
 
 targeto disc /opt/sdk0:sdk-initor:/opt/sdk1 $PWD/app:app-initor:/opt/app
 
@@ -35,33 +35,40 @@ targeto disc /opt/sdk0:sdk-initor:/opt/sdk1 $PWD/app:app-initor:/opt/app
 targeto take sdk-initor /opt/sdk0:/opt/sdk1
 targeto take app-initor $PWD/app:/opt/app
 
-
-
-
-: 🔩 and then you can use the `foo-initor` as you like .
+: 🔩 then you can use the `foo-initor` as you like .
 : 🦝 such as `init container` in Kubernetes pods .
 
 
 
 
-: about speed
+
+: flags 🥙
 
 
 
-: you can use like
+: 🧻 compress level
 
 COMP_LEVEL=16 targeto disc /opt/sdk0:sdk-initor:/opt/sdk1 $PWD/app:app-initor:/opt/app
 
-: to set a number about zstd compress .
+: this can set a number about zstd compress .
 
 : if number is smaller: then init will be faster .
 : if number is bigger: then init will be smaller .
 
+: ⛲ row-table delimiter
+
+RTB_D='^' targeto disc /opt/sdk0'^'reg.io:8800/binaries/sdk-initor:v0.1'^'/opt/sdk1 $PWD/app'^'app-initor:v2.0'^'/opt/app
+
+: this can set the row-delimiter as '^' like here .
+: and so you can use more char on your rows .
 
 
 
 
-: more see src.sh
+
+
+: more 🥗
+: see src.sh
 
 
 
