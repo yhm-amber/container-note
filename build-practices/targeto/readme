@@ -1,13 +1,13 @@
-: :: this tool is a builder :: :
-: :: to take files on node into a oci :: :
-: :: and run the oci will untar files into target dir :: :
+: :: 🥽 this tool is a builder 🥽 :: :
+: :: 🦷 to take files on node into a oci 🦷 :: :
+: :: 🐡 and run the oci will untar files into target dir 🐡 :: :
 
 
 📜
 
 
 : name
-: targeto - Tar Gettor as OCI
+: targeto - 👙 Tar Gettor as OCI 👙
 
 
 
@@ -70,7 +70,7 @@ COMP_LEVEL=16 targeto disc /opt/sdk0:sdk-initor:/opt/sdk1 $PWD/app:app-initor:/o
 
 : :::: :::: :: :::: :::: :
 
-: 简单讲讲
+: 简单讲讲 👙
 
 : 我在欢迎里写的安装是会让你用容器外的环境运行它
 : 运行它就是帮你把你需要打包的东西打包
