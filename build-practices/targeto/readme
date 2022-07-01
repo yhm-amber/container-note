@@ -70,7 +70,7 @@ COMP_LEVEL=16 targeto disc /opt/sdk0:sdk-initor:/opt/sdk1 $PWD/app:app-initor:/o
 
 : :::: :::: :: :::: :::: :
 
-: 简单讲讲 👙
+: 简单讲讲 🦪
 
 : 我在欢迎里写的安装是会让你用容器外的环境运行它
 : 运行它就是帮你把你需要打包的东西打包
@@ -91,7 +91,7 @@ COMP_LEVEL=16 targeto disc /opt/sdk0:sdk-initor:/opt/sdk1 $PWD/app:app-initor:/o
 : 用变量 COMP_LEVEL 指定 zstd 的压缩系数
 : 数字越小的话到时候的 init 耗时越少
 : 数字越大的话到时候的 init 镜像体积越小
-: 数字默认好像是 13 来着吧？……
+: 数字默认好像是 13 来着吧？…… 🧊
 
 
 
