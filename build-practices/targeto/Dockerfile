@@ -25,7 +25,7 @@ COPY readme welcome ./
 # eval "$(
 #     
 #     echo docker.io/amberyhm ghcr.io/yhm-amber | xargs -n1 |
-#         xargs -i -- echo docker tag targeto {}/targeto '&&' docker push {}/targeto )" &&
+#         xargs -i -- echo docker tag targeto {}/targeto '&&' repushed=0 '&&' while ! docker push {}/targeto ';' do echo :::: '$((++repushed))' for {} ; done )" &&
 # 
 # :;
 # 
