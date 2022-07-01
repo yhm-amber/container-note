@@ -394,9 +394,11 @@ targeto ()
         
         :;
         
+        local RTB_D="$RTB_D" &&
+        
         for pair in "$@" ;
         do
-            echo "$pair" | tr : ' ' ;
+            echo "$pair" | tr "${RTB_D:-:}" ' ' ;
         done |
             
             awk /"$W"/'{print$'"${F:-0}"'}' &&
