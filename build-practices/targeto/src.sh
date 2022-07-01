@@ -180,7 +180,13 @@ targeto ()
             local disc_name="$1" && shift 1 &&
             local disc_moon="$1" && shift 1 &&
             
-            SING_MOON="$SING_MOON" COMP_LEVEL="$COMP_LEVEL" targeto take "$(
+            local SING_MOON="$SING_MOON" &&
+            local COMP_LEVEL="$COMP_LEVEL" &&
+            local RTB_D="$RTB_D" &&
+            
+            
+            
+            SING_MOON="$SING_MOON" COMP_LEVEL="$COMP_LEVEL" RTB_D="$RTB_D" targeto take "$(
                 
                 dirname "$disc_name" &&
                 
@@ -188,7 +194,7 @@ targeto ()
                 
                 basename "$disc_name" &&
                 
-                : )" "$disc_from":"$disc_moon" &&
+                : )" "${disc_from}${RTB_D:-:}${disc_moon}" &&
             
             :;
             
@@ -203,10 +209,12 @@ targeto ()
         if : &&
         
         (
+            export COMP_LEVEL="$COMP_LEVEL" &&
+            export RTB_D="$RTB_D" &&
             
             RTB_D="$RTB_D" F=0 rtb "$@" |
                 
-                xargs -i -- $SHELL -c 'SING_MOON="$SING_MOON" disc_per {}' &&
+                xargs -i -- $SHELL -c 'RTB_D="$RTB_D" COMP_LEVEL="$COMP_LEVEL" SING_MOON="$SING_MOON" disc_per {}' &&
             
             : ) ;
         
