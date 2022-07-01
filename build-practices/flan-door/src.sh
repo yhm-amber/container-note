@@ -7,6 +7,26 @@
 
 : ::::::::: lib toys ::::::::: :
 
+try ()
+{
+    t ()
+    {
+        : t function f_name
+        : t xxx xxx_name
+        
+        :;
+        
+        local t="$1" && shift 1 &&
+        local n="$1" && shift 1 &&
+        
+        test "$(type -t -- "$n")" == "$t" &&
+        
+        :;
+    } &&
+    
+    "$@" ;
+} ;
+
 metas ()
 {
     : from hmrg-grmh/meta-shells
