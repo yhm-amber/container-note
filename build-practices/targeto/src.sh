@@ -130,7 +130,7 @@ targeto ()
         
         then
             
-            echo 🥽 :succ :take "'$image_name'" "'$*'" ;
+            echo 🥽 :succ :take "'$image_name'" RTB_D="'$RTB_D'" "'$*'" ;
             
             return 0 ;
             
@@ -138,7 +138,7 @@ targeto ()
             
         else
             
-            echo 👙 :fail :take "'$image_name'" "'$*'" ;
+            echo 👙 :fail :take "'$image_name'" RTB_D="'$RTB_D'" "'$*'" ;
             
             return 2 ;
             
@@ -224,7 +224,7 @@ targeto ()
         
         then
             
-            echo 🥽 :succ :disc "'$*'" &&
+            echo 🥽 :succ :disc RTB_D="'$RTB_D'" "'$*'" &&
             
             :;
             
@@ -235,7 +235,7 @@ targeto ()
             echo 👿 '!!!!!!!!!!' disc: Check It '!!' '!!!!!!!!!!' 👿 &&
             echo 👿 '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!' 👿 &&
             
-            echo 👙 :fail :disc "'$*'" &&
+            echo 👙 :fail :disc RTB_D="'$RTB_D'" "'$*'" &&
             
             :;
             
