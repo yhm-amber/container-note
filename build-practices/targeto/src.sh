@@ -118,7 +118,7 @@ targeto ()
             cd "$(basename "$image_name")" &&
             
             
-            d "$(basename "$image_name")" "$@" > Dockerfile &&
+            RTB_D="$RTB_D" d "$(basename "$image_name")" "$@" > Dockerfile &&
             
             COMP_LEVEL="$COMP_LEVEL" c $(RTB_D="$RTB_D" F=1 rtb "$@") > "$(basename "$image_name")".tar.zst &&
             
@@ -261,6 +261,8 @@ targeto ()
         
         local image_name="$1" && shift 1 &&
         
+        local RTB_D="$RTB_D" &&
+        
         
         
         dockerfile_echos ()
@@ -270,7 +272,7 @@ targeto ()
             echo                                                              &&
             echo        WORKDIR /"$IMG_NAME"                                  &&
             echo                                                              &&
-            echo        ENV DIR_PAIRS="'$DIR_PAIRS'"                          &&
+            echo        ENV DIR_PAIRS="'$DIR_PAIRS'" RTB_D="'$RTB_D'"         &&
             echo                                                              &&
             echo        ENTRYPOINT '["bash","/targeto/src.sh"]'               &&
             echo        CMD '["targeto","x","'"$IMG_NAME"'.tar.zst"]'         &&
@@ -286,7 +288,7 @@ targeto ()
         } &&
         
         
-        IMG_NAME="$image_name" DIR_PAIRS="$*" dockerfile_echos &&
+        IMG_NAME="$image_name" DIR_PAIRS="$*" RTB_D="$RTB_D" dockerfile_echos &&
         
         :;
         
