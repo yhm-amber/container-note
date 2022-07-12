@@ -19,3 +19,42 @@ while ! operator-sdk olm install ; do echo :::: $((++x)) ; done
 
 卸载命令 `uninstall` 也是同理，必须联网卸载。
 
+--------------
+
+卸载会造成一个严重的问题，详细见该 issue ： https://github.com/operator-framework/operator-lifecycle-manager/issues/1304
+
+现象简单说就是，这个卸载会特地把 olm 命名空间变成“终止中”的状态并永远如此。
+
+我执行了 `kubectl delete apiservices.apiregistration.k8s.io v1.packages.operators.coreos.com` 后成功删除。
+
+用 `kubectl get ns olm -o yaml | less` 看状态：
+
+~~~ yaml
+...skipping...
+  name: olm
+  resourceVersion: "29395972"
+  selfLink: /api/v1/namespaces/olm
+  uid: 6fef1747-aede-4470-9a84-700b3845a79c
+spec:
+  finalizers:
+  - kubernetes
+status:
+  conditions:
+  - lastTransitionTime: "2022-07-12T07:49:54Z"
+    message: 'Discovery failed for some groups, 1 failing: unable to retrieve the
+      complete list of server APIs: packages.operators.coreos.com/v1: the server is
+      currently unable to handle the request'
+    reason: DiscoveryFailed
+    status: "True"
+    type: NamespaceDeletionDiscoveryFailure
+  - lastTransitionTime: "2022-07-12T07:50:45Z"
+    message: All legacy kube types successfully parsed
+    reason: ParsedGroupVersions
+    status: "False"
+    type: NamespaceDeletionGroupVersionParsingFailure
+...skipping...
+  phase: Terminating
+~~~
+
+其中提到了关于 `packages.operators.coreos.com/v1` 类型资源的问题。
+
