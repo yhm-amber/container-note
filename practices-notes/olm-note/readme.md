@@ -17,3 +17,5 @@ while ! operator-sdk olm install ; do echo :::: $((++x)) ; done
 
 就是失败自动重试。看了眼[帮助文档](https://sdk.operatorframework.io/docs/cli/operator-sdk_olm_install/)，没找到 Airgap 安装的途径。
 
+卸载命令 `uninstall` 也是同理，必须联网卸载。
+
