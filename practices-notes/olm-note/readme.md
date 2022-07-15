@@ -107,3 +107,35 @@ FATA[0095] Failed to uninstall OLM: no matches for kind "OLMConfig" in version "
 ~~~
 
 我找到了这个： https://operator-framework.github.io/olm-book/docs/uninstall-olm.html
+
+根据里面的提示，可以用这样的方法删干净 `olm` ：
+
+- 基于版本（比如 `v0.21.2` ）：
+  
+  ~~~ sh
+  export OLM_RELEASE=v0.21.2
+  kubectl delete apiservices.apiregistration.k8s.io v1.packages.operators.coreos.com
+  kubectl delete -f https://github.com/operator-framework/operator-lifecycle-manager/releases/download/${OLM_RELEASE}/crds.yaml
+  kubectl delete -f https://github.com/operator-framework/operator-lifecycle-manager/releases/download/${OLM_RELEASE}/olm.yaml
+  ~~~
+  
+- 基于主分支：
+  
+  ~~~ sh
+  kubectl delete apiservices.apiregistration.k8s.io v1.packages.operators.coreos.com
+  kubectl delete -f https://raw.githubusercontent.com/operator-framework/operator-lifecycle-manager/master/deploy/upstream/quickstart/crds.yaml
+  kubectl delete -f https://raw.githubusercontent.com/operator-framework/operator-lifecycle-manager/master/deploy/upstream/quickstart/olm.yaml
+  ~~~
+  
+
+卸载后验证（就是找找相应资源是否存在都没有就是卸了）：
+
+~~~ sh
+kubectl get crd | fgrep operators.coreos.com
+kubectl get deploy -n olm
+kubectl get role -n olm
+kubectl get rolebinding -n olm
+kubectl get ns olm
+~~~
+
+
