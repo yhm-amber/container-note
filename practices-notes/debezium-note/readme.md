@@ -1,7 +1,5 @@
 
-ref-1: https://github.com/Alfusainey/debezium-server-operator  
-ref-2: https://debezium.io/documentation/reference/stable/operations/kubernetes.html  
-ref-3: https://github.com/debezium/debezium/blob/main/README_ZH.md  
+ref: https://github.com/debezium/debezium/blob/main/README_ZH.md  
 
 > Debezium 是一个开源项目，为捕获数据更改 (change data capture,CDC) 提供了一个低延迟的流式处理平台。你可以安装并且配置 Debezium 去监控你的数据库，然后你的应用就可以消费对数据库的每一个行级别 (row-level) 的更改。只有已提交的更改才是可见的，所以你的应用不用担心事务 (transaction) 或者更改被回滚 (roll back) 。 Debezium 为所有的数据库更改事件提供了一个统一的模型，所以你的应用不用担心每一种数据库管理系统的错综复杂性。另外，由于 Debezium 用持久化的、有副本备份的日志来记录数据库数据变化的历史，因此，你的应用可以随时停止再重启，而不会错过它停止运行时发生的事件，保证了所有的事件都能被正确地、完全地处理掉。
 > 
@@ -14,9 +12,11 @@ ref-3: https://github.com/debezium/debezium/blob/main/README_ZH.md
 
 第一个参考里是第三方实现的 operator ；第二个参考里是目前的正式步骤，但是很罗嗦；第三个是这个软件的中文介绍。
 
-### ref-2
+### 官方的步骤
 
-我先是根据第二个参考里去走，我是一步一步来的，但是在创建 `debezium-cluster` 的时候得到了这样的报错：
+ref: https://debezium.io/documentation/reference/stable/operations/kubernetes.html
+
+我是一步一步来的，但是在创建 `debezium-cluster` 的时候得到了这样的报错：
 
 ~~~
 error: unable to recognize "debezium-cluster.yaml": no matches for kind "Kafka" in version "kafka.strimzi.io/v1beta2"
@@ -77,9 +77,7 @@ spec:
 
 我认为，要么是官方文档完全是个过期的文档，要么它本身就没写对。
 
-接下来，我依据第一个参考去做这个安装。
-
-### ref-1
+### `Alfusainey/debezium-server-operator`
 
 根据 [`Alfusainey/debezium-server-operator`](https://github.com/Alfusainey/debezium-server-operator.git) 页面的[简介处链接](https://debezium.io/documentation/reference/1.6/operations/debezium-server.html)可知，目前它的版本是 `1.6` ，而[最新版](https://debezium.io/documentation/reference/stable/operations/debezium-server.html)目前是 `1.9` 。
 
