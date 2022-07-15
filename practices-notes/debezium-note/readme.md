@@ -10,9 +10,76 @@ ref-3: https://github.com/debezium/debezium/blob/main/README_ZH.md
 >  Debezium 提供了模块为你做这些复杂的工作。一些模块是通用的，并且能够适用多种数据库管理系统，但在功能和性能方面仍有一些限制。另一些模块是为特定的数据库管理系统定制的，所以他们通常可以更多地利用数据库系统本身的特性来提供更多功能。
 > 
 
+## install
+
 第一个参考里是第三方实现的 operator ；第二个参考里是目前的正式步骤，但是很罗嗦；第三个是这个软件的中文介绍。
 
+### ref-2
 
+我先是根据第二个参考里去走，我是一步一步来的，但是在创建 `debezium-cluster` 的时候得到了这样的报错：
+
+~~~
+error: unable to recognize "debezium-cluster.yaml": no matches for kind "Kafka" in version "kafka.strimzi.io/v1beta2"
+~~~
+
+<details>
+
+<summary>这是我使用的资源定义</summary>
+
+~~~ yaml
+apiVersion: kafka.strimzi.io/v1beta2
+kind: Kafka
+metadata:
+  name: debezium-cluster
+spec:
+  kafka:
+    replicas: 1
+    listeners:
+      - name: plain
+        port: 9092
+        type: internal
+        tls: false
+      - name: tls
+        port: 9093
+        type: internal
+        tls: true
+        authentication:
+          type: tls
+      - name: external
+        port: 9094
+        type: nodeport
+        tls: false
+    storage:
+      type: jbod
+      volumes:
+      - id: 0
+        type: persistent-claim
+        size: 100Gi
+        deleteClaim: false
+    config:
+      offsets.topic.replication.factor: 1
+      transaction.state.log.replication.factor: 1
+      transaction.state.log.min.isr: 1
+      default.replication.factor: 1
+      min.insync.replicas: 1
+  zookeeper:
+    replicas: 1
+    storage:
+      type: persistent-claim
+      size: 100Gi
+      deleteClaim: false
+  entityOperator:
+    topicOperator: {}
+    userOperator: {}
+~~~
+
+</details>
+
+我认为，要么是官方文档完全是个过期的文档，要么它本身就没写对。
+
+接下来，我依据第一个参考去做这个安装。
+
+### ref-1
 
 
 
