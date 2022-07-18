@@ -28,7 +28,7 @@ ref: https://www.wqblogs.com/2019/10/03/Liveness,%20Readiness%E4%B8%8EStartup%20
 
 见 ref 。
 
-或者使用界面，譬如 KubeSphere 。
+或借助界面，譬如 KubeSphere 。
 
 探针是对于容器而言的，这从文本或图形界面的资源定义配置上，都能看出来。
 
