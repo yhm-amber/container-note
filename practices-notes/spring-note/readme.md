@@ -43,18 +43,5 @@ ref: https://github.com/alexandreroman/spring-k8s-probes-demo
 > - `liveness` 探针： `/actuator/health/liveness`
 > 
 
-关于探针：
-
-ref: https://www.wqblogs.com/2019/10/03/Liveness,%20Readiness%E4%B8%8EStartup%20Probes/  
-
-> - livenessProbe：健康状态检查，周期性检查服务是否存活，检查结果失败，将重启容器。
-> - readinessProbe：可用性检查，周期性检查服务是否可用，不可用将从 service 的 endpoints 中移除。
-> - startupProbe：启动探针，首次初始化时需要额外启动时间的应用程序，超过设定的启动时间，将被杀死。
-> 
-> kubelet 使用活跃度探头知道什么时候重新启动的容器。例如，活动性探针可能会陷入僵局，而应用程序正在运行，但无法取得进展。在这种状态下重新启动容器可以帮助使应用程序尽管存在错误也更可用。
-> 
-> kubelet 使用就绪性探测器来了解何时 Container 准备开始接受流量。当 Pod 的所有容器都准备就绪时，即视为准备就绪。此信号的一种用法是控制将哪些 Pod 用作服务的后端。当 Pod 尚未就绪时，会将其从服务负载平衡器中删除。
-> 
-> kubelet 使用启动探针来了解何时启动 Container 应用程序。如果配置了这样的探针，它将禁用活动性和就绪性检查，直到成功为止，以确保这些探针不会干扰应用程序的启动。这可用于对启动缓慢的容器进行活动检查，避免它们在启动和运行之前被 kubelet 杀死。
-> 
+关于探针的笔记： [`../kubernetes-note#探针`](../kubernetes-note#探针) 。
 
