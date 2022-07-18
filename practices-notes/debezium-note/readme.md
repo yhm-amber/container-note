@@ -89,9 +89,11 @@ ref: https://github.com/Alfusainey/debezium-server-operator
 
 而且，这个方案里也**并不**包括 [`debezium-ui`](https://debezium.io/documentation/reference/stable/operations/debezium-ui.html) 组件……我认为比较合适的方式应当还是类似于 Elasticsearch 的 helm 库那样。可以分不同组件，但是都能在一个源里呈现出来。可惜红帽好像并不会这么做。
 
+### a blog
 
+https://debezium.io/blog/2016/05/31/Debezium-on-Kubernetes/
 
-
+...
 
 
 
