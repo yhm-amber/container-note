@@ -87,9 +87,7 @@ ref: https://github.com/Alfusainey/debezium-server-operator
 
 很糟糕的是，这个 `DebeziumServer` 类型的资源并不会创建 `Service` ，这就导致我需要从别处的攻略弄到默认的监听端口（ `8083` ），太不像话了。。。
 
-我认为比较合适的方式应当还是类似于 Elasticsearch 的 helm 库那样。可以分不同组件，但是都能在一个源里呈现出来。
-
-另外，这个方案里也**并不**包括 [`debezium-ui`](https://debezium.io/documentation/reference/stable/operations/debezium-ui.html) 组件。。。。。
+而且，这个方案里也**并不**包括 [`debezium-ui`](https://debezium.io/documentation/reference/stable/operations/debezium-ui.html) 组件……我认为比较合适的方式应当还是类似于 Elasticsearch 的 helm 库那样。可以分不同组件，但是都能在一个源里呈现出来。可惜红帽好像并不会这么做。
 
 
 
