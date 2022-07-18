@@ -10,7 +10,7 @@ ref: https://spring.io/blog/2020/03/25/liveness-and-readiness-probes-with-spring
 
 ref: https://github.com/alexandreroman/spring-k8s-probes-demo  
 
-> 您可以使用 [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready) 轻松创建就绪度和活动度探头。您无需编写任何源代码。
+> 您可以使用 [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready) 轻松创建 readiness （就绪）和 liveness （存活）这两种探针（ probe ）。您无需多写任何代码。
 > 
 > 确保已添加 Spring Boot Actuator 依赖项：
 > 
