@@ -30,7 +30,7 @@ select split(cast(1656646319321 / cast(concat(1,repeat(0,3)) as int) as string),
 , array
 (
     cast (max_ts div cast(concat(1,repeat(0,3)) as int) as bigint) ,
-    cast (max_ts % cast(concat(1,repeat(0,3)) as int) as int) ) as max_s_ts
+    cast (max_ts % cast(concat(1,repeat(0,3)) as int) as int) ) as max_remdiv_ts
 ...
 ~~~~
 
@@ -40,8 +40,8 @@ select split(cast(1656646319321 / cast(concat(1,repeat(0,3)) as int) as string),
 ...
 , concat
 (
-    from_unixtime (max_s_ts[0], "yyyy-MM-dd HH:mm:ss") ,
-    "." , max_s_ts[1] )
+    from_unixtime (max_remdiv_ts[0], "yyyy-MM-dd HH:mm:ss") ,
+    "." , max_remdiv_ts[1] ) max_date
 ...
 ~~~~
 
