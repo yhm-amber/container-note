@@ -36,12 +36,14 @@ select split(cast(1656646319321 / cast(concat(1,repeat(0,3)) as int) as string),
 
 取到数字后，可以转成日期格式并拼接小数点后的位数：
 
-~~~ sql
+~~~~ sql
+...
 , concat
 (
     from_unixtime (max_s_ts[0], "yyyy-MM-dd HH:mm:ss") ,
     "." , max_s_ts[1] )
-~~~
+...
+~~~~
 
 ## 取得上一条的某字段
 
