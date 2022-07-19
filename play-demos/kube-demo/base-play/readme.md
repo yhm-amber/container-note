@@ -61,4 +61,13 @@ apiVersion: v1
 
 报错的理由是 `error: *unstructured.Unstructured is not a list: no Items field in this object` 。
 
+这里是一些关于 `List` 类型的讨论：
+
+- ref: https://github.com/kubernetes/kubectl/issues/837
+  
+  这里有提到说， `List` 并非是一种资源类型。
+  
+  我觉得这就挺可惜的，应该把它设计成为一种资源类型。
+
+
 
