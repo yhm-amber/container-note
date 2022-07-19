@@ -67,7 +67,33 @@ apiVersion: v1
   
   这里有提到说， `List` 并非是一种资源类型。
   
-  我觉得这就挺可惜的，应该把它设计成为一种资源类型。
+  我觉得这就挺可惜的。
+  
+  把它设计成为一种资源类型应该是最好的。但 Kubernetes 应该是被设计为了，所有的类型的资源在应用后都能 `get` 得到的样子，而这就不符合 `List` 应有的特性了。
+  
+
+不过，虽然嵌套不能，但一个 `List` 中可以塞入各种资源类型（ `Kind` ）。譬如这样：
+
+~~~ yaml
+kind: List
+items:
+- kind: Namespace
+  metadata:
+    name: ns1
+  apiVersion: v1
+- kind: Namespace
+  metadata:
+    name: ns2
+  apiVersion: v1
+- kind: ConfigMap
+  metadata:
+    name: cm1
+    namespace: ns1
+  apiVersion: v1
+apiVersion: v1
+~~~
+
+所以这东西还是有一些能用的地方的。
 
 
 
