@@ -1,7 +1,7 @@
 
 ## List
 
-当你一口气看很多 `Namespace` 的资源定义的时候，比如用 `kubectl get ns -o yaml -- ns1 ns2 ns3` 的话，你会发现，你得到的并不是基于 `Yaml` 语言的分隔符而给出的多个资源定义，你得到的会是一个 `List` 类型（ `Kind` ）的 Kubernetes 资源。
+当你一口气看很多 `Namespace` 的资源定义的时候，比如用 `kubectl get ns -o yaml -- ns1 ns2 ns3` 的话，你会发现，你得到的并不是基于 `Yaml` 语言的分隔符（即 `---` 标识开头以及 `...` 标识结尾）而给出的多个资源定义，你得到的会是一个 `List` 类型（ `Kind` ）的 Kubernetes 资源。
 
 简洁的类似于这样：
 
@@ -57,6 +57,8 @@ items:
 apiVersion: v1
 ~~~
 
-不能。我也试了试更简单的，只要有 `List` 类型的嵌套就不能。报错的理由是 `error: *unstructured.Unstructured is not a list: no Items field in this object` 。
+不能。我也试了试更简单的，只要有 `List` 类型的嵌套就不能。
+
+报错的理由是 `error: *unstructured.Unstructured is not a list: no Items field in this object` 。
 
 
