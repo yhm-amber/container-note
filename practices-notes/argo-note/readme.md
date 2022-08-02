@@ -52,5 +52,7 @@ repoServer:
 
 关于该应用的所有选项，参[此](https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd#installing-the-chart)。
 
+它有一些依赖，比如 `redis` ，可以用自带也可以配置外部的。（这个以后有机会详细整理。。。）
+
 
 
