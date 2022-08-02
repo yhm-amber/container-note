@@ -57,7 +57,7 @@ helm upgrade --install -n argo --set redis-ha.enabled=true,controller.enableStat
 e,repoServer.autoscaling.minReplicas=2 -- argo-cd argo/argo-cd
 ~~~~
 
-输出结果：
+输出：
 
 ~~~~ text
 NAME: argo-cd
