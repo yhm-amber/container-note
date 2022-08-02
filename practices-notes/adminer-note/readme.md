@@ -308,8 +308,11 @@ helm upgrade --install -n db-tools -- adminer cetic/adminer
 
 或者任何等价的操作。总之，不需要什么参数。
 
-这个 `chart` 或许也可以作为一个简单的 Helm 模板的示例用来帮助学习。
+这个 `chart` 或许也可以作为一个简单的 Helm 模板的示例用来帮助学习；还可用于测试一些基于 Helm 的功能。比如：
 
+- ArgoCD 的 [`Application argoproj.io/v1alpha1`](https://argo-cd.readthedocs.io/en/stable/user-guide/helm/#declarative) 资源
+- FluxCD 的 [`HelmRelease helm.toolkit.fluxcd.io/v2beta1`](https://fluxcd.io/docs/components/helm/api/) 资源
+- k3s 的 [`HelmChart helm.cattle.io/v1`](https://docs.rancher.cn/docs/k3s/helm/_index/#%E4%BD%BF%E7%94%A8-helm-crd) 资源
 
 
 
