@@ -30,7 +30,7 @@ helm install -- argo-cd argo/argo-cd
 
 可以根据你的安排增加 `-n 名称空间` 来指定应用安在哪儿。
 
-关于高可用，参[此](https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd#high-availability)。其中自动伸缩的配置：
+关于高可用，参[此](https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd#high-availability)。其中自动伸缩的 `values.yml` 配置：
 
 ~~~ yml
 redis-ha:
