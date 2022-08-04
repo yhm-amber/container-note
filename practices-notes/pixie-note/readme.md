@@ -121,7 +121,13 @@ job.batch/plugin-db-updater-job created
 
 不过，我发现很多 `pixie` 的资源需要来自 `gcr.io` 的镜像，譬如 `gcr.io/pixie-oss/pixie-prod/cloud/auth_server_image:latest` 。
 
-所以还是省省吧。 `apply` 改 `delete` 先删了得了，办法以后再说。
+所以还是省省吧。 `apply` 改 `delete` 先删了得了：
+
+~~~ sh
+(kustomize build k8s/cloud/public ; kustomize build k8s/cloud_deps/public ; kustomize build k8s/cloud_deps/base/elastic/operator) | kubectl delete -f-
+~~~
+
+办法以后再说。
 
 ## 基于 Helm 安装
 
