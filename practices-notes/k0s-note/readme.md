@@ -13,11 +13,22 @@
 
 外部运行时依赖见： https://docs.k0sproject.io/v1.23.8+k0s.0/external-runtime-deps/
 
-## install
+## 离线包使用
+
+其实就是，不管用啥手段，把离线包丢到 `/var/lib/k0s/images` 这个目录下就行。参[此](https://docs.k0sproject.io/v1.24.3+k0s.0/airgap-install/#2a-sync-the-bundle-file-with-the-airgapped-machine-locally)。
+
+也可以[自制离线包](https://docs.k0sproject.io/v1.24.3+k0s.0/airgap-install/#1-create-your-own-image-bundle-optional)，如果你信不过[他们释放的那些](https://github.com/k0sproject/k0s/releases)的话。
+
+> Copy the bundle only to the worker nodes. Controller nodes don't use it.
+> 
+
+## 正常的尝试
 
 参：
 - https://docs.k0sproject.io/v1.23.8+k0s.0/k0sctl-install/
 - https://mritd.com/2021/07/29/test-the-k0s-cluster/
+
+### install
 
 譬如我需要 `10.101.1.71` `10.101.1.72` `10.101.1.73` 作为三个主节点，可以这样：
 
@@ -46,7 +57,7 @@ k0sctl init --controller-count 3 -- 10.101.1.71 10.101.1.72 10.101.1.73 |
 
 所谓离线安装其实就是把一个 `bundle` 文件给放在所有目标节点的 `/var/lib/k0s/images/` 目录下面。可以从他们的 [github release](https://github.com/k0sproject/k0s/releases) 里找到这个文件，也可以参考[他们的离线文档](https://docs.k0sproject.io/v1.23.8+k0s.0/airgap-install/)自己打包。
 
-## 问题
+### 问题
 
 我是在 `openEuler 22.03 LTS` 上玩的。
 
@@ -161,5 +172,30 @@ time="29 Jun 22 19:10 CST" level=fatal msg="failed on 3 hosts:\n - [ssh] 10.101.
 </details>
 
 这个日志分别是对三个 `openSUSE Leap 15.2` 和三个 `openEuler 22.03 LTS` 试的。
+
+## 基于 Liqo 的骚操作
+
+如果单节点可以，我就试试能不能用 Liqo 联系起来一个去中心化的集群。
+
+### 部署单机集群
+
+离线包丢 `/var/lib/k0s/images` 下。
+
+ref: https://docs.k0sproject.io/v1.24.3+k0s.0/install/
+
+- 安装服务： `sudo k0s install controller --single`
+- 清理服务： `sudo k0s reset`
+- 启动： `sudo k0s start`
+- 停止： `sudo k0s stop`
+- 查看状态： `sudo k0s status`
+- 使用 `kubectl` ： `sudo k0s kubectl get nodes`
+
+更多用法见 ref 。
+
+安装启动，并待状态正常、可以使用 `kubectl` 看到一些东西。在几个节点都做这事。
+
+### 联系起来这几个节点
+
+使用 [Liqo](https://liqo.io/) 。
 
 
