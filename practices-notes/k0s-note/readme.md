@@ -198,4 +198,23 @@ ref: https://docs.k0sproject.io/v1.24.3+k0s.0/install/
 
 使用 [Liqo](https://liqo.io/) 。（[文档](https://docs.liqo.io/en/latest/)）
 
+> Liqo supports two alternative peering approaches, each characterized by **different requirements in terms of network connectivity** (i.e., mutually reachable endpoints):
+> 
+> - [**Out-of-band control plane peering**](https://docs.liqo.io/en/latest/features/peering.html#featurespeeringoutofbandcontrolplane): it requires **three separated traffic flows** (hence, three exposed endpoints).
+> - [**in-band control plane peering**](https://docs.liqo.io/en/latest/features/peering.html#featurespeeringinbandcontrolplane): it requires a **single endpoint**, as all control plane traffic is tunneled inside the cross-cluster VPN.
+> 
+> More details available in the [peering section](https://docs.liqo.io/en/latest/features/peering.html).
+> 
+
+
+
+> Liqo支持两种替代的对等互连方法，每种方法**在网络连接**（即相互访问的端点）**方面具有不同的要求**：
+> 
+> - [**带外控制平面对等互连**](https://docs.liqo.io/en/latest/features/peering.html#featurespeeringoutofbandcontrolplane)：它需要**三个独立的流量流**（也就是三个公开的终结点）。
+> - [**带内控制平面对等互连**](https://docs.liqo.io/en/latest/features/peering.html#featurespeeringinbandcontrolplane)：它需要**单个终结点**，因为所有控制平面流量都在跨集群 VPN 内通过隧道传输。
+>     
+> 有关更多详细信息，请参阅[对等互连部分](https://docs.liqo.io/en/latest/features/peering.html)。
+> 
+
+
 
