@@ -198,6 +198,8 @@ ref: https://docs.k0sproject.io/v1.24.3+k0s.0/install/
 
 使用 [Liqo](https://liqo.io/) 。（[文档](https://docs.liqo.io/en/latest/)）
 
+在[安装需求](https://docs.liqo.io/en/latest/installation/requirements.html)中有提到：
+
 > Liqo supports two alternative peering approaches, each characterized by **different requirements in terms of network connectivity** (i.e., mutually reachable endpoints):
 > 
 > - [**Out-of-band control plane peering**](https://docs.liqo.io/en/latest/features/peering.html#featurespeeringoutofbandcontrolplane): it requires **three separated traffic flows** (hence, three exposed endpoints).
