@@ -196,6 +196,6 @@ ref: https://docs.k0sproject.io/v1.24.3+k0s.0/install/
 
 ### 联系起来这几个节点
 
-使用 [Liqo](https://liqo.io/) 。
+使用 [Liqo](https://liqo.io/) 。（[文档](https://docs.liqo.io/en/latest/)）
 
 
