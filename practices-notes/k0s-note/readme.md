@@ -205,7 +205,8 @@ ref: https://docs.k0sproject.io/v1.24.3+k0s.0/install/
 > 
 > More details available in the [peering section](https://docs.liqo.io/en/latest/features/peering.html).
 > 
-
+> Note: The two peering approaches are **non-mutually exclusive**: a cluster can leverage different approaches toward different remote clusters, provided that the connectivity requirements are satisfied.
+> 
 
 
 > Liqo支持两种替代的对等互连方法，每种方法**在网络连接**（即相互访问的端点）**方面具有不同的要求**：
@@ -215,6 +216,12 @@ ref: https://docs.k0sproject.io/v1.24.3+k0s.0/install/
 >     
 > 有关更多详细信息，请参阅[对等互连部分](https://docs.liqo.io/en/latest/features/peering.html)。
 > 
+> 注意：这两种对等互连方法是**非互斥的**：只要满足连接要求，群集就可以对不同的远程群集利用不同的方法。
+> 
+
+
+
+
 
 
 
