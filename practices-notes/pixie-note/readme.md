@@ -12,7 +12,7 @@ ref:
 
 <details>
 
-<summary>（其中 `kustomize` 部分会创建的资源）</summary>
+  <summary>（其中 <code>kustomize</code> 部分会创建的资源）</summary>
 
 ~~~ test
 [root@node1 pixie]# kustomize build k8s/cloud_deps/base/elastic/operator | kubectl apply -f -
