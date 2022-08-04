@@ -194,7 +194,7 @@ ref: https://docs.k0sproject.io/v1.24.3+k0s.0/install/
 
 安装启动，并待状态正常、可以使用 `kubectl` 看到一些东西。在几个节点都做这事。
 
-如果需要事先用 Helm 部署什么的话（比如想要事先添加一些 `LoadBalancer` 或者 `Ingress` 或者 `StorageClass` 等），可以在[这里](https://docs.k0sproject.io/v1.24.3+k0s.0/configuration/)提到的 `/etc/k0s/k0s.yaml` 里，模仿[这个示例](https://docs.k0sproject.io/v1.24.3+k0s.0/examples/traefik-ingress/)在 `k0s.k0sproject.io/v1beta1` 的 `ClusterConfig.spec.extensions.helm` 配置节点下添加相应的内容。
+如果需要事先用 Helm 部署什么的话（比如想要事先添加一些 `LoadBalancer` 或者 `Ingress` 或者 `StorageClass` 等），可以在[这里](https://docs.k0sproject.io/v1.24.3+k0s.0/configuration/)提到的 `/etc/k0s/k0s.yaml` 里，模仿[这个示例](https://docs.k0sproject.io/v1.24.3+k0s.0/examples/traefik-ingress/)在 `k0s.k0sproject.io/v1beta1` 的 `ClusterConfig.spec.extensions.helm` 这个配置节点里头，根据你的需要添加相应的内容。
 
 ### 联系起来这几个节点
 
