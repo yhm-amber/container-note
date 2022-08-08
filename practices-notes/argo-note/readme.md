@@ -122,3 +122,37 @@ ref: https://argo-cd.readthedocs.io/en/stable/user-guide/application_sources/
 > 
 
 
+#### Kustomize
+
+ref: https://argo-cd.readthedocs.io/en/stable/user-guide/kustomize/
+
+核心 CRD ： `argoproj.io/v1alpha1` `Application`
+
+相关配置：
+
+位于：你安装的 ArgoCD 所在名称空间里的名为 `argocd-cm` 的配置字典（ `ConfigMap` ）里的 `cm.data` 坐标下。
+
+在其中：
+
+- 如果你想让它会调用的 `kustomize build` 子命令多一些选项，你可以增加值到 `kustomize.buildOptions` 这个键下。
+  
+  譬如，添加 `kustomize.buildOptions: --load-restrictor LoadRestrictionsNone` 这样一条 *键值对* 的话，  就能达到相当于给 `kustomize build` 子命令增加 `--load-restrictor LoadRestrictionsNone` 这一选项的效果。
+
+- 对于版本：只要已经按照[这个指南](https://argo-cd.readthedocs.io/en/stable/operator-manual/custom_tools/)对其示例中的 `/custom-tools` 路径添加过了相应版本，就可以增加值譬如 `/custom-tools/kustomize_FOOBAR` 这样一个有效的 Kustomize 二进制路径到键 `kustomize.path.AAA` 下，如果要用它的话就把 `Application` 资源的 `spec.source.kustomize.version` 这个位置设置值 `AAA` ，就可以指定 Kustomize 版本来运行了。
+
+#### Helm
+
+ref: https://argo-cd.readthedocs.io/en/stable/user-guide/helm/
+
+核心 CRD ： `argoproj.io/v1alpha1` `Application`
+
+#### Jsonnet
+
+ref: https://argo-cd.readthedocs.io/en/stable/user-guide/jsonnet/
+
+#### Argo CMP
+
+ref: https://argo-cd.readthedocs.io/en/stable/user-guide/config-management-plugins/
+
+核心 CRD ： `argoproj.io/v1alpha1` `ConfigManagementPlugin`
+
