@@ -1,7 +1,7 @@
 ref:
 
 - [Liqo.io](https://liqo.io/)
-- [docs.liqo.io](https://docs.liqo.io/en/latest/)）
+- [docs.liqo.io](https://docs.liqo.io/en/latest/)
 
 ## 简介
 
