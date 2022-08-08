@@ -1,18 +1,9 @@
+ref:
 
+- [Liqo.io](https://liqo.io/)
+- [docs.liqo.io](https://docs.liqo.io/en/latest/)）
 
-## 骚操作
-
-我试试能不能用 Liqo 把多个单节点集群联系起来成为一个去中心化的集群。
-
-### 准备好单机集群
-
-这里使用 k0s 。
-
-步骤参考[这个笔记](../k0s-note#单机模式)。
-
-### 联系起来这几个节点
-
-使用 [Liqo](https://liqo.io/) 。（[文档](https://docs.liqo.io/en/latest/)）
+## 简介
 
 在[安装需求](https://docs.liqo.io/en/latest/installation/requirements.html)中有提到：
 
@@ -36,6 +27,19 @@
 > 
 > *注意：这两种对等互连方法是**非互斥的**：只要满足连接要求，群集就可以对不同的远程群集利用不同的方法。*
 > 
+
+## 骚操作
+
+我试试能不能用 Liqo 把多个单节点集群联系起来成为一个去中心化的集群。
+
+### 准备好单机集群
+
+这里使用 k0s 。
+
+步骤参考[这个笔记](../k0s-note#单机模式)。
+
+### 联系起来这几个节点
+
 
 
 
