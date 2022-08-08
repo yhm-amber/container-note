@@ -7,10 +7,10 @@ ref: https://argo-cd.readthedocs.io/en/stable/user-guide/application_sources/
 
 这个类型可以定义多种 Kubernetes 清单（ Kubernetes manifests ），其中包括：
 
-- [Kustomize applications](.#Kustomize)
-- [Helm charts](.#Helm)
-- [A directory of YAML/JSON/Jsonnet manifests](.#Jsonnet)
-- [config management plugin]{.#Argo-CMP}
+- [Kustomize applications](#Kustomize)
+- [Helm charts](#Helm)
+- [A directory of YAML/JSON/Jsonnet manifests](#Jsonnet)
+- [config management plugin](#Argo-CMP)
 
 关于自行开发：
 
