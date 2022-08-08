@@ -10,7 +10,7 @@ ref: https://argo-cd.readthedocs.io/en/stable/user-guide/application_sources/
 - [Kustomize applications](#Kustomize)
 - [Helm charts](#Helm)
 - [A directory of YAML/JSON/Jsonnet manifests](#Jsonnet)
-- [config management plugin]{#CMP}
+- [config management plugin]{#Argo-CMP}
 
 关于自行开发：
 
@@ -43,7 +43,7 @@ ref: https://argo-cd.readthedocs.io/en/stable/user-guide/helm/
 
 ref: https://argo-cd.readthedocs.io/en/stable/user-guide/jsonnet/
 
-### CMP
+### Argo CMP
 
 ref: https://argo-cd.readthedocs.io/en/stable/user-guide/config-management-plugins/
 
