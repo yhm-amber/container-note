@@ -17,6 +17,7 @@ ref:
 > *Note: The two peering approaches are **non-mutually exclusive**: a cluster can leverage different approaches toward different remote clusters, provided that the connectivity requirements are satisfied.*
 > 
 
+即
 
 > Liqo支持两种替代的对等互连方法，每种方法**在网络连接**（即相互访问的端点）**方面具有不同的要求**：
 > 
