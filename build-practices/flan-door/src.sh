@@ -1,7 +1,7 @@
-: ::::::::::::::::::::::::::::::::::::::::::: :
-: :::: 🥰 Welcome Into Flandre Doors 🥰 :::: :
-: :::: 🤗 Having Fun With These Toys 🤗 :::: :
-: ::::::::::::::::::::::::::::::::::::::::::: :
+: ::::::::::::::::::::::::::::::::::::::::::::::::::::: :
+: :::: ✨ Breaking Star - A Beautiful Tool Set ✨ :::: :
+: :::: 🤗 Having Fun ! and Hugging and Happy ! 🤗 :::: :
+: ::::::::::::::::::::::::::::::::::::::::::::::::::::: :
 
 
 
@@ -359,6 +359,39 @@ dbtoys ()
 
 
 
+stoys ()
+{
+    replace ()
+    {
+        : replace AAA bbb "AAAaaaAAA"
+        : "AAAaaaAAA" '|>' replace AAA bbb
+        : "bbbaaabbb"
+        
+        
+        local r="$1" && shift 1 ;
+        local p="$1" && shift 1 ;
+        local s="$1" && shift 1 ;
+        
+        if : &&
+        (
+            test -z "$s" &&
+            
+            : ) ;
+        
+        then local in="$(cat -)" && :;
+        
+        else :;
+        
+        fi ;
+        
+        
+        printf %s "$p" | xargs -I "$r" -- echo "${s:-$in}" &&
+        
+        :;
+    } &&
+    
+    "$@" ;
+} ;
 
 
 
