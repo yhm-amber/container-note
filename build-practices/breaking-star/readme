@@ -1,7 +1,7 @@
 
 : build by
 
-podman build -t flan-door -f Dockerfile -- .
+podman build -t breaking-star -f Dockerfile -- .
 
 
 
@@ -9,25 +9,25 @@ podman build -t flan-door -f Dockerfile -- .
 
 : show readme
 
-podman run --rm -- flan-door helper
-podman run --rm -- flan-door helper | less
+podman run --rm -- breaking-star helper
+podman run --rm -- breaking-star helper | less
 
 
 
 
 : list toys
 
-podman run --rm -- flan-door lister
-podman run --rm -- flan-door lister metas dateinner
-podman run --rm -- flan-door metas lister
+podman run --rm -- breaking-star lister
+podman run --rm -- breaking-star lister metas dateinner
+podman run --rm -- breaking-star metas lister
 
 
 
 
 : show toys define
 
-podman run --rm -- flan-door helper metas dateinner
-podman run --rm -- flan-door metas helper ask_user historisch
+podman run --rm -- breaking-star helper metas dateinner
+podman run --rm -- breaking-star metas helper ask_user historisch
 
 
 
@@ -37,9 +37,9 @@ podman run --rm -- flan-door metas helper ask_user historisch
 
 : use before installed
 
-cat | podman run --rm -i -- flan-door proptools t XXX=xxx ...
-cat | podman run --rm -i -- flan-door proptools t XXX=xxx ... | podman run --rm -i -- flan-door proptools d -D " "
-cat | podman run --rm -i -- flan-door proptools d -D " " | podman run --rm -i -- flan-door proptools t XXX=xxx ...
+cat | podman run --rm -i -- breaking-star proptools t XXX=xxx ...
+cat | podman run --rm -i -- breaking-star proptools t XXX=xxx ... | podman run --rm -i -- breaking-star proptools d -D " "
+cat | podman run --rm -i -- breaking-star proptools d -D " " | podman run --rm -i -- breaking-star proptools t XXX=xxx ...
 
 
 
@@ -49,8 +49,8 @@ cat | podman run --rm -i -- flan-door proptools d -D " " | podman run --rm -i --
 
 : install some toys into an env by installer, such as proptools and metas
 
-eval "$(podman run --rm -- ghcr.io/yhm-amber/flan-door:latest installer ghcr.io/yhm-amber/flan-door:latest metas proptools)"
-eval "$(podman run --rm -- flan-door installer flan-door metas proptools)"
+eval "$(podman run --rm -- ghcr.io/yhm-amber/breaking-star:latest installer ghcr.io/yhm-amber/breaking-star:latest metas proptools)"
+eval "$(podman run --rm -- breaking-star installer breaking-star metas proptools)"
 
 
 
@@ -67,7 +67,7 @@ metas helper ask_user
 
 : install-out all into an env
 
-eval "$(podman run --rm -- flan-door cat src.sh)"
+eval "$(podman run --rm -- breaking-star cat src.sh)"
 
 
 
