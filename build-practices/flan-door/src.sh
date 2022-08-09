@@ -1,6 +1,6 @@
 : ::::::::::::::::::::::::::::::::::::::::::::::::::::: :
 : :::: ✨ Breaking Star - A Beautiful Tool Set ✨ :::: :
-: :::: 🤗 Having Fun ! and Hugging and Happy ! 🤗 :::: :
+: :::: 🤗 Having Fun and Hugging with Happy *~ 🤗 :::: :
 : ::::::::::::::::::::::::::::::::::::::::::::::::::::: :
 
 
