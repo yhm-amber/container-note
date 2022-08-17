@@ -90,7 +90,7 @@ kubectl -n argo get secret argocd-initial-admin-secret -o jsonpath="{.data.passw
 
 ## Usage
 
-### `applications.argoproj.io` CRD
+### About `applications.argoproj.io` CRD
 
 这个是安装 `argo/argo-cd` 后就有了的一个 CRD 。
 
