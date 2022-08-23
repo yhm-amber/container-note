@@ -23,6 +23,12 @@ docker run -d --name adminer --net host -- adminer
 
 但是不能用，看 `logs` 是这样：
 
+<details>
+
+<summary>
+<code>container logs</code>
+</summary>
+
 ~~~~ text
 [Mon Aug  1 02:03:40 2022] PHP 7.4.30 Development Server (http://[::]:8080) started
 [Mon Aug  1 02:03:46 2022] [::ffff:172.21.52.228]:59115 Accepted
@@ -105,6 +111,8 @@ docker run -d --name adminer --net host -- adminer
 [Mon Aug  1 02:03:51 2022] [::ffff:172.21.52.228]:59141 Closing
 ~~~~
 
+</details>
+
 但是在 Kubernetes 上就没这个问题：
 
 ~~~ sh
@@ -146,6 +154,10 @@ adminer   NodePort   10.103.97.199   <none>        8080:30275/TCP   49m
 我可以成功访问。
 
 简单地连了一些网络里可访问的现成的数据库看了看，容器日志又**追加**了这些：
+
+<details>
+
+<summary>追加内容</summary>
 
 ~~~~ text
 [Mon Aug  1 10:19:35 2022] [::ffff:100.76.152.192]:53099 Accepted
@@ -284,6 +296,8 @@ adminer   NodePort   10.103.97.199   <none>        8080:30275/TCP   49m
 [Mon Aug  1 10:39:27 2022] [::ffff:100.76.152.192]:25250 [200]: GET /?mssql=10.47.99.86&username=sa&db=ReportServer&ns=dbo&select=ExecutionLog
 [Mon Aug  1 10:39:27 2022] [::ffff:100.76.152.192]:25250 Closing
 ~~~~
+
+</details>
 
 上面的 `kubectl` 命令同时也是不错的创建简单资源的示例。
 
