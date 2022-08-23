@@ -68,7 +68,7 @@ sh-4.2#
 
 </details>
 
-创建资源后，进入 Argo-cd 的 WEB 页面，也可以看到被创建的资源。
+创建资源后，进入 Argo-cd 的 WEB 页面（[方法](../../../practices-notes/argo-note#web-gui)），也可以看到被创建的资源。
 
 
 
