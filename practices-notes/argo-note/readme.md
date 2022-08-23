@@ -150,6 +150,8 @@ ref: https://argo-cd.readthedocs.io/en/stable/user-guide/helm/
 
 核心 CRD ： `argoproj.io/v1alpha1` `Application`
 
+see: [`../../play-demos/kube-demo/helm-play#Argo`](../../play-demos/kube-demo/helm-play#Argo)
+
 #### Jsonnet
 
 ref: https://argo-cd.readthedocs.io/en/stable/user-guide/jsonnet/
