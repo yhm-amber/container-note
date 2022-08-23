@@ -40,7 +40,7 @@ spec:
     namespace: db-tools
 ~~~
 
-***名称空间注意**：在 `Application.metadata.namespace` 位置的值，上面示例里是 `argocd` ，但实际请务必是指与你安装的 `argo/argo-cd` 应用的名称空间一致！比如，如果你像[我这里](../../../practices-notes/argo-note)这样，在安装 `argo/argo-cd` 时指定了 `-n argo` ，那么，在创建如上例所示的 `application.argoproj.io` 资源时，在 `.metadata.namespace` 的位置务必配置为 `argo` 才行！*
+***名称空间注意**：在 `Application.metadata.namespace` 位置的值，上面示例里是 `argocd` ，但实际请务必是指与你安装的 `argo/argo-cd` 应用的名称空间一致！比如，如果你像[我这里](../../../practices-notes/argo-note)这样，在安装 `argo/argo-cd` 时指定了 `-n argo` ，那么，在创建如上例所示的 `application.argoproj.io` 资源时，在 `.metadata.namespace` 的位置务必配置为 `argo` ，否则不能生效。*
 
 其中的域名 `kubernetes.default.svc` 是可以在容器内访问的：
 
@@ -67,6 +67,9 @@ sh-4.2#
 *这是一个在任意名称空间下启动的 `centos:7` 容器内的验证结果。*
 
 </details>
+
+创建资源后，进入 Argo-cd 的 WEB 页面，也可以看到被创建的资源。
+
 
 
 
