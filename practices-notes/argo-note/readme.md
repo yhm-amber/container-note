@@ -90,6 +90,12 @@ kubectl -n argo get secret argocd-initial-admin-secret -o jsonpath="{.data.passw
 
 ## Usage
 
+### WEB GUI
+
+基于 `helm` 安装命令给出的提示，可以在安装的 `ns` 下找到一个有标签 `app.kubernetes.io/name=argocd-server` 的名为 `argo-cd-argocd-server` 的 `svc` 资源。
+
+把该 `svc` 变为 `node-port` ，是一种最简便访问 Web GUI 的方式；依靠该 `svc` 的 `80` 或 `443` 端口都可访问 Argo CD 的 Web GUI 界面。
+
 ### KubeSphere
 
 ref: https://kubesphere.com.cn/blogs/kubesphere-argocd/
