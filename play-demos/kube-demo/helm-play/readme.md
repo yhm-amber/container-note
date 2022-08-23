@@ -27,7 +27,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: adminer-demo
-  namespace: argocd-demos
+  namespace: argocd
 spec:
   project: default
   source:
@@ -39,6 +39,8 @@ spec:
     server: "https://kubernetes.default.svc"
     namespace: db-tools
 ~~~
+
+***名称空间注意**：在 `Application.metadata.namespace` 位置的值，上面示例里是 `argocd` ，但实际请务必是指与你安装的 `argo/argo-cd` 应用的名称空间一致！比如，如果你像[我这里](../../../practices-notes/argo-note)这样，在安装 `argo/argo-cd` 时指定了 `-n argo` ，那么，在创建示例的 `application.argoproj.io` 资源时， `.metadata.namespace` 务必也写成 `argo` 才行！*
 
 其中的域名 `kubernetes.default.svc` 是可以在容器内访问的：
 
