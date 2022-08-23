@@ -40,13 +40,13 @@ spec:
     namespace: db-tools
 ~~~
 
-其中的域名 `kubernetes.default.svc` 是可以在容器内访问的。
+其中的域名 `kubernetes.default.svc` 是可以在容器内访问的：
 
 <details>
 
 <summary>域名访问验证记录</summary>
 
-这是一个在任意名称空间下启动的 `centos:7` 容器内的验证结果：
+*这是一个在任意名称空间下启动的 `centos:7` 容器内的验证结果*
 
 ~~~ text
 sh-4.2# ping kubernetes.default.svc
