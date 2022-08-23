@@ -46,8 +46,6 @@ spec:
 
 <summary>域名访问验证记录</summary>
 
-*这是一个在任意名称空间下启动的 `centos:7` 容器内的验证结果*
-
 ~~~ text
 sh-4.2# ping kubernetes.default.svc
 PING kubernetes.default.svc.cluster.local (10.96.0.1) 56(84) bytes of data.
@@ -63,6 +61,8 @@ PING kubernetes.default.svc.cluster.local (10.96.0.1) 56(84) bytes of data.
 rtt min/avg/max/mdev = 0.064/0.139/0.454/0.141 ms
 sh-4.2# 
 ~~~
+
+*这是一个在任意名称空间下启动的 `centos:7` 容器内的验证结果*
 
 </details>
 
