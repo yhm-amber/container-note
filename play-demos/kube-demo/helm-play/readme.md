@@ -33,7 +33,7 @@ spec:
   source:
     chart: adminer
     repoURL: https://cetic.github.io/helm-charts
-    targetRevision: latest
+    targetRevision: "^"
     helm:
       releaseName: adminer
   destination:
