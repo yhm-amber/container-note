@@ -33,7 +33,7 @@ spec:
   source:
     chart: adminer
     repoURL: https://cetic.github.io/helm-charts
-    targetRevision: "^"
+    targetRevision: "*.*.*"
     helm:
       releaseName: adminer
   destination:
@@ -48,6 +48,8 @@ spec:
 ~~~ text
 Unable to "Enable Auto-Sync:: application spec for adminer-demo is invalid: InvalidSpecError: spec.source.targetRevision is required if the manifest source is a helm chart
 ~~~
+
+我基于[这里的讨论](https://github.com/renovatebot/renovate/issues/8212)把它写成 `"*.*.*"` ，然后执行 [`SYNC`]() ，来完成对该 Helm Chart 的最新版本的部署。
 
 另外，在 `.spec.destination.server` 处的域名 `kubernetes.default.svc` ，是可以在容器内访问的：
 
