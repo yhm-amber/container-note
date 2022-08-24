@@ -29,7 +29,10 @@ metadata:
   name: adminer-demo
   namespace: argocd
 spec:
-  project: default
+  project: adminer-taste
+  syncPolicy:
+    automated:
+      selfHeal: true
   source:
     chart: adminer
     repoURL: https://cetic.github.io/helm-charts
@@ -49,7 +52,7 @@ spec:
 Unable to "Enable Auto-Sync:: application spec for adminer-demo is invalid: InvalidSpecError: spec.source.targetRevision is required if the manifest source is a helm chart
 ~~~
 
-我基于[这里的讨论](https://github.com/renovatebot/renovate/issues/8212)把它写成 `"*.*.*"` ，然后执行 [`SYNC`]() ，来完成对该 Helm Chart 的最新版本的部署。
+我基于[这里的讨论](https://github.com/renovatebot/renovate/issues/8212)把它写成 `"*.*.*"` 。这个时候，需要手动执行 `SYNC` ，除非[配置了自动同步](https://argo-cd.readthedocs.io/en/stable/user-guide/auto_sync/)，譬如中上面资源定义中的 `.spec.syncPolicy` 下的配置。
 
 另外，在 `.spec.destination.server` 处的域名 `kubernetes.default.svc` ，是可以在容器内访问的：
 
