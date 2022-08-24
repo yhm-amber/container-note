@@ -304,6 +304,7 @@ adminer   NodePort   10.103.97.199   <none>        8080:30275/TCP   49m
 ## 基于 Helm 的部署
 
 ref: https://github.com/cetic/helm-adminer
+ref: https://artifacthub.io/packages/helm/cetic/adminer
 
 你需要先添加应用（ `chart` ）仓库：把地址 `https://cetic.github.io/helm-charts` 添加为名称 `cetic` 。
 
