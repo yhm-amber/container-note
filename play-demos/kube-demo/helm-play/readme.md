@@ -33,6 +33,7 @@ spec:
   source:
     chart: adminer
     repoURL: https://cetic.github.io/helm-charts
+    targetRevision: latest
     helm:
       releaseName: adminer
   destination:
@@ -42,7 +43,13 @@ spec:
 
 ***名称空间注意**：在 `Application.metadata.namespace` 位置的值，上面示例里是 `argocd` ，但实际请务必是指与你安装的 `argo/argo-cd` 应用的名称空间一致！比如，如果你像[我这里](../../../practices-notes/argo-note)这样，在安装 `argo/argo-cd` 时指定了 `-n argo` ，那么，在创建如上例所示的 `application.argoproj.io` 资源时，在 `.metadata.namespace` 的位置务必配置为 `argo` ，否则不能生效。*
 
-其中的域名 `kubernetes.default.svc` 是可以在容器内访问的：
+其中的 `.spec.source.targetRevision` 必须要有值，否则会得到报错（我是从页面得到的）：
+
+~~~ text
+Unable to "Enable Auto-Sync:: application spec for adminer-demo is invalid: InvalidSpecError: spec.source.targetRevision is required if the manifest source is a helm chart
+~~~
+
+另外，在 `.spec.destination.server` 处的域名 `kubernetes.default.svc` ，是可以在容器内访问的：
 
 <details>
 
