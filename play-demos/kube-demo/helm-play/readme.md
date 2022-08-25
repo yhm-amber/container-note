@@ -54,6 +54,25 @@ Unable to "Enable Auto-Sync:: application spec for adminer-demo is invalid: Inva
 
 我基于[这里的讨论](https://github.com/renovatebot/renovate/issues/8212)把它写成 `"*.*.*"` 。这个时候，需要手动执行 `SYNC` ，除非[配置了自动同步](https://argo-cd.readthedocs.io/en/stable/user-guide/auto_sync/)，譬如中上面资源定义中的 `.spec.syncPolicy` 下的配置。
 
+上述资源声明需要已经创建名为 `adminer-taste` 的 [ArgoCD 的 Project](https://argo-cd.readthedocs.io/en/stable/user-guide/projects/) 。这个地方不指定的话，默认就是 `default` 。下面是针对上面资源声明示例的 Project 定义：
+
+~~~ yml
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: adminer-taste
+  namespace: argocd
+spec:
+  clusterResourceWhitelist:
+  - group: '*'
+    kind: '*'
+  destinations:
+  - namespace: '*'
+    server: '*'
+  sourceRepos:
+  - '*'
+~~~
+
 另外，在 `.spec.destination.server` 处的域名 `kubernetes.default.svc` ，是可以在容器内访问的：
 
 <details>
