@@ -96,6 +96,8 @@ kubectl -n argo get secret argocd-initial-admin-secret -o jsonpath="{.data.passw
 
 把该 `svc` 变为 `node-port` ，是一种最简便访问 Web GUI 的方式；依靠该 `svc` 的 `80` 或 `443` 端口都可访问 Argo CD 的 Web GUI 界面。
 
+其中 `admin` 账户的密码，见 `argo-cd` 所在 `namespace` 的名为 `argocd-initial-admin-secret` 的 `保密字典` 。需要把 Base64 格式的内容转为原来的内容（在 KubeSphere 页面可以直接点小眼睛查看）。
+
 ### KubeSphere
 
 ref: https://kubesphere.com.cn/blogs/kubesphere-argocd/
