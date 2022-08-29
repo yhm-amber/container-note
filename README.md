@@ -6,9 +6,11 @@
 
 --------
 
-好文推荐：
+扩展阅读：
 
 - [容器战争 - Nolla](https://cmgs.me/life/container-war)
 - [UNIKERNEL：从不入门到入门 | 高策](https://gaocegege.com/Blog/%E5%AE%89%E5%88%A9/unikernel-book)
 - [一种新的操作系统设计](https://www.yinwang.org/blog-cn/2013/04/14/os-design)
 - [程序员的酒后真言 | Greycode's Blog](https://greycode.top/posts/a98d5ec3509f483e80919ca2e09bda1b/)
+- [以 Erlang/Elixir 的方案写 Rust](https://lunatic.solutions/blog/writing-rust-the-elixir-way/)
+- [基于 Rust 讲解容器都有哪些东西](https://litchipi.github.io/series/container_in_rust)
