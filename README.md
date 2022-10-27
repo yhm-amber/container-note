@@ -2,7 +2,7 @@
 
 而有了容器，人类文明就有了分水岭。
 
-在 [*New Jersey approach*](https://dreamsongs.com/RiseOfWorseIsBetter.html) 的基底上尝试做合乎 [*MIT approach*](https://dreamsongs.com/RiseOfWorseIsBetter.html) 的事情，技术上的容器就诞生了。
+在 [*New Jersey approach*](https://dreamsongs.com/RiseOfWorseIsBetter.html) 的基底上尝试做合乎 [*MIT approach*](https://dreamsongs.com/RiseOfWorseIsBetter.html) 的事情，技术上的容器就诞生了。这就像是让一个 *WIB* 的东西往自己指导思想相反方向去走的尝试一样，它绽放的火花里将会埋藏希望的火种。
 
 ——因此，当然地，这里不会只记录和容器关系密切的笔记。
 
