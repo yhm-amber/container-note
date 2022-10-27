@@ -2,12 +2,15 @@
 
 而有了容器，人类文明就有了分水岭。
 
-——只是，这里有的，不只是容器。也不只是肯定。
+在 [*WIB philosophy*](https://dreamsongs.com/RiseOfWorseIsBetter.html) 的基底上尝试做合乎 [*MIT/Stanford style of design*](https://dreamsongs.com/RiseOfWorseIsBetter.html) 的事情，技术上的容器就诞生了。
+
+——因此，当然地，这里不会只记录和容器关系密切的笔记。
 
 --------
 
 扩展阅读：
 
+- [Worse Is Better -- Lisp: Good News, Bad News, How to Win Big](https://dreamsongs.com/WIB.html)
 - [容器战争 - Nolla](https://cmgs.me/life/container-war)
 - [UNIKERNEL：从不入门到入门 | 高策](https://gaocegege.com/Blog/%E5%AE%89%E5%88%A9/unikernel-book)
 - [一种新的操作系统设计](https://www.yinwang.org/blog-cn/2013/04/14/os-design)
