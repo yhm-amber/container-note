@@ -1,8 +1,8 @@
 陶器烧制技术是非常重要的。因为，它让人类几乎是第一次拥有了可以长期使用且性质稳定的容器。
 
-而有了容器，人类文明就有了分水岭。
+而有了容器，人类文明就有了分水岭。（确切说是 *野蛮时代* 向 *蒙昧时代* 的过渡是从制陶术开始的，这是 *摩尔根* 的观点。该观点有记载自《家庭、私有制和国家的起源》一书中。）
 
-在 [*New Jersey approach*](https://dreamsongs.com/RiseOfWorseIsBetter.html) 的基底上尝试做合乎 [*MIT approach*](https://dreamsongs.com/RiseOfWorseIsBetter.html) 的事情，技术上的容器就诞生了。
+而，在 [*New Jersey approach*](https://dreamsongs.com/RiseOfWorseIsBetter.html) 的基底上尝试做合乎 [*MIT approach*](https://dreamsongs.com/RiseOfWorseIsBetter.html) 的事情，技术上的容器就诞生了。
 
 ——这就像是让一个 *WIB* 的东西往自己指导思想相反方向去走的尝试一样，它绽放的火花里将会埋藏希望的火种。
 
