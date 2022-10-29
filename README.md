@@ -10,22 +10,22 @@
 
 > [*sometimes it takes a tough man to make a tender chicken*](https://english.stackexchange.com/questions/24460/what-does-it-takes-a-tough-man-to-make-a-tender-chicken-mean)
 > 
-> *没有一个够硬的厨子就可能做不出一道够嫩的鸡*
+> *`没有一个够硬的厨子就可能做不出一道够嫩的鸡`*
 > 
 
 但——
 
 > Half the computers that exist at any point are worse than median (smaller or slower). Unix and C work fine on them. The worse-is-better philosophy means that implementation simplicity has highest priority, which means Unix and C are easy to port on such machines. Therefore, one expects that if the 50% functionality Unix and C support is satisfactory, they will start to appear everywhere. And they have, haven’t they?
 > 
-> 在任何时候都会存在一半计算机都比中位数更差（更小或更慢）。 Unix 和 C 语言在它们上面运行良好。更差就是更好的哲学意味着实现的简单性具有最高的优先权，这意味着 Unix 和 C 语言很容易植入在这些机器上。因此，人们期望，如果 Unix 和 C 支持的 50% 的功能令人满意，那它就要到处出现了。而且它们已经出现了，不是吗？
+> `在任何时候都会存在一半计算机都比中位数更差（更小或更慢）。 Unix 和 C 语言在它们上面运行良好。更差就是更好的哲学意味着实现的简单性具有最高的优先权，这意味着 Unix 和 C 语言很容易植入在这些机器上。因此，人们期望，如果 Unix 和 C 支持的 50% 的功能令人满意，那它就要到处出现了。而且它们已经出现了，不是吗？`
 > 
 > Unix and C are the ultimate computer viruses.
 > 
-> Unix 和 C 是最终的计算机病毒。
+> `Unix 和 C 是最终的计算机病毒。`
 > 
 > further benefit of the worse-is-better philosophy is that the programmer is conditioned to sacrifice some safety, convenience, and hassle to get good performance and modest resource use. Programs written using the New Jersey approach will work well both in small machines and large ones, and the code will be portable because it is written on top of a virus.
 > 
-> 更差就是更好的哲学的另一个好处是，程序员有条件牺牲一些安全、方便和麻烦来获得良好的性能和适度的资源使用。使用新泽西方法编写的程序在小机器和大机器上都能很好地工作，而且代码将是可移植的，因为它是写在病毒之上的。
+> `更差就是更好的哲学的另一个好处是，程序员有条件牺牲一些安全、方便和麻烦来获得良好的性能和适度的资源使用。使用新泽西方法编写的程序在小机器和大机器上都能很好地工作，而且代码将是可移植的，因为它是写在病毒之上的。`
 > 
 
 --------
