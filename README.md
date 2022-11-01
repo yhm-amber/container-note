@@ -38,6 +38,7 @@
 
 扩展阅读：
 
+- [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 - [Worse Is Better -- Lisp: Good News, Bad News, How to Win Big](https://dreamsongs.com/WIB.html)
 - [容器战争 - Nolla](https://cmgs.me/life/container-war)
 - [UNIKERNEL：从不入门到入门 | 高策](https://gaocegege.com/Blog/%E5%AE%89%E5%88%A9/unikernel-book)
