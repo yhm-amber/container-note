@@ -12,16 +12,18 @@
 
 而，在 [*New Jersey approach*](https://dreamsongs.com/RiseOfWorseIsBetter.html) 的基底上尝试做合乎 [*MIT approach*](https://dreamsongs.com/RiseOfWorseIsBetter.html) 的事情，技术上的容器就诞生了。
 
-——这就像是让一个 *WIB* 的东西往自己指导思想相反方向去走的尝试一样，它绽放的火花里将会埋藏希望的火种。
 
-一般来说，精益求精是必要的。一个各节点之间密切联系的流程，会省区绝大部分的不必要的浪费。比如，对上游而言保留数据的结构信息是轻而易举的事情的话，下游就没必要专门再耗费人工或机器的力气从一堆无结构的数据中重新整理出结构。设计恰当的数据结构，好过对万能解释器的依赖。
+
+一般来说，精益求精是必要的。如果在一开始就做正确的事，容器本身也没有存在的必要，反而更像个拙劣的模仿。
+
+一个各节点之间密切联系的流程，会省区绝大部分的不必要的浪费。比如，对上游而言保留数据的结构信息是轻而易举的事情的话，下游就没必要专门再耗费人工或机器的力气从一堆无结构的数据中重新整理出结构。设计恰当的数据结构，好过对万能解释器的依赖。
 
 > [*sometimes it takes a tough man to make a tender chicken*](https://english.stackexchange.com/questions/24460/what-does-it-takes-a-tough-man-to-make-a-tender-chicken-mean)
 > 
 > *`没有一个够硬的厨子就可能做不出一道够嫩的鸡`*
 > 
 
-但——
+但，问题在于，历史的进程是以问题的解决为脚步的。虽然这个历史进程的特性本身也是一个有待解决的问题，但这个进程的终点就是将有这样特性的它自身来解决。
 
 > Half the computers that exist at any point are worse than median (smaller or slower). Unix and C work fine on them. The worse-is-better philosophy means that implementation simplicity has highest priority, which means Unix and C are easy to port on such machines. Therefore, one expects that if the 50% functionality Unix and C support is satisfactory, they will start to appear everywhere. And they have, haven’t they?
 > 
@@ -36,11 +38,13 @@
 > `更差就是更好的哲学的另一个好处是，程序员有条件牺牲一些安全、方便和麻烦来获得良好的性能和适度的资源使用。使用新泽西方法编写的程序在小机器和大机器上都能很好地工作，而且代码将是可移植的，因为它是写在病毒之上的。`
 > 
 
-如果是为了性能，那么简单的价值也就得到体现了。
+而要达到这个终点，我们就不要吝惜自己纯洁的程度了罢。
 
-（但如果这只是把性能的损失转嫁走了的话，那就就仍然只是一种卑鄙而称不上高明的行为罢了。）
+把问题转嫁走，当然不是什么高尚的负责任的行为，还会给全盘带来混乱、低效等麻烦。但我们应当分析并看出造成这些麻烦的背后的具体原因，而不是只管恐惧抽象的「不优雅」。
 
-***（不过——一个社会中的软件，其普遍能达到什么样的形态，这和产生出来它的这个社会本身的结构形态，是密不可分的。）***
+一个社会中的软件，其普遍能达到什么样的形态，这和产生出来它的这个社会本身的结构形态，是密不可分的。
+
+如果「不优雅」的姿态是根除使之存在的社会因素所不可避免的手段的话，真正优雅的人将不会吝惜自己看起来的优雅程度。
 
 
 --------
