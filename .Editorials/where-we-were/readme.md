@@ -17,7 +17,7 @@
 
 下面即是该内容。
 
-换行和标点都是我加的。折叠的注记 `🏷` 也是我（录入者）加的。
+换行和标点都是我加的。折叠的注记 🏷 也是我（录入者）加的。
 
 具有特定具体含义的词汇，如 `赛博` 或者角色名称等，我会用 `这样的形式` 予以标出，表示这几个字是一个被强调的整体。我不会标出全部，比如我认为如标记则不会更有利于阅读的、或者没必要标记的那些地方。
 
@@ -57,9 +57,7 @@
 
 <details>
 
-<summary>
-<code>🏷</code>
-</summary>
+<summary>🏷</summary>
 
 ~~~ markdown
 反 `赛博` 不一定要反 `赛博格` 。
@@ -77,9 +75,7 @@
 
 <details>
 
-<summary>
-<code>🏷</code>
-</summary>
+<summary>🏷</summary>
 
 ~~~ markdown
 这里有个弹幕说得很好：二元论陷阱处处皆有。
@@ -133,9 +129,7 @@
 
 <details>
 
-<summary>
-<code>🏷</code>
-</summary>
+<summary>🏷</summary>
 
 ~~~ markdown
 关于提高生产效率的改造，不光是看得见的身体的，目前的话，更多应该是看不见的思想上的。就算没有主动的改造，也会存在思想习惯的形成，不同领域的人思考事物的各方面习惯（比如先后顺序）就是不一样的。
@@ -170,9 +164,7 @@
 
 <details>
 
-<summary>
-<code>🏷</code>
-</summary>
+<summary>🏷</summary>
 
 ~~~ markdown
 这里作者在自制字母中对上述「这些人」的义体有备注：
@@ -195,9 +187,7 @@
 
 <details>
 
-<summary>
-<code>🏷</code>
-</summary>
+<summary>🏷</summary>
 
 ~~~ markdown
 下面是作者自己的评论（同时也是赞数最多的（目前））：
