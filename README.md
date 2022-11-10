@@ -1,17 +1,7 @@
 
-
-<details>
-
-<summary>
-<code>🦎 这是一个入口</code>
-</summary>
-
-~~~ md
-之于要继续前行的通道，容器是一个入口。
-是在要再进一步的前进时，仍然一定程度地确保自己对自己命运掌握的一种安全措施性质的东西。
+~~~ factor
+确切说 不止是容器 而是实践的笔记 。 🤔🦎
 ~~~
-
-</details>
 
 ----
 
@@ -63,5 +53,5 @@
 - [UNIKERNEL：从不入门到入门 | 高策](https://gaocegege.com/Blog/%E5%AE%89%E5%88%A9/unikernel-book)
 - [一种新的操作系统设计](https://www.yinwang.org/blog-cn/2013/04/14/os-design)
 - [程序员的酒后真言 | Greycode's Blog](https://greycode.top/posts/a98d5ec3509f483e80919ca2e09bda1b/)
-- [以 Erlang/Elixir 的方案写 Rust 程序](https://lunatic.solutions/blog/writing-rust-the-elixir-way/)
+- [编写像 Erlang/Elixir 那样的 Rust 程序](https://lunatic.solutions/blog/writing-rust-the-elixir-way/)
 - [基于 Rust 讲解容器都有哪些东西](https://litchipi.github.io/series/container_in_rust)
