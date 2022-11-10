@@ -17,7 +17,7 @@
 
 下面即是该内容。
 
-换行和标点都是我加的。折叠的注记 `录入` 也是我（录入者）加的。
+换行和标点都是我加的。折叠的注记 `🏷` 也是我（录入者）加的。
 
 具有特定具体含义的词汇，如 `赛博` 或者角色名称等，我会用 `这样的形式` 予以标出，表示这几个字是一个被强调的整体。我不会标出全部，比如我认为如标记则不会更有利于阅读的、或者没必要标记的那些地方。
 
@@ -58,7 +58,7 @@
 <details>
 
 <summary>
-<code>录注</code>
+<code>🏷</code>
 </summary>
 
 ~~~ markdown
@@ -78,7 +78,7 @@
 <details>
 
 <summary>
-<code>录注</code>
+<code>🏷</code>
 </summary>
 
 ~~~ markdown
@@ -134,7 +134,7 @@
 <details>
 
 <summary>
-<code>录注</code>
+<code>🏷</code>
 </summary>
 
 ~~~ markdown
@@ -171,7 +171,7 @@
 <details>
 
 <summary>
-<code>录注</code>
+<code>🏷</code>
 </summary>
 
 ~~~ markdown
@@ -196,7 +196,7 @@
 <details>
 
 <summary>
-<code>录注</code>
+<code>🏷</code>
 </summary>
 
 ~~~ markdown
