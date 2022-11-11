@@ -59,3 +59,4 @@
 - [程序员的酒后真言 | Greycode's Blog](https://greycode.top/posts/a98d5ec3509f483e80919ca2e09bda1b/)
 - [编写像 Erlang/Elixir 那样的 Rust 程序](https://lunatic.solutions/blog/writing-rust-the-elixir-way/)
 - [基于 Rust 讲解容器都有哪些东西](https://litchipi.github.io/series/container_in_rust)
+- [Oberon | concatenative.org](https://concatenative.org/wiki/view/Oberon)
