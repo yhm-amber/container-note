@@ -57,7 +57,7 @@
 
 --------
 
-扩展阅读：
+推荐阅读：
 
 - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 - [Worse Is Better -- Lisp: Good News, Bad News, How to Win Big](https://dreamsongs.com/WIB.html)
