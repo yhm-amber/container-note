@@ -1,5 +1,7 @@
 来源：https://www.gnu.org/philosophy/open-source-misses-the-point.html
 
+折叠部分是由我（录入者）编写的内容。
+
 # 为什么开源错失了自由软件的重点
 
 *Richard Stallman 著*
