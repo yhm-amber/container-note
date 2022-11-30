@@ -1,1 +1,1 @@
-*.* linguist-documentation=false linguist-detectable=true
+*.md linguist-documentation=false linguist-detectable=true
