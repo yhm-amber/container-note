@@ -5,8 +5,8 @@ note about practice . 🦎🤔
 
 内容：
 
-- [`关于容器化的使用实践`](./practices-notes)
-- [`尝试通过玩耍的示例体现`](./play-demos)
+- [`容器化实践记录`](./practices-notes)
+- [`面向目的的示例`](./play-demos)
 
 ----
 
