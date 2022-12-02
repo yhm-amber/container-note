@@ -101,6 +101,7 @@ note about practice . 🦎🤔
 
 推荐阅读：
 
+- [Book | Nushell](https://www.nushell.sh/zh-CN/book/)
 - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 - [Worse Is Better -- Lisp: Good News, Bad News, How to Win Big](https://dreamsongs.com/WIB.html)
 - [容器战争 - Nolla](https://cmgs.me/life/container-war)
