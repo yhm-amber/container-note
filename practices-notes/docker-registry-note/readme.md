@@ -36,9 +36,9 @@ docker run -d --restart always \
 
 ### 镜像配置
 
-ref: https://mirrors.ustc.edu.cn/help/dockerhub.html
-ref: https://mirrors.sjtug.sjtu.edu.cn/docs/docker-registry
-ref: https://www.ioiox.com/archives/38.html
+ref: https://mirrors.ustc.edu.cn/help/dockerhub.html  
+ref: https://mirrors.sjtug.sjtu.edu.cn/docs/docker-registry  
+ref: https://www.ioiox.com/archives/38.html  
 
 
 对 `/etc/docker` 下的 `daemon.json` 的 `.registry-mirrors` 字段做如下配置：
@@ -79,8 +79,8 @@ sudo systemctl restart docker &&
 
 ### 几个不同仓库的代理
 
-ref: https://dockerproxy.com/docs
-ref: https://dockerproxy.com
+ref: https://dockerproxy.com/docs  
+ref: https://dockerproxy.com  
 
 来自 `dockerproxy.com` 提供的代理：
 
