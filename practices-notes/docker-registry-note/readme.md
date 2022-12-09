@@ -1,6 +1,8 @@
 
 Docker 公司出的 Hub 镜像方案。
 
+see: https://docs.docker.com/registry/
+
 ## by [`twuni`](https://github.com/twuni)
 
 ref: https://github.com/twuni/docker-registry.helm
