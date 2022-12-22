@@ -1,7 +1,10 @@
 
 Docker 公司出的 Hub 镜像方案。
 
-see: https://docs.docker.com/registry/
+see:
+
+- https://docs.docker.com/registry/
+- https://github.com/distribution/distribution.git
 
 ## by [`twuni`](https://github.com/twuni)
 
