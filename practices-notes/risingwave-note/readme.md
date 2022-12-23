@@ -63,9 +63,9 @@ ref:
 
 ### need
 
-1.  [`cert-manager`](https://cert-manager.io/docs/installation/) ([可见此](../cert-manager-note))
+1.  [`cert-manager`](https://cert-manager.io/docs/installation/) ([also see](../cert-manager-note))
     
-2.  Operator :
+2.  [Operator](https://github.com/risingwavelabs/risingwave-operator.git) :
     
     ~~~ sh
     kubectl apply -f https://github.com/risingwavelabs/risingwave-operator/releases/latest/download/risingwave-operator.yaml
@@ -78,7 +78,7 @@ ref:
     kubectl -n risingwave-operator-system get pods
     ~~~
     
-3.  Instance :
+3.  [Instance](https://github.com/risingwavelabs/risingwave.git) :
     
     `etcd + MinIO`
     
