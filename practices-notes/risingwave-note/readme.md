@@ -97,6 +97,8 @@ ref:
 
 #### ClusterIP
 
+need to play with kubectl :
+
 ~~~ sh
 kubectl apply -f https://raw.githubusercontent.com/risingwavelabs/risingwave-operator/main/examples/psql/psql-console.yaml
 kubectl exec psql-console -it -- psql -h risingwave-etcd-minio-frontend -p 4567 -d dev -U root
@@ -104,7 +106,7 @@ kubectl exec psql-console -it -- psql -h risingwave-etcd-minio-frontend -p 4567 
 
 #### NodePort
 
-Set `risingwave` Instance's `spec.global.serviceType` as `NodePort` , then e.g. :
+Set `risingwave` instance's `spec.global.serviceType` as `NodePort` , then e.g. :
 
 ~~~ sh
 rw_name=risingwave-etcd-minio &&
@@ -117,7 +119,7 @@ psql -h ${rw_host} -p ${rw_port} -d dev -U root
 
 #### LoadBalancer
 
-Set `risingwave` Instance's `spec.global.serviceType` as `LoadBalancer` , then e.g. :
+Set `risingwave` instance's `spec.global.serviceType` as `LoadBalancer` , then e.g. :
 
 ~~~ sh
 rw_name=risingwave-etcd-minio &&
