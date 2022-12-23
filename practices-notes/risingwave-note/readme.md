@@ -63,7 +63,9 @@ ref:
 
 ### need
 
-1.  [`cert-manager`](https://cert-manager.io/docs/installation/) ([also see](../cert-manager-note))
+1.  [Cert Manager](https://github.com/cert-manager/cert-manager.git)
+    
+    [Install](https://cert-manager.io/docs/installation) ([also see](../cert-manager-note))
     
 2.  [Operator](https://github.com/risingwavelabs/risingwave-operator.git) :
     
