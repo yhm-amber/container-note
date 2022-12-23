@@ -80,9 +80,11 @@ docker run --name ejabberd -i -t -p 5222:5222 \
 ~~~
 
 > **Note**
-> ejabberd runs in the container with an account named ejabberd, and the volumes you mount must grant proper rights to that account.
+> 
+> Notice that ejabberd runs in the container with an account named `ejabberd`, so the volumes you mount must grant proper rights to that account.
+> 
 
+### exec
 
-
-
+ref: https://github.com/processone/ejabberd/blob/master/CONTAINER.md#next-steps
 
