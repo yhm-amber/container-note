@@ -39,3 +39,50 @@ ref: https://github.com/processone/ejabberd.git
 [xeps]: https://www.process-one.net/en/ejabberd/protocols/
 [xmpp]: https://xmpp.org/
 [xmppej]: https://xmpp.org/software/servers/ejabberd/
+
+## container
+
+ref:
+
+- https://docs.ejabberd.im/admin/installation/#docker-image
+- https://github.com/processone/ejabberd/blob/master/CONTAINER.md
+
+### pull
+
+~~~ sh
+docker pull ejabberd/ecs
+docker pull ghcr.io/processone/ejabberd:latest
+~~~
+
+### run
+
+That uses the default configuration file and XMPP domain "localhost" : 
+
+~~~ sh
+docker run --name ejabberd -d -p 5222:5222 ghcr.io/processone/ejabberd # daemon
+docker run --name ejabberd -it -p 5222:5222 ghcr.io/processone/ejabberd live # living erlang console attached
+~~~
+
+Start with your configuration and database : 
+
+~~~ sh
+# in an empty fold
+
+mkdir -- database
+chown -- ejabberd database
+
+cp -- ejabberd.yml.example ejabberd.yml
+
+docker run --name ejabberd -i -t -p 5222:5222 \
+  -v $(pwd)/ejabberd.yml:/opt/ejabberd/conf/ejabberd.yml \
+  -v $(pwd)/database:/opt/ejabberd/database \
+  -- ghcr.io/processone/ejabberd live
+~~~
+
+> **Note**
+> ejabberd runs in the container with an account named ejabberd, and the volumes you mount must grant proper rights to that account.
+
+
+
+
+
