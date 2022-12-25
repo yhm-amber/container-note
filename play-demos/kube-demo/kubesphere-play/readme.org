@@ -1,1 +1,1 @@
-KubeSphere
+KubeSphere (v ~3.2.1~ or later)
