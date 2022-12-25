@@ -1,3 +1,5 @@
+: have a lot of fun 🤗 :
+
 klsctl ()
 {
     : usage demo:
