@@ -7,6 +7,11 @@
 
 [playground][play] | [jgraph/drawio][repo]
 
+----
+
+这是个流程图绘制应用。
+
+
 运行 war 文件即可取得该应用的功能。
 
 因此，可以以一个能够 CSI 的分布式或者对象存储为背靠（页面上要选择本地存储）在 Kubernetes 上运行。
