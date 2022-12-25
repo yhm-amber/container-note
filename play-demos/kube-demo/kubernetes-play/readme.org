@@ -1,1 +1,1 @@
-Kubernetes (v1.19.x or later)
+Kubernetes (ver `1.19.x` or later)
