@@ -1,1 +1,1 @@
-HDFS (include ozone)
+Hadoop things
