@@ -3,6 +3,6 @@
 
 So many playing cases or tryings.
 
-[playings]: for dev demo
-[cases]: for ops demo
-[tryings]: for just test
+[playings]: for://dev.demo
+[cases]: for://ops.demo
+[tryings]: for://test.just
