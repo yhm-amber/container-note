@@ -1,1 +1,1 @@
-Helm (v3 or later)
+Helm (v ~3.x.x~ or later)
