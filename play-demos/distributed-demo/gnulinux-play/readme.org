@@ -1,5 +1,7 @@
 On GNU/Linux OS Distributions' distributed playings.
 
+Types:
+
 - systemd serve
 - script execute
 - device mounts
