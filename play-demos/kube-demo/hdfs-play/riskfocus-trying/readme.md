@@ -1,5 +1,5 @@
 
-### `riskfocus/flink`
+### flink
 
 `https://artifacthub.io/packages/helm/riskfocus/flink`
 
