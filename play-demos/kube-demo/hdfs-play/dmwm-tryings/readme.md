@@ -8,6 +8,8 @@ helm repo add -- dmwm-bigdata https://mehrwertmacher.github.io/bigdata-charts
 
 ### hdfs
 
+#### simple
+
 ~~~~ sh
 helm install -- hdfs dmwm-bigdata/hdfs
 ~~~~
@@ -32,7 +34,7 @@ NOTES:
    open http://localhost:9870
 ~~~~~
 
-### hdfs
+#### using some options
 
 ~~~~ bash
 # hdfs 3.2.2
