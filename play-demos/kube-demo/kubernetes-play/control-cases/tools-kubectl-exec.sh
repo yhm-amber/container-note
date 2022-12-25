@@ -1,9 +1,4 @@
-: have a lot of fun 🤗 :
-
-
-
-
-
+: have a lot of fun 😃 :
 
 
 kubej_chks ()
