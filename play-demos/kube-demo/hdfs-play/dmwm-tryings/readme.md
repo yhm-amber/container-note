@@ -7,7 +7,7 @@
 ## 0
 
 ~~~ sh
-helm repo add openebs https://openebs.github.io/charts
+helm repo add -- openebs https://openebs.github.io/charts
 helm repo update
 helm install openebs --namespace openebs openebs/openebs --create-namespace
 ~~~
@@ -15,7 +15,7 @@ helm install openebs --namespace openebs openebs/openebs --create-namespace
 ## 1
 
 ~~~ sh
-helm repo add dmwm-bigdata https://mehrwertmacher.github.io/bigdata-charts
+helm repo add -- dmwm-bigdata https://mehrwertmacher.github.io/bigdata-charts
 ~~~
 
 ## 2
@@ -23,7 +23,7 @@ helm repo add dmwm-bigdata https://mehrwertmacher.github.io/bigdata-charts
 ### hdfs
 
 ~~~~ sh
-helm install hdfs dmwm-bigdata/hdfs
+helm install -- hdfs dmwm-bigdata/hdfs
 ~~~~
 
 stdout:
@@ -49,7 +49,7 @@ NOTES:
 ### hbase
 
 ~~~~ sh
-helm install hbase dmwm-bigdata/hbase
+helm install -- hbase dmwm-bigdata/hbase
 ~~~~
 
 stdout:
@@ -85,7 +85,7 @@ NOTES:
 ### hive
 
 ~~~~ sh
-helm install hive dmwm-bigdata/hive
+helm install -- hive dmwm-bigdata/hive
 ~~~~
 
 stdout:
