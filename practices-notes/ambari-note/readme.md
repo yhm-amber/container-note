@@ -1,7 +1,7 @@
 
 ### `sequenceiq/docker-ambari`
 
-repo: https://github.com/sequenceiq/docker-ambari.git
+- https://github.com/sequenceiq/docker-ambari.git
 
 
 ### `hokstack/hokstack`
