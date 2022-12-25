@@ -1,1 +1,9 @@
-Hadoop things
+HDFS and other Hadoop things
+
+- hdfs
+- spark
+- flink
+- ozone
+- ...
+
+to playing on Cloud Native !
