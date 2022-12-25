@@ -1,4 +1,6 @@
-# (old file 🤒) on OS, or not (only) on OS?
+# on OS, or not (only) on OS?
+
+*this is just an old file 🤒 ... not very current.*
 
 ## 存储方案
 
