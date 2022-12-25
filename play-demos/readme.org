@@ -1,4 +1,8 @@
 
 具体地记录一类事物在做各种工作时的用法。
 
-So many playing cases.
+So many playing cases or tryings.
+
+[playings]: for dev demo
+[cases]: for ops demo
+[tryings]: for just test
