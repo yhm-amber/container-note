@@ -5,4 +5,9 @@
 
 ----
 
-## with brave
+## kubo
+
+- with `brave`
+- with `ipfs-desktop`
+
+## ipfs-cluster
