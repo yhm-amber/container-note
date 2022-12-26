@@ -21,7 +21,7 @@
 
 从其[分发页面][release]来看，它有 `iso` 格式的用于 `amd64` 指令集芯片的 OS 安装包，也有 `deb` 格式的用于在 Debian 上作为应用程序部署。
 
-其应用的打包与 [Umbrel](../umbrel-note) 一样，也是 OCI 格式的，并且[示例][docs-pkg-buildx]同样使用了 [`docker buildx`][buildx-repo] 作为打包工具：
+其应用的打包与 [Umbrel](../umbrel-note) 一样，也是 OCI 格式的，且 [示例][docs-pkg-buildx] 同样使用了 [`docker buildx`][buildx-repo] 作为打包工具：
 
 ~~~ sh
 docker buildx build --tag start9/$(PKG_ID)/main:$(PKG_VERSION) --platform=linux/arm64 -o type=docker,dest=image.tar -- .
