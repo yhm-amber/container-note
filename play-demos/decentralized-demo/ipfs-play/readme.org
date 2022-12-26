@@ -9,5 +9,5 @@
 
 实现
 
-- `ipfs/kubo`
-- `FuzzrNet/Fuzzr`
+- ipfs/kubo
+- FuzzrNet/Fuzzr
