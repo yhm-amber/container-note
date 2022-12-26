@@ -5,10 +5,15 @@
 
 ----
 
-## kubo
+## single
+
+kubo:
 
 - with `brave`
 - with `ipfs-desktop`
 - just `ipfs-commandline`
 
-## ipfs-cluster
+## cluster
+
+ipfs-cluster:
+
