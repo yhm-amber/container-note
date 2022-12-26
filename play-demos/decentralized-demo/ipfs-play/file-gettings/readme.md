@@ -7,13 +7,13 @@
 
 ## single
 
-kubo:
+[kubo](../../../../practices-notes/kubo-note):
 
 - with `brave`
 - with `ipfs-desktop`
 - just `ipfs-commandline`
 
-fuzzr:
+[fuzzr](../../../../practices-notes/fuzzr-note):
 
 - command-line
 
