@@ -9,5 +9,6 @@
 
 - with `brave`
 - with `ipfs-desktop`
+- just `ipfs-commandline`
 
 ## ipfs-cluster
