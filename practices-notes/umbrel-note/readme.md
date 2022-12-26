@@ -12,7 +12,9 @@
 [repo-app]: https://github.com/getumbrel/umbrel-apps.git
 [buildx-repo]: https://github.com/docker/buildx.git
 
-根据 [`getumbrel/umbrel-apps`][repo-app] 可知，在该平台 (OS) 上的打包是 OCI 格式的。其 [示例][pkg-buildx] 使用了 [`docker buildx`][buildx-repo] 工具：
+根据 [`getumbrel/umbrel-apps`][repo-app] 可知，在该平台 (OS) 上的打包是 OCI 格式的。
+
+其 [示例][pkg-buildx] 使用了 [`docker buildx`][buildx-repo] 工具：
 
 ~~~ sh
 docker buildx build --platform linux/arm64,linux/amd64 --tag getumbrel/btc-rpc-explorer:v2.0.2 --output "type=registry" -- .
