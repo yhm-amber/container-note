@@ -1,4 +1,4 @@
-方面：文件方面
+文件
 
 - 分享
 - 保存
@@ -12,6 +12,11 @@ kubo:
 - with `brave`
 - with `ipfs-desktop`
 - just `ipfs-commandline`
+
+fuzzr:
+
+- command-line
+
 
 ## cluster
 
