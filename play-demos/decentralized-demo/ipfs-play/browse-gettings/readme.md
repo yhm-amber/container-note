@@ -12,9 +12,6 @@ kubo:
 - ipfs-desktop
 - command-line
 
-fuzzr:
-
-- command-line
 
 ## Android
 
