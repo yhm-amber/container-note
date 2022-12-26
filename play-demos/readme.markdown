@@ -1,5 +1,5 @@
 
-做某种方面的事。
+如何做到某方面的事。
 
 So many [playing][playings] [cases][cases] or [tryings][tryings].
 
