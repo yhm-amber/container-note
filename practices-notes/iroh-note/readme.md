@@ -6,7 +6,7 @@
 [repo]: https://github.com/n0-computer/iroh.git
 [docs]: https://iroh.computer/docs
 
-> Iroh is a next-generation implementation of the Interplanetary File System ([IPFS](https://ipfs.io)) for Cloud, Mobile & Desktop platforms. IPFS is a networking protocol for exchanging content-addressed blocks of immutable data. content-addressed means referring to data by the hash of it’s content, which makes the reference both unique and verifiable. These two properties make it possible to get data from any node in the network that speaks the IPFS protocol, including IPFS content being served by other implementations of the protocol.
+> Iroh is a next-generation implementation of the Interplanetary File System ([IPFS](https://ipfs.io)) for Cloud, Mobile & Desktop platforms. IPFS is a networking protocol for exchanging content-addressed blocks of immutable data. content-addressed means referring to data by the hash of it’s content, which makes the reference both unique and verifiable. These two properties make it possible to get data from *any* node in the network that speaks the IPFS protocol, including IPFS content being served by other implementations of the protocol.
 > 
 
 - repo: [`n0-computer/iroh`][repo]
