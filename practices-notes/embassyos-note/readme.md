@@ -20,3 +20,9 @@
 其网站 ([`start9.com`][site]) 通过对比 *Cloud computing* 与 *Sovereign computing* 介绍其自身。
 
 从其[包分发][release]页面来看，它有 `iso` 格式的用于 `amd64` 指令集芯片的 OS 安装包，也有 `deb` 格式的用于在 Debian 上作为应用程序部署。
+
+----
+
+- knows by: [FuzzrNet/Forage][forage-repo]
+
+[forage-repo]: https://github.com/FuzzrNet/Forage.git
