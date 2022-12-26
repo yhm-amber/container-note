@@ -17,6 +17,6 @@
 > 您可以在闭源、中介、托管、 **昂贵** 的云计算模型中做的任何事情，您也可以在开源、自托管、私有和 **年费** 的主权计算模型中做。
 > 
 
-其[网站][site]通过对比 *Cloud computing* 与 *Sovereign computing* 介绍其自身。
+其网站 ([`start9.com`][site]) 通过对比 *Cloud computing* 与 *Sovereign computing* 介绍其自身。
 
-从[包分发][release]页面来看，它有 `iso` 格式的用于 `amd64` 指令集芯片的 OS 安装包，也有 `deb` 格式的用于在 Debian 上作为应用程序部署。
+从其[包分发][release]页面来看，它有 `iso` 格式的用于 `amd64` 指令集芯片的 OS 安装包，也有 `deb` 格式的用于在 Debian 上作为应用程序部署。
