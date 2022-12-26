@@ -14,8 +14,8 @@
 
 [doc-docker]: https://docs.nextcloud.com/server/latest/admin_manual/office/example-docker.html
 
-repo: [`server`][repo-server] [`ui`][repo-ui-vue]
-ref: [Installation example with Docker — Nextcloud latest Administration Manual latest documentation][doc-docker]
+- repo: [`server`][repo-server] [`ui`][repo-ui-vue]
+r- ef: [Installation example with Docker — Nextcloud latest Administration Manual latest documentation][doc-docker]
 
 pull:
 
