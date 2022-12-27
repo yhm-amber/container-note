@@ -72,12 +72,12 @@ ref:
 > Iroh 的性能一直优于 Kubo ，使用更少的资源来满足更多的请求。  
 > “用 Rust 重写”的陈词滥调是有一定道理的。再加上多年来与 IPFS 合作的经验教训，也无伤大雅。
 > 
-> - Throughput `req/second`
+> - Throughput 吞吐量 `req/second`
 >   
 >   - Iroh: `6,926`
 >   - Kubo: `4,957`
 >   
-> - Adding Content `100mb Files`
+> - Adding Content 新增内容 `100mb Files`
 >   
 >   - Iroh: `199 Mb/s`
 >   - Kubo: `294 Mb/s`
