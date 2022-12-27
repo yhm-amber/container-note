@@ -12,7 +12,8 @@
 - repo: [`n0-computer/iroh`][repo]
 - site: [`iroh.computer`][site] [`docs`][docs]
 - organization: [`n0.computer`][behinder-site]
-  
+
+# n0.computer
 
 ref: [n0.computer][behinder-site]
 
@@ -40,12 +41,68 @@ ref: [n0.computer][behinder-site]
 > 我们衡量一切。我们认为技术最好是有点创意的时候。我们建立的东西只是工作。如果这对你来说听起来很酷，让我们联系吧。
 > 
 
-iroh:
+# iroh
 
 > The most efficient implementation of IPFS on any planet.
 > 
 > 任何星球上最有效的IPFS的实现。
 > 
+
+## compare Kubo
+
+[diff-kubo]: https://iroh.computer/docs/iroh-and-kubo
+
+ref: 
+
+- 与 Kubo 的软件内容区别与详细命令对比： [docs][diff-kubo]
+- 更快： [site][site]
+
+从文档可以看到， `iroh` 的命令支持是对标于 `kubo` 的，并且功能上只实现了一部分——大部分的主要功能现在都实现了。
+前者显然是还没做完的状态。安装方式里的部分支持，比如 Docker (OCI) 的支持，正处于 `more soon` 的状态。
+
+兼容性和互支持性见上面的参考链接。
+
+而在主页，有显示与 `kubo` 相比的性能对比：
+
+> #### Faster
+> 
+> Iroh consistently outperforms Kubo, using fewer resources to serve more requests.  
+> There is a ring of truth to the "rewrite it in Rust" cliché. Adding in lessons learned while working with IPFS over the years doesn't hurt either.  
+> 
+> - Throughput `req/second`
+>   
+>   - Iroh: `6,926`
+>   - Kubo: `4,957`
+>   
+> - Adding Content `100mb Files`
+>   
+>   - Iroh: `199 Mb/s`
+>   - Kubo: `294 Mb/s`
+>   
+> 
+
+其它介绍：
+
+> #### Practical
+> 
+> Iroh does fewer things than kubo, with more polish. Iroh targets a subset of the kubo API, aiming at the most commonly-used features of IPFS, while steering users away from pitfalls that have been trapped in kubo to maintain backward compatibility.  
+> 
+> If it's shipped in iroh, it will just work.  
+> 
+> #### Platform Specific
+> 
+> Running a single binary in the cloud doesn't make much sense. Neither does duplicating files locally when running IPFS on the desktop  
+> 
+> Iroh is a single codebase with multiple platform targets, allowing iroh to be microservices in the cloud, use more natural defaults on desktop.  
+> 
+> #### Mobile Support
+> 
+> Finally, IPFS on a phone.  
+> 
+> Iroh can be embedded into iOS & Android applications to speak the IPFS protocol natively. It's not a device-overheating afterthought, it's a ground-up rethink of what IPFS on a phone should look like.  
+> 
+
+
 
 
 
