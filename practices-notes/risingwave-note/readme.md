@@ -1,13 +1,16 @@
 
+[repo-instance]: https://github.com/risingwavelabs/risingwave.git
+[docs-intro]: https://risingwave.dev/docs/current/intro/
+
 ## Intro
 
-ref: https://risingwave.dev/docs/current/intro/
+ref: [risingwave.dev/docs][docs-intro]
 
 > RisingWave is an open-source cloud-native streaming database that uses SQL as the interface to manage and query data. It is designed to reduce the complexity and cost of building real-time applications. RisingWave consumes streaming data, performs incremental computations when new data come in, and updates results dynamically. As a database system, RisingWave maintains results in its own storage so that users can access data efficiently. You can sink data from RisingWave to an external stream for storage or additional processing.
 
 ## Simple
 
-ref: https://github.com/risingwavelabs/risingwave.git
+ref: [`risingwavelabs/risingwave`][repo-instance]
 
 > Use Docker (Linux, macOS)
 > 
@@ -61,13 +64,16 @@ ref:
 
 ## Kubernetes
 
+[repo-operator]: https://github.com/risingwavelabs/risingwave-operator.git
+[repo-certmanager]: https://github.com/cert-manager/cert-manager.git
+
 ### need
 
-1.  [Cert Manager](https://github.com/cert-manager/cert-manager.git)
+1.  [Cert Manager][repo-certmanager] : 
     
     [Install](https://cert-manager.io/docs/installation) ([also see](../cert-manager-note))
     
-2.  [Operator](https://github.com/risingwavelabs/risingwave-operator.git) :
+2.  [Operator][repo-operator] : 
     
     ~~~ sh
     kubectl apply -f https://github.com/risingwavelabs/risingwave-operator/releases/latest/download/risingwave-operator.yaml
@@ -80,7 +86,7 @@ ref:
     kubectl -n risingwave-operator-system get pods
     ~~~
     
-3.  [Instance](https://github.com/risingwavelabs/risingwave.git) :
+3.  [Instance][repo-instance] : 
     
     `etcd + MinIO`
     
@@ -134,7 +140,9 @@ psql -h ${rw_host} -p ${rw_port} -d dev -U root
 
 ## Use
 
-ref: https://www.risingwave.dev/docs/current/risingwave-sql-101/
+[sql-101]: https://risingwave.dev/docs/current/risingwave-sql-101/
+
+ref: [risingwave.dev/docs sql-101][sql-101]
 
 
 
