@@ -5,4 +5,4 @@ see note: [[../../../practices-notes/risingwave-note][risingwave note]]
 RisingWave is an open-source cloud-native streaming database that uses SQL as the interface to manage and query data.
 #+END_QUOTE
 
-它的客户端和 [[../pg-play][pg]] 一样，也是 ~psql~ 。不过可使用的指令并不只是支持 PostgreSQL 的那些。
+它的客户端和 [[../pg-play][pg]] 一样，也是 =psql= 。不过可使用的指令并不只是支持 PostgreSQL 的那些，看起来就只是支持被 PostgreSQL 的客户端连接而已，只是连接协议的支持。（这跟 [[../tidb-play][TiDB]] 的客户端是 =mysql= 道理类似。）
