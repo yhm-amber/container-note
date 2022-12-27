@@ -7,7 +7,7 @@ ref: https://risingwave.dev/docs/current/intro/
 
 ## Simple
 
-ref: https://github.com/risingwavelabs/risingwave/.git
+ref: https://github.com/risingwavelabs/risingwave.git
 
 > Use Docker (Linux, macOS)
 > 
