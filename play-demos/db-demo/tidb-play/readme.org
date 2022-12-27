@@ -1,4 +1,4 @@
 TiDB
 
-see note: [[../../../practices-notes/tidb-note][tidb note]]
+see note: [[../../../practices-notes/tidb-note][TiDB note]]
 
