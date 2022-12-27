@@ -1,4 +1,4 @@
 
-see note: [[../../../practices-notes/risingwave-note][risingwave note]]
+see note: [[../../practices-notes/risingwave-note][risingwave note]]
 
 
