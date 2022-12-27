@@ -64,10 +64,13 @@ ref:
 
 而在主页，有显示与 `kubo` 相比的性能对比：
 
-> #### Faster
+> #### Faster 更快
 > 
 > Iroh consistently outperforms Kubo, using fewer resources to serve more requests.  
 > There is a ring of truth to the "rewrite it in Rust" cliché. Adding in lessons learned while working with IPFS over the years doesn't hurt either.  
+> 
+> Iroh 的性能一直优于 Kubo ，使用更少的资源来满足更多的请求。  
+> “用 Rust 重写”的陈词滥调是有一定道理的。再加上多年来与 IPFS 合作的经验教训，也无伤大雅。
 > 
 > - Throughput `req/second`
 >   
@@ -83,23 +86,35 @@ ref:
 
 其它介绍：
 
-> #### Practical
+> #### Practical 实用性
 > 
 > Iroh does fewer things than kubo, with more polish. Iroh targets a subset of the kubo API, aiming at the most commonly-used features of IPFS, while steering users away from pitfalls that have been trapped in kubo to maintain backward compatibility.  
 > 
+> Iroh 比 kubo 做的事情更少，但更精巧。 Iroh 的目标是 kubo API 的一个子集，旨在实现 IPFS 最常用的功能，同时引导用户远离 kubo 中的陷阱，以保持向后兼容。  
+> 
 > If it's shipped in iroh, it will just work.  
 > 
-> #### Platform Specific
+> 如果它被装在 iroh 中，它就能正常工作。  
+> 
+> #### Platform Specific 特定平台
 > 
 > Running a single binary in the cloud doesn't make much sense. Neither does duplicating files locally when running IPFS on the desktop  
 > 
+> 在云中运行一个单一的二进制文件并没有什么意义。在桌面上运行 IPFS 时，在本地复制文件也是如此  
+> 
 > Iroh is a single codebase with multiple platform targets, allowing iroh to be microservices in the cloud, use more natural defaults on desktop.  
 > 
-> #### Mobile Support
+> Iroh 是一个具有多个平台目标的单一代码库，允许 iroh 在云中成为微服务，在桌面上使用更自然的默认值。  
+> 
+> #### Mobile Support 移动支持
 > 
 > Finally, IPFS on a phone.  
 > 
+> 最后，在手机上的 IPFS 。  
+> 
 > Iroh can be embedded into iOS & Android applications to speak the IPFS protocol natively. It's not a device-overheating afterthought, it's a ground-up rethink of what IPFS on a phone should look like.  
+> 
+> Iroh 可以被嵌入到 iOS 和 Android 的应用程序中，以便在本地使用 IPFS 协议。这不是一个设备过热的事后想法，它是对手机上的 IPFS 应该是什么样子的一个彻底的重新思考。  
 > 
 
 
