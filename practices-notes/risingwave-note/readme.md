@@ -142,7 +142,7 @@ psql -h ${rw_host} -p ${rw_port} -d dev -U root
 
 [sql-101]: https://risingwave.dev/docs/current/risingwave-sql-101/
 
-ref: [risingwave.dev/docs sql-101][sql-101]
+ref: [sql-101 | risingwave.dev/docs][sql-101]
 
 
 
