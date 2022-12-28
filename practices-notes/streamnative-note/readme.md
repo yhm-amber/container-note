@@ -46,7 +46,7 @@ ref:
 > - Monitor StreamNative Platform status with Prometheus and Grafana.
 > 
 
-cert man: 
+[cert man](../cert-manager-note): 
 
 ~~~ sh
 helm repo add -- jetstack https://charts.jetstack.io
