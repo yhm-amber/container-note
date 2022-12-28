@@ -33,7 +33,6 @@ ref:
 
 
 
-
 ### deploy
 
 > following tasks:
@@ -46,3 +45,34 @@ ref:
 > - Verify interoperability between Pulsar and Kafka.
 > - Monitor StreamNative Platform status with Prometheus and Grafana.
 > 
+
+cert man: 
+
+~~~ sh
+helm repo add -- jetstack https://charts.jetstack.io
+helm upgrade --install -n <k8s_namespace> --set installCRDs=true -- cert-manager jetstack/cert-manager
+~~~
+
+repo add: 
+
+~~~ sh
+helm repo add -- streamnative https://charts.streamnative.io
+helm repo add -- banzaicloud-stable https://kubernetes-charts.banzaicloud.com
+helm repo add -- function-mesh http://charts.functionmesh.io/
+helm repo update
+~~~
+
+operators create: 
+
+~~~ sh
+helm upgrade --install -n <k8s_namespace> -- vault-operator banzaicloud-stable/vault-operator
+helm upgrade --install -n <k8s_namespace> -- pulsar-operator streamnative/pulsar-operator
+helm upgrade --install -n <k8s_namespace> -- function-mesh-operator function-mesh/function-mesh-operator
+~~~
+
+cluster instance: 
+
+~~~ sh
+helm install --set initialize=true -n <namespace> -- <release_name> streamnative/sn-platform
+~~~
+
