@@ -23,6 +23,16 @@ ref:
 >  Founded by the original developers of [Apache Pulsar][pulsar-site] and Apache [BookKeeper][bk-site], [StreamNative][site] offers a complete, self-managed platform for continuously streaming data across your organization to power rich customer experiences and data-driven operations.
 >  You can deploy StreamNative Platform on-premise or in-cloud.
 > 
+> StreamNative 平台是一个云原生消息和事件流平台，使你能够为实时和历史事件建立一个实时应用程序和数据基础设施。StreamNative由 Apache Pulsar 和 Apache BookKeeper 的原始开发者创建，它提供了一个完整的、自我管理的平台，用于在你的组织中持续流转数据，以促进丰富的客户体验和数据驱动的运营。你可以在内部或云中部署 StreamNative 平台。
+> 
+> Powered by Apache Pulsar, StreamNative Platform makes it easy to build mission-critical messaging and streaming applications and real-time data pipelines by integrating data from multiple sources into a single, central messaging and event streaming platform for your company. StreamNative Platform lets you focus on how to maximize business value from real-time data rather than worrying about the underlying mechanisms such as how data is messaged between various systems and how data is stored reliably for processing.
+> 
+> 在 Apache Pulsar 的支持下， StreamNative 平台通过将多个来源的数据整合到一个单一的中央消息和事件流平台，使你可以轻松地建立关键任务的消息和流应用以及实时数据管线。 StreamNative 平台让你专注于如何从实时数据中获得最大的商业价值，而不是担心底层机制，如数据如何在各个系统之间传递消息，以及如何可靠地存储数据以便处理。
+> 
+
+
+
+
 
 ### deploy
 
