@@ -141,6 +141,12 @@ see also:
 
 - [pulsar resources operator][repo-pulsar-resources-operator]
 
+~~~ sh
+helm -n <k8s-namespace> upgrade --install -- <release-name> streamnative/pulsar-resources-operator
+# Verify: kubectl -n <k8s-namespace> get po <release-name>-pulsar-resources-operator
+# Uninstall: helm -n <k8s-namespace> uninstall -- <release-name>
+~~~
+
 > The Pulsar Resources Operator is a controller that manages the Pulsar resources automatically using the manifest on Kubernetes. Therefore, you can manage the Pulsar resources without the help of `pulsar-admin` or `pulsarctl` CLI tool. It is useful for initializing basic resources when creating a new Pulsar cluster.
 > 
 > Pulsar 资源 Operator 是一个控制器，它使用 Kubernetes 上的清单自动管理 Pulsar 资源。因此，你可以在没有 `pulsar-admin` 或 `pulsarctl` CLI 工具的帮助下管理 Pulsar 资源。在创建一个新的 Pulsar 集群时，它对初始化基本资源很有用。
