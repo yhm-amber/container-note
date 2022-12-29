@@ -37,9 +37,12 @@ see also:
 - [bookkeeper note](../bookkeeper-note)
 
 
-### deploy
+### deploy cluster instance
 
+need: 
 
+- Kubectl (Command-Line or Other Interface)
+- Helm (Command-Line or Other Interface)
 
 [cert man](../cert-manager-note): 
 
@@ -70,4 +73,17 @@ cluster instance:
 ~~~ sh
 helm install --set initialize=true -n <namespace> -- <release_name> streamnative/sn-platform
 ~~~
+
+### work with instance and tools
+
+[repo-pulsarctl]: https://github.com/streamnative/pulsarctl.git
+
+need: 
+
+- [pulsarctl][repo-pulsarctl]
+
+> pulsarctl is a Command-Line Interface (CLI) tool for Pulsar. In this section, you can use the `pulsarctl` CLI tool to create tenants, namespaces, and topics.
+> 
+
+
 
