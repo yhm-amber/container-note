@@ -15,7 +15,8 @@ see also:
 
 - [streamnative note](../streamnative-note#deploy)
   
-  StreamNative Platform 是一个基于 Pulsar 的平台，该组织还制作了一系列的 Pulsar 相关的工具。如果下面的部署方式不能满足你的需求，它应该是更好的选择。
+  StreamNative Platform 是一个基于 Pulsar 的平台，该组织还制作了一系列的 Pulsar 相关的工具。  
+  如果下面的部署方式不能满足你的需求，它应该是更好的选择。  
   
 
 
