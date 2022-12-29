@@ -11,6 +11,14 @@
 
 ## deploy
 
+see also: 
+
+- [streamnative note](../streamnative-note#deploy)
+  
+  下面的部署方式不够云原生。 StreamNative Platform 是一个基于 Pulsar 的平台，可以试试它。
+  
+
+
 [docs-helm-start-2.10]: https://pulsar.apache.org/docs/2.10.x/getting-started-helm
 [docs-helm-start-next]: https://pulsar.apache.org/docs/next/getting-started-helm
 
