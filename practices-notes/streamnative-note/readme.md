@@ -38,16 +38,7 @@ see:
 
 ### deploy
 
-> following tasks:
-> 
-> - Install the StreamNative Platform on Kubernetes using operators.
-> - Start and stop StreamNative Platform.
-> - Create tenants, namespaces, and topics using the pulsarctl CLI tool.
-> - Produce and consume events using pulsar-client.
-> - Produce and consume events using Kafka client.
-> - Verify interoperability between Pulsar and Kafka.
-> - Monitor StreamNative Platform status with Prometheus and Grafana.
-> 
+
 
 [cert man](../cert-manager-note): 
 
