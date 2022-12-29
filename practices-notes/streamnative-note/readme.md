@@ -139,7 +139,7 @@ pulsarctl topics list <namespace_name>
 
 see also: 
 
-- [pulsar resources operator][repo-pulsar-resources-operator]
+- [pulsar resources operator | GitHub][repo-pulsar-resources-operator]
 
 ~~~ sh
 helm -n <k8s-namespace> upgrade --install -- <release-name> streamnative/pulsar-resources-operator
@@ -205,7 +205,7 @@ kubectl exec <release_name>-sn-platform-toolset-0 -n <k8s_namespace> -- pulsar-c
 
 more see: 
 
-- [quick start][docs-plat-start]
+- [quick start | StreamNative Documentation][docs-plat-start]
 
 repos: 
 
