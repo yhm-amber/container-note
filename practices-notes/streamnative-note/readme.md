@@ -34,6 +34,7 @@ ref:
 see also: 
 
 - [pulsar note](../pulsar-note)
+- [bookkeeper note](../bookkeeper-note)
 
 
 ### deploy
