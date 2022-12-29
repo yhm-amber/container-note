@@ -40,7 +40,9 @@ ref: https://github.com/shuttle-hq
 
 [repo-eg]: https://github.com/shuttle-hq/examples.git
 
-ref: [`shuttle-hq/shuttle`][repo]
+### cargo shuttle
+
+ref [`shuttle-hq/shuttle`][repo] : 
 
 ~~~ sh
 : Run the following command to install shuttle: 
@@ -54,7 +56,7 @@ cargo shuttle init --axum hello-world
 
 : And to deploy it, write: 
 cargo shuttle project new
-cargo shuttle project status ## until the project is "ready"
+cargo shuttle project status ### until the project is "ready"
 cargo shuttle deploy
 
 : And that's... it.
@@ -63,6 +65,32 @@ cargo shuttle deploy
 
 [docs-rs-shuttle-service]: https://docs.rs/shuttle-service/latest/shuttle_service
 
+ref [shuttle service | docs.rs][docs-rs-shuttle-service] : 
 
+~~~ sh
+: installing: 
+cargo install -- cargo-shuttle
 
+: initialize a project with Rocket boilerplate: 
+cargo shuttle init --rocket my-rocket-app
 
+: then, in the Cargo.toml of `my-rocket-app` just be created, 
+: you can see this: ### shuttle-service = { version = "0.8.0", features = ["web-rocket"] }
+: And a boilerplate code for your rocket project can also be found in `src/lib.rs` .
+
+: test your app locally before deploying: 
+cargo shuttle run
+
+: deploy your service: 
+cargo shuttle login
+cargo shuttle project new
+cargo shuttle project status ### until the project is "ready"
+cargo shuttle deploy
+
+: Your service will immediately be available at {crate_name}.shuttleapp.rs. For example: 
+: curl https://my-rocket-app.shuttleapp.rs/hello ;: 👉 Hello, world!
+~~~
+
+更多示例： [`shuttle-hq/examples`][repo-eg]
+
+（好像没有自己部署服务端的指南。。。）
