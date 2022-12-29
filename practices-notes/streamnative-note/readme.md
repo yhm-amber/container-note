@@ -31,6 +31,9 @@ ref:
 > 
 
 
+see: 
+
+- [pulsar note](../pulsar-note)
 
 
 ### deploy
