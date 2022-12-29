@@ -103,7 +103,7 @@ repos:
 - `pulsarctl` : create tenants, namespaces, and topics.
 - `client` : create producers and consumers to simulate a simple production and consumption model.
 
-#### pulsarctl
+#### `pulsarctl`
 
 [repo-pulsarctl]: https://github.com/streamnative/pulsarctl.git
 [repo-pulsar-resources-operator]: https://github.com/streamnative/pulsar-resources-operator.git
@@ -146,7 +146,7 @@ see also:
 > Pulsar 资源 Operator 是一个控制器，它使用 Kubernetes 上的清单自动管理 Pulsar 资源。因此，你可以在没有 `pulsar-admin` 或 `pulsarctl` CLI 工具的帮助下管理 Pulsar 资源。在创建一个新的 Pulsar 集群时，它对初始化基本资源很有用。
 > 
 
-#### client
+#### `client`
 
 
 > StreamNative Platform supports all the official Pulsar clients. You can use the pulsar-client CLI tool to create producers and consumers to simulate a simple production and consumption model.
