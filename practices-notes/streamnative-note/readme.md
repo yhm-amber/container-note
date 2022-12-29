@@ -79,6 +79,7 @@ helm install --set initialize=true -n <namespace> -- <release_name> streamnative
 repos: 
 
 [repo-charts]: https://github.com/streamnative/charts.git
+[repo-function-mesh]: https://github.com/streamnative/function-mesh.git
 [repo-flink-operator]: https://github.com/streamnative/flink-operator.git
 [repo-community-operators]: https://github.com/streamnative/community-operators.git
 [repo-community-operators-prod]: https://github.com/streamnative/community-operators-prod.git
@@ -87,6 +88,9 @@ repos:
 
 - [`streamnative/charts`][repo-charts]:   
   > StreamNative Helm Charts Repository: Apache Pulsar, Pulsar Operators, StreamNative Platform, Function Mesh  
+- [`streamnative/function-mesh`][repo-function-mesh]:   
+  > The serverless framework purpose-built for event streaming applications.  
+  > [functionmesh.io](https://functionmesh.io)  
 - [`streamnative/flink-operator`][repo-flink-operator]:   
   > Kubernetes operator for managing the lifecycle of Apache Flink and Beam applications.  
 - [`streamnative/community-operators`][repo-community-operators]:   
