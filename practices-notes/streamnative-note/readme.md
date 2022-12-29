@@ -120,7 +120,7 @@ need:
 simple use case: 
 
 ~~~ sh
-: Log in to pulsarctl and create a tenant.
+: Log into pulsarctl and create a tenant.
 pulsarctl --admin-service-url <WEB_SERVICE_URL> --token <AUTH_PARAMS> tenants create <tenant_name>
 
 : Create a namespace.
@@ -149,13 +149,57 @@ see also:
 #### client
 
 
-
 > StreamNative Platform supports all the official Pulsar clients. You can use the pulsar-client CLI tool to create producers and consumers to simulate a simple production and consumption model.
 > 
 > StreamNative Platform 支持所有的 official Pulsar 客户端。你可以使用 pulsar-client CLI 工具来创建生产者和消费者，以模拟一个简单的生产和消费模型。
 > 
 
+simple client: 
 
+> To facilitate the usage of the official Pulsar CLI tools, such as pulsar-client, StreamNative Platform provides a `toolset` Pod, which you can use to the `kubectl exec` command to connect to, to directly use the official Pulsar CLI tools.
+> 
+> 为了方便使用官方的 Pulsar CLI 工具，如 pulsar-client ， StreamNative Platform 提供了一个工具集 (`toolset`) Pod ，你可以用它与 kubectl exec 命令连接它，从而直接使用官方的 Pulsar CLI 工具。
+> 
+
+~~~ sh
+: just connect
+kubectl exec <release_name>-sn-platform-toolset-0 -n <k8s_namespace> -i -t -- bash
+
+: connect with Create a consumer.
+kubectl exec <release_name>-sn-platform-toolset-0 -n <k8s_namespace> -- pulsar-client consume -s <subscription_name> -n 0 -- <TOPIC_NAME>
+
+: connect with Create a producer.
+kubectl exec <release_name>-sn-platform-toolset-0 -n <k8s_namespace> -- pulsar-client produce -m ":: hello streamnative platform ::" -n 4 -- <TOPIC_NAME>
+~~~
+
+- 对于这里的 `producer` ，看到这个说明创建成功了：
+  
+  ~~~ text
+  23:04:25.652 [main] INFO  org.apache.pulsar.client.cli.PulsarClientTool - 10 messages successfully produced
+  ~~~
+  
+  同时会在该 Topic 的 `consumer` 处看到这样的消息：
+  
+  ~~~ txt
+  ----- got message -----
+  :: hello streamnative platform ::
+  ----- got message -----
+  :: hello streamnative platform ::
+  ----- got message -----
+  :: hello streamnative platform ::
+  ----- got message -----
+  :: hello streamnative platform ::
+  ~~~
+  
+- 如需令 `producer` 从标准输入获取信息，则 `kubectl exec` 需增用 `-i` 选项。
+  
+  如需令 `producer` 从交互式输入获取信息，则 `kubectl exec` 需增用 `-i` 和 `-t` 选项。
+  
+- 用 `just connect` 的方式连接该工具集 Pod 后，就可以在交互式的 `bash` 界面直接使用 `pulsar-client` 命令了。
+
+more see: 
+
+- [quick start][docs-plat-start]
 
 repos: 
 
