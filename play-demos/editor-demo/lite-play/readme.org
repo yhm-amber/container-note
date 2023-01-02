@@ -1,0 +1,13 @@
+
+**** ~rxi/lite~
+
+- repo: [[https://github.com/rxi/lite.git][rxi/lite | GitHub]]
+
+**** ~lite-xl/lite-xl~
+
+- repo: [[https://github.com/lite-xl/lite-xl.git][lite-xl/lite-xl | GitHub]]
+- site: [[https://lite-xl.com][Lite XL]]
+
+#+BEGIN_QUOTE
+A lightweight, /simple/, fast, feature-filled, and extremely extensible text editor written in C, and Lua, adapted from [[https://github.com/rxi/lite.git][lite]].
+#+END_QUOTE
