@@ -5,9 +5,9 @@ note about practice . 🦎🤔
 
 内容：
 
-- [`容器化实践记录`](./practices-notes)
-- [`面向目的的示例`](./play-demos)
-- [`构建容器的示例`](./build-practices)
+- [`instances containerised`](./practices-notes)
+- [`request demos and instances play for it`](./play-demos)
+- [`builds`](./build-practices)
 
 ----
 
