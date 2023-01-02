@@ -1,9 +1,9 @@
 
-~~~ factor
+~~~ postscript
 note about practice . 🦎🤔
 ~~~
 
-内容：
+content: 
 
 - [`instances containerised`](./practices-notes)
 - [`request demos and instances play for it`](./play-demos)
