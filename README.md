@@ -3,13 +3,15 @@
 note about practice . 🦎🤔
 ~~~
 
-content: 
+repo content: 
 
 - [`instances containerised`](./practices-notes)
 - [`request demos and instances play for it`](./play-demos)
 - [`builds`](./build-practices)
 
 ----
+
+note: 
 
 
 陶器烧制技术是非常重要的。因为，它让人类几乎是第一次拥有了可以长期使用且性质稳定的容器。
@@ -103,7 +105,7 @@ content:
 
 --------
 
-不错的东西：
+good things: 
 
 - [Book | Nushell](https://www.nushell.sh/zh-CN/book/)
 - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
