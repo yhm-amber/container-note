@@ -1,1 +1,2 @@
 *.md linguist-documentation=false linguist-detectable=true
+*.html linguist-documentation=true linguist-detectable=false
