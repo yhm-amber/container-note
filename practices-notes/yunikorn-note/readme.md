@@ -11,3 +11,18 @@
 
 [docs]: https://yunikorn.apache.org/docs
 [docs-zh]: https://yunikorn.apache.org/zh-cn/docs
+
+### install
+
+repo: 
+
+~~~ sh
+helm repo add -- yunikorn https://apache.github.io/yunikorn-release
+~~~
+
+normal: 
+
+~~~ sh
+helm repo update
+helm install --namespace yunikorn --create-namespace -- yunikorn yunikorn/yunikorn
+~~~
