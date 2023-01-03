@@ -12,8 +12,9 @@
 more see: 
 
 - [Architecture | Apache YuniKorn][docs-arch]
+- [YuniKorn: a universal resources scheduler | Cloudera Blog][blog-intro]
 
-git repo: 
+git repos: 
 
 - [`yunikorn-core.git`][repo-scheduler-core]: 
   > Apache YuniKorn 是一种用于容器编排器系统的轻量级通用资源调度程序。 YuniKorn 的架构设计还允许添加不同的 shim 层并采用不同的 ResourceManager 实现，包括 Apache Hadoop YARN 或任何其他系统。 
