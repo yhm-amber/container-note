@@ -7,6 +7,11 @@
 
 ![YuniKorn Architecture][pic-architecture]
 
+[docs-arch]: https://yunikorn.apache.org/zh-cn/docs/design/architecture
+
+more see: 
+
+- [Architecture | Apache YuniKorn][docs-arch]
 
 git repo: 
 
