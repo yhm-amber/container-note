@@ -33,7 +33,7 @@
   > 
   > 在云计算范式中，没有隐私，审查司空见惯，黑客攻击不可避免，成本将永远上升。
   > 
-  > ![pyramid down][pic-pyramid-down-site]
+  > ![pyramid down][pic-pyramid-down]
   > 
   
 - **Sovereign** computing **主权**计算
@@ -46,12 +46,17 @@
   > 
   > 在主权计算范式中，对隐私、审查、黑客攻击和费用的担忧几乎消失了。
   > 
-  > ![pyramid up][pic-pyramid-up-site]
+  > ![pyramid up][pic-pyramid-up]
   > 
   
 
 [pic-pyramid-down-site]: https://start9.com/assets/pyramid-down.b1f56941.png
 [pic-pyramid-up-site]: https://start9.com/assets/pyramid-up.1afc7d08.png
+
+[pic-pyramid-down]: ./.assets/pyramid-down.b1f56941.png
+[pic-pyramid-up]: ./.assets/pyramid-up.1afc7d08.png
+
+
 
 从其[分发页面][release]来看，它有 `iso` 格式的用于 `amd64` 指令集芯片的 OS 安装包，也有 `deb` 格式的用于在 Debian 上作为应用程序部署。
 
