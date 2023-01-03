@@ -18,12 +18,18 @@
 
 git repo: 
 
-- [`yunikorn-core.git`][repo-scheduler-core]
-- [`yunikorn-scheduler-interface.git`][repo-scheduler-interface]: YuniKorn Scheduler Interface 为 yunikorn-core 和资源管理系统之间的通信定义了 protobuf 接口。 
-- [`yunikorn-k8shim.git`][repo-kube-shim]
-- [`yunikorn-web.git`][repo-web-uiapp]
-- [`yunikorn-site.git`][repo-site]
-- [`yunikorn-release.git`][repo-release]
+- [`yunikorn-core.git`][repo-scheduler-core]: 
+  > Apache YuniKorn 是一种用于容器编排器系统的轻量级通用资源调度程序。 YuniKorn 的架构设计还允许添加不同的 shim 层并采用不同的 ResourceManager 实现，包括 Apache Hadoop YARN 或任何其他系统。 
+- [`yunikorn-scheduler-interface.git`][repo-scheduler-interface]: 
+  > YuniKorn Scheduler Interface 为 yunikorn-core 和资源管理系统之间的通信定义了 protobuf 接口。 
+- [`yunikorn-k8shim.git`][repo-kube-shim]: 
+  > YuniKorn scheduler shim for kubernetes 是一个定制的 k8s 调度器，它可以部署在 K8s 集群中并作为调度器工作。调度器的 `core` 层封装了所有实际的调度逻辑，本层为使之成为 Kubernetes 调度器的实现。
+- [`yunikorn-web.git`][repo-web-uiapp]: 
+  > YuniKorn web 在调度程序之上提供了一个 web 界面。它提供了对当前和历史调度程序状态的洞察。页面的具体内容取决于 `yunikorn-core` ，它封装了所有实际的调度逻辑。
+- [`yunikorn-site.git`][repo-site]: 
+  > Site 的代码，可以构建和更新 Apache YuniKorn 网站。
+- [`yunikorn-release.git`][repo-release]: 
+  > 这里提供生成 Apache YuniKorn 发布工件所需的说明和工具。
 
 ### install
 
