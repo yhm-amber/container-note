@@ -70,7 +70,7 @@ more see: [Deployment Modes | Apache YuniKorn][docs-modes]
 kubectl -n yunikorn port-forward -- svc/yunikorn-service 9889:9889
 ~~~
 
-容器内应用默认监听 `9889` Port ，上面的命令可以让对执行它的节点的 `9889` Port 的访问被转发给容器内的 `9889` Port 。
+容器内应用默认监听 `9889` Port ，上面的命令可以让执行它的节点的 `9889` Port 被访问时，该访问会被转发为对容器内 `9889` Port 的访问。
 
 > YuniKorn UI 提供了集群资源容量、利用率和所有应用信息的集中视图。
 > 
