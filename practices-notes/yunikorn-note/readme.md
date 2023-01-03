@@ -1,5 +1,7 @@
 
 [blog-intro]: https://blog.cloudera.com/yunikorn-a-universal-resources-scheduler
+[docs-feature-zh]: https://yunikorn.apache.org/zh-cn/docs/get_started/core_features
+
 [site]: https://yunikorn.apache.org
 
 [repo-scheduler-core]: https://github.com/apache/yunikorn-core.git
@@ -11,6 +13,8 @@
 
 [docs]: https://yunikorn.apache.org/docs
 [docs-zh]: https://yunikorn.apache.org/zh-cn/docs
+
+## using
 
 ### install
 
@@ -75,4 +79,10 @@ kubectl -n yunikorn port-forward -- svc/yunikorn-service 9889:9889
 > YuniKorn UI 提供了集群资源容量、利用率和所有应用信息的集中视图。
 > 
 
+## intro
+
+ref: 
+
+- [特征 | Apache YuniKorn][docs-feature-zh]
+- [YuniKorn: a universal resources scheduler | Cloudera Blog][blog-intro]
 
