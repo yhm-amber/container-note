@@ -2,6 +2,7 @@
 **** ~rxi/lite~
 
 - repo: [[https://github.com/rxi/lite.git][rxi/lite | GitHub]]
+- repo plugins: [[https://github.com/rxi/lite-plugins.git][rxi/lite-plugins | GitHub]]
 
 **** ~lite-xl/lite-xl~
 
