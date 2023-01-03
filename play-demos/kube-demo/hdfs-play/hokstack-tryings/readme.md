@@ -4,6 +4,8 @@
 
 - https://github.com/hokstack/hok-helm.git
 - https://artifacthub.io/packages/helm/hokstack/hokstack
+- https://github.com/hokstack/hok-operator.git
+- https://hokstack.io
 
 #### install
 
