@@ -1,4 +1,4 @@
 具备去中心化支持的私有 (云) 操作系统
 
-- Start9Labs/embassy-os
-- getumbrel/umbrel
+- Start9Labs/embassy-os ([[../../../practices-notes/embassyos-note][note]])
+- getumbrel/umbrel ([[../../../practices-notes/umbrel-note][note]])
