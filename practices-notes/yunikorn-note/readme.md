@@ -16,6 +16,15 @@
 
 ## using
 
+git repo: 
+
+- [`yunikorn-core.git`][repo-scheduler-core]
+- [`yunikorn-scheduler-interface.git`][repo-scheduler-interface]
+- [`yunikorn-k8shim.git`][repo-kube-shim]
+- [`yunikorn-web.git`][repo-web-uiapp]
+- [`yunikorn-site.git`][repo-site]
+- [`yunikorn-release.git`][repo-release]
+
 ### install
 
 repo: 
