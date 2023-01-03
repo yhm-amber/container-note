@@ -19,7 +19,7 @@
 git repo: 
 
 - [`yunikorn-core.git`][repo-scheduler-core]
-- [`yunikorn-scheduler-interface.git`][repo-scheduler-interface]
+- [`yunikorn-scheduler-interface.git`][repo-scheduler-interface]: YuniKorn Scheduler Interface 为 yunikorn-core 和资源管理系统之间的通信定义了 protobuf 接口。 
 - [`yunikorn-k8shim.git`][repo-kube-shim]
 - [`yunikorn-web.git`][repo-web-uiapp]
 - [`yunikorn-site.git`][repo-site]
