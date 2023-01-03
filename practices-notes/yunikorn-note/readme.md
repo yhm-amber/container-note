@@ -50,6 +50,8 @@ will install these by default:
   > 
   
 
+more see: [Deployment Modes | Apache YuniKorn][docs-modes]
+
 > YuniKorn can be deployed in two different modes: standard and plugin. In standard mode, YuniKorn runs as a customized Kubernetes scheduler. In plugin mode, YuniKorn is implemented as a set of plugins on top of the default Kubernetes scheduling framework.
 > 
 > YuniKorn 可以以两种不同的模式部署：标准模式和插件模式。在标准模式下， YuniKorn 作为自定义的 Kubernetes 调度程序运行。在插件模式下， YuniKorn 被实现为默认的 Kubernetes 调度框架之上的一组插件。 
@@ -57,4 +59,3 @@ will install these by default:
 
 [docs-modes]: https://yunikorn.apache.org/docs/user_guide/deployment_modes
 
-ref: [Deployment Modes | Apache YuniKorn][docs-modes]
