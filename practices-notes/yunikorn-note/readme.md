@@ -1,26 +1,12 @@
+## architect
 
-[pic-architecture]: https://clouderablog.wpenginepowered.com/wp-content/uploads/2019/07/YuniKorn-Architecture-Chart.jpg
+[pic-architecture-blog]: https://clouderablog.wpenginepowered.com/wp-content/uploads/2019/07/YuniKorn-Architecture-Chart.jpg
+[pic-architecture-docs]: https://yunikorn.apache.org/assets/images/architecture-333225e01d82300eb9ee34e76cf34697.png
 
+[pic-architecture]: ./YuniKorn-Architecture-Chart_2019-07.jpg
 
 ![YuniKorn Architecture][pic-architecture]
 
-
-[blog-intro]: https://blog.cloudera.com/yunikorn-a-universal-resources-scheduler
-[docs-feature-zh]: https://yunikorn.apache.org/zh-cn/docs/get_started/core_features
-
-[site]: https://yunikorn.apache.org
-
-[repo-scheduler-core]: https://github.com/apache/yunikorn-core.git
-[repo-scheduler-interface]: https://github.com/apache/yunikorn-scheduler-interface.git
-[repo-kube-shim]: https://github.com/apache/yunikorn-k8shim.git
-[repo-web-uiapp]: https://github.com/apache/yunikorn-web.git
-[repo-site]: https://github.com/apache/yunikorn-site.git
-[repo-release]: https://github.com/apache/yunikorn-release.git
-
-[docs]: https://yunikorn.apache.org/docs
-[docs-zh]: https://yunikorn.apache.org/zh-cn/docs
-
-## using
 
 git repo: 
 
@@ -36,6 +22,26 @@ git repo:
   > Site 的代码，可以构建和更新 Apache YuniKorn 网站。
 - [`yunikorn-release.git`][repo-release]: 
   > 这里提供生成 Apache YuniKorn 发布工件所需的说明和工具。
+
+[repo-scheduler-core]: https://github.com/apache/yunikorn-core.git
+[repo-scheduler-interface]: https://github.com/apache/yunikorn-scheduler-interface.git
+[repo-kube-shim]: https://github.com/apache/yunikorn-k8shim.git
+[repo-web-uiapp]: https://github.com/apache/yunikorn-web.git
+[repo-site]: https://github.com/apache/yunikorn-site.git
+[repo-release]: https://github.com/apache/yunikorn-release.git
+
+
+## using
+
+[blog-intro]: https://blog.cloudera.com/yunikorn-a-universal-resources-scheduler
+[docs-feature-zh]: https://yunikorn.apache.org/zh-cn/docs/get_started/core_features
+
+[site]: https://yunikorn.apache.org
+
+
+[docs]: https://yunikorn.apache.org/docs
+[docs-zh]: https://yunikorn.apache.org/zh-cn/docs
+
 
 ### install
 
