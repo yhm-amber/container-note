@@ -10,4 +10,4 @@
 [repo-release]: https://github.com/apache/yunikorn-release.git
 
 [docs]: https://yunikorn.apache.org/docs
-
+[docs-zh]: https://yunikorn.apache.org/zh-cn/docs
