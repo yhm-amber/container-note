@@ -59,3 +59,20 @@ more see: [Deployment Modes | Apache YuniKorn][docs-modes]
 
 [docs-modes]: https://yunikorn.apache.org/docs/user_guide/deployment_modes
 
+建议不论哪种情况下都运行准入控制器，这能确保集群里只有一个实际在工作的调度器。此时，始终都会运行的原来的调度器会被 (除了 YuniKorn 自身以外的) 所有 Pod 绕过——它只会调度 YuniKorn 的 Pod 。
+
+- 如果你希望你所有的 Pod 都用 YuniKorn 调度，用一般模式 (不是插件的那个) 就行了。它稳定、高效且性能非常好。
+- 如果你需要同一个集群里有多个 (可能不仅仅是 Kubernetes 自带的那个) 调度器一起工作，那就要用插件模式。但它目前没有前者的成熟度。
+
+### web ui
+
+~~~ sh
+kubectl -n yunikorn port-forward -- svc/yunikorn-service 9889:9889
+~~~
+
+容器内应用默认监听 `9889` Port ，上面的命令可以让对执行它的节点的 `9889` Port 的访问被转发给容器内的 `9889` Port 。
+
+> YuniKorn UI 提供了集群资源容量、利用率和所有应用信息的集中视图。
+> 
+
+
