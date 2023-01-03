@@ -5,8 +5,9 @@
 > 
 
 [pic-why-personal-server-site]: https://uploads-ssl.webflow.com/62966b49981ba146f4842f45/62966b49981ba161eb842fc9_why-personal-server-p-1080.png
+[pic-why-personal-server]: ./62966b49981ba161eb842fc9_why-personal-server-p-1080.png
 
-> ![without or with][pic-why-personal-server-site]
+> ![without or with][pic-why-personal-server]
 
 [site]: https://umbrel.com
 
