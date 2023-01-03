@@ -1,5 +1,5 @@
 
 [docs-svelte]: https://tauri.app/v1/guides/getting-started/setup/sveltekit
-[repo]: 
+[repo]: https://github.com/tauri-apps/tauri.git
 
 
