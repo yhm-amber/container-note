@@ -6,7 +6,7 @@
 [site]: https://start9.com
 [release]: https://github.com/Start9Labs/embassy-os/releases
 
-- repo: [`gh Start9Labs/embassy-os`][repo]
+- repo: [`Start9Labs/embassy-os`][repo]
 - docs: [`docs.start9`][docs] [`repo`][docs-repo]
 
 > Browser-based, graphical operating system for a personal server.
