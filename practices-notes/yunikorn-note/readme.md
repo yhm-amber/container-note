@@ -29,9 +29,9 @@ helm install --namespace yunikorn --create-namespace -- yunikorn yunikorn/yuniko
 
 will install these by default: 
 
-- `scheduler`
-- `web-server`
-- `admission-controller`
+- `scheduler` (调度器)
+- `web-server` (页面服务器)
+- `admission-controller` (准入控制器)
 
 其中：
 
