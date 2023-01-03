@@ -1,4 +1,6 @@
 
+[docs-spec]: https://matrix.org/docs/spec
+
 [repo]: https://github.com/matrix-org/matrix-spec.git
 [repo-rich-text-editor]: https://github.com/matrix-org/matrix-rich-text-editor.git
 
