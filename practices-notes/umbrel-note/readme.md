@@ -6,7 +6,7 @@
 
 [site]: https://umbrel.com
 
-- repo: [`gh getumbrel/umbrel`][repo]
+- repo: [`getumbrel/umbrel`][repo]
 - site: [`umbrel.com`][site]
 
 [repo-app]: https://github.com/getumbrel/umbrel-apps.git
