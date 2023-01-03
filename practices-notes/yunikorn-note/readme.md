@@ -1,4 +1,10 @@
 
+[pic-architecture]: https://clouderablog.wpenginepowered.com/wp-content/uploads/2019/07/YuniKorn-Architecture-Chart.jpg
+
+
+![YuniKorn Architecture][pic-architecture]
+
+
 [blog-intro]: https://blog.cloudera.com/yunikorn-a-universal-resources-scheduler
 [docs-feature-zh]: https://yunikorn.apache.org/zh-cn/docs/get_started/core_features
 
