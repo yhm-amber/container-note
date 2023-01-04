@@ -1,2 +1,6 @@
 
+#+BEGIN_QUOTE
+Natural language detection for Elixir
+#+END_QUOTE
+
 - repo: [[https://github.com/minibikini/paasaa.git][minibikini/paasaa.git]]
