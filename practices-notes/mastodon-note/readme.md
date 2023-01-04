@@ -115,7 +115,15 @@
 > 但从技术上讲，后者更正确。
 > 
 
---- [Mastodon documentation][docs]
+—— ref: [Mastodon documentation][docs]
+
+see more: 
+
+- [ActivityPub Rocks!][activitypub-site]
+- [fediverse | GitHub Topics][fediverse-githubtopic]
+
+[activitypub-site]: https://activitypub.rocks
+[fediverse-githubtopic]: https://github.com/topics/fediverse
 
 -----
 
