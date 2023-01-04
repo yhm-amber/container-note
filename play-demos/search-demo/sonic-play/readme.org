@@ -1,0 +1,14 @@
+
+#+BEGIN_QUOTE
+🦔 Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.
+
+🦔 快速、轻量且 schema-less 的搜索后台。一个只使用几兆字节内存的 Elasticsearch 的替代。
+#+END_QUOTE
+
+repo: 
+
+- [[https://github.com/valeriansaliou/sonic.git][valeriansaliou/sonic.git | GitHub]]
+
+site: 
+
+- [[https://crates.io/crates/sonic-server][sonic-server | crates.io - Rust Package Registry]]
