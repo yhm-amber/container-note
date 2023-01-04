@@ -121,9 +121,11 @@ see more:
 
 - [ActivityPub Rocks!][activitypub-site]
 - [fediverse | GitHub Topics][fediverse-githubtopic]
+- [Join a Server | Lemmy][lemmy-server]
 
 [activitypub-site]: https://activitypub.rocks
 [fediverse-githubtopic]: https://github.com/topics/fediverse
+[lemmy-server]: https://join-lemmy.org/instances
 
 -----
 
