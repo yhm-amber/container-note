@@ -134,3 +134,13 @@ see more:
 [docs-zh]: https://docs.joinmastodon.org/zh-cn
 
 [repo]: https://github.com/mastodon/mastodon.git
+
+## Helm way
+
+[repo-helm]: https://github.com/mastodon/chart.git
+
+ref: 
+
+- [mastodon/chart | GitHub][repo-helm]
+
+
