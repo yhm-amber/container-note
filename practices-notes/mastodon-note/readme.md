@@ -131,5 +131,6 @@ see more:
 [site-zh]: https://joinmastodon.org/zh
 
 [docs]: https://docs.joinmastodon.org
+[docs-zh]: https://docs.joinmastodon.org/zh-cn
 
 [repo]: https://github.com/mastodon/mastodon.git
