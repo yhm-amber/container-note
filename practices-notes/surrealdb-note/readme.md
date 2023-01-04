@@ -15,7 +15,7 @@ docker run --rm -p 8000:8000 -- surrealdb/surrealdb:latest start
 ref: 
 
 - [Installation | SurrealDB - Documentation - The ultimate serverless cloud database][docs-in]
-- [SurrealDB | Install | The ultimate serverless cloud database][site-in]
+- [SurrealDB - Install - The ultimate serverless cloud database][site-in]
 
 more see: 
 
