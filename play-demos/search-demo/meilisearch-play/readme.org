@@ -1,0 +1,14 @@
+
+#+BEGIN_QUOTE
+A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.
+
+一个快如闪电的搜索引擎，可以轻松融入您的应用、网站、或工作流。
+#+END_QUOTE
+
+repo: 
+
+- [[https://github.com/meilisearch/meilisearch.git][meilisearch/meilisearch.git | GitHub]]
+
+site: 
+
+- [[https://meilisearch.com][Meilisearch]]
