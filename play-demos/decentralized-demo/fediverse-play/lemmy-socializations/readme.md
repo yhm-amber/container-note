@@ -1,7 +1,7 @@
 
 note: 
 
-- [`lemmy note`](../../../../practice-notes/lemmy-note)
+- [`lemmy note`](../../../../practices-notes/lemmy-note)
 
 client: 
 
