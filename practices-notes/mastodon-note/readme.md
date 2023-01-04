@@ -2,7 +2,7 @@
 [pic-cfd-docs]: https://docs.joinmastodon.org/assets/network-models.jpg
 [pic-cfd]: ./.assets/network-models.jpg
 
-> ![From left to right: Centralized, Federated, Distributed][pic-cfd-docs]
+> ![From left to right: Centralized, Federated, Distributed][pic-cfd]
 > 
 > *From left to right: Centralized, Federated, Distributed*
 > 
