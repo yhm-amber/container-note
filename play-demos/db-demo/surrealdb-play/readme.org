@@ -1,0 +1,15 @@
+
+#+BEGIN_QUOTE
+A scalable, distributed, collaborative, document-graph database, for the realtime web
+
+用于实时 web 的，可扩展、分布式、协作式的，文档图形数据库
+#+END_QUOTE
+
+
+repo: 
+
+- [[https://github.com/surrealdb/surrealdb.git][surrealdb/surrealdb | GitHub]]
+
+site: 
+
+- [[https://surrealdb.com][SurrealDB - The ultimate serverless cloud database]]
