@@ -1,4 +1,8 @@
 
+> The ultimate serverless cloud database
+> 
+> 超棒的终极 Serverless 云数据库
+> 
 
 ~~~ sh
 docker run --rm -p 8000:8000 -- surrealdb/surrealdb:latest start
@@ -14,9 +18,9 @@ docker run --rm -p 8000:8000 -- surrealdb/surrealdb:latest start
 
 ref: 
 
-- [Installation | SurrealDB - Documentation - The ultimate serverless cloud database][docs-in]
-- [SurrealDB - Install - The ultimate serverless cloud database][site-in]
+- [Installation | SurrealDB - Documentation][docs-in]
+- [SurrealDB - Install][site-in]
 
 more see: 
 
-- usage: [Quick Start | SurrealDB - Documentation - The ultimate serverless cloud database][docs-qs]
+- usage: [Quick Start | SurrealDB - Documentation][docs-qs]
