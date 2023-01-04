@@ -1,6 +1,8 @@
 
 #+BEGIN_QUOTE
 Natural language detection for Elixir
+
+用于 Elixir 平台的自然语言检测工作
 #+END_QUOTE
 
 - repo: [[https://github.com/minibikini/paasaa.git][minibikini/paasaa.git]]
