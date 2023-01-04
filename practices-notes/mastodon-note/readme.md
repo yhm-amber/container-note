@@ -115,6 +115,7 @@
 > 但从技术上讲，后者更正确。
 > 
 
+--- [Mastodon documentation][docs]
 
 -----
 
