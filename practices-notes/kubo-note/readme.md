@@ -69,18 +69,54 @@ docs:
 
 - ipns://ipfscluster.io/documentation/guides/k8s
 - https://ipfscluster.io/documentation/guides/k8s
-- https://ipfs-operator.readthedocs.io/
+- https://ipfs-operator.readthedocs.io
 
 repo:
 
 - https://github.com/ipfs-cluster/ipfs-cluster.git
 - https://github.com/ipfs-cluster/ipfs-operator.git
 - https://github.com/monaparty/helm-ipfs-cluster.git
+- https://github.com/redhat-et/ipfs-operator.git
 
 site:
 
 - ipns://ipfscluster.io/
 - https://ipfscluster.io/
 
+### with operator
 
+ref: 
 
+- https://ipfs-operator.readthedocs.io
+- https://github.com/redhat-et/ipfs-operator.git
+- https://github.com/ipfs-cluster/ipfs-operator.git
+
+*(repo `redhat-et/ipfs-operator` is `ipfs-cluster/ipfs-operator` now :P)*
+
+~~~ sh
+helm install ipfs-operator ./helm/ipfs-operator
+~~~
+
+~~~ yaml
+apiVersion: cluster.ipfs.io/v1alpha1
+kind: IpfsCluster
+metadata:
+  name: ipfs-sample-1
+spec:
+  url: apps.example.com
+  ipfsStorage: 2Gi
+  clusterStorage: 2Gi
+  replicas: 5
+  public: true
+  follows: []
+  networking:
+    circuitRelays: 1
+~~~
+
+~~~ sh
+kubectl create namespace my_cluster
+kubectl -n my_cluster apply -f ipfs.yaml
+
+# verify
+kubectl -n my_cluster status ipfs-sample-1
+~~~
