@@ -2,14 +2,17 @@
 
 折叠部分是由我（录入者）编写的内容。
 
-[svg-category-zh]: https://www.gnu.org/philosophy/category.zh-cn.svg
-[svg-category]: https://www.gnu.org/philosophy/category.svg
+[svg-category-zh-site]: https://www.gnu.org/philosophy/category.zh-cn.svg
+[svg-category-site]: https://www.gnu.org/philosophy/category.svg
 [philosophy-categories]: https://www.gnu.org/philosophy/categories.html
 
 > ![分类][svg-category-zh]
 > 
 > ![categories][svg-category]
 > 
+
+[svg-category-zh]: ./category.zh-cn.svg
+[svg-category]: ./category.svg
 
 ref: [自由与非自由软件的分类 | GNU 工程 - 自由软件基金会][philosophy-categories]
 
