@@ -63,14 +63,21 @@ ref: https://jobcher.com/ipfs/
 
 ## cluster
 
+docs: 
+
+- ipns://ipfscluster.io/documentation/guides/k8s
+- https://ipfscluster.io/documentation/guides/k8s
 
 repo:
 
 - https://github.com/ipfs-cluster/ipfs-cluster.git
 - https://github.com/ipfs-cluster/ipfs-operator.git
+- https://github.com/monaparty/helm-ipfs-cluster.git
 
 site:
 
 - ipns://ipfscluster.io/
 - https://ipfscluster.io/
+
+
 
