@@ -32,7 +32,7 @@
         text-align: center;
       }
     </style>
-  <link href="https://facebook.github.io/zstd/strapdown/v/0.2/themes/sandstone.min.css" rel="stylesheet"><link href="https://facebook.github.io/zstd/strapdown/v/0.2/strapdown.css" rel="stylesheet"><link href="https://facebook.github.io/zstd/strapdown/v/0.2/themes/bootstrap-responsive.min.css" rel="stylesheet"><style>hcfy-result.__hcfy__result__loaded__.__hcfy__result__both__{border: 1px dotted}</style><style>hcfy-result{display:none}hcfy-result.__hcfy__result__loading__.__hcfy__result__result__{display:inline-block}hcfy-result.__hcfy__result__loaded__:focus{border-color:rgba(0,0,0,0);outline:2px solid !important}hcfy-result.__hcfy__result__loaded____hcfy__result__source__{display:none}hcfy-result.__hcfy__result__loaded__.__hcfy__result__both__{display:block}hcfy-result.__hcfy__result__loaded__.__hcfy__result__both__.__hcfy__result__inline__{display:inline-block;margin-left:6px}hcfy-result.__hcfy__result__loaded__.__hcfy__result__result__{display:inline-block}</style></head>
+  <link href="https://facebook.github.io/zstd/strapdown/v/0.2/themes/sandstone.min.css" rel="stylesheet"><link href="https://facebook.github.io/zstd/strapdown/v/0.2/strapdown.css" rel="stylesheet"><link href="https://facebook.github.io/zstd/strapdown/v/0.2/themes/bootstrap-responsive.min.css" rel="stylesheet"><style>translate.trans-result-loaded.trans-result-both{border: 1px dotted}</style><style>translate{display:none}translate.tr_res_loading.tr_res{display:inline-block}translate.trans-result-loaded:focus{border-color:rgba(0,0,0,0);outline:2px solid !important}translate.trans-result-loadedtr_res_src{display:none}translate.trans-result-loaded.trans-result-both{display:block}translate.trans-result-loaded.trans-result-both.trans-result-inline{display:inline-block;margin-left:6px}translate.trans-result-loaded.tr_res{display:inline-block}</style></head>
 
   <body style="padding-top: 0px; padding-bottom: 0px;">
     
@@ -86,7 +86,7 @@
         and is backed by an extremely fast decoder (see <a href="#benchmarks">benchmarks</a> below).
         Zstandard library is provided as open source software using a BSD license.
         Its format is stable and published as <a href="https://tools.ietf.org/html/rfc8878">IETF RFC 8878</a>.
-      <hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">Zstandard 是一种快速压缩算法，提供高压缩比。它还为小数据提供了一种特殊模式，称为 <a href="#small-data">字典压缩</a> 。参考库提供了非常广泛的 速度/压缩 权衡，并由极快的解码器提供支持（请参阅下面的 <a href="#benchmarks">基准测试</a> ）。 Zstandard 库作为使用 BSD 许可证的开源软件提供。它的格式是稳定的，并作为 <a href="https://tools.ietf.org/html/rfc8878">IETF RFC 8878</a> 发布。</hcfy-result><!--hcfy-anchor--></p></div>
+      <translate class="trans-result-both trans-result-loaded" contenteditable="true">Zstandard 是一种快速压缩算法，提供高压缩比。它还为小数据提供了一种特殊模式，称为 <a href="#small-data">字典压缩</a> 。参考库提供了非常广泛的 速度/压缩 权衡，并由极快的解码器提供支持（请参阅下面的 <a href="#benchmarks">基准测试</a> ）。 Zstandard 库作为使用 BSD 许可证的开源软件提供。它的格式是稳定的，并作为 <a href="https://tools.ietf.org/html/rfc8878">IETF RFC 8878</a> 发布。</translate><!-- trans --></p></div>
     </div>
 
 
@@ -95,13 +95,13 @@
 
 
 <p><a name="benchmarks"></a></p>
-<h2>Benchmarks<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__ __hcfy__result__inline__" contenteditable="true">基准测试</hcfy-result><!--hcfy-anchor--></h2>
+<h2>Benchmarks<translate class="trans-result-both trans-result-loaded trans-result-inline" contenteditable="true">基准测试</translate><!-- trans --></h2>
 <p>For reference, several fast compression algorithms were tested and compared
 on a server running Arch Linux (<code class="prettyprint lang- prettyprinted" style=""><span class="typ">Linux</span><span class="pln"> version </span><span class="lit">5.5</span><span class="pun">.</span><span class="lit">11</span><span class="pun">-</span><span class="pln">arch1</span><span class="pun">-</span><span class="lit">1</span></code>),
 with a Core i9-9900K CPU @ 5.0GHz,
 using <a href="https://github.com/inikep/lzbench">lzbench</a>, an open-source in-memory benchmark by @inikep
 compiled with <a href="https://gcc.gnu.org/">gcc</a> 9.3.0,
-on the <a href="http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia">Silesia compression corpus</a>.<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">作为参考，在运行 Arch Linux (<code class="prettyprint lang- prettyprinted" style=""><span class="typ">Linux</span><span class="pln"> version </span><span class="lit">5.5</span><span class="pun">.</span><span class="lit">11</span><span class="pun">-</span><span class="pln">arch1</span><span class="pun">-</span><span class="lit">1</span></code>) 的服务器上测试并比较了几种快速压缩算法，由 @inikep 使用 Core i9-9900K CPU @ 5.0GHz 、&nbsp;<a href="https://github.com/inikep/lzbench">lzbench</a>&nbsp;以及以 <a href="https://gcc.gnu.org/">gcc</a> 9.3.0 编译的开源内存基准测试，在 <a href="http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia">Silesia 压缩语料库</a> 上。</hcfy-result></p><!--hcfy-anchor--><p></p>
+on the <a href="http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia">Silesia compression corpus</a>.<translate class="trans-result-both trans-result-loaded" contenteditable="true">作为参考，在运行 Arch Linux (<code class="prettyprint lang- prettyprinted" style=""><span class="typ">Linux</span><span class="pln"> version </span><span class="lit">5.5</span><span class="pun">.</span><span class="lit">11</span><span class="pun">-</span><span class="pln">arch1</span><span class="pun">-</span><span class="lit">1</span></code>) 的服务器上测试并比较了几种快速压缩算法，由 @inikep 使用 Core i9-9900K CPU @ 5.0GHz 、&nbsp;<a href="https://github.com/inikep/lzbench">lzbench</a>&nbsp;以及以 <a href="https://gcc.gnu.org/">gcc</a> 9.3.0 编译的开源内存基准测试，在 <a href="http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia">Silesia 压缩语料库</a> 上。</translate></p><!-- trans --><p></p>
 <table class="table table-striped table-bordered">
 <thead>
 <tr>
@@ -182,22 +182,22 @@ on the <a href="http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia">Silesia c
 </table>
 <p>The negative compression levels, specified with <code class="prettyprint lang- prettyprinted" style=""><span class="pun">--</span><span class="pln">fast</span><span class="pun">=#</span></code>,
 offer faster compression and decompression speed in exchange for some loss in
-compression ratio compared to level 1, as seen in the table above.<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">负的压缩级别，用 <code class="prettyprint lang- prettyprinted" style=""><span class="pun">--</span><span class="pln">fast</span><span class="pun">=#</span></code> 指定，提供更快的压缩和解压速度，以换取与级别 1 相比在压缩率上的一些损失，如上表所示。</hcfy-result><!--hcfy-anchor--></p>
+compression ratio compared to level 1, as seen in the table above.<translate class="trans-result-both trans-result-loaded" contenteditable="true">负的压缩级别，用 <code class="prettyprint lang- prettyprinted" style=""><span class="pun">--</span><span class="pln">fast</span><span class="pun">=#</span></code> 指定，提供更快的压缩和解压速度，以换取与级别 1 相比在压缩率上的一些损失，如上表所示。</translate><!-- trans --></p>
 <p>Zstd can trade compression speed for stronger compression ratios.
 It is configurable by small increment.
 Decompression speed is preserved and remain roughly the same at all settings,
-a property shared by most LZ compression algorithms, such as <a href="http://www.zlib.net/">zlib</a> or lzma.<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">Zstd 可以用压缩速度换取更强的压缩率。它可以通过小的增量进行配置。解压缩速度被保留下来，在所有设置下都保持大致相同，这是大多数LZ压缩算法，如 <a href="http://www.zlib.net/">zlib</a> 或 lzma 所共有的特性。</hcfy-result><!--hcfy-anchor--></p>
+a property shared by most LZ compression algorithms, such as <a href="http://www.zlib.net/">zlib</a> or lzma.<translate class="trans-result-both trans-result-loaded" contenteditable="true">Zstd 可以用压缩速度换取更强的压缩率。它可以通过小的增量进行配置。解压缩速度被保留下来，在所有设置下都保持大致相同，这是大多数LZ压缩算法，如 <a href="http://www.zlib.net/">zlib</a> 或 lzma 所共有的特性。</translate><!-- trans --></p>
 <p>The following tests were run
 on a server running Linux Debian (<code class="prettyprint lang- prettyprinted" style=""><span class="typ">Linux</span><span class="pln"> version </span><span class="lit">4.14</span><span class="pun">.</span><span class="lit">0</span><span class="pun">-</span><span class="lit">3</span><span class="pun">-</span><span class="pln">amd64</span></code>)
 with a Core i7-6700K CPU @ 4.0GHz,
 using <a href="https://github.com/inikep/lzbench">lzbench</a>, an open-source in-memory benchmark by @inikep
 compiled with <a href="https://gcc.gnu.org/">gcc</a> 7.3.0,
-on the <a href="http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia">Silesia compression corpus</a>.<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">下面的测试是在一台运行 Linux Debian (<code class="prettyprint lang- prettyprinted" style=""><span class="typ">Linux</span><span class="pln"> version </span><span class="lit">4.14</span><span class="pun">.</span><span class="lit">0</span><span class="pun">-</span><span class="lit">3</span><span class="pun">-</span><span class="pln">amd64</span></code>) 的服务器上进行的， CPU 为 Core i7-6700K @ 4.0GHz ， 使用 <a href="https://github.com/inikep/lzbench">lzbench</a> ，一个由 @inikep 用 <a href="https://gcc.gnu.org/">gcc</a> 7.3.0 编译的开源内存基准，在 <a href="http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia">Silesia 压缩语料库</a> 上。</hcfy-result><!--hcfy-anchor--></p>
+on the <a href="http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia">Silesia compression corpus</a>.<translate class="trans-result-both trans-result-loaded" contenteditable="true">下面的测试是在一台运行 Linux Debian (<code class="prettyprint lang- prettyprinted" style=""><span class="typ">Linux</span><span class="pln"> version </span><span class="lit">4.14</span><span class="pun">.</span><span class="lit">0</span><span class="pun">-</span><span class="lit">3</span><span class="pun">-</span><span class="pln">amd64</span></code>) 的服务器上进行的， CPU 为 Core i7-6700K @ 4.0GHz ， 使用 <a href="https://github.com/inikep/lzbench">lzbench</a> ，一个由 @inikep 用 <a href="https://gcc.gnu.org/">gcc</a> 7.3.0 编译的开源内存基准，在 <a href="http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia">Silesia 压缩语料库</a> 上。</translate><!-- trans --></p>
 <table class="table table-striped table-bordered">
 <thead>
 <tr>
-<th>Compression Speed vs Ratio<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">压缩速度与比值</hcfy-result><!--hcfy-anchor--></th>
-<th>Decompression Speed<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">解压缩速度</hcfy-result><!--hcfy-anchor--></th>
+<th>Compression Speed vs Ratio<translate class="trans-result-both trans-result-loaded" contenteditable="true">压缩速度与比值</translate><!-- trans --></th>
+<th>Decompression Speed<translate class="trans-result-both trans-result-loaded" contenteditable="true">解压缩速度</translate><!-- trans --></th>
 </tr>
 </thead>
 <tbody>
@@ -208,22 +208,22 @@ on the <a href="http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia">Silesia c
 </tbody>
 </table>
 <p>Several algorithms can produce higher compression ratio but at slower speed, falling outside of the graph.
-For a larger picture including very slow modes, <a href="https://raw.githubusercontent.com/facebook/zstd/master/doc/images/DCspeed5.png">click on this link</a> .<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">有几种算法可以产生较高的压缩率，但速度较慢，属于图中的范围。对于包括非常慢的模式在内的更大的图片，请 <a href="https://raw.githubusercontent.com/facebook/zstd/master/doc/images/DCspeed5.png">点此链接</a> 。</hcfy-result><!--hcfy-anchor--></p>
+For a larger picture including very slow modes, <a href="https://raw.githubusercontent.com/facebook/zstd/master/doc/images/DCspeed5.png">click on this link</a> .<translate class="trans-result-both trans-result-loaded" contenteditable="true">有几种算法可以产生较高的压缩率，但速度较慢，属于图中的范围。对于包括非常慢的模式在内的更大的图片，请 <a href="https://raw.githubusercontent.com/facebook/zstd/master/doc/images/DCspeed5.png">点此链接</a> 。</translate><!-- trans --></p>
 <p><a name="small-data"></a></p>
-<h3>The case for Small Data compression<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__ __hcfy__result__inline__" contenteditable="true">小数据压缩的情况</hcfy-result><!--hcfy-anchor--></h3>
-<p>Previous charts provide results applicable to typical file and stream scenarios (several MB). Small data comes with different perspectives.<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">前面的图表提供了适用于典型文件和流场景的结果 (几兆字节) 。小数据会情况不同。</hcfy-result><!--hcfy-anchor--></p>
-<p>The smaller the amount of data to compress, the more difficult it is to compress. This problem is common to all compression algorithms, and reason is, compression algorithms learn from past data how to compress future data. But at the beginning of a new data set, there is no "past" to build upon.<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">要压缩的数据量越小，压缩的难度就越大。这个问题是所有压缩算法的共同问题，原因是，压缩算法从过去的数据中学习如何压缩未来的数据。但是，在一个新的数据集的开始，没有 "过去" 可以借鉴。</hcfy-result><!--hcfy-anchor--></p>
+<h3>The case for Small Data compression<translate class="trans-result-both trans-result-loaded trans-result-inline" contenteditable="true">小数据压缩的情况</translate><!-- trans --></h3>
+<p>Previous charts provide results applicable to typical file and stream scenarios (several MB). Small data comes with different perspectives.<translate class="trans-result-both trans-result-loaded" contenteditable="true">前面的图表提供了适用于典型文件和流场景的结果 (几兆字节) 。小数据会情况不同。</translate><!-- trans --></p>
+<p>The smaller the amount of data to compress, the more difficult it is to compress. This problem is common to all compression algorithms, and reason is, compression algorithms learn from past data how to compress future data. But at the beginning of a new data set, there is no "past" to build upon.<translate class="trans-result-both trans-result-loaded" contenteditable="true">要压缩的数据量越小，压缩的难度就越大。这个问题是所有压缩算法的共同问题，原因是，压缩算法从过去的数据中学习如何压缩未来的数据。但是，在一个新的数据集的开始，没有 "过去" 可以借鉴。</translate><!-- trans --></p>
 <p>To solve this situation, Zstd offers a <strong>training mode</strong>, which can be used to tune the algorithm for a selected type of data.
 Training Zstandard is achieved by provide it with a few samples (one file per sample). The result of this training is stored in a file called "dictionary", which must be loaded before compression and decompression.
-Using this dictionary, the compression ratio achievable on small data improves dramatically.<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">为了解决这种情况， Zstd 提供了一个 <strong>训练模式</strong> ，它可以用来为选定的数据类型调整算法。训练 Zstandard 是通过向它提供一些样本 (每个样本一个文件) 来实现的。训练的结果存储在一个叫做 "字典" 的文件中，在压缩和解压之前必须加载这个文件。使用这个字典，在小数据上可实现的压缩率会有很大的提高。</hcfy-result><!--hcfy-anchor--></p>
+Using this dictionary, the compression ratio achievable on small data improves dramatically.<translate class="trans-result-both trans-result-loaded" contenteditable="true">为了解决这种情况， Zstd 提供了一个 <strong>训练模式</strong> ，它可以用来为选定的数据类型调整算法。训练 Zstandard 是通过向它提供一些样本 (每个样本一个文件) 来实现的。训练的结果存储在一个叫做 "字典" 的文件中，在压缩和解压之前必须加载这个文件。使用这个字典，在小数据上可实现的压缩率会有很大的提高。</translate><!-- trans --></p>
 <p>The following example uses the <code class="prettyprint lang- prettyprinted" style=""><span class="pln">github</span><span class="pun">-</span><span class="pln">users</span></code> <a href="https://github.com/facebook/zstd/releases/tag/v1.1.3">sample set</a>, created from <a href="https://developer.github.com/v3/users/#get-all-users">github public API</a>.
-It consists of roughly 10K records weighting about 1KB each.<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">下面的例子使用了 <code class="prettyprint lang- prettyprinted" style=""><span class="pln">github</span><span class="pun">-</span><span class="pln">users</span></code> <a href="https://github.com/facebook/zstd/releases/tag/v1.1.3">样本集</a> ，它是由 <a href="https://developer.github.com/v3/users/#get-all-users">github 公共 API</a> 创建的。它由大约 10K 条记录组成，每条记录的重量约为 1KB 。</hcfy-result><!--hcfy-anchor--></p>
+It consists of roughly 10K records weighting about 1KB each.<translate class="trans-result-both trans-result-loaded" contenteditable="true">下面的例子使用了 <code class="prettyprint lang- prettyprinted" style=""><span class="pln">github</span><span class="pun">-</span><span class="pln">users</span></code> <a href="https://github.com/facebook/zstd/releases/tag/v1.1.3">样本集</a> ，它是由 <a href="https://developer.github.com/v3/users/#get-all-users">github 公共 API</a> 创建的。它由大约 10K 条记录组成，每条记录的重量约为 1KB 。</translate><!-- trans --></p>
 <table class="table table-striped table-bordered">
 <thead>
 <tr>
-<th>Compression Ratio<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">压缩率</hcfy-result><!--hcfy-anchor--></th>
-<th>Compression Speed<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">压缩速度</hcfy-result><!--hcfy-anchor--></th>
-<th>Decompression Speed<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">解压缩速度</hcfy-result><!--hcfy-anchor--></th>
+<th>Compression Ratio<translate class="trans-result-both trans-result-loaded" contenteditable="true">压缩率</translate><!-- trans --></th>
+<th>Compression Speed<translate class="trans-result-both trans-result-loaded" contenteditable="true">压缩速度</translate><!-- trans --></th>
+<th>Decompression Speed<translate class="trans-result-both trans-result-loaded" contenteditable="true">解压缩速度</translate><!-- trans --></th>
 </tr>
 </thead>
 <tbody>
@@ -234,26 +234,26 @@ It consists of roughly 10K records weighting about 1KB each.<hcfy-result class="
 </tr>
 </tbody>
 </table>
-<p>These compression gains are achieved while simultaneously providing <em>faster</em> compression and decompression speeds.<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">这些压缩收益是在同时提供 <em>更快的</em> 压缩和解压速度的情况下实现的。</hcfy-result><!--hcfy-anchor--></p>
+<p>These compression gains are achieved while simultaneously providing <em>faster</em> compression and decompression speeds.<translate class="trans-result-both trans-result-loaded" contenteditable="true">这些压缩收益是在同时提供 <em>更快的</em> 压缩和解压速度的情况下实现的。</translate><!-- trans --></p>
 <p>Training works if there is some correlation in a family of small data samples. The more data-specific a dictionary is, the more efficient it is (there is no <em>universal dictionary</em>).
 Hence, deploying one dictionary per type of data will provide the greatest benefits.
-Dictionary gains are mostly effective in the first few KB. Then, the compression algorithm will gradually use previously decoded content to better compress the rest of the file.<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">如果在一个小数据样本系列中存在一些相关性，训练就会起作用。词典的数据特性越强，它的效率就越高 (没有 <em>通用的词典</em> ) 。因此，为每一种类型的数据部署一部字典将提供最大的好处。词典的收益在最初的几个 KB 中大多是有效的。然后，压缩算法将逐渐使用先前解码的内容来更好地压缩文件的其余部分。</hcfy-result><!--hcfy-anchor--></p>
-<h3>A rich API set :<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__ __hcfy__result__inline__" contenteditable="true">丰富的 API 集：</hcfy-result><!--hcfy-anchor--></h3>
+Dictionary gains are mostly effective in the first few KB. Then, the compression algorithm will gradually use previously decoded content to better compress the rest of the file.<translate class="trans-result-both trans-result-loaded" contenteditable="true">如果在一个小数据样本系列中存在一些相关性，训练就会起作用。词典的数据特性越强，它的效率就越高 (没有 <em>通用的词典</em> ) 。因此，为每一种类型的数据部署一部字典将提供最大的好处。词典的收益在最初的几个 KB 中大多是有效的。然后，压缩算法将逐渐使用先前解码的内容来更好地压缩文件的其余部分。</translate><!-- trans --></p>
+<h3>A rich API set :<translate class="trans-result-both trans-result-loaded trans-result-inline" contenteditable="true">丰富的 API 集：</translate><!-- trans --></h3>
 <p>Zstandard API is designed with learning curve in mind.
 At the top, you'll find simple methods, using trivial arguments and behavior.
 Then, at each new paragraph, the API introduces new concepts and parameters,
-giving gradually more control for advanced usages.<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">Zstandard API 的设计考虑到了学习曲线。在最顶部，你会发现简单的方法，使用微不足道的参数和行为。然后，在每一个新的段落中， API 都会引入新的概念和参数，逐渐为高级用法提供更多的控制。</hcfy-result><!--hcfy-anchor--></p>
-<p>You can learn more about Zstandard API by reading <a href="https://raw.githack.com/facebook/zstd/release/doc/zstd_manual.html">its documentation</a>.<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">你可以通过阅读 Zstandard API <a href="https://raw.githack.com/facebook/zstd/release/doc/zstd_manual.html">的文档</a> 来了解更多的信息。</hcfy-result><!--hcfy-anchor--></p>
+giving gradually more control for advanced usages.<translate class="trans-result-both trans-result-loaded" contenteditable="true">Zstandard API 的设计考虑到了学习曲线。在最顶部，你会发现简单的方法，使用微不足道的参数和行为。然后，在每一个新的段落中， API 都会引入新的概念和参数，逐渐为高级用法提供更多的控制。</translate><!-- trans --></p>
+<p>You can learn more about Zstandard API by reading <a href="https://raw.githack.com/facebook/zstd/release/doc/zstd_manual.html">its documentation</a>.<translate class="trans-result-both trans-result-loaded" contenteditable="true">你可以通过阅读 Zstandard API <a href="https://raw.githack.com/facebook/zstd/release/doc/zstd_manual.html">的文档</a> 来了解更多的信息。</translate><!-- trans --></p>
 <p><br>
 <a name="other-languages"></a></p>
-<h2>Multiple programming languages<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__ __hcfy__result__inline__" contenteditable="true">多编程语言</hcfy-result><!--hcfy-anchor--></h2>
+<h2>Multiple programming languages<translate class="trans-result-both trans-result-loaded trans-result-inline" contenteditable="true">多编程语言</translate><!-- trans --></h2>
 <p>Should you need Zstandard in different language than <a href="https://github.com/facebook/zstd">reference C</a>,
 here is a list of known bindings and ports provided by great authors.
 All versions support the Zstandard <a href="https://github.com/facebook/zstd/blob/master/doc/zstd_compression_format.md">format specification</a>
 and are therefore interoperable.
 Many versions listed below are bindings to the <a href="https://github.com/facebook/zstd">reference C</a> library.
 There are also full re-implementation of the algorithm in the target language
-which are explicitly labelled as Ports.<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__" contenteditable="true">如果你需要 Zstandard 的不同语言，而不是 <a href="https://github.com/facebook/zstd">参考 C 语言</a> ，这里有一列表的已知的由伟大的作者们提供的&nbsp;bindings 或者 ports 。所有的版本都支持 Zstandard 的 <a href="https://github.com/facebook/zstd/blob/master/doc/zstd_compression_format.md">格式规范</a> ，因此是可以互用的。下面列出的许多版本是与 <a href="https://github.com/facebook/zstd">参考 C 语言</a> 库的绑定。还有一些在目标语言中重新实现的算法，被明确地标为 Ports 。</hcfy-result><!--hcfy-anchor--></p>
+which are explicitly labelled as Ports.<translate class="trans-result-both trans-result-loaded" contenteditable="true">如果你需要 Zstandard 的不同语言，而不是 <a href="https://github.com/facebook/zstd">参考 C 语言</a> ，这里有一列表的已知的由伟大的作者们提供的&nbsp;bindings 或者 ports 。所有的版本都支持 Zstandard 的 <a href="https://github.com/facebook/zstd/blob/master/doc/zstd_compression_format.md">格式规范</a> ，因此是可以互用的。下面列出的许多版本是与 <a href="https://github.com/facebook/zstd">参考 C 语言</a> 库的绑定。还有一些在目标语言中重新实现的算法，被明确地标为 Ports 。</translate><!-- trans --></p>
 <table class="table table-striped table-bordered">
 <thead>
 <tr>
@@ -487,7 +487,7 @@ which are explicitly labelled as Ports.<hcfy-result class="__hcfy__result__both_
 </table>
 <p><br>
 <a name="GUI"></a></p>
-<h2>Graphical User Interfaces<hcfy-result class="__hcfy__result__both__ __hcfy__result__loaded__ __hcfy__result__inline__" contenteditable="true">图形化用户界面</hcfy-result><!--hcfy-anchor--></h2>
+<h2>Graphical User Interfaces<translate class="trans-result-both trans-result-loaded trans-result-inline" contenteditable="true">图形化用户界面</translate><!-- trans --></h2>
 <p>Tino Reichardt has created a version of <a href="https://mcmilk.de/projects/7-Zip-ZStd/">7-zip archive manager with Zstandard</a>.</p>
 <p>Denis Anisimov, of TC4shell fame, also developed a <a href="http://www.tc4shell.com/en/7zip/modern7z/">7-zip plugin with Zstandard support</a>.</p>
 <p>Peazip is a free multi-platforms archiver by Giorgio Tani with <a href="https://peazip.github.io/zst-compressed-file-format.html">support for Zstandard</a></p>
