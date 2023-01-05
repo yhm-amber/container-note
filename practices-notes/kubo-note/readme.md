@@ -1,4 +1,6 @@
 
+曾用名： `go-ipfs`
+
 ## with brave
 
 repo: https://github.com/ipfs/ipfs-companion.git
@@ -67,6 +69,7 @@ docs:
 
 - ipns://ipfscluster.io/documentation/guides/k8s
 - https://ipfscluster.io/documentation/guides/k8s
+- https://ipfs-operator.readthedocs.io/
 
 repo:
 
