@@ -1,11 +1,13 @@
 
 [site-faq]: https://aethersx2.com/faq.html
-[repo]: https://www.aethersx2.com/archive
-[site]: https://www.aethersx2.com
+[repo]: https://aethersx2.com/archive
+[site]: https://aethersx2.com
 
 这是个可在很多平台 (os) 运行的 PS2 模拟器，但是停止开发了。
 
-这里写了原因： [AetherSX2 development is indefinitely suspended.][site]
+这里写了原因：
+
+- [AetherSX2 development is indefinitely suspended.][site]
 
 > ### AetherSX2 development is indefinitely suspended.
 > 
