@@ -1,30 +1,56 @@
 
 曾用名： `go-ipfs`
 
+[kubo-repo]: https://github.com/ipfs/kubo.git
+[goipfs-repo]: https://github.com/ipfs/go-ipfs.git
+[companion-repo]: https://github.com/ipfs/ipfs-companion.git
+[desktop-repo]: https://github.com/ipfs/ipfs-desktop.git
+
+[site.tech-https]: https://ipfs.tech
+
 ## with brave
+
+### plugin (optional)
 
 repo: https://github.com/ipfs/ipfs-companion.git
 
-这是个插件。中文名是 IPFS 伴侣（[查看功能](https://github.com/ipfs-shipyard/ipfs-companion#ipfs-companion-features)）。
+这是个插件。中文名是 [IPFS 伴侣][companion-repo] ([查看功能](https://github.com/ipfs-shipyard/ipfs-companion#ipfs-companion-features)) 。
 
-它会告诉你，同 Brave 一起使用时，不必再安装 `ipfs/ipfs-desktop` 。
+它会告诉你，同 Brave 一起使用时，不必再安装 [`ipfs/ipfs-desktop`][desktop-repo] 。
+
+在 [Brave][brave-repo] 上使用 IPFS 时，该插件并非必要，但能方便你好多事情。
+
+它的核心功能仍然是依托于在下文提到的弹出页面安装的 [`go-ipfs`][goipfs-repo] 即 [`kubo`][kubo-repo] 。
+
+### kubo
 
 repo: https://github.com/ipfs/kubo.git
 
-如果你用 [Brave][brave-repo] 访问
+如果你用 [Brave][brave-repo] 访问支持 IPFS/IPNS 的网站 (如 [ipfs.tech][site.tech-https] ) ，在地址栏会多出一个有 `IPFS` 字样的按钮，单击即可访问[该网站的 `ipfs://` 协议的页面](ipfs://bafybeifc4txki2gjnkfbsagx7ya2l2mqo2hptc6ewyy7bg37a3enxo6kim)。
 
 [brave-repo]: https://github.com/brave/brave-browser.git
 
+在 [Brave][brave-repo] 访问 `ipfs://` 协议的页面有两个途径，其中一个就是为该浏览器实例安装 [`go-ipfs`][goipfs-repo] (即 [`kubo`][kubo-repo]) 的后端。
+
+若想进入这个安装的引导界面，只需在没对该浏览器实例安装 [`go-ipfs`][goipfs-repo] 的前提下用它访问一个 `ipfs://` 协议的地址即可。可以用前文提到的办法访问一个 `ipfs://` 协议的页面。
+
+完成安装后，你的该 Brave 浏览器实例就同时成为了一个具有 [IPFS Desktop][desktop-repo] 所有功能的用户图形界面。这也是为什么前面提到的插件会在自己的页面告诉你，如用 [Brave Browser][brave-repo] 则不必再安装 [IPFS Desktop][desktop-repo] 。
+
+如果你已有 [伴侣插件][companion-repo] ，则 `ipfs://` 协议的地址会被转换为可读的 `ipns://` 协议的地址。这里的域名一般同该网站使用 `https://` 协议时的域名相同——因而你会发现，你每次访问那些支持 IPFS 并且有这样的 IPNS 域名的网站的时候，该插件会自动帮你把 url 中的 `https` 协议改为 `ipns` ——一个简洁无比的转换。🙃
+
+*(当然，看上去是个很简洁的变换，但 `https` 和 `ipns` 很不一样。前者是基于 DNS 来完成域名解析工作的。)*
+
 ## kubo
 
-[dtp]: ipns://docs.ipfs.tech/install/ipfs-desktop/
-[cli]: ipns://docs.ipfs.tech/how-to/command-line-quick-start
+[dtp]: https://docs.ipfs.tech/install/ipfs-desktop/
+[cli]: https://docs.ipfs.tech/how-to/command-line-quick-start
 
-不论是[界面][dtp]还是[命令行][cli]，都有统一的底层执行程序 Kubo 。这是一个 IPFS 的 Go 语言实现。
+不论是[图形界面][dtp]还是[命令行][cli]，都基于一个统一的程序 Kubo 来执行，区别只在于界面 (Interface) 。
+
+[Kubo][kubo-repo] 是一个 IPFS 的 Go 语言实现，原名为 [`go-ipfs`][goipfs-repo] 。
 
 
-
-## intro
+## ipfs
 
 工作原理
 
@@ -35,20 +61,36 @@ repo: https://github.com/ipfs/kubo.git
 - 本地文档：[`http-48081`][how-local]
 - 线上文档：[`ipns`][how-ipns] [`https`][how-https]
 
+本质上，你的页面也只是一个文件。文件就是字节流，而文件系统就是管理字节流的系统 (规范) 。任何数据结构也都可以依据一个特定规则而暴露一个字节流格式的接口。
+
+页面的访问必然包括对访问结果的展示，而这个展示必然伴随对文件的下载。这里的文件就是有关于 Web 页面的所有文件。
+
+[ipfs-share-ipx-643]: https://ipfs.io/ipfs/QmPH3ZFHchHzSTtUgAAtnj7JGC39Laubi2KnrV5X8nvzcN
+[ipfs-link-ipx-643]: ipfs://bafybeian54zhr4cx6a7lwiuzskcjinwl2zr5jjzjjs3ws2o4h6xuazmr74
+[ipfs-share-cyberedge-s01]: https://ipfs.io/ipfs/QmY78Z7vpLzVh5SZpyc2QjPCeDXT1xFSKKMoy6kyY2rdpb
+[ipfs-link-cyberedge-s01]: ipfs://bafybeierdy4pe2r5ew67atzk3ntp7gnfymfckqi653sb7hte2c7eftp7oa/
+
+你也可以只是把它当作一个分布式的文件系统。你可以用 CID 访问任何一个在 IPFS 网络中被共享过的文件/目录， CID 会被转换为 `ipfs` 协议的地址，如下面的 CID 向地址的转换：
+
+- [CID][ipfs-share-ipx-643] [Link][ipfs-link-ipx-643]
+- [CID][ipfs-share-cyberedge-s01] [Link][ipfs-link-cyberedge-s01]
 
 ## ipns
 
-在这个点对点网络中担当域名解析的工作。
+介绍：
 
 - [http://docs-ipfs-tech.ipns.localhost:48081/concepts/ipns](http://docs-ipfs-tech.ipns.localhost:48081/concepts/ipns)
 - [ipns://docs.ipfs.tech/concepts/ipns](ipns://docs.ipfs.tech/concepts/ipns)
+- [https://docs.ipfs.tech/concepts/ipns](https://docs.ipfs.tech/concepts/ipns)
 
-譬如：
+功能简而言之就是，在这个 (使用 `ipfs` 协议的) 点对点网络中担当域名解析的工作。
 
-- `ipfs://bafybeifc4txki2gjnkfbsagx7ya2l2mqo2hptc6ewyy7bg37a3enxo6kim`
-- `ipns://ipfs.tech`
+譬如把对下列第一个 URL 的访问解析为访问第二个 URL (即同时也是在浏览器地址栏中把下列第二项替换为第一项) ：
 
-这俩就是一样的。这是 IPFS 的主站，其内容上也和 `https://ipfs.tech` 一样，不过 `https` 协议下的域名解析是由传统的中心化 DNS 服务提供。
+- `ipns://ipfs.tech` `ipfs://bafybeifc4txki2gjnkfbsagx7ya2l2mqo2hptc6ewyy7bg37a3enxo6kim`
+- `ipns://docs.ipfs.tech` `ipfs://bafybeid5nts3o73veyddbaewlat32xlnlc4cclen6oljdunwibzycj76se`
+
+
 
 ## demo
 
