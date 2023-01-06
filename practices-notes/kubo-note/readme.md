@@ -93,7 +93,7 @@ ref:
 - https://github.com/redhat-et/ipfs-operator.git
 - https://github.com/ipfs-cluster/ipfs-operator.git
 
-*(repo `redhat-et/ipfs-operator` is `ipfs-cluster/ipfs-operator` now :P)*
+*(repo `redhat-et/ipfs-operator` is `ipfs-cluster/ipfs-operator` now 🙂)*
 
 ~~~ sh
 helm install ipfs-operator ./helm/ipfs-operator
