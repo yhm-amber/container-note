@@ -236,21 +236,47 @@ IPFS 支持项：
 添加某个远程服务的命令示例：
 
 ~~~ sh
-ipfs pin remote service add <STORAGE_NAME> <STORAGE_API> <YOUR_AUTH_KEY_JWT>
+ipfs pin remote service add -- <STORAGE_NAME> <STORAGE_API> <YOUR_AUTH_KEY_JWT>
 
 : e.g.
-ipfs pin remote service add Web3.Storage https://api.web3.storage <AUTH_KEY_JWT>
-ipfs pin remote service add Pinata https://api.pinata.cloud/psa <AUTH_KEY_JWT>
-ipfs pin remote service add Filebase https://api.filebase.io/v1/ipfs <AUTH_KEY_JWT>
-ipfs pin remote service add Estuary https://api.estuary.tech/pinning <AUTH_KEY_JWT>
+ipfs pin remote service add -- Web3.Storage https://api.web3.storage <AUTH_KEY_JWT>
+ipfs pin remote service add -- Pinata https://api.pinata.cloud/psa <AUTH_KEY_JWT>
+ipfs pin remote service add -- Filebase https://api.filebase.io/v1/ipfs <AUTH_KEY_JWT>
+ipfs pin remote service add -- Estuary https://api.estuary.tech/pinning <AUTH_KEY_JWT>
 ~~~
 
-然后才能使用这个服务。像：
+然后才能使用这个服务。像 ([ref][pinsvc-web3.storage]) ：
 
 ~~~ sh
 ipfs pin remote ls --service=web3.storage # 列出
 ipfs pin remote add --service=web3.storage --name=<PIN_NAME> <CID> # 添加
 ipfs pin remote rm --service=web3.storage --cid=<CID> # 删除
+~~~
+
+也支持用 HTTP API ([ref][pinsvc-web3.storage]) ：
+
+~~~ sh
+: 列出
+
+curl -X GET 'https://api.web3.storage/pins' \
+  --header 'Accept: */*' \
+  --header 'Authorization: Bearer <YOUR_AUTH_KEY_JWT>' ;
+
+: 添加
+curl -X POST 'https://api.web3.storage/pins' \
+  --header 'Accept: */*' \
+  --header 'Authorization: Bearer <YOUR_AUTH_KEY_JWT>' \
+  --header 'Content-Type: application/json' \
+  -d '
+  { 
+      "cid": "<CID_TO_BE_PINNED>" , 
+      "name": "PreciousData.pdf" } ' ;
+
+: 删除
+
+curl -X DELETE 'https://api.web3.storage/pins/<REQUEST_ID>' \
+  --header 'Accept: */*' \
+  --header 'Authorization: Bearer <YOUR_AUTH_KEY_JWT>' ;
 ~~~
 
 当然，也可以 [自建远程服务][docs-pin-workwith] 。
