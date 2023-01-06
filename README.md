@@ -5,8 +5,8 @@ note about practice . 🦎🤔
 
 repo content: 
 
-- [`instances containerised`](./practices-notes)
-- [`requests plays`](./play-demos)
+- [`containerisable instances`](./practices-notes)
+- [`instances playing requests`](./play-demos)
 - [`builds`](./build-practices)
 
 ----
