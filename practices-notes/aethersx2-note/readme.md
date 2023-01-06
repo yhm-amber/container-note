@@ -43,3 +43,4 @@
 > 当前版本的下载仍然可以在 https://www.aethersx2.com/archive/ - 请遵守良好的安全卫生习惯，不要从随机来源安装 APK 。
 > 
 
+[knows-by]: https://www.oschina.net/news/223913/aethersx2-end
