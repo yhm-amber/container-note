@@ -96,7 +96,7 @@ IPFS 支持项：
 - 在对一个浏览器实例安装 IPFS 的后端支持补充后， [Brave Browser][brave-repo] 会成为 [IPFS Desktop][ipfs-desktop-repo] 的完整替代。
 - 在 [settings](brave://settings) 页面中的 [ipfs](brave://settings/ipfs) 栏 (较旧版界面) 或 [web3](brave://settings/web3) 栏中的 IPFS 项 (较新版界面) 中，有 IPFS 相关的针对此浏览器实例的诸项配置。
 
-
+它应该是基于 [`ipfs-shipyard/ipfs-webui.git`][repo-shipyard-ipfs-webui] 实现的。
 
 #### `ipfs desktop`
 
