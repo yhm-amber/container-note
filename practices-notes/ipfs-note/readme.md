@@ -23,9 +23,59 @@
 - [CID][ipfs-share-ipx-643] [Link][ipfs-link-ipx-643]
 - [CID][ipfs-share-cyberedge-s01] [Link][ipfs-link-cyberedge-s01]
 
-
 [ipfs-share-ipx-643]: https://ipfs.io/ipfs/QmYdBXT4NAJTPg33g3qc26PgkW3MqVaQpW9SmoyaqFhKA2
 [ipfs-link-ipx-643]: ipfs://bafybeiey2eazwdwyvji3lrhyggtj6anleyqa6kuwxx54ldvddvragek56m
 [ipfs-share-cyberedge-s01]: https://ipfs.io/ipfs/QmY78Z7vpLzVh5SZpyc2QjPCeDXT1xFSKKMoy6kyY2rdpb
 [ipfs-link-cyberedge-s01]: ipfs://bafybeierdy4pe2r5ew67atzk3ntp7gnfymfckqi653sb7hte2c7eftp7oa/
+
+工作原理
+
+[how-local]: http://docs-ipfs-tech.ipns.localhost:48081/concepts/how-ipfs-works
+[how-ipns]: ipns://docs.ipfs.tech/concepts/how-ipfs-works
+[how-https]: https://docs.ipfs.tech/concepts/how-ipfs-works
+
+- 本地文档：[`http-48081`][how-local]
+- 线上文档：[`ipns`][how-ipns] [`https`][how-https]
+
+## IPNS
+
+介绍：
+
+- [http://docs-ipfs-tech.ipns.localhost:48081/concepts/ipns](http://docs-ipfs-tech.ipns.localhost:48081/concepts/ipns)
+- [ipns://docs.ipfs.tech/concepts/ipns](ipns://docs.ipfs.tech/concepts/ipns)
+- [https://docs.ipfs.tech/concepts/ipns](https://docs.ipfs.tech/concepts/ipns)
+
+功能简而言之就是，在这个 (使用 `ipfs` 协议的) 点对点网络中担当域名解析的工作。
+
+譬如把对下列第一个 URL 的访问解析为访问第二个 URL (即同时也是在浏览器地址栏中把下列第二项替换为第一项) ：
+
+- `ipns://ipfs.tech` `ipfs://bafybeifc4txki2gjnkfbsagx7ya2l2mqo2hptc6ewyy7bg37a3enxo6kim`
+- `ipns://docs.ipfs.tech` `ipfs://bafybeid5nts3o73veyddbaewlat32xlnlc4cclen6oljdunwibzycj76se`
+
+## cluster
+
+
+docs: 
+
+- ipns://ipfscluster.io/documentation/guides/k8s
+- https://ipfscluster.io/documentation/guides/k8s
+- https://ipfs-operator.readthedocs.io
+
+repo:
+
+- https://github.com/ipfs-cluster/ipfs-cluster.git
+- https://github.com/ipfs-cluster/ipfs-operator.git
+- https://github.com/monaparty/helm-ipfs-cluster.git
+- https://github.com/redhat-et/ipfs-operator.git
+
+site:
+
+- ipns://ipfscluster.io/
+- https://ipfscluster.io/
+
+[kubo-repo]: https://github.com/ipfs/kubo.git
+
+instance by [kubo][kubo-repo] see: 
+
+- [`kubo note - cluster`](../kubo-note#cluster)
 
