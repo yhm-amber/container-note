@@ -57,25 +57,46 @@
 
 docs: 
 
-- ipns://ipfscluster.io/documentation/guides/k8s
-- https://ipfscluster.io/documentation/guides/k8s
-- https://ipfs-operator.readthedocs.io
+- kubo: 
+  
+  - ipns://ipfscluster.io/documentation/guides/k8s
+  - https://ipfscluster.io/documentation/guides/k8s
+  - https://ipfs-operator.readthedocs.io
+  
+- iroh: ...
+- fuzzy: ...
 
-repo:
+repos: 
 
-- https://github.com/ipfs-cluster/ipfs-cluster.git
-- https://github.com/ipfs-cluster/ipfs-operator.git
-- https://github.com/monaparty/helm-ipfs-cluster.git
-- https://github.com/redhat-et/ipfs-operator.git
+- kubo: 
+  
+  - https://github.com/ipfs-cluster/ipfs-cluster.git
+  - https://github.com/ipfs-cluster/ipfs-operator.git
+  - https://github.com/monaparty/helm-ipfs-cluster.git
+  - https://github.com/redhat-et/ipfs-operator.git
+  
+- iroh: ...
+- fuzzy: ...
 
-site:
+sites: 
 
-- ipns://ipfscluster.io/
-- https://ipfscluster.io/
+- kubo: 
+  
+  - ipns://ipfscluster.io/
+  - https://ipfscluster.io/
+  
+- iroh: ...
+- fuzzy: ...
+
+instances: 
 
 [kubo-repo]: https://github.com/ipfs/kubo.git
 
-instance by [kubo][kubo-repo] see: 
+- [kubo][kubo-repo] backended instance: 
+  
+  - [`cluster | kubo note`](../kubo-note#cluster)
+  
+- iroh: ...
+- fuzzy: ...
 
-- [`kubo note - cluster`](../kubo-note#cluster)
 
