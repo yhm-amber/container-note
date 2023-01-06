@@ -1,12 +1,35 @@
 
-曾用名： `go-ipfs`
+[site.tech-https]: https://ipfs.tech
+
+## intro
+
+[Kubo][kubo-repo] 是一个 IPFS 的 Go 语言实现，原名为 [`go-ipfs`][goipfs-repo] 。
+
+[dtp]: https://docs.ipfs.tech/install/ipfs-desktop/
+[cli]: https://docs.ipfs.tech/how-to/command-line-quick-start
+
+不论是[图形界面][dtp]还是[命令行][cli]，都基于一个统一的程序 Kubo 来执行，区别只在于界面 (Interface) 。
 
 [kubo-repo]: https://github.com/ipfs/kubo.git
 [goipfs-repo]: https://github.com/ipfs/go-ipfs.git
 [companion-repo]: https://github.com/ipfs/ipfs-companion.git
 [desktop-repo]: https://github.com/ipfs/ipfs-desktop.git
 
-[site.tech-https]: https://ipfs.tech
+more see: 
+
+- [`IPFS | ipfs note`](../ipfs-note#IPFS)
+- [`IPNS | ipfs note`](../ipfs-note#IPNS)
+
+demo ipfs: 
+
+- [orbit for chat][orbit]
+- [akasha for world][akasha]
+
+[dtube]: ipfs://bafybeigbpc5ubhik5khftu4vancanucyqml64s2bep2cswi4mq6hx2rg64
+[orbit]: ipns://orbit.chat/
+[akasha]: ipns://akasha.world/
+
+ref: https://jobcher.com/ipfs/
 
 ## with brave
 
@@ -22,7 +45,7 @@ repo: https://github.com/ipfs/ipfs-companion.git
 
 它的核心功能仍然是依托于在下文提到的弹出页面安装的 [`go-ipfs`][goipfs-repo] 即 [`kubo`][kubo-repo] 。
 
-### kubo
+### kubo backend
 
 repo: https://github.com/ipfs/kubo.git
 
@@ -40,59 +63,6 @@ repo: https://github.com/ipfs/kubo.git
 
 *(当然，看上去是个很简洁的变换，但 `https` 和 `ipns` 很不一样。前者是基于 DNS 来完成域名解析工作的。)*
 
-## kubo
-
-[dtp]: https://docs.ipfs.tech/install/ipfs-desktop/
-[cli]: https://docs.ipfs.tech/how-to/command-line-quick-start
-
-不论是[图形界面][dtp]还是[命令行][cli]，都基于一个统一的程序 Kubo 来执行，区别只在于界面 (Interface) 。
-
-[Kubo][kubo-repo] 是一个 IPFS 的 Go 语言实现，原名为 [`go-ipfs`][goipfs-repo] 。
-
-
-## ipfs
-
-工作原理
-
-[how-local]: http://docs-ipfs-tech.ipns.localhost:48081/concepts/how-ipfs-works
-[how-ipns]: ipns://docs.ipfs.tech/concepts/how-ipfs-works
-[how-https]: https://docs.ipfs.tech/concepts/how-ipfs-works
-
-- 本地文档：[`http-48081`][how-local]
-- 线上文档：[`ipns`][how-ipns] [`https`][how-https]
-
-see also: 
-
-- [`ipfs note`](../ipfs-note)
-
-## ipns
-
-介绍：
-
-- [http://docs-ipfs-tech.ipns.localhost:48081/concepts/ipns](http://docs-ipfs-tech.ipns.localhost:48081/concepts/ipns)
-- [ipns://docs.ipfs.tech/concepts/ipns](ipns://docs.ipfs.tech/concepts/ipns)
-- [https://docs.ipfs.tech/concepts/ipns](https://docs.ipfs.tech/concepts/ipns)
-
-功能简而言之就是，在这个 (使用 `ipfs` 协议的) 点对点网络中担当域名解析的工作。
-
-譬如把对下列第一个 URL 的访问解析为访问第二个 URL (即同时也是在浏览器地址栏中把下列第二项替换为第一项) ：
-
-- `ipns://ipfs.tech` `ipfs://bafybeifc4txki2gjnkfbsagx7ya2l2mqo2hptc6ewyy7bg37a3enxo6kim`
-- `ipns://docs.ipfs.tech` `ipfs://bafybeid5nts3o73veyddbaewlat32xlnlc4cclen6oljdunwibzycj76se`
-
-
-
-## demo
-
-ref: https://jobcher.com/ipfs/
-
-- [orbit for chat][orbit]
-- [akasha for world][akasha]
-
-
-[dtube]: ipfs://bafybeigbpc5ubhik5khftu4vancanucyqml64s2bep2cswi4mq6hx2rg64
-[orbit]: ipns://orbit.chat/
-[akasha]: ipns://akasha.world/
 
 
 ## cluster
