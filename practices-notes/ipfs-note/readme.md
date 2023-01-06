@@ -245,7 +245,15 @@ ipfs pin remote service add Filebase https://api.filebase.io/v1/ipfs <AUTH_KEY_J
 ipfs pin remote service add Estuary https://api.estuary.tech/pinning <AUTH_KEY_JWT>
 ~~~
 
-当然，也可以自建远程服务
+然后才能使用这个服务。像：
+
+~~~ sh
+ipfs pin remote ls --service=web3.storage # 列出
+ipfs pin remote add --service=web3.storage --name=<PIN_NAME> <CID> # 添加
+ipfs pin remote rm --service=web3.storage --cid=<CID> # 删除
+~~~
+
+当然，也可以 [自建远程服务][docs-pin-workwith] 。
 
 所以， *你还是得以某个节奏迈开脚步、无非是换了一些舞步的姿势* 。 (不知道 Mega.nz 能否做出一个这样的接口呢……)
 
