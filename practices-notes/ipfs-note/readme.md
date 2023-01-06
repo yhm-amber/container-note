@@ -108,50 +108,6 @@ IPFS 支持项：
 
 在 settings 中的 `CLI 引导模式` 选项设置为打开，就可以看到一个图形界面的操作的命令界面操作的等价。命令界面操作自然就是命令行的代码了！🙃
 
-## cluster
-
-
-docs: 
-
-- kubo: 
-  
-  - ipns://ipfscluster.io/documentation/guides/k8s
-  - https://ipfscluster.io/documentation/guides/k8s
-  - https://ipfs-operator.readthedocs.io
-  
-- iroh: ...
-- fuzzy: ...
-
-repos: 
-
-- kubo: 
-  
-  - https://github.com/ipfs-cluster/ipfs-cluster.git
-  - https://github.com/ipfs-cluster/ipfs-operator.git
-  - https://github.com/monaparty/helm-ipfs-cluster.git
-  - https://github.com/redhat-et/ipfs-operator.git
-  
-- iroh: ...
-- fuzzy: ...
-
-sites: 
-
-- kubo: 
-  
-  - ipns://ipfscluster.io/
-  - https://ipfscluster.io/
-  
-- iroh: ...
-- fuzzy: ...
-
-instances: 
-
-- [kubo][kubo-repo] backended instance: 
-  
-  - [`cluster | kubo note`](../kubo-note#cluster)
-  
-- iroh: ...
-- fuzzy: ...
 
 ## pinning
 
@@ -267,6 +223,32 @@ instances:
 [pinging-svc-spec-repo-generation]: https://github.com/ipfs/pinning-services-api-spec#code-generation
 
 
+简而言之，固定 (Pin) 服务就是使一个文件或目录长期保存的标志。
+
+它可以是本地的，也可以是远程的。而所谓的远程固定服务，更像是一种远程的网盘：你请求让你的文件长期存在在别人的服务器上，而依托于 IPFS 提供的体验，你可以好像用本地的东西一样去用它。
+
+这个远程的服务器，它的实现或许是一个分布式文件系统或者对象存储什么的……无所谓是什么，总之，它暴露了 IPFS Pin 的接口并实现了所有规范要求的必要的功能，这就够了。
+
+而，你的固定 (这一步会需要选择在哪里固定) ，如果选择某个远程固定服务，这就大抵等同于是 *上传文件到他们的网盘* 这样的操作了。而使用这文件的时候，它会自动被下载，如果本地没有缓存的话。
+
+而要能够使用某个远程服务，一定要的就是对权限的申请——这里头自然就免不了 *账号注册* 和 *付费* 了，无非可能会支持某种别的币来付费而已。
+
+添加某个远程服务的命令示例：
+
+~~~ sh
+ipfs pin remote service add <STORAGE_NAME> <STORAGE_API> <YOUR_AUTH_KEY_JWT>
+
+: e.g.
+ipfs pin remote service add Web3.Storage https://api.web3.storage <AUTH_KEY_JWT>
+ipfs pin remote service add Pinata https://api.pinata.cloud/psa <AUTH_KEY_JWT>
+ipfs pin remote service add Filebase https://api.filebase.io/v1/ipfs <AUTH_KEY_JWT>
+ipfs pin remote service add Estuary https://api.estuary.tech/pinning <AUTH_KEY_JWT>
+~~~
+
+当然，也可以自建远程服务
+
+所以， *你还是得以某个节奏迈开脚步、无非是换了一些舞步的姿势* 。 (不知道 Mega.nz 能否做出一个这样的接口呢……)
+
 一些 Pin 服务：
 
 [pinsvc-web3.storage]: https://web3.storage/docs/how-tos/pinning-services-api
@@ -278,4 +260,53 @@ instances:
 - [Welcome to Pinata Docs | Pinata Docs][pinsvc-pinata]
 - [IPFS Pinning Service API | Filebase][pinsvc-filebase]
 - [Estuary Documentation: Tutorial: Get an API Key | Estuary][pinsvc-estuary]
+
+
+
+
+
+## cluster
+
+
+docs: 
+
+- kubo: 
+  
+  - ipns://ipfscluster.io/documentation/guides/k8s
+  - https://ipfscluster.io/documentation/guides/k8s
+  - https://ipfs-operator.readthedocs.io
+  
+- iroh: ...
+- fuzzy: ...
+
+repos: 
+
+- kubo: 
+  
+  - https://github.com/ipfs-cluster/ipfs-cluster.git
+  - https://github.com/ipfs-cluster/ipfs-operator.git
+  - https://github.com/monaparty/helm-ipfs-cluster.git
+  - https://github.com/redhat-et/ipfs-operator.git
+  
+- iroh: ...
+- fuzzy: ...
+
+sites: 
+
+- kubo: 
+  
+  - ipns://ipfscluster.io/
+  - https://ipfscluster.io/
+  
+- iroh: ...
+- fuzzy: ...
+
+instances: 
+
+- [kubo][kubo-repo] backended instance: 
+  
+  - [`cluster | kubo note`](../kubo-note#cluster)
+  
+- iroh: ...
+- fuzzy: ...
 
