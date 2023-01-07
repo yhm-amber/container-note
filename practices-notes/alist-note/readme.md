@@ -2,6 +2,7 @@
 [repo]: https://github.com/alist-org/alist.git
 [site]: https://alist.nn.ci
 [docs]: https://alist.nn.ci/guide
+[demo]: https://al.nn.ci
 
 ~~~ sh
 : daemon, port 5244
