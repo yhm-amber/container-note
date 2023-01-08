@@ -11,4 +11,4 @@ website:
 | ---- | ---- |
 | [海盗湾][hdw] | 几乎各种资源 |
 | [FitGirl][fitgirl] | 游戏整合包 |
-| [RARGB][rargb] | 电影或者剧集资源分享 |
+| [RARGB][rargb] | 电影或者剧集 (原盘) 资源分享 |
