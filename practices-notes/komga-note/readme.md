@@ -6,7 +6,7 @@ repo:
 [repo]: https://github.com/gotson/komga.git
 [docker]: https://hub.docker.com/r/gotson/komga
 
-- [gotson/komga | GitHubP][repo]
+- [gotson/komga | GitHub][repo]
 - [gotson/komga - Docker Image | Docker Hub][docker]
 
 > Media server for comics/mangas/BDs with API and OPDS support
