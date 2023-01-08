@@ -10,5 +10,5 @@ website:
 | Name | Desc |
 | ---- | ---- |
 | [海盗湾][hdw] | 几乎各种资源 |
-| [Fitgirl][fitgirl] | 游戏整合包 |
+| [FitGirl][fitgirl] | 游戏整合包 |
 | [RARGB][rargb] | 电影或者剧集资源分享 |
