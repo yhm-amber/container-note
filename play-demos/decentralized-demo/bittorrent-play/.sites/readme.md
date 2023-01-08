@@ -5,7 +5,7 @@ website:
 
 [hdw]: https://thepiratebay.org
 [fitgirl]: https://fitgirl-repacks.site
-[rargb]: https://rargb.to ​
+[rargb]: https://rargb.to
 
 | Name | Desc |
 | ---- | ---- |
