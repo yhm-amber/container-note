@@ -1,6 +1,11 @@
 
+repo: 
+
 [repo]: https://github.com/mesalock-linux/mesalock-distro.git
 [docker]: https://hub.docker.com/r/mesalocklinux/mesalock-linux/
+
+- [mesalock-linux/mesalock-distro | GitHub]
+- [mesalocklinux/mesalock-linux | DockerHub]
 
 > MesaLock Linux: a memory-safe Linux distribution.
 
@@ -58,3 +63,9 @@
 > 
 
 [rust-sgx-sdk-repo]: https://github.com/baidu/rust-sgx-sdk.git
+
+quick use: 
+
+~~~ sh
+docker run -i -t -- mesalocklinux/mesalock-linux
+~~~
