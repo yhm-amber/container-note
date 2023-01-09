@@ -99,7 +99,7 @@ IPFS 支持项：
 
 它应该是基于 [`ipfs-shipyard/ipfs-webui.git`][repo-shipyard-ipfs-webui] 实现的。
 
-##### [引导页面](../brave-note/ipfs-perfer.demo-zh-hans.html)：
+[引导页面](../brave-note/ipfs-perfer.demo-zh-hans.html)：
 
 > ### 设置您的 IPFS 首选项
 > 
