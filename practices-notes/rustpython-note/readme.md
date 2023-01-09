@@ -4,7 +4,7 @@
 
 ![RustPython Logo][pic-logo]
 
-An Python implement.
+An Python interpreter implement.
 
 links: 
 
