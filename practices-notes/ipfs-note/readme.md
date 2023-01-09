@@ -93,10 +93,35 @@ more see:
 IPFS 支持项：
 
 - 如果在地址栏里存在 `/ipfs/` 字样，地址栏右端就会出现一个大意为 `用 IPFS 协议打开` 的按钮。这只是一个来自浏览器的猜测。
-- 在对一个浏览器实例安装 IPFS 的后端支持补充后， [Brave Browser][brave-repo] 会成为 [IPFS Desktop][ipfs-desktop-repo] 的完整替代。
+- 若已对一个浏览器实例安装 IPFS 的后端支持补充， [Brave Browser][brave-repo] 会成为 [IPFS Desktop][ipfs-desktop-repo] 的完整替代。
+- 若未对一个浏览器实例安装 IPFS 的后端支持补充，你会在访问 `ipfs://` 开头的 URL 时看到引导页面。
 - 在 [settings](brave://settings) 页面中的 [ipfs](brave://settings/ipfs) 栏 (较旧版界面) 或 [web3](brave://settings/web3) 栏中的 IPFS 项 (较新版界面) 中，有 IPFS 相关的针对此浏览器实例的诸项配置。
 
 它应该是基于 [`ipfs-shipyard/ipfs-webui.git`][repo-shipyard-ipfs-webui] 实现的。
+
+##### [引导页面](./ipfs-perfer-demo.zh-hans.html)
+
+> ### 设置您的 IPFS 首选项
+> 
+> IPFS（行星际文件系统）是用于对等数据存储和传递的公共网络。该协议具有与 HTTP(S) 不同的隐私考量。 [了解更多](https://support.brave.com/hc/en-us/articles/360051406452-How-does-IPFS-Impact-my-Privacy-)
+> 
+
+
+有两个选项，介绍分别为：
+
+- `使用 Brave 本地 IPFS 节点`
+  
+  > 您的计算机参与了公共网络，但您的 IP 地址和您要求提供或提供的任何内容都可能被泄露。您通过 IPFS 请求的内容在提供给您之前会经过验证。网络请求不得使用浏览器代理和 DNS 设置。
+  > 
+  
+- `使用公共网关`
+  
+  > 保护您潜在的第三方观察者（而不是公共网关运营商）所请求的 IP 地址和内容。网关运营商负责确保通过网关提供给您的内容是您所请求的内容。另外，您的计算机不参与公共 IPFS 网络。
+  > 
+  
+
+> 您可以再次更改您的首选项： [设置.](brave://settings/ipfs)
+> 
 
 #### `ipfs desktop`
 
