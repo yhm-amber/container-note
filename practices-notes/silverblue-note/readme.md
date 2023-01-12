@@ -31,5 +31,6 @@ links:
 (因为 Toolbox 也支持图形化嘛！)
 
 观望一下，看之后会怎么改吧。
- (很可能是用户接口不变而让 Flatpak 依赖 Toolbox 运行。) 🤔
+
+(很可能是用户接口不变而让 Flatpak 依赖 Toolbox 运行。) 🤔
 
