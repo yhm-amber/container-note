@@ -24,6 +24,8 @@ links:
 [datas-kaggle]: https://kaggle.com/datasets/corollari/waifus
 
 [wiki-wf]: https://waifu.wiki
+[mwfl]: https://mywaifulist.moe
+
 
 - [WaifuChain][site]
 - [corollari/waifuchain | GitHub][repo-old]
@@ -34,6 +36,7 @@ links:
 - [thewaifuproject/waifu-dataset | GitHub][repo-wfds]
 - [WaifuChain | Chrome AppStore][ext-chromestore]
 - [MyWaifuList | Kaggle][datas-kaggle]
+- [Dashboard | MyWaifuList][mwfl]
 
 
 > Hey there! My name is Chain.
