@@ -16,7 +16,7 @@
 
 下面即是该内容。
 
-换行和标点都是我加的。折叠的注记 🏷 也是我加的。
+换行和标点都是我加的。折叠的注记 🔖 也是我加的。
 
 ---------
 
@@ -56,7 +56,7 @@
 
 <details>
 
-<summary>🏷</summary>
+<summary>🔖</summary>
 
 ~~~ markdown
 很多认为理想社会不现实，从而反对共产主义的观点，
@@ -126,7 +126,7 @@
 
 <details>
 
-<summary>🏷</summary>
+<summary>🔖</summary>
 
 ~~~ markdown
 作者的这部分批判很精彩（一直到说手机的部分）。
@@ -156,7 +156,7 @@
 
 <details>
 
-<summary>🏷</summary>
+<summary>🔖</summary>
 
 ~~~ markdown
 这里，「现实的外部」即指「现实」这个范畴，
@@ -178,7 +178,7 @@
 
 <details>
 
-<summary>🏷</summary>
+<summary>🔖</summary>
 
 ~~~ markdown
 凝视是确实存在的。但，毕竟已经避世，所以，
@@ -246,7 +246,7 @@
 
 <details>
 
-<summary>🏷</summary>
+<summary>🔖</summary>
 
 ~~~ markdown
 这里原本的顺序是：
