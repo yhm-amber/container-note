@@ -16,6 +16,12 @@
 magnet:?xt=urn:btih:767A20CF4FA715A36A49B8151B89F5FE3A0A93C7&dn=%5BFHD%5D+IPX-643+Kana+Momonogi+-+%E6%A1%83%E4%B9%83%E6%9C%A8%E3%81%8B%E3%81%AA+%5BHEVC%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.ccc.de%3A80&tr=http%3A%2F%2Fsukebei.tracker.wf%3A8888%2Fannounce
 ~~~
 
+##### [`[FHD] IPX-660 Kana Momonogi - 桃乃木かな [HEVC]`](https://cn.torrentkitty.live/information/A60400AFA291CC5A0B7EF7727407324CE394CCBA)
+
+~~~ magnet
+magnet:?xt=urn:btih:A60400AFA291CC5A0B7EF7727407324CE394CCBA&dn=%5BFHD%5D+IPX-660+Kana+Momonogi+-+%E6%A1%83%E4%B9%83%E6%9C%A8%E3%81%8B%E3%81%AA+%5BHEVC%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.ccc.de%3A80&tr=http%3A%2F%2Fsukebei.tracker.wf%3A8888%2Fannounce
+~~~
+
 ##### `桃乃木香奈 (桃乃木かな-Momonogi Kana)`
 
 ~~~ magnet
