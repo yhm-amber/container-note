@@ -3,6 +3,7 @@
 
 原先的产品也改名了，比如：
 
-- Ton OS 改为 Ever OS
-- Ton Surf 改为 Ever Surf
+- [[https://tonlabs.io/products][Ton OS]] 改为 [[https://everos.dev][Ever OS]]
+- 开发用 [[https://ton.dev][Ton Dev]] 改为 
+- [[https://ton.surf][Ton Surf]] 改为 [[https://ever.surf][Ever Surf]]
 
