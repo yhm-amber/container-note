@@ -39,7 +39,7 @@ magnet:?xt=urn:btih:2a0902b95964c68ee12d666f6fc26510463da655&dn=Cyberpunk.Edgeru
 ### Avatar (2009)
 
 - offical site: [Avatar (2009) | Avatar.com](https://www.avatar.com/movies/avatar)
-- imdb: [Avatar (2009) - IMDb](https://www.imdb.com/title/tt0499549)
+- imdb: [Avatar (2009) | IMDb](https://www.imdb.com/title/tt0499549)
 
 #### [`Avatar (2009) Extended 1080p DS4K SDR BluRay (Hindi-5.1)(Eng-5.1) 10bit HEVC - PeruGuy torrent download`](https://rargb.to/torrent/avatar-2009-extended-1080p-ds4k-sdr-bluray-hindi-5-1-eng-5-1-10bit-hevc-peruguy-5040062.html)
 
