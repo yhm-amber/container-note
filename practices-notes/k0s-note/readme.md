@@ -11,13 +11,13 @@
 
 高可用没有 `sealos` 简单。
 
-外部运行时依赖见： https://docs.k0sproject.io/v1.23.8+k0s.0/external-runtime-deps/
+外部运行时依赖见： https://docs.k0sproject.io/stable/external-runtime-deps/
 
 ## 离线包使用
 
-其实就是，不管用啥手段，把离线包丢到 `/var/lib/k0s/images` 这个目录下就行。参[此](https://docs.k0sproject.io/v1.24.3+k0s.0/airgap-install/#2a-sync-the-bundle-file-with-the-airgapped-machine-locally)。
+其实就是，不管用啥手段，把离线包丢到 `/var/lib/k0s/images` 这个目录下就行。参[此](https://docs.k0sproject.io/stable/airgap-install/#2a-sync-the-bundle-file-with-the-airgapped-machine-locally)。
 
-也可以[自制离线包](https://docs.k0sproject.io/v1.24.3+k0s.0/airgap-install/#1-create-your-own-image-bundle-optional)，如果你信不过[他们释放的那些](https://github.com/k0sproject/k0s/releases)的话。
+也可以[自制离线包](https://docs.k0sproject.io/stable/airgap-install/#1-create-your-own-image-bundle-optional)，如果你信不过[他们释放的那些](https://github.com/k0sproject/k0s/releases)的话。
 
 > Copy the bundle only to the worker nodes. Controller nodes don't use it.
 > 
@@ -25,7 +25,7 @@
 ## 正常的尝试
 
 参：
-- https://docs.k0sproject.io/v1.23.8+k0s.0/k0sctl-install/
+- https://docs.k0sproject.io/stable/k0sctl-install/
 - https://mritd.com/2021/07/29/test-the-k0s-cluster/
 
 ### install
@@ -44,7 +44,7 @@ k0sctl init --controller-count 3 -- 10.101.1.71 10.101.1.72 10.101.1.73 |
     (
         tmp="$(cat -)" &&
         printf %s controller+worker |
-            xargs -I controller -- echo "$tmp"
+            xargs -I controller -- echo "$tmp" &&
         : ) |
     
     k0sctl apply --config -
@@ -55,7 +55,7 @@ k0sctl init --controller-count 3 -- 10.101.1.71 10.101.1.72 10.101.1.73 |
 
 也就是说，一是，这个地方也可以用来写一些别的文件的路径和名称信息什么的，一是，每个节点里都得写一遍这玩意儿。
 
-所谓离线安装其实就是把一个 `bundle` 文件给放在所有目标节点的 `/var/lib/k0s/images/` 目录下面。可以从他们的 [github release](https://github.com/k0sproject/k0s/releases) 里找到这个文件，也可以参考[他们的离线文档](https://docs.k0sproject.io/v1.23.8+k0s.0/airgap-install/)自己打包。
+所谓离线安装其实就是把一个 `bundle` 文件给放在所有目标节点的 `/var/lib/k0s/images/` 目录下面。可以从他们的 [github release](https://github.com/k0sproject/k0s/releases) 里找到这个文件，也可以参考[他们的离线文档](https://docs.k0sproject.io/stable/airgap-install/)自己打包。
 
 ### 问题
 
@@ -179,7 +179,7 @@ time="29 Jun 22 19:10 CST" level=fatal msg="failed on 3 hosts:\n - [ssh] 10.101.
 
 离线包丢 `/var/lib/k0s/images` 下（有可能下面其实没用到我没验证）。
 
-ref: https://docs.k0sproject.io/v1.24.3+k0s.0/install/
+ref: https://docs.k0sproject.io/stable/install/
 
 - 安装服务： `sudo k0s install controller --single`
 - 清理服务： `sudo k0s reset`
@@ -192,7 +192,7 @@ ref: https://docs.k0sproject.io/v1.24.3+k0s.0/install/
 
 安装启动，并待状态正常、可以使用 `kubectl` 看到一些东西。在几个节点都做这事。
 
-如果需要事先用 Helm 部署什么的话（比如想要事先添加一些 `LoadBalancer` 或者 `Ingress` 或者 `StorageClass` 等），可以在[这里](https://docs.k0sproject.io/v1.24.3+k0s.0/configuration/)提到的 `/etc/k0s/k0s.yaml` 里，模仿[这个示例](https://docs.k0sproject.io/v1.24.3+k0s.0/examples/traefik-ingress/)在 `k0s.k0sproject.io/v1beta1` 的 `ClusterConfig.spec.extensions.helm` 这个配置节点里头，根据你的需要添加相应的内容。
+如果需要事先用 Helm 部署什么的话（比如想要事先添加一些 `LoadBalancer` 或者 `Ingress` 或者 `StorageClass` 等），可以在[这里](https://docs.k0sproject.io/stable/configuration/)提到的 `/etc/k0s/k0s.yaml` 里，模仿[这个示例](https://docs.k0sproject.io/stable/examples/traefik-ingress/)在 `k0s.k0sproject.io/v1beta1` 的 `ClusterConfig.spec.extensions.helm` 这个配置节点里头，根据你的需要添加相应的内容。
 
 
 ## 一些奇怪的尝试
