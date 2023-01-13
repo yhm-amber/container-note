@@ -1,8 +1,11 @@
 
-这个东西以前叫 TonLab 。
+这个东西以前叫 TonLabs ，现在叫 EverX.。
 
 原先的产品也改名了，比如：
 
 - [[https://tonlabs.io/products][Ton OS]] 改为 [[https://everos.dev][Ever OS]] 
 - [[https://ton.surf][Ton Surf]] 改为 [[https://ever.surf][Ever Surf]]
 
+#+BEGIN_QUOTE
+
+#+END_QUOTE
