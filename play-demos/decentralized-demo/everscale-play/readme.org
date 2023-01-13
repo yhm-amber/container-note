@@ -7,6 +7,8 @@
 - [[https://tonlabs.io/products][Ton OS]] 改为 [[https://everos.dev][Ever OS]] 
 - [[https://ton.surf][Ton Surf]] 改为 [[https://ever.surf][Ever Surf]]
 
+还有命令行工具 `everdev` 以前应该叫 `tondev` ...
+
 这是一些应用：
 
 [[https://mitja.gitbook.io/papers/v/everscale-white-paper/readme/chapter-three-ever-operating-system/about-ever-os][About Ever OS | Mitja's web page]]
