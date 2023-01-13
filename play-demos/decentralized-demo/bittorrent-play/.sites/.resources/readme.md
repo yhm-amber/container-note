@@ -4,7 +4,7 @@
 ### Claymore
 
 - title: `クレイモア`
-- title-ascii: `CLAYMORE`
+- title ascii: `CLAYMORE`
 - author: `八木教広`
 
 #### [`[TSS陰謀組＆文化傳信][八木教広] 大剑 CLAYMORE／クレイモア[1-155话][全]`](https://share.dmhy.org/topics/view/393742_TSS_CLAYMORE_1-155.html)
@@ -23,6 +23,10 @@ magnet:?xt=urn:btih:7e4fc497df7b26d12004483f21dad9fe4f652bdd&dn=(%e4%b8%80%e8%88
 
 ### Cyberpunk Edgerunners (2022)
 
+- offical site: [赛博朋克：Edgerunners](https://cyberpunk.net/edgerunners)
+- netflix: [Cyberpunk Edgerunners | Netflix](https://www.netflix.com/title/81054853)
+- imdb: [Cyberpunk: Edgerunners (TV Series 2022) - IMDb](https://www.imdb.com/title/tt12590266)
+
 #### [`Cyberpunk.Edgerunners.S01.JAPANESE.1080p.NF.WEB-DL.x265.10bit.HDR.DDP5.1-SMURF[rartv]`](https://share.dmhy.org/topics/view/613318_AKito_Cyberpunk_Edgerunners_1080P_NF-WEBRip.html)
 
 ~~~ magnet
@@ -33,6 +37,9 @@ magnet:?xt=urn:btih:2a0902b95964c68ee12d666f6fc26510463da655&dn=Cyberpunk.Edgeru
 
 
 ### Avatar (2009)
+
+- offical site: [Avatar (2009) | Avatar.com](https://www.avatar.com/movies/avatar)
+- imdb: [Avatar (2009) - IMDb](https://www.imdb.com/title/tt0499549)
 
 #### [`Avatar (2009) Extended 1080p DS4K SDR BluRay (Hindi-5.1)(Eng-5.1) 10bit HEVC - PeruGuy torrent download`](https://rargb.to/torrent/avatar-2009-extended-1080p-ds4k-sdr-bluray-hindi-5-1-eng-5-1-10bit-hevc-peruguy-5040062.html)
 
