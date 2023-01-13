@@ -17,6 +17,7 @@
 links: 
 
 - [Ever OS Developer Tools][site]
+- [TON Labs][site-old]
 
 [site]: https://everos.dev
 [site-old]: https://tonlabs.io
