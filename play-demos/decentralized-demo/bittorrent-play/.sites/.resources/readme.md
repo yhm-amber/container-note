@@ -23,9 +23,9 @@ magnet:?xt=urn:btih:7e4fc497df7b26d12004483f21dad9fe4f652bdd&dn=(%e4%b8%80%e8%88
 
 ### Cyberpunk Edgerunners (2022)
 
-- offical site: [赛博朋克：Edgerunners](https://cyberpunk.net/edgerunners)
+- offical site: [Cyberpunk: Edgerunners](https://cyberpunk.net/edgerunners)
 - netflix: [Cyberpunk Edgerunners | Netflix](https://www.netflix.com/title/81054853)
-- imdb: [Cyberpunk: Edgerunners (TV Series 2022) - IMDb](https://www.imdb.com/title/tt12590266)
+- imdb: [Cyberpunk: Edgerunners (TV Series 2022) | IMDb](https://www.imdb.com/title/tt12590266)
 
 #### [`Cyberpunk.Edgerunners.S01.JAPANESE.1080p.NF.WEB-DL.x265.10bit.HDR.DDP5.1-SMURF[rartv]`](https://share.dmhy.org/topics/view/613318_AKito_Cyberpunk_Edgerunners_1080P_NF-WEBRip.html)
 
@@ -78,4 +78,7 @@ magnet:?xt=urn:btih:BFF559F18269383C546F96DA70A55329AA1C5EB8&dn=Avatar+%282009%2
 ~~~
 
 ### Avatar (2022)
+
+- offical site: [Avatar: The Way of Water | Avatar.com](https://www.avatar.com/movies/avatar-the-way-of-water)
+- imdb: [Avatar: The Way of Water (2022) | IMDb](https://www.imdb.com/title/tt1630029)
 
