@@ -1,0 +1,8 @@
+
+这个东西以前叫 TonLab 。
+
+原先的产品也改名了，比如：
+
+- Ton OS 改为 Ever OS
+- Ton Surf 改为 Ever Surf
+
