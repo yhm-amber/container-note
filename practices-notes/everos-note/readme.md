@@ -56,8 +56,8 @@ old icons:
 [pic-surfon-online]: https://ton-labs.firebaseapp.com/assets/surf-on.0befdc441ffb6440.png
 [pic-s-online]: https://ton-labs.firebaseapp.com/assets/s.cf69ba7a72663c90.png
 
-> ![T][pic-t-online] ![dev On][pic-devon-online] ![N][pic-n-online]  
->  ![surf On][pic-surfon-online] ![S][pic-s-online]
+> ![T][pic-t] ![dev On][pic-devon] ![N][pic-n]  
+>  ![surf On][pic-surfon] ![S][pic-s]
 > 
 
 [pic-t]: ./.assets/t.8028325a58689604.png
