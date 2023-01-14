@@ -141,6 +141,59 @@ links:
 
 [File System - Mitja's web page][paper-fs] : 
 
+> In Ever Kernel the address of
+>  a smart contract is calculated by
+>  hashing its code and initial data.
+>  The full address, consisting of
+>  a 32-bit WorkChain_id, and the
+>  256-bit internal address or account
+>  identifier account_id inside the
+>  chosen WorkChain.
+>  In operating system terms it provides
+>  address space management functionality.
+> 
+> 在 Ever Kernel 中，智能合约的地址是通过
+> 散列其代码和初始数据来计算的。完整地址，
+> 由 32 位 WorkChain_id 和
+> 所选 WorkChain 内的 256 位内部地址
+> 或帐户标识符 account_id 组成。
+> 在操作系统术语中，它提供地址空间管理功能。
+> 
+> In the context of the Ever Operating System
+>  though, The Merkle tree of Ever Kernel 1.0 provides
+>  just part of the necessary functionality
+>  to build a fully distributed file system.
+>  Therefore we are adding two additional
+>  search trees in which nodes would
+>  represent contract code hash and
+>  contract data and leafs would be
+>  contract addresses. We are optimising
+>  for fast lookup for contracts with
+>  similar data or code hash from within
+>  the Node and adding subsequent
+>  instructions to ESVM to allow this
+>  lookup from within smart contracts.
+>  Additionally, we add code versioning
+>  within these trees thus allowing
+>  following the evolution of a smart
+>  contract code after setCode operations.
+> 
+> 不过，在 Ever Operating System 的背景下，
+>  Ever Kernel 1.0 的 Merkle 树
+> 仅提供了构建完全分布式文件系统所需功能的一部分。
+> 因此，我们添加了两个额外的搜索树，其中节点
+> 代表合约代码哈希和合约数据，叶子代表合约地址。
+> 我们正在优化以从节点内快速查找具有相似数据
+> 或代码哈希的合约，并将后续指令添加到 ESVM 以
+> 允许从智能合约内进行此查找。此外，我们在这些树中
+> 添加了代码版本控制，从而允许在 setCode 操作之后
+> 跟踪智能合约代码的演变。 
+> 
+> This functionality will be particularly
+>  useful in the Distributed Programming
+>  Paradigm (see below).
+> 
+> 此功能在分布式编程范例中特别有用 (见后文) 。
 > 
 
 
