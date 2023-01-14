@@ -11,6 +11,7 @@
 [vpn-linuxapp-repo]: https://github.com/ProtonVPN/linux-app.git
 [vpn-linuxcli-repo]: https://github.com/ProtonVPN/linux-cli.git
 
+[site-account]: https://account.proton.me
 [site-account-up]: https://account.proton.me/signup
 [site-account-in]: https://account.proton.me/login
 
@@ -31,7 +32,7 @@
 [use-mail]: https://mail.proton.me
 [use-calendar]: https://calendar.proton.me
 [use-drive]: https://drive.proton.me
-[use-vpn]: https://account.protonvpn.com/login
+[use-vpn]: https://account.protonvpn.com
 
 links: 
 
@@ -48,11 +49,11 @@ links:
 >  (as well as some additional
 >  miscellaneous things).
 > 
-> -   <img src="./.favicons/mail.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Mail</span>
-> -   <img src="./.favicons/calendar.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Calendar</span>
-> -   <img src="./.favicons/drive.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Drive</span>
-> -   <img src="./.favicons/proton.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Account</span>
-> -   <img src="./.favicons/vpn.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton VPN</span>
+> -   <img src="./.favicons/mail.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">[Proton Mail][use-mail]</span>
+> -   <img src="./.favicons/calendar.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">[Proton Calendar][use-calendar]</span>
+> -   <img src="./.favicons/drive.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">[Proton Drive][use-drive]</span>
+> -   <img src="./.favicons/proton.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">[Proton Account][site-account]</span>
+> -   <img src="./.favicons/vpn.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">[Proton VPN][use-vpn]</span>
 > 
 > Technically, this monorepo is
 >  based on Yarn 2 & Yarn Workspaces,
