@@ -54,11 +54,22 @@ links:
 
 ~~~ sh
 docker run \
---network=host \
---mount type=bind,source=path/to/project,target=/usr/app \
---mount type=bind,source=path/to/profiles.yml,target=/root/.dbt/ \
-<dbt_image_name> \
-ls
+  --network=host \
+  --mount type=bind,source=path/to/project,target=/usr/app \
+  --mount type=bind,source=path/to/profiles.yml,target=/root/.dbt/ \
+  <dbt_image_name> ls
 ~~~
 
+或者使用 `pip` : 
+
+~~~ sh
+pip install \
+  dbt-core \
+  dbt-postgres \
+  dbt-redshift \
+  dbt-snowflake \
+  dbt-bigquery ;
+~~~
+
+看文档， cloud 是几个非自己托管的云，这个就不提了。
 
