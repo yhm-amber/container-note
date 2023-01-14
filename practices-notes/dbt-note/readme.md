@@ -13,7 +13,6 @@
 >  that software engineers use to
 >  build applications.
 > 
-
 > dbt 使数据分析师和工程师
 > 能够使用软件工程师用于
 > 构建应用程序的
@@ -38,7 +37,6 @@ links:
 >  we recommend that you install
 >  dbt Core via [Homebrew][docs-i-hb] or [pip][docs-i-pip] instead.
 > 
-
 > 请注意，如果您的操作系统与构建 Docker 映像
 > 的系统不同，以这种方式运行 dbt 可能会明显变慢。
 > 如果您是本地开发人员，我们建议您
