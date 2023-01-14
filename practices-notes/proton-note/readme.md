@@ -88,8 +88,18 @@ links:
   之一的所在国德国政府的命令，对于邮件标题不予加密。
   
 - 免费订阅账户就可以使用私有虚拟网络，这里是比较划算的。
-  其虚拟私有网络技术基于 [WireGuard](../wireguard-note) ，
+  其虚拟私有网络技术可能是基于 [WireGuard](../wireguard-note) 的，
   所以性能应该挺容易做好。
+  不过在 [Windows client repo][vpn-win-repo] 里
+  说了：
+  
+  > Service is responsible for interaction
+  >  with OpenVPN, managing Windows firewall
+  >  and Split Tunnel driver.
+  > 
+  
+  这大概只是对客户端构成的描述吧，
+  因为其他平台的客户端描述中都没有 `open` 的字样。
   
 - 服务端我没找到代码和相应的自托管部署的说明，我不知道有没有。
 
