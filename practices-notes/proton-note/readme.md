@@ -36,8 +36,9 @@
 
 links: 
 
-- [An Open Source Privacy Company | Proton][site-community]
 - [Proton — Privacy by default][site]
+- [An Open Source Privacy Company | Proton][site-community]
+
 
 [ProtonMail/WebClients | GitHub][repo] : 
 
