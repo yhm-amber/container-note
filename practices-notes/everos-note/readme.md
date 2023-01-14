@@ -263,6 +263,22 @@ NS 📜
 
 </details>
 
+[paper-tonix]: https://mitja.gitbook.io/papers/v/everscale-white-paper/readme/chapter-three-ever-operating-system/tonix
+
+<details>
+
+<summary>
+Tonix 📜
+</summary>
+
+[Tonix | Mitja's web page][paper-tonix]
+
+> 
+
+</details>
+
+
+
 
 ## Cloud
 
