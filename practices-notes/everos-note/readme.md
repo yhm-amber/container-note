@@ -273,6 +273,24 @@ Tonix 📜
 
 [Tonix | Mitja's web page][paper-tonix]
 
+> Following the above a practical
+>  simulation of a UNIX filesystem
+>  has been implemented.
+>  Tonix provides basic file system
+>  functionality, as well as an interactive
+>  shell with a Unix-style command line
+>  interface.
+>  The following categories of operations
+>  are supported: query file system status,
+>  manage user session, manipulate files,
+>  change file attributes, process text,
+>  access reference manuals etc.
+> 
+> 按照上面的内容，已经实现了 UNIX 文件系统的
+> 实际模拟。 Tonix 提供基本的文件系统功能，
+> 以及带有 Unix 风格命令行界面的交互式 shell 。
+> 支持以下类别的操作：查询文件系统状态、管理用户会话、
+> 操作文件、更改文件属性、处理文本、访问参考手册等。
 > 
 
 </details>
