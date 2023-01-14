@@ -60,3 +60,7 @@ links:
 >  for all packages inside.
 > 
 
+这个 [Drive][site-drive] 是个不错的加密的网络硬盘服务。
+和 MegaSYNC 很类似，也是端到端加密，也客户端也开源。
+
+
