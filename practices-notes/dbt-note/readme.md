@@ -5,6 +5,8 @@
 [utils-repo]: https://github.com/dbt-labs/dbt-utils.git
 [repo]: https://github.com/dbt-labs/dbt-core.git
 
+[ghcr]: https://github.com/dbt-labs/dbt-core/pkgs/container/dbt-core
+
 > dbt enables data analysts and
 >  engineers to transform their
 >  data using the same practices
@@ -24,4 +26,4 @@ links:
 - [dbt - Transform data in your warehouse][site]
 - [dbt-labs/dbt-utils | GitHub][utils-repo]
 - [dbt-labs/dbt-core | GitHub][repo]
-
+- [dbt-labs/dbt-core | ghcr.io][ghcr]
