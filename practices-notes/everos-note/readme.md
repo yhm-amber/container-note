@@ -32,8 +32,10 @@ links:
 <details>
 
 <summary>
-[About Ever OS | Mitja's web page][paper-os] 📜
+OS 📜
 </summary>
+
+[About Ever OS | Mitja's web page][paper-os]
 
 > Between a regular computer and a user
 >  (which may be a developer who would
@@ -145,6 +147,12 @@ links:
 
 </details>
 
+<details>
+
+<summary>
+FS 📜
+</summary>
+
 [File System - Mitja's web page][paper-fs] : 
 
 > In Ever Kernel the address of
@@ -193,7 +201,7 @@ links:
 > 或代码哈希的合约，并将后续指令添加到 ESVM 以
 > 允许从智能合约内进行此查找。此外，我们在这些树中
 > 添加了代码版本控制，从而允许在 setCode 操作之后
-> 跟踪智能合约代码的演变。 
+> 跟踪智能合约代码的演变。
 > 
 > This functionality will be particularly
 >  useful in the Distributed Programming
@@ -201,6 +209,54 @@ links:
 > 
 > 此功能在分布式编程范例中特别有用 (见后文) 。
 > 
+
+</details>
+
+<details>
+
+<summary>
+NS 📜
+</summary>
+
+> The Ever OS user should be able
+>  not only to call a program
+>  by internal processor address,
+>  but to use human readable names,
+>  store data not only in the
+>  contract internal memory
+>  but have access to some peripheral
+>  devices such as hard drives,
+>  long term storage and so on that
+>  would represent a natural functionality
+>  of an operating system kernel.
+> 
+> Ever OS 用户不仅可以通过内部处理器地址调用程序，
+> 还可以使用人类可读的名称，不仅可以将数据
+> 存储在合约内部存储器中，还可以访问一些外围设备，
+> 例如硬盘驱动器、长期存储、等等依此类推，
+> 这将代表操作系统内核的自然功能。
+> 
+> File names and directories have been
+>  implemented by a protocol we call
+>  DeCert (Decentralized Certificates)
+>  in general and in particular DeNS
+>  (Decentralized Name Service).
+> 
+> 文件名和目录已通过我们通常称为 DeCert (分散证书)
+>  的协议实现，特别是 DeNS（分散名称服务）。
+> 
+> The implementation of DeNS is an example
+>  of the Distributed Programming Paradigm
+>  of Everscale (see a special chapter
+>  below for more information) which provides
+>  an instant name resolution.
+> 
+> DeNS 的实现是 Everscale 分布式编程范例
+> 的一个示例 (更多见后文专门章节) ，它提供了
+> 即时名称解析。 
+> 
+
+</details>
 
 
 ## Cloud
