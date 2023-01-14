@@ -8,7 +8,7 @@
 > 区块链之间的中介——一个分布式可验证计算引擎。
 > 
 
-—— [About Ever OS | Mitja's web page][paper-about]
+—— [About Ever OS | Mitja's web page][paper-os]
 
 > Build, deploy, decentralize
 >  and scale with Ever OS
