@@ -23,10 +23,13 @@ links:
 [site-old]: https://tonlabs.io
 
 [docs-start]: https://docs.everos.dev/everdev/guides/quick-start
-[paper-about]: https://mitja.gitbook.io/papers/v/everscale-white-paper/readme/chapter-three-ever-operating-system/about-ever-os
+
+[paper-os]: https://mitja.gitbook.io/papers/v/everscale-white-paper/readme/chapter-three-ever-operating-system/about-ever-os
+[paper-fs]: https://mitja.gitbook.io/papers/v/everscale-white-paper/readme/chapter-three-ever-operating-system/file-system
 
 [team-gh]: https://github.com/tonlabs
 
+[About Ever OS | Mitja's web page][paper-os] : 
 
 > Between a regular computer and a user
 >  (which may be a developer who would
@@ -134,6 +137,10 @@ links:
 > 文件处理、安全处理等。
 > 在本章中，我们将首次讨论
 > 如何在区块链上实现所有这些。
+> 
+
+[File System - Mitja's web page][paper-fs] : 
+
 > 
 
 
