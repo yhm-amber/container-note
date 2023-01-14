@@ -29,7 +29,11 @@ links:
 
 [team-gh]: https://github.com/tonlabs
 
-[About Ever OS | Mitja's web page][paper-os] : 
+<details>
+
+<summary>
+[About Ever OS | Mitja's web page][paper-os] 📜
+</summary>
 
 > Between a regular computer and a user
 >  (which may be a developer who would
@@ -138,6 +142,8 @@ links:
 > 在本章中，我们将首次讨论
 > 如何在区块链上实现所有这些。
 > 
+
+</details>
 
 [File System - Mitja's web page][paper-fs] : 
 
