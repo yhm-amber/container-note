@@ -48,11 +48,11 @@ links:
 >  (as well as some additional
 >  miscellaneous things).
 > 
-> -   <img src="./.apps/favicon/mail.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Mail</span>
-> -   <img src="./.apps/favicon/calendar.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Calendar</span>
-> -   <img src="./.apps/favicon/drive.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Drive</span>
-> -   <img src="./.apps/favicon/proton.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Account</span>
-> -   <img src="./.apps/favicon/vpn.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton VPN</span>
+> -   <img src="./.favicons/mail.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Mail</span>
+> -   <img src="./.favicons/calendar.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Calendar</span>
+> -   <img src="./.favicons/drive.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Drive</span>
+> -   <img src="./.favicons/proton.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Account</span>
+> -   <img src="./.favicons/vpn.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton VPN</span>
 > 
 > Technically, this monorepo is
 >  based on Yarn 2 & Yarn Workspaces,
