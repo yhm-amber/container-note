@@ -36,12 +36,21 @@ links:
 >  with these programs) there is something
 >  called an operating system.
 > 
+> 在普通计算机和用户 (可能是想为该计算机编写程序
+> 的开发人员或想执行这些程序并与之交互
+> 的普通用户) 之间存在称为操作系统的东西。
+> 
 > That is how GNU defines an
 >  operating system:
 > 
 > Linux is an operating system: a series
 >  of programs that let you interact with
 >  your computer and run other programs.
+> 
+> 这就是 GNU 定义操作系统的方式：
+> 
+> Linux 是一个操作系统：一系列可让您
+> 与计算机交互并运行其他程序的程序。
 > 
 > An operating system consists of various
 >  fundamental programs which are needed
@@ -52,6 +61,12 @@ links:
 >  control the use of memory;
 >  and run other software.
 > 
+> 操作系统由您的计算机需要的
+> 各种基本程序组成，以便
+> 它可以与用户进行通信和接收指令；
+> 读写数据到硬盘、磁带和打印机；
+> 控制内存的使用；并运行其他软件。
+> 
 > It is quite obvious why computers
 >  need an operating system.
 >  Before operating systems existed,
@@ -61,11 +76,18 @@ links:
 >  interaction between a user
 >  and a blockchain.
 > 
+> 很明显为什么计算机需要操作系统。
+> 在操作系统出现之前，与计算机的交互对最终用户来说
+> 看起来非常不愉快。类似于今天用户和区块链之间的交互。
+> 
 > Any way you look at it,
 >  blockchain is quite a good candidate
 >  to be called a decentralized computer.
 >  At least some of the blockchains are.
 >  Everscale most definitely is.
+> 
+> 无论你怎么看，区块链都非常适合称为去中心化计算机。
+> 至少一些区块链是。 Everscale 绝对是。
 > 
 > And just as with any computer,
 >  a blockchain needs an intermediate layer
@@ -81,11 +103,22 @@ links:
 >  with a user — to call it an
 >  operating system is quite compelling.
 > 
+> 就像任何计算机一样，区块链需要一个 (或多个) 中间层
+> 来管理其资源并为用户运行或与之交互的程序提供服务。
+> 当然，就架构而言，区块链或许不能
+> 与普通 PC 直接 1:1 地比较。但从逻辑上讲，
+> 每当我们考虑实现与用户交互所需的软件堆栈时
+> ——将其称为操作系统是非常有说服力的。
+> 
 > Let's run some arguments.
 >  For reasons of practicality we will not
 >  talk only about the Everscale blockchain,
 >  but most of the arguments could be applied
 >  to some other modern blockchains as well.
+> 
+> 让我们进行一些论证。出于实用性的原因，
+> 我们不会只谈论 Everscale 区块链，
+> 但大多数论点也可以应用于其他一些现代区块链。
 > 
 > A classical operating system is
 >  expected to provide:
@@ -95,39 +128,6 @@ links:
 >  In this chapter we will discuss
 >  how all that is implemented on the
 >  blockchain for the first time.
-> 
-> 在普通计算机和用户 (可能是想为该计算机编写程序
-> 的开发人员或想执行这些程序并与之交互
-> 的普通用户) 之间存在称为操作系统的东西。
-> 
-> 这就是 GNU 定义操作系统的方式：
-> 
-> Linux 是一个操作系统：一系列可让您
-> 与计算机交互并运行其他程序的程序。
-> 
-> 操作系统由您的计算机需要的
-> 各种基本程序组成，以便
-> 它可以与用户进行通信和接收指令；
-> 读写数据到硬盘、磁带和打印机；
-> 控制内存的使用；并运行其他软件。
-> 
-> 很明显为什么计算机需要操作系统。
-> 在操作系统出现之前，与计算机的交互对最终用户来说
-> 看起来非常不愉快。类似于今天用户和区块链之间的交互。
-> 
-> 无论你怎么看，区块链都非常适合称为去中心化计算机。
-> 至少一些区块链是。 Everscale 绝对是。
-> 
-> 就像任何计算机一样，区块链需要一个 (或多个) 中间层
-> 来管理其资源并为用户运行或与之交互的程序提供服务。
-> 当然，就架构而言，区块链或许不能
-> 与普通 PC 直接 1:1 地比较。但从逻辑上讲，
-> 每当我们考虑实现与用户交互所需的软件堆栈时
-> ——将其称为操作系统是非常有说服力的。
-> 
-> 让我们进行一些论证。出于实用性的原因，
-> 我们不会只谈论 Everscale 区块链，
-> 但大多数论点也可以应用于其他一些现代区块链。
 > 
 > 一个经典的操作系统应该提供：
 > 内存管理、处理器管理、设备管理、
