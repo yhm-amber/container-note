@@ -51,7 +51,7 @@ links:
 > -   <img src="./.apps/favicon/mail.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Mail</span>
 > -   <img src="./.apps/favicon/calendar.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Calendar</span>
 > -   <img src="./.apps/favicon/drive.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Drive</span>
-> -   <img src="./.apps/favicon/account.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Account</span>
+> -   <img src="./.apps/favicon/proton.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton Account</span>
 > -   <img src="./.apps/favicon/vpn.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">Proton VPN</span>
 > 
 > Technically, this monorepo is
