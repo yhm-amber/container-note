@@ -23,11 +23,10 @@ links:
 [site-old]: https://tonlabs.io
 
 [docs-start]: https://docs.everos.dev/everdev/guides/quick-start
+[team-gh]: https://github.com/tonlabs
+
 
 [paper-os]: https://mitja.gitbook.io/papers/v/everscale-white-paper/readme/chapter-three-ever-operating-system/about-ever-os
-[paper-fs]: https://mitja.gitbook.io/papers/v/everscale-white-paper/readme/chapter-three-ever-operating-system/file-system
-
-[team-gh]: https://github.com/tonlabs
 
 <details>
 
@@ -147,13 +146,15 @@ OS 📜
 
 </details>
 
+[paper-fs]: https://mitja.gitbook.io/papers/v/everscale-white-paper/readme/chapter-three-ever-operating-system/file-system
+
 <details>
 
 <summary>
 FS 📜
 </summary>
 
-[File System - Mitja's web page][paper-fs] : 
+[File System | Mitja's web page][paper-fs] : 
 
 > In Ever Kernel the address of
 >  a smart contract is calculated by
@@ -212,11 +213,15 @@ FS 📜
 
 </details>
 
+[paper-ns]: https://mitja.gitbook.io/papers/v/everscale-white-paper/readme/chapter-three-ever-operating-system/file-names-and-directories
+
 <details>
 
 <summary>
 NS 📜
 </summary>
+
+[File names and directories | Mitja's web page][paper-ns]
 
 > The Ever OS user should be able
 >  not only to call a program
