@@ -36,9 +36,10 @@
 
 links: 
 
-- [ProtonMail/WebClients | GitHub][repo]
 - [An Open Source Privacy Company | Proton][site-community]
 - [Proton — Privacy by default][site]
+
+[ProtonMail/WebClients | GitHub][repo] : 
 
 > This project is a monorepo
 >  hosting the proton web clients.
@@ -48,6 +49,11 @@ links:
 >  development of the web clients
 >  (as well as some additional
 >  miscellaneous things).
+> 
+> 这个项目是一个托管 proton web 客户端的 monorepo 。
+> 它包括 Web 应用程序、它们的依赖项和共享模块、
+> 以及围绕 Web 客户端开发的所有工具
+>  (以及一些其他杂项) 。 
 > 
 > -   <img src="./.favicons/mail.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">[Proton Mail][use-mail]</span>
 > -   <img src="./.favicons/calendar.svg" style="vertical-align: middle" height="20" width="20" /> <span style="vertical-align: middle; display: inline-block">[Proton Calendar][use-calendar]</span>
@@ -59,6 +65,10 @@ links:
 >  based on Yarn 2 & Yarn Workspaces,
 >  with unified versioning
 >  for all packages inside.
+> 
+> 从技术上讲，这个 monorepo 基于
+>  Yarn 2 和 Yarn Workspaces ，
+> 对内部的所有包进行统一版本控制。 
 > 
 
 这个 [Drive][site-drive] 是个不错的加密的网络硬盘服务。
