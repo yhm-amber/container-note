@@ -1,0 +1,2 @@
+
+[[../../../practices-notes/mozjpeg-note][note]]
