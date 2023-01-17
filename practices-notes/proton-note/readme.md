@@ -1,4 +1,29 @@
 
+Update: 
+
+1.  VPN 并不好用，试用是几乎没法用的，还不如 Clash 。
+    
+2.  看这个：
+    
+    > Be advised that Protonmail is
+    >  generally known to be a pretty bad email host.
+    >  They will munge up your outgoing emails
+    >  and your patches may fail to apply when received
+    >  by the other end.
+    >  Not to mention their mistreatment of open source
+    >  and false promises of security!
+    >  You should consider a different mail provider.
+    > 
+    > 请注意， Protonmail 通常是一个非常糟糕的电子邮件主机。
+    > 他们将清理您的外发电子邮件，
+    > 并且您的补丁在另一端收到时可能无法应用。
+    > 更不用说他们对开源的虐待和虚假的安全承诺了！
+    > 您应该考虑使用其他邮件提供商。
+    > 
+    
+3.  ...
+
+--------
 
 [vpn-andr-repo]: https://github.com/ProtonVPN/android-app.git
 [vpn-andr-site]: https://protonvpn.com/download/ProtonVPN.apk
