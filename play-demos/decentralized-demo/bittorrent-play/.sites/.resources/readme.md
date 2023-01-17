@@ -45,6 +45,21 @@ magnet:?xt=urn:btih:2a0902b95964c68ee12d666f6fc26510463da655&dn=Cyberpunk.Edgeru
 - offical site: [Avatar (2009) | Avatar.com](https://www.avatar.com/movies/avatar)
 - imdb: [Avatar (2009) | IMDb](https://www.imdb.com/title/tt0499549)
 
+#### `阿凡达.加长版.特效中英字幕.第三版.Avatar.Extended.Collector's.Edition.2009.BD1080P.X264.DTS-HD.MA.5.1.Mandarin&English.CHS-ENG.FFans@星星`
+
+- *找到这些分享站：*
+  
+  - [`[磁链][19.9GB][国英双语/双字][阿凡达 加长版 2009]BDRIP.1080p.x264～09年就没看说 - 水客驿站 - 星空论坛 - SEIKUU.COM`](https://bbs2.seikuu.com/thread-250574-1-1.html)
+  - [`阿凡达.加长版.特效中英字幕.第三版.avatar.extended.collector's.edition[email protected]星星[19.9g]下载 - 比兔TV`](https://www.btutv.com/down/Avatar2009/qYvDJ7m.html)
+  - [`阿凡达 加长版 特效中英字幕 第三版 Avatar Extended Collector's Edition 2009 BD1080P X264 DTS-HD MA 5.1 Mandarin&English CHS-ENG FFans@星星 Torrent Download`](https://www.torlock.com/torrent/40298027/%E9%98%BF%E5%87%A1%E8%BE%BE-%E5%8A%A0%E9%95%BF%E7%89%88-%E7%89%B9%E6%95%88%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95-%E7%AC%AC%E4%B8%89%E7%89%88-avatar-extended-collector%27s-edition-bd1080p-dts-hd-.html)
+  - [`阿凡达 加长版 特效中英字幕 第三版 Avatar Extended Collector's Edition 2009 BD1080P X264 DTS-HD MA 5.1 Mandarin&English CHS-ENG FFans@星星 Torrent Download`](https://yourbittorrent.com/torrent/33679053/.html)
+  - [`Avatar Extended Collector 039 s Edition BD1080P DTS MA 5 1 Mandarin amp CHS Torrent - TorrentFunk`](https://www.torrentfunk.com/torrent/37743229/%E9%98%BF%E5%87%A1%E8%BE%BE-%E5%8A%A0%E9%95%BF%E7%89%88-%E7%89%B9%E6%95%88%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95-%E7%AC%AC%E4%B8%89%E7%89%88-avatar-extended-collector%26%23039%3Bs-edition-bd1080p-dt.html)
+  
+
+~~~ magnet
+magnet:?xt=urn:btih:8932f0a5d351fd192ff525aaf705846e2ec67162&dn=%E9%98%BF%E5%87%A1%E8%BE%BE.%E5%8A%A0%E9%95%BF%E7%89%88.%E7%89%B9%E6%95%88%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.%E7%AC%AC%E4%B8%89%E7%89%88.Avatar.Extended.Collector's.Edition.2009.BD1080P.X264.DTS-HD.MA.5.1.Mandarin%26English.CHS-ENG.FFans%40%E6%98%9F%E6%98%9F
+~~~
+
 #### [`Avatar (2009) Extended 1080p DS4K SDR BluRay (Hindi-5.1)(Eng-5.1) 10bit HEVC - PeruGuy torrent download`](https://rargb.to/torrent/avatar-2009-extended-1080p-ds4k-sdr-bluray-hindi-5-1-eng-5-1-10bit-hevc-peruguy-5040062.html)
 
 - *这个**清晰度一般***
