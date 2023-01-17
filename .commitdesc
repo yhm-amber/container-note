@@ -1,3 +1,10 @@
-% = format
-+ = add
-* = bang
+
+
+(:means 
+  
+  [% format] 
+  [+ add] 
+  [* bang] 
+  [/ change] 
+
+)
