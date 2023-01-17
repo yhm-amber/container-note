@@ -1,11 +1,7 @@
-#! /usr/bin/env racket
-#lang racket
-
-(:means 
-  
-  [% format] 
-  [+ add] 
-  [* bang] 
-  [/ change] 
-
-)
+[
+ (% format) 
+ (+ add)
+ (* bang)
+ (/ change)
+ (^ upload)
+]
