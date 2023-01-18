@@ -8,10 +8,15 @@
 [docs-kbfs-spec]: https://book.keybase.io/docs/crypto/kbfs
 
 
+Keybase: 
+
 - [keybase/client | GitHub][repo]
 - [Keybase][site] ([tor])
 - [Keybase Book - Encryption for everything that matters][book]
 - [Keybase Docs | Keybase Book][docs]
+
+KBFS: 
+
 - [*Introducing the Keybase Filesystem*][docs-kbfs]
 - [*Crypto spec: the Keybase filesystem (KBFS)*][docs-kbfs-spec]
 
