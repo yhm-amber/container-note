@@ -13,3 +13,10 @@
 - [Reference | Git][docs]
 - [Book | Git][book]
 
+
+
+[book-repo]: https://github.com/progit/progit2.git
+[book-zh-repo]: https://github.com/progit/progit2-zh.git
+
+- [progit/progit2 | GitHub][book-repo]
+- [progit/progit2-zh | GitHub][book-zh-repo]
