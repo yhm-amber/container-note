@@ -1,4 +1,20 @@
 
+[repo]: https://github.com/keybase/client.git
+[site]: https://keybase.io
+[tor]: http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion
+[book]: https://book.keybase.io
+[docs]: https://book.keybase.io/docs
+[docs-kbfs]: https://book.keybase.io/docs/files
+[docs-kbfs-spec]: https://book.keybase.io/docs/crypto/kbfs
+
+
+- [keybase/client | GitHub][repo]
+- [Keybase][site] ([tor])
+- [Keybase Book - Encryption for everything that matters][book]
+- [Keybase Docs | Keybase Book][docs]
+- [*Introducing the Keybase Filesystem*][docs-kbfs]
+- [*Crypto spec: the Keybase filesystem (KBFS)*][docs-kbfs-spec]
+
 
 ------
 
