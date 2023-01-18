@@ -55,3 +55,20 @@
 > ~~~
 > 
 
+install: 
+
+~~~ sh
+: Termux 
+pkg in -- datamash
+
+: Conda
+conda install -y -- datamash
+
+: Debian
+apt in -y -- datamash
+
+: CentOS
+yum install -y -- datamash
+
+: ...
+~~~
