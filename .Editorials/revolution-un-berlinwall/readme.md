@@ -85,7 +85,7 @@
 
 需要学习历史。
 
-#revolution
-#berlinwall
-#communism
-#history
+#revolution  
+#berlinwall  
+#communism  
+#history  
