@@ -36,5 +36,6 @@ KBFS:
   使用 Powershell ([参考](https://excitedspider.github.io/PowerShell%E5%88%9B%E5%BB%BA%E8%BD%AF%E7%A1%AC%E9%93%BE%E6%8E%A5)) ：
   
   ~~~ powershell
-  cd 
+  cd ~\AppData\Local ; mv Keybase E:\ # 或者用某款图形界面做这件事
+  cd ~\AppData\Local ; New-Item -Path Keybase -Type SymbolicLink -Value 'E:\Keybase'
   ~~~
