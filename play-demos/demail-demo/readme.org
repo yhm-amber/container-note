@@ -1,1 +1,6 @@
 邮件的去中心化 (各) 实例
+
+more see: 
+
+- [[https://growthhackers.hk/web3-email][What Is Web3 email? Is It Really Secure?]]
+- [[https://www.skiff.com/blog/web3-messaging-email][Web3 email and messaging - Read more]]
