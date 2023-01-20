@@ -8,8 +8,10 @@
 - [Neovide | Neovide][site]
 - [neovide/neovide | GitHub][repo]
 
+[nvim]: https://github.com/neovim/neovim.git
+
 > This is a simple, no-nonsense, cross-platform graphical
->  user interface for Neovim (an aggressively refactored
+>  user interface for [Neovim][nvim] (an aggressively refactored
 >  and updated Vim editor). Where possible there are some
 >  graphical improvements, but functionally
 >  it should act like the terminal UI.
