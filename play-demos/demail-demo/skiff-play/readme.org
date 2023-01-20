@@ -2,4 +2,5 @@
 [[https://skiff.com][site]],
  [[https://app.skiff.com][app]],
  [[https://app.skiff.com/mail][mail]],
+ [[https://github.com/skiff-org/skiff-mail.git][repo]],
  ...
