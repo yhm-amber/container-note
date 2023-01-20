@@ -1,0 +1,2 @@
+
+[[../../../practices-notes/neovide-note][note]]
