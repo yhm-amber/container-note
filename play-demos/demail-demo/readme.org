@@ -2,5 +2,5 @@
 
 more see: 
 
-- [[https://growthhackers.hk/web3-email][What Is Web3 email? Is It Really Secure?]]
-- [[https://www.skiff.com/blog/web3-messaging-email][Web3 email and messaging - Read more]]
+- [[https://growthhackers.hk/web3-email][What Is Web3 email? Is It Really Secure? | Growth Hackers]]
+- [[https://www.skiff.com/blog/web3-messaging-email][Web3 email and messaging - Read more | Skiff]]
