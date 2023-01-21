@@ -1,0 +1,4 @@
+
+一个类似于 Emacs 的 (而不是 Helix 或者 Amp 那样类似于 Vim 的) 终端编辑器。
+
+[[https://github.com/zee-editor/zee.git][repo]]
