@@ -32,7 +32,7 @@
 > [pic::publishing.svg-ol]: https://mirror.xyz/vectors/publishing.svg
 > [pic::publishing.svg]: ./.pics/publishing.svg
 > 
-> ![publishing.svg][pic::publishing.svg-ol]
+> ![publishing.svg][pic::publishing.svg]
 > 
 > ## Collectable entries ~ 收藏品
 > 
@@ -51,7 +51,7 @@
 > [pic::writing-nfts.png-ol.raw]: https://mirror.xyz/images/writing-nfts.png
 > [pic::writing-nfts.png]: ./.pics/writing-nfts.png
 > 
-> ![writing-nfts.png][pic::writing-nfts.png-ol]
+> ![writing-nfts.png][pic::writing-nfts.png]
 > 
 > ## Web3-worthy editor ~ 适合 Web3 的编辑器
 > 
@@ -71,7 +71,7 @@
 > [pic::web3-editor.png-ol.raw]: https://mirror.xyz/images/web3-editor.png
 > [pic::web3-editor.png]: ./.pics/web3-editor.png
 > 
-> ![web3-editor.png][pic::web3-editor.png-ol]
+> ![web3-editor.png][pic::web3-editor.png]
 > 
 > ## Wallet subscriptions ~ 钱包订阅
 > 
@@ -90,7 +90,7 @@
 > [pic::subscriptions.svg-ol]: https://mirror.xyz/vectors/subscriptions.svg
 > [pic::subscriptions.svg]: ./.pics/subscriptions.svg
 > 
-> ![subscriptions.svg][pic::subscriptions.svg-ol]
+> ![subscriptions.svg][pic::subscriptions.svg]
 > 
 > ## DAO-native ~ DAO 原生
 > 
@@ -108,7 +108,7 @@
 > [pic::splits-preview.svg-ol]: https://mirror.xyz/vectors/splits-preview.svg
 > [pic::splits-preview.svg]: ./.pics/splits-preview.svg
 > 
-> ![splits-preview.svg][pic::splits-preview.svg-ol]
+> ![splits-preview.svg][pic::splits-preview.svg]
 > 
 
 
