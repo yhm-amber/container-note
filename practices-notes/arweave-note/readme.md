@@ -26,7 +26,9 @@
 
 [community-perma]: https://community.xyz
 
+[ardrive]: https://ardrive.io
 [ardrive-app]: https://app.ardrive.io
+[ardrive-intro]: https://ardrive.io/what-is-ardrive
 
 [verto]: https://verto.exchange/app
 [verto-repo-alpha]: https://github.com/useverto/verto.git
