@@ -48,6 +48,7 @@
 > 您的想法建立社区。
 > 
 > [pic::writing-nfts.png-ol]: https://mirror.xyz/_next/image?url=%2Fimages%2Fwriting-nfts.png&w=1080&q=75
+> [pic::writing-nfts.png-ol.raw]: https://mirror.xyz/images/writing-nfts.png
 > [pic::writing-nfts.png]: ./.pics/writing-nfts.png
 > 
 > ![writing-nfts.png][pic::writing-nfts.png-ol]
@@ -67,6 +68,7 @@
 > 来自整个生态系统的 web3 块进行组合。
 > 
 > [pic::web3-editor.png-ol]: https://mirror.xyz/_next/image?url=%2Fimages%2Fweb3-editor.png&w=1080&q=75
+> [pic::web3-editor.png-ol.raw]: https://mirror.xyz/images/web3-editor.png
 > [pic::web3-editor.png]: ./.pics/web3-editor.png
 > 
 > ![web3-editor.png][pic::web3-editor.png-ol]
