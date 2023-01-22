@@ -1,8 +1,16 @@
 
-[use-test-cxl]: https://www.chengxulvtu.com/mirror-use
+[use-test|cxlt]: https://www.chengxulvtu.com/mirror-use
 [mirror.xyz]: https://mirror.xyz
+[dev.mirror.xyz]: https://dev.mirror.xyz
+[mirror.xyz/dashboard]: https://mirror.xyz/dashboard
 
-> # The home for web3 publishing ~ web3 发布之家
+在这个博客介绍了关于 [mirror.xyz] 的一些细节：
+
+- [Mirror上的内容真的会永存吗？我们存了一张《清明上河图》 | 程序旅途][use-test|cxlt]
+
+下面内容摘自 [mirror.xyz] ：
+
+> # The home for web3 publishing ~ Web3 发布的家园
 > 
 > Built on web3 for web3, Mirror’s
 >  robust publishing platform pushes
@@ -14,7 +22,8 @@
 > 突破了在线写作的界限——无论是下一份大型白皮书
 > 还是每周的社区更新。 
 > 
-> 
+> - [Get Started ~ 开始][mirror.xyz/dashboard]
+> - [Learn More ~ 了解更多][dev.mirror.xyz]
 > 
 > ## Decentralized by design ~ 通过设计去中心化
 > 
