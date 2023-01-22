@@ -123,7 +123,8 @@
 
 用来分享文字还是不错的。
 
-不介意的话，可以使用 [我的邀请链接] 🙃。
+不介意的话，可以使用 [我的邀请链接] 。  
+🙃
 
 [我的邀请链接]: https://mirror.xyz/dashboard/project/0x37Da98E4b1d562f002dF022D91E625A8b9fCc0e4/join
 
