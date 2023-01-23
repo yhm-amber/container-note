@@ -1,5 +1,7 @@
 
-[site]: https://didnetwork.org
+[didnetwork.org]: https://didnetwork.org
+
+[didnetwork.org] : 
 
 > ### Decentralized Identity Network ~ 去中心化身份网络
 > 
@@ -54,3 +56,5 @@
 > 
 
 [did.id]: https://did.id
+
+
