@@ -3,12 +3,13 @@
 [site]: https://arweave.org
 [repo]: https://github.com/ArweaveTeam/arweave.git
 [docs]: https://docs.arweave.org
-[app]: https://arweave.app
 
-[app.chrome]: https://chrome.google.com/webstore/detail/arweaveapp/hloekinecmafifaghekdjepphlabepkl
+
+
+Application: 
+
+[docs.mining]: https://docs.arweave.org/info/mining
 [tool.firefox]: https://addons.mozilla.org/firefox/addon/arweave
-
-[docs-mining]: https://docs.arweave.org/info/mining
 
 [js-client-repo]: https://github.com/ArweaveTeam/arweave-js.git
 [smart-repo]: https://github.com/ArweaveTeam/SmartWeave.git
@@ -16,13 +17,6 @@
 
 [arwiki-beta-repo]: https://github.com/luckyr13/arwiki.git
 [arwiki-beta]: https://arwiki.wiki
-
-
-
-
-[arconnect]: https://arconnect.io
-[connect-chrome]: https://chrome.google.com/webstore/detail/arconnect/einnioafmpimabjcddiinlhmijaionap
-[connect-firefox]:https://addons.mozilla.org/firefox/addon/arconnect
 
 [community-perma]: https://community.xyz
 
@@ -35,14 +29,44 @@
 [verto-repo]: https://github.com/useverto/interface.git
 
 
-
-| item | link |
+| item | links |
 | -- | -- |
-| Arweave | [site], [tech], [repo], [docs] |
-| wave.mail | .. |
+| Arweave | [site], [tech], [repo], [docs], [mine][docs.mining], [archiver][tool.firefox], ... |
+| weve.mail | .. |
 | Arwiki | .. |
 | Ardrive | .. |
 
+
+
+
+Account: 
+
+[app]: https://arweave.app
+[app.chrome]: https://chrome.google.com/webstore/detail/arweaveapp/hloekinecmafifaghekdjepphlabepkl
+[app.firefox]: https://addons.mozilla.org/firefox/addon/arweave-app
+[app.repo]: https://github.com/jfbeats/ArweaveWebWallet.git
+
+[arconnect]: https://arconnect.io
+[arconnect.chrome]: https://chrome.google.com/webstore/detail/arconnect/einnioafmpimabjcddiinlhmijaionap
+[arconnect.firefox]:https://addons.mozilla.org/firefox/addon/arconnect
+
+[arconnector]: https://jfbeats.github.io/ArweaveWalletConnector
+[arconnector.repo]: https://github.com/jfbeats/ArweaveWalletConnector.git
+
+| item | links |
+| -- | -- |
+| WalletApp | [app], [repo][app.repo], [addon (chrome)][app.chrome], [addon (firefox)][app.firefox], ... |
+| ArConnector | [api][arconnector], [repo][arconnector.repo], ... |
+| ArConnect | [site][arconnect], [addon (chrome)][arconnect.chrome], [addon (firefox)][arconnect.firefox], ... |
+
+
+
+
+
+
+
+
+----------
 
 像这种竭尽全力去去中心化 (因而联邦式并不能够满足之) 的
 软件，必然是不会跟某个或者某群机器产生绑定的。
