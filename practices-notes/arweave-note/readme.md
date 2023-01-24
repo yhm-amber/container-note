@@ -4,7 +4,7 @@
 [repo]: https://github.com/ArweaveTeam/arweave.git
 [docs]: https://docs.arweave.org
 
-
+[viewblock]: https://viewblock.io/arweave
 
 Application: 
 
@@ -33,7 +33,7 @@ Application:
 
 | item | links |
 | -- | -- |
-| Arweave | [site], [tech], [repo], [docs], [mine][docs.mining], [archiver][tool.firefox], ... |
+| Arweave | [site], [tech], [repo], [docs], [viewblock], [mine][docs.mining], [archiver][tool.firefox], ... |
 | weve.mail | .. |
 | Arwiki | .. |
 | Ardrive | .. |
