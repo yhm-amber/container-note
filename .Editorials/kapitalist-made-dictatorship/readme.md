@@ -2,8 +2,8 @@
 [note-for]: https://b23.tv/av461347428
 [【社会观察】996的实质：不！是！剥！削！]: https://bilibili.com/video/av461347428
 
-This is a note for `av461347428` ,
- and the languages using is same with it .
+*This is a note for `av461347428` ,
+ and the languages using is same with it .*
 
 ----
 
