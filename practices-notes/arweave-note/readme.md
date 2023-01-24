@@ -11,23 +11,25 @@ Application:
 [docs.mining]: https://docs.arweave.org/info/mining
 [tool.firefox]: https://addons.mozilla.org/firefox/addon/arweave
 
-[js-client-repo]: https://github.com/ArweaveTeam/arweave-js.git
-[smart-repo]: https://github.com/ArweaveTeam/SmartWeave.git
-[weavemail-repo]: https://github.com/ArweaveTeam/weavemail.git
+[jsclient.repo]: https://github.com/ArweaveTeam/arweave-js.git
+[smart.repo]: https://github.com/ArweaveTeam/SmartWeave.git
+[weavemail.repo]: https://github.com/ArweaveTeam/weavemail.git
 
-[arwiki-beta-repo]: https://github.com/luckyr13/arwiki.git
-[arwiki-beta]: https://arwiki.wiki
+[arwiki]: https://arwiki.wiki
+[arwiki.repo]: https://github.com/luckyr13/arwiki.git
 
-[community-perma]: https://community.xyz
+[permacommunity]: https://community.xyz
 
 [ardrive]: https://ardrive.io
-[ardrive-app]: https://app.ardrive.io
-[ardrive-intro]: https://ardrive.io/what-is-ardrive
+[ardrive.app]: https://app.ardrive.io
+[ardrive.intro]: https://ardrive.io/what-is-ardrive
 
 [verto]: https://verto.exchange/app
-[verto-repo-alpha]: https://github.com/useverto/verto.git
-[verto-repo]: https://github.com/useverto/interface.git
+[verto.repo-alpha]: https://github.com/useverto/verto.git
+[verto.repo]: https://github.com/useverto/interface.git
 
+
+[metaweave.account]: https://account.metaweave.xyz
 
 | item | links |
 | -- | -- |
@@ -39,7 +41,7 @@ Application:
 
 
 
-Account: 
+ArAccount: 
 
 [app]: https://arweave.app
 [app.chrome]: https://chrome.google.com/webstore/detail/arweaveapp/hloekinecmafifaghekdjepphlabepkl
@@ -53,12 +55,14 @@ Account:
 [arconnector]: https://jfbeats.github.io/ArweaveWalletConnector
 [arconnector.repo]: https://github.com/jfbeats/ArweaveWalletConnector.git
 
+[arprofile]: https://arprofile.org
+
 | item | links |
 | -- | -- |
 | WalletApp | [app], [repo][app.repo], [addon (chrome)][app.chrome], [addon (firefox)][app.firefox], ... |
 | ArConnector | [api][arconnector], [repo][arconnector.repo], ... |
 | ArConnect | [site][arconnect], [addon (chrome)][arconnect.chrome], [addon (firefox)][arconnect.firefox], ... |
-
+| ArProfile | [app][arprofile], ... |
 
 
 
