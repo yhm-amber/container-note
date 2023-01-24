@@ -1,4 +1,6 @@
-资源
+资源。
+
+-----
 
 <details>
 
@@ -39,3 +41,16 @@ from:
 
 </details>
 
+<details>
+
+<summary>...</summary>
+
+from: 
+
+- [...]
+
+~~~
+...
+~~~
+
+</details>
