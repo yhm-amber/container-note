@@ -1,0 +1,4 @@
+
+=.bit= 的域名。
+
+[[../../../practices-notes/namecoin-note][note]]
