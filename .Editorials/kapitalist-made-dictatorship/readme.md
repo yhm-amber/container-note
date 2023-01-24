@@ -3,7 +3,7 @@
 [【社会观察】996的实质：不！是！剥！削！]: https://bilibili.com/video/av461347428
 
 *This is a note for `av461347428` ,
- and the languages using is same with it .*
+ and the languages' using is same with it .*
 
 ----
 
