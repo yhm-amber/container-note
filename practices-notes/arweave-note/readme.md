@@ -29,6 +29,20 @@ Application:
 [verto.repo]: https://github.com/useverto/interface.git
 
 [permapages]: https://permapages.app
+[permapages.dashboard]: https://permapages.app/#/dashboard
+[permapages.account]: https://permapages.app/#/account
+[permapages.learn]: https://permanotes.app/#/notes/WYfC1LPyHJlHrTaN11QS_9-rDMXW0EREqp3FlYKzIWE
+
+[permanotes]: https://permanotes.app
+[permanotes.learn]: https://permanotes.app/notes/Xx8lQw1q9xOUn1mB7CMagKHgv8XUy9NxsrQLtfqZItY
+[permanotes::arweave-account]: https://arweave.net/HOHBm7vNOoDds4uah2Du2jr7nsELJx9V0C0h54MYLes
+
+[img]: https://img.arweave.dev
+[img.about]: https://img.arweave.dev/#/about
+[img.repo]: https://github.com/twilson63/permaweb-img-app.git
+
+[pst]: https://pst.arweave.dev
+[pst.about]: https://pst.arweave.dev/#/about
 
 [ar.io]: https://ar.io
 
