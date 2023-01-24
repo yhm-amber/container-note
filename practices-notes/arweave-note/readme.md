@@ -65,7 +65,7 @@ ArAccount:
 | WalletApp | [app], [repo][app.repo], [addon (chrome)][app.chrome], [addon (firefox)][app.firefox], ... |
 | ArConnector | [api][arconnector], [repo][arconnector.repo], ... |
 | ArConnect | [site][arconnect], [addon (chrome)][arconnect.chrome], [addon (firefox)][arconnect.firefox], ... |
-| ArProfile | [app][arprofile], [repo][arprofile.repo], [lib][arprofile.lib::arweave-account.repo]. ... |
+| ArProfile | [app][arprofile], [repo][arprofile.repo], [lib][arprofile.lib::arweave-account.repo], ... |
 
 
 
