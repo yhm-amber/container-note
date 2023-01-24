@@ -28,6 +28,9 @@ Application:
 [verto.repo-alpha]: https://github.com/useverto/verto.git
 [verto.repo]: https://github.com/useverto/interface.git
 
+[permapages]: https://permapages.app
+
+[ar.io]: https://ar.io
 
 [metaweave.account]: https://account.metaweave.xyz
 
