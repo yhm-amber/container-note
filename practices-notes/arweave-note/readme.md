@@ -56,6 +56,9 @@ ArAccount:
 [arconnector.repo]: https://github.com/jfbeats/ArweaveWalletConnector.git
 
 [arprofile]: https://arprofile.org
+[arprofile.lib::arweave-account.repo]: https://github.com/MetaweaveTeam/arweave-account.git
+[arprofile.repo]: https://github.com/MetaweaveTeam/ArProfile.git
+
 
 | item | links |
 | -- | -- |
