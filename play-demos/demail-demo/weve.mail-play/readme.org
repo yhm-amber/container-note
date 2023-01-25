@@ -1,0 +1,4 @@
+
+[[https://weavemail.app][app]],
+ [[https://github.com/ArweaveTeam/weavemail.git][repo]],
+ [[../../../practices-notes/weve.mail-note][note]]
