@@ -101,9 +101,11 @@ metadata:
 provisioner: blob.csi.azure.com
 allowVolumeExpansion: true
 parameters:
-  # need: kubectl create secret generic azure-secret --from-literal azurestorageaccountname=[ACCOUNT HERE] --from-literal azurestorageaccountkey=[KEY HERE] --type=Opaque
   csi.storage.k8s.io/provisioner-secret-name: azure-secret
   csi.storage.k8s.io/provisioner-secret-namespace: default
   csi.storage.k8s.io/node-stage-secret-name: azure-secret
   csi.storage.k8s.io/node-stage-secret-namespace: default
+  # need: 
+  # curl -skSL https://raw.githubusercontent.com/kubernetes-sigs/blob-csi-driver/v1.19.0/deploy/install-driver.sh | bash -s v1.19.0 blobfuse-proxy --
+  # kubectl create secret generic azure-secret --from-literal azurestorageaccountname=[ACCOUNT HERE] --from-literal azurestorageaccountkey=[KEY HERE] --type=Opaque
 ~~~
