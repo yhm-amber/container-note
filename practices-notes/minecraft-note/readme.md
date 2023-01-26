@@ -1,5 +1,10 @@
 
+
+### ...
+
 ### `itzg/minecraft-server`
+
+*这只是一个记录的示例，作为类似工作的参考。因而它是为成型的，需要进一步整理成为笔记。*
 
 ~~~ yml
 apiVersion: apps/v1
