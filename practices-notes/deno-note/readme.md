@@ -1,9 +1,9 @@
 
-[site]: https://deno.land
-[repo]: https://github.com/denoland/deno.git
+[deno.land]: https://deno.land
+[denoland/deno.git]: https://github.com/denoland/deno.git
 [docs]: https://deno.land/manual
-[docker]: https://hub.docker.com/r/denoland/deno
-[repo-docker]: https://github.com/denoland/deno_docker.git
+[hub.docker]: https://hub.docker.com/r/denoland/deno
+[denoland/deno_docker.git]: https://github.com/denoland/deno_docker.git
 
 [pic-logo-repo]: https://deno.land/logo.svg
 [pic-logo]: ./logo.svg
@@ -14,6 +14,14 @@
 > 
 
 ![deno logo][pic-logo]
+
+links: 
+
+- [deno.land]
+- [denoland/deno.git]
+- [docs]
+- [hub.docker]
+- [denoland/deno_docker.git]
 
 ~~~ sh
 : repl
