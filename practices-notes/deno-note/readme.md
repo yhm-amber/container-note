@@ -23,6 +23,8 @@ links:
 - [hub.docker]
 - [denoland/deno_docker.git]
 
+run: 
+
 ~~~ sh
 : repl
 docker run -it denoland/deno:1.29.2 repl
