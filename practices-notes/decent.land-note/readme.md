@@ -9,3 +9,4 @@
 [docs.decent.land]: https://docs.decent.land
 [ark.decent.land]: https://ark.decent.land/
 
+[blog-mirror.xyz]: https://mirror.xyz/decentdotland.eth
