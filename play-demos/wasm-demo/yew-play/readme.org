@@ -1,0 +1,1 @@
+[[../../../practices-notes/yew.rs-note][note]]
