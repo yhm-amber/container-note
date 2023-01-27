@@ -1,1 +1,1 @@
-Instances of WASM ([[https://webassembly.org][WebAssembly]]) Interpreters
+Instances of WASM ([[https://webassembly.org][WebAssembly]]) [[./.index][Interpreters and Compilers]]
