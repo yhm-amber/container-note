@@ -15,7 +15,7 @@ Interpreters:
 
 Compilers: 
 
-- ...
+- [Yew.rs](../yew-play)
 - ...
 
 
