@@ -13,7 +13,12 @@ Application:
 
 [jsclient.repo]: https://github.com/ArweaveTeam/arweave-js.git
 [smart.repo]: https://github.com/ArweaveTeam/SmartWeave.git
+
+[weavemail.app]: https://weavemail.app
 [weavemail.repo]: https://github.com/ArweaveTeam/weavemail.git
+
+[weve.email]: https://weve.email
+[weve.email.repo]: https://github.com/anish-agnihotri/weve.git
 
 [arwiki]: https://arwiki.wiki
 [arwiki.repo]: https://github.com/luckyr13/arwiki.git
@@ -23,17 +28,21 @@ Application:
 [ardrive]: https://ardrive.io
 [ardrive.app]: https://app.ardrive.io
 [ardrive.intro]: https://ardrive.io/what-is-ardrive
+[ardrive.repo]: https://github.com/ardriveapp/ardrive-core-js.git
 
 [verto]: https://verto.exchange/app
 [verto.repo-alpha]: https://github.com/useverto/verto.git
 [verto.repo]: https://github.com/useverto/interface.git
 
 [permapages]: https://permapages.app
+[permapages.repo]: https://github.com/twilson63/permapages.git
 [permapages.dashboard]: https://permapages.app/#/dashboard
 [permapages.account]: https://permapages.app/#/account
 [permapages.learn]: https://permanotes.app/#/notes/WYfC1LPyHJlHrTaN11QS_9-rDMXW0EREqp3FlYKzIWE
 
+
 [permanotes]: https://permanotes.app
+[permanotes.repo]: https://github.com/twilson63/permanotes.git
 [permanotes.learn]: https://permanotes.app/notes/Xx8lQw1q9xOUn1mB7CMagKHgv8XUy9NxsrQLtfqZItY
 [permanotes::arweave-account]: https://arweave.net/HOHBm7vNOoDds4uah2Du2jr7nsELJx9V0C0h54MYLes
 
@@ -46,15 +55,25 @@ Application:
 
 [ar.io]: https://ar.io
 
+[metaweave.com]: https://metaweave.com
+[metaweave.xyz]: https://metaweave.xyz
+[metaweave.repo]: https://github.com/MetaweaveTeam/.github.git
 [metaweave.account]: https://account.metaweave.xyz
+
+[mirror.xyz]: https://mirror.xyz
+[mirror.repo]: https://github.com/mirror-xyz/degen.git
 
 | item | links |
 | -- | -- |
 | Arweave | [site], [tech], [repo], [docs], [viewblock], [mine][docs.mining], [archiver][tool.firefox], ... |
-| weve.mail | .. |
-| Arwiki | .. |
-| Ardrive | .. |
-
+| weve.mail | [weavemail.app], [repo][weavemail.repo] |
+| weve.email | [weve.email], [repo][weve.email.repo] |
+| Arwiki | [arwiki], [repo][arwiki.repo] |
+| Ardrive | [ardrive], [repo][ardrive.repo], [app][ardrive.app], [intro][ardrive.intro] |
+| Verto | [verto], [repo][verto.repo] |
+| PermaPages | [permapages], [repo][permapages.repo], [account][permapages.account], [learn][permapages.learn], [dashboard][permapages.dashboard] |
+| PermaNotes | [permanotes], [repo][permanotes.repo], [account][permanotes::arweave-account], [learn][permanotes.learn] |
+| Mirror | [mirror.xyz], [repo][mirror.repo] |
 
 
 
@@ -73,8 +92,8 @@ ArAccount:
 [arconnector.repo]: https://github.com/jfbeats/ArweaveWalletConnector.git
 
 [arprofile]: https://arprofile.org
-[arprofile.lib::arweave-account.repo]: https://github.com/MetaweaveTeam/arweave-account.git
-[arprofile.repo]: https://github.com/MetaweaveTeam/ArProfile.git
+[arprofile.src.lib::arweave-account.gh]: https://github.com/MetaweaveTeam/arweave-account.git
+[arprofile.src.gh]: https://github.com/MetaweaveTeam/ArProfile.git
 
 
 | item | links |
@@ -82,7 +101,7 @@ ArAccount:
 | WalletApp | [app], [repo][app.repo], [addon (chrome)][app.chrome], [addon (firefox)][app.firefox], ... |
 | ArConnector | [api][arconnector], [repo][arconnector.repo], ... |
 | ArConnect | [site][arconnect], [addon (chrome)][arconnect.chrome], [addon (firefox)][arconnect.firefox], ... |
-| ArProfile | [app][arprofile], [repo][arprofile.repo], [lib][arprofile.lib::arweave-account.repo], ... |
+| ArProfile | [app][arprofile], [repo][arprofile.src.gh], [lib][arprofile.src.lib::arweave-account.gh], ... |
 
 
 
