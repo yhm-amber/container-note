@@ -13,3 +13,6 @@
 [dashboard]: https://permapages.arweave.dev/#/dashboard
 [pages]: https://permapages.arweave.dev/#/pages
 [arns]: https://permapages.arweave.dev/#/arns
+
+[pic::logo.ol]: https://permapages.arweave.dev/permapages_logo.svg
+[pic::logo]: ./permapages_logo.svg
