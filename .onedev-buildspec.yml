@@ -1,0 +1,37 @@
+version: 19
+jobs:
+- name: pusher all-branch commit
+  steps:
+  - !PushRepository
+    name: force to yhm-amber/container-note
+    remoteUrl: https://github.com/yhm-amber/container-note.git
+    userName: yhm-amber
+    passwordSecret: yhm-amber
+    withLfs: true
+    force: true
+    condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
+  triggers:
+  - !BranchUpdateTrigger
+    projects: yhm-ypa/container-note
+  retryCondition: never
+  maxRetries: 3
+  retryDelay: 30
+  timeout: 3600
+- name: puller all-branch cron.03:20:10
+  steps:
+  - !PullRepository
+    name: from yhm-amber/container-note
+    remoteUrl: https://github.com/yhm-amber/container-note.git
+    syncToChildProject: false
+    refs: refs/heads/* refs/tags/*
+    withLfs: true
+    force: false
+    condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
+  triggers:
+  - !ScheduleTrigger
+    cronExpression: 10 20 3 * * ?
+    projects: yhm-ypa/container-note
+  retryCondition: never
+  maxRetries: 3
+  retryDelay: 30
+  timeout: 3600
