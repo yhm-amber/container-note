@@ -1,6 +1,6 @@
 
 [pic::oops.ol]: https://social.dev-wiki.de/oops.gif
-[pic::oops]: ./.asserts/oops.gif
+[pic::oops]: ./.assets/oops.gif
 
 ![oops!][pic::oops]
 
