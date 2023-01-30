@@ -1,4 +1,9 @@
 
+[pic::oops.ol]: https://social.dev-wiki.de/oops.gif
+[pic::oops]: ./.asserts/oops.gif
+
+![oops!][pic::oops]
+
 [pic-cfd-docs]: https://docs.joinmastodon.org/assets/network-models.jpg
 [pic-cfd]: ./.assets/network-models.jpg
 
