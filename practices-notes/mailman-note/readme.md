@@ -1,4 +1,5 @@
 [web]: https://list.org
+[repo.gl]: https://gitlab.com/mailman
 [docs.container]: https://docs.list.org/en/latest/install/docker.html
 [docker.repo.gh]: https://github.com/maxking/docker-mailman.git "maxking/docker-mailman | GitHub"
 [docker.docs]: https://asynchronous.in/docker-mailman
