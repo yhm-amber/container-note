@@ -21,8 +21,13 @@
 [pic::picto-crypto.svg.ol]: https://assets.berty.tech/files/picto_crypto--1_berty_crypto.svg
 [pic::picto-crypto.svg]: ./.assets/picto_crypto--1_berty_crypto.svg
 
-[pic::berty-technologies.svg.ol]: https://assets.berty.tech/files/berty_technologies--1_berty_technologies_blueprint.png
-[pic::berty-technologies.svg.ol]: ./.assets/berty_technologies--1_berty_technologies_blueprint.png
+[pic::berty-technologies-black.svg.ol]: https://assets.berty.tech/files/berty_technologies--berty_technologies_simple_black.svg
+[pic::berty-technologies-white.svg.ol]: https://assets.berty.tech/files/berty_technologies--berty_technologies_simple_white.svg
+[pic::berty-technologies-black.svg]: ./.assets/berty_technologies--berty_technologies_simple_black.svg
+[pic::berty-technologies-white.svg]: ./.assets/berty_technologies--berty_technologies_simple_white.svg
+
+[pic::favicon-blueprint.svg.ol]: https://assets.berty.tech/files/favicon_blueprint--safari-pinned-tab.svg
+[pic::favicon-blueprint.svg]: ./.assets/favicon_blueprint--safari-pinned-tab.svg
 
 [pic::ascii-art.svg.ol]: https://assets.berty.tech/files/ascii_art--1_berty_ascii_art.svg
 [pic::ascii-art.svg]: ./.assets/ascii_art--1_berty_ascii_art.svg
