@@ -6,7 +6,7 @@ jobs:
     name: force to yhm-amber/container-note
     remoteUrl: https://github.com/yhm-amber/container-note.git
     userName: yhm-amber
-    passwordSecret: yhm-amber
+    passwordSecret: github-yhm-amber
     withLfs: true
     force: true
     condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
