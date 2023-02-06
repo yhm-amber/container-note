@@ -3,6 +3,13 @@
 [docs]: https://berty.tech/docs/berty
 [assets]: https://assets.berty.tech
 
+[labs.src.gh]: https://github.com/berty/labs.git
+
+[ios/berty]: https://apps.apple.com/app/berty/id1535500412
+[ios/bertylabs]: https://apps.apple.com/app/berty-labs/id1603812901
+[googleplay/berty]: https://play.google.com/store/apps/details?id=tech.berty.android
+
+
 [pic::logo.svg.ol]: https://assets.berty.tech/files/logo--1_berty_logo.svg
 [pic::logo.svg]: ./.assets/logo--1_berty_logo.svg
 
