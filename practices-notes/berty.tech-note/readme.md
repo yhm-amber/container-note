@@ -12,7 +12,7 @@
 
 
 [assets.src/gh]: https://github.com/berty/assets.git
-[yolo.src/gh]https://github.com/berty/yolo.git
+[yolo.src/gh]: https://github.com/berty/yolo.git
 
 
 [pic::logo.svg.ol]: https://assets.berty.tech/files/logo--1_berty_logo.svg
