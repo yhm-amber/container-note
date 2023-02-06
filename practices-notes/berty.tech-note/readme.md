@@ -24,3 +24,22 @@
 [pic::berty-technologies.svg.ol]: https://assets.berty.tech/files/berty_technologies--1_berty_technologies_blueprint.png
 [pic::berty-technologies.svg.ol]: ./.assets/berty_technologies--1_berty_technologies_blueprint.png
 
+[pic::ascii-art.svg.ol]: https://assets.berty.tech/files/ascii_art--1_berty_ascii_art.svg
+[pic::ascii-art.svg]: ./.assets/ascii_art--1_berty_ascii_art.svg
+
+[pic::pixel-art-small.svg.ol]: https://assets.berty.tech/files/pixel_art_small--1_berty_pixel_art_small.svg
+[pic::pixel-art-small.svg]: ./.assets/pixel_art_small--1_berty_pixel_art_small.svg
+
+[pic::pixel-art-tiny.svg.ol]: https://assets.berty.tech/files/pixel_art_tiny--1_berty_pixel_art_tiny.svg
+[pic::pixel-art-tiny.svg]: ./.assets/pixel_art_tiny--1_berty_pixel_art_tiny.svg
+
+[pic::pirate.svg.ol]: https://assets.berty.tech/files/pirate--1_berty_pirate_black.svg
+[pic::pirate.svg]: ./.assets/pirate--1_berty_pirate_black.svg
+
+[pic::animation.gif.ol]: https://assets.berty.tech/files/animation--berty_animation_transparent_bg.gif
+[pic::animation.gif.ol]: ./.assets/animation--berty_animation_transparent_bg.gif
+
+[pic::home-logorefresh-animation.gif]: https://assets.berty.tech/files/home_logorefresh_animation--gifbertyanim-Exit.gif
+[pic::home-logorefresh-animation.gif]: ./.assets/home_logorefresh_animation--gifbertyanim-Exit.gif
+
+
