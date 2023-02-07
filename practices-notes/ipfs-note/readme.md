@@ -57,14 +57,6 @@
 
 ## application
 
-[app/awesome.src.gh]: https://github.com/ipfs/awesome-ipfs.git
-[app/awesome.site.io]: https://awesome.ipfs.io
-[app/awesome.site.tech]: https://awesome.ipfs.tech
-
-see: 
-
-- [Awesome IPFS][app/awesome.site.tech] ([gh][app/awesome.src.gh])
-
 ### Instances
 
 #### `kubo`
@@ -374,3 +366,17 @@ instances:
 - iroh: ...
 - fuzzy: ...
 
+
+## Usage
+
+[app/awesome.src.gh]: https://github.com/ipfs/awesome-ipfs.git
+[app/awesome.site.io]: https://awesome.ipfs.io
+[app/awesome.site.tech]: https://awesome.ipfs.tech
+
+see: 
+
+- [Awesome IPFS][app/awesome.site.tech] ([gh][app/awesome.src.gh])
+
+### scm
+
+### ...
