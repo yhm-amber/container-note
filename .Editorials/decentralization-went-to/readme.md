@@ -137,8 +137,8 @@
 后悔而已的话那么其实你连这个揭露也并不能碰到。）
 
 
-#crypto
-#capitalist
+#crypto  
+#capitalist  
 
 
 一个关于去中心化的事实是，你仍然需要使用硬件，
