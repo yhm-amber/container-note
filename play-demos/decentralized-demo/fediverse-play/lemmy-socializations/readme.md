@@ -14,4 +14,4 @@ client:
 
 [lemmygrad]: https://lemmygrad.ml
 
-有一些有意思的实例，比如 [lemmygrad] 。
+有一些有意思的实例，比如 *[lemmygrad]* 。
