@@ -23,7 +23,7 @@
 [ruma-repo]: https://github.com/ruma/ruma.git
 [ruma-intro-matrix]: https://ruma.io/docs/matrix
 
-[📑 规范][docs.spec] | [🦪 spec.src/gh][spec.src/gh] | [📔 问答][faq]
+[📑 规范][docs.spec] | [🦪 规范代码][spec.src/gh] | [📔 问答][faq]
 
 简单说，这个的架构和 Fediverse 类似，但是有端到端加密、被设计用于私聊和群聊，
 聊天的时候要验证设备 (包括对方设备) (也可以不验证但这就不够安全) ，新设备也必须被旧设备协助
@@ -58,10 +58,13 @@
 
 
 | name | web | app | desc |
-| :--: | --: | :-- | :--- |
+| :--- | :-- | :-- | :--- |
 | [FluffyChat](../fluffychat.im-note) | [📜 site][fluffychat/site] | [🪁 web][fluffychat/app.web], [🥫 f-droid][fluffychat/app.f-droid], [🍰 flathub][fluffychat/app.flathub], [🧇 ios][fluffychat/app.ios] | 这个应用图标很可爱，应该是具备所有的 Matrix 基本功能 (包括视频通话等) 。 |
 | [Element](../element.im-note) | [📜 site][element/site], [🎃 DL][element/site.dl] | [🪁 web][element/app.web], [🥫 f-droid][element/app.f-droid], [🧊 alpine][element/app.alpine] [🍰 flathub][element/app.flathub], [🧇 ios][element/app.ios], [🍕 Mac.dmg][element/app.macdmg] | 功能很全。现在它在 F-Droid 有了一个 [NonFreeNet](https://f-droid.org//docs/Anti-Features/#NonFreeNet) 的负特征标记，可能是由于它支持了为账号绑定电话。 |
 
+[clients]: https://matrix.org/docs/projects/clients-matrix
+
+更多应用见 [faq] 或 [clients] 。你必须用某款应用来完成注册。
 注册后，你会得到一个唯一标识，格式大概是 `你的名字:你所在的服务器` 这样。
 
 [matrix.to]: https://matrix.to
