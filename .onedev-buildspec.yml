@@ -3,13 +3,21 @@ jobs:
 - name: pusher all-branch commit
   steps:
   - !PushRepository
-    name: force to yhm-amber/container-note
+    name: force to gh yhm-amber/container-note
     remoteUrl: https://github.com/yhm-amber/container-note.git
     userName: yhm-amber
-    passwordSecret: github-yhm-amber
+    passwordSecret: github.yhm-amber
     withLfs: true
     force: true
-    condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
+    condition: ALWAYS
+  - !PushRepository
+    name: force to cb yhm-ypa/container-note
+    remoteUrl: https://codeberg.org/yhm-ypa/container-note.git
+    userName: yhm
+    passwordSecret: codeberg.yhm
+    withLfs: true
+    force: true
+    condition: ALWAYS
   triggers:
   - !BranchUpdateTrigger
     projects: yhm-ypa/container-note
@@ -20,13 +28,21 @@ jobs:
 - name: puller all-branch cron.03:20:10
   steps:
   - !PullRepository
-    name: from yhm-amber/container-note
+    name: from gh yhm-amber/container-note
     remoteUrl: https://github.com/yhm-amber/container-note.git
     syncToChildProject: false
     refs: refs/heads/* refs/tags/*
     withLfs: true
     force: false
-    condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
+    condition: ALWAYS
+  - !PullRepository
+    name: from cb yhm-ypa/container-note
+    remoteUrl: https://codeberg.org/yhm-ypa/container-note.git
+    syncToChildProject: false
+    refs: refs/heads/* refs/tags/*
+    withLfs: true
+    force: false
+    condition: ALWAYS
   triggers:
   - !ScheduleTrigger
     cronExpression: 10 20 3 * * ?
