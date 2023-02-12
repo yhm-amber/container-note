@@ -1,0 +1,4 @@
+
+[[https://libera.chat][website]]
+
+是个 IRC 。但不知为何我也见过 matrix 上有人用这个域名。或许是私有域名，因为我无法注册。
