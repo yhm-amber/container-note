@@ -1,1 +1,5 @@
 [[../../../practices-notes/aegis.2fa-note][note]]
+
+可用于 Android 设备的两步验证工具
+
+（推荐从 F-Droid 下载而不是用 GooglePlay 。）
