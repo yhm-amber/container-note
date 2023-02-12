@@ -1,0 +1,5 @@
+[[../../../practices-notes/2fauth.2fa-note][note]]
+
+一个 iOS 设备上的两步验证工具
+
+（我找到它的时候它只有 6 兆）
