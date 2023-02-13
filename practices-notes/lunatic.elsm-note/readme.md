@@ -14,11 +14,8 @@
 [pic::logo.svg.src]: https://raw.githubusercontent.com/lunatic-solutions/lunatic/main/assets/logo.svg
 [pic::logo.svg]: ./.assets/logo.svg
 
-<img
-  src=./.assets/logo.svg
-  height=128
-  width=128
-/>
+<img height=128 width=128 
+src=./.assets/logo.svg />
 
 [📔 docs][rslib] | [🦪 src][src/gh] | [📜 website][website] | [🧊 crates][crates] [`🍥 src`][rs.src/gh] | [🥫 npm][npm] [`🍥 src`][ts.src/gh]
 
