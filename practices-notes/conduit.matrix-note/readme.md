@@ -2,5 +2,9 @@
 [site]: https://conduit.rs "Host your own chat server -- Conduit is a simple, fast and reliable chat server powered by [matrix]"
 [matrixto]: https://matrix.to/#/#conduit:fachschaften.org "We follow the Matrix Code of Conduct"
 
+
 [pic::conduit.svg.site]: https://conduit.rs/conduit.svg
 [pic::conduit.svg]: ./conduit.svg
+
+[docs-docker]: https://gitlab.com/famedly/conduit/-/tree/next/docker
+[knows-by]: https://ruma.io/projects
