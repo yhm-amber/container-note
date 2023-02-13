@@ -12,11 +12,14 @@
 [blog.writing-rust-the-elixir-way-1.5-years-later]: https://lunatic.solutions/blog/writing-rust-the-elixir-way-1.5-years-later
 
 [pic::logo.svg.src]: https://raw.githubusercontent.com/lunatic-solutions/lunatic/main/assets/logo.svg
-[pic::logo.svg]: ./.assets/logo.svg
+
+[pic::logo.svg]: ./.assets/logo.svg#36x36
 
 ![lunatic][pic::logo.svg]
 
-[📔 docs][rslib] | [🦪 src][src/gh] | [📜 website][website] | [🧊 crates][crates] [`🍥 src`][rs.src/gh] | [🥫 npm] [`🍥 src`][ts.src/gh]
+
+
+[📔 docs][rslib] | [🦪 src][src/gh] | [📜 website][website] | [🧊 crates][crates] [`🍥 src`][rs.src/gh] | [🥫 npm][npm] [`🍥 src`][ts.src/gh]
 
 Blogs: 
 
