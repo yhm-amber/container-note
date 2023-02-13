@@ -10,6 +10,6 @@
 
 ![yew][pic::logo.svg]
 
-[📜 site][site] | [📔 docs][docs] | [⛵ playground][playground] | [🦪 src][src/gh] | [🎼 awesome-list src][awesome-list.src/gh]
+[📜 site][site] | [📃 docs][docs] | [⛵ playground][playground] | [🦪 src][src/gh] | [🎼 awesome-list src][awesome-list.src/gh]
 
 
