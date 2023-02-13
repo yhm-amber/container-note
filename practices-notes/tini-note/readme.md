@@ -5,4 +5,5 @@
 
 [docker-flag]: https://docs.docker.com/engine/reference/commandline/run "docker ^1.13.x: To enable Tini, just pass the `--init` flag to `docker run`."
 
-[usages/dockerhub]: https://hub.docker.com/u/krallin "cadvisor,elasticsearch,gentlemanjerry,webhooks-training-app,ubuntu-tini,centos-tini"
+[imgs-prebuilt/dockerhub]: https://hub.docker.com/u/krallin "cadvisor,elasticsearch,gentlemanjerry,webhooks-training-app,ubuntu-tini,centos-tini"
+[imgs-prebuilt.src/gh]: https://github.com/krallin/tini-images.git "pre-built Docker images available for Tini"
