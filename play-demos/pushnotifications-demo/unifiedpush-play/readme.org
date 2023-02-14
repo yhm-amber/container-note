@@ -7,3 +7,7 @@ ways:
 - I JUST WANT TO KNOW WHAT TO INSTALL: [[https://unifiedpush.org/users/distributors/ntfy/][ntfy]] ([[../../../practices-notes/ntfy.push-note][📓 note]], [[https://ntfy.sh][📜 site]])
 - I have a Nextcloud server: [[https://unifiedpush.org/users/distributors/nextpush/][nextpush]] ([[../../../practices-notes/next.push-note][📓 note]])
 - Self-host the server: [[https://unifiedpush.org/users/distributors/#self-host-the-server-difficult][👾 self host doc]]
+
+communicate: 
+
+- [ [[https://matrix.to/#/#unifiedpush:matrix.org][matrix]] ]
