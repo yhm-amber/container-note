@@ -10,4 +10,8 @@ ways:
 
 communicate: 
 
-- [ [[https://matrix.to/#/#unifiedpush:matrix.org][matrix]] ]
+- [[https://matrix.to/#/#unifiedpush:matrix.org][🧮 matrix]]
+- [[https://fosstodon.org/@unifiedpush][🐘 mastodon]]
+- [[https://web.libera.chat/#unifiedpush][🌞 IRC]]
+- [[https://liberapay.com/S1m][🎫 liberapay]]
+- [[https://github.com/UnifiedPush][🐱‍👤 GitHub]]
