@@ -1,0 +1,6 @@
+[[https://apt.izzysoft.de][IzzySoft Apt Repositories]]
+
+[[https://apt.izzysoft.de/redhat][🍘 RPM]] |
+ [[https://apt.izzysoft.de/ubuntu][🍳 DEB]] |
+ [[https://apt.izzysoft.de/ark][🧆 ARK]] |
+ [[https://apt.izzysoft.de/fdroid][🥗 F-Droid]]
