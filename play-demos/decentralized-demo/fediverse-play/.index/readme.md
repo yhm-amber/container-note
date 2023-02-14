@@ -16,3 +16,6 @@ pic share:
 
 - [pixelfed](../pixelfed-socializations) (*[instances](https://pixelfed.org/servers)*)
 
+----
+
+[clients](../../../fediverseclient-demo)
