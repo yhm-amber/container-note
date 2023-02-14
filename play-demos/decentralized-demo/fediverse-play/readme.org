@@ -7,3 +7,4 @@
 实例。实例由实例的管理员使用该款平台软件，在受其
 管理的机器节点上部署。
 
+[[https://activitypub.rocks][ActivityPub]]
