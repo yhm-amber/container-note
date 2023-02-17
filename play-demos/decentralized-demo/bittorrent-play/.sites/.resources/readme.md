@@ -69,6 +69,12 @@ magnet:?xt=urn:btih:343fc360accb9f232d3c488aea4ec984cd5db270&dn=%5bKamigami%26VC
 - offical site: [Avatar (2009) | Avatar.com](https://www.avatar.com/movies/avatar)
 - imdb: [Avatar (2009) | IMDb](https://www.imdb.com/title/tt0499549)
 
+- wiki: 
+  
+  - [Avatar Wiki | Fandom](https://avatar.fandom.com)
+  - [Avatar Wiki | Fandom](https://james-camerons-avatar.fandom.com)
+  - [Eywa | Avatar Wiki | Fandom](https://james-camerons-avatar.fandom.com/wiki/Eywa)
+
 #### `阿凡达.加长版.特效中英字幕.第三版.Avatar.Extended.Collector's.Edition.2009.BD1080P.X264.DTS-HD.MA.5.1.Mandarin&English.CHS-ENG.FFans@星星`
 
 - *找到这些分享站：*
