@@ -9,6 +9,9 @@ repo content:
 - [`requests with instance plays`](./play-demos)
 - [`builds`](./build-practices)
 
+*任何目录下都有合乎某特定规则的命名形式，
+任何目录下也都可增加隐藏目录来增加必要的额外记录。*
+
 ----
 
 note: 
