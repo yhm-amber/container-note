@@ -2,14 +2,14 @@
 
 好处：
 
-- 便于迁移（ `git clone` `git push/pull --mirror` ）
-- 便于建立联系（ `git submodule` `git clone --recursive` ）
-- 有现成的 Web 界面（ `gitea` `onedev` ）从而能够比较容易地通过写在 `README` 中的相对路径的链接来联系文档的各个部分并便于浏览
+- 便于迁移（ ~git clone~ ~git push/pull --mirror~ ）
+- 便于建立联系（ ~git submodule~ ~git clone --recursive~ ）
+- 有现成的 Web 界面（ =gitea= =onedev= ）从而能够比较容易地通过写在 =README= 中的相对路径的链接来联系文档的各个部分并便于浏览以及对大部分代码化文档编写（ =markdown= =org-mode= =asciidoc= ）的渲染支持
 - 历史悠久（这意味着支持广泛）
 
 坏处：
 
 - 概念有点杂且不那么直观（若想系统地说明这个玩意可能需要出本书）
-- 对于非代码（文本）文件不建议向 Git 仓库追加（不然有你好受的） —— 通过 `Git LFS` 可以缓解这个情况但还是麻烦了点
+- 对于非代码（文本）文件不建议向 Git 仓库追加（不然有你好受的） —— 通过 =Git LFS= 可以缓解这个情况但还是麻烦了点
 - 历史悠久（这也意味着包袱）
 
