@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/Naupio/pical.git "(Work In Process) pita is a general distributed computation system with Erlang language base on DAG model. This project is inspired by DouBan 's DPark and Apache Spark. // (施工中) pita 是一个通用的分布式计算系统，采用 Erlang 语言，基于 DAG 模型。本项目灵感来源于豆瓣的 DPark 和 Apache Spark 。"
