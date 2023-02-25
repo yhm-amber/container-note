@@ -1,0 +1,2 @@
+[web]: https://leo-project.net/leofs "我们的目标是作为数据存储库对大数据分析产生非常有益的影响。"
+[src/gh]: https://github.com/leo-project/leofs.git "A Storage System for a Data Lake and the Web - LeoFS is an Enterprise Open Source Storage, and it is a highly available, distributed, eventually consistent object/blob store. If you are seeking a storage system that can store huge amount and various kind of files such as photo, movie, log data and so on, LeoFS is suitable for that. // LeoFS 是一种 **企业开源存储** ，它是一种高度可用、分布式、最终一致的对象/blob 存储。如果您正在寻找一个可以存储大量和各种类型的文件（例如照片、电影、日志数据等）的存储系统，那么 LeoFS 非常适合。"
