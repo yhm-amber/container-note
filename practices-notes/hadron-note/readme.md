@@ -19,14 +19,15 @@ pkgs:
 Needed [cert manager](../cert-manager-note) installed: 
 
 ~~~ sh
-helm repo add jetstack https://charts.jetstack.io
-helm upgrade cert-manager jetstack/cert-manager --install --set installCRDs=true
+helm repo add -- jetstack https://charts.jetstack.io
+helm upgrade --install --set installCRDs=true -- cert-manager jetstack/cert-manager
 ~~~
 
 Operator install: 
 
 ~~~ sh
 # Helm >= v3.7.0 is required for OCI usage.
+export HELM_EXPERIMENTAL_OCI=1 &&
 helm install -- hadron-operator oci://ghcr.io/hadron-project/charts/hadron-operator
 ~~~
 
