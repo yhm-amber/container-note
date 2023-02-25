@@ -16,7 +16,7 @@ pkgs:
 
 ### Install
 
-Needed: [cert manager](../cert-manager-note) installed.
+Needed [cert manager](../cert-manager-note) installed: 
 
 ~~~ sh
 helm repo add jetstack https://charts.jetstack.io
