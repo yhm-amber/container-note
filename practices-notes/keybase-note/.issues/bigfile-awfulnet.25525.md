@@ -1,4 +1,4 @@
-# Big file will broke easily while copy it into KBFS
+# Big file will broke easily while copy it into KBFS with awful network
 
 There is only two things happens: 
 
@@ -33,4 +33,7 @@ Some way to solve this evil problem probably:
   - does the file have new append/change after hash (boolean, equal with: `timestamp.lastchange > timestamp.hashcomplete`)
   
   then, if the hash of copy is not equal with its origin, by default, the crypto and upload should not be run, this will avoid the uploads of evil datas (broken files). 😃
+  
+
+The network can be awful at any time, so I think make the soft which work with net won't do wrong things very easy while the net became awful, is necessary.
   
