@@ -1,8 +1,9 @@
 [src/gh]: https://github.com/hadron-project/hadron.git "(Languages: Rust 98.7%, Dockerfile 1.1%, Other 0.2%) The Kubernetes native and CloudEvents native distributed event streaming, event orchestration & messaging platform"
 [guide/ghio]: https://hadron-project.github.io/hadron
 [docs/docs.rs]: https://docs.rs/hadron-client
+[pkg/artifacthub.io]: https://artifacthub.io/packages/helm/hadron-operator/hadron-operator
 
-[🍳 src][src/gh] | [🍌 guide][guide/ghio] | [📓 docs][docs/docs.rs]
+[🍳 src][src/gh] | [🍌 guide][guide/ghio] | [🥚 pkg][pkg/artifacthub.io]
 
 pkgs: 
 
