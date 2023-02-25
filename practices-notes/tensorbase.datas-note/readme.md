@@ -1,0 +1,2 @@
+[site]: https://tensorbase.io "他们有个和 clickhouse 的性能对比视频。灵感应该是来自 arrow 。"
+[src/gh]: https://github.com/tensorbase/tensorbase.git "TensorBase is a new big data warehousing with modern efforts. ;; TensorBase 有一段时间没有更新了。 感谢各位朋友的关心和咨询，我们回复如下： TensorBase 希望开源不要成为复制游戏。 TensorBase 旗帜鲜明地反对为了所谓的声誉 (如 Github 星星) 而分叉社区、重复轮子或黑客流量。经过深思熟虑，我们决定暂时离开通用数据仓库领域。 ;; TensorBase希望改变大数据系统的现状如下：效率低下（以“可扩展”的名义）；难以使用（对于最终用户）和理解（对于开发人员）；没有随着现代基础设施（操作系统、硬件、工程……）而发展"
