@@ -1,5 +1,5 @@
 [src/gh]: https://github.com/eto-ai/lance.git "Parquet 的替代品。随机访问速度提高 100 倍，包括向量索引和自动版本控制。兼容 Apache Arrow 和 DuckDB。"
-[web]: https://eto-ai.github.io/lance
+[web]: https://eto-ai.github.io/lance "Lance: modern columnar data format for ML¶"
 
 [🥚 src][src/gh] | [🍳 web][web]
 
