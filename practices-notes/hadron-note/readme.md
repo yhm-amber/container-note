@@ -3,7 +3,7 @@
 [docs/docs.rs]: https://docs.rs/hadron-client
 [pkg/artifacthub.io]: https://artifacthub.io/packages/helm/hadron-operator/hadron-operator
 
-[🍳 src][src/gh] | [🍌 guide][guide/ghio] | [🥚 pkg][pkg/artifacthub.io]
+[🍳 src][src/gh] | [🍌 guide][guide/ghio] | [🥒 docs][docs/docs.rs] | [🥚 pkg][pkg/artifacthub.io]
 
 pkgs: 
 
