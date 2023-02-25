@@ -107,7 +107,7 @@ kubectl run hadron-cli --rm -it \
 hadron stream pub --subject demo --type example.event '{"demo": "live"}'
 
 : 这会将一个简单的事件发布为 JSON blob 。
-; 还完全支持发布二进制事件，例如 protobuf 。
+: 还完全支持发布二进制事件，例如 protobuf 。
 
 : 创建一个消费者来读取这个事件 :
 hadron stream sub --group demo --start-beginning
