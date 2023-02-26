@@ -3,6 +3,8 @@
 [faq]: https://matrix.org/faq
 [spec.src/gh]: https://github.com/matrix-org/matrix-spec.git
 [repo-rich-text-editor]: https://github.com/matrix-org/matrix-rich-text-editor.git
+[servers]: https://joinmatrix.org/servers
+[servers:note]: ../joinmatrix.org-note
 
 > Matrix is an open specification for an online communication protocol.
 >  It includes all the features you'd expect from a modern chat platform
@@ -23,7 +25,7 @@
 [ruma-repo]: https://github.com/ruma/ruma.git
 [ruma-intro-matrix]: https://ruma.io/docs/matrix
 
-[📑 规范][docs.spec] | [🦪 规范代码][spec.src/gh] | [📔 问答][faq]
+[📑 规范][docs.spec] | [🦪 规范代码][spec.src/gh] | [📔 问答][faq] | [🥗 实例][servers] ([🌿 note][servers:note])
 
 简单说，这个的架构和 Fediverse 类似，但是有端到端加密、被设计用于私聊和群聊，
 聊天的时候要验证设备 (包括对方设备) (也可以不验证但这就不够安全) ，新设备也必须被旧设备协助
