@@ -5,6 +5,6 @@
 [site]: https://trino.io
 
 [docs:containers]: https://trino.io/docs/current/installation/containers.html ": install if needed and run : ; docker run --name trino -d -p 8080:8080 -- trinodb/trino ; : client : ; trino --server http://localhost:8080"
-[docs:kubernetes]: https://trino.io/docs/current/installation/kubernetes.html ": repo add : ; helm repo add -- trino https://trinodb.github.io/charts ; : install : ; helm install -- example-trino-cluster trino/trino ; : run : ; POD_NAME=$(kubectl get pods -l "app=trino,release=example-trino-cluster,component=coordinator" -o name) && kubectl port-forward -- $POD_NAME 8080:8080 ; : client is same : ; : helm set demo : --set server.workers=3,coordinator.jvm.maxHeapSize=8G,worker.jvm.maxHeapSize=8G,image.tag=latest"
+[docs:kubernetes]: https://trino.io/docs/current/installation/kubernetes.html ": repo add : ; helm repo add -- trino https://trinodb.github.io/charts ; : install : ; helm install -- example-trino-cluster trino/trino ; : run : ; POD_NAME=$(kubectl get pods -l 'app=trino,release=example-trino-cluster,component=coordinator' -o name) && kubectl port-forward -- $POD_NAME 8080:8080 ; : client is same : ; : helm set demo : --set server.workers=3,coordinator.jvm.maxHeapSize=8G,worker.jvm.maxHeapSize=8G,image.tag=latest"
 
 [oci/dockerhub]: https://hub.docker.com/r/trinodb/trino
