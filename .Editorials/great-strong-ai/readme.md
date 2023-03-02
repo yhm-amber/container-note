@@ -3,6 +3,10 @@
 
 *published on [mirror.xyz][pub/mirror.xyz] now 🙃!*
 
+[caesium.app]: https://caesium.app
+
+*images is compressed by the great [caesium.app] 😆!*
+
 # 强人工智能与人类的一种关系
 
 ![chat with new bing about some async question on typescript programming language](S30302-15544892.png)
