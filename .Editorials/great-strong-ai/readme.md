@@ -1,4 +1,8 @@
 
+[pub/mirror.xyz]: https://mirror.xyz/0x37Da98E4b1d562f002dF022D91E625A8b9fCc0e4/KVwGzlXcKqJ6k3eOT3nzYydlVJfQMKtlZB0LM0TOD3k
+
+*published on [mirror.xyz][pub/mirror.xyz] now 🙃!*
+
 # 强人工智能与人类的一种关系
 
 ![chat with new bing about some async question on typescript programming language](S30302-15544892.png)
