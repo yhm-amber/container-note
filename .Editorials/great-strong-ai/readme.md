@@ -1,3 +1,6 @@
+
+![chat with new bing about some async question on typescript](S30302-15544892.png)
+
 这理解能力比跟好多人类沟通的时候要好。。。
 都不需要考虑「换个角度怎么描述我的问题」这件事。。。
 
