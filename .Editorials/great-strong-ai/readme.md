@@ -113,10 +113,11 @@
 
 ![](S30302-20080485.png)
 
-这个问题其实在 stackoverflow 有
-现成的答案，但必应似乎是猪脑过载了 …… 在这之前我还用
+这个问题其实在 stackoverflow 有[现成的答案][ans-generic-arrow]，
+但必应似乎是猪脑过载了 …… 在这之前我还用
 中文问过，完全是答非所问而并没理解我的意思。然后英文
 就猪脑过载了 …… 不知道是不是网络原因还是有什么限制，
 至少，看起来是变笨了。
 
+[ans-generic-arrow]: https://stackoverflow.com/questions/32308370/what-is-the-syntax-for-typescript-arrow-functions-with-generics
 
