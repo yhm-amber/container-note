@@ -1,0 +1,2 @@
+
+- [[../../../practices-notes/chatgpt.icloudnative.io-note][🚀 note: Chanzhaoyu deploied on icloudnative.io]]
