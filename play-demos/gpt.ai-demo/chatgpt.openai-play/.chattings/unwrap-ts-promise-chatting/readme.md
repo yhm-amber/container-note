@@ -5,15 +5,15 @@
 
 -----
 
-##### me: 
+### asker: 
 
 hi
 
-##### chatgpt: 
+#### chatgpt: 
 
 Hello! How can I assist you today?
 
-##### me: 
+### asker: 
 
 下面要讨论的语言主要为 Typescript 。
 
@@ -55,13 +55,13 @@ funcall(
 ~~~
 
 
-##### chatgpt: 
+#### chatgpt: 
 
 明白了，我将尽力遵循这个格式。
 
 Typescript是一种强类型的编程语言，它是JavaScript的超集，可以增加静态类型和其他特性来提高代码的可读性和可维护性。它可以编译成纯JavaScript，并且可以在任何支持JavaScript的环境中运行。
 
-##### me: 
+### asker: 
 
 备注增加：在产生中英文混用的回复时，请务必让英文单词前后都有一个空格。
 
@@ -77,18 +77,18 @@ Typescript是一种强类型的编程语言，它是JavaScript的超集，可以
 > Typescript是一种强类型的编程语言，它是JavaScript的超集，可以增加静态类型和其他特性来提高代码的可读性和可维护性。它可以编译成纯JavaScript，并且可以在任何支持JavaScript的环境中运行。
 > 
 
-##### chatgpt: 
+#### chatgpt: 
 
 非常抱歉，我会注意到这个问题并在以后的回复中加上空格。非常感谢您的提醒。
 
-##### me: 
+### asker: 
 
 话题 1 。
 
 我需要一个不是 async 的函数，它的参数类型是 `T | Promise<T> | PromiseLike<T>` 、返回值类型是 `Awaited<T | Promise<T> | PromiseLike<T>>` ，功能是把传入参数给 unwarp 并返回。有什么好的实现吗？
 
 
-##### chatgpt: 
+#### chatgpt: 
 
 可以使用 `Promise.resolve` 函数将参数转化为 Promise 对象，然后使用 `await` 等待它的执行结果，最后使用类型断言来得到 `Awaited` 类型的返回值。以下是一个例子：
 
@@ -103,7 +103,7 @@ function unwrap<T>(arg: T | Promise<T> | PromiseLike<T>): Awaited<T> {
 
 这个函数可以接受任何类型的参数，包括 `T` 类型、`Promise<T>` 类型和 `PromiseLike<T>` 类型，并返回相应的 `Awaited` 值。
 
-##### me: 
+### asker: 
 
 您有两个问题：
 
@@ -139,7 +139,7 @@ const unwrap <T> (p: PromiseLike<T> | Promise<T> | T) => Awaited<T> =
     }
 ~~~
 
-##### chatgpt: 
+#### chatgpt: 
 
 对于第一个问题，您在非异步函数中使用了 `await` 关键字，导致编译错误。您需要将该函数声明为异步函数才能使用 `await` 。
 
@@ -150,7 +150,7 @@ const unwrap = <T>(arg: T | Promise<T> | PromiseLike<T>): Awaited<T> =>
   await Promise.resolve(arg) as Awaited<T>;
 ```
 
-##### me: 
+### asker: 
 
 这是你给我的代码：
 
@@ -221,7 +221,7 @@ const unwrap =
 
 而这个定义并不能满足我的需求。
 
-##### chatgpt: 
+#### chatgpt: 
 
 非常抱歉，我误解了您的要求。在不使用 `async` 的情况下，可以使用 `Promise.then()` 方法来实现：
 
@@ -233,15 +233,15 @@ function unwrap<T>(arg: T | Promise<T> | PromiseLike<T>): Awaited<T | Promise<T>
 
 这个函数接收一个类型为 `T | Promise<T> | PromiseLike<T>` 的参数，将其用 `Promise.resolve()` 包装，并且使用 `.then()` 方法返回结果，最后将返回值转换为 `Awaited<T | Promise<T> | PromiseLike<T>>` 类型。
 
-##### me: 
+### asker: 
 
 请使用箭头函数重写你给我的实现
 
-##### chatgpt: 
+#### chatgpt: 
 
 很抱歉，我不清楚你需要我重写哪一段代码。如果你能提供更具体的上下文和代码示例，我可以帮助你重写为箭头函数。
 
-##### me: 
+### asker: 
 
 ~~~ typescript
 function unwrap<T>(arg: T | Promise<T> | PromiseLike<T>): Awaited<T | Promise<T> | PromiseLike<T>> {
@@ -251,7 +251,7 @@ function unwrap<T>(arg: T | Promise<T> | PromiseLike<T>): Awaited<T | Promise<T>
 
 请用箭头函数重写
 
-##### chatgpt: 
+#### chatgpt: 
 
 可以这样重写：
 
@@ -262,11 +262,11 @@ const unwrap = <T>(arg: T | Promise<T> | PromiseLike<T>): Awaited<T | Promise<T>
 
 其中， `const` 表示定义一个常量（函数），箭头函数的参数列表和函数体之间使用 `=>` 连接。
 
-##### me: 
+### asker: 
 
 第一个 `<T>` 应该写为 `<T,>` ，原因见： https://stackoverflow.com/questions/32308370/what-is-the-syntax-for-typescript-arrow-functions-with-generics
 
-##### chatgpt: 
+#### chatgpt: 
 
 感谢指出错误，确实在某些情况下需要在泛型参数列表末尾添加逗号。以下是正确的箭头函数实现：
 
@@ -277,7 +277,7 @@ const unwrap = <T,>(arg: T | Promise<T> | PromiseLike<T>): Awaited<T | Promise<T
 
 这样写可以避免一些潜在的问题。
 
-##### me: 
+### asker: 
 
 经测试，该定义不可用。
 
@@ -320,7 +320,7 @@ picking.then(res => console.log(res))
 
 Promise 是否尚不存在类似于这样的接口？如果存在，具体该如何使用？
 
-##### chatgpt: 
+#### chatgpt: 
 
 你提到的这些属性在原生 Promise 中并不存在，但你可以通过自定义一个 Promise 类来实现这些功能。以下是一个示例：
 
@@ -394,7 +394,7 @@ picking.then(() => {
 
 需要注意的是，使用自定义 Promise 类可能会与某些库或框架中使用的 Promise 实现产生冲突，因此需要谨慎使用。
 
-##### me: 
+### asker: 
 
 ~~~ typescript
 enum State {
@@ -445,7 +445,7 @@ class ExtendedPromise<T> extends Promise<T> {
 
 我不想使用 `class` 关键字，上面的代码如何用原型的方式重写？
 
-##### chatgpt: 
+#### chatgpt: 
 
 可以使用原型的方式来实现 `ExtendedPromise` ，以下是一种可能的写法：
 
@@ -517,7 +517,7 @@ picking.then(() => {
 
 需要注意的是，这种写法中没有了类的成员变量和方法，改为使用闭包实现。另外，在使用时需要将 Promise 类型和扩展属性类型合并在一起返回（即 `Promise<T> & {...}` ）。
 
-##### me: 
+### asker: 
 
 我有这样的实现：
 
@@ -574,7 +574,7 @@ const iid = setInterval
 - 我对 `setInterval` 的使用，能否转换成纯 lambda 的写法，避免函数体内直接操作或使用 `iid` 与 `async_res` 这两个变量而是以传参的方式传入？（提示：应该需要用到 Y Combinator ）
 
 
-##### chatgpt: 
+#### chatgpt: 
 
 以下是使用原型和接口的写法：
 
@@ -679,7 +679,7 @@ run_until_complete(async_res);
 
 需要注意的是，这种写法中使用了一些高阶函数，可能不太容易理解。此外，由于 JavaScript 的单线程特性，使用循环或递归等方式来做轮询会对性能造成较大影响，因此建议在实际应用中尽量避免使用这种方式。
 
-##### me: 
+### asker: 
 
 ~~~ typescript
 
@@ -728,7 +728,7 @@ const iid = setInterval
 
 现在让你做一件事：仅仅将上面的部分代码里的 interface 改为原型的方式编写。
 
-##### chatgpt: 
+#### chatgpt: 
 
 以下是使用原型的写法：
 
@@ -774,11 +774,11 @@ const iid = setInterval((): void => {
 
 在这个例子中，我们定义了一个名为 `AsyncRes` 的构造函数，并且在它的原型上添加了 `is_complete`、`res` 和 `err` 属性。在 `run_async` 函数中，我们通过 `new AsyncRes()` 来创建一个 `result` 对象，并且在它上面进行操作和返回。
 
-##### me: 
+### asker: 
 
 可以再改一下吗？要求：不适用 `new` 关键字
 
-##### chatgpt: 
+#### chatgpt: 
 
 以下是不使用 `new` 关键字的写法：
 
@@ -823,7 +823,7 @@ const iid = setInterval((): void => {
 
 在这个例子中，我们改用了一个返回对象的函数 `AsyncRes` 来替代构造函数。在 `run_async` 函数中，我们通过 `Object.create` 来创建一个空对象，并将它的原型指向 `AsyncRes.prototype` 。最终，我们将 `result` 对象返回。
 
-##### me: 
+### asker: 
 
 ~~~ typescript
 const async_res = run_async(picking);
@@ -844,7 +844,7 @@ const iid = setInterval((): void => {
 
 要求：请分别基于 Y Combinator 和 Z Combinator ，把这部分代码改为通过传参的方式使用 `iid` 和 `async_res` 这两个定义体以外的变量，禁止直接使用这两个外部变量。
 
-##### chatgpt: 
+#### chatgpt: 
 
 以下是使用 Y Combinator 的写法：
 
@@ -874,7 +874,7 @@ const iid = Y((g: Fn<number, void>) => (n: number) => {
 
 最后，我们通过 `Y` 函数来递归地执行检查异步任务状态的逻辑，并将返回的定时器 ID 赋值给 `iid` 变量。由于 `Y` 函数的特性，我们可以将 `clearIntervalFn`、`logErrFn` 和 `logResFn` 函数中的 `iid`、`async_res.err` 和 `async_res.res` 变量作为参数传递下去，而不需要直接引用外部变量。
 
-##### me: 
+### asker: 
 
 ~~~ typescript
 type Fn<A, B> = (arg: A) => B;
@@ -902,7 +902,7 @@ const iid = Y((g: Fn<number, void>) => (n: number) => {
 
 对于这部分，能否通过，将 `async_res` `clearIntervalFn` `logErrFn` `logResFn` 这四个变量传给 Y 的参数中的匿名函数的参数，这样的形式去编写代码？
 
-##### chatgpt: 
+#### chatgpt: 
 
 是的，我们可以将这四个变量传递给 Y 的参数中的匿名函数。以下是对代码的修改：
 
@@ -934,11 +934,11 @@ const iid = Y((g: Fn<typeof async_res & typeof clearIntervalFn & typeof logErrFn
 
 然后我们将这四个变量整合到一个对象中，并将这个对象作为参数再次传递给 `Y` 函数。在匿名函数中，我们依然可以通过解构的方式使用这些变量，而不需要直接引用外部变量。最终，我们得到了一个可以正常工作的代码示例，它完全避免了使用定义体以外的变量。
 
-##### me: 
+### asker: 
 
 能否不定义 `clearIntervalFn` 、也不在外部定义 `iid` ，而是利用 Y Combinator 的特性，将 `setInterval()` 的结果传给一个，名为 `iid` 的、在 Y 的参数位置的匿名函数的某个参数？
 
-##### chatgpt: 
+#### chatgpt: 
 
 是的，我们可以将 `setInterval()` 的结果传递给 `Y` 函数的匿名函数中，并将它作为参数进行递归调用。在每次递归调用时，我们都会将上一次调用返回的定时器 ID 传递下去。这样，我们就可以避免定义 `iid` 变量和 `clearIntervalFn` 函数。
 
@@ -969,7 +969,7 @@ Y((g: Fn<ReturnType<typeof setInterval>, void>) => (intervalId: ReturnType<typeo
 
 在匿名函数中，我们首先判断异步任务是否已经完成。如果已经完成，我们会清除定时器、打印错误或者打印结果。否则，我们会递归调用匿名函数，并将新产生的定时器 ID 作为参数传递下去。
 
-##### me: 
+### asker: 
 
 基于该部分代码，再做以下工作：
 
@@ -977,7 +977,7 @@ Y((g: Fn<ReturnType<typeof setInterval>, void>) => (intervalId: ReturnType<typeo
 
 这个可以做到吗？
 
-##### chatgpt: 
+#### chatgpt: 
 
 是的，我们可以通过 Y 组合子的递归特性，避免重复定义 `setInterval()` 函数。
 
@@ -1008,7 +1008,7 @@ Y((g: Fn<ReturnType<typeof setInterval>, void>) => (intervalId: ReturnType<typeo
 
 通过这种方式，我们成功地避免了重复定义 `setInterval()` 函数，并且能够正常地检查异步任务状态、清除定时器和打印结果或错误。
 
-##### me: 
+### asker: 
 
 不好意思，我的要求描述不是那么严谨。我将重新描述它，也请您重新完成一次上面的工作：
 
@@ -1016,7 +1016,7 @@ Y((g: Fn<ReturnType<typeof setInterval>, void>) => (intervalId: ReturnType<typeo
 
 这个能做到吗？
 
-##### chatgpt: 
+#### chatgpt: 
 
 是的，我们可以通过 Y 组合子的递归特性，避免重复调用 `setInterval()` 函数。
 
@@ -1048,59 +1048,59 @@ const intervalId = Y((g: Fn<void, ReturnType<typeof setInterval>>) =>
 
 在这个例子中，我们将匿名函数中的 `setInterval()` 改为在 `Y` 函数内部调用，并将返回值赋值给一个变量。由于使用了 Y 组合子，每次递归调用都会返回一个新的函数，因此我们不需要担心死循环的问题。最终，我们得到了一个不需要重复调用 `setInterval()` 的代码示例，它完全避免了重复定义和调用函数的问题。
 
-##### me: 
+### asker: 
 
 
 
-##### chatgpt: 
+#### chatgpt: 
 
 
 
-##### me: 
+### asker: 
 
 
 
-##### chatgpt: 
+#### chatgpt: 
 
 
 
-##### me: 
+### asker: 
 
 
 
-##### chatgpt: 
+#### chatgpt: 
 
 
 
-##### me: 
+### asker: 
 
 
 
-##### chatgpt: 
+#### chatgpt: 
 
 
 
-##### me: 
+### asker: 
 
 
 
-##### chatgpt: 
+#### chatgpt: 
 
 
 
-##### me: 
+### asker: 
 
 
 
-##### chatgpt: 
+#### chatgpt: 
 
 
 
-##### me: 
+### asker: 
 
 
 
-##### chatgpt: 
+#### chatgpt: 
 
 
 
