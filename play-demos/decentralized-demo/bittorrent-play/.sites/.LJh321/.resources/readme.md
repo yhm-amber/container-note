@@ -5,7 +5,48 @@
 
 ### Adult Fuck Playing Videos
 
+#### Oohashi Miku
+
+- [大橋未久（おおはしみく） (@oohashi_miku) / Twitter](https://twitter.com/oohashi_miku)
+- [大橋未久 (@miku_miku1224) / Twitter](https://twitter.com/miku_miku1224)
+- [大橋未久ファン♪ (@ohasimikuero) / Twitter](https://twitter.com/ohasimikuero)
+- [大橋未久を抱きしめたい (@jylilemebime) / Twitter](https://twitter.com/jylilemebime)
+
+#### Kaede Karen
+
+- [楓カレン (@KarenKaede_) / Twitter](https://twitter.com/KarenKaede_)
+
+#### Kuriyama Rio
+
+栗山莉緒
+
+- [栗山莉緒出演的AV在線看 - Jable.TV | 免費高清AV在線看 | J片 AV看到飽](https://jable.tv/models/132bc40dbd6c29817c1601129c0d95e6)
+- [栗山莉緒 (@Kuriyama_Rio) / Twitter](https://twitter.com/kuriyama_rio)
+
+~~~
+IPX-608 出差拼房NTR 被精力旺盛上司一整晚連續高潮的可愛女員工 栗山莉緒
+IPX-637 被噁心上司的巨根數次屈辱強姦 成為變態上司的榨精機 栗山莉緒
+IPX-654 汗液 潮液 唾液 全身的體液盡出之前 追擊活塞到連續高潮 栗山莉緒
+IPX-670 美乳OL出差被討厭上司下藥瘋狂強幹高潮不停 栗山莉緒
+JUL-839 中出解禁！和丈夫造人SEX之後總會再被義父中出 栗山莉緒
+JUL-868 町內NTR 妻子被數次中出的NTR影像 栗山莉緒
+JUQ-068 絕不能告訴丈夫 我被義父弄到懷孕... 栗山莉緒
+JUQ-129 結婚三週年在深山的溫泉旅館…被一群渣男輪姦… 栗山莉緒
+~~~
+
+#### Nanase Alice
+
+- [七瀬アリス🐱 (@Alice_Nanase_) / Twitter](https://twitter.com/Alice_Nanase_)
+
+##### `RBK-002 母親の再婚相手のオジサンに毎日レ●プされています。 七瀬アリス (Alice Nanase)`
+
+~~~ magnet
+magnet:?xt=urn:btih:26303e8be0ab9f709ba327fbbc79e38e0fc99526&dn=RBK-002%20%e6%af%8d%e8%a6%aa%e3%81%ae%e5%86%8d%e5%a9%9a%e7%9b%b8%e6%89%8b%e3%81%ae%e3%82%aa%e3%82%b8%e3%82%b5%e3%83%b3%e3%81%ab%e6%af%8e%e6%97%a5%e3%83%ac%e2%97%8f%e3%83%97%e3%81%95%e3%82%8c%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e3%80%82%20%e4%b8%83%e7%80%ac%e3%82%a2%e3%83%aa%e3%82%b9%20(Alice%20Nanase)&tr=http%3a%2f%2ftracker2.itzmx.com%3a6961%2fannounce&tr=http%3a%2f%2fopen.acgnxtracker.com%3a80%2fannounce&tr=https%3a%2f%2ftr.ready4.icu%3a443%2fannounce&tr=http%3a%2f%2fipv4announce.sktorrent.eu%3a6969%2fannounce&tr=http%3a%2f%2ft.nyaatracker.com%3a80%2fannounce&tr=https%3a%2f%2ftracker.foreverpirates.co%3a443%2fannounce&tr=https%3a%2f%2ftracker.tamersunion.org%3a443%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&tr=udp%3a%2f%2fengplus.ru%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2f51.68.34.33%3a6969%2fannounce&tr=udp%3a%2f%2f51.81.46.170%3a6969%2fannounce&tr=udp%3a%2f%2f193.218.118.220%3a6969%2fannounce&tr=udp%3a%2f%2f184.105.151.164%3a6969%2fannounce&tr=udp%3a%2f%2f37.235.174.46%3a2710%2fannounce&tr=udp%3a%2f%2f185.181.60.67%3a80%2fannounce&tr=udp%3a%2f%2f46.148.18.250%3a2710%2fannounce&tr=udp%3a%2f%2f163.172.170.127%3a6969%2fannounce&tr=udp%3a%2f%2f46.148.18.254%3a2710%2fannounce&tr=udp%3a%2f%2f51.15.40.114%3a80%2fannounce&tr=udp%3a%2f%2f5.206.49.194%3a6969%2fannounce&tr=udp%3a%2f%2f181.43.17.35%3a1337%2fannounce&tr=udp%3a%2f%2f51.68.199.47%3a6969%2fannounce&tr=udp%3a%2f%2fbubu.mapfactor.com%3a6969%2fannounce&tr=udp%3a%2f%2ffree.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2fln.mtahost.co%3a6969%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2fus-tracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2ftracker.uw0.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.internetwarriors.net%3a1337%2fannounce&tr=udp%3a%2f%2fthetracker.org%3a80%2fannounce&tr=udp%3a%2f%2fperu.subventas.com%3a53%2fannounce&tr=udp%3a%2f%2ftracker.e-utp.net%3a6969%2fannounce&tr=udp%3a%2f%2fmail.realliferpg.de%3a6969%2fannounce&tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&tr=udp%3a%2f%2fdaveking.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker0.ufibox.com%3a6969%2fannounce&tr=udp%3a%2f%2fvibe.community%3a6969%2fannounce&tr=http%3a%2f%2f54.37.106.164%3a80%2fannounce&tr=http%3a%2f%2fwww.wareztorrent.com%3a80%2fannounce&tr=https%3a%2f%2fwww.wareztorrent.com%3a443%2fannounc&tr=http%3a%2f%2fmilanesitracker.tekcities.com%3a80%2fannounce&tr=http%3a%2f%2fsiambit.org%3a80%2fannounce.php&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=http%3a%2f%2fbt.okmp3.ru%3a2710%2fannounce&tr=http%3a%2f%2ftracker.noobsubs.net%3a80%2fannounce&tr=https%3a%2f%2ftracker.bt-hash.com%3a443%2fannounce&tr=http%3a%2f%2f1337.abcvg.info%3a80%2fannounce&tr=udp%3a%2f%2fapp.icon256.com%3a8000%2fannounce&tr=udp%3a%2f%2fipv6.tracker.zerobytes.xyz%3a16661%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.0x.tf%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.sigterm.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.birkenwald.de%3a6969%2fannounce&tr=udp%3a%2f%2fcdn-2.gamecoast.org%3a6969%2fannounce&tr=udp%3a%2f%2fretracker.hotplug.ru%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce&tr=https%3a%2f%2f1337.abcvg.info%3a443%2fannounce&tr=udp%3a%2f%2ftorrentclub.online%3a54123%2fannounce&tr=udp%3a%2f%2f6rt.tace.ru%3a80%2fannounce&tr=udp%3a%2f%2fudp-tracker.shittyurl.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.beeimg.com%3a6969%2fannounce&tr=udp%3a%2f%2fcdn-1.gamecoast.org%3a6969%2fannounce&tr=http%3a%2f%2ftracker.gbitt.info%3a80%2fannounce&tr=https%3a%2f%2ftracker.gbitt.info%3a443%2fannounce&tr=http%3a%2f%2ftorrentsmd.com%3a8080%2fannounce&tr=https%3a%2f%2ftp.m-team.cc%3a443%2fannounce.php&tr=http%3a%2f%2ftracker.bt4g.com%3a2095%2fannounce&tr=http%3a%2f%2ftr.cili001.com%3a8070%2fannounce&tr=http%3a%2f%2fbt.3kb.xyz%3a80%2fannounce&tr=http%3a%2f%2ftracker.trackerfix.com%3a80%2fannounce&tr=https%3a%2f%2fwww.wareztorrent.com%3a443%2fannounce&tr=https%3a%2f%2ftorrents.linuxmint.com%3a443%2fannounce.php&tr=https%3a%2f%2ftrakx.herokuapp.com%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.cf%3a443%2fannounce&tr=https%3a%2f%2ftr.steins-gate.moe%3a2096%2fannounce&tr=https%3a%2f%2ftracker.parrotsec.org%3a443%2fannounce&tr=http%3a%2f%2fns3107607.ip-54-36-126.eu%3a6969%2fannounce&tr=https%3a%2f%2ftracker.coalition.space%3a443%2fannounce&tr=http%3a%2f%2ftracker.files.fm%3a6969%2fannounce&tr=https%3a%2f%2fbt.nfshost.com%3a443%2fannounce&tr=https%3a%2f%2ftracker.sloppyta.co%3a443%2fannounce&tr=https%3a%2f%2ftracker.nitrix.me%3a443%2fannounce&tr=http%3a%2f%2ftracker.ipv6tracker.ru%3a80%2fannounce&tr=https%3a%2f%2ftracker.renfei.net%3a443%2fannounce&tr=https%3a%2f%2ftracker.iriseden.eu%3a443%2fannounce&tr=https%3a%2f%2ftracker.hama3.net%3a443%2fannounce&tr=http%3a%2f%2frt.tace.ru%3a80%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=udp%3a%2f%2fpublic.tracker.vraphim.com%3a6969%2fannounce&tr=udp%3a%2f%2f47.ip-51-68-199.eu%3a6969%2fannounce&tr=udp%3a%2f%2fedu.uifr.ru%3a6969%2fannounce&tr=udp%3a%2f%2fline-net.ru%3a6969%2fannounce&tr=https%3a%2f%2fw.wwwww.wtf%3a443%2fannounce&tr=udp%3a%2f%2ftracker.cyberia.is%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2710%2fannounce&tr=udp%3a%2f%2ftracker4.itzmx.com%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.shkinev.me%3a6969%2fannounce&tr=udp%3a%2f%2fdiscord.heihachi.pw%3a6969%2fannounce&tr=udp%3a%2f%2ftracker1.itzmx.com%3a8080%2fannounce&tr=udp%3a%2f%2ftracker.v6speed.org%3a6969%2fannounce&tr=udp%3a%2f%2fvalakas.rollo.dnsabr.com%3a2710%2fannounce&tr=udp%3a%2f%2finferno.demonoid.is%3a3391%2fannounce&tr=http%3a%2f%2ftracker3.itzmx.com%3a6961%2fannounce&tr=http%3a%2f%2fshare.camoe.cn%3a8080%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2f208.83.20.20%3a6969%2fannounce&tr=udp%3a%2f%2f91.216.110.52%3a451%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2f93.158.213.92%3a1337%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=https%3a%2f%2ftracker.imgoingto.icu%3a443%2fannounce&tr=http%3a%2f%2fvps02.net.orel.ru%3a80%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2ftracker3.itzmx.com%3a6961%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce
+~~~
+
 #### Sannomiya Tsubaki
+
+- [三宮つばき (@sannomiya_cmore) / Twitter](https://twitter.com/sannomiya_cmore)
 
 ##### `[REBD-552] 三宮つばき-熱帶香格里拉`
 
@@ -14,6 +55,8 @@ magnet:?xt=urn:btih:56f4a518f1f8430331cce3aa82d071d426d1bfb3&dn=%5bREBD-552%5d%2
 ~~~
 
 #### Aizawa Minami
+
+- [相沢みなみ 最優秀女優賞受賞🧸 (@minami_aizawa_) / Twitter](https://twitter.com/minami_aizawa_)
 
 ##### [`+++ [HD] IPX-104 狙われた通学路 共謀痴漢電車 相沢みなみ`](https://sukebei.nyaa.si/view/2445492)
 
@@ -34,6 +77,8 @@ magnet:?xt=urn:btih:0fe80d1363bfa36ea430cb5be8e9b6d5f03ff149&dn=%2B%2B%2B%20%5BH
 ~~~
 
 #### Momonogi Kana
+
+- [桃乃木かな (@Kana_Momonogi) / Twitter](https://twitter.com/Kana_Momonogi)
 
 - https://www.hinwen2.com/37649.html
 - https://www.javhoo.com/star/%E6%A1%83%E4%B9%83%E6%9C%A8%E3%81%8B%E3%81%AA
@@ -119,6 +164,11 @@ magnet:?xt=urn:btih:403a67584d28b1e29f4362ce391f186d4c4b4c90&dn=ipx-486&tr=https
 ~~~
 
 - [ipx-486 | 磁力猫-磁力搜索引擎](https://clm150.xyz/hash/a46ab00a85408877bdbf5d01300efcea4fe22540.html)
+
+#### Tsubasa Aoi
+
+- [#翼あおい - Twitter 搜索 / Twitter](https://twitter.com/hashtag/%E7%BF%BC%E3%81%82%E3%81%8A%E3%81%84)
+
 
 
 
