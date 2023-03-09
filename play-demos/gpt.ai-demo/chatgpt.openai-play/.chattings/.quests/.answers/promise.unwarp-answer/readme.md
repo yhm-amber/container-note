@@ -1,4 +1,8 @@
 
+## Async Result
+
+示例程序： [<kbd>./async-result.tsx</kbd>](./async-result.tsx)
+
 ### 定义如下
 
 为解包结果自定义接口：
