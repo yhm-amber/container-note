@@ -3,9 +3,14 @@
 Lang Programming: 
 
 - [x] Unwarp `Promise<T>`
-- [x] Trans `setInterval` usage into *Lambda Calculate* (by *Church encoding*)
-
+- [ ] Trans `setInterval` usage into *Lambda Calculate* (by *Church encoding*)
+- [ ] yield on Lua
+- [ ] Diff with yield & async
 - [ ] Join on Gawk
+
+Web Dev: 
+
+- [ ] Web Machine
 
 AI: 
 
