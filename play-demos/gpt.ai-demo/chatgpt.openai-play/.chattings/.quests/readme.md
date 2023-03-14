@@ -3,6 +3,7 @@
 Lang Programming: 
 
 - [x] Unwarp `Promise<T>`
+- [ ] Async in other lang
 - [x] Trans `setInterval` usage into *Lambda Calculate* (by *Church encoding*) (还差仔细验证)
 - [ ] yield on Lua
 - [ ] Diff with yield & async
