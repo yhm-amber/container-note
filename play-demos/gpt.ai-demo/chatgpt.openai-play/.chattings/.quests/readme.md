@@ -3,7 +3,11 @@
 Tool Usage: 
 
 - [ ] what is the meaning about `git clone --bare -- ...` then `git push --mirror -- ...` ? ([from](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository))
+
+Decent sth: 
+
 - [ ] what is the diff between activitypub protocol and fedicerse protocol ?
+- [ ] arweave is web3 or web5 ? Could it in web5 ?
 
 Lang Programming: 
 
