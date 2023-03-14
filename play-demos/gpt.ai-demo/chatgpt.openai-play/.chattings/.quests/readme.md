@@ -1,5 +1,9 @@
 准备的问题
 
+Tool Usage: 
+
+- [ ] what is the meaning about `git clone --bare -- ...` then `git push --mirror -- ...` ? ([from](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository))
+
 Lang Programming: 
 
 - [x] Unwarp `Promise<T>`
