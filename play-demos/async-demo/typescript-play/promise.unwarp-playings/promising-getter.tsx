@@ -1,15 +1,15 @@
-interface AsyncResult<T>
+interface PromisingGetter<T>
 {
-  is_complete: boolean;
-  result?: T;
-  error?: any;
+    is_complete: boolean;
+    result?: T;
+    error?: any;
 } ;
 
-const run_async = 
+const getting_promise = 
     <T,> (promising: Promise<T> | PromiseLike<T>)
-    : AsyncResult<T> =>
+    : PromisingGetter<T> =>
     {
-        const result: AsyncResult<T> = {is_complete: false} ;
+        const result: PromisingGetter<T> = {is_complete: false} ;
         promising
             .then
             ( res => 
@@ -25,9 +25,9 @@ const run_async =
         return result ;
     } ;
 
-const async_result
-: AsyncResult<string> = 
-    run_async
+const promise_getter
+: PromisingGetter<string> = 
+    getting_promise
     (
         new Promise<string>
         ((resolve, reject) => 
@@ -44,15 +44,17 @@ const interval_id
 : number = 
     setInterval(() => 
     {
-        if (async_result.is_complete)
+        if (promise_getter.is_complete)
         {
             clearInterval(interval_id);
             
-            if (async_result.error)
-            { console.log(`Error occurred: ${async_result.error}`); } else
-            { console.log(`Result is: ${async_result.result}`); }
+            if (promise_getter.error)
+            { console.log(`Error occurred: ${promise_getter.error}`); } else
+            { console.log(`Result is: ${promise_getter.result}`); }
         } else
         {
             console.log(`... wait, plz ...`)
         }
     }, 400) ;
+
+//
