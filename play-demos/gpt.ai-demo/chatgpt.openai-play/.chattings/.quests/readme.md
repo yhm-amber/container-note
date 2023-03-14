@@ -3,6 +3,7 @@
 Tool Usage: 
 
 - [ ] what is the meaning about `git clone --bare -- ...` then `git push --mirror -- ...` ? ([from](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository))
+- [ ] what is the diff between activitypub protocol and fedicerse protocol ?
 
 Lang Programming: 
 
