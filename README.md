@@ -110,7 +110,7 @@ note:
 
 good things: 
 
-- [Containerization Explained | IBM](https://www.ibm.com/topics/containerization)
+- [Containerization Explained 容器化解释 | IBM](https://www.ibm.com/topics/containerization)
 - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 - [Worse Is Better -- Lisp: Good News, Bad News, How to Win Big](https://dreamsongs.com/WIB.html)
 - [容器战争 - Nolla](https://cmgs.me/life/container-war)
