@@ -94,37 +94,37 @@ Love.Death.and.Robots.S01E17.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 408.6
 Love.Death.and.Robots.S01E18.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 998.22MB
 ~~~~
 
-#### [`Love.Death.and.Robots.S01.1080p.NF.WEBRip.x265.HDR-KVK`](https://3d47.com/hash/fe3d5c6bb09529c9bdc3cfac185c28fe0bb7b983.html)
+#### [`[爱.死亡和机器人].Love.Death.and.Robots.S01.WEB-DL.1080P.H264.DDP5.1.English.内封简繁-NTG`](https://3d47.com/hash/15ed39dca88fd8155f899b38dd2088c8d9b0d09c.html)
 
 ~~~ magnet
-magnet:?xt=urn:btih:fe3d5c6bb09529c9bdc3cfac185c28fe0bb7b983&dn=Love.Death.and.Robots.S01.1080p.NF.WEBRip.x265.HDR-KVK
+magnet:?xt=urn:btih:15ed39dca88fd8155f899b38dd2088c8d9b0d09c&dn=[%E7%88%B1.%E6%AD%BB%E4%BA%A1%E5%92%8C%E6%9C%BA%E5%99%A8%E4%BA%BA].Love.Death.and.Robots.S01.WEB-DL.1080P.H264.DDP5.1.English.%E5%86%85%E5%B0%81%E7%AE%80%E7%B9%81-NTG
 ~~~
 
 ~~~ thunder
-thunder://QUFtYWduZXQ6P3h0PXVybjpidGloOmZlM2Q1YzZiYjA5NTI5YzliZGMzY2ZhYzE4NWMyOGZlMGJiN2I5ODNaWg==
+thunder://QUFtYWduZXQ6P3h0PXVybjpidGloOjE1ZWQzOWRjYTg4ZmQ4MTU1Zjg5OWIzOGRkMjA4OGM4ZDliMGQwOWNaWg==
 ~~~
 
 ~~~~ desc
-8.98 GB
+8.35 GB
 ----------------
-Love, Death & Robots S01E06 1080p HDR Netflix WEB-DL HEVC.mkv 166.37MB
-Love, Death & Robots S01E17 1080p HDR Netflix WEB-DL HEVC.mkv 275.58MB
-Love, Death & Robots S01E14 1080p HDR Netflix WEB-DL HEVC.mkv 327.46MB
-Love, Death & Robots S01E15 1080p HDR Netflix WEB-DL HEVC.mkv 369.78MB
-Love, Death & Robots S01E09 1080p HDR Netflix WEB-DL HEVC.mkv 397.49MB
-Love, Death & Robots S01E12 1080p HDR Netflix WEB-DL HEVC.mkv 404.1MB
-Love, Death & Robots S01E11 1080p HDR Netflix WEB-DL HEVC.mkv 435.06MB
-Love, Death & Robots S01E02 1080p HDR Netflix WEB-DL HEVC.mkv 445.07MB
-Love, Death & Robots S01E16 1080p HDR Netflix WEB-DL HEVC.mkv 447.01MB
-Love, Death & Robots S01E03 1080p HDR Netflix WEB-DL HEVC.mkv 543.47MB
-Love, Death & Robots S01E08 1080p HDR Netflix WEB-DL HEVC.mkv 549.72MB
-Love, Death & Robots S01E05 1080p HDR Netflix WEB-DL HEVC.mkv 581.34MB
-Love, Death & Robots S01E04 1080p HDR Netflix WEB-DL HEVC.mkv 640.2MB
-Love, Death & Robots S01E13 1080p HDR Netflix WEB-DL HEVC.mkv 654.57MB
-Love, Death & Robots S01E07 1080p HDR Netflix WEB-DL HEVC.mkv 709.99MB
-Love, Death & Robots S01E10 1080p HDR Netflix WEB-DL HEVC.mkv 730.53MB
-Love, Death & Robots S01E18 1080p HDR Netflix WEB-DL HEVC.mkv 750.46MB
-Love, Death & Robots S01E01 1080p HDR Netflix WEB-DL HEVC.mkv 770.86MB
+Love.Death.and.Robots.S01E18.The.Secret.War.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 886MB
+Love.Death.and.Robots.S01E01.Sonnies.Edge.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 881.71MB
+Love.Death.and.Robots.S01E04.Suits.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 693.23MB
+Love.Death.and.Robots.S01E13.Lucky.13.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 680.45MB
+Love.Death.and.Robots.S01E10.Shape-Shifters.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 647.64MB
+Love.Death.and.Robots.S01E03.The.Witness.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 611.45MB
+Love.Death.and.Robots.S01E07.Beyond.the.Aquila.Rift.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 601.04MB
+Love.Death.and.Robots.S01E05.Sucker.of.Souls.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 424.63MB
+Love.Death.and.Robots.S01E14.Zima.Blue.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 364.57MB
+Love.Death.and.Robots.S01E02.Three.Robots.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 361.44MB
+Love.Death.and.Robots.S01E09.The.Dump.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 359.96MB
+Love.Death.and.Robots.S01E16.Ice.Age.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 358.13MB
+Love.Death.and.Robots.S01E17.Alternate.Histories.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 354.52MB
+Love.Death.and.Robots.S01E12.Fish.Night.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 350.5MB
+Love.Death.and.Robots.S01E08.Good.Hunting.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 342.22MB
+Love.Death.and.Robots.S01E11.Helping.Hand.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 274.25MB
+Love.Death.and.Robots.S01E15.Blindspot.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 193.47MB
+Love.Death.and.Robots.S01E06.When.the.Yogurt.Took.Over.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv 169.96MB
 ~~~~
 
 #### [`Love.Death.and.Robots.S02.1080p.NF.WEB-DL.DDP5.1.HDR.HEVC-EniaHD`](https://3d47.com/hash/447fc23f084b7ab7d5fc19116191cbbe18b04091.html)
