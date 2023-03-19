@@ -59,7 +59,120 @@ magnet:?xt=urn:btih:787382185066ded194e5e588181dc176b1d91765&dn=%5bKamigami%26VC
 magnet:?xt=urn:btih:343fc360accb9f232d3c488aea4ec984cd5db270&dn=%5bKamigami%26VCB-Studio%5d%20Kizumonogatari%20III%20-%20Reiketsu%20Hen%20%5bMa10p_816p%5d&tr=udp%3a%2f%2f91.216.110.52%3a451%2fannounce&tr=udp%3a%2f%2f37.235.174.46%3a2710%2fannounce&tr=udp%3a%2f%2f163.172.170.127%3a6969%2fannounce&tr=udp%3a%2f%2f51.15.40.114%3a80%2fannounce&tr=udp%3a%2f%2f46.148.18.250%3a2710%2fannounce&tr=udp%3a%2f%2f46.148.18.254%3a2710%2fannounce&tr=udp%3a%2f%2f51.68.34.33%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.cyberia.is%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker3.itzmx.com%3a6961%2fannounce&tr=https%3a%2f%2f1337.abcvg.info%3a443%2fannounce&tr=https%3a%2f%2fbt.nfshost.com%3a443%2fannounce&tr=https%3a%2f%2ftp.m-team.cc%3a443%2fannounce.php&tr=https%3a%2f%2ftr.steins-gate.moe%3a2096%2fannounce&tr=https%3a%2f%2ftracker.coalition.space%3a443%2fannounce&tr=https%3a%2f%2ftracker.foreverpirates.co%3a443%2fannounce&tr=https%3a%2f%2ftracker.gbitt.info%3a443%2fannounce&tr=https%3a%2f%2ftracker.imgoingto.icu%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.cf%3a443%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.nitrix.me%3a443%2fannounce&tr=https%3a%2f%2ftracker.parrotsec.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.sloppyta.co%3a443%2fannounce&tr=https%3a%2f%2ftracker.tamersunion.org%3a443%2fannounce&tr=https%3a%2f%2ftorrents.linuxmint.com%3a443%2fannounce.php&tr=https%3a%2f%2ftr.ready4.icu%3a443%2fannounce&tr=https%3a%2f%2ftracker.bt-hash.com%3a443%2fannounce&tr=https%3a%2f%2ftracker.hama3.net%3a443%2fannounce&tr=https%3a%2f%2ftracker.iriseden.eu%3a443%2fannounce&tr=https%3a%2f%2ftracker.renfei.net%3a443%2fannounce&tr=https%3a%2f%2ftrakx.herokuapp.com%3a443%2fannounce&tr=https%3a%2f%2fw.wwwww.wtf%3a443%2fannounce&tr=https%3a%2f%2fwww.wareztorrent.com%3a443%2fannounc&tr=https%3a%2f%2fwww.wareztorrent.com%3a443%2fannounce&tr=http%3a%2f%2f1337.abcvg.info%3a80%2fannounce&tr=http%3a%2f%2fbt.3kb.xyz%3a80%2fannounce&tr=http%3a%2f%2fbt.okmp3.ru%3a2710%2fannounce&tr=http%3a%2f%2fipv4announce.sktorrent.eu%3a6969%2fannounce&tr=http%3a%2f%2fmilanesitracker.tekcities.com%3a80%2fannounce&tr=http%3a%2f%2fns3107607.ip-54-36-126.eu%3a6969%2fannounce&tr=http%3a%2f%2fopen.acgnxtracker.com%3a80%2fannounce&tr=http%3a%2f%2frt.tace.ru%3a80%2fannounce&tr=http%3a%2f%2fsiambit.org%3a80%2fannounce.php&tr=http%3a%2f%2ft.nyaatracker.com%3a80%2fannounce&tr=http%3a%2f%2ftorrentsmd.com%3a8080%2fannounce&tr=http%3a%2f%2ftr.cili001.com%3a8070%2fannounce&tr=http%3a%2f%2ftracker.bt4g.com%3a2095%2fannounce&tr=http%3a%2f%2ftracker.files.fm%3a6969%2fannounce&tr=http%3a%2f%2ftracker.gbitt.info%3a80%2fannounce&tr=http%3a%2f%2ftracker.ipv6tracker.ru%3a80%2fannounce&tr=http%3a%2f%2ftracker.noobsubs.net%3a80%2fannounce&tr=http%3a%2f%2ftracker.trackerfix.com%3a80%2fannounce&tr=http%3a%2f%2ftracker2.itzmx.com%3a6961%2fannounce&tr=http%3a%2f%2ftracker3.itzmx.com%3a6961%2fannounce&tr=http%3a%2f%2fvps02.net.orel.ru%3a80%2fannounce&tr=http%3a%2f%2fwww.wareztorrent.com%3a80%2fannounce&tr=udp%3a%2f%2f47.ip-51-68-199.eu%3a6969%2fannounce&tr=udp%3a%2f%2f6rt.tace.ru%3a80%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2710%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2fapp.icon256.com%3a8000%2fannounce&tr=udp%3a%2f%2fbubu.mapfactor.com%3a6969%2fannounce&tr=udp%3a%2f%2fcdn-1.gamecoast.org%3a6969%2fannounce&tr=udp%3a%2f%2fcdn-2.gamecoast.org%3a6969%2fannounce&tr=udp%3a%2f%2fdaveking.com%3a6969%2fannounce&tr=udp%3a%2f%2fdiscord.heihachi.pw%3a6969%2fannounce&tr=udp%3a%2f%2fedu.uifr.ru%3a6969%2fannounce&tr=udp%3a%2f%2fengplus.ru%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2ffree.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2finferno.demonoid.is%3a3391%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fipv6.tracker.zerobytes.xyz%3a16661%2fannounce&tr=udp%3a%2f%2fline-net.ru%3a6969%2fannounce&tr=udp%3a%2f%2fln.mtahost.co%3a6969%2fannounce&tr=udp%3a%2f%2fmail.realliferpg.de%3a6969%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fperu.subventas.com%3a53%2fannounce&tr=udp%3a%2f%2fpublic.tracker.vraphim.com%3a6969%2fannounce&tr=udp%3a%2f%2fretracker.hotplug.ru%3a2710%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2fthetracker.org%3a80%2fannounce&tr=udp%3a%2f%2ftorrentclub.online%3a54123%2fannounce&tr=udp%3a%2f%2ftracker.0x.tf%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.beeimg.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.birkenwald.de%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.e-utp.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.internetwarriors.net%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.shkinev.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.sigterm.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.uw0.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.v6speed.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker0.ufibox.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.itzmx.com%3a8080%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker4.itzmx.com%3a2710%2fannounce&tr=udp%3a%2f%2fudp-tracker.shittyurl.org%3a6969%2fannounce&tr=udp%3a%2f%2fus-tracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2fvalakas.rollo.dnsabr.com%3a2710%2fannounce&tr=udp%3a%2f%2fvibe.community%3a6969%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2f93.158.213.92%3a1337%2fannounce&tr=udp%3a%2f%2f181.43.17.35%3a1337%2fannounce&tr=udp%3a%2f%2f193.218.118.220%3a6969%2fannounce&tr=udp%3a%2f%2f208.83.20.20%3a6969%2fannounce&tr=udp%3a%2f%2f104.238.198.186%3a8000%2fannounce&tr=udp%3a%2f%2f184.105.151.164%3a6969%2fannounce&tr=udp%3a%2f%2f51.81.46.170%3a6969%2fannounce&tr=udp%3a%2f%2f51.68.199.47%3a6969%2fannounce&tr=udp%3a%2f%2f5.206.49.194%3a6969%2fannounce&tr=udp%3a%2f%2f185.181.60.67%3a80%2fannounce&tr=http%3a%2f%2f54.37.106.164%3a80%2fannounce&tr=http%3a%2f%2f104.238.198.186%3a8000%2fannounce&tr=http%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=http%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=http%3a%2f%2ftracker.prq.to%2fannounce&tr=http%3a%2f%2fopen.acgtracker.com%3a1096%2fannounce&tr=http%3a%2f%2ftr.bangumi.moe%3a6969%2fannounce&tr=https%3a%2f%2ft-115.rhcloud.com%2fonly_for_ylbud&tr=http%3a%2f%2fbtfile.sdo.com%3a6961%2fannounce&tr=http%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=https%3a%2f%2ftr.bangumi.moe%3a9696%2fannounce&tr=http%3a%2f%2ft.nyaatracker.com%2fannounce&tr=http%3a%2f%2fopen.nyaatorrents.info%3a6544%2fannounce&tr=http%3a%2f%2ft2.popgo.org%3a7456%2fannonce&tr=http%3a%2f%2fshare.camoe.cn%3a8080%2fannounce&tr=http%3a%2f%2fopentracker.acgnx.se%2fannounce&tr=http%3a%2f%2ftracker.acgnx.se%2fannounce
 ~~~
 
+### Love Death + Robots
 
+#### [`Love.Death.and.Robots.S01.REPACK.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD`](https://3d47.com/hash/328944963cea32709285128b8e9ee3d50648e111.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:328944963cea32709285128b8e9ee3d50648e111&dn=Love.Death.and.Robots.S01.REPACK.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD
+~~~
+
+~~~ thunder
+thunder://QUFtYWduZXQ6P3h0PXVybjpidGloOjMyODk0NDk2M2NlYTMyNzA5Mjg1MTI4YjhlOWVlM2Q1MDY0OGUxMTFaWg==
+~~~
+
+~~~~ desc
+size: 9.87 GB
+----------------
+Love.Death.and.Robots.S01E01.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 999.82MB
+Love.Death.and.Robots.S01E02.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 440.76MB
+Love.Death.and.Robots.S01E03.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 694.47MB
+Love.Death.and.Robots.S01E04.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 812.14MB
+Love.Death.and.Robots.S01E05.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 513.69MB
+Love.Death.and.Robots.S01E06.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 213.32MB
+Love.Death.and.Robots.S01E07.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 714.76MB
+Love.Death.and.Robots.S01E08.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 460.08MB
+Love.Death.and.Robots.S01E09.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 432.35MB
+Love.Death.and.Robots.S01E10.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 758.5MB
+Love.Death.and.Robots.S01E11.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 343.28MB
+Love.Death.and.Robots.S01E12.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 419.73MB
+Love.Death.and.Robots.S01E13.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 781.8MB
+Love.Death.and.Robots.S01E14.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 435.78MB
+Love.Death.and.Robots.S01E15.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 253.32MB
+Love.Death.and.Robots.S01E16.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 430.1MB
+Love.Death.and.Robots.S01E17.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 408.62MB
+Love.Death.and.Robots.S01E18.1080p.NF.WEB-DL.DDP5.1.H.264.HUN.ENG-PTHD.mkv 998.22MB
+~~~~
+
+#### [`Love.Death.and.Robots.S01.1080p.NF.WEBRip.x265.HDR-KVK`](https://3d47.com/hash/fe3d5c6bb09529c9bdc3cfac185c28fe0bb7b983.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:fe3d5c6bb09529c9bdc3cfac185c28fe0bb7b983&dn=Love.Death.and.Robots.S01.1080p.NF.WEBRip.x265.HDR-KVK
+~~~
+
+~~~ thunder
+thunder://QUFtYWduZXQ6P3h0PXVybjpidGloOmZlM2Q1YzZiYjA5NTI5YzliZGMzY2ZhYzE4NWMyOGZlMGJiN2I5ODNaWg==
+~~~
+
+~~~~ desc
+8.98 GB
+----------------
+Love, Death & Robots S01E06 1080p HDR Netflix WEB-DL HEVC.mkv 166.37MB
+Love, Death & Robots S01E17 1080p HDR Netflix WEB-DL HEVC.mkv 275.58MB
+Love, Death & Robots S01E14 1080p HDR Netflix WEB-DL HEVC.mkv 327.46MB
+Love, Death & Robots S01E15 1080p HDR Netflix WEB-DL HEVC.mkv 369.78MB
+Love, Death & Robots S01E09 1080p HDR Netflix WEB-DL HEVC.mkv 397.49MB
+Love, Death & Robots S01E12 1080p HDR Netflix WEB-DL HEVC.mkv 404.1MB
+Love, Death & Robots S01E11 1080p HDR Netflix WEB-DL HEVC.mkv 435.06MB
+Love, Death & Robots S01E02 1080p HDR Netflix WEB-DL HEVC.mkv 445.07MB
+Love, Death & Robots S01E16 1080p HDR Netflix WEB-DL HEVC.mkv 447.01MB
+Love, Death & Robots S01E03 1080p HDR Netflix WEB-DL HEVC.mkv 543.47MB
+Love, Death & Robots S01E08 1080p HDR Netflix WEB-DL HEVC.mkv 549.72MB
+Love, Death & Robots S01E05 1080p HDR Netflix WEB-DL HEVC.mkv 581.34MB
+Love, Death & Robots S01E04 1080p HDR Netflix WEB-DL HEVC.mkv 640.2MB
+Love, Death & Robots S01E13 1080p HDR Netflix WEB-DL HEVC.mkv 654.57MB
+Love, Death & Robots S01E07 1080p HDR Netflix WEB-DL HEVC.mkv 709.99MB
+Love, Death & Robots S01E10 1080p HDR Netflix WEB-DL HEVC.mkv 730.53MB
+Love, Death & Robots S01E18 1080p HDR Netflix WEB-DL HEVC.mkv 750.46MB
+Love, Death & Robots S01E01 1080p HDR Netflix WEB-DL HEVC.mkv 770.86MB
+~~~~
+
+#### [`Love.Death.and.Robots.S02.1080p.NF.WEB-DL.DDP5.1.HDR.HEVC-EniaHD`](https://3d47.com/hash/447fc23f084b7ab7d5fc19116191cbbe18b04091.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:447fc23f084b7ab7d5fc19116191cbbe18b04091&dn=Love.Death.and.Robots.S02.1080p.NF.WEB-DL.DDP5.1.HDR.HEVC-EniaHD
+~~~
+
+~~~ thunder
+thunder://QUFtYWduZXQ6P3h0PXVybjpidGloOjQ0N2ZjMjNmMDg0YjdhYjdkNWZjMTkxMTYxOTFjYmJlMThiMDQwOTFaWg==
+~~~
+
+~~~~ desc
+4.55 GB
+----------------
+Love.Death.and.Robots.S02E06.1080p.NF.WEB-DL.DDP5.1.HDR.HEVC-EniaHD.mkv 274.6MB
+Love.Death.and.Robots.S02E01.1080p.NF.WEB-DL.DDP5.1.HDR.HEVC-EniaHD.mkv 493.31MB
+Love.Death.and.Robots.S02E05.1080p.NF.WEB-DL.DDP5.1.HDR.HEVC-EniaHD.mkv 516.05MB
+Love.Death.and.Robots.S02E08.1080p.NF.WEB-DL.DDP5.1.HDR.HEVC-EniaHD.mkv 557.76MB
+Love.Death.and.Robots.S02E02.1080p.NF.WEB-DL.DDP5.1.HDR.HEVC-EniaHD.mkv 584.72MB
+Love.Death.and.Robots.S02E07.1080p.NF.WEB-DL.DDP5.1.HDR.HEVC-EniaHD.mkv 605.39MB
+Love.Death.and.Robots.S02E04.1080p.NF.WEB-DL.DDP5.1.HDR.HEVC-EniaHD.mkv 771.87MB
+Love.Death.and.Robots.S02E03.1080p.NF.WEB-DL.DDP5.1.HDR.HEVC-EniaHD.mkv 854.52MB
+~~~~
+
+#### [`Love.Death.and.Robots.S03.720p.NF.WEBRip.DDP5.1.Atmos.x264-SMURF[rartv]`](https://3d47.com/hash/c29bb8217b55080e57056fa2d9aae127a2dad3e3.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:c29bb8217b55080e57056fa2d9aae127a2dad3e3&dn=Love.Death.and.Robots.S03.720p.NF.WEBRip.DDP5.1.Atmos.x264-SMURF[rartv]
+~~~
+
+~~~ thunder
+thunder://QUFtYWduZXQ6P3h0PXVybjpidGloOmMyOWJiODIxN2I1NTA4MGU1NzA1NmZhMmQ5YWFlMTI3YTJkYWQzZTNaWg==
+~~~
+
+~~~~ desc
+2.72 GB
+----------------
+Love.Death.and.Robots.S03E01.Three.Robots.Exit.Strategies.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 224.99MB
+Love.Death.and.Robots.S03E02.Bad.Travelling.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 372.28MB
+Love.Death.and.Robots.S03E03.The.Very.Pulse.of.the.Machine.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 441.57MB
+Love.Death.and.Robots.S03E04.Night.of.the.Mini.Dead.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 113.56MB
+Love.Death.and.Robots.S03E05.Kill.Team.Kill.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 279.33MB
+Love.Death.and.Robots.S03E06.Swarm.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 274.66MB
+Love.Death.and.Robots.S03E07.Masons.Rats.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 188.46MB
+Love.Death.and.Robots.S03E08.In.Vaulted.Halls.Entombed.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 292.84MB
+Love.Death.and.Robots.S03E09.Jibaro.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 596.75MB
+~~~~
 
 ## Movies
 
