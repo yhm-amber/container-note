@@ -1,0 +1,16 @@
+[site]: https://angular-rust.github.io/ "Angular Rust : Just Develop your Solution, Don't worry about platform specifics. Angular Rust 是 Rust 语言的高生产力、平台无关的前端框架。它现在支持桌面和网络开发。 Angular Rust 目前使用 Clutter 进行桌面开发，使用 WebAssembly 进行 Web 开发。我们计划增加对移动开发的支持。"
+
+[ux-dataflow.src/gh]: https://github.com/angular-rust/ux-dataflow.git "(MPL-2.0) (Rust 100%) UX-Dataflow is a streaming capable data multiplexer that allows you to aggregate data and then process it using a Chain of Responsibility design pattern."
+[ux-components.src/gh]: https://github.com/angular-rust/ux-components.git "(MPL-2.0) (Rust 100%) Material Design Components for the Angular Rust framework"
+[ux-animate.src/gh]: https://github.com/angular-rust/ux-animate.git "(MPL-2.0) (Rust 100%) A simple but powerful tweening, spring physics, animation library for Rust"
+[ux-indicators.src/gh]: https://github.com/angular-rust/ux-indicators.git "(MPL-2.0) (Rust 100%) A technical analysis indicators library written in Rust"
+[ruex.src/gh]: https://github.com/angular-rust/ruex.git "(MPL-2.0) (Rust 100%) Design pattern framework for Rust on top of PureMVC"
+[ux-charts.src/gh]: https://github.com/angular-rust/ux-charts.git "(MPL-2.0) (Rust 100%) Simple, responsive, modern Charts with zero dependencies"
+[ux-dx.src/gh]: https://github.com/angular-rust/ux-dx.git "(MPL-2.0) (Rust 100%) The core for UX Components and UX Animate"
+[yew-components.src/gh]: https://github.com/angular-rust/yew-components.git "(MPL-2.0) (Rust 100%) Material Design Components for the Yew framework"
+[ux-primitives.src/gh]: https://github.com/angular-rust/ux-primitives.git "(MPL-2.0) (Rust 100%) UX Primitives is a core graphic and color abstraction for Angular Rust"
+
+[ux-samples.src/gh]: https://github.com/angular-rust/ux-samples.git "I am just using and testing Angular Rust and UX Framework here"
+[borderland.src/gh]: https://github.com/angular-rust/borderland.git "Application platform powers Loadbalancer, Microservices and API Gateways"
+[opengles-tutorial.src/gh]: https://github.com/angular-rust/opengles-tutorial.git "Rust OpenGL ES 2.0/3.0+ Tutorial"
+[ux-vg.src/gh]: https://github.com/angular-rust/ux-vg.git "Antialiased 2D vector drawing library written in Rust"
