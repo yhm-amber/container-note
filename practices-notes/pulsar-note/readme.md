@@ -81,6 +81,7 @@ helm upgrade <pulsar-release-name> apache/pulsar -f pulsar.yaml
 
 ## client
 
-[client:stargate.src/gh]: https://github.com/jeffgrunewald/stargate.git "(Apache-2.0) An Apache Pulsar client written in Elixir"
+[client:stargate.src/gh]: https://github.com/jeffgrunewald/stargate.git "(Apache-2.0) (Elixir 100.0%) An Apache Pulsar client written in Elixir"
+[client:pulserl.src/gh]: https://github.com/skulup/pulserl.git "(Apache-2.0) (Erlang 100.0%) Apache Pulsar client library for Erlang/Elixir"
 
-[stargate][client:stargate.src/gh]
+[stargate][client:stargate.src/gh] | [pulserl][client:pulserl.src/gh]
