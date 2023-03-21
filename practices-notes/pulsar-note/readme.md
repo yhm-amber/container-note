@@ -78,3 +78,9 @@ helm repo update
 helm get values -- <pulsar-release-name> > pulsar.yaml
 helm upgrade <pulsar-release-name> apache/pulsar -f pulsar.yaml
 ~~~
+
+## client
+
+[client:stargate.src/gh]: https://github.com/jeffgrunewald/stargate.git "(Apache-2.0) An Apache Pulsar client written in Elixir"
+
+[stargate][client:stargate.src/gh]
