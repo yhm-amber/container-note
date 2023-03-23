@@ -1,2 +1,3 @@
 
-- [[../../../practices-notes/chatgpt.icloudnative.io-note][🚀 note: Chanzhaoyu deploied on icloudnative.io]]
+- [[../../../practices-notes/chatgpt.icloudnative.io-note][🚀 note: chat.icloudnative.io]]
+- [[../../../practices-notes/chatgpt.openai-note][👾 note: chat.openai.com/chat]]
