@@ -4,6 +4,142 @@ also published at : [mirror.xyz](https://mirror.xyz/0x37Da98E4b1d562f002dF022D91
 
 --------------------
 
+### 菠萝和凤梨的多语言查询 (new bing)
+
+#### 1/15
+
+> 怎么挑选凤梨？请用英文搜索，然后用中文回复我，
+
+- 正在搜索: how to choose pineapple
+- 正在为你生成答案…
+
+选择凤梨时，可以从以下几个方面考虑： 
+
+1. 外观：选择表面光滑、色泽黄绿、果皮有光泽的凤梨。 
+2. 气味：选择有浓郁香气的凤梨。 
+3. 触感：选择果肉较硬、弹性好的凤梨。 
+4. 重量：选择重量较重的凤梨，因为重量越重，说明水分越多，口感也会更好。 
+5. 叶子：如果凤梨上的叶子很容易拔下来，说明它已经成熟了。
+
+希望这些信息能帮到你。😊
+
+源: 与必应的对话， 2023/3/26(1) How to Pick a Pineapple: 5 Simple Tips - Healthline. https://www.healthline.com/nutrition/how-to-pick-a-pineapple 访问时间 2023/3/26.
+(2) How to Pick a Pineapple | Williams Sonoma Taste. https://blog.williams-sonoma.com/how-to-pick-a-pineapple/ 访问时间 2023/3/26.
+(3) How to choose & cut a pineapple - YouTube. https://www.youtube.com/watch?v=dDxBF26KE78 访问时间 2023/3/26.
+
+#### 2/15
+
+> 怎么挑选凤梨？请用日文搜索，并用中文回我。
+
+- 正在搜索: パイナップルの選び方
+- 正在为你生成答案…
+
+选择菠萝时，可以从以下几个方面考虑： 
+
+1. 外观：选择表面光滑、色泽黄绿、果皮有光泽的菠萝。 
+2. 气味：选择有浓郁香气的菠萝。 
+3. 触感：选择果肉较硬、弹性好的菠萝。 
+4. 重量：选择重量较重的菠萝，因为重量越重，说明水分越多，口感也会更好。 
+5. 叶子：如果菠萝上的叶子很容易拔下来，说明它已经成熟了。
+
+希望这些信息能帮到你。😊
+
+源: 与必应的对话， 2023/3/26(1) パイナップルは追熟する？ベストな選び方や保存方法・食べ頃は？. https://bing.com/search?q=%e3%83%91%e3%82%a4%e3%83%8a%e3%83%83%e3%83%97%e3%83%ab%e3%81%ae%e9%81%b8%e3%81%b3%e6%96%b9 访问时间 2023/3/26.
+(2) パイナップルの選び方とは？甘くておいしいパイナップルを見極めよう！ | DELISH KITCHEN. https://delishkitchen.tv/articles/1719 访问时间 2023/3/26.
+(3) パイナップルの選び方、教えます！ | 石垣島ナビ. https://ishigakijimanavi.com/eat/how-choose-pineapple/ 访问时间 2023/3/26.
+(4) おいしいパイナップルの選び方・見分け方 実際に食べた結果. https://www.kudamononavi.com/erabikata/pineapple 访问时间 2023/3/26.
+(5) 【パイナップルの選び方】美味しく甘い完熟を見極める6つのコツ | 食・料理 | オリーブオイルをひとまわし. https://www.olive-hitomawashi.com/column/2021/12/6-28.html 访问时间 2023/3/26.
+
+#### 3/15
+
+> 怎么挑选凤梨？请用中文搜索，并用中文回我。
+
+- 正在搜索: 凤梨的选购技巧
+- 正在为你生成答案…
+
+选择凤梨时，可以从以下几个方面考虑： 
+
+1. 外观：选择表面光滑、色泽黄绿、果皮有光泽的菠萝。 
+2. 气味：选择有浓郁香气的菠萝。 
+3. 触感：选择果肉较硬、弹性好的菠萝。 
+4. 重量：选择重量较重的菠萝，因为重量越重，说明水分越多，口感也会更好。 
+5. 叶子：如果菠萝上的叶子很容易拔下来，说明它已经成熟了。
+
+希望这些信息能帮到你。😊
+
+源: 与必应的对话， 2023/3/26(1) 如何挑选凤梨 选择凤梨的技巧 - 五笔之家. https://wubizhijia.com/a/32359.html 访问时间 2023/3/26.
+(2) 如何挑选香甜的凤梨，掌握以下“八看”要点，你就是凤梨挑选专家 - 知乎. https://zhuanlan.zhihu.com/p/354823272 访问时间 2023/3/26.
+(3) 凤梨怎么切图解 凤梨怎么削皮图解-5号网. http://www.5h.com/ys/110194.html 访问时间 2023/3/26.
+(4) 怎样挑选凤梨-百度经验. https://jingyan.baidu.com/article/456c463b83491d0a5831441b.html 访问时间 2023/3/26.
+(5) 凤梨多少钱一斤？有哪些选购技巧？ - 惠农网. https://news.cnhnb.com/rdzx/detail/420641/ 访问时间 2023/3/26.
+
+#### 4/15
+
+> 凤梨和菠萝的区别。分别用英文、日文、中文搜索，并用中文总结结果给我。
+
+- 正在搜索: 凤梨和菠萝的区别
+- 正在为你生成答案…
+
+菠萝和凤梨是同一种水果，但是在不同的地方，人们称呼它们的名字不同。在中国大陆，人们称之为菠萝；而在台湾、香港等地区，人们称之为凤梨。¹⁵ 
+
+从外观上看，菠萝的叶子是带有锯齿的，摸着非常扎手；而凤梨的叶子很顺滑，不带锯齿边，摸着也不扎手。¹²
+
+此外，凤梨和菠萝的口感也有些不同。凤梨较甜，水分多，不麻嘴；而菠萝甜度低，吃多了会有嘴麻的感觉。³
+
+希望这些信息能帮到你。😊
+
+源: 与必应的对话， 2023/3/26(1) 菠萝、凤梨是同一种水果吗？区别在哪？今天终于弄懂，别再买错了. https://new.qq.com/rain/a/20220504A02DKH00 访问时间 2023/3/26.
+(2) 凤梨和菠萝的区别-百度经验. https://jingyan.baidu.com/article/2c8c281dbc6b9c0008252ae3.html 访问时间 2023/3/26.
+(3) 菠萝和凤梨有什么区别，为什么有些人傻傻分不清？ - 知乎. https://www.zhihu.com/question/447284027 访问时间 2023/3/26.
+(4) 让你分分钟认清凤梨和菠萝的区别 - 知乎. https://zhuanlan.zhihu.com/p/58979075 访问时间 2023/3/26.
+(5) 菠萝和凤梨有区别吗？ - 知乎. https://www.zhihu.com/question/20788381 访问时间 2023/3/26.
+(6) 凤梨和菠萝一样吗？有什么区别？_百度知道. https://zhidao.baidu.com/question/585232079.html 访问时间 2023/3/26.
+
+#### 5/15
+
+> 凤梨和菠萝的区别。用英文、日文搜索，并用中文总结结果给我。
+
+- 正在搜索: difference between pineapple and pineapple in English and Japanese
+- 正在为你生成答案…
+
+我找到了一些关于凤梨和菠萝的英文和日文搜索结果，但是没有找到中文总结。你是否需要我再次搜索中文结果？
+
+源: 与必应的对话， 2023/3/26(1) . https://bing.com/search?q=difference+between+pineapple+and+pineapple+in+English+and+Japanese 访问时间 2023/3/26.
+(2) Here's why a pineapple is called "ananas" in just about every language .... https://historyhustle.com/heres-why-a-pineapple-is-called-ananas-in-just-about-every-language-but-english/ 访问时间 2023/3/26.
+(3) PINEAPPLE | English meaning - Cambridge Dictionary. https://dictionary.cambridge.org/dictionary/english/pineapple 访问时间 2023/3/26.
+(4) Pineapple - Wikipedia. https://en.wikipedia.org/wiki/Pineapple 访问时间 2023/3/26.
+
+#### 6/15
+
+> 凤梨和菠萝的区别。请用英文搜索，并用中文总结结果给我。
+
+- 正在搜索: difference between pineapple and pineapple in English
+- 正在为你生成答案…
+
+Pineapple和Pineapple是同一种水果，只是在不同的地方，人们称呼它们的名字不同。在英国，人们称之为pineapple。² 
+
+希望这些信息能帮到你。😊
+
+源: 与必应的对话， 2023/3/26(1) PINEAPPLE | English meaning - Cambridge Dictionary. https://dictionary.cambridge.org/dictionary/english/pineapple 访问时间 2023/3/26.
+(2) . https://bing.com/search?q=difference+between+pineapple+and+pineapple+in+English 访问时间 2023/3/26.
+(3) Pineapple definition and meaning | Collins English Dictionary. https://www.collinsdictionary.com/dictionary/english/pineapple 访问时间 2023/3/26.
+(4) Pineapple - Wikipedia. https://en.wikipedia.org/wiki/Pineapple 访问时间 2023/3/26.
+
+#### 7/15
+
+> 凤梨和菠萝在哪些国家流行？
+
+- 正在搜索: 凤梨和菠萝在哪些国家流行？
+- 正在为你生成答案…
+
+凤梨和菠萝在世界上80多个国家及地区广泛种植。¹ 在中国，菠萝种植历史悠久，种植面积和产量均居世界前列。¹ 
+
+希望这些信息能帮到你。😊
+
+源: 与必应的对话， 2023/3/26(1) 我国菠萝市场与产业调查分析报告 - 知乎. https://zhuanlan.zhihu.com/p/356060714 访问时间 2023/3/26.
+(2) 我国菠萝产业分析简报！_腾讯新闻. https://new.qq.com/rain/a/20210325A02GB800 访问时间 2023/3/26.
+(3) 菠萝、凤梨是同一种水果吗？区别在哪？今天终于弄懂，别再买错了. https://new.qq.com/rain/a/20220504A02DKH00 访问时间 2023/3/26.
+
 ### 重试的英文 (new bing)
 
 ~~~
