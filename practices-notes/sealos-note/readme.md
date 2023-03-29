@@ -1,3 +1,13 @@
+
+[site]: https://sealos.io "Sealos is a Kubernetes distribution, a general-purpose cloud operating system for managing cloud-native applications."
+[docs/site]: https://sealos.io/docs/Intro "Intro | sealos"
+[src/gh]: https://github.com/labring/sealos.git "(Apache-2.0) (Languages: Go 81.3%, TypeScript 9.9%, Makefile 4.0%, SCSS 2.3%, Shell 1.6%, Dockerfile 0.7%, JavaScript 0.2%) Sealos is a Kubernetes distribution, a general-purpose Cloud Operating System designed for managing cloud-native applications. Demo: https://cloud.sealos.io"
+[app/site]: https://cloud.sealos.io
+
+[🧮 site][site] | [🧊 app][app/site] | [🪁 docs][docs/site] | [🦔 src][src/gh]
+
+-----
+
 项目地址： [`labring/sealos`](https://github.com/labring/sealos.git) 
 
 使用它能快速部署一个 Kubernetes 。
