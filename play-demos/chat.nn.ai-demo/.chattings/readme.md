@@ -150,7 +150,7 @@ echo "$2"
 (2) bash: Accessing function call stack in trap function. https://unix.stackexchange.com/questions/80476/bash-accessing-function-call-stack-in-trap-function 访问时间 2023/3/29.
 (3) shell - $FUNCNAME alternative in /bin/sh - Stack Overflow. https://stackoverflow.com/questions/33202684/funcname-alternative-in-bin-sh 访问时间 2023/3/29.
 
-#### --/--
+#### XX/XX
 
 > 你的这三个参考，最多只有提到“POSIX SHell 不支持 FUNCNAME 变量”，并且你可能在哪里看过“Ash 是一个 POSIX SHell”这样的话，因此得到了这样的结论。但是，有没有可能这句话的含义在于强调 Ash 可以支持 POSIX 模式，而不是说它只是一个 POSIX SHell 的实现而不存在任何超集？就像其中一个参考中的句式一样，如果 Ash 真的没有新增任何东西那么为何还需要有 Ash 这样一个实现？因此我认为， FUNCNAME 变量在 Ash 中不一定是一个特定版本才支持的非标准功能，这个定论需要有明确的直接的参考才有意义。
 
@@ -758,7 +758,7 @@ MyMacros.square(2 + 3)
 
 实在不好意思，我现在无法对此做出回应。 要不我们换个话题？
 
-#### --/--
+#### XX/XX
 
 > 实在不好意思，能不能继续这个话题？
 
