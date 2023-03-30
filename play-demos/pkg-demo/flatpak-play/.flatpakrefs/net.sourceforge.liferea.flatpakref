@@ -1,7 +1,7 @@
 [Flatpak Ref]
-Name=io.github.tralph3.Steam_Metadata_Editor
+Name=net.sourceforge.liferea
 Branch=stable
-Title=io.github.tralph3.Steam_Metadata_Editor from flathub
+Title=net.sourceforge.liferea from flathub
 IsRuntime=false
 Url=https://dl.flathub.org/repo/
 SuggestRemoteName=flathub

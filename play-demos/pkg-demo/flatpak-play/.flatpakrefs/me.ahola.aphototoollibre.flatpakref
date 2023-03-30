@@ -1,7 +1,7 @@
 [Flatpak Ref]
-Name=com.sublimemerge.App
+Name=me.ahola.aphototoollibre
 Branch=stable
-Title=com.sublimemerge.App from flathub
+Title=me.ahola.aphototoollibre from flathub
 IsRuntime=false
 Url=https://dl.flathub.org/repo/
 SuggestRemoteName=flathub

@@ -1,7 +1,7 @@
 [Flatpak Ref]
-Name=com.microsoft.Edge
+Name=org.emilien.SpaceLaunch
 Branch=stable
-Title=com.microsoft.Edge from flathub
+Title=org.emilien.SpaceLaunch from flathub
 IsRuntime=false
 Url=https://dl.flathub.org/repo/
 SuggestRemoteName=flathub
