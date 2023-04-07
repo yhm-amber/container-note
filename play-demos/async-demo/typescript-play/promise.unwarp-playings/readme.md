@@ -5,89 +5,103 @@
 
 ## Promise Result Getter
 
-示例程序： [<kbd>./promising-getter.tsx</kbd>](./promising-getter.tsx)
+示例程序： [<kbd>./promising.tsx</kbd>](./promising.tsx)
 
 ### 定义如下
 
-为解包结果自定义接口：
+定义接口：
 
 ~~~ tsx
-interface PromisingGetter<T>
+interface Promising<T>
 {
-    is_complete: boolean;
-    result?: T;
-    error?: any;
+    completed: boolean ;
+    result?: T ;
+    error?: any ;
 } ;
 ~~~
 
-完成解包的类型转换逻辑：
+创建接口实例的逻辑：
 
 ~~~ tsx
-const getting_promise = 
-    <T,> (promising: Promise<T> | PromiseLike<T>)
-    : PromisingGetter<T> =>
+const Promising = 
+    <T,> (promise: Promise<T> | PromiseLike<T>)
+    : Promising<T> =>
     {
-        const result: PromisingGetter<T> = {is_complete: false} ;
-        promising
+        const promising: Promising<T> = {completed: false} ;
+        promise
             .then
             ( res => 
             {
-                result.result = res ;
-                result.is_complete = true ; }
+                promising.result = res ;
+                promising.completed = true ; }
             , (err: any) => 
             {
-                result.error = err ;
-                result.is_complete = true ; }
+                promising.error = err ;
+                promising.completed = true ; }
             )
         
-        return result ;
+        return promising ;
+    } ;
+~~~
+
+这是个工具，接收一个 `Promise` 实例并对完成状态的检查间隔，返回一个函数，该函数接收三个闭包用于分别指定等待、出错、成功时的逻辑：
+
+~~~ tsx
+const promisingGetter = 
+    <T,> (promise: Promise<T> | PromiseLike<T>, interval: number) => 
+        (watting: () => any ,occurred: (error: any) => any, gotten: (result: T | undefined) => any)
+    : Promise<T> | PromiseLike<T> =>
+    {
+        const promising: Promising<T> = Promising(promise) ;
+
+        const intervalID
+        : number = 
+            setInterval(() => 
+            {
+                if (promising.completed)
+                {
+                    clearInterval(intervalID);
+                    
+                    if (promising.error)
+                    { occurred(promising.error) ; } else
+                    { gotten(promising.result) ; }
+                } else
+                { 
+                    watting() ;
+                }
+            }, interval) ;
+        
+        return promise ;
     } ;
 ~~~
 
 ### 使用示例
 
-为一个 `Promise` 实例创建它的 `Getter` 接口：
-
 ~~~ tsx
-const promise_getter
-: PromisingGetter<string> = 
-    getting_promise
-    (
-        new Promise<string>
-        ((resolve, reject) => 
-        {
-            setTimeout
-            (() => 
-            {
-                resolve("hello world");
-            }, 3000);
-        })
-    ) ;
-~~~
-
-轮询，从结果接口中取得结果：
-
-~~~ tsx
-const interval_id
-: number = 
-    setInterval(() => 
+promisingGetter
+(
+    new Promise<string>
+    ((resolve, reject) => 
     {
-        if (promise_getter.is_complete)
+        setTimeout
+        (() => 
         {
-            clearInterval(interval_id);
-            
-            if (promise_getter.error)
-            { console.log(`Error occurred: ${promise_getter.error}`); } else
-            { console.log(`Result is: ${promise_getter.result}`); }
-        } else
-        {
-            console.log(`... wait, plz ...`)
-        }
-    }, 400) ;
+            resolve("hello world");
+        }, 3000);
+    }), 400
+)(
+    () => { console.log(`... wait, plz ...`) ; } ,
+    (error: any) => { console.log(`[Error] occurred ! ${error}`) ; } ,
+    (result: string | undefined) => { console.log(`[Result] gotten : ${result}`) ; }
+) ;
 ~~~
 
-当这个 `promise_getter` 的 `is_complete` 属性为 `true` 时，
-就要么能够从它的 `result` 属性取得异步流程整个成功后的最终返回、
-要么能够从它的 `error` 属性取得一个该次异步流程给出的错误（可能是任何类型），
-如果成功，解包即完成。
+被传入的是个简单的等待 3 秒的 `Promise` 实例，检查间隔为 400 毫秒。
+
+指定：
+
+- 每检查一次都会输出一个 `... wait, plz ...`
+- 失败时输出 `[Error] occurred !` 和具体错误信息
+- 成功时输出 `[Result] gotten :` 以及结果
+
 
