@@ -72,6 +72,6 @@ promisingGetter
     }), 400
 )(
     () => { console.log(`... wait, plz ...`) ; } ,
-    (error: any) => { console.log(`[Error] occurred ! ${error}`) ; } ,
+    (error: any) => { console.error(`[Error] occurred ! ${error}`) ; } ,
     (result: string | undefined) => { console.log(`[Result] gotten : ${result}`) ; }
 ) ;
