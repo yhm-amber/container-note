@@ -3,4 +3,5 @@ Instances
 - [[https://you.com][You Chat]]
 - [[https://bing.com/new][new bing]]
 - [[https://chat.openai.com][chatGPT]]
+- [[https://www.phind.com][phind]]
 - ...
