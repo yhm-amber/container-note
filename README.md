@@ -120,3 +120,4 @@ good things:
 - [Oberon | concatenative.org](https://concatenative.org/wiki/view/Oberon)
 - [程序员的酒后真言 | Greycode's Blog](https://greycode.top/posts/a98d5ec3509f483e80919ca2e09bda1b/)
 - [编写像 Erlang/Elixir 那样的 Rust 程序](https://lunatic.solutions/blog/writing-rust-the-elixir-way/)
+- [Axon - Deep Learning in Elixir | Sean Moriarity](https://seanmoriarity.com/2021/04/08/axon-deep-learning-in-elixir/)
