@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/netchx/netch.git "(GPL-3.0) (Languages: C# 76.9%, C++ 15.8%, C 3.7%, PowerShell 2.9%, Go 0.7%) [In preparation for 2.0, this repository will be cleared of all 1.0 related releases and code] A simple proxy client"
