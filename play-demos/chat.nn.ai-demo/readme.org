@@ -4,4 +4,5 @@ Instances
 - [[https://bing.com/new][new bing]]
 - [[https://chat.openai.com][chatGPT]]
 - [[https://www.phind.com][phind]]
+- [[https://osschat.io][osschat.io]]
 - ...
