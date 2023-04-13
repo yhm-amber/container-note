@@ -9,7 +9,7 @@ also published at : [mirror.xyz](https://mirror.xyz/0x37Da98E4b1d562f002dF022D91
 --------------------
 
 
-### TS Objs (new bing)
+### TS Echoes (new bing)
 
 #### 1/20
 
@@ -1465,6 +1465,426 @@ console.log(result2(1, 2)); // 输出 3
 > 你不是说它只能用来获取基本类型吗？
 
 - ⚠ Tá an teorainn sroichte ag an gcomhrá seo. Úsáid an cnaipe a bhfuil cuma scuaibe air chun é seo a scuabadh amach agus chun tuilleadh comhrá a dhéanamh.
+
+#### 1/20
+
+> TypeScript 中的 symbol 类型意味着什么？都能干什么用？
+
+- Recherche de «**TypeScript symbol 类型**»
+- Générer des réponses pour vous…
+
+在 TypeScript 中，`symbol` 是一种原生类型，就像 `number` 和 `string` 一样。`symbol` 类型的值是通过 `Symbol` 构造函数创建的。²
+
+`Symbols` 是不可改变且唯一的。² 它们可以被用做对象属性的键，也可以与计算出的属性名声明相结合来声明对象的属性和类成员。²
+
+此外，TypeScript 在 2.7 版本中对 `Symbol` 做了补充，增加了 `unique symbol` 这种类型，它是 `symbols` 的子类型。这种类型的值只能由 `Symbol()` 或 `Symbol.for()` 创建，或者通过指定类型来指定一个值是这种类型。这种类型的值仅可用于常量的定义和用于属性名。¹
+
+除了用户定义的 `symbols`，还有一些已经众所周知的内置 `symbols`。内置 `symbols` 用来表示语言内部的行为。例如：`Symbol.hasInstance` 方法会被 `instanceof` 运算符调用；`Symbol.iterator` 方法被 `for-of` 语句调用，返回对象的默认迭代器；等等。²
+
+希望这些信息对您有所帮助。
+
+Source : conversation avec Bing, 2023/4/13(1) Symbols · TypeScript中文网 · TypeScript——JavaScript的超集. https://www.tslang.cn/docs/handbook/symbols.html Consultée 2023/4/13.
+(2) TypeScript学习笔记04——Symbol类型详细总结 - 知乎. https://zhuanlan.zhihu.com/p/297923315 Consultée 2023/4/13.
+(3) javascript - TypeScript 2.7 记录 - TypeScript 杂记 - SegmentFault 思否. https://segmentfault.com/a/1190000014913104 Consultée 2023/4/13.
+(4) TypeScript Symbol类型_沐沐茶壶的博客-CSDN博客. https://blog.csdn.net/qq_44886882/article/details/127752663 Consultée 2023/4/13.
+
+#### 2/20
+
+> 为什么结构体的 Key 类型为 string 而不是 symbol ？
+
+- Recherche de «**为什么结构体的 Key 类型为 string 而不是 symbol**»
+- Générer des réponses pour vous…
+
+很抱歉，我无法找到相关的信息来回答您的问题。您可以提供更多的上下文或详细信息，以便我能够更好地帮助您。
+
+Source : conversation avec Bing, 2023/4/13(1) How to change hash keys from `Symbol`s to `String`s?. https://stackoverflow.com/questions/10549554/how-to-change-hash-keys-from-symbols-to-strings Consultée 2023/4/13.
+(2) JavaScript Symbol type: (non-string object keys) - Stack Overflow. https://stackoverflow.com/questions/17759780/javascript-symbol-type-non-string-object-keys Consultée 2023/4/13.
+(3) What does the type { [key: string]: boolean; } mean?. https://stackoverflow.com/questions/43396522/what-does-the-type-key-string-boolean-mean Consultée 2023/4/13.
+(4) String Type should not be used in key column #10022 - Github. https://github.com/apache/doris/issues/10022 Consultée 2023/4/13.
+
+#### 3/20
+
+> 如何定义一个 Map ， Key 为 symbol 、 Value 为 number
+
+您可以这样定义一个 `Map`，其 `Key` 为 `symbol` 类型，`Value` 为 `number` 类型：
+
+```typescript
+let myMap: Map<symbol, number> = new Map();
+```
+
+然后，您可以使用 `set` 方法添加键值对：
+
+```typescript
+let mySymbol = Symbol();
+myMap.set(mySymbol, 1);
+```
+
+希望这些信息对您有所帮助。
+
+#### 4/20
+
+> 结构体的类型签名可以是 `{ [key: string]: any }` 。那它可以是 `{ [key: symbol]: Function }` 吗？
+
+不，结构体的类型签名不能是 `{ [key: symbol]: Function }`。在 TypeScript 中，索引签名的参数类型必须是 `string` 或 `number`。
+
+但是，您可以使用 `Map` 来实现类似的功能。例如：
+
+```typescript
+let myMap: Map<symbol, Function> = new Map();
+```
+
+希望这些信息对您有所帮助。
+
+#### 5/20
+
+> 如何写 Map 字面量？
+
+在 TypeScript 中，您可以使用 `Map` 构造函数来创建一个新的 `Map` 对象，并传入一个可迭代的对象（例如数组），其中每个元素都是一个键值对数组。
+
+例如，下面的代码创建了一个 `Map` 对象，其键为 `string` 类型，值为 `number` 类型：
+
+```typescript
+let myMap = new Map<string, number>([
+  ['key1', 1],
+  ['key2', 2]
+]);
+```
+
+您也可以使用 `set` 方法来添加键值对：
+
+```typescript
+myMap.set('key3', 3);
+```
+
+希望这些信息对您有所帮助。
+
+#### 6/20
+
+> 如何写一个 symbol 类型的字面量？
+
+在 TypeScript 中，您可以使用 `Symbol` 构造函数来创建一个 `symbol` 类型的值。例如：
+
+```typescript
+let mySymbol = Symbol();
+```
+
+您也可以传入一个可选的字符串参数，用于描述 `symbol`：
+
+```typescript
+let mySymbol = Symbol('my description');
+```
+
+请注意，每个 `symbol` 都是唯一的，即使它们具有相同的描述。
+
+希望这些信息对您有所帮助。
+
+#### 7/20
+
+> 你能看出这个代码要做什么吗？ `const echoes = <Function,> (ffs: {[key: string]: (env: { [key: string]: Function }) => Function}) : {[key: string]: Function} => Object.entries(ffs).reduce ( (env, [fn, f]) => ({... env, [fn]: f(env)}) , {} as {[key: string]: Function} ) ;`
+
+这段代码定义了一个名为 `echoes` 的常量，它是一个函数，接受一个参数 `ffs`，其类型为 `{[key: string]: (env: { [key: string]: Function }) => Function}`。这意味着 `ffs` 是一个对象，其键为 `string` 类型，值为一个函数，该函数接受一个参数 `env`，其类型为 `{ [key: string]: Function }`，并返回一个 `Function` 类型的值。
+
+`echoes` 函数的返回值类型为 `{[key: string]: Function}`，这意味着它返回一个对象，其键为 `string` 类型，值为 `Function` 类型。
+
+在函数体内部，代码使用了 `Object.entries(ffs)` 来获取 `ffs` 对象中每个键值对的数组。然后使用 `reduce` 方法来遍历这些键值对，并将它们累积到一个新的对象中。对于每个键值对 `[fn, f]`，代码使用展开运算符 `...env` 将当前累积的对象展开，并添加一个新的键值对 `[fn]: f(env)`。最后，返回累积的对象。
+
+总之，这段代码定义了一个函数，它接受一个对象作为参数，并返回一个新的对象。新对象中的每个键值对都是通过调用原对象中相应键的函数值来计算得到的。
+
+希望这些信息对您有所帮助。
+
+#### 8/20
+
+> 好，现在我有一个这样的变量： `const ffs = { f1: (env: { [key: string]: Function }) => (n: number): number => 1 + n , f2: (env: { [key: string]: Function }) => (x: number): number => env.f1(x * 2) , } ;` ，执行 `echoes<ReturnType<typeof ffs.f2>>(ffs).f2(3)` 会返回 `7` 。为什么？
+
+当您执行 `echoes<ReturnType<typeof ffs.f2>>(ffs).f2(3)` 时，会发生以下步骤：
+
+1. 调用 `echoes` 函数，并传入 `ffs` 作为参数。
+2. 在 `echoes` 函数内部，使用 `Object.entries(ffs)` 获取 `ffs` 对象中的键值对数组 `[["f1", f1], ["f2", f2]]`。
+3. 使用 `reduce` 方法遍历这些键值对。首先处理键值对 `["f1", f1]`，其中 `f1` 是一个函数，它接受一个参数 `env` 并返回一个新的函数。在这里，`env` 是一个空对象 `{}`，因此调用 `f1({})` 返回一个新的函数 `(n: number): number => 1 + n`。将其添加到累积的对象中，得到 `{f1: (n: number): number => 1 + n}`。
+4. 接下来处理键值对 `["f2", f2]`，其中 `f2` 是一个函数，它接受一个参数 `env` 并返回一个新的函数。在这里，`env` 是上一步累积的对象 `{f1: (n: number): number => 1 + n}`，因此调用 `f2({f1: (n: number): number => 1 + n})` 返回一个新的函数 `(x: number): number => env.f1(x * 2)`。将其添加到累积的对象中，得到 `{f1: (n: number): number => 1 + n, f2: (x: number): number => env.f1(x * 2)}`。
+5. 最后，返回累积的对象 `{f1: (n: number): number => 1 + n, f2: (x: number): number => env.f1(x * 2)}`。
+6. 调用该对象的 `f2` 属性，并传入参数 `3`。由于 `f2` 是一个函数 `(x: number): number => env.f1(x * 2)`，因此计算结果为 `env.f1(3 * 2)`。
+7. 在上一步中，`env.f1(6)` 等价于调用函数 `(n: number): number => 1 + n` 并传入参数 `6`。计算结果为 `1 + 6 = 7`。
+
+因此，执行 `echoes<ReturnType<typeof ffs.f2>>(ffs).f2(3)` 返回结果为 `7`。
+
+希望这些信息对您有所帮助。
+
+#### 9/20
+
+> 我还有一个变量： `const xx = { x1: (env: { [key: string]: Function }) => (s: string) : number => s.length , x2: (env: { [key: string]: Function }) => (s: string, n: number) : Promise<number> => Promise.resolve(env.x1(s) + n) , } ;` ，但我执行 `echoes<ReturnType<typeof xx.x2>>(xx).x2('a',3)` 就会报错。为什么？
+
+当您执行 `echoes<ReturnType<typeof xx.x2>>(xx).x2('a',3)` 时，会发生以下错误：
+
+1. 调用 `echoes` 函数，并传入 `xx` 作为参数。
+2. 在 `echoes` 函数内部，使用 `Object.entries(xx)` 获取 `xx` 对象中的键值对数组 `[["x1", x1], ["x2", x2]]`。
+3. 使用 `reduce` 方法遍历这些键值对。首先处理键值对 `["x1", x1]`，其中 `x1` 是一个函数，它接受一个参数 `env` 并返回一个新的函数。在这里，`env` 是一个空对象 `{}`，因此调用 `x1({})` 返回一个新的函数 `(s: string): number => s.length`。将其添加到累积的对象中，得到 `{x1: (s: string): number => s.length}`。
+4. 接下来处理键值对 `["x2", x2]`，其中 `x2` 是一个函数，它接受一个参数 `env` 并返回一个新的函数。在这里，`env` 是上一步累积的对象 `{x1: (s: string): number => s.length}`，因此调用 `x2({x1: (s: string): number => s.length})` 返回一个新的函数 `(s: string, n: number): Promise<number> => Promise.resolve(env.x1(s) + n)`。将其添加到累积的对象中，得到 `{x1: (s: string): number => s.length, x2: (s: string, n: number): Promise<number> => Promise.resolve(env.x1(s) + n)}`。
+5. 最后，返回累积的对象 `{x1: (s: string): number => s.length, x2: (s: string, n: number): Promise<number> => Promise.resolve(env.x1(s) + n)}`。
+6. 调用该对象的 `x2` 属性，并传入参数 `'a'` 和 `3`。由于 `x2` 是一个函数 `(s: string, n: number): Promise<number> => Promise.resolve(env.x1(s) + n)`，因此计算结果为 `Promise.resolve(env.x1('a') + 3)`。
+
+但是，在这里您没有等待返回的 `Promise` 对象解析完成。您可以使用 `await` 关键字或者在返回的 `Promise` 对象上调用 `.then()` 方法来获取解析后的结果。
+
+例如：
+
+```typescript
+(async () => {
+  let result = await echoes<ReturnType<typeof xx.x2>>(xx).x2('a',3);
+  console.log(result); // 输出 4
+})();
+```
+
+或者：
+
+```typescript
+echoes<ReturnType<typeof xx.x2>>(xx).x2('a',3).then(result => {
+  console.log(result); // 输出 4
+});
+```
+
+希望这些信息对您有所帮助。
+
+#### 10/20
+
+> 你说的也对，要用 `then` 。但我收到的报错是类型不匹配的，它告诉了我作为参数的 `xx` 的类型，这个类型是基于字面量得出的，它与应当填写的类型不匹配。我删掉了 `echos` 的泛型签名 `<Function,>` ，并把调用改为了 `echoes(xx).x2('a',3)` ，现在我就能正常地得到一个 `Promise` 了。这是为什么？
+
+当您删除 `echoes` 的泛型签名 `<Function,>` 并将调用更改为 `echoes(xx).x2('a',3)` 时，您实际上是在调用 `echoes` 函数的非泛型版本。在这种情况下，TypeScript 会根据传入的参数 `xx` 来推断返回值的类型。
+
+由于您传入的参数 `xx` 的类型为：
+
+```typescript
+{
+    x1: (env: { [key: string]: Function }) => (s: string) => number,
+    x2: (env: { [key: string]: Function }) => (s: string, n: number) => Promise<number>
+}
+```
+
+因此，`echoes(xx)` 的返回值类型为：
+
+```typescript
+{
+    x1: (s: string) => number,
+    x2: (s: string, n: number) => Promise<number>
+}
+```
+
+这意味着调用 `echoes(xx).x2('a',3)` 会返回一个类型为 `Promise<number>` 的值。
+
+希望这些信息对您有所帮助。
+
+#### 11/20
+
+> 好。但现在，我调用 `echoes(xx).x2('a',3).then(r => console.log(r))` ，在第一个 `r` 的位置出现错误： `Parameter 'r' implicitly has an 'any' type.` ，我尝试增加类型签名 `(r: number)` ，错误消失。我的疑惑在于，正常调用 `then` 时，其中的匿名函数也不需要为参数标记类型，为何这里这个就需要？
+
+当您调用 `echoes(xx).x2('a',3).then(r => console.log(r))` 时，如果 TypeScript 无法推断出 `r` 的类型，那么它会默认为 `any` 类型。这可能是由于您的 TypeScript 配置中启用了 `noImplicitAny` 选项，它会在类型推断失败时报告错误。
+
+在这种情况下，您可以通过显式地为 `r` 参数添加类型注释来解决此问题。例如：
+
+```typescript
+echoes(xx).x2('a',3).then((r: number) => console.log(r));
+```
+
+或者，您可以检查您的 TypeScript 配置，并禁用 `noImplicitAny` 选项。
+
+希望这些信息对您有所帮助。
+
+#### 12/20
+
+> 启用了 `noImplicitAny` 选项的作用是什么？禁用会失去哪些好处？
+
+启用 `noImplicitAny` 选项可以让 TypeScript 在无法推断变量类型时报告错误，而不是默认将其类型设置为 `any`。这有助于避免在代码中意外使用 `any` 类型，从而提高类型安全性。
+
+禁用 `noImplicitAny` 选项会失去这些好处。这意味着，当 TypeScript 无法推断变量类型时，它会默认将其类型设置为 `any`，而不会报告错误。这可能会导致您在代码中意外使用 `any` 类型，从而降低类型安全性。
+
+希望这些信息对您有所帮助。
+
+#### 13/20
+
+> 我认为还是应该启用的，不能禁用。我希望类型推断能够正常推断出 `r` 的类型就是 number、
+
+您的想法是正确的。启用 `noImplicitAny` 选项可以帮助您避免在代码中意外使用 `any` 类型，从而提高类型安全性。
+
+如果 TypeScript 无法正确推断出 `r` 的类型，那么可能是由于您的代码或类型定义存在问题。您可以检查您的代码和类型定义，确保它们是正确的。
+
+如果您仍然无法解决问题，您可以提供更多的上下文和详细信息，以便我能够更好地帮助您。
+
+希望这些信息对您有所帮助。
+
+#### 14/20
+
+> 对于上面的 `r` ，如果不是使用 echoes 返回的 Promise ，类型推断就能够自动完成。但是用了它，就不能自动完成了。有没有什么办法，比如我在代码某处增加更详细的类型标注，来让它的类型推断能够推断出 Promise 的泛型为 number ？
+
+您可以尝试显式地为 `echoes` 函数添加类型参数，以帮助 TypeScript 推断出返回值的类型。例如：
+
+```typescript
+echoes<{x2: (s: string, n: number) => Promise<number>}>(xx).x2('a',3).then(r => console.log(r));
+```
+
+在上面的代码中，我们为 `echoes` 函数添加了类型参数 `{x2: (s: string, n: number) => Promise<number>}`，用于指定返回值的类型。这样，TypeScript 就能够正确推断出 `r` 的类型为 `number`。
+
+希望这些信息对您有所帮助。
+
+#### 15/20
+
+> 我得到了报错： `Expected 0 type arguments, but got 1` ，似乎在 echoes 的定义上，还需要增加泛型。这个要怎样增加？
+
+您可以通过在 `echoes` 函数的定义中添加类型参数来支持泛型。例如：
+
+```typescript
+const echoes = <T>(ffs: {[key: string]: (env: T) => Function}): T =>
+    Object.entries(ffs).reduce
+    (
+        (env, [fn, f]) => ({... env, [fn]: f(env)}) ,
+        {} as T
+    ) ;
+```
+
+在上面的代码中，我们为 `echoes` 函数添加了类型参数 `T`，用于表示返回值的类型。我们还将 `ffs` 参数的类型更改为 `{[key: string]: (env: T) => Function}`，以便在函数体内部使用类型参数 `T`。
+
+现在，您可以使用类型参数来调用 `echoes` 函数，例如：
+
+```typescript
+echoes<{x2: (s: string, n: number) => Promise<number>}>(xx).x2('a',3).then(r => console.log(r));
+```
+
+希望这些信息对您有所帮助。
+
+#### 16/20
+
+> TypeScript 里有没有与 Scala 里的 `object Pkg { ... }` 相似的东西？
+
+在 TypeScript 中，您可以使用命名空间（`namespace`）来组织相关的代码。命名空间类似于 Scala 中的 `object`，它允许您将相关的类型、变量和函数组织在一起，以避免命名冲突。
+
+例如，下面的代码定义了一个名为 `Pkg` 的命名空间，其中包含一个接口 `MyInterface` 和一个函数 `myFunction`：
+
+```typescript
+namespace Pkg {
+  export interface MyInterface {
+    x: number;
+    y: number;
+  }
+
+  export function myFunction(param: MyInterface): number {
+    return param.x + param.y;
+  }
+}
+```
+
+在命名空间内部，您可以使用 `export` 关键字来导出类型、变量和函数。这样，它们就可以在命名空间外部使用。
+
+在命名空间外部，您可以使用命名空间名称来访问其中的类型、变量和函数。例如：
+
+```typescript
+let myVar: Pkg.MyInterface = {x: 1, y: 2};
+let result = Pkg.myFunction(myVar);
+```
+
+希望这些信息对您有所帮助。
+
+#### 17/20
+
+> 泛型能否指定默认值？
+
+是的，在 TypeScript 中，您可以为泛型类型参数指定默认类型。这样，当调用泛型函数或构造泛型类型时，如果未显式指定类型参数，则会使用默认类型。
+
+例如，下面的代码定义了一个名为 `MyArray` 的泛型接口，它具有一个类型参数 `T`，默认为 `string` 类型：
+
+```typescript
+interface MyArray<T = string> {
+  [index: number]: T;
+  length: number;
+}
+```
+
+在这个例子中，如果您创建一个 `MyArray` 类型的变量，但未显式指定类型参数，则 `T` 的类型将默认为 `string`。例如：
+
+```typescript
+let myArray: MyArray = ['a', 'b', 'c'];
+```
+
+在上面的代码中，我们创建了一个 `MyArray` 类型的变量 `myArray`，但未显式指定类型参数。因此，`T` 的类型默认为 `string`。
+
+希望这些信息对您有所帮助。
+
+#### 18/20
+
+> 我想把我的 `echoes<{f2: ReturnType<typeof xx.f2>}>(xx).f2('a',3).then(r => console.log(r));` 做个抽象，让我只需要指定 `xx` 和 `f2` 就能取出对应函数。这个能够做到吗？
+
+是的，您可以定义一个泛型函数来实现这个功能。例如：
+
+```typescript
+function callEchoes<T, K extends keyof T>(obj: T, key: K) {
+  return echoes<{[P in K]: ReturnType<T[P]>}>(obj)[key];
+}
+```
+
+在上面的代码中，我们定义了一个泛型函数 `callEchoes`，它接受两个类型参数 `T` 和 `K`。`T` 表示传入的对象的类型，`K` 表示对象中要访问的键的类型。
+
+在函数体内部，我们调用了 `echoes` 函数，并使用类型参数 `{[P in K]: ReturnType<T[P]>}` 来指定返回值的类型。然后，我们使用传入的 `key` 参数来访问返回对象中对应的属性。
+
+现在，您可以使用 `callEchoes` 函数来简化您的代码。例如：
+
+```typescript
+callEchoes(xx, 'f2')('a',3).then(r => console.log(r));
+```
+
+在上面的代码中，我们调用了 `callEchoes` 函数，并传入了 `xx` 和 `'f2'` 作为参数。这样，我们就可以直接调用返回的函数，并传入参数 `'a'` 和 `3`。
+
+希望这些信息对您有所帮助。
+
+#### 19/20
+
+> `callEchoes` 能否写成箭头函数？
+
+是的，您可以将 `callEchoes` 函数重写为箭头函数。例如：
+
+```typescript
+const callEchoes = <T, K extends keyof T>(obj: T, key: K) =>
+  echoes<{[P in K]: ReturnType<T[P]>}>(obj)[key];
+```
+
+在上面的代码中，我们定义了一个常量 `callEchoes`，它是一个箭头函数。这个箭头函数与之前定义的 `callEchoes` 函数具有相同的功能。
+
+您可以像使用普通函数一样使用这个箭头函数。例如：
+
+```typescript
+callEchoes(xx, 'f2')('a',3).then(r => console.log(r));
+```
+
+希望这些信息对您有所帮助。
+
+#### 20/20
+
+> 这两个 callEchoes 的定义都出现了报错： `Type 'T[P]' does not satisfy the constraint '(...args: any) => any'`
+
+这个错误表明 `T[P]` 的类型不满足 `(...args: any) => any` 的约束。这意味着 TypeScript 无法确定 `T[P]` 是否为函数类型。
+
+您可以通过在 `callEchoes` 函数的定义中添加类型约束来解决此问题。例如：
+
+```typescript
+function callEchoes<T extends Record<K, (...args: any) => any>, K extends keyof T>(obj: T, key: K) {
+  return echoes<{[P in K]: ReturnType<T[P]>}>(obj)[key];
+}
+```
+
+或者，如果您使用箭头函数：
+
+```typescript
+const callEchoes = <T extends Record<K, (...args: any) => any>, K extends keyof T>(obj: T, key: K) =>
+  echoes<{[P in K]: ReturnType<T[P]>}>(obj)[key];
+```
+
+在上面的代码中，我们为类型参数 `T` 添加了类型约束 `Record<K, (...args: any) => any>`，用于指定 `T` 必须是一个对象类型，其键为 `K` 类型，值为函数类型。
+
+现在，您应该可以正常使用 `callEchoes` 函数了。例如：
+
+```typescript
+callEchoes(xx, 'f2')('a',3).then(r => console.log(r));
+```
+
+希望这些信息对您有所帮助。
+
+- ⚠ Désolé, cette conversation a atteint sa limite. Utilisez le bouton « balai » pour nettoyer et poursuivre la conversation.
 
 ### Elixir AI 101 (new bing)
 
