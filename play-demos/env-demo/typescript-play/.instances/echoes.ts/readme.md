@@ -1,5 +1,11 @@
 *“回声”*
 
+# *echoes.ts*
+
+~~~
+🎃 make object likes namespace in TypeScript !
+~~~
+
 ----
 
 这是一个高度抽象的依赖关联器，为结构体中的各个属性之间依赖关系的建立提供了一种途径。
