@@ -8,6 +8,452 @@ also published at : [mirror.xyz](https://mirror.xyz/0x37Da98E4b1d562f002dF022D91
 
 --------------------
 
+### TS Echoes 后日谈 (new bing)
+
+#### 1/20
+
+> 在 Typescript 中，如何为一个 namespace 添加说明文档？
+
+- Recherche de «**在 Typescript 中，如何为一个 namespace 添加说明文档**»
+- Recherche de «**Typescript namespace documentation**»
+- Générer des réponses pour vous…
+
+在 TypeScript 中，你可以使用命名空间（namespace）来组织你的代码。命名空间是 TypeScript 特有的一种组织代码的方式，它们只是全局命名空间中的命名 JavaScript 对象。这使得命名空间非常简单易用。与模块不同，它们可以跨越多个文件，并且可以使用 outFile 进行连接⁴。
+
+如果你想要为一个命名空间添加说明文档，你可以在代码中添加注释来解释命名空间的用途和功能。此外，你也可以创建一个单独的文档文件来详细描述命名空间及其包含的类型和值。
+
+Source : conversation avec Bing, 2023/4/13(1) TypeScript: Documentation - Namespaces. https://www.typescriptlang.org/docs/handbook/namespaces.html Consultée 2023/4/13.
+(2) Namespaces --- TypeScript系列 进阶篇(六) - 掘金 - 稀土掘金. https://juejin.cn/post/7074880866341617694 Consultée 2023/4/13.
+(3) TypeScript 命名空间 - 知乎. https://zhuanlan.zhihu.com/p/383607055 Consultée 2023/4/13.
+(4) TypeScript 命名空间 | 菜鸟教程. https://www.runoob.com/typescript/ts-namespace.html Consultée 2023/4/13.
+(5) TypeScript: Documentation - Namespaces and Modules. https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html Consultée 2023/4/13.
+(6) TypeScript: Documentation - Declaration Merging. https://www.typescriptlang.org/docs/handbook/declaration-merging.html Consultée 2023/4/13.
+
+#### 2/20
+
+> 如何写文档注释？
+
+- Recherche de «**如何写文档注释**»
+- Recherche de «**Typescript documentation comments**»
+- Générer des réponses pour vous…
+
+在 TypeScript 中，你可以使用 JSDoc 或 TSDoc 来编写文档注释。这些注释可以帮助你解释代码的功能和用途，并且可以被一些文档生成工具（如 TypeDoc）用来生成 HTML 文档。
+
+JSDoc 是 JavaScript 中常用的注释约定，它使用 `/** ... */` 的格式来编写多行注释，并且支持一些特殊的标记（如 `@param` 和 `@returns`）来描述函数的参数和返回值¹²。
+
+TSDoc 是 TypeScript 的一个新的注释约定，它与 JSDoc 类似，但提供了一些额外的标记和功能²。例如，下面是一个使用 TSDoc 编写的文档注释的示例：
+
+```typescript
+/**
+ * Returns the average of two numbers.
+ *
+ * @remarks
+ * This method is part of the {@link core-library#Statistics | Statistics subsystem}.
+ *
+ * @param x - The first input number
+ * @param y - The second input number
+ * @returns The arithmetic mean of `x` and `y`
+ */
+function getAverage(x: number, y: number): number {
+  return (x + y) / 2.0;
+}
+```
+
+Source : conversation avec Bing, 2023/4/13(1) Where is the syntax for TypeScript comments documented?. https://stackoverflow.com/questions/23072286/where-is-the-syntax-for-typescript-comments-documented Consultée 2023/4/13.
+(2) Typescript: Are there any conventions to document code with comments?. https://stackoverflow.com/questions/42948252/typescript-are-there-any-conventions-to-document-code-with-comments Consultée 2023/4/13.
+(3) Different ways to write a comment in Typescript| Angular Component .... https://www.cloudhadoop.com/2018/09/typescript-beginner-guide-to-comments.html Consultée 2023/4/13.
+(4) TypeScript: Documentation - Triple-Slash Directives. https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html Consultée 2023/4/13.
+
+#### 3/20
+
+> 我得到了一个错误： `Cannot read properties of undefined (reading 'outerHTML')` 。你猜它可能是由于什么造成的？
+
+这个错误信息表明你正在尝试访问一个未定义（`undefined`）对象的 `outerHTML` 属性。这通常意味着你在访问一个不存在的 DOM 元素或者一个未初始化的变量。
+
+例如，如果你尝试使用 `document.getElementById` 获取一个不存在的元素，那么该方法将返回 `null`，而当你尝试访问 `null` 的 `outerHTML` 属性时，就会出现这个错误。
+
+为了解决这个问题，你需要检查你的代码，确保在访问 `outerHTML` 属性之前，相关的对象已经被正确初始化并且不为 `null` 或 `undefined`。
+
+#### 4/20
+
+> namespace 能否嵌套在 namespace 里定义？
+
+是的，你可以在一个命名空间（namespace）内部定义另一个命名空间。这种嵌套的命名空间可以帮助你更好地组织你的代码，避免名称冲突。
+
+下面是一个简单的示例，演示了如何在一个命名空间内部定义另一个命名空间：
+
+```typescript
+namespace OuterNamespace {
+  export namespace InnerNamespace {
+    export function myFunction() {
+      console.log("Hello from InnerNamespace!");
+    }
+  }
+}
+
+OuterNamespace.InnerNamespace.myFunction(); // 输出 "Hello from InnerNamespace!"
+```
+
+在这个示例中，我们定义了一个名为 `OuterNamespace` 的外部命名空间，并在其中定义了一个名为 `InnerNamespace` 的内部命名空间。我们还在内部命名空间中定义了一个名为 `myFunction` 的函数，并通过 `OuterNamespace.InnerNamespace.myFunction()` 的方式来调用它。
+
+#### 5/20
+
+> 太棒了，这就像 SHell 里的 `OuterNamespace () { InnerNamespace () { myFunction () { echo "Hello ! $1" ; } && "$@" ; } && "$@" ; }` 一样，我可以像这样调用： `OuterNamespace InnerNamespace myFunction yyy` ，我会得到输出 `Hello ! yyy` 🤤
+
+是的，你可以把 TypeScript 中的嵌套命名空间看作是 Shell 中函数的嵌套。在你提供的示例中，你定义了一个名为 `OuterNamespace` 的外部函数，并在其中定义了一个名为 `InnerNamespace` 的内部函数。你还在内部函数中定义了一个名为 `myFunction` 的函数，并通过 `OuterNamespace InnerNamespace myFunction yyy` 的方式来调用它。
+
+在 TypeScript 中，你可以使用类似的方式来组织和调用嵌套命名空间中的函数和类型。这种方式可以帮助你更好地组织你的代码，避免名称冲突。
+
+#### 6/20
+
+> 这种事在 Elixir 怎么做？
+
+- Recherche de «**Elixir nested modules**»
+- Générer des réponses pour vous…
+
+在 Elixir 中，你可以在一个模块（module）内部定义另一个模块，这就像在 TypeScript 中定义嵌套命名空间一样。这种嵌套模块可以帮助你更好地组织你的代码，避免名称冲突。
+
+下面是一个简单的示例，演示了如何在一个模块内部定义另一个模块：
+
+```elixir
+defmodule OuterModule do
+  defmodule InnerModule do
+    def my_function do
+      IO.puts("Hello from InnerModule!")
+    end
+  end
+end
+
+OuterModule.InnerModule.my_function() # 输出 "Hello from InnerModule!"
+```
+
+在这个示例中，我们定义了一个名为 `OuterModule` 的外部模块，并在其中定义了一个名为 `InnerModule` 的内部模块。我们还在内部模块中定义了一个名为 `my_function` 的函数，并通过 `OuterModule.InnerModule.my_function()` 的方式来调用它。
+
+Source : conversation avec Bing, 2023/4/13(1) How do you work with nested modules? - Elixir Programming Language Forum. https://elixirforum.com/t/how-do-you-work-with-nested-modules/48752 Consultée 2023/4/13.
+(2) Modules · Elixir School. https://elixirschool.com/en/lessons/basics/modules/ Consultée 2023/4/13.
+(3) Elixir - Modules - TutorialsPoint. https://www.tutorialspoint.com/elixir/elixir_modules.htm Consultée 2023/4/13.
+(4) elixir - Aliasing a nested module and parent module - Stack Overflow. https://stackoverflow.com/questions/52213859/aliasing-a-nested-module-and-parent-module Consultée 2023/4/13.
+(5) Modules and functions - The Elixir programming language. https://elixir-lang.org/getting-started/modules-and-functions.html Consultée 2023/4/13.
+
+#### 7/20
+
+> Elixir 是否也能用嵌套定义函数的方式，就像 SHell 那样，来组织代码？
+
+不，Elixir 不支持在函数内部定义另一个函数。在 Elixir 中，函数必须定义在模块（module）内部，而不能定义在另一个函数内部。
+
+如果你想要组织你的代码，可以使用模块和嵌套模块来实现。你可以在一个模块内部定义另一个模块，并在内部模块中定义函数。这种方式可以帮助你更好地组织你的代码，避免名称冲突。
+
+下面是一个简单的示例，演示了如何使用嵌套模块来组织代码：
+
+```elixir
+defmodule OuterModule do
+  defmodule InnerModule do
+    def my_function do
+      IO.puts("Hello from InnerModule!")
+    end
+  end
+end
+
+OuterModule.InnerModule.my_function() # 输出 "Hello from InnerModule!"
+```
+
+在这个示例中，我们定义了一个名为 `OuterModule` 的外部模块，并在其中定义了一个名为 `InnerModule` 的内部模块。我们还在内部模块中定义了一个名为 `my_function` 的函数，并通过 `OuterModule.InnerModule.my_function()` 的方式来调用它。
+
+#### 8/20
+
+> Elixir 的匿名函数应该是可以嵌套定义的。所以，像 SHell 那样，写起来会是什么样？
+
+是的，你说得对。在 Elixir 中，你可以在一个匿名函数内部定义另一个匿名函数。这种嵌套的匿名函数可以帮助你更好地组织你的代码。
+
+下面是一个简单的示例，演示了如何在一个匿名函数内部定义另一个匿名函数：
+
+```elixir
+outer_function = fn ->
+  inner_function = fn ->
+    IO.puts("Hello from inner_function!")
+  end
+  inner_function.()
+end
+
+outer_function.() # 输出 "Hello from inner_function!"
+```
+
+在这个示例中，我们定义了一个名为 `outer_function` 的外部匿名函数，并在其中定义了一个名为 `inner_function` 的内部匿名函数。我们还在内部匿名函数中使用 `IO.puts` 函数来输出一条消息，并通过 `inner_function.()` 的方式来调用它。最后，我们通过 `outer_function.()` 的方式来调用外部匿名函数。
+
+#### 9/20
+
+> 有没有类似 SHell 的 `"$@"` 那样的东西？在 Elixir 里
+
+在 Elixir 中，没有类似于 Shell 中 `"$@"` 的特殊变量。但是，你可以使用匿名函数和列表来实现类似的功能。
+
+在 Elixir 中，你可以定义一个匿名函数，它接受一个列表作为参数，并使用 `Enum.each` 函数来遍历这个列表中的每个元素。下面是一个简单的示例，演示了如何使用匿名函数和列表来实现类似于 `"$@"` 的功能：
+
+```elixir
+my_function = fn args ->
+  Enum.each(args, fn arg ->
+    IO.puts("Hello #{arg}!")
+  end)
+end
+
+my_function.(["Alice", "Bob", "Charlie"]) # 输出 "Hello Alice!", "Hello Bob!", "Hello Charlie!"
+```
+
+在这个示例中，我们定义了一个名为 `my_function` 的匿名函数，它接受一个名为 `args` 的列表作为参数。然后，我们使用 `Enum.each` 函数来遍历这个列表中的每个元素，并对每个元素调用一个匿名函数。在这个匿名函数中，我们使用 `IO.puts` 函数来输出一条消息。
+
+最后，我们通过 `my_function.(["Alice", "Bob", "Charlie"])` 的方式来调用这个匿名函数，并传递一个包含三个字符串的列表作为参数。这将输出三条消息，分别为 `"Hello Alice!"`、`"Hello Bob!"` 和 `"Hello Charlie!"`。
+
+#### 10/20
+
+> TS 的函数里的 `const` 是否是局部的？它和 `let` 有啥区别？
+
+在 TypeScript 中，`const` 和 `let` 都是用来声明变量的关键字。它们都可以用来定义局部变量，即在函数内部定义的变量。
+
+`const` 和 `let` 的主要区别在于，使用 `const` 声明的变量是常量，它的值在声明后不能被修改。而使用 `let` 声明的变量是可以被修改的。
+
+下面是一个简单的示例，演示了如何在 TypeScript 中使用 `const` 和 `let` 来定义局部变量：
+
+```typescript
+function myFunction() {
+  const x = 1; // 定义一个常量 x
+  let y = 2; // 定义一个变量 y
+
+  // x = 3; // 错误：不能修改常量的值
+  y = 3; // 正确：可以修改变量的值
+
+  console.log(x); // 输出 1
+  console.log(y); // 输出 3
+}
+
+myFunction();
+```
+
+在这个示例中，我们定义了一个名为 `myFunction` 的函数，并在其中使用 `const` 和 `let` 来定义两个局部变量 `x` 和 `y`。然后，我们尝试修改这两个变量的值。由于 `x` 是一个常量，所以我们不能修改它的值。而 `y` 是一个变量，所以我们可以修改它的值。
+
+最后，我们调用这个函数，并输出两个变量的值。你会发现，尽管我们尝试修改了这两个变量的值，但只有 `y` 的值被成功修改了。
+
+#### 11/20
+
+> 类似于 `namespace` 那样的东西，在 Erlang 里有对应吗？
+
+- Recherche de «**Erlang namespace**»
+- Générer des réponses pour vous…
+
+Erlang 没有类似于 TypeScript 中命名空间（namespace）的概念。在 Erlang 中，模块（module）是全局的，名称也是全局的¹。
+
+在 Erlang 中，你可以使用模块来组织你的代码。每个模块都有一个全局唯一的名称，可以包含多个函数。你可以在一个模块中定义函数，并在另一个模块中调用这些函数。
+
+如果你想要避免名称冲突，可以使用一些命名约定来组织你的代码。例如，你可以为每个模块添加一个应用程序名称作为前缀，以避免与其他应用程序中的模块名称冲突。
+
+Source : conversation avec Bing, 2023/4/13(1) Namespaces and records in erlang - Stack Overflow. https://stackoverflow.com/questions/4476108/namespaces-and-records-in-erlang Consultée 2023/4/13.
+(2) Documentation - Erlang/OTP. https://www.erlang.org/docs Consultée 2023/4/13.
+
+#### 12/20
+
+> Erlang 中有没有类似 SHell 的 `"$@"` 那样的东西？
+
+在 Erlang 中，没有类似于 Shell 中 `"$@"` 的特殊变量。但是，你可以使用函数和列表来实现类似的功能。
+
+在 Erlang 中，你可以定义一个函数，它接受一个列表作为参数，并使用 `lists:foreach` 函数来遍历这个列表中的每个元素。下面是一个简单的示例，演示了如何使用函数和列表来实现类似于 `"$@"` 的功能：
+
+```erlang
+my_function(Args) ->
+  lists:foreach(fun(Arg) ->
+    io:format("Hello ~s!~n", [Arg])
+  end, Args).
+
+my_function(["Alice", "Bob", "Charlie"]). % 输出 "Hello Alice!", "Hello Bob!", "Hello Charlie!"
+```
+
+在这个示例中，我们定义了一个名为 `my_function` 的函数，它接受一个名为 `Args` 的列表作为参数。然后，我们使用 `lists:foreach` 函数来遍历这个列表中的每个元素，并对每个元素调用一个匿名函数。在这个匿名函数中，我们使用 `io:format` 函数来输出一条消息。
+
+最后，我们调用这个函数，并传递一个包含三个字符串的列表作为参数。这将输出三条消息，分别为 `"Hello Alice!"`、`"Hello Bob!"` 和 `"Hello Charlie!"`。
+
+#### 13/20
+
+> 在 Erlang 和 Elixir 里有没有类似 TypeScript 的 `reduce` 那样的工具？
+
+是的，在 Erlang 和 Elixir 中都有类似于 TypeScript 中 `reduce` 函数的工具。
+
+在 Erlang 中，你可以使用 `lists:foldl` 或 `lists:foldr` 函数来实现类似于 `reduce` 的功能。这两个函数都接受一个函数、一个初始值和一个列表作为参数，并对列表中的每个元素应用这个函数，最终返回一个累积的结果。
+
+下面是一个简单的示例，演示了如何在 Erlang 中使用 `lists:foldl` 函数来计算一个列表中所有元素的和：
+
+```erlang
+Sum = lists:foldl(fun(X, Acc) -> X + Acc end, 0, [1, 2, 3, 4]).
+% Sum = 10
+```
+
+在这个示例中，我们使用 `lists:foldl` 函数来计算列表 `[1, 2, 3, 4]` 中所有元素的和。我们传递了一个匿名函数作为第一个参数，它接受两个参数 `X` 和 `Acc`，并返回它们的和。我们还传递了一个初始值 `0` 和一个列表 `[1, 2, 3, 4]`。最终，`lists:foldl` 函数返回了这个列表中所有元素的和，即 `10`。
+
+在 Elixir 中，你可以使用 `Enum.reduce` 函数来实现类似于 `reduce` 的功能。这个函数与 Erlang 中的 `lists:foldl` 函数类似，也接受一个函数、一个初始值和一个列表作为参数，并对列表中的每个元素应用这个函数，最终返回一个累积的结果。
+
+下面是一个简单的示例，演示了如何在 Elixir 中使用 `Enum.reduce` 函数来计算一个列表中所有元素的和：
+
+```elixir
+sum = Enum.reduce([1, 2, 3, 4], 0, fn x, acc -> x + acc end)
+# sum = 10
+```
+
+在这个示例中，我们使用 `Enum.reduce` 函数来计算列表 `[1, 2, 3, 4]` 中所有元素的和。我们传递了一个匿名函数作为第三个参数，它接受两个参数 `x` 和 `acc`，并返回它们的和。我们还传递了一个初始值 `0` 和一个列表 `[1, 2, 3, 4]`。最终，`Enum.reduce` 函数返回了这个列表中所有元素的和，即 `10`。
+
+#### 14/20
+
+> 可以用尾递归实现 `reduce` 吗？
+
+是的，你可以使用尾递归来实现 `reduce` 函数。尾递归是一种特殊的递归，它在函数的最后一步调用自身。由于尾递归不需要在栈中保存任何状态，所以它可以避免栈溢出的问题。
+
+下面是一个简单的示例，演示了如何在 Erlang 中使用尾递归来实现 `reduce` 函数：
+
+```erlang
+reduce(List, Acc, Fun) ->
+  reduce(List, Acc, Fun, []).
+
+reduce([], Acc, _Fun, Result) ->
+  lists:reverse(Result);
+reduce([H | T], Acc, Fun, Result) ->
+  NewAcc = Fun(H, Acc),
+  reduce(T, NewAcc, Fun, [NewAcc | Result]).
+
+Sum = reduce([1, 2, 3, 4], 0, fun(X, Acc) -> X + Acc end).
+% Sum = 10
+```
+
+在这个示例中，我们定义了一个名为 `reduce` 的函数，它接受一个列表、一个初始值和一个函数作为参数。然后，我们定义了另一个名为 `reduce` 的函数，它接受四个参数：一个列表、一个累积值、一个函数和一个结果列表。
+
+在第二个 `reduce` 函数中，我们首先检查列表是否为空。如果列表为空，那么我们返回结果列表的反转。否则，我们取出列表的第一个元素，并调用传入的函数来计算新的累积值。然后，我们将新的累积值添加到结果列表中，并递归调用 `reduce` 函数来处理剩余的元素。
+
+最后，我们调用这个 `reduce` 函数，并传递一个包含四个数字的列表、一个初始值 `0` 和一个匿名函数作为参数。这个匿名函数接受两个参数 `X` 和 `Acc`，并返回它们的和。最终，`reduce` 函数返回了这个列表中所有元素的和，即 `10`。
+
+#### 15/20
+
+> 这些可以改写成匿名函数吗？用 Y Combinator 可以让匿名函数也能递归
+
+是的，你可以使用 Y Combinator 来实现匿名函数的递归。Y Combinator 是一种特殊的函数，它可以让一个匿名函数调用自身。
+
+下面是一个简单的示例，演示了如何在 Erlang 中使用 Y Combinator 来实现匿名函数的递归：
+
+```erlang
+Y = fun(F) ->
+  (fun(X) -> F(fun(Y) -> (X(X))(Y) end) end)
+  (fun(X) -> F(fun(Y) -> (X(X))(Y) end) end)
+end.
+
+Reduce = Y(fun(F) ->
+  fun([], _Acc, _Fun, Result) ->
+    lists:reverse(Result);
+  ([H | T], Acc, Fun, Result) ->
+    NewAcc = Fun(H, Acc),
+    F(T, NewAcc, Fun, [NewAcc | Result])
+  end
+end).
+
+Sum = Reduce([1, 2, 3, 4], 0, fun(X, Acc) -> X + Acc end, []).
+% Sum = 10
+```
+
+在这个示例中，我们首先定义了一个名为 `Y` 的 Y Combinator 函数。然后，我们使用这个函数来定义一个名为 `Reduce` 的匿名函数。这个匿名函数与前面示例中的 `reduce` 函数类似，它接受四个参数：一个列表、一个累积值、一个函数和一个结果列表。
+
+在 `Reduce` 函数中，我们首先检查列表是否为空。如果列表为空，那么我们返回结果列表的反转。否则，我们取出列表的第一个元素，并调用传入的函数来计算新的累积值。然后，我们将新的累积值添加到结果列表中，并递归调用 `Reduce` 函数来处理剩余的元素。
+
+最后，我们调用这个 `Reduce` 函数，并传递一个包含四个数字的列表、一个初始值 `0`、一个匿名函数和一个空列表作为参数。这个匿名函数接受两个参数 `X` 和 `Acc`，并返回它们的和。最终，`Reduce` 函数返回了这个列表中所有元素的和，即 `10`。
+
+#### 16/20
+
+> Elixir 的代码呢？
+
+在 Elixir 中，你也可以使用 Y Combinator 来实现匿名函数的递归。下面是一个简单的示例，演示了如何在 Elixir 中使用 Y Combinator 来实现匿名函数的递归：
+
+```elixir
+y = fn f ->
+  (fn x -> f.(fn y -> (x.(x)).(y) end) end)
+  .(fn x -> f.(fn y -> (x.(x)).(y) end) end)
+end
+
+reduce = y.(fn f ->
+  fn
+    [], _acc, _fun, result ->
+      Enum.reverse(result)
+    [h | t], acc, fun, result ->
+      new_acc = fun.(h, acc)
+      f.(t, new_acc, fun, [new_acc | result])
+  end
+end)
+
+sum = reduce.([1, 2, 3, 4], 0, fn x, acc -> x + acc end, [])
+# sum = 10
+```
+
+在这个示例中，我们首先定义了一个名为 `y` 的 Y Combinator 函数。然后，我们使用这个函数来定义一个名为 `reduce` 的匿名函数。这个匿名函数与前面示例中的 `Reduce` 函数类似，它接受四个参数：一个列表、一个累积值、一个函数和一个结果列表。
+
+在 `reduce` 函数中，我们首先检查列表是否为空。如果列表为空，那么我们返回结果列表的反转。否则，我们取出列表的第一个元素，并调用传入的函数来计算新的累积值。然后，我们将新的累积值添加到结果列表中，并递归调用 `reduce` 函数来处理剩余的元素。
+
+最后，我们调用这个 `reduce` 函数，并传递一个包含四个数字的列表、一个初始值 `0`、一个匿名函数和一个空列表作为参数。这个匿名函数接受两个参数 `x` 和 `acc`，并返回它们的和。最终，`reduce` 函数返回了这个列表中所有元素的和，即 `10`。
+
+#### 17/20
+
+> 可以用尾递归实现 Scala 那样的 `LazyList` 吗？
+
+尾递归通常用于优化递归函数，以避免栈溢出的问题。它并不能直接用于实现类似于 Scala 中 `LazyList` 的数据结构。
+
+`LazyList` 是一种惰性求值的数据结构，它只在需要时才计算元素的值。这种数据结构可以用于处理无限序列，或者在计算成本较高时避免不必要的计算。
+
+在 Erlang 和 Elixir 中，你可以使用流（stream）来实现类似于 `LazyList` 的功能。流是一种惰性求值的数据结构，它可以用于处理无限序列或避免不必要的计算。
+
+下面是一个简单的示例，演示了如何在 Elixir 中使用流来实现类似于 `LazyList` 的功能：
+
+```elixir
+stream = Stream.iterate(1, &(&1 + 1))
+|> Stream.filter(fn x -> rem(x, 2) == 0 end)
+|> Stream.take(5)
+
+Enum.to_list(stream) # [2, 4, 6, 8, 10]
+```
+
+在这个示例中，我们首先使用 `Stream.iterate` 函数来创建一个无限序列，它从 `1` 开始，每次递增 `1`。然后，我们使用 `Stream.filter` 函数来过滤出偶数元素，并使用 `Stream.take` 函数来获取前五个元素。最后，我们使用 `Enum.to_list` 函数将这个流转换为一个列表。
+
+由于流是惰性求值的，所以只有在调用 `Enum.to_list` 函数时才会计算元素的值。这意味着，在前面的代码中，我们并没有真正地创建一个无限序列，而是只计算了前五个偶数元素。
+
+#### 18/20
+
+> 在 Erlang 要怎么写？
+
+在 Erlang 中，你可以使用惰性列表（lazy list）来实现类似于 Scala 中 `LazyList` 的功能。惰性列表是一种惰性求值的数据结构，它只在需要时才计算元素的值。
+
+惰性列表可以使用函数来实现。你可以定义一个函数，它接受一个索引作为参数，并返回对应位置的元素。然后，你可以使用这个函数来访问惰性列表中的元素。
+
+下面是一个简单的示例，演示了如何在 Erlang 中使用函数来实现惰性列表：
+
+```erlang
+lazy_list(Index) ->
+  2 * Index.
+
+lists:map(fun lazy_list/1, lists:seq(1, 5)). % [2, 4, 6, 8, 10]
+```
+
+在这个示例中，我们定义了一个名为 `lazy_list` 的函数，它接受一个索引作为参数，并返回索引乘以 `2` 的结果。然后，我们使用 `lists:map` 函数和 `lists:seq` 函数来获取前五个元素的值。
+
+由于 `lazy_list` 函数是惰性求值的，所以只有在调用 `lists:map` 函数时才会计算元素的值。这意味着，在前面的代码中，我们并没有真正地创建一个无限序列，而是只计算了前五个偶数元素。
+
+#### 19/20
+
+> 这看起来只是定义了一个名为 `lazy_list` 的函数而已
+
+是的，你说得对。在前面的示例中，我们只是定义了一个名为 `lazy_list` 的函数，它接受一个索引作为参数，并返回对应位置的元素。这个函数并不是一个真正的惰性列表，而只是一个用于计算惰性列表中元素的函数。
+
+在 Erlang 中，没有内置的惰性列表数据结构。但是，你可以使用函数来模拟惰性列表的行为。你可以定义一个函数，它接受一个索引作为参数，并返回对应位置的元素。然后，你可以使用这个函数来访问惰性列表中的元素。
+
+下面是一个简单的示例，演示了如何在 Erlang 中使用函数来模拟惰性列表的行为：
+
+```erlang
+lazy_list(Index) ->
+  2 * Index.
+
+lists:map(fun lazy_list/1, lists:seq(1, 5)). % [2, 4, 6, 8, 10]
+```
+
+在这个示例中，我们定义了一个名为 `lazy_list` 的函数，它接受一个索引作为参数，并返回索引乘以 `2` 的结果。然后，我们使用 `lists:map` 函数和 `lists:seq` 函数来获取前五个元素的值。
+
+由于 `lazy_list` 函数是惰性求值的，所以只有在调用 `lists:map` 函数时才会计算元素的值。这意味着，在前面的代码中，我们并没有真正地创建一个无限序列，而是只计算了前五个偶数元素。
 
 ### TS Echoes (new bing)
 
