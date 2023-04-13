@@ -9,11 +9,11 @@
 
 ~~~ yml
 - 
-  name: Wallless.yourname.Free
+  name: Wallless.yourname
   url: https://host.api-baobaog.rest/api/v1/client/subscribe?token=xxxxxxxxxxxyour-tokenxxxxxxxxxxx
   upminute: 1400
 - 
-  name: SSRDOG.yourname.Free
+  name: SSRDOG.yourname
   url: https://host.ssrbox.com/api/v1/client/subscribe?token=xxxxxxxxxxxyour-tokenxxxxxxxxxxx
   upminute: 1400
 ~~~
