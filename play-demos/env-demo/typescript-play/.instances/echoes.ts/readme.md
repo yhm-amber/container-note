@@ -36,9 +36,9 @@ namespace Echoes
 } ;
 ~~~
 
-### 使用
+### 使用例
 
-简单示例：
+简单例：
 
 ~~~ tsx
 const ffs =
@@ -58,7 +58,7 @@ console.log( Echoes.echoes(ffs).f2(3) ); // 结果为 7
 
 其中的 `(env: { [key: string]: Function }) =>` 是必要的部分。没有这个变量，就不能描述属性之间的依赖关系。
 
-复杂示例：
+复杂例：
 
 ~~~ tsx
 const xx =
