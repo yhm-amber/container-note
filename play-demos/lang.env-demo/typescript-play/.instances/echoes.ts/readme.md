@@ -78,8 +78,8 @@ const xx =
         : Promise<number> => Promise.resolve(env.f(s) + n - env.x0) ,
 } ;
 
-Echoes.echoes<{f2: ReturnType<typeof xx.f2>}>(xx).f2('a',3).then(r => console.log(r)); // 结果为 3
-Echoes.echoes(xx).f2('a',3).then( (r: number) => console.log(r) ); // 结果为 3
+Echoes.echoes<{f2: ReturnType<typeof xx.f2>}>(xx).f2('aa',3).then(r => console.log(r)); // 结果为 4
+Echoes.echoes(xx).f2('aaa',3).then( (r: number) => console.log(r) ); // 结果为 5
 
 Echoes.call(xx,'f2')('a',3).then(r => console.log(r)); // 结果为 3
 ~~~
