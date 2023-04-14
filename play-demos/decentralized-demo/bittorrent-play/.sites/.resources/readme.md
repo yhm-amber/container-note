@@ -25,6 +25,28 @@ magnet:?xt=urn:btih:7e4fc497df7b26d12004483f21dad9fe4f652bdd&dn=(%e4%b8%80%e8%88
 
 Series and Movies .
 
+### 混沌武士 Samurai Champloo
+
+- [Official Site](https://funimation.com/samuraichamploo)
+
+#### [`[Moozzi2] 混沌武士 Samurai Champloo BD-BOX (BD 1920x1080 x264 Flac)`](https://share.dmhy.org/topics/view/465424_Moozzi2_Samurai_Champloo_BD-BOX_BD_1920x1080_x264_Flac.html)
+
+`21.5GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:HM6ZV6A4QTKKNPGN6TMXNKK3JGXDTRVL&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftr.bangumi.moe%3A9696%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Ftracker.anirena.com%3A80%2Fannounce&tr=http%3A%2F%2Frntracker.ohys.net%3A80%2Fannounce&tr=http%3A%2F%2Frutracker.ohys.net%3A80%2Fannounce
+magnet:?xt=urn:btih:3b3d9af81c84d4a6bccdf4d976a95b49ae39c6ab
+~~~
+
+#### [`[philosophy-raws][琉球狂侍/混沌武士][TV 01-26+SP][BDRIP][1080p 10bit][日英双语][英文字幕][自购日版BD压制,自抓CD付]`](https://share.dmhy.org/topics/view/329376_philosophy-raws_TV_01-26_SP_BDRIP_1080p_10bit_BD_CD.html)
+
+`44.9GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:VXJWDRYOS6OX2VFND5LARPJLJFPOR2P3&dn=%5Bphilosophy-raws%5D%5BSamurai+Champloo%5D&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Fwww.mp4mkv.org%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Fbt.sc-ol.com%3A2710%2Fannounce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2F61.154.116.205%3A8000%2Fannounce&tr=http%3A%2F%2Fbt.rghost.net%3A80%2Fannounce&tr=http%3A%2F%2Fbt.edwardk.info%3A4040%2Fannounce&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannonuce
+magnet:?xt=urn:btih:add361c70e979d7d54ad1f5608bd2b495ee8e9fb
+~~~
+
 ### Cyberpunk Edgerunners (2022)
 
 - offical site: [Cyberpunk: Edgerunners](https://cyberpunk.net/edgerunners)
@@ -36,6 +58,125 @@ Series and Movies .
 ~~~ magnet
 magnet:?xt=urn:btih:FIEQFOKZMTDI5YJNMZXW7QTFCBDD3JSV&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
 magnet:?xt=urn:btih:2a0902b95964c68ee12d666f6fc26510463da655
+~~~
+
+#### `Cyberpunk - Edgerunners -S01- [4k]`
+
+
+`[MJCK]`: 
+
+- [`Create Time: 2022-09-21`](https://bt4g.org/magnet/f31fe5998a96d5b6262f12d29dfbed41a50dff0c) `41.25GB`
+- [`Create Time: 2022-09-21`](https://bt4g.org/magnet/85dc3afd5a9187fba84154290302b7898fbc4ac8) `41.25GB`
+
+~~~
+
+Files
+Cyberpunk - Edgerunners -S01E01- [4k]-[MJCK].mkv 3.82GB
+Cyberpunk - Edgerunners -S01E02- [4k]-[MJCK].mkv 3.53GB
+Cyberpunk - Edgerunners -S01E03- [4k]-[MJCK].mkv 4.01GB
+Cyberpunk - Edgerunners -S01E04- [4k]-[MJCK].mkv 3.74GB
+Cyberpunk - Edgerunners -S01E05- [4k]-[MJCK].mkv 3.72GB
+Cyberpunk - Edgerunners -S01E06- [4k]-[MJCK].mkv 4.09GB
+Cyberpunk - Edgerunners -S01E07- [4k]-[MJCK].mkv 4.31GB
+Cyberpunk - Edgerunners -S01E08- [4k]-[MJCK].mkv 3.66GB
+Cyberpunk - Edgerunners -S01E09- [4k]-[MJCK].mkv 6.54GB
+Cyberpunk - Edgerunners -S01E10- [4k]-[MJCK].mkv 3.82GB
+~~~
+
+~~~ magnet
+magnet:?xt=urn:btih:f31fe5998a96d5b6262f12d29dfbed41a50dff0c&dn=Cyberpunk%20-%20Edgerunners%20-S01-%20%5B4k%5D-%5BMJCK%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+
+magnet:?xt=urn:btih:85dc3afd5a9187fba84154290302b7898fbc4ac8&dn=Cyberpunk%20-%20Edgerunners%20-S01-%20%5B4k%5D-%5BMJCK%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+`Cyberpunk — Edgerunners S01 4k [2160p] H.264` `2022-12-23` `40.93GB` : 
+
+~~~
+Cyberpunk - Edgerunners 9 Humanity.mkv 6.51GB
+Cyberpunk - Edgerunners 2 Like.A.Boy.mkv 3.50GB
+Cyberpunk - Edgerunners 3 Smooth.Criminal.mkv 3.97GB
+Cyberpunk - Edgerunners 4 Lucky.You.mkv 3.71GB
+Cyberpunk - Edgerunners 5 All.Eyez.On.Me.mkv 3.69GB
+Cyberpunk - Edgerunners 6 Girl.on.Fire.mkv 4.05GB
+Cyberpunk - Edgerunners 7 Stronger.mkv 4.28GB
+Cyberpunk - Edgerunners 8 Stay.mkv 3.63GB
+Cyberpunk - Edgerunners 1 Let.You.Down.mkv 3.79GB
+Cyberpunk - Edgerunners 10 My.Moon.My.Man.mkv 3.78GB
+~~~
+
+~~~ magnet
+magnet:?xt=urn:btih:9f0a015a6715e3ba7fd2da47ea7a9a908674c257&dn=Cyberpunk%20%E2%80%94%20Edgerunners%20S01%204k%20%5B2160p%5D%20H.264&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+#### [`Cyberpunk - Edgerunners [2022] [WEB-DL] [Dolby Vision] [1080p] [RUS + JAP] [Multi-14]`](https://bt4g.org/magnet/da1589630930f085dd6760262fe5a3e757416eca)
+
+~~~
+26.48GB
+---------
+Cyberpunk - Edgerunners - 10 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.94GB
+Cyberpunk - Edgerunners - 01 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.53GB
+Cyberpunk - Edgerunners - 02 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).m4a 45.15MB
+Cyberpunk - Edgerunners - 02 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.50GB
+Cyberpunk - Edgerunners - 03 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).m4a 45.30MB
+Cyberpunk - Edgerunners - 03 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.51GB
+Cyberpunk - Edgerunners - 04 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).m4a 45.18MB
+Cyberpunk - Edgerunners - 04 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.52GB
+Cyberpunk - Edgerunners - 05 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).m4a 43.79MB
+Cyberpunk - Edgerunners - 05 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.49GB
+Cyberpunk - Edgerunners - 06 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).m4a 48.07MB
+Cyberpunk - Edgerunners - 06 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.76GB
+Cyberpunk - Edgerunners - 07 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).m4a 45.05MB
+Cyberpunk - Edgerunners - 07 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.57GB
+Cyberpunk - Edgerunners - 08 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).m4a 45.18MB
+Cyberpunk - Edgerunners - 08 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.47GB
+Cyberpunk - Edgerunners - 09 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).m4a 45.18MB
+Cyberpunk - Edgerunners - 09 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.74GB
+Cyberpunk - Edgerunners - 10 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).m4a 50.15MB
+Cyberpunk - Edgerunners - 01 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).m4a 45.09MB
+~~~
+
+~~~ magnet
+magnet:?xt=urn:btih:da1589630930f085dd6760262fe5a3e757416eca&dn=Cyberpunk%20-%20Edgerunners%20%5B2022%5D%20%5BWEB-DL%5D%20%5BDolby%20Vision%5D%20%5B1080p%5D%20%5BRUS%20%2B%20JAP%5D%20%5BMulti-14%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+~~~
+26.03GB
+---------
+Cyberpunk - Edgerunners - 01 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.53GB
+Cyberpunk - Edgerunners - 02 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.50GB
+Cyberpunk - Edgerunners - 03 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.51GB
+Cyberpunk - Edgerunners - 04 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.52GB
+Cyberpunk - Edgerunners - 05 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.49GB
+Cyberpunk - Edgerunners - 06 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.76GB
+Cyberpunk - Edgerunners - 07 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.57GB
+Cyberpunk - Edgerunners - 08 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.47GB
+Cyberpunk - Edgerunners - 09 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.74GB
+Cyberpunk - Edgerunners - 10 (WEB-DL 1920x1080 HEVC DV AAC Rus + Jap).mkv 2.94GB
+~~~
+
+~~~ magnet
+magnet:?xt=urn:btih:16bebd67e2d6f1b1e3ae36194589f4595ca87725&dn=Cyberpunk%20-%20Edgerunners%20%5B2022%5D%20%5BWEB-DL%5D%20%5BDolby%20Vision%5D%20%5B1080p%5D%20%5BRUS%20%2B%20JAP%5D%20%5BMulti-14%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+#### [`Cyberpunk Edgerunners 4K HEVC AI`](https://bt4g.org/magnet/862595513fa688f3a1544049fb5f838154d0ee43)
+
+~~~
+22.99GB
+---------
+Cyberpunk.Edgerunners.S01E10.mkv 2.52GB
+Cyberpunk.Edgerunners.S01E06.mkv 2.41GB
+Cyberpunk.Edgerunners.S01E09.mkv 2.36GB
+Cyberpunk.Edgerunners.S01E02.mkv 2.27GB
+Cyberpunk.Edgerunners.S01E08.mkv 2.27GB
+Cyberpunk.Edgerunners.S01E01.mkv 2.26GB
+Cyberpunk.Edgerunners.S01E07.mkv 2.26GB
+Cyberpunk.Edgerunners.S01E03.mkv 2.23GB
+Cyberpunk.Edgerunners.S01E04.mkv 2.22GB
+Cyberpunk.Edgerunners.S01E05.mkv 2.19GB
+~~~
+
+~~~ magnet
+magnet:?xt=urn:btih:862595513fa688f3a1544049fb5f838154d0ee43&dn=Cyberpunk%20Edgerunners%204K%20HEVC%20AI&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
 ~~~
 
 ### Kizumonogatari
