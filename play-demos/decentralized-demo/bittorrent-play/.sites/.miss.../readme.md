@@ -12,4 +12,4 @@ website:
 | ---- | ---- |
 | [JAVHOO!][javhoo] | 可根据演员检索 |
 | [JvrLibrary][jvr] | 可根据演员检索 VR 资源 |
-| [Sukebei][sukebei] | 清晰度好的貌似会被标绿哦！ |
+| [Sukebei][sukebei] | 清晰度好的貌似会被标绿哦！（其实好像不是的 ...） |
