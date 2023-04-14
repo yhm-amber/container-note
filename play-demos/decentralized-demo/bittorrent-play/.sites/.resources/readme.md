@@ -174,6 +174,22 @@ Love.Death.and.Robots.S03E08.In.Vaulted.Halls.Entombed.720p.NF.WEB-DL.DDP5.1.Atm
 Love.Death.and.Robots.S03E09.Jibaro.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 596.75MB
 ~~~~
 
+### Bocchi The Rock!
+
+#### [`[桜都字幕组] 孤独摇滚！ / Bocchi the Rock! [1-12 Fin][1080p][简繁内嵌&内封]`](https://share.dmhy.org/topics/view/628100_Bocchi_the_Rock%21_1-12_Fin_1080p.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:366AG5RKFFTWSVFLIIZSM4ZO2I2RWBYG&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
+magnet:?xt=urn:btih:dfbc03762a29676954ab423326732ed2351b0706
+~~~
+
+#### [`[动漫国字幕组&LoliHouse] 孤独摇滚 / BOCCHI THE ROCK! - [01-12修正合集][WebRip 1080p HEVC-10bit AAC][简繁内封字幕][Fin]`](https://share.dmhy.org/topics/view/627286_LoliHouse_BOCCHI_THE_ROCK%21_-_01-12_WebRip_1080p_HEVC-10bit_AAC_Fin.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:FYNYRWRGIARSJTL6SP77EJR7F2SPOELW&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
+magnet:?xt=urn:btih:2e1b88da26402324cd7e93fff2263f2ea4f71176
+~~~
+
 ### Shingeki no Kyojin
 
 #### [`[转载][ReinForce] 进击的巨人S1~S4(01-75)+OAD+Movie Shingeki no Kyojin (BDRip 1920x1080 x264 FLAC)`](https://share.dmhy.org/topics/view/634360_ReinForce_S1_S4_01-75_OAD_Movie_Shingeki_no_Kyojin_BDRip_1920x1080_x264_FLAC.html)
