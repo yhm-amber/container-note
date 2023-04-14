@@ -178,6 +178,8 @@ Love.Death.and.Robots.S03E09.Jibaro.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 5
 
 ### 隐入尘烟 (2022)
 
+- [隱入塵煙 | 維基百科](https://zh.wikipedia.org/wiki/%E9%9A%90%E5%85%A5%E5%B0%98%E7%83%9F)
+
 #### `隐入尘烟(高码).Return.to.Dust.2022.2160p.WEB-DL.H265.DDP2.0-HaresWEB`
 
 ~~~
