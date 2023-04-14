@@ -174,6 +174,36 @@ Love.Death.and.Robots.S03E08.In.Vaulted.Halls.Entombed.720p.NF.WEB-DL.DDP5.1.Atm
 Love.Death.and.Robots.S03E09.Jibaro.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 596.75MB
 ~~~~
 
+### Shingeki no Kyojin
+
+#### [`[转载][ReinForce] 进击的巨人S1~S4(01-75)+OAD+Movie Shingeki no Kyojin (BDRip 1920x1080 x264 FLAC)`](https://share.dmhy.org/topics/view/634360_ReinForce_S1_S4_01-75_OAD_Movie_Shingeki_no_Kyojin_BDRip_1920x1080_x264_FLAC.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:ZBR3KTQQ3XOHAYUMSQHESPEKUD75IPHU&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce
+magnet:?xt=urn:btih:c863b54e10dddc70628c940e493c8aa0ffd43cf4
+~~~
+
+#### [`[转载][ReinForce] 进击的巨人 S04 Part 2(76-81) Shingeki no Kyojin (BDRip 1920x1080 x264 FLAC)`](https://share.dmhy.org/topics/view/634361_ReinForce_S04_Part_2_76-81_Shingeki_no_Kyojin_BDRip_1920x1080_x264_FLAC.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:WEPWL3QHTJOJ36YQ56CKBWU23WRWD6DB&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce
+magnet:?xt=urn:btih:b11f65ee079a5c9dfb10ef84a0da9adda361f861
+~~~
+
+#### [`[转载][ReinForce] 进击的巨人 S04 Part 2(82-87) Shingeki no Kyojin (BDRip 1920x1080 x264 FLAC)`](https://share.dmhy.org/topics/view/634362_ReinForce_S04_Part_2_82-87_Shingeki_no_Kyojin_BDRip_1920x1080_x264_FLAC.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:M4VZF2GG4AHOVPFM3ZWVZ6PKD7TFBNPN&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce
+magnet:?xt=urn:btih:672b92e8c6e00eeabcacde6d5cf9ea1fe650b5ed
+~~~
+
+#### [`[Skymoon-Raws] 進擊的巨人 第四季 / Shingeki no Kyojin S4 - 01~28 [ViuTV][WEB-DL][1080p][AVC AAC][繁體外掛][MP4+SRT](正式版本)`](https://share.dmhy.org/topics/view/635723_Skymoon-Raws_Shingeki_no_Kyojin_S4_-_01_28_ViuTV_WEB-DL_1080p_AVC_AAC_MP4_SRT.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:BOYHYUOXJQO55FW6JHZCPG5MGEOKDNOW&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Fopentracker.acgnx.se%2Fannounce
+magnet:?xt=urn:btih:0bb07c51d74c1dde96de49f2279bac311ca1b5d6
+~~~
+
 ## Movies
 
 ### 隐入尘烟 (2022)
