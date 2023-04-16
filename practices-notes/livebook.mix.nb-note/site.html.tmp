@@ -1,0 +1,623 @@
+<div path="/integrations"><section id="intro">
+      <div class="m-auto max-w-7xl px-4 pt-10">
+        <h2 class="text-gray-900 text-3xl font-normal text-left"><font>Integrations</font></h2>
+        <div class="mt-3 lg:w-[520px]">
+          <span class="text-gray-700 font-normal text-left">
+            Livebook comes with built-in integrations with Elixir, multiple data
+            sources, data visualization libraries, and more!
+          </span>
+        </div>
+      </div>
+    </section><section id="integrations">
+      <div class="m-auto max-w-7xl px-4 pt-10 lg:mb-20 flex flex-col lg:flex-row lg:items-start gap-5 lg:gap-16">
+        <div id="btn-integration" class="hidden lg:flex flex-col gap-1">
+          <button data-type="all" class="button-integration button-integration-active">
+            All
+          </button>
+          <button data-type="database" class="button-integration">
+            Database &amp; <br>
+            Data Warehouse
+          </button>
+          <button data-type="language" class="button-integration">Language</button>
+          <button data-type="machine-learning" class="button-integration">
+            Machine Learning
+          </button>
+          <button data-type="messaging" class="button-integration">
+            Messaging
+          </button>
+          <button data-type="visualization" class="button-integration">
+            Visualization
+          </button>
+          <div class="hidden lg:block w-60 mt-6 p-5 bg-blue-50 border rounded-lg border-blue-600">
+            <span class="font-semibold">Can't find an integration?</span>
+            <div class="mt-2 text-sm">
+              <span>
+                Integrations are hosted as open-source packages
+                <a class="underline" href="https://hex.pm/packages?search=kino&amp;sort=recent_downloads" target="_blank">on Hex.pm</a>. Anyone can build and publish new integrations. Use our
+                <a class="underline" href="https://github.com/livebook-dev/livebook/discussions/categories/integrations" target="_blank">GitHub Discussions</a>
+                to suggest new integrations and discuss with the community.
+              </span>
+            </div>
+          </div>
+        </div>
+        <select class="integration-select lg:hidden block w-full p-2.5 bg-gray-200 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500">
+          <option value="all" class="button-integration button-integration-active">
+            All
+          </option>
+          <option value="database" class="button-integration">
+            Database &amp; 
+            Data Warehouse
+          </option>
+          <option value="language" class="button-integration">Language</option>
+          <option value="machine-learning" class="button-integration">
+            Machine Learning
+          </option>
+          <option value="messaging" class="button-integration">Messaging</option>
+          <option value="visualization" class="button-integration">
+            Visualization
+          </option>
+        </select>
+        <div class="grow grid grid-cols-2 xs:grid-cols-3 xl:grid-cols-4 gap-0.5">
+          <!-- Elixir -->
+          <div data-type="language" class="flex flex-col items-center justify-center outline outline-gray-100 h-36 md:h-64">
+            <a class="flex flex-col" href="/integrations/elixir">
+              <img class="h-[48px] md:h-[72px]" src="https://d33wubrfki0l68.cloudfront.net/f95a05087e000cda677a708dc0fd3f89d1006018/d6ec7/assets/elixir_logo.6e0f72ff.svg" alt="Elixir Logo">
+              <span class="text-gray-700 text-center font-medium text-base md:text-xl mt-2 md:mt-4">Elixir</span>
+              <span class="text-gray-500 font-medium md:font-semibold text-center text-xs tracking-wider sm:tracking-widest mt-1">LANGUAGE</span>
+            </a>
+          </div>
+          <!-- SQL -->
+          <div data-type="language" class="flex flex-col items-center justify-center outline outline-gray-100 h-36 md:h-64">
+            <a class="flex flex-col items-center" href="/integrations/sql">
+              <img class="h-[48px] md:h-[72px]" src="data:image/png;base64,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" alt="SQL Logo">
+              <span class="text-gray-700 text-center font-medium text-base md:text-xl mt-2 md:mt-4">SQL</span>
+              <span class="text-gray-500 font-medium md:font-semibold text-center text-xs tracking-wider sm:tracking-widest mt-1">LANGUAGE</span>
+            </a>
+          </div>
+          <!-- HF -->
+          <div data-type="machine-learning" class="flex flex-col items-center justify-center outline outline-gray-100 h-36 md:h-64">
+            <a class="flex flex-col items-center" href="/integrations/hugging-face">
+              <img class="h-[48px] md:h-[72px]" src="https://d33wubrfki0l68.cloudfront.net/a23fad06aabcab1caf65c85892e0dde36eb768e9/fd658/assets/hf_logo.2f32230c.png" alt="Hugging Face Logo">
+              <span class="text-gray-700 text-center font-medium text-base md:text-xl mt-2 md:mt-4">Hugging Face</span>
+              <span class="text-gray-500 font-medium md:font-semibol text-center text-xs tracking-wider sm:tracking-widest mt-1">MACHINE LEARNING</span>
+            </a>
+          </div>
+          <!-- Slack -->
+          <div data-type="messaging" class="flex flex-col items-center justify-center outline outline-gray-100 h-36 md:h-64">
+            <a class="flex flex-col items-center" href="/integrations/slack">
+              <img class="h-[48px] md:h-[72px]" src="https://d33wubrfki0l68.cloudfront.net/87d9df1fbf44458bcf12ad78d0806db1e5ec58a4/2770d/assets/slack_logo.df30f7a5.png" alt="Slack Logo">
+              <span class="text-gray-700 text-center font-medium text-base md:text-xl mt-2 md:mt-4">Slack</span>
+              <span class="text-gray-500 font-medium md:font-semibol text-center text-xs tracking-wider sm:tracking-widest mt-1">MESSAGING</span>
+            </a>
+          </div>
+          <!-- PostgreSQL -->
+          <div data-type="database" class="flex flex-col items-center justify-center outline outline-gray-100 h-36 md:h-64">
+            <a class="flex flex-col items-center" href="/integrations/postgre-sql">
+              <img class="h-[48px] md:h-[72px]" src="https://d33wubrfki0l68.cloudfront.net/a12b3aad882cd4c12d09990b923c09b114787e51/15f66/assets/postgresql_logo.51f93e19.svg" alt="PostgreSQL Logo">
+              <span class="text-gray-700 text-center font-medium text-base md:text-xl mt-2 md:mt-4">PostgreSQL</span>
+              <span class="text-gray-500 font-medium md:font-semibol text-center text-xs tracking-wider sm:tracking-widest mt-1">DATABASE</span>
+            </a>
+          </div>
+          <!-- MySQL -->
+          <div data-type="database" class="flex flex-col items-center justify-center outline outline-gray-100 h-36 md:h-64">
+            <a class="flex flex-col items-center" href="/integrations/mysql">
+              <img class="h-[48px] md:h-[72px]" src="https://d33wubrfki0l68.cloudfront.net/81a9aed06f8348ebe93971850e90c55ababd35fd/b9832/assets/mysql_logo.abfc1a87.svg" alt="MySQL Logo">
+              <span class="text-gray-700 text-center font-medium text-base md:text-xl mt-2 md:mt-4">MySQL</span>
+              <span class="text-gray-500 font-medium md:font-semibol text-center text-xs tracking-wider sm:tracking-widest mt-1">DATABASE</span>
+            </a>
+          </div>
+          <!-- SQLite -->
+          <div data-type="database" class="flex flex-col items-center justify-center outline outline-gray-100 h-36 md:h-64">
+            <a class="flex flex-col items-center" href="/integrations/sqlite">
+              <img class="h-[48px] md:h-[72px]" src="https://d33wubrfki0l68.cloudfront.net/c2158ec34b28f34a4130b04704b6cd627a671851/93af2/assets/sqlite_logo.3f0b6dac.svg" alt="SQLite Logo">
+              <span class="text-gray-700 text-center font-medium text-base md:text-xl mt-2 md:mt-4">SQLite</span>
+              <span class="text-gray-500 font-medium md:font-semibol text-center text-xs tracking-wider sm:tracking-widest mt-1">DATABASE</span>
+            </a>
+          </div>
+          <!-- Google BigQuery -->
+          <div data-type="database" class="flex flex-col items-center justify-center outline outline-gray-100 h-36 md:h-64">
+            <a class="flex flex-col items-center" href="/integrations/google-bigquery">
+              <img class="h-[48px] md:h-[72px]" src="https://d33wubrfki0l68.cloudfront.net/d74d7651464d0aebd12fd40b1258d85dfa5535d7/4de93/assets/google_bigquery_logo.5084e38e.png" alt="Google BigQuery Logo">
+              <span class="text-gray-700 text-center font-medium text-base md:text-xl mt-2 md:mt-4">Google BigQuery</span>
+              <span class="text-gray-500 font-medium md:font-semibol text-center text-xs tracking-wider sm:tracking-widest mt-1">DATA WAREHOUSE</span>
+            </a>
+          </div>
+          <!-- Amazon Athena -->
+          <div data-type="database" class="flex flex-col items-center justify-center outline outline-gray-100 h-36 md:h-64">
+            <a class="flex flex-col items-center" href="/integrations/amazon-athena">
+              <img class="h-[48px] md:h-[72px]" src="https://d33wubrfki0l68.cloudfront.net/36ca2d71859bef4215700a9f0958b85a3cdf1be1/16167/assets/aws_athena_logo.8ef92821.png" alt="Amazon Athena Logo">
+              <span class="text-gray-700 text-center font-medium text-base md:text-xl mt-2 md:mt-4">Amazon Athena</span>
+              <span class="text-gray-500 font-medium md:font-semibol text-center text-xs tracking-wider sm:tracking-widest mt-1">DATA WAREHOUSE</span>
+            </a>
+          </div>
+          <!-- VegaLite -->
+          <div data-type="visualization" class="flex flex-col items-center justify-center outline outline-gray-100 h-36 md:h-64">
+            <a class="flex flex-col items-center" href="/integrations/vega-lite">
+              <img class="h-[40px] md:h-[64px]" src="https://d33wubrfki0l68.cloudfront.net/8c8286befa5cb6b14978b4ea7a01c505c734021a/d7bfd/assets/vega_lite_logo.286fd9c8.svg" alt="VegaLite Logo">
+              <span class="text-gray-700 text-center font-medium text-base md:text-xl mt-2 md:mt-4">Vega-Lite</span>
+              <span class="text-gray-500 font-medium md:font-semibol text-center text-xs tracking-wider sm:tracking-widest mt-1">VISUALIZATION</span>
+            </a>
+          </div>
+          <!-- MapLibre -->
+          <div data-type="visualization" class="flex flex-col items-center justify-center outline outline-gray-100 h-36 md:h-64">
+            <a class="flex flex-col items-center" href="/integrations/maplibre">
+              <img class="h-[48px] md:h-[72px]" src="https://d33wubrfki0l68.cloudfront.net/f60a23e4f693451bc3318695ce4413b2f34f0b9c/6383c/assets/maplibre_logo.c7630cc8.png" alt="MapLibre Logo">
+              <span class="text-gray-700 text-center font-medium text-base md:text-xl mt-2 md:mt-4">MapLibre</span>
+              <span class="text-gray-500 font-medium md:font-semibol text-center text-xs tracking-wider sm:tracking-widest mt-1">VISUALIZATION</span>
+            </a>
+          </div>
+          <!-- Mermaid -->
+          <div data-type="visualization" class="flex flex-col items-center justify-center outline outline-gray-100 h-36 md:h-64">
+            <a class="flex flex-col items-center" href="/integrations/mermaid">
+              <img class="h-[48px] md:h-[72px]" src="https://d33wubrfki0l68.cloudfront.net/2946f68d068053da6f9f5f8eb4f0c2d29a874ab6/fdea4/assets/mermaid_logo.bf0f8597.jpg" alt="Mermaid Logo">
+              <span class="text-gray-700 text-center font-medium text-base md:text-xl mt-2 md:mt-4">Mermaid</span>
+              <span class="text-gray-500 font-medium md:font-semibol text-center text-xs tracking-wider sm:tracking-widest mt-1">VISUALIZATION</span>
+            </a>
+          </div>
+        </div>
+        <div class="lg:hidden mb-20 p-5 bg-blue-50 border rounded-lg border-blue-600">
+          <span class="font-semibold">Can't find an integration?</span>
+          <div class="mt-2 text-sm">
+            <span>
+              Integrations are hosted as open-source packages
+              <a class="underline" href="https://hex.pm/packages?search=kino&amp;sort=recent_downloads" target="_blank">on Hex.pm</a>. Anyone can build and publish new integrations. Use our
+              <a class="underline" href="https://github.com/livebook-dev/livebook/discussions/categories/integrations" target="_blank">GitHub Discussions</a>
+              to suggest new integrations and discuss with the community.
+            </span>
+          </div>
+        </div>
+      </div>
+    </section><div path="integrations/elixir"><br><section id="intro" class="bg-gray-100 overflow-x-hidden">
+        <div class="m-auto max-w-7xl px-4 pt-12 pb-20 flex flex-col xl:flex-row space-y-16 md:space-y-20 xl:space-y-0">
+          <div class="flex flex-col xl:min-w-[44%] xl:justify-center space-y-8 text-center xl:text-left items-center xl:items-start">
+            <h2 class="max-w-lg text-3xl font-light xl:text-left text-gray-900"><font>
+              Use Elixir directly in Livebook
+            </font></h2>
+            <span class="empty:bg-blue-700 text-lg text-gray-700 max-w-xl"><font><font><font>
+              Livebook has an interactive environment to code in Elixir. You can use it to learn Elixir, explore Elixir packages, prototypes, scripts, and interactive data apps.
+            </font></font></font></span>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6">
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl bg-gray-900 text-gray-50" href="/#install">
+                <i class="ri-rocket-line px-4 text-3xl text-gray-300"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Install Livebook</font></span>
+                  <span class="text-sm"><font><font><font>Locally or on the cloud</font></font></font></span>
+                </div>
+              </a>
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl text-gray-700 border-2 border-gray-300" href="https://github.com/livebook-dev/livebook/blob/main/lib/livebook/notebook/learn/intro_to_livebook.livemd#elixir-integration" target="_blank">
+                <i class="ri-book-read-line px-4 text-3xl text-gray-400"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Learn more</font></span>
+                  <span class="text-sm"><font><font><font>Elixir &amp; Livebook</font></font></font></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="xl:max-w-[70%] xl:ml-20 rounded-md custom-shadow-1" src="https://d33wubrfki0l68.cloudfront.net/340fea8b2e114d86c3afa8487234020468814879/dc892/assets/elixir_details.d3a66306.png" alt="Integration Example">
+        </div>
+      </section><section id="details">
+      <div class="integrations m-auto max-w-4xl px-4 pt-12 pb-20 flex flex-col gap-12 md:gap-15">
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Elixir Code Editor</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>Livebook's Elixir code editor supports autocompletion, inline documentation, code formatting, and more.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/2b3ee20a57c5e734d64af7ade20475ba4d185c9d/3ba85/assets/elixir_code_editor.6af08a2e.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Visual Representation of the running system</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font>Livebook can render visual representations of supervision trees and message-passing between Elixir processes. </font><a href="https://hexdocs.pm/kino/Kino.Process.html#seq_trace/2" class="underline">Learn how to do this.</a></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/f7e2a5fbebd13865bfd54a2e234915d9447e4ea3/a9ad4/assets/elixir_visual_representation_running_system.6d7c9d2c.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Interactive UI to visualize, debug and edit Elixir pipelines</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font>Livebook has an interactive widget that lets you see the result of an Elixir pipeline, enable/disable pipeline steps, and re-order them through drag and drop. </font><a href="https://github.com/livebook-dev/livebook/blob/main/lib/livebook/notebook/learn/kino/intro_to_kino.livemd#dbg" class="underline">Learn how to do this.</a></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/c0327136f9b42544e8861f75ba89a1da04d804d3/15c03/assets/elixir_interactive_ui.dee0643f.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Run a notebook within the context of a Mix project</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font>It's super easy to </font><a href="https://github.com/livebook-dev/livebook/blob/main/lib/livebook/notebook/learn/intro_to_livebook.livemd#mix-projects" class="underline">run code of a Mix project inside Livebook</a><font>. This can be useful for interactive development or for experimenting with your project's code.</font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/da9d8e4236989bab541349ff701d2064ce47ce03/a6e8c/assets/elixir_mix_context.25b4e1f2.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Add Hex packages as dependencies of your notebook</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>Livebook makes it easy to use Hex packages inside your notebooks. The integrated package management also makes your notebooks easier to be used and reproduced by others.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/87e851e4ad0e00e0574c1d8070214ef719284abf/4b663/assets/elixir_hex_packages.369dd71d.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Connect to a running Elixir system directly in Livebook</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font>You can easily </font><a href="https://fly.io/docs/elixir/advanced-guides/connect-livebook-to-your-app/" class="underline">connect to a running Elixir node</a><font>. Useful for production environment diagnostics, remote debugging, and automation.</font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/c249f0319f5e791a3ffd39d3dc1f0179cada2a20/50e8d/assets/elixir_connect_running_system.a43cf5c1.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Develop on embedded devices with Livebook and Nerves</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><a href="https://github.com/livebook-dev/nerves_livebook" class="underline">Nerves Livebook</a><font> enables you to try out  </font><a href="https://nerves-project.org/" class="underline">Nerves</a><font> on real hardware without needing to build anything. You'll be able to run code in Livebook and work through Nerves tutorials from the comfort of your browser.</font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/62fb1f1f805fd57bcaf27b7938588f2dff8030c3/f00be/assets/elixir_nerves.18125fb4.png">
+            </div>
+      </div>
+    </section></div><div path="integrations/sql"><br><section id="intro" class="bg-gray-100 overflow-x-hidden">
+        <div class="m-auto max-w-7xl px-4 pt-12 pb-20 flex flex-col xl:flex-row space-y-16 md:space-y-20 xl:space-y-0">
+          <div class="flex flex-col xl:min-w-[44%] xl:justify-center space-y-8 text-center xl:text-left items-center xl:items-start">
+            <h2 class="max-w-lg text-3xl font-light xl:text-left text-gray-900"><font>
+              Write and execute SQL queries directly in Livebook
+            </font></h2>
+            <span class="empty:bg-blue-700 text-lg text-gray-700 max-w-xl"><font>
+              Use Livebook's SQL Query Smart cell to quickly get data from </font><a class="underline" href="/integrations?type=database">multiple sources</a><font>. You can also dynamically inject values into your queries with input from your code or a text field filled in by your notebook user.
+            </font></span>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6">
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl bg-gray-900 text-gray-50" href="/#install">
+                <i class="ri-rocket-line px-4 text-3xl text-gray-300"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Install Livebook</font></span>
+                  <span class="text-sm"><font><font><font>Locally or on the cloud</font></font></font></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="xl:max-w-[70%] xl:ml-20 rounded-md custom-shadow-1" src="https://d33wubrfki0l68.cloudfront.net/7ddf1a6606e8b6e45707ba59c17242ea115a96e0/6b781/assets/sql_details.9bab4d3a.png" alt="Integration Example">
+        </div>
+      </section></div><div path="integrations/hugging-face"><br><section id="intro" class="bg-gray-100 overflow-x-hidden">
+        <div class="m-auto max-w-7xl px-4 pt-12 pb-20 flex flex-col xl:flex-row space-y-16 md:space-y-20 xl:space-y-0">
+          <div class="flex flex-col xl:min-w-[44%] xl:justify-center space-y-8 text-center xl:text-left items-center xl:items-start">
+            <h2 class="max-w-lg text-3xl font-light xl:text-left text-gray-900"><font>
+              Run Machine Learning models from Hugging Face in three clicks
+            </font></h2>
+            <span class="empty:bg-blue-700 text-lg text-gray-700 max-w-xl"><font><font><font>
+              Use Livebook's Neural Network Smart cell to download and run Machine Learning models from Hugging Face without a single line of code. Customize the generated code to your needs.
+            </font></font></font></span>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6">
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl bg-gray-900 text-gray-50" href="/#install">
+                <i class="ri-rocket-line px-4 text-3xl text-gray-300"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Install Livebook</font></span>
+                  <span class="text-sm"><font><font><font>Locally or on the cloud</font></font></font></span>
+                </div>
+              </a>
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl text-gray-700 border-2 border-gray-300" href="https://news.livebook.dev/announcing-bumblebee-gpt2-stable-diffusion-and-more-in-elixir-3Op73O" target="_blank">
+                <i class="ri-book-read-line px-4 text-3xl text-gray-400"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Learn more</font></span>
+                  <span class="text-sm"><font><font><font>ML with Elixir &amp; Livebook</font></font></font></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="xl:max-w-[70%] xl:ml-20 rounded-md custom-shadow-1" src="https://d33wubrfki0l68.cloudfront.net/efa6ee8def889b48361a8af80671a0d9fe3d5c29/8c811/assets/hf_details.2d86ef21.png" alt="Integration Example">
+        </div>
+      </section><section id="details">
+      <div class="integrations m-auto max-w-4xl px-4 pt-12 pb-20 flex flex-col gap-12 md:gap-15">
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Text to image</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>Generate images using the Stable Diffusion model.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/b57f6816736a1de422a20221d497f843693c3c26/ec56a/assets/hf_text_to_image.ca6694f2.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Image classification</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>Classify images using models like ResNet, ConvNeXT, ViT, and DeiT.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/30b8b0eb3acbd36e4f0135365cdb5ceec8e7ef1c/6622b/assets/hf_image_classification.d8f50c4d.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Text classification</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>Classify text using models like RoBERTa, DistilRoBERTa, and FinBERT.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/0523d12f5f8d95752753ed3f5aea9183bbbf4700/a7838/assets/hf_text_classification.0935ad1d.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Token classification</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>Understand the structure of a text via named-entity recognition.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/1f82e2b56ebe5d2a44d46406a8031f572cfedf64/152b9/assets/hf_token_classification.3b6bf749.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Zero-shot text classification</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>Classify text using your own labels with models like BART and XLM-RoBERTa multilingual.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/c4591b1deb258ddc76c636c9b1adcf7e9b27427d/4ee29/assets/hf_zero_shot_text_classification.fc149b17.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Fill-mask</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>Predict which words should replaces masks inside text.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/9d29a0332d0f1c6cebc81a2fdd25a978ac987d79/9f0b3/assets/hf_fill_mask.ebceb9c1.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Text generation</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>Generate text using models like GPT2, DistilGPT2, and BART.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/cfb208da37ad61dd4945800d44ffd3cef05322b2/baa83/assets/hf_text_generation.87dfd10d.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Speech-to-text</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>Generate text from audio using the Whisper model.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/c07236e41e59c4e5057fed948a2c305e698ca32c/cf14b/assets/hf_speech_to_text.eb67c0e9.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Use the generated code inside your app</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font>You can see the code generated by the Smart cell to understand how a model works and </font><a href="https://youtu.be/g3oyh3g1AtQ?t=403" class="underline">embed it directly into your Elixir app</a><font>.</font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/b974522f92ae6f13ab99187d748f3353534fa6d7/ac8c0/assets/hf_generated_code.e90e6619.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Run Livebook inside Hugging Face Spaces</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font>You can </font><a href="https://news.livebook.dev/livebook-inside-hugging-face-spaces-3LQaRi" class="underline">run Livebook in Hugging Face Spaces</a><font> and leverage their GPU offerings to train and run Machine Learning models faster and more efficiently.</font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/6dbe4c90e25076227ae50b565d30399ed06172be/ac7c2/assets/hf_spaces.89a2c039.png">
+            </div>
+      </div>
+    </section></div><div path="integrations/slack"><br><section id="intro" class="bg-gray-100 overflow-x-hidden">
+        <div class="m-auto max-w-7xl px-4 pt-12 pb-20 flex flex-col xl:flex-row space-y-16 md:space-y-20 xl:space-y-0">
+          <div class="flex flex-col xl:min-w-[44%] xl:justify-center space-y-8 text-center xl:text-left items-center xl:items-start">
+            <h2 class="max-w-lg text-3xl font-light xl:text-left text-gray-900"><font>
+              Send messages to Slack directly from Livebook
+            </font></h2>
+            <span class="empty:bg-blue-700 text-lg text-gray-700 max-w-xl"><font><font><font>
+              Send messages to your Slack using Livebook's Slack Message Smart cell.
+            </font></font></font></span>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6">
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl bg-gray-900 text-gray-50" href="/#install">
+                <i class="ri-rocket-line px-4 text-3xl text-gray-300"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Install Livebook</font></span>
+                  <span class="text-sm"><font><font><font>Locally or on the cloud</font></font></font></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="xl:max-w-[70%] xl:ml-20 rounded-md custom-shadow-1" src="https://d33wubrfki0l68.cloudfront.net/eaa41d19706095dc37af8ce97397394ef7853dcf/73e67/assets/slack_details.9b8a5017.png" alt="Integration Example">
+        </div>
+      </section></div><div path="integrations/postgre-sql"><br><section id="intro" class="bg-gray-100 overflow-x-hidden">
+        <div class="m-auto max-w-7xl px-4 pt-12 pb-20 flex flex-col xl:flex-row space-y-16 md:space-y-20 xl:space-y-0">
+          <div class="flex flex-col xl:min-w-[44%] xl:justify-center space-y-8 text-center xl:text-left items-center xl:items-start">
+            <h2 class="max-w-lg text-3xl font-light xl:text-left text-gray-900"><font>
+              Connect to PostgreSQL directly from Livebook
+            </font></h2>
+            <span class="empty:bg-blue-700 text-lg text-gray-700 max-w-xl"><font><font><font>
+              Connect to your PostgreSQL database using Livebook's Database Connection Smart cell. Use Livebook Secrets to store your database password securely. Write and run queries directly from Livebook.
+            </font></font></font></span>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6">
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl bg-gray-900 text-gray-50" href="/#install">
+                <i class="ri-rocket-line px-4 text-3xl text-gray-300"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Install Livebook</font></span>
+                  <span class="text-sm"><font><font><font>Locally or on the cloud</font></font></font></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="xl:max-w-[70%] xl:ml-20 rounded-md custom-shadow-1" src="https://d33wubrfki0l68.cloudfront.net/f8febdd1c39895002ac1ed0e1a333307bda91523/4045a/assets/postgresql_details.ed0d7be2.png" alt="Integration Example">
+        </div>
+      </section></div><div path="integrations/mysql"><br><section id="intro" class="bg-gray-100 overflow-x-hidden">
+        <div class="m-auto max-w-7xl px-4 pt-12 pb-20 flex flex-col xl:flex-row space-y-16 md:space-y-20 xl:space-y-0">
+          <div class="flex flex-col xl:min-w-[44%] xl:justify-center space-y-8 text-center xl:text-left items-center xl:items-start">
+            <h2 class="max-w-lg text-3xl font-light xl:text-left text-gray-900"><font>
+              Connect to MySQL directly from Livebook
+            </font></h2>
+            <span class="empty:bg-blue-700 text-lg text-gray-700 max-w-xl"><font><font><font>
+              Connect to your MySQL database using Livebook's Database Connection Smart cell. Use Livebook Secrets to store your database password securely. Write and run queries directly from Livebook.
+            </font></font></font></span>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6">
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl bg-gray-900 text-gray-50" href="/#install">
+                <i class="ri-rocket-line px-4 text-3xl text-gray-300"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Install Livebook</font></span>
+                  <span class="text-sm"><font><font><font>Locally or on the cloud</font></font></font></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="xl:max-w-[70%] xl:ml-20 rounded-md custom-shadow-1" src="https://d33wubrfki0l68.cloudfront.net/9b4b3c6b8b895ce018204bf7ab961e26d491fa5e/33c74/assets/mysql_details.6866df49.png" alt="Integration Example">
+        </div>
+      </section></div><div path="integrations/sqlite"><br><section id="intro" class="bg-gray-100 overflow-x-hidden">
+        <div class="m-auto max-w-7xl px-4 pt-12 pb-20 flex flex-col xl:flex-row space-y-16 md:space-y-20 xl:space-y-0">
+          <div class="flex flex-col xl:min-w-[44%] xl:justify-center space-y-8 text-center xl:text-left items-center xl:items-start">
+            <h2 class="max-w-lg text-3xl font-light xl:text-left text-gray-900"><font>
+              Connect to SQLite directly from Livebook
+            </font></h2>
+            <span class="empty:bg-blue-700 text-lg text-gray-700 max-w-xl"><font><font><font>
+              Connect to your SQLite database using Livebook's Database Connection Smart cell. Write and run queries directly from Livebook.
+            </font></font></font></span>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6">
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl bg-gray-900 text-gray-50" href="/#install">
+                <i class="ri-rocket-line px-4 text-3xl text-gray-300"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Install Livebook</font></span>
+                  <span class="text-sm"><font><font><font>Locally or on the cloud</font></font></font></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="xl:max-w-[70%] xl:ml-20 rounded-md custom-shadow-1" src="https://d33wubrfki0l68.cloudfront.net/e95fd76b48fb6d6118b152f54b1e3de6fa458ae6/81a16/assets/sqlite_details.16b87b7f.png" alt="Integration Example">
+        </div>
+      </section></div><div path="integrations/google-bigquery"><br><section id="intro" class="bg-gray-100 overflow-x-hidden">
+        <div class="m-auto max-w-7xl px-4 pt-12 pb-20 flex flex-col xl:flex-row space-y-16 md:space-y-20 xl:space-y-0">
+          <div class="flex flex-col xl:min-w-[44%] xl:justify-center space-y-8 text-center xl:text-left items-center xl:items-start">
+            <h2 class="max-w-lg text-3xl font-light xl:text-left text-gray-900"><font>
+              Connect to Google BigQuery directly from Livebook
+            </font></h2>
+            <span class="empty:bg-blue-700 text-lg text-gray-700 max-w-xl"><font><font><font>
+              Connect to your Google BigQuery data warehouse using Livebook's Database Connection Smart cell. Write and run queries directly from Livebook.
+            </font></font></font></span>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6">
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl bg-gray-900 text-gray-50" href="/#install">
+                <i class="ri-rocket-line px-4 text-3xl text-gray-300"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Install Livebook</font></span>
+                  <span class="text-sm"><font><font><font>Locally or on the cloud</font></font></font></span>
+                </div>
+              </a>
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl text-gray-700 border-2 border-gray-300" href="https://news.livebook.dev/how-to-query-and-visualize-data-from-google-bigquery-using-livebook-3o2leU" target="_blank">
+                <i class="ri-book-read-line px-4 text-3xl text-gray-400"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font><font><font>Read the tutorial</font></font></font></span>
+                  <span class="text-sm"><font><font><font>Big Query &amp; Livebook</font></font></font></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="xl:max-w-[70%] xl:ml-20 rounded-md custom-shadow-1" src="https://d33wubrfki0l68.cloudfront.net/cddcd002b08d52babf0febff3bb23cc53bfc98f6/6aeec/assets/google_bigquery_details.8dd531f3.png" alt="Integration Example">
+        </div>
+      </section></div><div path="integrations/amazon-athena"><br><section id="intro" class="bg-gray-100 overflow-x-hidden">
+        <div class="m-auto max-w-7xl px-4 pt-12 pb-20 flex flex-col xl:flex-row space-y-16 md:space-y-20 xl:space-y-0">
+          <div class="flex flex-col xl:min-w-[44%] xl:justify-center space-y-8 text-center xl:text-left items-center xl:items-start">
+            <h2 class="max-w-lg text-3xl font-light xl:text-left text-gray-900"><font>
+              Connect to Amazon Athena directly from Livebook
+            </font></h2>
+            <span class="empty:bg-blue-700 text-lg text-gray-700 max-w-xl"><font><font><font>
+              Connect to your AWS Athena using Livebook's Database Connection Smart cell. Use Livebook Secrets to store your AWS access key securely. Write and run queries directly from Livebook.
+            </font></font></font></span>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6">
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl bg-gray-900 text-gray-50" href="/#install">
+                <i class="ri-rocket-line px-4 text-3xl text-gray-300"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Install Livebook</font></span>
+                  <span class="text-sm"><font><font><font>Locally or on the cloud</font></font></font></span>
+                </div>
+              </a>
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl text-gray-700 border-2 border-gray-300" href="https://news.livebook.dev/how-to-query-and-visualize-data-from-amazon-athena-using-livebook-4dfQ5y" target="_blank">
+                <i class="ri-book-read-line px-4 text-3xl text-gray-400"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font><font><font>Read the tutorial</font></font></font></span>
+                  <span class="text-sm"><font><font><font>Athena &amp; Livebook</font></font></font></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="xl:max-w-[70%] xl:ml-20 rounded-md custom-shadow-1" src="https://d33wubrfki0l68.cloudfront.net/dec12ed674c6ed94ef49464653a9bf06b0743fd6/ee3a5/assets/amazon_athena_details.7687018b.png" alt="Integration Example">
+        </div>
+      </section></div><div path="integrations/vega-lite"><br><section id="intro" class="bg-gray-100 overflow-x-hidden">
+        <div class="m-auto max-w-7xl px-4 pt-12 pb-20 flex flex-col xl:flex-row space-y-16 md:space-y-20 xl:space-y-0">
+          <div class="flex flex-col xl:min-w-[44%] xl:justify-center space-y-8 text-center xl:text-left items-center xl:items-start">
+            <h2 class="max-w-lg text-3xl font-light xl:text-left text-gray-900"><font>
+              Plot charts using Vega-Lite
+            </font></h2>
+            <span class="empty:bg-blue-700 text-lg text-gray-700 max-w-xl"><font>
+              Build and visualize charts using Livebook's native integration with </font><a href="https://vega.github.io/vega-lite/" class="underline pointer">Vega-Lite.</a>
+            </span>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6">
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl bg-gray-900 text-gray-50" href="/#install">
+                <i class="ri-rocket-line px-4 text-3xl text-gray-300"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Install Livebook</font></span>
+                  <span class="text-sm"><font><font><font>Locally or on the cloud</font></font></font></span>
+                </div>
+              </a>
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl text-gray-700 border-2 border-gray-300" href="https://github.com/livebook-dev/livebook/blob/main/lib/livebook/notebook/learn/intro_to_vega_lite.livemd" target="_blank">
+                <i class="ri-book-read-line px-4 text-3xl text-gray-400"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Learn more</font></span>
+                  <span class="text-sm"><font><font><font>Vega-Lite &amp; Livebook</font></font></font></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="xl:max-w-[70%] xl:ml-20 rounded-md custom-shadow-1" src="https://d33wubrfki0l68.cloudfront.net/f1e16faa8f89e0e278b0af89c4866b33239dec2c/0754d/assets/vegalite_details.64f1aab1.png" alt="Integration Example">
+        </div>
+      </section><section id="details">
+      <div class="integrations m-auto max-w-4xl px-4 pt-12 pb-20 flex flex-col gap-12 md:gap-15">
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Chart Smart cell</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>The Chart Smart cell provides a user-friendly interface for building charts. It includes various chart types like point, bar, line, and boxplot. It also makes it easier to bin, aggregate and color-code your data.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/adedef562d370edd08c20633d0b62ab47dedf379/57c37/assets/vegalite_chart_smart_cell.24dd58b9.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>All the power from Vega-Lite</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>When the Smart cell is not enough, Livebook offers a tiny API layer that gives you full access to all of Vega-Lite's features and makes it easier to build all sorts of Vega-Lite charts.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/6af51fecf6c568c925026880c20cd9cad587ba1b/a93ab/assets/vegalite_power.b1a67fd3.png">
+            </div>
+      </div>
+    </section></div><div path="integrations/maplibre"><br><section id="intro" class="bg-gray-100 overflow-x-hidden">
+        <div class="m-auto max-w-7xl px-4 pt-12 pb-20 flex flex-col xl:flex-row space-y-16 md:space-y-20 xl:space-y-0">
+          <div class="flex flex-col xl:min-w-[44%] xl:justify-center space-y-8 text-center xl:text-left items-center xl:items-start">
+            <h2 class="max-w-lg text-3xl font-light xl:text-left text-gray-900"><font>
+              Plot Maps using MapLibre
+            </font></h2>
+            <span class="empty:bg-blue-700 text-lg text-gray-700 max-w-xl"><font>
+              Build and visualize charts using Livebook's native integration with </font><a href="https://maplibre.org/" class="underline">MapLibre.</a>
+            </span>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6">
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl bg-gray-900 text-gray-50" href="/#install">
+                <i class="ri-rocket-line px-4 text-3xl text-gray-300"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Install Livebook</font></span>
+                  <span class="text-sm"><font><font><font>Locally or on the cloud</font></font></font></span>
+                </div>
+              </a>
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl text-gray-700 border-2 border-gray-300" href="https://github.com/livebook-dev/livebook/blob/main/lib/livebook/notebook/learn/intro_to_maplibre.livemd" target="_blank">
+                <i class="ri-book-read-line px-4 text-3xl text-gray-400"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Learn more</font></span>
+                  <span class="text-sm"><font><font><font>MapLibre &amp; Livebook</font></font></font></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="xl:max-w-[70%] xl:ml-20 rounded-md custom-shadow-1" src="https://d33wubrfki0l68.cloudfront.net/2dc9e688ddb9ddb92df9a32780fc26b75cb0d62e/eafe8/assets/maplibre_details.e454804f.png" alt="Integration Example">
+        </div>
+      </section><section id="details">
+      <div class="integrations m-auto max-w-4xl px-4 pt-12 pb-20 flex flex-col gap-12 md:gap-15">
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>Map Smart cell</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>The Map Smart Cell provides a user-friendly interface for building map visualizations. You can create maps using either latitude and longitude or geocoding. In addition, the ability to have multiple layers in a single map allows for even more advanced visualizations.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/4f32f21af0261cfbb41ac332b4c79115fb5be4c1/6bd35/assets/maplibre_map_smart_cell.840ed96a.png">
+            </div>
+            <div class="flex flex-col md:flex-row md:even:flex-row-reverse gap-12 md:gap-15 items-center justify-between">
+              <div class="flex flex-col px-1 md:px-0 max-w-[400px]">
+                <h3 class="text-2xl text-gray-800 font-semibold"><font>All the power from MapLibre</font></h3>
+                <span class="mt-4 text-lg text-gray-800"><font><font><font>When the Smart cell is not enough, Livebook offers a tiny API layer that gives you full access to all of MapLibre's features and makes it easier to build all sorts of MapLibre maps.</font></font></font></span>
+              </div>
+              <img class="max-h-[400px] order-1 md:order-none" src="https://d33wubrfki0l68.cloudfront.net/2f251957af39310a6fcb274daa5ed5d0ee31345e/9be78/assets/maplibre_all_power.0d9bc6f0.png">
+            </div>
+      </div>
+    </section></div><div path="integrations/mermaid"><br><section id="intro" class="bg-gray-100 overflow-x-hidden">
+        <div class="m-auto max-w-7xl px-4 pt-12 pb-20 flex flex-col xl:flex-row space-y-16 md:space-y-20 xl:space-y-0">
+          <div class="flex flex-col xl:min-w-[44%] xl:justify-center space-y-8 text-center xl:text-left items-center xl:items-start">
+            <h2 class="max-w-lg text-3xl font-light xl:text-left text-gray-900"><font>
+              Build diagrams using Mermaid
+            </font></h2>
+            <span class="empty:bg-blue-700 text-lg text-gray-700 max-w-xl"><font>
+              Build and visualize diagrams using Livebook's native integration with </font><a href="https://mermaid.js.org/" class="underline">Mermaid</a><font>.
+            </font></span>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6">
+              <a class="pl-2 pr-8 py-3 flex items-center rounded-xl bg-gray-900 text-gray-50" href="/#install">
+                <i class="ri-rocket-line px-4 text-3xl text-gray-300"></i>
+                <div class="flex flex-col">
+                  <span class="font-bold"><font>Install Livebook</font></span>
+                  <span class="text-sm"><font><font><font>Locally or on the cloud</font></font></font></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="xl:max-w-[70%] xl:ml-20 rounded-md custom-shadow-1" src="https://d33wubrfki0l68.cloudfront.net/7ee9426550333aa37f7d5ba1a430850ffac6bbc3/41634/assets/mermaid_details.eb02eb23.png" alt="Integration Example">
+        </div>
+      </section></div></div>
