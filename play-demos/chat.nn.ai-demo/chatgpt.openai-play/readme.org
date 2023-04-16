@@ -1,3 +1,2 @@
 
-- [[../../../practices-notes/chatgpt.icloudnative.io-note][🚀 note: chatgpt.icloudnative.io]]
-- [[../../../practices-notes/chatgpt.openai-note][👾 note: chat.openai.com/chat]]
+[[../../../practices-notes/chatgpt.openai-note][👾 note: chat.openai.com/chat]]
