@@ -16,7 +16,7 @@ Books:
 [books:functional-thinking]: ../../../practices-notes/functional-thinking.isbn9781449365516-note
 
 - <kbd>[What I Wish I Knew When Learning Haskell ( Stephen Diehl )][books:wiwinwlh]</kbd>
-- <kbd>[Functional Thinkong][books:functional-thinking]</kbd>
+- <kbd>[Functional Thinking -- by Neal Ford][books:functional-thinking]</kbd>
 - <kbd>...</kbd>
 
 
