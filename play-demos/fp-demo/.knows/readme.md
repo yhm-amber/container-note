@@ -13,7 +13,10 @@ Articals:
 Books: 
 
 [books:wiwinwlh]: ../../../practices-notes/wiwinwlh.sdiehl.book-note
+[books:functional-thinking]: ../../../practices-notes/functional-thinking.isbn9781449365516-note
 
 - <kbd>[What I Wish I Knew When Learning Haskell ( Stephen Diehl )][books:wiwinwlh]</kbd>
+- <kbd>[Functional Thinkong][books:functional-thinking]</kbd>
 - <kbd>...</kbd>
+
 
