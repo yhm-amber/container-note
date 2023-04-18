@@ -1,0 +1,11 @@
+[src/gh]: https://github.com/you-dont-need/You-Dont-Need.git "People choose popular projects, often not because it applies to their problems"
+
+[src:ydn.js/gh]: https://github.com/you-dont-need/You-Dont-Need-JavaScript.git "(Languages: CSS 100.0%) CSS is powerful, you can do a lot of things without JS."
+[art:ydn.ts/eric/medium]: https://medium.com/javascript-scene/you-might-not-need-typescript-or-static-types-aa7cb670a77b#.8oxodypn7 "You Might Not Need TypeScript (or Static Types) | by Eric Elliott | JavaScript Scene | Medium"
+[src:ydn.loop/gh]: https://github.com/you-dont-need/You-Dont-Need-Loops.git "(md) Avoid The One-off Problem, Infinite Loops, Statefulness and Hidden intent."
+[art:ydn.state/react.blog]: https://legacy.reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html "You Probably Don't Need Derived State | React Blog"
+[src:ydn.lodash/gh]: https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore.git "(MIT) (Languages: JavaScript 100.0%) List of JavaScript methods which you can use natively + ESLint Plugin"
+[art:ydn.es5/freecodecamp]: https://www.freecodecamp.org/news/you-might-not-need-to-transpile-your-javascript-4d5e0a438ca "You might not need to transpile your JavaScript"
+[art:ydn.jquery/youmightnotneedjquery.com]: https://youmightnotneedjquery.com/ "You Might Not Need jQuery"
+[art:ydn.redux/medium]: https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367 "You Might Not Need Redux. People often choose Redux before they… | by Dan Abramov | Medium"
+[art:ydn.gatsby/johnny.sh]: https://johnny.sh/blog/you-might-not-need-gatsby/ "You Might Not Need Gatsby | Johnny.sh"
