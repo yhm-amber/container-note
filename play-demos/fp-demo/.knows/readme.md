@@ -19,4 +19,10 @@ Books:
 - <kbd>[Functional Thinking -- by Neal Ford][books:functional-thinking]</kbd>
 - <kbd>...</kbd>
 
+Notes: 
+
+[repo:ydn/gh]: ../../../practices-notes/you.dont.need-note
+
+- <kbd>[you-dont-need/You-Dont-Need: People choose popular projects, often not because it applies to their problems][repo:ydn/gh]</kbd>
+- <kbd>...</kbd>
 
