@@ -16,7 +16,7 @@ also published at : [mirror.xyz](https://mirror.xyz/0x37Da98E4b1d562f002dF022D91
 <summary>...</summary>
 
 <blockquote>
-这里算是一个意外惊喜了。
+这次算有个意外惊喜了。
 
 原本是问 `|` 和 `|&` 的区别，结果引出了 `<()` 和 `>()` 。
 
@@ -92,7 +92,17 @@ echo 1,2,3 |
 ).forEach(arrp => arrp.then(arr => arr.forEach(str => console.log(str))))
 ~~~
 
-（此处的 `map` 和 `reduce` 之间的等价转换参考了这里： <kbd>[you-dont-need/You-Dont-Need-Loops](https://github.com/you-dont-need/You-Dont-Need-Loops#map)</kbd> ）
+这是会有的输出（都是三行顺序不一定）：
+
+~~~~
+;::1,2,3
+1,2,3
+~::1
+~~~~
+
+此处也揭示了一个事实： `map` 和 `reduce` 之间是可以等价转换的。确切说，前者是后者的特殊情形封装。
+
+具体的逻辑参考了这里： <kbd>[you-dont-need/You-Dont-Need-Loops](https://github.com/you-dont-need/You-Dont-Need-Loops#map)</kbd> 。
 </blockquote>
 
 </details>
