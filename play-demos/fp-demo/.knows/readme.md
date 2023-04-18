@@ -3,9 +3,11 @@
 
 Articals: 
 
+[articals:staltz.intro.rx]: ../../../practices-notes/reactive.programming-note
 [articals:ilya.fp-toy]: ../../../practices-notes/ilya.fp-toy.artical-note
 [articals:ilya.oopttdd]: ../../../practices-notes/ilya.oopttdd.artical-note
 
+- <kbd>[The introduction to Reactive Programming you've been missing | staltz | Gist][articals:staltz.intro.rx]</kbd>
 - <kbd>[Functional Programming? Don’t Even Bother, It’s a Silly Toy | by Ilya Suzdalnitskiy | Better Programming][articals:ilya.fp-toy]</kbd>
 - <kbd>[Object-Oriented Programming — The Trillion Dollar Disaster | by Ilya Suzdalnitskiy | Better Programming][articals:ilya.oopttdd]</kbd>
 - <kbd>...</kbd>
@@ -21,8 +23,8 @@ Books:
 
 Notes: 
 
-[repo:ydn/gh]: ../../../practices-notes/you.dont.need-note
+[repo:ydn]: ../../../practices-notes/you.dont.need-note
 
-- <kbd>[you-dont-need/You-Dont-Need: People choose popular projects, often not because it applies to their problems][repo:ydn/gh]</kbd>
+- <kbd>[you-dont-need/You-Dont-Need: People choose popular projects, often not because it applies to their problems][repo:ydn]</kbd>
 - <kbd>...</kbd>
 
