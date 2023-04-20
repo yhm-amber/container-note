@@ -6,7 +6,7 @@ note about practice . 🦎🤔
 repo content: 
 
 - <kbd>[bodies](./practices-notes)</kbd> : for containerisable instances
-- </kbd>[heads](./play-demos)</kbd> : for indexes groups about instance plays grouped with requests
+- <kbd>[heads](./play-demos)</kbd> : for indexes groups about instance plays grouped with requests
 
 [👻](./practices-notes/container-note)
 
