@@ -68,6 +68,8 @@ console.log( Echoes.echoes(ffs).f2(3) ); // 结果为 7
 复杂例：
 
 ~~~ tsx
+/* structorized namespace */
+
 const xx =
 {
     x0: (env: { [key: string]: any }) => 
@@ -77,18 +79,34 @@ const xx =
     f: (env: { [key: string]: any }) => 
         
         (s: string)
-        : number => s.length ,
+        : number => 
+            s.length ,
     
     f2: (env: { [key: string]: any }) => 
         
         (s: string, n: number)
-        : Promise<number> => Promise.resolve(env.f(s) + n - env.x0) ,
+        : Promise<number> => 
+            Promise.resolve(env.f(s) + n - env.x0) ,
 } ;
 
-Echoes.echoes<{f2: ReturnType<typeof xx.f2>}>(xx).f2('aa',3).then(r => console.log(r)); // 结果为 4
-Echoes.echoes(xx).f2('aaa',3).then( (r: number) => console.log(r) ); // 结果为 5
 
-Echoes.call(xx,'f2')('a',3).then(r => console.log(r)); // 结果为 3
+/* use */
+
+Echoes
+    .echoes<{f2: ReturnType<typeof xx.f2>}>(xx).f2('aa',3)
+    .then(r => console.log(r));
+    // 结果为 4
+
+Echoes
+    .echoes(xx).f2('aaa',3)
+    .then( (r: number) => console.log(r) );
+    // 结果为 5
+
+Echoes
+    .call(xx,'f2')('a',3)
+    .then(r => console.log(r));
+    // 结果为 3
+
 ~~~
 
 其中的 `Echoes.call` 是对 `Echoes.echoes` 指定泛型调用的封装。
@@ -96,6 +114,8 @@ Echoes.call(xx,'f2')('a',3).then(r => console.log(r)); // 结果为 3
 在不指定泛型的情况下，（目前的）类型推导无法确定 `Promise` 的泛型，因而 `r` 必须写作 `(r: number)` 。
 
 ## 局限
+
+*(其实也不完全是局限 ...)*
 
 由于：
 
@@ -184,6 +204,15 @@ CalcuLen = fun
  {1,0,1,1}]
 ~~~
 
+*(至于为什么说不完全是局限 ...)*
+
+因为，如果语言对常量 (const) 是有优化的话，那么上面被拷贝的好多份同一个属性，就可以不是值的拷贝而只是引用的拷贝而已。
+
+因此，只要有这样的优化，优雅确实不那么优雅（没有只取所需的闭包那么优雅），但也确实并不会造成过大的坏影响 —— 就是上文提到的不断翻倍级别的超集膨胀 ... 顶多就是没用的索引确实被建立了很多。
+
+但不管有没有优化，尽可能把「分量大」的家伙放后面、与尽量减少被传给 Echoes 的结构体的根层的属性量，都可以比较好地解决这个问题。或者，就用 `namespace` ，那样在 JS/TS 更原生一些，只要你不需要它具备所有结构体的特性 —— 我只是会觉得，用尽可能少的语言特性、做到尽可能多的事情，是一件特别 coooool 的事情，所以才弄了这么个项目。我也不知道它到底有啥用。👻
+
+—— 以及，仍然是出于同样的原因，我会很想找到一种方法，能让我规避掉现有的缺陷，又能做到原本该项目目标要做到的事情。（只是我现在还没想到办法 ... 至少，不要用元编程的办法 ... 🙃）
 
 ## 鸣谢
 
