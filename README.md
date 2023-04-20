@@ -12,6 +12,8 @@ repo content:
 *任何目录下都有合乎某特定规则的命名形式，
 任何目录下也都可增加不符合该形式的隐藏目录来增加必要的额外记录。*
 
+[👻](./practices-notes/container-note)
+
 --------
 
 good things: 
