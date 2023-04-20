@@ -5,12 +5,8 @@ note about practice . 🦎🤔
 
 repo content: 
 
-- [`containerisable instances`](./practices-notes)
-- [`requests with instance plays`](./play-demos)
-- [`builds`](./build-practices)
-
-*任何目录下都有合乎某特定规则的命名形式，
-任何目录下也都可增加不符合该形式的隐藏目录来增加必要的额外记录。*
+- <kbd>[bodies](./practices-notes)</kbd> : for containerisable instances
+- </kbd>[heads](./play-demos)</kbd> : for indexes groups about instance plays grouped with requests
 
 [👻](./practices-notes/container-note)
 
