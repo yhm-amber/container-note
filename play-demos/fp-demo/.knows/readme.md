@@ -6,7 +6,7 @@ Articals:
 [articals:staltz.intro.rx]: ../../../practices-notes/reactive.programming-note
 [articals:ilya.fp-toy]: ../../../practices-notes/ilya.fp-toy.artical-note
 [articals:ilya.oopttdd]: ../../../practices-notes/ilya.oopttdd.artical-note
-[articals:streamming101.tyler]: ../../../practices-notes/streamming101.tyler.oreillyradar-note
+[articals:streamming101.tyler]: ../../../practices-notes/streamming101.tyler-note
 
 - <kbd>[The introduction to Reactive Programming you've been missing | staltz | Gist][articals:staltz.intro.rx]</kbd>
 - <kbd>[Functional Programming? Don’t Even Bother, It’s a Silly Toy | by Ilya Suzdalnitskiy | Better Programming][articals:ilya.fp-toy]</kbd>
