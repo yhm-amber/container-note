@@ -6,10 +6,12 @@ Articals:
 [articals:staltz.intro.rx]: ../../../practices-notes/reactive.programming-note
 [articals:ilya.fp-toy]: ../../../practices-notes/ilya.fp-toy.artical-note
 [articals:ilya.oopttdd]: ../../../practices-notes/ilya.oopttdd.artical-note
+[articals:streamming101.tyler]: ../../../practices-notes/streamming101.tyler.oreillyradar-note
 
 - <kbd>[The introduction to Reactive Programming you've been missing | staltz | Gist][articals:staltz.intro.rx]</kbd>
 - <kbd>[Functional Programming? Don’t Even Bother, It’s a Silly Toy | by Ilya Suzdalnitskiy | Better Programming][articals:ilya.fp-toy]</kbd>
 - <kbd>[Object-Oriented Programming — The Trillion Dollar Disaster | by Ilya Suzdalnitskiy | Better Programming][articals:ilya.oopttdd]</kbd>
+- <kbd>[Streaming 101 - The world beyond batch][articals:streamming101.tyler]</kbd>
 - <kbd>...</kbd>
 
 Books: 
