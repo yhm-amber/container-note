@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/dice2o/BingGPT.git "(Apache-2.0) (Languages: JavaScript 100.0%) Desktop application of new Bing's AI-powered chat (Windows, macOS and Linux) / 这东西有一个写稿的界面能帮你写各种指定风格的稿子（就是需要的安装空间有点大 (100M) ）。"
