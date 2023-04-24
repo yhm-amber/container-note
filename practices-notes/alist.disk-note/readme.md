@@ -3,3 +3,8 @@
 [faq]: https://alist.nn.ci/faq/
 [config]: https://alist.nn.ci/config/
 [guide]: https://alist.nn.ci/guide/
+
+[demo]: https://al.nn.ci
+[src/gh/old]: https://github.com/Xhofe/alist.git
+
+
