@@ -5,4 +5,5 @@ Instances
 - [[https://chat.openai.com][chatGPT]]
 - [[https://www.phind.com][phind]]
 - [[https://osschat.io][osschat.io]]
+- [[https://chat.forefront.ai][chat.forefront.ai]]
 - ...
