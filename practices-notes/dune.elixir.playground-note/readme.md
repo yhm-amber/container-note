@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/functional-rewire/dune.git "(MIT) (Languages: Elixir 100.0%) A sandbox for Elixir to safely evaluate untrusted code from user input"
+[webapp]: https://playground.functional-rewire.com/ "Elixir Playground (Note: The code is run in a sandbox powered by Dune. Its behavior might slightly differ from Elixir and only a restricted subset is supported. / 注意：代码在由 Dune 提供支持的沙箱中运行。它的行为可能与 Elixir 略有不同，并且仅支持受限制的子集。)"
