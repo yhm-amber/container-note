@@ -56,6 +56,24 @@ magnet:?xt=urn:btih:RQV5DHP7KXYJPUZOQQTN24GOGSFQKJKN
 magnet:?xt=urn:btih:8c2bd19dff55f097d32e8426dd70ce348b05254d
 ~~~
 
+#### [`[DDD] 混沌武士/杂烩武士/琉球狂侍 SAMURAI CHAMPLOO [BDrip 720p x264 AAC][10bit]（渡边信一郎）`](https://share.dmhy.org/topics/view/445327_SAMURAI_CHAMPLOO_BDrip_720p_x264_AAC_10bit.html)
+
+`5.5GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:GWSJ3CWKJLWOZNJSMTQQWTWIUVXJ7N3Z&dn=&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftr.bangumi.moe%3A9696%2Fannounce
+magnet:?xt=urn:btih:35a49d8aca4aececb53264e10b4ec8a56e9fb779
+~~~
+
+#### [`[异域-11番小队][混沌武士Samurai Champloo][BDRip][1-26][FIN][X264_AAC][1280X720][MKV+ASS]`](https://share.dmhy.org/topics/view/209447_-11_Samurai_Champloo_BDRip_1-26_FIN_X264_AAC_1280X720_MKV_ASS.html)
+
+`3.4GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:SN4PVLVYBWGXNYKMB4LPO22EGKFRJ62N&dn=____Samurai_Champloo&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fpost.greedland.net%3A2710%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Ftracker.dmhy.org%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=http%3A%2F%2Ftracker.dmguo.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Ftracker.levelup.cn%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker.levelup.cn%3A6060%2Fannounce&tr=http%3A%2F%2Fbt.popgo.net%3A7456%2Fannounce&tr=http%3A%2F%2Fbt.wiiyi.com%3A6969%2Fannounce&tr=http%3A%2F%2Fdenis.stalker.h3q.com%3A6969%2Fannounce
+magnet:?xt=urn:btih:9378faaeb80d8d76e14c0f16f76b44328b14fb4d
+~~~
+
 ### Cyberpunk Edgerunners (2022)
 
 - offical site: [Cyberpunk: Edgerunners](https://cyberpunk.net/edgerunners)
