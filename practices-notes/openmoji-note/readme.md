@@ -1,4 +1,4 @@
-[web] https://openmoji.org/ "OpenMoji"
+[web]: https://openmoji.org/ "OpenMoji"
 [emojipedia]: https://emojipedia.org/openmoji/ "OpenMoji | emojipedia"
 [wikipedia.fr]: https://fr.wikipedia.org/wiki/OpenMoji "OpenMoji | Wikipédia"
 [twitter]: https://twitter.com/OpenMoji "open source emoji for designers, developers and everyone else. tweets by @dnlutz . place: Schwäbisch Gmünd , join 2012-12"
