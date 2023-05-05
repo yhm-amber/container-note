@@ -47,6 +47,15 @@ magnet:?xt=urn:btih:VXJWDRYOS6OX2VFND5LARPJLJFPOR2P3&dn=%5Bphilosophy-raws%5D%5B
 magnet:?xt=urn:btih:add361c70e979d7d54ad1f5608bd2b495ee8e9fb
 ~~~
 
+#### [`[灵风FOSKY工作室&amp;WLGO][Samurai Champloo 硫球狂侍][1-26完+OPED][GB&amp;BIG5][DVDrip][MKV]`](https://share.dmhy.org/topics/view/135388_FOSKY_amp_WLGO_Samurai_Champloo_1-26_OPED_GB_amp_BIG5_DVDrip_MKV.html)
+
+`6.6GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:RQV5DHP7KXYJPUZOQQTN24GOGSFQKJKN
+magnet:?xt=urn:btih:8c2bd19dff55f097d32e8426dd70ce348b05254d
+~~~
+
 ### Cyberpunk Edgerunners (2022)
 
 - offical site: [Cyberpunk: Edgerunners](https://cyberpunk.net/edgerunners)
