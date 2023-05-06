@@ -9,6 +9,275 @@ also published at : [mirror.xyz](https://mirror.xyz/0x37Da98E4b1d562f002dF022D91
 --------------------
 
 
+### List in Scala (new bing) (Precise)
+
+#### 1
+
+> 在 Elixir 里可以 `[a , b | list]` 来添加元素，在 TS 可以 `[a,b, ... arr]` 来做到类似效果。 Scala 如何对 List 增加元素？
+
+* 正在搜索: **Scala 如何对 List 增加元素**
+* 正在为你生成答案…
+
+在 Scala 中，可以使用 `+:` 和 `++` 来向 List 中添加元素。`+:` 用于在 List 的前面添加元素，而 `++` 用于将两个集合拼接起来。例如，可以这样写：`1 +: List(2,3)` 或者 `List(1) ++ List(2,3)`。¹³
+
+源: 与必应的对话， 2023/5/6(1) scala集合中添加元素_如何在Scala中将元素添加到列表中？_cumudi0723的博客-CSDN博客. https://bing.com/search?q=Scala+%e5%a6%82%e4%bd%95%e5%af%b9+List+%e5%a2%9e%e5%8a%a0%e5%85%83%e7%b4%a0 访问时间 2023/5/6.
+(2) Scala集合：List增加元素及集合拼接操作 - CSDN博客. https://blog.csdn.net/a772304419/article/details/105565265 访问时间 2023/5/6.
+(3) Scala List(列表) | 菜鸟教程. https://www.runoob.com/scala/scala-lists.html 访问时间 2023/5/6.
+(4) scala集合中添加元素_如何在Scala中将元素添加到列表中？_cumudi0723的博客-CSDN博客. https://blog.csdn.net/cumudi0723/article/details/107795642 访问时间 2023/5/6.
+(5) List添加元素 scala - CSDN. https://www.csdn.net/tags/NtTaUg4sNTg5MDgtYmxvZwO0O0OO0O0O.html 访问时间 2023/5/6.
+(6) Java——List 添加元素的方法 - CSDN博客. https://blog.csdn.net/WZY_snail/article/details/103824630 访问时间 2023/5/6.
+
+#### 2
+
+> 请用英文搜索，用中文回我。
+
+* 正在搜索: **How to add elements to a list in Scala**
+* 正在为你生成答案…
+
+在 Scala 中，你不能直接向 List 中添加元素，因为它是一个不可变的数据结构。但是你可以通过创建一个新的 List 来实现添加元素的效果。例如，你可以使用 `+:` 和 `++` 来向 List 中添加元素。`+:` 用于在 List 的前面添加元素，而 `++` 用于将两个集合拼接起来。例如，可以这样写：`1 +: List(2,3)` 或者 `List(1) ++ List(2,3)`。¹²
+
+源: 与必应的对话， 2023/5/6(1) How to add elements to a List in Scala (List, ListBuffer). https://alvinalexander.com/scala/how-add-elements-to-a-list-in-scala-listbuffer-immutable/ 访问时间 2023/5/6.
+(2) Add element to a list In Scala - Stack Overflow. https://stackoverflow.com/questions/19610320/add-element-to-a-list-in-scala 访问时间 2023/5/6.
+(3) How to add elements to a List in Scala | alvinalexander.com. https://alvinalexander.com/scala/how-to-add-elements-to-list-in-scala-append-prepend/ 访问时间 2023/5/6.
+(4) Appending an element to the end of a list in Scala. https://stackoverflow.com/questions/7794063/appending-an-element-to-the-end-of-a-list-in-scala 访问时间 2023/5/6.
+
+#### 3
+
+> List 类型还有什么方法可以添加元素？
+
+* 正在搜索: **How to add elements to a list in Scala**
+* 正在为你生成答案…
+
+除了使用 `+:` 和 `++` 来向 List 中添加元素，你还可以使用 `ListBuffer` 类来实现可变的 List。例如，你可以这样写：
+```scala
+import scala.collection.mutable.ListBuffer
+var fruits = new ListBuffer[String]()
+fruits += "Apple"
+fruits += "Banana"
+fruits += "Orange"
+```
+然后，如果需要，你可以将其转换为 List：
+```scala
+val fruitsList = fruits.toList
+```
+¹
+
+源: 与必应的对话， 2023/5/6(1) How to add elements to a List in Scala (List, ListBuffer). https://alvinalexander.com/scala/how-add-elements-to-a-list-in-scala-listbuffer-immutable/ 访问时间 2023/5/6.
+(2) Add element to a list In Scala - Stack Overflow. https://stackoverflow.com/questions/19610320/add-element-to-a-list-in-scala 访问时间 2023/5/6.
+(3) How to add elements to a List in Scala | alvinalexander.com. https://alvinalexander.com/scala/how-to-add-elements-to-list-in-scala-append-prepend/ 访问时间 2023/5/6.
+(4) Appending an element to the end of a list in Scala. https://stackoverflow.com/questions/7794063/appending-an-element-to-the-end-of-a-list-in-scala 访问时间 2023/5/6.
+
+#### 4
+
+> 我不想要可变的 List ，就要不可变的。
+
+如果你想使用不可变的 List，那么你可以使用 `+:` 和 `++` 来向 List 中添加元素。`+:` 用于在 List 的前面添加元素，而 `++` 用于将两个集合拼接起来。例如，可以这样写：`1 +: List(2,3)` 或者 `List(1) ++ List(2,3)`。这样每次添加元素时都会创建一个新的 List。
+
+#### 5
+
+> `List(2,3).+:(1)` 可以添加元素，那么有没有 `addelem` 之类的方法？
+
+`List(2,3).+:(1)` 等同于 `1 +: List(2,3)`，它们都是在 List 的前面添加元素。List 类型没有 `addelem` 这样的方法，但是你可以使用 `+:` 和 `++` 来向 List 中添加元素。`+:` 用于在 List 的前面添加元素，而 `++` 用于将两个集合拼接起来。例如，可以这样写：`1 +: List(2,3)` 或者 `List(1) ++ List
+
+#### 6
+
+> `List(2,3).+:(1).+:(0)` 用另一种写法怎么写
+
+`List(2,3).+:(1).+:(0)` 等同于 `0 +: 1 +: List(2,3)`，它们都是在 List 的前面添加元素。你可以这样写：`0 +: 1 +: List(2,3)` 或者 `List(0,1) ++ List(2,3)`。
+
+#### 7
+
+> Scala 中 `::` 能用来做什么
+
+在 Scala 中，`::` 是一个用于在 List 的前面添加元素的方法。例如，你可以这样写：`1 :: List(2,3)` 来创建一个新的 List，它包含元素 `1,2,3`。需要注意的是，`::` 只能用于 `List` 类型，而不能用于其他集合类型。
+
+#### 8
+
+> 它和 `+:` 有啥区别？
+
+`::` 和 `+:` 都可以用来在 List 的前面添加元素。它们的区别在于，`::` 只能用于 `List` 类型，而 `+:` 可以用于所有支持序列的类型，例如 `List`, `Vector`, `Array` 等。此外，`::` 是右结合的，所以你可以这样写：`1 :: 2 :: 3 :: Nil` 来创建一个新的 List，而使用 `+:` 时需要加括号：`(1 +: 2 +: 3 +: Nil)`。
+
+#### 9
+
+> 我试了试，不用加括号。
+
+你说得对，我刚才的回答有误。`+:` 和 `++` 都是右结合的，所以你可以这样写：`1 +: 2 +: 3 +: Nil` 来创建一个新的 List，而不需要加括号。感谢你的指正！
+
+#### 10
+
+> 我有这么个代码： `Stream.unfold({0, 1}, fn {y, z} -> {y, {z, y + z} } end) |> Enum.take(13+1)` 请帮我转写为 scala ，用 LazyList
+
+你提供的代码看起来像是 Elixir 语言。在 Scala 中，你可以使用 `LazyList` 类型来实现类似的功能。下面是一个等价的 Scala 代码：
+```scala
+val fibs: LazyList[Int] = 0 #:: 1 #:: fibs.zip(fibs.tail).map{ case (a, b) => a + b }
+fibs.take(13+1).toList
+```
+这段代码定义了一个无限的斐波那契数列，并使用 `take` 方法来获取前 14 个元素。
+
+#### 11
+
+> `#::` 又是做什么的？
+
+`#::` 是一个用于在 `LazyList` 的前面添加元素的方法。它类似于 `List` 类型中的 `::` 方法，但是它是用于 `LazyList` 类型的。例如，你可以这样写：`1 #:: 2 #:: 3 #:: LazyList.empty` 来创建一个新的 `LazyList`，它包含元素 `1,2,3`。需要注意的是，`#::` 只能用于 `LazyList` 类型，而不能用于其他集合类型。
+
+#### 12
+
+> 那么能转写为 TypeScript 吗？
+
+在 TypeScript 中，你可以使用生成器函数来实现类似的功能。下面是一个等价的 TypeScript 代码：
+```typescript
+function* fib() {
+  let [a, b] = [0, 1];
+  while (true) {
+    yield a;
+    [a, b] = [b, a + b];
+  }
+}
+
+const fibs = fib();
+const result = Array.from({length: 13+1}, () => fibs.next().value);
+```
+这段代码定义了一个无限的斐波那契数列生成器，并使用 `Array.from` 方法来获取前 14 个元素。
+
+#### 13
+
+> Lua 呢？
+
+在 Lua 中，你可以使用迭代器来实现类似的功能。下面是一个等价的 Lua 代码：
+```lua
+function fib()
+    local a, b = 0, 1
+    return function()
+        local r = a
+        a, b = b, a + b
+        return r
+    end
+end
+
+local fibs = {}
+for i = 1, 13+1 do
+    fibs[i] = fib()()
+end
+```
+这段代码定义了一个无限的斐波那契数列迭代器，并使用循环来获取前 14 个元素。
+
+#### 14
+
+> rust 呢？
+
+在 Rust 中，你可以使用迭代器来实现类似的功能。下面是一个等价的 Rust 代码：
+```rust
+struct Fib {
+    a: u32,
+    b: u32,
+}
+
+impl Iterator for Fib {
+    type Item = u32;
+    fn next(&mut self) -> Option<u32> {
+        let r = self.a;
+        self.a = self.b;
+        self.b = r + self.b;
+        Some(r)
+    }
+}
+
+fn fib() -> Fib {
+    Fib { a: 0, b: 1 }
+}
+
+let fibs: Vec<u32> = fib().take(13+1).collect();
+```
+这段代码定义了一个无限的斐波那契数列迭代器，并使用 `take` 方法来获取前 14 个元素。
+
+#### 15
+
+> rust 没有 iterator ？
+
+Rust 有迭代器。在上面的代码中，我们定义了一个名为 `Fib` 的结构体，并为它实现了 `Iterator` trait。这样，我们就可以使用 `next` 方法来获取斐波那契数列中的下一个元素。此外，我们还可以使用 `take` 方法来获取前 n 个元素。
+
+#### 16
+
+> 哦，抱歉，我看错了。 Lua 没有 yield 吗？
+
+Lua 5.1 及以上版本支持 `yield` 关键字，它可以用来实现协程。你可以使用 `coroutine.create` 函数来创建一个协程，然后使用 `coroutine.resume` 函数来执行协程。在协程中，你可以使用 `coroutine.yield` 函数来暂停执行并返回一个值。下面是一个使用 `yield` 的 Lua 代码：
+```lua
+function fib()
+    local a, b = 0, 1
+    while true do
+        coroutine.yield(a)
+        a, b = b, a + b
+    end
+end
+
+local fibs = {}
+local co = coroutine.create(fib)
+for i = 1, 13+1 do
+    local _, value = coroutine.resume(co)
+    fibs[i] = value
+end
+```
+这段代码定义了一个无限的斐波那契数列协程，并使用循环来获取前 14 个元素。
+
+#### 17
+
+> 好，回到 scala 。那么用 stream 能怎么实现呢？
+
+在 Scala 2.13 及以上版本中，`Stream` 类型已经被废弃，建议使用 `LazyList` 类型来替代。你可以使用 `LazyList` 类型来实现类似的功能。下面是一个等价的 Scala 代码：
+```scala
+val fibs: LazyList[Int] = 0 #:: 1 #:: fibs.zip(fibs.tail).map{ case (a, b) => a + b }
+fibs.take(13+1).toList
+```
+这段代码定义了一个无限的斐波那契数列，并使用 `take` 方法来获取前 14 个元素。
+
+#### 18
+
+> 那好， Java 的 Stream ？
+
+在 Java 中，你可以使用 `Stream.iterate` 方法来实现类似的功能。下面是一个等价的 Java 代码：
+```java
+Stream.iterate(new int[]{0, 1}, t -> new int[]{t[1], t[0] + t[1]})
+    .limit(13+1)
+    .map(t -> t[0])
+    .collect(Collectors.toList());
+```
+这段代码定义了一个无限的斐波那契数列，并使用 `limit` 方法来获取前 14 个元素。
+
+#### 19
+
+> so ， scala 不能像这样使用 Java 中的类吗？
+
+Scala 可以使用 Java 中的类。由于 Scala 是基于 JVM 的语言，所以它可以直接调用 Java 中的类和方法。例如，你可以在 Scala 代码中这样写：
+```scala
+import java.util.stream.{Stream, Collectors}
+
+val fibs = Stream.iterate(Array(0, 1), (t: Array[Int]) => Array(t(1), t(0) + t(1)))
+    .limit(13+1)
+    .map((t: Array[Int]) => t(0))
+    .collect(Collectors.toList())
+```
+这段代码使用了 Java 中的 `Stream` 类来定义一个无限的斐波那契数列，并使用 `limit` 方法来获取前 14 个元素。
+
+#### 20
+
+> LazyList 的示例和这个很不一样。 LazyList 能不能也像这样写？
+
+`LazyList` 类型和 Java 中的 `Stream` 类型有一些不同。`LazyList` 是一个惰性求值的集合类型，它可以表示无限长的序列。而 Java 中的 `Stream` 类型是一个用于处理集合的流式 API，它不是一个集合类型。
+
+你可以使用 `LazyList.iterate` 方法来实现类似于 Java 中 `Stream.iterate` 的功能。下面是一个等价的 Scala 代码：
+```scala
+val fibs = LazyList.iterate((0, 1)){ case (a, b) => (b, a + b) }.map(_._1)
+fibs.take(13+1).toList
+```
+这段代码定义了一个无限的斐波那契数列，并使用 `take` 方法来获取前 14 个元素。
+
+#### X
+
+> 好，这才是我需要的。它与 Elixir 的 Stream 类似。
+
+*Sorry, I think we need to move on! Click “New topic” to chat about something else.*
+
+
 ### Math Prime Fall (new bing) (Precise)
 
 #### 1/20
