@@ -381,6 +381,77 @@ Source : conversation avec Bing, 2023/5/8
 
 * ⚠ Désolé, cette conversation a atteint sa limite. Utilisez le bouton « balai » pour nettoyer et poursuivre la conversation.
 
+#### 1/20
+
+> SHell 如何取得变量里的第一个字符
+
+* Recherche de «**SHell 如何取得变量里的第一个字符**»
+* Recherche de «**SHell 取得变量里的第一个字符**»
+* Recherche de «**SHell 取得变量里的第一个字符**»
+* Générer des réponses pour vous…
+
+I'm sorry, but I couldn't find any specific information on how to get the first character of a variable in SHell. Could you please clarify your question or provide more details?
+
+Source : conversation avec Bing, 2023/5/8
+(1) Shell 变量 | 菜鸟教程. https://www.runoob.com/linux/linux-shell-variable.html.
+(2) Shell 传递参数 | 菜鸟教程. https://www.runoob.com/linux/linux-shell-passing-arguments.html.
+(3) shell中的eval命令 - 快乐嘉年华 - 博客园. https://www.cnblogs.com/faberbeta/p/linuxshell_eval.html.
+(4) Shell字符串截取（非常详细） - C语言中文网. http://c.biancheng.net/view/1120.html.
+(5) 掌握Shell编程，一篇就够了 - 知乎 - 知乎专栏. https://zhuanlan.zhihu.com/p/102176365.
+(6) 一篇教会你写90%的shell脚本 - 知乎 - 知乎专栏. https://zhuanlan.zhihu.com/p/264346586.
+
+#### 2/20
+
+> 用英文搜索，用中文回我。
+
+* Recherche de «**How to get the first character of a variable in SHell**»
+* Générer des réponses pour vous…
+
+在 Bash shell 中，我们可以使用 (substring) 参数扩展语法 $ {str:position:length} 来获取字符串的第一个字符。position 是字符串提取的起始位置。length 是我们需要从字符串中提取的字符数¹。
+
+例如，如果变量是 `FOO="qwertzuiopasdfghjklyxcvbnm"`，那么 `echo ${FOO:0:1}` 将给出第一个字符²。
+
+Source : conversation avec Bing, 2023/5/8
+(1) How to get the first character of a string in Bash | Reactgo. https://reactgo.com/bash-get-first-character-of-string/.
+(2) How to retrieve the first n characters of a variable in Bash?. https://stackoverflow.com/questions/14992658/how-to-retrieve-the-first-n-characters-of-a-variable-in-bash.
+(3) How to obtain the first letter in a Bash variable?. https://stackoverflow.com/questions/10218474/how-to-obtain-the-first-letter-in-a-bash-variable.
+(4) How to check the first character of a string in Bash | Reactgo. https://reactgo.com/bash-check-first-character-string/.
+
+#### 3/20
+
+> 最后一个字符呢
+
+* Recherche de «**How to get the last character of a variable in SHell**»
+* Générer des réponses pour vous…
+
+在 Bash shell 中，我们可以使用参数扩展语法 $ {string: -1} 来获取字符串的最后一个字符。在 bash 中，负索引从字符串的末尾开始计数，因此 -1 是最后一个字符的索引⁴。
+
+例如，如果变量是 `FOO="qwertzuiopasdfghjklyxcvbnm"`，那么 `echo ${FOO: -1}` 将给出最后一个字符。
+
+Source : conversation avec Bing, 2023/5/8
+(1) How to get the last character of a string in Bash | Reactgo. https://reactgo.com/bash-get-last-character-of-string/.
+(2) How to get the last character of a string in a shell? - StackTuts. https://stacktuts.com/how-to-get-the-last-character-of-a-string-in-a-shell.
+(3) How to get the last character of a string in a shell?. https://stackoverflow.com/questions/17542892/how-to-get-the-last-character-of-a-string-in-a-shell.
+(4) Accessing last x characters of a string in Bash - Stack Overflow. https://stackoverflow.com/questions/19858600/accessing-last-x-characters-of-a-string-in-bash.
+
+#### 4/20
+
+> 倒数第三个字符呢
+
+在 Bash shell 中，我们可以使用参数扩展语法 $ {string: -3:1} 来获取字符串的倒数第三个字符。在 bash 中，负索引从字符串的末尾开始计数，因此 -3 是倒数第三个字符的索引。
+
+例如，如果变量是 `FOO="qwertzuiopasdfghjklyxcvbnm"`，那么 `echo ${FOO: -3:1}` 将给出倒数第三个字符。
+
+#### 5/20
+
+> 后三个字符呢
+
+在 Bash shell 中，我们可以使用参数扩展语法 $ {string: -3} 来获取字符串的最后三个字符。在 bash 中，负索引从字符串的末尾开始计数，因此 -3 是最后三个字符的起始索引。
+
+例如，如果变量是 `FOO="qwertzuiopasdfghjklyxcvbnm"`，那么 `echo ${FOO: -3}` 将给出最后三个字符。
+
+> 很好。你能从英文互联网找到有用的东西。看起来，中文互联网环境收到了傲慢且不负责任的以营销为目的（而不是以知识解惑为目的）的垃圾内容的严重污染。你其实还是有办法找到有用的东西，不过很费劲就是了 ……
+
 
 
 ### A Chat cross to the Next day (about: Batch download in Browser) (new bing) (Precise)
