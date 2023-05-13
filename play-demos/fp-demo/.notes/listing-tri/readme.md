@@ -74,8 +74,12 @@ end .(13) ;
  */
 
 /* tailrec */
-
-// ...
+({ case n if !(n < 0) =>
+{
+    def iter(x: Int, res: List[(Int, BigInt)], y: BigInt, z: BigInt): List[(Int, BigInt)] = 
+        if (x < n) iter(x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res ;
+    iter(0, List(), BigInt(0), BigInt(1))
+} }: PartialFunction[Int, List[(Int, BigInt)]] ).apply(13).reverse ;
 
 /* fold (means reduce) */
 ((n: Int) =>
@@ -155,7 +159,17 @@ end ;
 #### *[🥓] [Scala]*
 
 ~~~ scala
+val fib
+: PartialFunction[Long, List[(Long,BigInt)]] = 
+{ case n if !(n < 0) =>
+{
+    def iter(x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt): List[(Long,BigInt)] = 
+  			if (x < n) iter(x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res ;
+    iter(0, List(), BigInt(0), BigInt(1))
+} } ;
 
+fib(13).reverse ;
+// List((0,0), (1,1), (2,1), (3,2), (4,3), (5,5), (6,8), (7,13), (8,21), (9,34), (10,55), (11,89), (12,144), (13,233)): List[(Long, BigInt)]
 ~~~
 
 
