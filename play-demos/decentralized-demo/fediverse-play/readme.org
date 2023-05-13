@@ -1,10 +1,12 @@
 联邦宇宙
 
-一个类似于 matrix 但是并没有端到端加密的协议。
+用于 Web 发布（即 社交网络、微博、博客或网站）和文件托管。虽然独立托管，但可以相互通信。
 
-基于该协议已被构建了多款社交平台。其中有各种类型的，
+类似于 matrix ，但是可能没有端到端加密。
+
+现存多款符合此标准的社交平台。其中有各种类型的，
 有微博、论坛、图片分享站等。每款平台都可以有多个
 实例。实例由实例的管理员使用该款平台软件，在受其
 管理的机器节点上部署。
 
-[[https://activitypub.rocks][ActivityPub]]
+目前 [[https://activitypub.rocks][ActivityPub]] 是 Fediverse 中的主导协议，还有别的协议比如 [[https://en.wikipedia.org/wiki/OStatus][OStatus]] 。
