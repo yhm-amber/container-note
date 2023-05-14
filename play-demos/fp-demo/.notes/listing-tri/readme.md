@@ -131,7 +131,7 @@ end .(13) ;
 
 /* stream / lazylist / iterator / unfold / ... */
 
-// Stream.iterate (scala-2.12.x)
+// Stream.iterate (scala-2.12.x scala-~2.13.x)
 ((n: Int) =>
 {
     Stream
@@ -140,7 +140,7 @@ end .(13) ;
         .take(n+1).toList
 }) (13) ;
 
-// LazyList.iterate (scala-2.13.x)
+// LazyList.iterate (scala-^2.13.x)
 ((n: Int) =>
 {
     LazyList
@@ -149,13 +149,22 @@ end .(13) ;
         .take(n+1).toList
 }) (13) ;
 
-// Iterator.unfold (scala-2.13.x)
+// Iterator.unfold (scala-^2.13.x)
 ((n: Int) =>
 {
     Iterator
         .unfold
         { (0, BigInt(0), BigInt(1)) }
         { case (x, y, z) => Some( (x -> y, (x + 1, z, y + z)) ) }
+        .take(n+1).toList
+}) (13) ;
+
+// Iterator.iterate (scala-2.12.x scala-2.13.x)
+((n: Int) =>
+{
+    Iterator
+        .iterate((0, BigInt(0), BigInt(1))){ case (x, y, z) => (x + 1, z, y + z) }
+        .map{ case (x, y, z) => x -> y }
         .take(n+1).toList
 }) (13) ;
 ~~~
@@ -349,6 +358,10 @@ val fibs: Stream[(Int, BigInt)] = Stream.iterate((0, BigInt(0), BigInt(1))){ cas
 /* LazyList.iterate (scala-2.13.x) */
 
 val fibs: LazyList[(Int, BigInt)] = LazyList.iterate((0, BigInt(0), BigInt(1))){ case (x, y, z) => (x + 1, z, y + z) }.map{case (x, y, z) => x -> y} ;
+
+/* Iterator.iterate (scala-2.12.x) */
+
+val fibs: Iterator[(Int, BigInt)] = Iterator.iterate((0, BigInt(0), BigInt(1))){ case (x, y, z) => (x + 1, z, y + z) }.map{case (x, y, z) => x -> y} ;
 
 /* Iterator.unfold (scala-2.13.x) */
 
