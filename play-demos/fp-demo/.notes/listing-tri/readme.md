@@ -38,6 +38,7 @@
 # [ {0, 0}, {1, 1}, {2, 1}, {3, 2}, {4, 3}, {5, 5}, {6, 8}, {7, 13}, {8, 21}, {9, 34}, {10, 55}, {11, 89}, {12, 144}, {13, 233} ]
 
 # tail rec
+
 fn n when not(n < 0) ->
     iter = 
     fn
@@ -51,16 +52,27 @@ fn n when not(n < 0) ->
     {0, [], 0, 1} |> iter.(iter) ;
 end .(13) |> Enum.reverse ;
 
-# reduce
+# reduce / fold / ...
+
+## Enum.reduce/3
 fn n when not(n < 0) ->
     0 .. n
     |> Enum.reduce({[], 0, 1}, fn x, {r, y, z} -> {[{x,y} | r], z, y + z} end)
     |> elem 0 ;
 end .(13) |> Enum.reverse ;
 
-# stream / lazylist / iterator
+# stream / lazylist / iterator / unfold / ...
+
+## Stream.unfold/3
 fn n when not(n < -1) ->
     Stream.unfold({0, 0, 1}, fn {x, y, z} -> {{x,y}, {x + 1, z, y + z} } end)
+    |> Enum.take n+1 ;
+end .(13) ;
+
+## Stream.iterate/3
+fn n when not(n < -1) ->
+    Stream.iterate({0, 0, 1}, fn {x, y, z} -> {x + 1, z, y + z} end)
+    |> Stream.map(fn  {x, y, z} -> {x,y} end)
     |> Enum.take n+1 ;
 end .(13) ;
 ~~~
@@ -73,7 +85,8 @@ end .(13) ;
  * List((0,0), (1,1), (2,1), (3,2), (4,3), (5,5), (6,8), (7,13), (8,21), (9,34), (10,55), (11,89), (12,144), (13,233)): List[(Int, BigInt)]
  */
 
-/* tailrec */
+/* tail rec */
+
 ({ case n if !(n < 0) =>
 {
     def iter(x: Int, res: List[(Int, BigInt)], y: BigInt, z: BigInt): List[(Int, BigInt)] = 
@@ -81,7 +94,9 @@ end .(13) ;
     iter(0, List(), BigInt(0), BigInt(1))
 } }: PartialFunction[Int, List[(Int, BigInt)]] ).apply(13).reverse ;
 
-/* fold (means reduce) */
+/* reduce / fold / ... */
+
+// foldLeft
 ((n: Int) =>
 {
     (0 to n).foldLeft
@@ -90,7 +105,9 @@ end .(13) ;
     } { case ((r, y, z), x) => ((x, y) :: r, z, y + z) }._1.reverse ;
 }) (13) ;
 
-/* stream & lazylist */
+/* stream / lazylist / iterator / unfold / ... */
+
+// Stream.iterate
 ((n: Int) =>
 {
     Stream
@@ -98,6 +115,8 @@ end .(13) ;
         .map{ case (x, y, z) => x -> y }
         .take(n+1).toList
 }) (13) ;
+
+// LazyList.iterate
 ((n: Int) =>
 {
     LazyList
