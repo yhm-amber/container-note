@@ -594,6 +594,432 @@ val factorial = Y[Int, Int]((f: Int => Int) => (n: Int) => if (n == 0) 1 else n 
 
 * ⚠ Désolé, cette conversation a atteint sa limite. Utilisez le bouton « balai » pour nettoyer et poursuivre la conversation.
 
+#### 1/20
+
+> 这是我的代码：
+> 
+> ~~~ scala
+> val fib
+> : PartialFunction[Long, List[(Long,BigInt)]] = 
+> { case n if !(n < 0) =>
+> {
+>     def iter(x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt): List[(Long,BigInt)] = 
+>   			if (x < n) iter(x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res ;
+>     iter(0, List(), BigInt(0), BigInt(1))
+> } }
+> 
+> fib(13).reverse
+> ~~~
+> 
+
+您好！这段代码是用Scala语言编写的，它定义了一个名为`fib`的偏函数，该函数接受一个非负整数`n`作为输入，并返回一个列表，其中包含从0到`n`的斐波那契数列。最后一行代码调用了该函数并将结果反转。您有什么问题吗？
+
+#### 2/20
+
+> 这是我的 Y 组合子：
+> 
+> ~~~ scala
+> def y [X, Y] (f: (X => Y) => (X => Y))
+> : X => Y = 
+> {
+>     case class W(f: W => (X => Y)) 
+>     { def apply(w: W): X => Y = f(w) } ;
+>     
+>     ((g: W => (X => Y)) => g(W(g)))
+>         .apply(w => f(w(w))(_)) ;
+> }
+> ~~~
+> 
+
+您好！这段代码定义了一个名为`y`的函数，它是一个Y组合子的实现。Y组合子是一种用于在不使用递归的情况下实现递归函数的技术。这个函数接受一个函数`f`作为输入，该函数接受一个函数作为输入并返回一个函数。`y`函数返回一个新的函数，该函数可以递归调用自身。
+
+这段代码中使用了一个名为`W`的case类，它包含一个名为`f`的成员，该成员是一个接受`W`类型的参数并返回一个函数的函数。然后，代码使用了一个匿名函数来创建一个新的`W`实例并将其应用于输入的函数`f`，最终返回一个可以递归调用自身的新函数。
+
+您有什么问题吗？
+
+#### 3/20
+
+> 在【我的代码】中， `iter` 并不是匿名函数。理论上，它可以被写成匿名函数，并且借用 Y 组合子完成递归。但具体来说，这个要如何做？
+
+您好！您提到的`iter`函数是在您之前提供的斐波那契数列代码中定义的一个内部函数。它不是一个匿名函数，而是一个命名函数。
+
+如果您希望使用Y组合子来实现递归，那么您可以将`iter`函数重写为一个匿名函数，并使用Y组合子来实现递归调用。下面是一个示例：
+
+```scala
+val fib: PartialFunction[Long, List[(Long,BigInt)]] = 
+{ case n if !(n < 0) =>
+    val iter = y[List[(Long,BigInt)]](f => (x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt) => 
+        if (x < n) f(x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res)
+    iter(0, List(), BigInt(0), BigInt(1))
+}
+```
+
+在这个示例中，我们定义了一个名为`iter`的变量，它是一个匿名函数。我们使用了Y组合子来实现递归调用。这个匿名函数接受四个参数：`x`、`res`、`y`和`z`，并根据这些参数的值进行递归调用。
+
+希望这个示例能够帮助您理解如何使用Y组合子来实现递归。
+
+#### 4/20
+
+> 不太对吧？ y 接受的泛型是两个，这里只有一个。
+
+您说得对，我犯了一个错误。`y`函数接受两个类型参数，分别表示输入和输出的类型。在上面的示例中，我只提供了一个类型参数，这是不正确的。
+
+下面是一个正确的示例，它展示了如何使用Y组合子来实现递归调用：
+
+```scala
+val fib: PartialFunction[Long, List[(Long,BigInt)]] = 
+{ case n if !(n < 0) =>
+    val iter = y[(Long, List[(Long,BigInt)], BigInt, BigInt), List[(Long,BigInt)]](f => (x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt) => 
+        if (x < n) f(x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res)
+    iter(0, List(), BigInt(0), BigInt(1))
+}
+```
+
+在这个示例中，我们为`y`函数提供了两个类型参数：`(Long, List[(Long,BigInt)], BigInt, BigInt)`和`List[(Long,BigInt)]`。第一个类型参数表示输入的类型，它是一个元组，包含四个元素。第二个类型参数表示输出的类型，它是一个列表。
+
+希望这个示例能够帮助您理解如何使用Y组合子来实现递归。
+
+#### 5/20
+
+> 很好，用到了元组。不过应该还需要有一个小小的改动。这是我的报错：
+> 
+> ~~~~
+> type mismatch;
+>  found   : (Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)]
+>  required: ((Long, List[(Long, BigInt)], BigInt, BigInt)) => List[(Long, BigInt)]
+> ~~~~
+> 
+
+您好！您提到的错误信息表明，您在调用`y`函数时，传递给它的函数类型不匹配。具体来说，`y`函数期望接收一个接受一个元组作为输入并返回一个列表的函数，但您传递给它的函数接受四个单独的参数而不是一个元组。
+
+为了解决这个问题，您可以将传递给`y`函数的匿名函数重写为接受一个元组作为输入。下面是一个示例：
+
+```scala
+val fib: PartialFunction[Long, List[(Long,BigInt)]] = 
+{ case n if !(n < 0) =>
+    val iter = y[((Long, List[(Long,BigInt)], BigInt, BigInt)), List[(Long,BigInt)]](f => { case (x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt) => 
+        if (x < n) f((x + 1,(x -> y) :: res, z, y + z)) else (x -> y) :: res})
+    iter((0, List(), BigInt(0), BigInt(1)))
+}
+```
+
+在这个示例中，我们将传递给`y`函数的匿名函数重写为接受一个元组作为输入。我们使用了case语句来匹配输入的元组，并将其解构为四个单独的变量：`x`、`res`、`y`和`z`。然后，我们根据这些变量的值进行递归调用。
+
+希望这个示例能够帮助您解决问题。
+
+#### 6/20
+
+> 回答得非常好。
+> 
+> Scala 的 `Stream.iterate` 和 Elixir 的 `Stream.iterate` 是类似的。 Elixir 还有一个 `Stream.unfold` ， Scala 有没有 `Stream.unfold` ？
+> 
+
+* Recherche de «**Scala Stream.unfold**»
+* Générer des réponses pour vous…
+
+是的，Scala 2.13 版本中添加了 `unfold` 方法，它可以用于多种集合类型，包括 `Iterator` 和 `LazyList`（在 Scala 2.13 中取代了 `Stream`）¹。`unfold` 方法接受一个初始状态和一个函数作为输入，该函数接受一个状态并返回一个元组，其中包含下一个元素和下一个状态。如果函数返回 `None`，则生成的序列结束。
+
+例如，下面是一个使用 `Iterator.unfold` 生成斐波那契数列的示例：
+
+```scala
+val fibs = Iterator.unfold((0, 1)) { case (a, b) => Some((a, (b, a + b))) }
+```
+
+在这个示例中，我们使用了 `Iterator.unfold` 来生成一个斐波那契数列。我们传递给它一个初始状态 `(0, 1)` 和一个函数，该函数接受一个状态并返回下一个元素和下一个状态。在每次迭代中，我们都会计算出下一个斐波那契数并更新状态。
+
+希望这个回答能够帮助您。
+
+Source : conversation avec Bing, 2023/5/15
+(1) Scala Unfold - Genuine Blog. https://blog.genuine.com/2020/07/scala-unfold/.
+(2) scala - Stack-safe unfold - Stack Overflow. https://stackoverflow.com/questions/45432499/stack-safe-unfold.
+(3) Stream vs Views vs Iterators | Baeldung on Scala. https://www.baeldung.com/scala/stream-vs-views-vs-iterators.
+
+#### 7/20
+
+> 这是我 Elixir 使用 unfold 的代码：
+> 
+> ~~~ elixir
+> fn n when not(n < -1) ->
+>     Stream.unfold({0, 0, 1}, fn {x, y, z} -> {{x,y}, {x + 1, z, y + z} } end)
+>     |> Enum.take n+1 ;
+> end .(13) ;
+> ~~~
+> 
+> 这是我 Scala 中使用 `iterate` 的代码：
+> 
+> ~~~ scala
+> ((n: Int) =>
+> {
+>     LazyList
+>         .iterate((0, BigInt(0), BigInt(1))){ case (x, y, z) => (x + 1, z, y + z) }
+>         .map{ case (x, y, z) => x -> y }
+>         .take(n+1).toList
+> }) (13) ;
+> ~~~
+> 
+> 我想知道这个 `Iterator.unfold` 要怎么用在我的需求上。
+> 
+
+您好！您可以使用 `Iterator.unfold` 来实现与您提供的 Elixir 和 Scala 代码相同的功能。下面是一个示例：
+
+```scala
+val fibs = (n: Int) => Iterator.unfold((0, BigInt(0), BigInt(1))) {
+    case (x, y, z) if x <= n => Some(((x, y), (x + 1, z, y + z)))
+    case _ => None
+}.toList
+
+fibs(13)
+```
+
+在这个示例中，我们定义了一个名为 `fibs` 的函数，它接受一个整数 `n` 作为输入，并使用 `Iterator.unfold` 来生成一个斐波那契数列。我们传递给 `unfold` 一个初始状态 `(0, BigInt(0), BigInt(1))` 和一个函数，该函数接受一个状态并返回下一个元素和下一个状态。在每次迭代中，我们都会计算出下一个斐波那契数并更新状态。当 `x > n` 时，函数返回 `None`，生成的序列结束。
+
+希望这个示例能够帮助您理解如何使用 `Iterator.unfold` 来实现您的需求。
+
+#### 8/20
+
+> 我使用的 Scala 版本是 2.12 ，有什么办法可以用到 `unfold` ？
+
+如果您使用的是 Scala 2.12 版本，那么您无法直接使用标准库中的 `unfold` 方法，因为它是在 Scala 2.13 版本中添加的。但是，您可以自己实现一个类似于 `unfold` 的函数。
+
+下面是一个简单的 `unfold` 函数的实现，它接受一个初始状态和一个函数作为输入，并返回一个 `Iterator`：
+
+```scala
+def unfold[S, A](init: S)(f: S => Option[(A, S)]): Iterator[A] = new Iterator[A] {
+    private var state: Option[S] = Some(init)
+
+    def hasNext: Boolean = state.exists(f(_).isDefined)
+
+    def next(): A = state.flatMap(f) match {
+        case Some((a, s)) =>
+            state = Some(s)
+            a
+        case None =>
+            state = None
+            Iterator.empty.next()
+    }
+}
+```
+
+您可以使用这个函数来实现与之前提供的示例相同的功能。下面是一个示例：
+
+```scala
+val fibs = (n: Int) => unfold((0, BigInt(0), BigInt(1))) {
+    case (x, y, z) if x <= n => Some(((x, y), (x + 1, z, y + z)))
+    case _ => None
+}.toList
+
+fibs(13)
+```
+
+希望这个回答能够帮助您。
+
+#### 9/20
+
+> 你第一个 `fibs` 比较好，简洁且足够修改为满足我的需求。
+> 
+> 我根据它整理出了我需要的代码：
+> 
+> ~~~ scala
+> ((n: Int) =>
+> {
+>     Iterator
+>         .unfold
+>         { (0, BigInt(0), BigInt(1)) }
+>         { case (x, y, z) => Some( (x -> y, (x + 1, z, y + z)) ) }
+>         .take(n+1).toList
+> }) (13) ;
+> ~~~
+> 
+> 下面是一个便于理解的简洁版：
+> 
+> ~~~ scala
+> val fibs: Iterator[(Int, BigInt)] = Iterator.unfold( (0, BigInt(0), BigInt(1)) ) { case (x, y, z) => Some( (x -> y, (x + 1, z, y + z)) ) } ;
+> fibs.take(13+1).toList // List((0,0), (1,1), (2,1), (3,2), (4,3), (5,5), (6,8), (7,13), (8,21), (9,34), (10,55), (11,89), (12,144), (13,233)): List[(Int, BigInt)]
+> ~~~
+> 
+
+很高兴您能够根据我的建议整理出满足您需求的代码。您提供的两个示例都使用了 `Iterator.unfold` 来生成一个斐波那契数列。它们都传递给 `unfold` 一个初始状态和一个函数，该函数接受一个状态并返回下一个元素和下一个状态。在每次迭代中，都会计算出下一个斐波那契数并更新状态。
+
+如果您有其他问题，欢迎随时咨询。
+
+#### 10/20
+
+> 并且由于已经足够安全，调用 `fibs.take(-17).toList` 也只会得到 `List(): List[(Int, BigInt)]` ，因此就没必要增加守护了。不过你这个带守护的偏函数的写法或许我在别的地方会用得到。
+
+您说得对，当您调用 `fibs.take(-17).toList` 时，由于 `take` 方法的参数是负数，所以它会返回一个空列表。这是因为 `take` 方法的实现会检查参数是否为负数，并在这种情况下返回一个空列表。
+
+在您提供的代码中，您没有使用偏函数来定义 `fibs`，因此不需要添加守护来检查输入是否有效。但是，在某些情况下，使用偏函数和守护可以帮助您更好地控制函数的行为，并确保它只在接收有效输入时才会执行。
+
+希望这个回答能够帮助您。
+
+#### 11/20
+
+> `Iterator[ ... ]` 和 `Stream[ ... ]` 还有 `LazyList[ ... ]` ，都有 `take` 方法，而且效果都一样。它们是继承或实现了同样的东西吗？
+
+* Recherche de «**Scala Iterator Stream LazyList take method**»
+* Générer des réponses pour vous…
+
+`Iterator`、`Stream` 和 `LazyList` 都是 Scala 集合库中的类，它们都实现了 `take` 方法。这些类都继承自 `TraversableOnce` 特质，该特质定义了 `take` 方法的通用实现。
+
+`Iterator` 是一个抽象类，它表示一个可遍历的集合。它提供了一种遍历集合元素的方法，但不支持对集合进行修改。
+
+`Stream` 是一个惰性列表，它在 Scala 2.13 版本中被弃用，并由 `LazyList` 取代。`Stream` 和 `LazyList` 都是惰性计算的，它们只在需要时才会计算元素。这使得它们可以表示无限序列。
+
+希望这个回答能够帮助您理解这些类之间的关系。
+
+Source : conversation avec Bing, 2023/5/15
+(1) How does the lazy 'take' function compute the Scala stream further .... https://stackoverflow.com/questions/60884931/how-does-the-lazy-take-function-compute-the-scala-stream-further.
+(2) How to create LazyList Scala using LazyList.iterate?. https://stackoverflow.com/questions/71017811/how-to-create-lazylist-scala-using-lazylist-iterate.
+(3) LazyList in Scala | Baeldung on Scala. https://www.baeldung.com/scala/lazylist.
+(4) Infinite streams in Scala - Stack Overflow. https://stackoverflow.com/questions/6408186/infinite-streams-in-scala.
+
+#### 12/20
+
+> `Iterator` 除了用 `unfold` 方法，还可以用什么办法做到相同的事？
+
+除了使用 `unfold` 方法，您还可以使用其他方法来创建 `Iterator`。例如，您可以使用 `Iterator.iterate` 方法来创建一个无限序列，它接受一个初始值和一个函数作为输入，并返回一个新的 `Iterator`，其中每个元素都是通过将函数应用于前一个元素来计算的。
+
+下面是一个使用 `Iterator.iterate` 生成斐波那契数列的示例：
+
+```scala
+val fibs: Iterator[BigInt] = Iterator.iterate((BigInt(0), BigInt(1))) {
+    case (a, b) => (b, a + b)
+}.map(_._1)
+```
+
+在这个示例中，我们使用了 `Iterator.iterate` 来生成一个斐波那契数列。我们传递给它一个初始值 `(BigInt(0), BigInt(1))` 和一个函数，该函数接受一个元组并返回下一个元组。在每次迭代中，我们都会计算出下一个斐波那契数并更新状态。
+
+希望这个示例能够帮助您理解如何使用 `Iterator.iterate` 来实现与 `unfold` 相同的功能。
+
+#### 13/20
+
+> 好吧，那我可以这样写：
+> 
+> ~~~ scala
+> val fibs: Iterator[(Int, BigInt)] = Iterator.iterate((0, BigInt(0), BigInt(1))){ case (x, y, z) => (x + 1, z, y + z) }.map{case (x, y, z) => x -> y} ;
+> fibs.take(13 + 1).toList
+> ~~~
+> 
+> 这里的 `Iterator` 可以换成 `Stream` 或者 `LazyList` ，最终结果是完全一样的。而且上述代码也能在 2.12 版本中运行。
+> 
+> 这三者有什么区别吗？看起来它们的 `iterate` 是一样的。但也许并不完全一样，只是在我这个测试中表现一样。如果有区别，都有哪些？
+> 
+
+* Recherche de «**Scala Iterator Stream LazyList iterate method**»
+* Générer des réponses pour vous…
+
+`Iterator`、`Stream` 和 `LazyList` 都提供了 `iterate` 方法，它们的行为类似，但它们之间也存在一些区别。
+
+`Iterator.iterate` 方法返回一个 `Iterator`，它是一个惰性计算的集合，只有在需要时才会计算元素。由于 `Iterator` 不支持对集合进行修改，因此它不会缓存已经计算过的元素。这意味着您无法多次遍历同一个 `Iterator`。
+
+`Stream.iterate` 方法返回一个 `Stream`，它是一个惰性列表。与 `Iterator` 类似，`Stream` 也是惰性计算的，只有在需要时才会计算元素。但与 `Iterator` 不同的是，`Stream` 会缓存已经计算过的元素，因此您可以多次遍历同一个 `Stream`。需要注意的是，在 Scala 2.13 版本中，`Stream` 被弃用，并由 `LazyList` 取代。
+
+`LazyList.iterate` 方法返回一个 `LazyList`，它与 `Stream` 类似，也是一个惰性列表。与 `Stream` 相比，它的主要区别在于它的头部也是惰性计算的。
+
+在您提供的示例中，由于您只是使用了 `take` 方法来获取序列的前几个元素，并将其转换为列表，因此这三种方法都能够产生相同的结果。但是，在其他情况下，它们之间可能会存在一些区别。
+
+希望这个回答能够帮助您理解这些类之间的区别。
+
+Source : conversation avec Bing, 2023/5/15
+(1) Stream vs Views vs Iterators | Baeldung on Scala. https://www.baeldung.com/scala/stream-vs-views-vs-iterators.
+(2) How to create LazyList Scala using LazyList.iterate?. https://stackoverflow.com/questions/71017811/how-to-create-lazylist-scala-using-lazylist-iterate.
+(3) Scala Standard Library 2.13.8 - scala.collection.immutable.LazyList. https://www.scala-lang.org/api/current/scala/collection/immutable/LazyList.html.
+
+#### 14/20
+
+> 你有没有找到一些能体现它们区别的例子？找到了的话可以给我看看吗
+
+下面是一个简单的例子，它展示了 `Iterator`、`Stream` 和 `LazyList` 在使用 `iterate` 方法时的区别：
+
+```scala
+val it = Iterator.iterate(0)(_ + 1)
+val st = Stream.iterate(0)(_ + 1)
+val ll = LazyList.iterate(0)(_ + 1)
+
+println(it.drop(10).next()) // 10
+println(st.drop(10).head)   // 10
+println(ll.drop(10).head)   // 10
+
+println(it.next())          // 11
+println(st.head)            // 0
+println(ll.head)            // 0
+```
+
+在这个示例中，我们使用了 `Iterator.iterate`、`Stream.iterate` 和 `LazyList.iterate` 来创建三个无限序列。然后，我们使用了 `drop` 方法来跳过前 10 个元素，并使用 `next` 或 `head` 方法来获取下一个元素。
+
+可以看到，在第一次调用 `next` 或 `head` 方法时，三个序列都返回了相同的结果。但是，在第二次调用时，它们的行为就不同了。对于 `Iterator`，由于它不会缓存已经计算过的元素，因此第二次调用 `next` 方法会返回下一个元素。而对于 `Stream` 和 `LazyList`，由于它们会缓存已经计算过的元素，因此第二次调用 `head` 方法会返回第一个元素。
+
+希望这个示例能够帮助您理解这些类之间的区别。
+
+#### 15/20
+
+> 我有点明白了，非常感谢。据我所知， `Stream` 是来自 Java 的类，而 `LazyList` 是 Scala 里才有的类。 `Iterator` 呢？
+
+您提到的 `Stream` 类实际上是 Scala 集合库中的一个类，它不是来自 Java。在 Scala 2.13 版本中，`Stream` 被弃用，并由 `LazyList` 取代。
+
+`Iterator` 是一个通用的概念，它在许多编程语言中都有实现。在 Java 中，它被定义为一个接口，用于遍历集合中的元素。在 Scala 中，它被定义为一个抽象类，也用于遍历集合中的元素。
+
+希望这个回答能够帮助您理解这些类的来源。
+
+#### 16/20
+
+> 好吧，由于我知道在 Scala 中可以直接使用 Java 中的类，因此我以为 `Stream` 就是 Java 中的那个，但按你的说法，这个名称的类在 Scala 中被重新定义了一番，对吗？
+> 
+> 另外， Java 中有没有 `LazyList` 或者 `Iterator` 呢？
+> 
+
+您说得对，Scala 可以直接使用 Java 中的类。但是，Scala 集合库中的 `Stream` 类并不是来自 Java，而是在 Scala 中重新定义的。
+
+在 Java 中，也有一个名为 `Iterator` 的接口，它用于遍历集合中的元素。但是，Java 中并没有一个名为 `LazyList` 的类。不过，Java 8 引入了 `Stream` API，它提供了一种类似于惰性列表的数据结构，可以用于对集合进行惰性计算。
+
+希望这个回答能够帮助您理解这些类在不同语言中的实现。
+
+#### 17/20
+
+> 在 Java 17 中，接口 `Iterator` 能够像 Scala 里一样简洁地使用吗？
+
+在 Java 17 中，`Iterator` 接口提供了一些基本的方法，用于遍历集合中的元素。它的用法与 Scala 中的 `Iterator` 类似，但它并不提供像 Scala 中那样丰富的方法。
+
+例如，在 Java 中，您可以使用 `hasNext` 和 `next` 方法来遍历集合中的元素：
+
+```java
+List<Integer> list = List.of(1, 2, 3);
+Iterator<Integer> it = list.iterator();
+while (it.hasNext()) {
+    System.out.println(it.next());
+}
+```
+
+但是，Java 中的 `Iterator` 接口并不提供像 `map`、`filter` 或 `flatMap` 这样的方法。如果您想要使用这些方法，可以使用 Java 8 引入的 `Stream` API，它提供了一种类似于惰性列表的数据结构，可以用于对集合进行惰性计算。
+
+希望这个回答能够帮助您理解 Java 中 `Iterator` 接口的用法。
+
+#### 18/20
+
+> 好吧，看起来是个低级接口。 `Iterator` 在 Scala 和 Java 分别是在哪个版本引入的？
+
+*Unfortunately, we need to move on! Click “New topic” to chat more.*
+
+#### 1/20
+
+> 名为 `Iterator` 的抽象类/接口，在 Scala 和 Java 中分别是在哪个版本引入的？（可以用英语搜索。请用中文回我。务必仅在你不知道时才搜索。）
+
+* Recherche de «**Iterator abstract class/interface introduced in Scala and Java**»
+* Recherche de «**Iterator interface introduced in Java**»
+* Générer des réponses pour vous…
+
+在 Java 中，`Iterator` 接口是在 **Java 1.2** 版本中引入的⁴⁶⁷⁸。但是我无法找到关于 `Iterator` 在 Scala 中引入的版本的信息。您是否想要了解更多有关 `Iterator` 的信息？
+
+Source : conversation avec Bing, 2023/5/15
+(1) Iterator (Java Platform SE 8 ) - Oracle. https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html.
+(2) Iterator and Custom Iterator in java with example programs. http://www.instanceofjava.com/2016/04/custom-iterator-in-java-example.html.
+(3) Java - Iterator Implementation - Datacadamia. https://datacadamia.com/lang/java/iterator.
+(4) Guide to Java Iterator - HowToDoInJava. https://howtodoinjava.com/java/collections/java-iterator/.
+(5) Abstract Classes | Scala Book | Scala Documentation. https://docs.scala-lang.org/overviews/scala-book/abstract-classes.html.
+(6) Java: Iterator, Iterable - Interface or Abstract Class?. https://stackoverflow.com/questions/16814385/java-iterator-iterable-interface-or-abstract-class.
+(7) Abstract Classes in Scala - GeeksforGeeks. https://www.geeksforgeeks.org/abstract-classes-in-scala/.
+(8) A Guide to Iterator in Java | Baeldung. https://www.baeldung.com/java-iterator.
+
 
 ### White Spaces (new bing) (Precise)
 
