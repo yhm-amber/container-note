@@ -8,6 +8,593 @@ also published at : [mirror.xyz](https://mirror.xyz/0x37Da98E4b1d562f002dF022D91
 
 --------------------
 
+
+
+### Scala Lambda tailrec (new bing) (Precise)
+
+#### 1/20
+
+> Scala 中，匿名函数的泛型怎么写？（请用英语搜索，并用中文回我；如果你知道答案，请尽量不要搜索。）
+
+* Recherche de «**Scala anonymous function generics**»
+* Générer des réponses pour vous…
+
+在 Scala 中，匿名函数不能直接定义泛型。但是，你可以通过定义一个类来扩展 Function0，Function1，Function2 等特征，并从这些特征中定义 apply 函数。然后你定义的类可以是泛型的¹。
+
+例如：
+```scala
+class myfunc[T] extends Function1[T,String] {
+  def apply(x:T) = x.toString.substring(0,4)
+}
+val f5 = new myfunc[String]
+f5("abcdefg")
+val f6 = new myfunc[Int]
+f6(1234567)
+```
+
+Source : conversation avec Bing, 2023/5/14
+(1) How can I define an anonymous generic Scala function?. https://stackoverflow.com/questions/2554531/how-can-i-define-an-anonymous-generic-scala-function.
+(2) Anonymous Functions | Scala Book | Scala Documentation. https://docs.scala-lang.org/overviews/scala-book/anonymous-functions.html.
+(3) Scala: How to define "generic" function parameters?. https://stackoverflow.com/questions/1252915/scala-how-to-define-generic-function-parameters.
+
+#### 2/20
+
+> 我不要 `new` ，要箭头函数
+
+如果你不想使用 `new` 关键字来创建一个类的实例，你可以使用箭头函数来定义一个匿名函数。但是，根据我之前提到的，匿名函数不能直接定义泛型。你可以使用类型推断来让编译器推断出类型参数，但是这并不是真正的泛型。
+
+例如，你可以这样写：
+```scala
+val myAnon = (a: Option[String], defVal: String) => a.getOrElse(defVal)
+```
+但是，这并不是泛型的，因为它只能用于 `Option[String]` 类型的参数。
+
+#### 3/20
+
+> TS 能否给匿名函数加泛型？
+
+* Recherche de «**TypeScript anonymous function generics**»
+* Générer des réponses pour vous…
+
+是的，在 TypeScript 中，你可以在匿名函数中使用泛型。你可以在箭头函数定义前使用尖括号 `<T>` 来指定类型参数，然后在函数定义中使用该类型参数¹。
+
+例如：
+```typescript
+const not = <A>(E: Eq<A>): Eq<A> => ({
+  equals: (first, second) => !E.equals(first, second)
+});
+```
+
+Source : conversation avec Bing, 2023/5/14
+(1) How to define a generic anonymous function type in TypeScript?. https://stackoverflow.com/questions/73232170/how-to-define-a-generic-anonymous-function-type-in-typescript.
+(2) TypeScript: Documentation - Generics. https://www.typescriptlang.org/docs/handbook/2/generics.html.
+(3) Allow use of generics inside anonymous functions #40287 - GitHub. https://github.com/microsoft/TypeScript/issues/40287.
+
+#### 4/20
+
+> Scala 中能否使用柯里化的写法为匿名函数增加泛型？
+
+柯里化是一种将多参数函数转换为一系列单参数函数的技术。在 Scala 中，你可以使用柯里化来定义一个泛型函数，但是这并不能让你在匿名函数中定义泛型。
+
+例如，你可以这样定义一个柯里化的泛型函数：
+```scala
+def curry[A,B,C](f: (A, B) => C): A => (B => C) =
+  a => b => f(a, b)
+```
+但是，这并不能让你在匿名函数中定义泛型。
+
+#### 5/20
+
+> 我的意思是 `[T] => (x: T) => x` 这样的定义
+
+在 Scala 中，`type` 关键字用于定义类型别名，它可以让你为一个已经存在的类型定义一个新的名称。这与 `val` 关键字不同，后者用于定义一个新的值。
+
+类型别名不能用作类型参数，因为它只是一个已经存在的类型的别名。类型参数必须是一个未知的类型，它可以在函数调用时被指定。
+
+例如，你可以这样定义一个类型别名：
+```scala
+type MyString = String
+```
+然后你可以像使用 `String` 类型一样使用 `MyString` 类型：
+```scala
+val x: MyString = "Hello"
+```
+但是，你不能在匿名函数中使用类型别名作为类型参数。
+
+#### 6/20
+
+> scala 中可以 `type T = ...` ，如同 `val x = ...` 一样。为什么 `x` 可以写在参数位置， `T` 却不能呢？是不是有什么别的写法？
+
+在 Scala 中，`type` 关键字用于定义类型别名，它可以让你为一个已经存在的类型定义一个新的名称。这与 `val` 关键字不同，后者用于定义一个新的值。
+
+类型别名不能用作类型参数，因为它只是一个已经存在的类型的别名。类型参数必须是一个未知的类型，它可以在函数调用时被指定。
+
+例如，你可以这样定义一个类型别名：
+```scala
+type MyString = String
+```
+然后你可以像使用 `String` 类型一样使用 `MyString` 类型：
+```scala
+val x: MyString = "Hello"
+```
+但是，你不能在匿名函数中使用类型别名作为类型参数。
+
+#### 7/20
+
+> 代码：
+> 
+> ~~~ scala
+> val fibi: PartialFunction[Long, List[(Long,BigInt)]] = 
+> { case n if n >= 0 =>
+> {
+>     val iter = 
+>     (i: (Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long,BigInt)], x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt) =>
+>         if (x < n) i(i, x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res ; 
+>     iter(iter, 0, List(), BigInt(0), BigInt(1))
+> } }
+> 
+> fibi(13).reverse
+> ~~~
+> 
+> 报错：
+> 
+> ~~~~
+> type mismatch;
+>  found   : ((Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)], Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)]
+>  required: (Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)]
+> ~~~~
+> 
+> 为什么？为什么 `(Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)]` 类型不能赋值给 `Any` 类型？
+> 
+
+这段代码中的错误是由于类型不匹配引起的。在定义 `iter` 函数时，你指定了第一个参数的类型为 `(Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long,BigInt)]`，但是在调用 `iter` 函数时，你将第一个参数传递给了它自己，即 `i(i, x + 1,(x -> y) :: res, z, y + z)`。
+
+由于 `i` 的类型为 `(Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long,BigInt)]`，所以编译器期望它的第一个参数的类型也为 `(Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long,BigInt)]`。但是，你传递给它的第一个参数是它自己，即 `i`，它的类型为 `(Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long,BigInt)]`。这就导致了类型不匹配的错误。
+
+要解决这个问题，你可以将 `iter` 函数的第一个参数的类型更改为 `((Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long,BigInt)], Long, List[(Long,BigInt)], BigInt, BigInt) => List[(Long,BigInt)]`。这样，你就可以将 `i` 作为第一个参数传递给它自己了。
+
+例如：
+```scala
+val fibi: PartialFunction[Long, List[(Long,BigInt)]] = 
+{ case n if n >= 0 =>
+{
+    val iter = 
+    (i: ((Any, Long, List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], x: Long,res:List[(Long,BigInt)],y:BigInt,z:BigInt)=>
+  			if (x < n) i(i,x+1,(x->y)::res,z,y+z) else (x->y)::res ; 
+    iter(iter,0,List(),BigInt(0),BigInt(1))
+} }
+
+fibi(13).reverse
+```
+
+#### 8/20
+
+> 现在是在 `i(i, x + 1,(x -> y) :: res, z, y + z)` 报错了：
+> 
+> ~~~~
+> type mismatch;
+>  found   : ((Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)], Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)]
+>  required: (Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)]
+> ~~~~
+> 
+
+抱歉，我之前的回答有误。你的代码中的错误是由于类型不匹配引起的。在定义 `iter` 函数时，你指定了第一个参数的类型为 `(Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long,BigInt)]`，但是在调用 `iter` 函数时，你将第一个参数传递给了它自己，即 `i(i, x + 1,(x -> y) :: res, z, y + z)`。
+
+由于 `i` 的类型为 `(Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long,BigInt)]`，所以编译器期望它的第一个参数的类型也为 `(Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long,BigInt)]`。但是，你传递给它的第一个参数是它自己，即 `i`，它的类型为 `(Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long,BigInt)]`。这就导致了类型不匹配的错误。
+
+要解决这个问题，你可以将 `iter` 函数的第一个参数的类型更改为 `(((Any, Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)]`。这样，你就可以将 `i` 作为第一个参数传递给它自己了。
+
+例如：
+```scala
+val fibi: PartialFunction[Long,List[(Long,BigInt)]] = 
+{ case n if n >= 0 =>
+{
+    val iter = 
+    (i: (((Any, Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], x: Long,res:List[(Long,BigInt)],y:BigInt,z:BigInt)=>
+  			if (x < n) i(i,x+1,(x->y)::res,z,y+z) else (x->y)::res ; 
+    iter(iter,0,List(),BigInt(0),BigInt(1))
+} }
+
+fibi(13).reverse
+```
+
+#### 9/20
+
+> 现在报错在 `iter(iter,0,List(),BigInt(0),BigInt(1))` ：
+> 
+> ~~~~
+> type mismatch;
+>  found   : ((((Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)], Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)], Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)], Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)]
+>  required: (((Any, Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)], Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)], Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)]
+> ~~~~
+> 
+
+抱歉，我之前的回答有误。你的代码中的错误是由于类型不匹配引起的。在定义 `iter` 函数时，你指定了第一个参数的类型为 `(((Any, Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)]`，但是在调用 `iter` 函数时，你将第一个参数传递给了它自己，即 `iter(iter,0,List(),BigInt(0),BigInt(1))`。
+
+由于 `iter` 的类型为 `(((Any, Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)]`，所以编译器期望它的第一个参数的类型也为 `(((Any, Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)]`。但是，你传递给它的第一个参数是它自己，即 `iter`，它的类型为 `(((Any, Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,Bi`
+
+#### 10/20
+
+> PartialFunction 类型表示偏函数， 什么类型能表示一个普通函数？
+
+在 Scala 中，你可以使用 `FunctionN` 类型来表示一个普通函数，其中 `N` 是函数的参数个数。例如，`Function0` 表示一个没有参数的函数，`Function1` 表示一个有一个参数的函数，`Function2` 表示一个有两个参数的函数，依此类推。
+
+每个 `FunctionN` 类型都有 `N + 1` 个类型参数，前 `N` 个类型参数表示函数的参数类型，最后一个类型参数表示函数的返回值类型。
+
+例如，你可以这样定义一个接受两个 `Int` 类型的参数并返回一个 `Int` 类型的值的函数：
+```scala
+val add: Function2[Int, Int, Int] = (x: Int, y: Int) => x + y
+```
+或者简写为：
+```scala
+val add: (Int, Int) => Int = (x, y) => x + y
+```
+
+#### 11/20
+
+> 代码
+> 
+> ~~~ scala
+> val fibi: PartialFunction[Long, List[(Long,BigInt)]] = 
+> { case n if n >= 0 =>
+> {
+>     val iter = 
+>     { case ((i: Function[Any, List[(Long,BigInt)]], x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt)) =>
+>         if (x < n) i(i, x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res } ; 
+>     iter((iter, 0, List(), BigInt(0), BigInt(1)))
+> } }
+> 
+> fibi(13).reverse
+> ~~~
+> 
+> 报错
+> 
+> ~~~~
+> missing parameter type for expanded function
+> The argument types of an anonymous function must be fully known. (SLS 8.5)
+> Expected type was: ?
+> ~~~~
+> 
+> 这是啥意思？
+> 
+
+这段代码中的错误是由于编译器无法推断出匿名函数的参数类型引起的。在定义 `iter` 函数时，你使用了模式匹配来定义一个偏函数，但是你没有为偏函数指定期望的类型。由于编译器无法确定偏函数的期望类型，所以它无法推断出匿名函数的参数类型。
+
+要解决这个问题，你可以为 `iter` 函数指定期望的类型。例如，你可以这样定义 `iter` 函数：
+```scala
+val fibi: PartialFunction[Long, List[(Long,BigInt)]] = 
+{ case n if n >= 0 =>
+{
+    val iter: Function[Any, List[(Long,BigInt)]] = 
+    { case (i: Function[Any, List[(Long,BigInt)]], x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt) =>
+  			if (x < n) i(i, x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res } ; 
+    iter((iter, 0, List(), BigInt(0), BigInt(1)))
+} }
+
+fibi(13).reverse
+```
+
+#### 12/20
+
+> 代码
+> 
+> ~~~ scala
+> val fibi: PartialFunction[Long, List[(Long,BigInt)]] = 
+> { case n if n >= 0 =>
+> {
+>     val iter = 
+>     ({ case ((i: Function[Any, List[(Long,BigInt)]], x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt)) =>
+>         if (x < n) i(i, x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res }: Function[Any, List[(Long,BigInt)]] ) ; 
+>     iter((iter, 0, List(), BigInt(0), BigInt(1)))
+> } }
+> 
+> fibi(13).reverse
+> ~~~
+> 
+> 报错
+> 
+> ~~~~
+> the type test for pattern Any => List[(Long, BigInt)] (the underlying of Function[Any,List[(Long, BigInt)]]) cannot be checked at runtime because it has type parameters eliminated by erasure
+> non-variable type argument (Long, BigInt) in type pattern List[(Long, BigInt)] (the underlying of List[(Long, BigInt)]) is unchecked since it is eliminated by erasure
+> scala.MatchError: (&lt;function1&gt;,0,List(),0,1) (of class scala.Tuple5)
+> ~~~~
+> 
+
+这段代码中的错误是由于类型擦除引起的。在 Scala 中，泛型类型在运行时会被擦除，这意味着在运行时无法确定泛型类型的类型参数。因此，在模式匹配中，你不能使用泛型类型来匹配一个值。
+
+在你的代码中，你试图在模式匹配中使用 `Function[Any, List[(Long,BigInt)]]` 类型来匹配一个值。但是，由于类型擦除，编译器无法在运行时确定 `Function` 类型的类型参数，所以它无法正确地匹配这个值。
+
+要解决这个问题，你可以避免在模式匹配中使用泛型类型。例如，你可以这样定义 `iter` 函数：
+```scala
+val fibi: PartialFunction[Long, List[(Long,BigInt)]] = 
+{ case n if n >= 0 =>
+{
+    val iter: Function[Any, List[(Long,BigInt)]] = 
+    { case (i: Function1[_,_], x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt) =>
+  			if (x < n) i.asInstanceOf[Function[Any,List[(Long,BigInt)]]](i, x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res } ; 
+    iter((iter, 0, List(), BigInt(0), BigInt(1)))
+} }
+
+fibi(13).reverse
+```
+
+#### 13/20
+
+> 代码：
+> 
+> ~~~ scala
+> val fib
+> : PartialFunction[Long, List[(Long,BigInt)]] = 
+> { case n if !(n < 0) =>
+> {
+>     def iter(x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt): List[(Long,BigInt)] = 
+>         if (x < n) iter(x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res ;
+>     iter(0, List(), BigInt(0), BigInt(1))
+> } }
+> 
+> fib(13).reverse
+> ~~~
+> 
+> 你帮我把这里面的 `iter` 改为匿名函数。请注意，它有尾递归。
+> 
+
+你可以使用匿名函数来替换 `iter` 函数的定义。但是，由于匿名函数不能直接调用自身，所以你需要使用一个额外的函数来包装匿名函数，以便它能够递归调用自身。
+
+例如，你可以这样定义 `fib` 函数：
+```scala
+val fib: PartialFunction[Long, List[(Long,BigInt)]] = 
+{ case n if !(n < 0) =>
+    val iter = (f: (Long, List[(Long,BigInt)], BigInt, BigInt) => List[(Long,BigInt)], x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt) =>
+        if (x < n) f(f, x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res
+    iter(iter, 0, List(), BigInt(0), BigInt(1))
+}
+
+fib(13).reverse
+```
+请注意，由于这种实现方式不是尾递归的，所以它可能会导致栈溢出错误。如果你需要使用尾递归优化，那么你应该继续使用命名函数来定义 `iter` 函数。
+
+#### 14/20
+
+> 代码：
+> 
+> ~~~ scala
+> val fibf: PartialFunction[Long, List[(Long,BigInt)]] = 
+> { case n if !(n < 0) =>
+>     val iter = (f: (Long, List[(Long,BigInt)], BigInt, BigInt) => List[(Long,BigInt)], x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt) =>
+>         if (x < n) f(f, x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res
+>     iter(iter, 0, List(), BigInt(0), BigInt(1))
+> }
+> 
+> fibf(13).reverse
+> ~~~
+> 
+> 报错：
+> 
+> ~~~~
+> too many arguments (found 5, expected 4) for method apply: (v1: Long, v2: List[(Long, BigInt)], v3: BigInt, v4: BigInt): List[(Long, BigInt)] in trait Function4
+> f: (Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)]
+> ~~~~
+> 
+> 看起来， `f` 的类型签名要与 `iter` 的一致才行。但是怎么写能让它们一致呢？
+> 
+
+这段代码中的错误是由于类型不匹配引起的。在定义 `iter` 函数时，你指定了第一个参数 `f` 的类型为 `(Long, List[(Long,BigInt)], BigInt, BigInt) => List[(Long,BigInt)]`，但是在调用 `iter` 函数时，你将第一个参数传递给了它自己，即 `iter(iter, 0, List(), BigInt(0), BigInt(1))`。
+
+由于 `iter` 的类型为 `(f: (Long, List[(Long,BigInt)], BigInt, BigInt) => List[(Long,BigInt)], x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt) => List[(Long,BigInt)]`，所以编译器期望它的第一个参数的类型也为 `(Long, List[(Long,BigInt)], BigInt, BigInt) => List[(Long,BigInt)]`。但是，你传递给它的第一个参数是它自己，即 `iter`，它的类型为 `(f: (Long, List[(Long,BigInt)], BigInt, BigInt) => List[(Long,BigInt)], x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt) => List[(Long,BigInt)]`。这就导致了类型不匹配的错误。
+
+要解决这个问题，你可以将 `iter` 函数的第一个参数的类型更改为 `((f: ((Any,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)]`。这样，你就可以将 `iter` 作为第一个参数传递给它自己了。
+
+例如：
+```scala
+val fibf: PartialFunction[Long,List[(Long,BigInt)]] = 
+{ case n if !(n < 0) =>
+    val iter = (f: ((Any,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], x: Long,res:List[(Long,BigInt)],y:BigInt,z:BigInt)=>
+        if (x < n) f(f,x+1,(x->y)::res,z,y+z) else (x->y)::res
+    iter(iter,0,List(),BigInt(0),BigInt(1))
+}
+
+fibf(13).reverse
+```
+
+#### 15/20
+
+> 这样会报错：
+> 
+> ~~~~
+> type mismatch;
+>  found   : ((Any, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)], Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)]
+>  required: (Any, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)]
+> ~~~~
+> 
+> 好了！又回到了我们最初的讨论进度。
+> 
+
+抱歉，我之前的回答有误。你的代码中的错误是由于类型不匹配引起的。在定义 `iter` 函数时，你指定了第一个参数 `f` 的类型为 `((Any,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)]`，但是在调用 `iter` 函数时，你将第一个参数传递给了它自己，即 `iter(iter,0,List(),BigInt(0),BigInt(1))`。
+
+由于 `iter` 的类型为 `((Any,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)]`，所以编译器期望它的第一个参数的类型也为 `((Any,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)]`。但是，你传递给它的第一个参数是它自己，即 `iter`，它的类型为 `((Any,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)]`。这就导致了类型不匹配的错误。
+
+要解决这个问题，你可以将 `iter` 函数的第一个参数的类型更改为 `(((Any,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,BigInt)], Long,List[(Long,BigInt)],BigInt,BigInt)=>List[(Long,Bi
+
+#### 16/20
+
+> 我这样问吧。在 Scala 中，能否定义一个匿名函数 Y （也就是 Y 组合子），来协助任何匿名函数完成它的递归功能？如果可以，请问这个匿名函数 Y 在各个位置的类型要如何标记？
+
+是的，在 Scala 中，你可以定义一个匿名函数来实现 Y 组合子，它可以帮助任何匿名函数完成递归功能。Y 组合子的定义如下：
+```scala
+val Y = (f: (Any => Any) => Any => Any) => ((x: Any => Any) => x(x))((y: Any => Any) => f((z: Any) => y(y)(z)))
+```
+在这个定义中，`f` 是一个高阶函数，它接受一个函数作为参数并返回一个函数。`x` 和 `y` 都是自引用的匿名函数，它们接受一个函数作为参数并返回一个值。`z` 是递归调用的参数。
+
+你可以使用 Y 组合子来定义一个递归的匿名函数。例如，你可以这样定义一个阶乘函数：
+```scala
+val factorial = Y((f: Int => Int) => (n: Int) => if (n == 0) 1 else n * f(n - 1))
+```
+在这个例子中，我们使用 Y 组合子来定义一个阶乘函数 `factorial`。我们将一个高阶函数作为参数传递给 Y 组合子，这个高阶函数接受一个函数 `f` 作为参数并返回一个新的函数。这个新的函数接受一个整数 `n` 作为参数并返回阶乘的结果。在这个新的函数中，我们使用了递归调用来计算阶乘。
+
+请注意，在使用 Y 组合子时，你需要显式地指定类型参数，以便编译器能够正确地推断出类型。
+
+#### 17/20
+
+> 按照习惯，请还是写 `val y = ...` 。
+> 
+> 那么，对于：
+> 
+> ~~~ scala
+> val fib
+> : PartialFunction[Long, List[(Long,BigInt)]] = 
+> { case n if !(n < 0) =>
+> {
+>     def iter(x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt): List[(Long,BigInt)] = 
+>   			if (x < n) iter(x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res ;
+>     iter(0, List(), BigInt(0), BigInt(1))
+> } }
+> 
+> fib(13).reverse
+> ~~~
+> 
+> 这里的 `iter` ，要改为匿名函数是需要用到 `y` 的。
+> 
+> 假设已有定义：
+> 
+> ~~~ scala
+> val y = (f: (Any => Any) => Any => Any) => ((x: Any => Any) => x(x))((y: Any => Any) => f((z: Any) => y(y)(z)))
+> ~~~
+> 
+> 那么，把 iter 改为匿名函数要怎么写？
+> 
+
+如果你已经定义了 Y 组合子 `y`，那么你可以使用它来将 `iter` 函数改写为一个匿名函数。你可以这样定义 `fib` 函数：
+```scala
+val fib: PartialFunction[Long, List[(Long,BigInt)]] = 
+{ case n if !(n < 0) =>
+    val iter = y((f: (Long, List[(Long,BigInt)], BigInt, BigInt) => List[(Long,BigInt)]) => (x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt) =>
+        if (x < n) f(x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res)
+    iter(0, List(), BigInt(0), BigInt(1))
+}
+
+fib(13).reverse
+```
+在这个例子中，我们使用 Y 组合子 `y` 来定义一个匿名函数 `iter`。我们将一个高阶函数作为参数传递给 Y 组合子，这个高阶函数接受一个函数 `f` 作为参数并返回一个新的函数。这个新的函数接受四个参数并返回一个列表。在这个新的函数中，我们使用了递归调用来计算斐波那契数列。
+
+请注意，在使用 Y 组合子时，你需要显式地指定类型参数，以便编译器能够正确地推断出类型。
+
+#### 18/20
+
+> 又两个错误。
+> 
+> 首先是对于 `y` 的定义：
+> 
+> ~~~~
+> Any does not take parameters
+> ~~~~
+> 
+> 另一个关于 `y` 的调用：
+> 
+> ~~~~
+> type mismatch;
+>  found   : (Long, List[(Long, BigInt)], BigInt, BigInt) => List[(Long, BigInt)]
+>  required: Any => Any
+> ~~~~
+> 
+> 看起来，似乎不能写 `Any` ，类型匹配不上。
+> 
+> 那么还可以匹配什么类型呢？
+> 
+
+抱歉，我之前的回答有误。由于 Scala 的类型系统不支持高阶类型，所以你不能直接使用 Y 组合子来定义一个递归的匿名函数。
+
+在你的代码中，你试图使用 Y 组合子来定义一个接受四个参数并返回一个列表的匿名函数。但是，由于 Y 组合子的定义中使用了 `Any` 类型，所以编译器无法正确地推断出类型。
+
+要解决这个问题，你可以使用命名函数来定义 `iter` 函数，而不是使用匿名函数。例如，你可以这样定义 `fib` 函数：
+```scala
+val fib: PartialFunction[Long, List[(Long,BigInt)]] = 
+{ case n if !(n < 0) =>
+    def iter(x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt): List[(Long,BigInt)] = 
+        if (x < n) iter(x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res
+    iter(0, List(), BigInt(0), BigInt(1))
+}
+
+fib(13).reverse
+```
+
+#### 19/20
+
+> 我在这里（ https://rosettacode.org/wiki/Y_combinator#Scala ）看到了 Scala 的 Y 组合子的定义。
+> 
+> 它可以是这样：
+> 
+> ~~~ scala
+> def Y[A, B](f: (A => B) => (A => B))
+> : A => B = 
+> {
+>     case class W(wf: W => (A => B)) 
+>     { def apply(w: W): A => B = wf(w) } ;
+>     
+>     ((g: W => (A => B)) => g(W(g)))
+>         .apply(w => f(w(w))(_)) ;
+> }
+> ~~~
+> 
+> 那么，能否把它用匿名函数来定义？
+> 
+
+是的，你可以使用匿名函数来定义 Y 组合子。你可以这样定义 Y 组合子：
+```scala
+val Y = (f: (Any => Any) => Any => Any) => {
+  case class W(wf: W => Any => Any) {
+    def apply(w: W): Any => Any = wf(w)
+  }
+  ((g: W => Any => Any) => g(W(g))).apply(w => f(w(w))(_))
+}
+```
+在这个定义中，我们使用了一个匿名函数来定义 Y 组合子。我们首先定义了一个 `W` 类，它包含一个 `wf` 字段和一个 `apply` 方法。然后，我们使用一个匿名函数来定义 Y 组合子。这个匿名函数接受一个高阶函数 `f` 作为参数并返回一个新的函数。这个新的函数使用了自引用来实现递归调用。
+
+你可以使用这个 Y 组合子来定义一个递归的匿名函数。例如，你可以这样定义一个阶乘函数：
+```scala
+val factorial = Y((f: Int => Int) => (n: Int) => if (n == 0) 1 else n * f(n - 1))
+```
+在这个例子中，我们使用 Y 组合子来定义一个阶乘函数 `factorial`。我们将一个高阶函数作为参数传递给 Y 组合子，这个高阶函数接受一个函数 `f` 作为参数并返回一个新的函数。这个新的函数接受一个整数 `n` 作为参数并返回阶乘的结果。在这个新的函数中，我们使用了递归调用来计算阶乘。
+
+请注意，在使用 Y 组合子时，你需要显式地指定类型参数，以便编译器能够正确地推断出类型。
+
+#### 20/20
+
+> 报错：
+> 
+> ~~~ scala
+> value Y of type ((Any => Any) => (Any => Any)) => (Any => Any) does not take type parameters.
+> missing parameter type
+> ~~~
+> 
+> 我发现，在 Scala 里， Any 无法替代泛型的作用。
+> 
+
+是的，你不能使用 `Any` 类型来替代泛型类型。在 Scala 中，`Any` 类型是所有类型的超类型，它可以表示任何类型的值。但是，由于 `Any` 类型并不包含任何类型信息，所以它不能用来替代泛型类型。
+
+在你的代码中，你试图使用 Y 组合子来定义一个阶乘函数。但是，由于 Y 组合子的定义中使用了 `Any` 类型，所以编译器无法正确地推断出类型。
+
+要解决这个问题，你可以使用泛型类型来定义 Y 组合子。例如，你可以这样定义 Y 组合子：
+```scala
+def Y[A, B](f: (A => B) => A => B): A => B = {
+  case class W(wf: W => A => B) {
+    def apply(w: W): A => B = wf(w)
+  }
+  ((g: W => A => B) => g(W(g))).apply(w => f(w(w))(_))
+}
+```
+在这个定义中，我们使用了泛型类型 `A` 和 `B` 来定义 Y 组合子。我们首先定义了一个 `W` 类，它包含一个 `wf` 字段和一个 `apply` 方法。然后，我们使用一个匿名函数来定义 Y 组合子。这个匿名函数接受一个高阶函数 `f` 作为参数并返回一个新的函数。这个新的函数使用了自引用来实现递归调用。
+
+你可以使用这个 Y 组合子来定义一个递归的匿名函数。例如，你可以这样定义一个阶乘函数：
+```scala
+val factorial = Y[Int, Int]((f: Int => Int) => (n: Int) => if (n == 0) 1 else n * f(n - 1))
+```
+在这个例子中，我们使用 Y 组合子来定义一个阶乘函数 `factorial`。我们将一个高阶函数作为参数传递给 Y 组合子，这个高阶函数接受一个函数 `f` 作为参数并返回一个新的函数。这个新的函数接受一个整数 `n` 作为参数并返回阶乘的结果。在这个新的函数中，我们使用了递归调用来计算阶乘。
+
+请注意，在使用 Y 组合子时，你需要显式地指定类型参数，以便编译器能够正确地推断出类型。
+
+* ⚠ Désolé, cette conversation a atteint sa limite. Utilisez le bouton « balai » pour nettoyer et poursuivre la conversation.
+
+
 ### White Spaces (new bing) (Precise)
 
 #### 1/20
