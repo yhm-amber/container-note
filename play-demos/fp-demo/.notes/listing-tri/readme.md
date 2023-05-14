@@ -34,8 +34,8 @@
 #### *[⚗] [Elixir]*
 
 ~~~ elixir
-# aim: 
-# [ {0, 0}, {1, 1}, {2, 1}, {3, 2}, {4, 3}, {5, 5}, {6, 8}, {7, 13}, {8, 21}, {9, 34}, {10, 55}, {11, 89}, {12, 144}, {13, 233} ]
+### aim: 
+### [ {0, 0}, {1, 1}, {2, 1}, {3, 2}, {4, 3}, {5, 5}, {6, 8}, {7, 13}, {8, 21}, {9, 34}, {10, 55}, {11, 89}, {12, 144}, {13, 233} ]
 
 # tail rec
 
@@ -87,11 +87,35 @@ end .(13) ;
 
 /* tail rec */
 
+// def iter
 ({ case n if !(n < 0) =>
 {
     def iter(x: Int, res: List[(Int, BigInt)], y: BigInt, z: BigInt): List[(Int, BigInt)] = 
         if (x < n) iter(x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res ;
     iter(0, List(), BigInt(0), BigInt(1))
+} }: PartialFunction[Int, List[(Int, BigInt)]] ).apply(13).reverse ;
+
+// def y
+({ case n if !(n < 0) =>
+{    
+    def y [X, Y] (f: (X => Y) => (X => Y))
+    : X => Y = 
+    {
+        case class W(f: W => (X => Y)) 
+        { def apply(w: W): X => Y = f(w) } ;
+        
+        ((g: W => (X => Y)) => g(W(g)))
+            .apply(w => f(w(w))(_)) ;
+    } ;
+    
+    (y [((Int, List[(Int, BigInt)], BigInt, BigInt)), List[(Int, BigInt)]] 
+    (
+        f => 
+        { case (x: Int, res: List[(Int, BigInt)], y: BigInt, z: BigInt) => 
+            if (x < n) f((x + 1,(x -> y) :: res, z, y + z)) else (x -> y) :: res } 
+    
+    ) ) ( (0, List(), BigInt(0), BigInt(1)) ) ;
+    
 } }: PartialFunction[Int, List[(Int, BigInt)]] ).apply(13).reverse ;
 
 /* reduce / fold / ... */
@@ -171,8 +195,6 @@ end ;
 
 = fib (0) -- 0
 = fib (13) -- 233
-
--- 我还没整明白怎么实现 List 所以先这样。
 ~~~
 
 #### *[🥓] [Scala]*
@@ -183,9 +205,37 @@ val fib
 { case n if !(n < 0) =>
 {
     def iter(x: Long, res: List[(Long,BigInt)], y: BigInt, z: BigInt): List[(Long,BigInt)] = 
-  			if (x < n) iter(x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res ;
+        if (x < n) iter(x + 1,(x -> y) :: res, z, y + z) else (x -> y) :: res ;
     iter(0, List(), BigInt(0), BigInt(1))
 } } ;
+
+fib(13).reverse ;
+// List((0,0), (1,1), (2,1), (3,2), (4,3), (5,5), (6,8), (7,13), (8,21), (9,34), (10,55), (11,89), (12,144), (13,233)): List[(Long, BigInt)]
+~~~
+
+~~~ scala
+val fib
+: PartialFunction[Long, List[(Long,BigInt)]] = 
+{ case n if !(n < 0) =>
+    
+    def y [X, Y] (f: (X => Y) => (X => Y))
+    : X => Y = 
+    {
+        case class W(f: W => (X => Y)) 
+        { def apply(w: W): X => Y = f(w) } ;
+        
+        ((g: W => (X => Y)) => g(W(g)))
+            .apply(w => f(w(w))(_)) ;
+    } ;
+    
+    (y [((Long, List[(Long, BigInt)], BigInt, BigInt)), List[(Long, BigInt)]] 
+    (
+        f => 
+        { case (x: Long, res: List[(Long, BigInt)], y: BigInt, z: BigInt) => 
+            if (x < n) f((x + 1,(x -> y) :: res, z, y + z)) else (x -> y) :: res } 
+    
+    ) ) ( (0L, List(), BigInt(0), BigInt(1)) ) ;
+}
 
 fib(13).reverse ;
 // List((0,0), (1,1), (2,1), (3,2), (4,3), (5,5), (6,8), (7,13), (8,21), (9,34), (10,55), (11,89), (12,144), (13,233)): List[(Long, BigInt)]
@@ -230,7 +280,7 @@ simple:
 ~~~ scala
 (0 to 13).foldLeft
 {
-  (List.empty[(Int, BigInt)], BigInt(0), BigInt(1))
+    (List.empty[(Int, BigInt)], BigInt(0), BigInt(1))
 } { case ((r, y, z), x) => ((x, y) :: r, z, y + z) }._1.reverse
 // List((0,0), (1,1), (2,1), (3,2), (4,3), (5,5), (6,8), (7,13), (8,21), (9,34), (10,55), (11,89), (12,144), (13,233)): List[(Int, BigInt)]
 
