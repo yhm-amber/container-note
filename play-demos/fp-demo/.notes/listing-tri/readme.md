@@ -288,8 +288,39 @@ fib.(13) |> Enum.reverse # [ {0, 0}, {1, 1}, {2, 1}, {3, 2}, {4, 3}, {5, 5}, {6,
 
 #### *[🧊] [TypeScript]*
 
-~~~ typescript
+simple: 
 
+~~~ typescript
+const fib13 = 
+
+( Array.from({length: 14}, (_, i) => i) )
+    .reduce
+    <{r: {x: number, y: bigint}[], y: bigint, z: bigint}>
+    (
+        ({r, y, z}, x) => ({r: [{x,y}, ...r], y: z, z: y + z}),
+        {r: [], y: 0n, z: 1n}
+    ).r.reverse() ;
+
+
+console.log(fib13.map( ({x, y}) => ({x, y: y.toString()}) ) ) ;
+
+/* [LOG]: 
+[ 
+    {"x": 0, "y": "0"}, 
+    {"x": 1, "y": "1"}, 
+    {"x": 2, "y": "1"}, 
+    {"x": 3, "y": "2"}, 
+    {"x": 4, "y": "3"}, 
+    {"x": 5, "y": "5"}, 
+    {"x": 6, "y": "8"}, 
+    {"x": 7, "y": "13"}, 
+    {"x": 8, "y": "21"}, 
+    {"x": 9, "y": "34"}, 
+    {"x": 10, "y": "55"}, 
+    {"x": 11, "y": "89"}, 
+    {"x": 12, "y": "144"}, 
+    {"x": 13, "y": "233"} 
+] */
 ~~~
 
 #### *[🥓] [Scala]*
