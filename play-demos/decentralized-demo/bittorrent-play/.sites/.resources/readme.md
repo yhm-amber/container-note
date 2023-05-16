@@ -630,6 +630,218 @@ magnet:?xt=urn:btih:BFF559F18269383C546F96DA70A55329AA1C5EB8&dn=Avatar+%282009%2
 
 ### Game Of Thrones
 
+#### `Game Of Thrones Season 1 to 6 Eng Subs Mp4 1080p`
+
+~~~ magnet
+magnet:?xt=urn:btih:099a12cc77fb1198323a21d3a340cca79ffd9fc0&dn=Game%20Of%20Thrones%20Season%201%20to%206%20Eng%20Subs%20Mp4%201080p&tr=https%3a%2f%2f1337.abcvg.info%3a443%2fannounce&tr=https%3a%2f%2fbt.nfshost.com%3a443%2fannounce&tr=https%3a%2f%2ftp.m-team.cc%3a443%2fannounce.php&tr=https%3a%2f%2ftr.steins-gate.moe%3a2096%2fannounce&tr=https%3a%2f%2ftracker.coalition.space%3a443%2fannounce&tr=https%3a%2f%2ftracker.foreverpirates.co%3a443%2fannounce&tr=https%3a%2f%2ftracker.gbitt.info%3a443%2fannounce&tr=https%3a%2f%2ftracker.imgoingto.icu%3a443%2fannounce&tr=https%3a%2f%2ftracker.lilithraws.cf%3a443%2fannounce&tr=https%3a%2f%2ftracker.nanoha.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.nitrix.me%3a443%2fannounce&tr=https%3a%2f%2ftracker.parrotsec.org%3a443%2fannounce&tr=https%3a%2f%2ftracker.sloppyta.co%3a443%2fannounce&tr=https%3a%2f%2ftracker.tamersunion.org%3a443%2fannounce&tr=https%3a%2f%2ftorrents.linuxmint.com%3a443%2fannounce.php&tr=https%3a%2f%2ftr.ready4.icu%3a443%2fannounce&tr=https%3a%2f%2ftracker.bt-hash.com%3a443%2fannounce&tr=https%3a%2f%2ftracker.hama3.net%3a443%2fannounce&tr=https%3a%2f%2ftracker.iriseden.eu%3a443%2fannounce&tr=https%3a%2f%2ftracker.renfei.net%3a443%2fannounce&tr=https%3a%2f%2ftrakx.herokuapp.com%3a443%2fannounce&tr=https%3a%2f%2fw.wwwww.wtf%3a443%2fannounce&tr=https%3a%2f%2fwww.wareztorrent.com%3a443%2fannounc&tr=https%3a%2f%2fwww.wareztorrent.com%3a443%2fannounce&tr=http%3a%2f%2f1337.abcvg.info%3a80%2fannounce&tr=http%3a%2f%2fbt.3kb.xyz%3a80%2fannounce&tr=http%3a%2f%2fbt.okmp3.ru%3a2710%2fannounce&tr=http%3a%2f%2fipv4announce.sktorrent.eu%3a6969%2fannounce&tr=http%3a%2f%2fmilanesitracker.tekcities.com%3a80%2fannounce&tr=http%3a%2f%2fns3107607.ip-54-36-126.eu%3a6969%2fannounce&tr=http%3a%2f%2fopen.acgnxtracker.com%3a80%2fannounce&tr=http%3a%2f%2frt.tace.ru%3a80%2fannounce&tr=http%3a%2f%2fshare.camoe.cn%3a8080%2fannounce&tr=http%3a%2f%2fsiambit.org%3a80%2fannounce.php&tr=http%3a%2f%2ft.nyaatracker.com%3a80%2fannounce&tr=http%3a%2f%2ftorrentsmd.com%3a8080%2fannounce&tr=http%3a%2f%2ftr.cili001.com%3a8070%2fannounce&tr=http%3a%2f%2ftracker.bt4g.com%3a2095%2fannounce&tr=http%3a%2f%2ftracker.files.fm%3a6969%2fannounce&tr=http%3a%2f%2ftracker.gbitt.info%3a80%2fannounce&tr=http%3a%2f%2ftracker.ipv6tracker.ru%3a80%2fannounce&tr=http%3a%2f%2ftracker.noobsubs.net%3a80%2fannounce&tr=http%3a%2f%2ftracker.trackerfix.com%3a80%2fannounce&tr=http%3a%2f%2ftracker2.itzmx.com%3a6961%2fannounce&tr=udp%3a%2f%2ftracker3.itzmx.com%3a6961%2fannounce&tr=http%3a%2f%2fvps02.net.orel.ru%3a80%2fannounce&tr=http%3a%2f%2fwww.wareztorrent.com%3a80%2fannounce&tr=udp%3a%2f%2f47.ip-51-68-199.eu%3a6969%2fannounce&tr=udp%3a%2f%2f6rt.tace.ru%3a80%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2710%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2fapp.icon256.com%3a8000%2fannounce&tr=udp%3a%2f%2fbubu.mapfactor.com%3a6969%2fannounce&tr=udp%3a%2f%2fcdn-1.gamecoast.org%3a6969%2fannounce&tr=udp%3a%2f%2fcdn-2.gamecoast.org%3a6969%2fannounce&tr=udp%3a%2f%2fdaveking.com%3a6969%2fannounce&tr=udp%3a%2f%2fdiscord.heihachi.pw%3a6969%2fannounce&tr=udp%3a%2f%2fedu.uifr.ru%3a6969%2fannounce&tr=udp%3a%2f%2fengplus.ru%3a6969%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2ffe.dealclub.de%3a6969%2fannounce&tr=udp%3a%2f%2ffree.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2finferno.demonoid.is%3a3391%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fipv6.tracker.zerobytes.xyz%3a16661%2fannounce&tr=udp%3a%2f%2fline-net.ru%3a6969%2fannounce&tr=udp%3a%2f%2fln.mtahost.co%3a6969%2fannounce&tr=udp%3a%2f%2fmail.realliferpg.de%3a6969%2fannounce&tr=udp%3a%2f%2fmovies.zsw.ca%3a6969%2fannounce&tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fperu.subventas.com%3a53%2fannounce&tr=udp%3a%2f%2fpublic.tracker.vraphim.com%3a6969%2fannounce&tr=udp%3a%2f%2fretracker.hotplug.ru%3a2710%2fannounce&tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&tr=udp%3a%2f%2fthetracker.org%3a80%2fannounce&tr=udp%3a%2f%2ftorrentclub.online%3a54123%2fannounce&tr=udp%3a%2f%2ftracker.0x.tf%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.altrosky.nl%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.beeimg.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.birkenwald.de%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.e-utp.net%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.internetwarriors.net%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.shkinev.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.sigterm.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.uw0.xyz%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.v6speed.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker0.ufibox.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2ftracker1.itzmx.com%3a8080%2fannounce&tr=udp%3a%2f%2ftracker2.dler.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker4.itzmx.com%3a2710%2fannounce&tr=udp%3a%2f%2fudp-tracker.shittyurl.org%3a6969%2fannounce&tr=udp%3a%2f%2fus-tracker.publictracker.xyz%3a6969%2fannounce&tr=udp%3a%2f%2fvalakas.rollo.dnsabr.com%3a2710%2fannounce&tr=udp%3a%2f%2fvibe.community%3a6969%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2f93.158.213.92%3a1337%2fannounce&tr=udp%3a%2f%2f181.43.17.35%3a1337%2fannounce&tr=udp%3a%2f%2f193.218.118.220%3a6969%2fannounce&tr=udp%3a%2f%2f208.83.20.20%3a6969%2fannounce&tr=udp%3a%2f%2f184.105.151.164%3a6969%2fannounce&tr=udp%3a%2f%2f51.81.46.170%3a6969%2fannounce&tr=udp%3a%2f%2f51.68.199.47%3a6969%2fannounce&tr=http%3a%2f%2f54.37.106.164%3a80%2fannounce&tr=udp%3a%2f%2f5.206.49.194%3a6969%2fannounce&tr=udp%3a%2f%2f185.181.60.67%3a80%2fannounce&tr=udp%3a%2f%2f91.216.110.52%3a451%2fannounce&tr=udp%3a%2f%2f37.235.174.46%3a2710%2fannounce&tr=udp%3a%2f%2f163.172.170.127%3a6969%2fannounce&tr=udp%3a%2f%2f51.15.40.114%3a80%2fannounce&tr=udp%3a%2f%2f46.148.18.250%3a2710%2fannounce&tr=udp%3a%2f%2f46.148.18.254%3a2710%2fannounce&tr=udp%3a%2f%2f51.68.34.33%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.cyberia.is%3a6969%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=http%3a%2f%2ftracker3.itzmx.com%3a6961%2fannounce
+~~~
+
+#### [`Game.of.Thrones.Complete.Series.Season.1.2.3.4.5.6.7.8.x264.720p`](https://bt4g.org/magnet/36b0bb34fa1dc6a892b7b40707ff8f6f2b5d30b7)
+
+`40.90GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:36b0bb34fa1dc6a892b7b40707ff8f6f2b5d30b7&dn=Game.of.Thrones.Complete.Series.Season.1.2.3.4.5.6.7.8.x264.720p&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+~~~
+Files
+--------
+English Subs (SRT)/English For Non-English Dialogue/GoT.S01E02.The.Kingsroad.720p.English (Forced).srt 77B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S01E03.Lord.Snow.720p.English (Forced).srt 1.27KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S01E06.A.Golden.Crown.720p.English (Forced).srt 134B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S01E07.You.Win.or.You.Die.720p.English (Forced).srt 3.74KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S01E08.The.Pointy.End.720p.English (Forced).srt 3.70KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S01E09.Baelor.720p.English (Forced).srt 2.14KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S01E10.Fire.and.Blood.720p.English (Forced).srt 599B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S02E01.The.North.Remembers.720p.English (Forced).srt 642B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S02E02.The.Night.Lands.720p.English (Forced).srt 620B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S02E04.Garden.of.Bones.720p.English (Forced).srt 473B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S02E05.The.Ghost.Of.Harrenhal.720p.English (Forced).srt 822B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S02E10.Valar.Morghulis.720p.English (Forced).srt 1.57KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S03E01.Valar.Dohaeris.720p.English (Forced).srt 1.50KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S03E03.Walk.of.Punishment.720p.English (Forced).srt 1.29KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S03E04.And.Now.His.Watch.Is.Ended.720p.English (Forced).srt 1.62KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S03E05.Kissed.by.Fire.720p.English (Forced).srt 1.33KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S03E06.The.Climb.720p.English (Forced).srt 1.13KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S03E07.The.Bear.and.the.Maiden.Fair.720p.English (Forced).srt 273B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S03E08.Second.Sons.720p.English (Forced).srt 301B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S03E09.The.Rains.of.Castamere.720p.English (Forced).srt 167B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S03E10.Mhysa.720p.English (Forced).srt 872B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S04E01.Two.Swords.720p.English (Forced).srt 312B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S04E03.Breaker.of.Chains.720p.English (Forced).srt 1.84KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S04E04.Oathkeeper.720p.English (Forced).srt 2.19KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S04E06.The.Laws.of.Gods.and.Men.720p.English (Forced).srt 825B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S04E08.The.Mountain.and.the.Viper.720p.English (Forced).srt 393B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S04E10.The.Children.720p.English (Forced).srt 1.04KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S05E01.The.Wars.To.Come.720p.English (Forced).srt 439B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S05E02.The.House.Of.Black.And.White.720p.English (Forced).srt 2.44KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S05E03.High.Sparrow.720p.English (Forced).srt 884B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S05E04.Sons.Of.The.Harpy.720p.English (Forced).srt 59B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S05E05.Kill.The.Boy.720p.English (Forced).srt 1.47KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S05E08.Hardhome.720p.English (Forced).srt 65B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S05E09.The.Dance.Of.Dragons.720p.English (Forced).srt 1.07KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S05E10.Mother's.Mercy.720p.English (Forced).srt 412B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S06E01.The.Red.Woman.720p.English (Forced).srt 5.90KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S06E03.Oathbreaker.720p.English (Forced).srt 2.64KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S06E04.Book.of.the.Stranger.720p.English (Forced).srt 8.50KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S06E05.The.Door.720p.English (Forced).srt 410B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S06E06.Blood.of.My.Blood.720p.English (Forced).srt 1.20KB
+English Subs (SRT)/English For Non-English Dialogue/GoT.S06E08.No.One.720p.English (Forced).srt 378B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S06E09.Battle.of.the.Bastards.720p.English (Forced).srt 232B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S07E02.Stormborn.720p.English (Forced).srt 732B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S07E03.The.Queens.Justice.720p.English (Forced).srt 188B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S07E04.The.Spoils.Of.War.720p.English (Forced).srt 118B
+English Subs (SRT)/English For Non-English Dialogue/GoT.S07E05.Eastwatch.720p.English (Forced).srt 138B
+English Subs (SRT)/English/GoT.S01E01.Winter.Is.Coming.720p.English.srt 43.76KB
+English Subs (SRT)/English/GoT.S01E02.The.Kingsroad.720p.English.srt 43.99KB
+English Subs (SRT)/English/GoT.S01E03.Lord.Snow.720p.English.srt 57.77KB
+English Subs (SRT)/English/GoT.S01E04.Cripples,.Bastards,.and.Broken.Things.720p.English.srt 59.99KB
+English Subs (SRT)/English/GoT.S01E05.The.Wolf.and.the.Lion.720p.English.srt 59.05KB
+English Subs (SRT)/English/GoT.S01E06.A.Golden.Crown.720p.English.srt 45.55KB
+English Subs (SRT)/English/GoT.S01E07.You.Win.or.You.Die.720p.English.srt 58.56KB
+English Subs (SRT)/English/GoT.S01E08.The.Pointy.End.720p.English.srt 52.55KB
+English Subs (SRT)/English/GoT.S01E09.Baelor.720p.English.srt 53.12KB
+English Subs (SRT)/English/GoT.S01E10.Fire.and.Blood.720p.English.srt 45.59KB
+English Subs (SRT)/English/GoT.S02E01.The.North.Remembers.720p.English.srt 54.20KB
+English Subs (SRT)/English/GoT.S02E02.The.Night.Lands.720p.English.srt 58.33KB
+English Subs (SRT)/English/GoT.S02E03.What.Is.Dead.May.Never.Die.720p.English.srt 48.82KB
+English Subs (SRT)/English/GoT.S02E04.Garden.of.Bones.720p.English.srt 49.27KB
+English Subs (SRT)/English/GoT.S02E05.The.Ghost.Of.Harrenhal.720p.English.srt 60.69KB
+English Subs (SRT)/English/GoT.S02E06.The.Old.Gods.And.The.New.720p.English.srt 55.55KB
+English Subs (SRT)/English/GoT.S02E07.A.Man.Without.Honor.720p.English.srt 58.08KB
+English Subs (SRT)/English/GoT.S02E08.The.Prince.of.Winterfell.720p.English.srt 58.52KB
+English Subs (SRT)/English/GoT.S02E09.Blackwater.720p.English.srt 46.98KB
+English Subs (SRT)/English/GoT.S02E10.Valar.Morghulis.720p.English.srt 49.60KB
+English Subs (SRT)/English/GoT.S03E01.Valar.Dohaeris.720p.English.srt 50.46KB
+English Subs (SRT)/English/GoT.S03E02.Dark.Wings,.Dark.Words.720p.English.srt 59.39KB
+English Subs (SRT)/English/GoT.S03E03.Walk.of.Punishment.720p.English.srt 53.22KB
+English Subs (SRT)/English/GoT.S03E04.And.Now.His.Watch.Is.Ended.720p.English.srt 55.28KB
+English Subs (SRT)/English/GoT.S03E05.Kissed.by.Fire.720p.English.srt 62.23KB
+English Subs (SRT)/English/GoT.S03E06.The.Climb.720p.English.srt 51.09KB
+English Subs (SRT)/English/GoT.S03E07.The.Bear.and.the.Maiden.Fair.720p.English.srt 55.66KB
+English Subs (SRT)/English/GoT.S03E08.Second.Sons.720p.English.srt 44.81KB
+English Subs (SRT)/English/GoT.S03E09.The.Rains.of.Castamere.720p.English.srt 43.44KB
+English Subs (SRT)/English/GoT.S03E10.Mhysa.720p.English.srt 59.99KB
+English Subs (SRT)/English/GoT.S04E01.Two.Swords.720p.English.srt 59.68KB
+English Subs (SRT)/English/GoT.S04E02.The.Lion.and.The.Rose.720p.English.srt 49.54KB
+English Subs (SRT)/English/GoT.S04E03.Breaker.of.Chains.720p.English.srt 58.49KB
+English Subs (SRT)/English/GoT.S04E04.Oathkeeper.720p.English.srt 47.32KB
+English Subs (SRT)/English/GoT.S04E05.First.of.His.Name.720p.English.srt 49.48KB
+English Subs (SRT)/English/GoT.S04E06.The.Laws.of.Gods.and.Men.720p.English.srt 49.46KB
+English Subs (SRT)/English/GoT.S04E07.Mockingbird.720p.English.srt 52.62KB
+English Subs (SRT)/English/GoT.S04E08.The.Mountain.and.the.Viper.720p.English.srt 51.38KB
+English Subs (SRT)/English/GoT.S04E09.The.Watchers.on.the.Wall.720p.English.srt 35.94KB
+English Subs (SRT)/English/GoT.S04E10.The.Children.720p.English.srt 46.63KB
+English Subs (SRT)/English/GoT.S05E01.The.Wars.To.Come.720p.English.srt 44.69KB
+English Subs (SRT)/English/GoT.S05E02.The.House.Of.Black.And.White.720p.English.srt 54.69KB
+English Subs (SRT)/English/GoT.S05E03.High.Sparrow.720p.English.srt 56.90KB
+English Subs (SRT)/English/GoT.S05E04.Sons.Of.The.Harpy.720p.English.srt 43.00KB
+English Subs (SRT)/English/GoT.S05E05.Kill.The.Boy.720p.English.srt 45.23KB
+English Subs (SRT)/English/GoT.S05E06.Unbowed.Unbent.Unbroken.720p.English.srt 44.71KB
+English Subs (SRT)/English/GoT.S05E07.The.Gift.720p.English.srt 50.48KB
+English Subs (SRT)/English/GoT.S05E08.Hardhome.720p.English.srt 48.06KB
+English Subs (SRT)/English/GoT.S05E09.The.Dance.Of.Dragons.720p.English.srt 37.21KB
+English Subs (SRT)/English/GoT.S05E10.Mother's.Mercy.720p.English.srt 40.76KB
+English Subs (SRT)/English/GoT.S06E01.The.Red.Woman.720p.English.srt 37.64KB
+English Subs (SRT)/English/GoT.S06E02.Home.720p.English.srt 38.88KB
+English Subs (SRT)/English/GoT.S06E03.Oathbreaker.720p.English.srt 41.94KB
+English Subs (SRT)/English/GoT.S06E04.Book.of.the.Stranger.720p.English.srt 57.50KB
+English Subs (SRT)/English/GoT.S06E05.The.Door.720p.English.srt 48.17KB
+English Subs (SRT)/English/GoT.S06E06.Blood.of.My.Blood.720p.English.srt 44.49KB
+English Subs (SRT)/English/GoT.S06E07.The.Broken.Man.720p.English.srt 47.06KB
+English Subs (SRT)/English/GoT.S06E08.No.One.720p.English.srt 49.32KB
+English Subs (SRT)/English/GoT.S06E09.Battle.of.the.Bastards.720p.English.srt 38.95KB
+English Subs (SRT)/English/GoT.S06E10.The.Winds.of.Winter.720p.English.srt 45.83KB
+English Subs (SRT)/English/GoT.S07E01.Dragonstone.720p.English.srt 51.11KB
+English Subs (SRT)/English/GoT.S07E02.Stormborn.720p.English.srt 55.05KB
+English Subs (SRT)/English/GoT.S07E03.The.Queens.Justice.720p.English.srt 69.16KB
+English Subs (SRT)/English/GoT.S07E04.The.Spoils.Of.War.720p.English.srt 33.64KB
+English Subs (SRT)/English/GoT.S07E05.Eastwatch.720p.English.srt 49.56KB
+English Subs (SRT)/English/GoT.S07E06.Beyond.The.Wall.720p.English.srt 48.69KB
+English Subs (SRT)/English/GoT.S07E07.The.Dragon.And.The.Wolf.720p.English.srt 62.54KB
+English Subs (SRT)/English/GoT.S08E01.Winterfell.720p.English.srt 40.83KB
+English Subs (SRT)/English/GoT.S08E02.A.Knight.of.the.Seven.Kingdoms.720p.English.srt 51.44KB
+English Subs (SRT)/English/GoT.S08E03.The.Long.Night.720p.English.srt 12.17KB
+English Subs (SRT)/English/GoT.S08E04.The.Last.of.the.Starks.720p.English.srt 58.52KB
+English Subs (SRT)/English/GoT.S08E05.The.Bells.720p.English.srt 31.69KB
+English Subs (SRT)/English/GoT.S08E06.The.Iron.Throne.720p.English.srt 34.48KB
+Info.txt 1.74KB
+Season 1/GoT.S01E01.Winter.Is.Coming.720p.mkv 723.91MB
+Season 1/GoT.S01E02.The.Kingsroad.720p.mkv 649.99MB
+Season 1/GoT.S01E03.Lord.Snow.720p.mkv 631.44MB
+Season 1/GoT.S01E04.Cripples,.Bastards,.and.Broken.Things.720p.mkv 603.04MB
+Season 1/GoT.S01E05.The.Wolf.and.the.Lion.720p.mkv 608.10MB
+Season 1/GoT.S01E06.A.Golden.Crown.720p.mkv 564.18MB
+Season 1/GoT.S01E07.You.Win.or.You.Die.720p.mkv 633.23MB
+Season 1/GoT.S01E08.The.Pointy.End.720p.mkv 646.21MB
+Season 1/GoT.S01E09.Baelor.720p.mkv 623.75MB
+Season 1/GoT.S01E10.Fire.and.Blood.720p.mkv 537.18MB
+Season 2/GoT.S02E01.The.North.Remembers.720p.mkv 479.28MB
+Season 2/GoT.S02E02.The.Night.Lands.720p.mkv 486.28MB
+Season 2/GoT.S02E03.What.Is.Dead.May.Never.Die.720p.mkv 447.75MB
+Season 2/GoT.S02E04.Garden.of.Bones.720p.mkv 467.52MB
+Season 2/GoT.S02E05.The.Ghost.of.Harrenhal.720p.mkv 542.39MB
+Season 2/GoT.S02E06.The.Old.Gods.And.The.New.720p.mkv 554.55MB
+Season 2/GoT.S02E07.A.Man.Without.Honor.720p.mkv 500.04MB
+Season 2/GoT.S02E08.The.Prince.of.Winterfell.720p.mkv 505.53MB
+Season 2/GoT.S02E09.Blackwater.720p.mkv 495.01MB
+Season 2/GoT.S02E10.Valar.Morghulis.720p.mkv 599.20MB
+Season 3/GoT.S03E01.Valar.Dohaeris.720p.mkv 512.67MB
+Season 3/GoT.S03E02.Dark.Wings,.Dark.Words.720p.mkv 634.37MB
+Season 3/GoT.S03E03.Walk.of.Punishment.720p.mkv 523.32MB
+Season 3/GoT.S03E04.And.Now.His.Watch.Is.Ended.720p.mkv 521.36MB
+Season 3/GoT.S03E05.Kissed.by.Fire.720p.mkv 537.13MB
+Season 3/GoT.S03E06.The.Climb.720p.mkv 513.59MB
+Season 3/GoT.S03E07.The.Bear.and.the.Maiden.Fair.720p.mkv 566.73MB
+Season 3/GoT.S03E08.Second.Sons.720p.mkv 489.21MB
+Season 3/GoT.S03E09.The.Rains.of.Castamere.720p.mkv 447.35MB
+Season 3/GoT.S03E10.Mhysa.720p.mkv 543.13MB
+Season 4/GoT.S04E01.Two.Swords.720p.mkv 612.60MB
+Season 4/GoT.S04E02.The.Lion.and.The.Rose.720p.mkv 635.73MB
+Season 4/GoT.S04E03.Breaker.of.Chains.720p.mkv 492.69MB
+Season 4/GoT.S04E04.Oathkeeper.720p.mkv 520.40MB
+Season 4/GoT.S04E05.First.of.His.Name.720p.mkv 503.03MB
+Season 4/GoT.S04E06.The.Laws.of.Gods.and.Men.720p.mkv 430.15MB
+Season 4/GoT.S04E07.Mockingbird.720p.mkv 449.06MB
+Season 4/GoT.S04E08.The.Mountain.and.the.Viper.720p.mkv 483.30MB
+Season 4/GoT.S04E09.The.Watchers.on.the.Wall.720p.mkv 531.85MB
+Season 4/GoT.S04E10.The.Children.720p.mkv 636.50MB
+Season 5/GoT.S05E01.The.Wars.To.Come.720p.mkv 467.08MB
+Season 5/GoT.S05E02.The.House.Of.Black.And.White.720p.mkv 581.03MB
+Season 5/GoT.S05E03.High.Sparrow.720p.mkv 522.01MB
+Season 5/GoT.S05E04.Sons.Of.The.Harpy.720p.mkv 535.74MB
+Season 5/GoT.S05E05.Kill.The.Boy.720p.mkv 462.96MB
+Season 5/GoT.S05E06.Unbowed.Unbent.Unbroken.720p.mkv 525.98MB
+Season 5/GoT.S05E07.The.Gift.720p.mkv 554.88MB
+Season 5/GoT.S05E08.Hardhome.720p.mkv 656.51MB
+Season 5/GoT.S05E09.The.Dance.Of.Dragons.720p.mkv 673.17MB
+Season 5/GoT.S05E10.Mother's.Mercy.720p.mkv 601.02MB
+Season 6/GoT.S06E01.The.Red.Woman.720p.mkv 568.95MB
+Season 6/GoT.S06E02.Home.720p.mkv 438.80MB
+Season 6/GoT.S06E03.Oathbreaker.720p.mkv 416.59MB
+Season 6/GoT.S06E04.Book.of.the.Stranger.720p.mkv 508.34MB
+Season 6/GoT.S06E05.The.Door.720p.mkv 568.91MB
+Season 6/GoT.S06E06.Blood.of.My.Blood.720p.mkv 486.52MB
+Season 6/GoT.S06E07.The.Broken.Man.720p.mkv 538.43MB
+Season 6/GoT.S06E08.No.One.720p.mkv 539.53MB
+Season 6/GoT.S06E09.Battle.of.the.Bastards.720p.mkv 667.84MB
+Season 6/GoT.S06E10.The.Winds.of.Winter.720p.mkv 540.99MB
+Season 7/GoT.S07E01.Dragonstone.720p.mkv 593.46MB
+Season 7/GoT.S07E02.Stormborn.720p.mkv 565.39MB
+Season 7/GoT.S07E03.The.Queens.Justice.720p.mkv 643.78MB
+Season 7/GoT.S07E04.The.Spoils.Of.War.720p.mkv 660.11MB
+Season 7/GoT.S07E05.Eastwatch.720p.mkv 601.08MB
+Season 7/GoT.S07E06.Beyond.The.Wall.720p.mkv 968.17MB
+Season 7/GoT.S07E07.The.Dragon.And.The.Wolf.720p.mkv 832.82MB
+Season 8/GoT.S08E01.Winterfell.720p.mkv 536.95MB
+Season 8/GoT.S08E02.A.Knight.of.the.Seven.Kingdoms.720p.mkv 499.11MB
+Season 8/GoT.S08E03.The.Long.Night.720p.mkv 864.27MB
+Season 8/GoT.S08E04.The.Last.of.the.Starks.720p.mkv 688.05MB
+Season 8/GoT.S08E05.The.Bells.720p.mkv 935.61MB
+Season 8/GoT.S08E06.The.Iron.Throne.720p.mkv 753.63MB
+~~~
+
 ### House of the Dragon (S01)
 
 #### [`House.Of.The.Dragon.S01.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R Torrent download`](https://bt4g.org/magnet/bd1dd8fb3270f76e91cbc122712e9d3420fe2aff)
