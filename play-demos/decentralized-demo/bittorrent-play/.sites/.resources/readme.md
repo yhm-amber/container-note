@@ -625,3 +625,98 @@ magnet:?xt=urn:btih:BFF559F18269383C546F96DA70A55329AA1C5EB8&dn=Avatar+%282009%2
 - offical site: [Avatar: The Way of Water | Avatar.com](https://www.avatar.com/movies/avatar-the-way-of-water)
 - imdb: [Avatar: The Way of Water (2022) | IMDb](https://www.imdb.com/title/tt1630029)
 
+
+## Series
+
+### Game Of Thrones
+
+### House of the Dragon (S01)
+
+#### [`House.Of.The.Dragon.S01.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R Torrent download`](https://bt4g.org/magnet/bd1dd8fb3270f76e91cbc122712e9d3420fe2aff)
+
+`14.55GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:bd1dd8fb3270f76e91cbc122712e9d3420fe2aff&dn=House.Of.The.Dragon.S01.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+~~~
+Files
+--------
+House.Of.The.Dragon.S01E03.Second.Of.His.Name.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R.mkv 1.61GB
+House.Of.The.Dragon.S01E02.The.Rogue.Prince.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R.mkv 1.26GB
+House.Of.The.Dragon.S01E01.The.Heirs.Of.The.Dragon.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R.mkv 1.58GB
+House.Of.The.Dragon.S01E04.King.Of.The.Narrow.Sea.REPACK.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R.mkv 1.60GB
+House.Of.The.Dragon.S01E05.We.Light.The.Way.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R.mkv 1.48GB
+House.Of.The.Dragon.S01E06.The.Princess.And.The.Queen.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R.mkv 1.48GB
+House.Of.The.Dragon.S01E07.Driftmark.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R.mkv 1.21GB
+House.Of.The.Dragon.S01E08.The.Lord.Of.The.Tides.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R.mkv 1.49GB
+House.Of.The.Dragon.S01E09.The.Green.Council.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R.mkv 1.31GB
+House.Of.The.Dragon.S01E10.The.Black.Queen.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R.mkv 1.53GB
+~~~
+
+
+#### [`House.of.the.Dragon.S01E1-E10.noHDR.2160p.6CH.29Subs.WEB.龙之家族.第一季.中英29字幕`](https://bt4g.org/magnet/b8a975a20f26507340c4ca09ebc6aaae5fba4546)
+
+`66.72GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:b8a975a20f26507340c4ca09ebc6aaae5fba4546&dn=House.of.the.Dragon.S01E1-E10.noHDR.2160p.6CH.29Subs.WEB.%E9%BE%99%E4%B9%8B%E5%AE%B6%E6%97%8F.%E7%AC%AC%E4%B8%80%E5%AD%A3.%E4%B8%AD%E8%8B%B129%E5%AD%97%E5%B9%95&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+~~~
+Files
+--------
+HBO龙之家族House.of.the.Dragon.S1E6.noHDR'sHDR.H264.2160p.6CH.29Subtitles.mkv 7.46GB
+HBO龙之家族House.of.the.Dragon.S1E2.noHDR'sHDR.H264.2160p.6CH.29Subtitles.mkv 5.83GB
+HBO龙之家族House.of.the.Dragon.S1E3.noHDR'sHDR.H264.2160p.6CH.29Subtitles.mkv 6.84GB
+HBO龙之家族House.of.the.Dragon.S1E4.noHDR'sHDR.H264.2160p.6CH.29Subtitles.mkv 6.78GB
+HBO龙之家族House.of.the.Dragon.S1E5.noHDR'sHDR.H264.2160p.6CH.29Subtitles.mkv 6.48GB
+HBO龙之家族House.of.the.Dragon.S1E1.noHDR'sHDR.H264.2160p.6CH.29Subtitles.mkv 6.99GB
+HBO龙之家族House.of.the.Dragon.S1E7.noHDR'sHDR.H264.2160p.6CH.29Subtitles.mkv 6.34GB
+HBO龙之家族House.of.the.Dragon.S1E8.noHDR'sHDR.H264.2160p.6CH.29Subtitles.mkv 7.32GB
+HBO龙之家族House.of.the.Dragon.S1E9.noHDR'sHDR.H264.2160p.6CH.29Subtitles.mkv 6.27GB
+HBO龙之家族House.of.the.Dragon.S1E10.noHDR'sHDR.H264.2160p.6CH.29Subtitles.mkv 6.40GB
+~~~
+
+#### [`House.of.the.Dragon.S01.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT`](https://bt4g.org/magnet/4ecafd722fa63a3fade6aa3ffce21f8a0f7220e4)
+
+`269.78GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:4ecafd722fa63a3fade6aa3ffce21f8a0f7220e4&dn=House.of.the.Dragon.S01.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+~~~
+Files
+--------
+House.of.the.Dragon.S01E01.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv 27.90GB
+House.of.the.Dragon.S01E02.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv 23.19GB
+House.of.the.Dragon.S01E03.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv 27.78GB
+House.of.the.Dragon.S01E04.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv 26.94GB
+House.of.the.Dragon.S01E05.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv 25.64GB
+House.of.the.Dragon.S01E06.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv 29.32GB
+House.of.the.Dragon.S01E07.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv 25.96GB
+House.of.the.Dragon.S01E08.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv 29.46GB
+House.of.the.Dragon.S01E09.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv 26.42GB
+House.of.the.Dragon.S01E10.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv 27.17GB
+RARBG.txt 31B
+~~~
+
+#### [`House of the Dragon S1 2022 UHD Blu-Ray 2160p HEVC Atmos TrueHD 7.1-CHDBits`](https://bt4g.org/magnet/2244e1e9deeb3723337bab081b107fbb2f565aa5)
+
+`289.79GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:2244e1e9deeb3723337bab081b107fbb2f565aa5&dn=House%20of%20the%20Dragon%20S1%202022%20UHD%20Blu-Ray%202160p%20HEVC%20Atmos%20TrueHD%207.1-CHDBits&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+~~~
+Files
+--------
+House of the Dragon S1 D2 2022 UHD Blu-Ray 2160p HEVC Atmos TrueHD 7.1-CHDBits.iso 88.09GB
+House of the Dragon S1 D1 2022 UHD Blu-Ray 2160p HEVC Atmos TrueHD 7.1-CHDBits.iso 57.44GB
+House of the Dragon S1 D3 2022 UHD Blu-Ray 2160p HEVC Atmos TrueHD 7.1-CHDBits.iso 87.67GB
+House of the Dragon S1 D4 2022 UHD Blu-Ray 2160p HEVC Atmos TrueHD 7.1-CHDBits.iso 56.60GB
+~~~
+
