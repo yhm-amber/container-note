@@ -1167,6 +1167,11 @@ take(n: number): T[] {
 
 如果您希望在不引入可变变量的情况下实现 `take` 方法，那么您可以使用我之前提供的循环实现方法。如果您希望基于 `takeWhile` 来实现 `take` 方法，那么您需要引入一个可变变量来记录迭代的次数。
 
+#### X/20 (2 day past)
+
+> 好的
+
+* ⚠ Opnieuw verbinding maken...
 
 ### TS Tailrec (new bing) (Precise)
 
