@@ -9,7 +9,7 @@
 - Reduce/Fold
 - Remeda
 
-*also published at : [mirror.xyz](https://mirror.xyz/0x37Da98E4b1d562f002dF022D91E625A8b9fCc0e4/FkhHeB1t_eGWJVQwGvM5Za9bSFNLO3F5T6aLsjM8nYI)*
+*also published on here : [mirror.xyz](https://mirror.xyz/0x37Da98E4b1d562f002dF022D91E625A8b9fCc0e4/FkhHeB1t_eGWJVQwGvM5Za9bSFNLO3F5T6aLsjM8nYI)*
 
 --------
 
