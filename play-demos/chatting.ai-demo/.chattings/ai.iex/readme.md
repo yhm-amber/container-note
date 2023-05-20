@@ -495,3 +495,532 @@ Maybe.return(nil)
 总之，在 Elixir 中训练神经网络具有一些优势，但也面临着与 Python 相比较不成熟的生态系统和用户社区等挑战。您可以根据自己的需求和喜好来选择合适的语言来训练神经网络。
 
 - ⚠ Tut mir leid, dieses Gespräch hat sein Limit erreicht. Verwenden Sie die Schaltfläche „Besen“, um dies zu löschen und weiter zu chatten.
+
+
+
+### 关于 19 个神经元的智能模型 (new bing)
+
+#### 1/15
+
+> Bing AI
+
+With our revolutionary new search engine, you'll get the answers you've been looking for! We've taken Microsoft Bing's rich results and made them even better with powerful AI.
+
+#### 2/15
+
+> about Caenorhabditis elegans, AI. -- https://elifesciences.org/articles/56942
+
+- 正在搜索: Caenorhabditis elegans AI
+- 正在为你生成答案…
+
+Caenorhabditis elegans is a nematode worm that has been used as a model organism for research in biology. One interesting project related to C. elegans and AI is the OpenWorm project. The OpenWorm Foundation is an independent research organization working towards an integrative simulation of C. elegans with the aim of providing a powerful new tool to understand how the organism's behavior arises from its fundamental biology ¹. Is there anything specific you would like to know about this topic?
+
+源: 与必应的对话， 2023/3/23(1) OpenWorm: overview and recent advances in integrative biological .... https://royalsocietypublishing.org/doi/10.1098/rstb.2017.0382 访问时间 2023/3/23.
+(2) The nematode Caenorhabditis elegans as a tool to predict chemical .... https://www.nature.com/articles/srep22965 访问时间 2023/3/23.
+(3) shlizee/C-elegans-Neural-Interactome - GitHub. https://github.com/shlizee/C-elegans-Neural-Interactome 访问时间 2023/3/23.
+
+#### 3/15
+
+> 用中文回复我
+
+好的，我会用中文回复您。您想问些什么呢？
+
+#### 4/15
+
+> 关于 Caenorhabditis elegans 和 AI 的最新技术。用英文和中文查阅资料，并用中文回复我。这是你可以参考的一个资料：https://elifesciences.org/articles/56942 ，其余的你可以自己找。
+
+- 正在搜索: Caenorhabditis elegans AI
+- 正在为你生成答案…
+
+关于线虫（Caenorhabditis elegans）和人工智能的最新技术，有一个名为OpenWorm的项目。OpenWorm基金会是一个独立的研究组织，致力于整合模拟线虫，旨在提供一个强大的新工具来理解生物体行为如何源自其基础生物学 ¹。您提供的链接指向了一篇论文，其中介绍了使用深度学习算法来预测线虫神经元之间的突触连接。这些都是人工智能在生物学领埴中的应用。
+
+源: 与必应的对话， 2023/3/23(1) OpenWorm: overview and recent advances in integrative biological .... https://royalsocietypublishing.org/doi/10.1098/rstb.2017.0382 访问时间 2023/3/23.
+(2) The nematode Caenorhabditis elegans as a tool to predict chemical .... https://www.nature.com/articles/srep22965 访问时间 2023/3/23.
+(3) shlizee/C-elegans-Neural-Interactome - GitHub. https://github.com/shlizee/C-elegans-Neural-Interactome 访问时间 2023/3/23.
+
+#### 5/15
+
+> 我听说，有一个项目，用 19 个神经元实现了比较不错的智能模型，而该项目的灵感来源于线虫。可能不是这个线虫。查阅相关资料并帮我总结，谢谢。依然是可以用英文和中文分别查阅，然后用中文回复我。
+
+- 正在搜索: 19 neurons AI model worm
+- 正在为你生成答案…
+
+您提到的可能是一项名为“Neural circuit policies enabling auditable autonomy”的研究。这项研究结合了大脑启发的神经计算原理和可扩展的深度学习架构，为自动驾驶汽车控制系统的任务特定部分设计了紧凑的神经控制器。研究人员发现，一个具有19个控制神经元的单一算法，通过253个突触将32个封装输入特征连接到输出，学会将高维输入映射到转向命令 ¹。这个系统与数量级更大的黑盒学习系统相比，具有更好的泛化性、可解释性和鲁棒性。
+
+源: 与必应的对话， 2023/3/23(1) Neural circuit policies enabling auditable autonomy - Nature. https://www.nature.com/articles/s42256-020-00237-3 访问时间 2023/3/23.
+(2) OpenWorm - Wikipedia. https://en.wikipedia.org/wiki/OpenWorm 访问时间 2023/3/23.
+(3) OpenWorm. https://openworm.org/ 访问时间 2023/3/23.
+
+#### 6/15
+
+> 这项研究具体是如何用 19 个神经元实现智能模型的呢？其中是不是应用了一些已有的神经网络技术？有没有应用到什么新的 idea ？
+
+- 正在搜索: Neural circuit policies enabling auditable autonomy
+- 正在为你生成答案…
+
+这项研究结合了大脑启发的神经计算原理和可扩展的深度学习架构，为自动驾驶汽车控制系统的任务特定部分设计了紧凑的神经控制器。研究人员开发了一种名为神经回路策略（NCP）的紧凑表示形式，其中每个神经元具有比现代深度模型更强大的计算能力 ¹。他们发现，一个具有19个控制神经元的单一算法，通过253个突触将32个封装输入特征连接到输出，学会将高维输入映射到转向命令 ¹。
+
+源: 与必应的对话， 2023/3/23(1) Neural circuit policies enabling auditable autonomy - Nature. https://www.nature.com/articles/s42256-020-00237-3 访问时间 2023/3/23.
+(2) Neural circuit policies enabling auditable autonomy - Nature. https://www.nature.com/articles/s42256-020-00237-3 访问时间 2023/3/23.
+(3) Neural circuit policies enabling auditable autonomy - Semantic Scholar. https://www.semanticscholar.org/paper/Neural-circuit-policies-enabling-auditable-autonomy-Lechner-Hasani/cebc1e51eb6c17a9bd64353fd59d815fbfa9ff7f 访问时间 2023/3/23.
+(4) 一些文章: Neural circuit policies enabling auditable autonomy. https://zhuanlan.zhihu.com/p/510439383 访问时间 2023/3/23.
+
+#### 7/15
+
+> 这里的神经元和过去的神经网络中的神灵元有什么区别吗？你说“每个神经元具有更大算力”，但神经网络，据我了解，它的计算能力并不能够由任何一个单个神经元完成，而必须依靠彼此之间具有不同连通权重的神经元集群来“涌现”出来的。我的理解错了吗？
+
+您的理解是正确的。在神经网络中，计算能力并不是由单个神经元完成的，而是依靠彼此之间具有不同连通权重的神经元集群来“涌现”出来的。在这项研究中，研究人员开发了一种名为神经回路策略（NCP）的紧凑表示形式，其中每个神经元具有比现代深度模型更强大的计算能力 。这意味着，与传统的深度学习模型相比，NCP中每个神经元都可以执行更复杂的计算。
+
+#### 8/15
+
+> NCP中每个神经元如何执行更复杂的计算？
+
+- 正在搜索: Neural circuit policies enabling auditable autonomy
+- 正在为你生成答案…
+
+在这项研究中，研究人员开发了一种名为神经回路策略（NCP）的紧凑表示形式。为了解决自主车道保持的复杂性和表示学习挑战，他们设计了一个端到端的学习系统，该系统通过一组卷积层感知输入，提取图像特征并通过称为NCP的RNN结构执行控制 ¹。NCP中每个神经元都具有比现代深度模型更强大的计算能力 ¹。
+
+源: 与必应的对话， 2023/3/23(1) Neural circuit policies enabling auditable autonomy - Nature. https://www.nature.com/articles/s42256-020-00237-3 访问时间 2023/3/23.
+(2) Neural circuit policies enabling auditable autonomy - Nature. https://www.nature.com/articles/s42256-020-00237-3 访问时间 2023/3/23.
+(3) Neural circuit policies enabling auditable autonomy - Semantic Scholar. https://www.semanticscholar.org/paper/Neural-circuit-policies-enabling-auditable-autonomy-Lechner-Hasani/cebc1e51eb6c17a9bd64353fd59d815fbfa9ff7f 访问时间 2023/3/23.
+(4) 一些文章: Neural circuit policies enabling auditable autonomy. https://zhuanlan.zhihu.com/p/510439383 访问时间 2023/3/23.
+
+#### 9/15
+
+> “NCP中每个神经元都具有比现代深度模型更强大的计算能力”，这里的“计算能力”具体是指软件功能丰富度上的、还是硬件性能发挥上的？这个“计算能力”的增强是怎么做到的？请帮忙查找文献中详细的描述，并分步骤或条目地整理并描述给我。感谢。
+
+- 正在搜索: Neural circuit policies enabling auditable autonomy
+- 正在为你生成答案…
+
+在这项研究中，研究人员开发了一种名为神经回路策略（NCP）的紧凑表示形式。NCP中每个神经元都具有比现代深度模型更强大的计算能力 ¹。这里所说的“计算能力”是指软件功能丰富度上的，而不是硬件性能发挥上的。具体来说，NCP中每个神经元都可以执行更复杂的计算，这是通过结合大脑启发的神经计算原理和可扩展的深度学习架构来实现的 ¹。
+
+源: 与必应的对话， 2023/3/23(1) Neural circuit policies enabling auditable autonomy - Nature. https://www.nature.com/articles/s42256-020-00237-3 访问时间 2023/3/23.
+(2) Neural circuit policies enabling auditable autonomy - Nature. https://www.nature.com/articles/s42256-020-00237-3 访问时间 2023/3/23.
+(3) Neural circuit policies enabling auditable autonomy - Semantic Scholar. https://www.semanticscholar.org/paper/Neural-circuit-policies-enabling-auditable-autonomy-Lechner-Hasani/cebc1e51eb6c17a9bd64353fd59d815fbfa9ff7f 访问时间 2023/3/23.
+(4) 一些文章: Neural circuit policies enabling auditable autonomy. https://zhuanlan.zhihu.com/p/510439383 访问时间 2023/3/23.
+
+#### 10/15
+
+> 具体是怎么个复杂法？有没有具体的描述案例？
+
+- 正在搜索: Neural circuit policies enabling auditable autonomy
+- 正在为你生成答案…
+
+在这项研究中，研究人员开发了一种名为神经回路策略（NCP）的紧凑表示形式。NCP中每个神经元都具有比现代深度模型更强大的计算能力 ¹。这是通过结合大脑启发的神经计算原理和可扩展的深度学习架构来实现的 ¹。具体来说，NCP是一个端到端的学习系统，它通过一组卷积层感知输入，提取图像特征并通过称为NCP的RNN结构执行控制 ¹。
+
+源: 与必应的对话， 2023/3/23(1) Neural circuit policies enabling auditable autonomy - Nature. https://www.nature.com/articles/s42256-020-00237-3 访问时间 2023/3/23.
+(2) Neural circuit policies enabling auditable autonomy - Nature. https://www.nature.com/articles/s42256-020-00237-3 访问时间 2023/3/23.
+(3) Neural circuit policies enabling auditable autonomy - Semantic Scholar. https://www.semanticscholar.org/paper/Neural-circuit-policies-enabling-auditable-autonomy-Lechner-Hasani/cebc1e51eb6c17a9bd64353fd59d815fbfa9ff7f 访问时间 2023/3/23.
+(4) 一些文章: Neural circuit policies enabling auditable autonomy. https://zhuanlan.zhihu.com/p/510439383 访问时间 2023/3/23.
+
+#### 11/15
+
+> 这项技术如何提高智能模型的泛化性、可解释性和鲁棒性？
+
+这项研究中的神经回路策略（NCP）通过结合大脑启发的神经计算原理和可扩展的深度学习架构来提高智能模型的泛化性、可解释性和鲁棒性。NCP中每个神经元都具有比现代深度模型更强大的计算能力，这意味着它们可以执行更复杂的计算。此外，NCP是一个紧凑的表示形式，它可以通过较少的神经元和突触来实现高维输入到输出的映射。这使得NCP相比数量级更大的黑盒学习系统具有更好的泛化性、可解释性和鲁棒性 。
+
+#### 12/15
+
+> NCP与其他深度学习技术有什么不同？
+
+神经回路策略（NCP）是一种紧凑的表示形式，它与其他深度学习技术有一些不同之处。首先，NCP中每个神经元都具有比现代深度模型更强大的计算能力，这意味着它们可以执行更复杂的计算。其次，NCP通过结合大脑启发的神经计算原理和可扩展的深度学习架构来实现。最后，NCP可以通过较少的神经元和突触来实现高维输入到输出的映射，这使得它相比数量级更大的黑盒学习系统具有更好的泛化性、可解释性和鲁棒性。
+
+#### 13/15
+
+> 什么是端到端学习系统？
+
+端到端学习系统是一种机器学习方法，它直接从原始输入数据（例如图像、文本或声音）映射到输出结果（例如分类标签、翻译结果或语音识别结果），而不需要人为设计特征提取器或中间表示。这种方法通过训练一个深度神经网络来实现，该网络能够自动学习如何从输入数据中提取有用的特征并进行预测。
+
+#### 14/15
+
+> 是不是每个NCP的神经元也都是一个神经网络？
+
+不是的。在神经回路策略（NCP）中，每个神经元都不是一个单独的神经网络，而是一个计算单元。NCP中每个神经元都具有比现代深度模型更强大的计算能力，这意味着它们可以执行更复杂的计算。但是，它们仍然是单个计算单元，而不是独立的神经网络。
+
+#### 15/15
+
+> 这个计算单元，用代码或者拓扑图，具体可以怎么表示？你只说了它的能力而没说它背后的原理，这不算是好的解释。
+
+在这项研究中，研究人员开发了一种名为神经回路策略（NCP）的紧凑表示形式。NCP中每个神经元都具有比现代深度模型更强大的计算能力 ¹。这是通过结合大脑启发的神经计算原理和可扩展的深度学习架构来实现的 ¹。具体来说，NCP是一个端到端的学习系统，它通过一组卷积层感知输入，提取图像特征并通过称为NCP的RNN结构执行控制 ¹。然而，文献中并未详细描述如何增强NCP中每个神经元的计算能力。
+
+源: 与必应的对话， 2023/3/23(1) Neural circuit policies enabling auditable autonomy - Nature. https://www.nature.com/articles/s42256-020-00237-3 访问时间 2023/3/23.
+(2) Neural circuit policies enabling auditable autonomy - Nature. https://www.nature.com/articles/s42256-020-00237-3 访问时间 2023/3/23.
+(3) Neural circuit policies enabling auditable autonomy - Semantic Scholar. https://www.semanticscholar.org/paper/Neural-circuit-policies-enabling-auditable-autonomy-Lechner-Hasani/cebc1e51eb6c17a9bd64353fd59d815fbfa9ff7f 访问时间 2023/3/23.
+(4) 一些文章: Neural circuit policies enabling auditable autonomy. https://zhuanlan.zhihu.com/p/510439383 访问时间 2023/3/23.
+
+### 现象观念论 (2) (new bing)
+
+#### 0/15
+
+感谢聊天。今天我能帮你吗？
+
+#### 1/15
+
+> 现象观念论，英文是什么？
+
+- [x] 正在搜索: 现象观念论 英文
+- [x] 正在为你生成答案…
+
+现象观念论的英文是 Phenomenology。它源自希腊语 phainómenon，意为“显现的东西”；以及 lógos ，意为“研究”。它是20世纪最重要的哲学流派之一，由德国哲学家胡塞尔正式创立¹。
+
+源: 与必应的对话， 2023/3/23(1) 現象學 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E7%8F%BE%E8%B1%A1%E5%AD%B8 访问时间 2023/3/23.
+(2) 现象主义 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E7%8E%B0%E8%B1%A1%E4%B8%BB%E4%B9%89 访问时间 2023/3/23.
+(3) 现象学（20世纪在西方流行的一种哲学思潮）_百度百科. https://baike.baidu.com/item/现象学/19799 访问时间 2023/3/23.
+
+#### 2/15
+
+> 现象观念论与其他哲学流派有什么不同？
+
+- [x] 正在搜索: 现象观念论与其他哲学流派的不同
+- [x] 正在为你生成答案…
+
+现象观念论（Phenomenology）是一种哲学流派，它与其他哲学流派的不同之处在于它关注意识结构和出现在各种意识行为中的现象。它试图通过对原始意识现象的描述和分析来获得有关观念的规定性（意义）的实在性的明证³。
+
+源: 与必应的对话， 2023/3/23(1) 現象學 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E7%8F%BE%E8%B1%A1%E5%AD%B8 访问时间 2023/3/23.
+(2) 现象学（20世纪在西方流行的一种哲学思潮）_百度百科. https://baike.baidu.com/item/现象学/19799 访问时间 2023/3/23.
+(3) 现象主义 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E7%8E%B0%E8%B1%A1%E4%B8%BB%E4%B9%89 访问时间 2023/3/23.
+
+#### 3/15
+
+> 现象观念论有什么特点？
+
+现象观念论的英文是 Phenomenalism。您还想了解更多关于这个概念的信息吗？
+
+- [x] 正在搜索: 现象观念论的特点
+- [x] 正在为你生成答案…
+
+现象观念论的基本特点主要表现在方法论方面，即通过回到原始的意识现象，描述和分析观念（包括本质的观念、范畴）的构成过程，以此获得有关观念的规定性（意义）的实在性的明证。认为只有在这个基础上，才能廓清传统哲学中那些概念的真实意义，从而重新说明传统哲学中的问题，并深入开展各个领域的研究¹。
+
+源: 与必应的对话， 2023/3/23(1) 现象学（20世纪在西方流行的一种哲学思潮）_百度百科. https://baike.baidu.com/item/现象学/19799 访问时间 2023/3/23.
+(2) 现象主义 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E7%8E%B0%E8%B1%A1%E4%B8%BB%E4%B9%89 访问时间 2023/3/23.
+(3) 现象学的本质直观是什么意思？它的真理论是怎样的 .... https://www.zhihu.com/question/22145445 访问时间 2023/3/23.
+(4) 什么是现象学？ - 知乎. https://www.zhihu.com/question/21784450 访问时间 2023/3/23.
+
+#### 4/15
+
+> 胡塞尔是谁？
+
+- [x] 正在搜索: 胡塞尔
+- [x] 正在为你生成答案…
+
+埃德蒙德·胡塞尔（Edmund Husserl，1859-1938）是一位德国哲学家，他是20世纪现象学学派的创始人¹³。
+
+源: 与必应的对话， 2023/3/23(1) 现象学（20世纪在西方流行的一种哲学思潮）_百度百科. https://baike.baidu.com/item/现象学/19799 访问时间 2023/3/23.
+(2) 埃德蒙德·胡塞尔 - MBA智库百科. https://wiki.mbalib.com/wiki/%E8%83%A1%E5%A1%9E%E5%B0%94 访问时间 2023/3/23.
+(3) 現象學 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E7%8F%BE%E8%B1%A1%E5%AD%B8 访问时间 2023/3/23.
+(4) 胡塞尔 - 知乎. https://zhuanlan.zhihu.com/p/138022041 访问时间 2023/3/23.
+
+#### 5/15
+
+> 胡塞尔与其他哲学家有什么不同？
+
+- [x] 正在搜索: 胡塞尔与其他哲学家的不同
+- [x] 正在为你生成答案…
+
+胡塞尔与其他哲学家的不同之处在于他创立了现象学这一哲学流派。他认为，与罗素和怀德海一样，算术实际上是“先验”的科学。不同的是，罗素与怀德海的分析基础是逻辑学。胡塞尔则发展出全新的哲学方法，来探究必然真理的性质。他称之为“现象学”¹²。
+
+胡塞尔将现象学定义为对意识本质结构的科学研究，但现象学并不代表表象与根本实在之间存在着对立。胡塞尔承诺，通过描述意识结构，可以找到确定性，其中包括他身为数学家时不断寻求的算术基础。为此，胡塞尔描述了现象学的观点：意识被视为一种“意向”，也就是说，意识总是朝向某个客体，不管它是物质的，还是跟数学一样是“观念的”¹²。
+
+源: 与必应的对话， 2023/3/23(1) 埃德蒙德·胡塞爾 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E5%9F%83%E5%BE%B7%E8%92%99%E5%BE%B7%C2%B7%E8%83%A1%E5%A1%9E%E7%88%BE 访问时间 2023/3/23.
+(2) 現象學 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E7%8F%BE%E8%B1%A1%E5%AD%B8 访问时间 2023/3/23.
+(3) 现象学（20世纪在西方流行的一种哲学思潮）_百度百科. https://baike.baidu.com/item/现象学/19799 访问时间 2023/3/23.
+
+#### 6/15
+
+> 胡塞尔对哪些领域产生了影响？
+
+- [x] 正在搜索: 胡塞尔对哪些领域产生了影响
+- [x] 正在为你生成答案…
+
+胡塞尔的现象学对许多领域产生了深远的影响。他的弟子海德格尔在20年代末改变了现象学研究的方向，开创了侧重探讨存在问题的新思潮。这一时期一直持续到50年代末，研究基地也从德国移向法国，并逐渐扩展到其它地区³。
+
+胡塞尔对认识论、数学等领域产生了影响，他的著名思想包括悬置、自然立场、所意、认识和本质还原¹。
+
+源: 与必应的对话， 2023/3/23(1) 现象学（20世纪在西方流行的一种哲学思潮）_百度百科. https://baike.baidu.com/item/现象学/19799 访问时间 2023/3/23.
+(2) 埃德蒙德·胡塞爾 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E5%9F%83%E5%BE%B7%E8%92%99%E5%BE%B7%C2%B7%E8%83%A1%E5%A1%9E%E7%88%BE 访问时间 2023/3/23.
+(3) 現象學 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E7%8F%BE%E8%B1%A1%E5%AD%B8 访问时间 2023/3/23.
+
+#### 7/15
+
+> 存在主义和现象观念论的关系是什么？
+
+- [x] 正在搜索: 存在主义和现象观念论的关系
+- [x] 正在为你生成答案…
+
+存在主义源出于现象学，又是对现象学的超越⁴。胡塞尔的现象学还原以后的先验世界为存在主义提供了温床，开拓了一个更加广阔的领域。生活世界成为存在者存在的世界，也就是与存在状态有关的世界，一种在理性之前的世界。梅洛庞蒂的知觉世界，萨特的现象学一元论，海德格尔的存在主义都是对胡塞尔现象学还原的发展¹。
+
+简而言之，现象学和存在主义有着密不可分的关系。你可以把现象学看作根，而存在主义则是枝。
+
+源: 与必应的对话， 2023/3/23(1) 朱立元《当代西方文艺理论》笔记—现象学、存在 .... https://zhuanlan.zhihu.com/p/440715251 访问时间 2023/3/23.
+(2) 现象学和存在主义有什么关系？ - 知乎. https://www.zhihu.com/question/23213018 访问时间 2023/3/23.
+(3) 存在主义 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E5%AD%98%E5%9C%A8%E4%B8%BB%E4%B9%89 访问时间 2023/3/23.
+(4) 从四个层次谈虚无主义和存在主义的区别 - 知乎. https://zhuanlan.zhihu.com/p/259158726 访问时间 2023/3/23.
+
+#### 8/15
+
+> 胡塞尔和海德格尔有什么不同？
+
+- [x] 正在搜索: 胡塞尔和海德格尔有什么不同
+- [x] 正在为你生成答案…
+
+胡塞尔和海德格尔都是著名的哲学家，他们都对现象学做出了巨大贡献。然而，他们在哲学观点上也有一些不同之处。
+
+胡塞尔，尤其是中后期的胡塞尔，是一个先验观念论者。他认为形而上学更多是一种认识的批判。而海德格尔则是基于一种“生存”的维度来做的。对于海德格尔来说，形而上学是要让存在从一种遮蔽的状态呈现出来的方式¹。
+
+此外，胡塞尔和海德格尔把握真者的方式也不同。胡塞尔的哲学更具有思辨性，他是在追问一种原初的自明性。而海德格尔更关注一种自觉的呈现¹。
+
+简而言之，胡塞尔和海德格尔虽然都对现象学做出了巨大贡献，但他们在哲学观点上也有一些不同之处。
+
+源: 与必应的对话， 2023/3/23(1) 胡塞尔和海德格尔的区别是什么？ - 知乎. https://www.zhihu.com/question/268540241 访问时间 2023/3/23.
+(2) 胡塞尔和海德格尔的现象学方法差别（A stub） - 知乎. https://zhuanlan.zhihu.com/p/108903748 访问时间 2023/3/23.
+(3) 任见：胡塞尔、海德格尔和梅洛·庞蒂_马塞尔_自由_思想. https://www.sohu.com/a/531432551_643334 访问时间 2023/3/23.
+(4) 海德格尔与纳粹. https://www.sohu.com/a/244077721_558455 访问时间 2023/3/23.
+(5) 胡塞尔和海德格尔：从师徒关系到不欢而散 - 知乎. https://zhuanlan.zhihu.com/p/22278543 访问时间 2023/3/23.
+
+#### 9/15
+
+> 除了存在主义，现象学这个根还有哪些枝？
+
+- [x] 正在搜索: 现象学的影响
+- [x] 正在为你生成答案…
+
+现象学是20世纪最重要的哲学流派之一，由德国哲学家胡塞尔正式创立。它对经验结构与意识结构进行了哲学性研究。作为一个哲学运动，现象学于二十世纪早期由埃德蒙德·胡塞尔创立，之后被他在德国的哥廷根大学和慕尼黑大学中的一派追随者发展壮大。在此之后现象学传播到法国、美国以及其他地区，并远超出了胡塞尔早期著作的语境¹。
+
+现象学不应被看成是一个统一的运动，而更像是不同的作者具有共同的家族相似性，但同时也有显著差异。因此，现象学可以被看作是一种思想风格、一种方法，一种开放的、常新的经验，它导致不同的结论并让那些想要界定现象学意义的人无所适从¹。
+
+除了存在主义外，现象学还影响了其他领域。例如，在心理学领域中，现象学心理学受到现象学哲学的直接影响，坚持现 象学的理念和方法，从如实呈现经验出发，对经验加 以描述或解释，以发掘经验的意义³。
+
+源: 与必应的对话， 2023/3/24(1) 現象學 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E7%8F%BE%E8%B1%A1%E5%AD%B8 访问时间 2023/3/24.
+(2) 什么是现象学心理学？ - 知乎. https://zhuanlan.zhihu.com/p/464520743 访问时间 2023/3/24.
+(3) 现象学（20世纪在西方流行的一种哲学思潮）_百度百科. https://baike.baidu.com/item/现象学/19799 访问时间 2023/3/24.
+(4) 什么是现象学？ - 知乎. https://www.zhihu.com/question/21784450 访问时间 2023/3/24.
+
+#### 10/15
+
+> 为什么有人会说存在主义是积极的虚无主义？这样说严谨吗？
+
+- [x] 正在搜索: 存在主义是积极的虚无主义
+- [x] 正在为你生成答案…
+
+存在主义是一种哲学思想，它强调个人的自由选择和意识到自己的存在。虚无主义则认为世界没有意义或价值。有人可能会认为存在主义是一种积极的虚无主义，因为它鼓励人们在一个看似没有意义的世界中寻找个人意义。但这样说是否严谨，我并不确定。
+
+源: 与必应的对话， 2023/3/24(1) 存在主义 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E5%AD%98%E5%9C%A8%E4%B8%BB%E4%B9%89 访问时间 2023/3/24.
+(2) 存在主义、虚无主义、荒诞主义，三者有什么区别与 .... https://www.zhihu.com/question/370762435 访问时间 2023/3/24.
+(3) 存在主义 - 维基百科，自由的百科全书. https://zh.wikipedia.org/zh-hans/%E5%AD%98%E5%9C%A8%E4%B8%BB%E4%B9%89 访问时间 2023/3/24.
+
+#### 11/15
+
+> 有哪些现象观念论的著作？
+
+- [x] 正在搜索: 现象观念论著作
+- [x] 正在为你生成答案…
+
+现象观念论是一种哲学思想，它探讨人类如何感知和理解世界。其中一部著作是胡塞尔的《现象学的观念》¹³。这本书被认为是胡塞尔从描述现象学转向先验现象学的标志性著作，在他的思想发展中占有重要地位³。
+
+源: 与必应的对话， 2023/3/24(1) 现象学的观念 (豆瓣). https://book.douban.com/subject/26845652/ 访问时间 2023/3/24.
+(2) 现象学的观念_百度百科. https://baike.baidu.com/item/%E7%8E%B0%E8%B1%A1%E5%AD%A6%E7%9A%84%E8%A7%82%E5%BF%B5/3283322 访问时间 2023/3/24.
+(3) 什么是现象学？ (豆瓣). https://book.douban.com/subject/36062214/ 访问时间 2023/3/24.
+(4) 现象学的观念 (豆瓣). https://book.douban.com/subject/30279070/ 访问时间 2023/3/24.
+
+#### 12/15
+
+> 什么是先验观念论？
+
+- （该连接已断开 ... 请重新开始一个会话）
+
+### 现象观念论 (new bing)
+
+你好。很高兴再次与你聊天。你今天想研究什么有趣的事物?
+
+#### 1/15
+
+> 现象观念论，英文是什么？
+
+- 正在搜索: Phenomenology 英文
+- 正在为你生成答案…
+
+Phenomenology is a branch of philosophy that studies the structures of experience and consciousness⁵. It is the study of "phenomena": appearances of things, or things as they appear in our experience, or the ways we experience things, thus the meanings things have in our experience⁴. The term "phenomenology" comes from the Greek words "phainómenon" (that which appears) and "lógos" (study)⁵.
+
+I hope that helps. Let me know if you have any other questions.
+
+源: 与必应的对话， 2023/3/23(1) Phenomenology (philosophy) - Wikipedia. https://en.wikipedia.org/wiki/Phenomenology_(philosophy) 访问时间 2023/3/23.
+(2) Phenomenology (Stanford Encyclopedia of Philosophy). https://plato.stanford.edu/entries/phenomenology/ 访问时间 2023/3/23.
+(3) 現象學 - 维基百科，自由的百科全书. https://zh.wikipedia.org/wiki/%E7%8F%BE%E8%B1%A1%E5%AD%B8 访问时间 2023/3/23.
+(4) 现象学（Phenomenology） - 知乎. https://www.zhihu.com/topic/19611354 访问时间 2023/3/23.
+(5) 現象學 - 維基百科，自由的百科全書. https://zh.wikipedia.org/zh-tw/%E7%8F%BE%E8%B1%A1%E5%AD%B8 访问时间 2023/3/23.
+
+#### 2/15
+
+> 把上面的英文用中文重新说一遍
+
+现象学是哲学的一个分支，研究经验和意识的结构。它是“现象”的研究：事物的外观，或者事物在我们的经验中的表现方式，或者我们经验事物的方式，因此事物在我们的经验中的意义。现象学这个词来自希腊语“phainómenon”（出现的东西）和“lógos”（研究）。
+
+希望这有所帮助。如果您有其他问题，请告诉我。
+
+#### 3/15
+
+> 有哪些著名的现象学家？
+
+- 正在搜索: famous phenomenologists
+- 正在为你生成答案…
+
+Some of the most famous phenomenologists include Edmund Husserl, Martin Heidegger, Jean-Paul Sartre, and Maurice Merleau-Ponty². There are many other phenomenologists as well, but these are some of the most well-known.
+
+源: 与必应的对话， 2023/3/23(1) Phenomenology (Stanford Encyclopedia of Philosophy). https://plato.stanford.edu/entries/phenomenology/ 访问时间 2023/3/23.
+(2) List of phenomenologists - Wikipedia. https://en.wikipedia.org/wiki/List_of_phenomenologists 访问时间 2023/3/23.
+(3) Phenomenology (philosophy) - Wikipedia. https://en.wikipedia.org/wiki/Phenomenology_(philosophy) 访问时间 2023/3/23.
+
+#### 4/15
+
+> 用中文回复我
+
+一些著名的现象学家包括爱德蒙·胡塞尔（Edmund Husserl）、马丁·海德格尔（Martin Heidegger）、让-保罗·萨特（Jean-Paul Sartre）和莫里斯·梅洛-庞蒂（Maurice Merleau-Ponty）。当然还有许多其他的现象学家，但这些是最著名的。
+
+#### 5/15
+
+> 现象学的主要思想是什么？
+
+- 正在搜索: what is the main idea of phenomenology
+- 正在为你生成答案…
+
+现象学的主要思想是直接调查和描述现象，而不涉及有关其因果解释的理论，尽可能不受未经审查的偏见和前提的影响²。现象学的中心结构是意向性，即经验的指向性，它是对某个对象的经验或关于某个对象的经验³。
+
+源: 与必应的对话， 2023/3/23(1) Phenomenology | Definition, Characteristics, Philosophy, Examples .... https://www.britannica.com/topic/phenomenology 访问时间 2023/3/23.
+(2) Phenomenology (Stanford Encyclopedia of Philosophy). https://plato.stanford.edu/entries/phenomenology/ 访问时间 2023/3/23.
+(3) Phenomenology | Definition, Characteristics, Philosophy, Examples .... https://www.britannica.com/topic/phenomenology 访问时间 2023/3/23.
+(4) What is phenomenology? - Warwick. https://warwick.ac.uk/fac/soc/ces/research/current/socialtheory/maps/phenomenology/ 访问时间 2023/3/23.
+
+#### 6/15
+
+> 现象学和本体论有什么区别？
+
+- 正在搜索: What is the difference between phenomenology and ontology?
+- 正在为你生成答案…
+
+本体论是关于存在的哲学，而现象学是关于经验的哲学。本体论关注的是存在的本质和存在的本质特征，而现象学关注的是经验的本质和经验的本质特征¹。因此，本体论是一种本质上的哲学，而现象学是一种现象学的哲学²。
+
+源: 与必应的对话， 2023/3/23(1) Difference between Phenomenology and Ontology - Politic Sphere. https://www.politicsphere.com/difference-between-phenomenology-and-ontology/ 访问时间 2023/3/23.
+(2) Difference between Phenomenology and Ontology - Politic Sphere. https://www.politicsphere.com/difference-between-phenomenology-and-ontology/ 访问时间 2023/3/23.
+(3) What is the difference between ontology and phenomenology?. https://knowledgeburrow.com/what-is-the-difference-between-ontology-and-phenomenology/ 访问时间 2023/3/23.
+(4) Phenomenology (Stanford Encyclopedia of Philosophy). https://plato.stanford.edu/entries/phenomenology/ 访问时间 2023/3/23.
+(5) Phenomenology vs Ontology - What's the difference? | WikiDiff. https://wikidiff.com/ontology/phenomenology 访问时间 2023/3/23.
+
+#### 7/15
+
+> 现象学和存在主义有什么区别？
+
+- 正在搜索: What is the difference between phenomenology and existentialism?
+- 正在为你生成答案…
+
+现象学和存在主义都是20世纪的哲学流派，但它们的重点不同。现象学关注经验的本质和经验的本质特征，而存在主义关注人类存在的本质和人类存在的本质特征²。因此，现象学是一种哲学，而存在主义是一种哲学和文学运动¹。
+
+源: 与必应的对话， 2023/3/23(1) Difference between Existentialism and Phenomenology. https://www.politicsphere.com/difference-between-existentialism-and-phenomenology/ 访问时间 2023/3/23.
+(2) what is the differences between phenomenology, existentialism an .... https://brainly.ph/question/4920100 访问时间 2023/3/23.
+(3) what is the differences between phenomenology, existentialism an .... https://brainly.ph/question/4920100 访问时间 2023/3/23.
+(4) Phenomenological Existentialism - Shippensburg University. https://webspace.ship.edu/cgboer/phenandexist.html 访问时间 2023/3/23.
+(5) Phenomenology (Stanford Encyclopedia of Philosophy). https://plato.stanford.edu/entries/phenomenology/ 访问时间 2023/3/23.
+
+#### 8/15
+
+> 现象学的历史是什么？
+
+- 正在搜索: What is the history of phenomenology?
+- 正在为你生成答案…
+
+现象学的历史可以追溯到爱德蒙·胡塞尔（Edmund Husserl）的哲学研究，他在20世纪初期创立了现象学⁵。自那时以来，现象学已经成为哲学的一个重要分支，许多哲学家都对现象学进行了研究和发展¹。现象学的其他重要哲学家包括马丁·海德格尔（Martin Heidegger）、让-保罗·萨特（Jean-Paul Sartre）和莫里斯·梅洛-庞蒂（Maurice Merleau-Ponty）⁵。
+
+源: 与必应的对话， 2023/3/23(1) Phenomenology (Stanford Encyclopedia of Philosophy). https://plato.stanford.edu/entries/phenomenology/ 访问时间 2023/3/23.
+(2) Phenomenology | Definition, Characteristics, Philosophy, Examples .... https://www.britannica.com/topic/phenomenology 访问时间 2023/3/23.
+(3) Phenomenology | Definition, Characteristics, Philosophy, Examples .... https://www.britannica.com/topic/phenomenology 访问时间 2023/3/23.
+(4) Phenomenology - Wikipedia. https://en.wikipedia.org/wiki/Phenomenology 访问时间 2023/3/23.
+(5) Phenomenology - Methods, Examples, Guide - Research Method. https://researchmethod.net/phenomenology/ 访问时间 2023/3/23.
+
+#### 9/15
+
+> 现象学的其他思想是什么？
+
+- 正在搜索: What are some other ideas in phenomenology?
+- 正在为你生成答案…
+
+现象学的其他思想包括：1. 现象学拒绝客观研究的概念，而是通过一种称为现象学epoché的过程来分组假设。2. 他们认为分析日常人类行为可以为人们提供更深入的自然理解。3. 他们断言应该探索人。4. 现象学家更喜欢收集“capta”或意识体验，而不是传统数据¹。
+
+源: 与必应的对话， 2023/3/23(1) Phenomenology (philosophy) - Wikipedia. https://en.wikipedia.org/wiki/Phenomenology_(philosophy) 访问时间 2023/3/23.
+(2) Phenomenology - Research Methodology. https://research-methodology.net/research-philosophy/phenomenology/ 访问时间 2023/3/23.
+(3) Phenomenology (Stanford Encyclopedia of Philosophy). https://plato.stanford.edu/entries/phenomenology/ 访问时间 2023/3/23.
+(4) Phenomenology - an overview | ScienceDirect Topics. https://www.sciencedirect.com/topics/social-sciences/phenomenology 访问时间 2023/3/23.
+(5) Phenomenology | Definition, Characteristics, Philosophy, Examples .... https://www.britannica.com/topic/phenomenology 访问时间 2023/3/23.
+
+#### 10/15
+
+> 存在主义的主要思想是什么？
+
+- 正在搜索: What are the main ideas of existentialism?
+- 正在为你生成答案…
+
+存在主义的主要思想是人类没有内在的意义或目的，而是通过选择来创造自己的意义和目的。人类的生活不是预先确定的，而是由他们的选择决定的。孤独，自由选择，无意义和死亡是存在主义的基本主题之一¹。
+
+源: 与必应的对话， 2023/3/23(1) Existentialism - AllAboutPhilosophy.org. https://www.allaboutphilosophy.org/existentialism.htm 访问时间 2023/3/23.
+(2) Existentialism, Its Themes and Philosophers | Free Essay Example. https://studycorgi.com/existentialism-its-themes-and-philosophers/ 访问时间 2023/3/23.
+(3) What is the Main Idea of Existentialism? – Robbie Carr. https://robbiecarr.com/what-is-the-main-idea-of-existentialism/ 访问时间 2023/3/23.
+(4) Existentialism | Definition, History, Characteristics, Examples, Types .... https://www.britannica.com/topic/existentialism 访问时间 2023/3/23.
+(5) Existentialism - Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/existentialism/ 访问时间 2023/3/23.
+(6) Existential Theory: History, Beliefs, Uses, and More - Psych Central. https://psychcentral.com/health/existential-theory 访问时间 2023/3/23.
+
+#### 11/15
+
+> 存在主义的历史是什么？
+
+- 正在搜索: What is the history of existentialism?
+- 正在为你生成答案…
+
+存在主义是一种哲学运动，起源于二十世纪中期，二战后出现。存在主义者认为，我们的生命目的和意义不来自于上帝、政府或老师等外部力量，而完全由我们自己决定。丹麦哲学家索伦·基尔克戈尔是探索存在主义思想的第一位哲学家，他被称为存在主义之父。³
+
+源: 与必应的对话， 2023/3/23(1) Existential Theory: History, Beliefs, Uses, and More - Psych Central. https://psychcentral.com/health/existential-theory 访问时间 2023/3/23.
+(2) What Are the Main Themes of Existentialism? - TheCollector. https://www.thecollector.com/what-are-main-themes-existentialism/ 访问时间 2023/3/23.
+(3) Existentialism - Wikipedia. https://en.wikipedia.org/wiki/Existentialism 访问时间 2023/3/23.
+(4) What Are the Main Themes of Existentialism? - TheCollector. https://www.thecollector.com/what-are-main-themes-existentialism/ 访问时间 2023/3/23.
+(5) Existentialism | Definition, History, Characteristics, Examples, Types .... https://www.britannica.com/topic/existentialism 访问时间 2023/3/23.
+(6) Existentialism - Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/existentialism/ 访问时间 2023/3/23.
+
+#### 12/15
+
+> 存在主义的主要哲学家是谁？
+
+- 正在搜索: Who are the main philosophers of existentialism?
+- 正在为你生成答案…
+
+存在主义的主要哲学家包括丹麦哲学家索伦·基尔克戈尔，德国哲学家弗里德里希·尼采，马丁·海德格尔，卡尔·雅斯贝尔斯和埃德蒙德·胡塞尔，以及作家俄罗斯的费奥多尔·陀思妥耶夫斯基和捷克的弗朗茨·卡夫卡等人。³⁵
+
+源: 与必应的对话， 2023/3/23(1) Existentialism - By Branch / Doctrine - The Basics of Philosophy. https://www.philosophybasics.com/branch_existentialism.html 访问时间 2023/3/23.
+(2) List of existentialists - Wikipedia. https://en.wikipedia.org/wiki/List_of_existentialists 访问时间 2023/3/23.
+(3) Five Existential Philosophers and Their Contribution to Human Wisdom. https://fractalenlightenment.com/34906/spirituality/five-existential-philosophers-and-their-contribution-to-human-wisdom 访问时间 2023/3/23.
+(4) Five Existential Philosophers and Their Contribution to Human Wisdom. https://fractalenlightenment.com/34906/spirituality/five-existential-philosophers-and-their-contribution-to-human-wisdom 访问时间 2023/3/23.
+(5) Existentialism - McGill University. https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/e/Existentialism.htm 访问时间 2023/3/23.
+(6) Existentialism | Definition, History, Characteristics, Examples, Types .... https://www.britannica.com/topic/existentialism 访问时间 2023/3/23.
+
+#### 13/15
+
+> 马丁·海德格尔的哲学思想是什么？
+
+- 正在搜索: What is Martin Heidegger's philosophy?
+- 正在为你生成答案…
+
+马丁·海德格尔是德国哲学家，被认为是存在主义的主要代表之一。他的哲学思想是存在主义和现象学的混合体，强调人类存在的本质和意义。他的著作包括《存在与时间》和《技术的问题》等。²³
+
+源: 与必应的对话， 2023/3/23(1) Martin Heidegger - Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/heidegger/ 访问时间 2023/3/23.
+(2) Martin Heidegger | Biography, Philosophy, Nazism, & Facts. https://www.britannica.com/biography/Martin-Heidegger-German-philosopher 访问时间 2023/3/23.
+(3) Martin Heidegger - Stanford Encyclopedia of Philosophy. https://bing.com/search?q=What+is+Martin+Heidegger%27s+philosophy%3f 访问时间 2023/3/23.
+(4) What Is Martin Heidegger’s Philosophy? – Soulmate Twin Flame. https://soulmatetwinflame.com/index.php/2021/05/06/what-is-martin-heideggers-philosophy/ 访问时间 2023/3/23.
+
+#### 14/15
+
+> 它们和虚无主义的区别是什么？为什么有说存在主义是积极的虚无主义？
+
+虚无主义是一种哲学思想，认为生命没有意义，没有价值，没有目的。而存在主义则认为，尽管生命没有固有的意义，但人们可以通过自己的选择和行动赋予生命意义。存在主义被称为积极的虚无主义，因为它认为人们可以通过自己的选择和行动赋予生命意义，而不是被迫接受生命的虚无。
+
+#### 15/15
+
+> 存在主义和乐观主义有什么区别？
+
+Sorry, I think we need to move on! Click “New topic” to chat about something else.
+
