@@ -77,7 +77,7 @@
 >             } ;
 >         } ) ;
 >     } ;
-> 
+>     
 >     map
 >     <R>(f: (value: T) => R)
 >     : Stream<R> 
@@ -95,7 +95,7 @@
 >             } ;
 >         } ).bind(this)) ;
 >     } ;
-> 
+>     
 >     filter
 >     (predicate: (value: T) => boolean)
 >     : Stream<T> 
@@ -113,7 +113,7 @@
 >             }
 >         } ).bind(this)) ;
 >     } ;
-> 
+>     
 >     takeUntil
 >     (predicate: (value: T) => boolean)
 >     : T[] 
@@ -128,7 +128,7 @@
 >         } ;
 >         return result ;
 >     }
-> 
+>     
 >     take
 >     (n: number)
 >     : T[] 
