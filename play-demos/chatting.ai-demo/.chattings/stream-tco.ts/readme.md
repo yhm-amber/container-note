@@ -32,10 +32,10 @@
 > 
 > ### `Stream`
 > 
-> ~~~ tsx
-> type IterateFunction<T> = (value: T) => T ;
-> 
-> class Stream<T> {
+> ~~~ ts
+> class Stream
+> <T> 
+> {
 >     
 >     generatorFunction: () => Generator<T> ;
 >     
@@ -43,7 +43,7 @@
 >     { this.generatorFunction = generatorFunction ; } ;
 >     
 >     static iterate
->     <T>(initialValue: T, f: IterateFunction<T>)
+>     <T>(initialValue: T, f: (value: T) => T)
 >     : Stream<T> 
 >     {
 >         return new Stream
@@ -162,7 +162,7 @@
 > 
 > class: 
 > 
-> ~~~ tsx
+> ~~~ ts
 > 
 > class TailCall
 > <T> 
