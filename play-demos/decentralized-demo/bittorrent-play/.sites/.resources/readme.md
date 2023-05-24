@@ -844,7 +844,7 @@ Season 8/GoT.S08E06.The.Iron.Throne.720p.mkv 753.63MB
 
 ### House of the Dragon (S01)
 
-#### [`House.Of.The.Dragon.S01.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R Torrent download`](https://bt4g.org/magnet/bd1dd8fb3270f76e91cbc122712e9d3420fe2aff)
+#### [`House.Of.The.Dragon.S01.2160p.HDR.ITA-ENG.MULTI.HMAX.WEBRip.AAC.x265-V3SP4EV3R`](https://bt4g.org/magnet/bd1dd8fb3270f76e91cbc122712e9d3420fe2aff)
 
 `14.55GB`
 
