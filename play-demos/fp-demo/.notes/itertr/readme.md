@@ -43,7 +43,7 @@ class TailCall
     {
         let tailcall: TailCall<T> = this ;
         while (!tailcall.isComplete) 
-        { tailcall = tailcall.nextCall() ; } ;
+        { tailcall = tailcall.nextCall(); } ;
         return tailcall.result ;
     } ;
 } ;
