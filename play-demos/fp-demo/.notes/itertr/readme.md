@@ -143,7 +143,7 @@ class Stream
     generatorFunction: () => Generator<T> ;
     
     constructor(generatorFunction: () => Generator<T>)
-    { this.generatorFunction = generatorFunction ; } ;
+    { this.generatorFunction = generatorFunction; } ;
     
     static iterate
     <T>(initialValue: T, f: (value: T) => T)
@@ -153,11 +153,11 @@ class Stream
         ( function* ()
         : Generator<T> 
         {
-            let value = initialValue ;
+            let value = initialValue;
             while (true) 
             {
                 yield value ;
-                value = f(value) ;
+                value = f(value);
             } ;
         } ) ;
     } ;
@@ -170,13 +170,13 @@ class Stream
         ( function* ()
         : Generator<R> 
         {
-            let value = initialValue ;
+            let value = initialValue;
             while (true) 
             {
                 const next = f(value) ;
                 if (next === undefined) break ;
                 yield next.mapper ;
-                value = next.iter ;
+                value = next.iter;
             } ;
         } ) ;
     } ;
@@ -226,7 +226,7 @@ class Stream
         while (true) 
         {
             const { value, done } = iterator.next() ;
-            result.push(value) ;
+            result.push(value);
             if (done || predicate(value)) break ;
         } ;
         return result ;
@@ -236,8 +236,8 @@ class Stream
     (n: number)
     : T[] 
     {
-        let count = 1 ;
-        return this.takeUntil(() => !(count++ < n)) ;
+        let count = 1;
+        return this.takeUntil(() => !(count++ < n));
     } ;
 } ;
 ~~~
@@ -265,17 +265,184 @@ const fibs = Stream.unfold
 const fibs = 
 Stream
     .iterate({x: 0, y: 0,z: 1}, ({ x, y, z }) => ({ x: x + 1, y: z, z: y + z }))
-    .map(({ x, y, z }) => ({ x, y }))
-    .filter(({ x, y }) => x % 2 === 1) ;
+    .map(({ x, y, z }) => ({ x, y })) ;
 
 // take
+
 console.log(fibs.take(3));
 console.log(fibs.take(14));
+
+console.log(fibs.filter(({ x, y }) => x % 2 === 1).take(3));
+console.log(fibs.filter(({ x, y }) => x % 2 === 1).take(14));
 ~~~
 
-#### `interface Streamming`
+#### `interface Streams`
 
-...
+~~~ ts
+interface Streams
+<T> { generatorFunction: () => Generator<T> ; } ;
+
+const streams =
+{
+    iterate: 
+        
+        <T,>(initialValue: T, f: (value: T) => T)
+        : Streams<T> => 
+            
+            Object.assign
+            ({ generatorFunction: 
+                
+                function* ()
+                : Generator<T> 
+                {
+                    let value = initialValue;
+                    while (true) 
+                    {
+                        yield value ;
+                        value = f(value);
+                    } ;
+                } ,
+            }) ,
+    
+    unfold: 
+        
+        <T, R>(initialValue: T, f: (value: T) => { mapper: R; iter: T } | undefined)
+        : Streams<R> => 
+            
+            Object.assign
+            ({ generatorFunction: 
+                
+                function* ()
+                : Generator<R> 
+                {
+                    let value = initialValue;
+                    while (true) 
+                    {
+                        const next = f(value) ;
+                        if (next === undefined) break ;
+                        yield next.mapper ;
+                        value = next.iter;
+                    } ;
+                } ,
+            }) ,
+    
+    map: 
+        
+        <T, R>(stream: Streams<T>, f: (value: T) => R)
+        : Streams<R> => 
+            
+            Object.assign
+            ({ generatorFunction: 
+                
+                function* ()
+                : Generator<R> 
+                {
+                    const iterator = stream.generatorFunction() ;
+                    while (true) 
+                    {
+                        const { value, done } = iterator.next() ;
+                        if (done) break ;
+                        yield f(value) ;
+                    } ;
+                } ,
+            }) ,
+    
+    filter: 
+        
+        <T,>(stream: Streams<T>, predicate: (value: T) => boolean)
+        : Streams<T> => 
+            
+            Object.assign
+            ({ generatorFunction: 
+                
+                function* ()
+                : Generator<T> 
+                {
+                    const iterator = stream.generatorFunction() ;
+                    while (true) 
+                    {
+                        const { value, done } = iterator.next() ;
+                        if (done) break ;
+                        if (predicate(value)) yield value ;
+                    } ;
+                } ,
+            }) ,
+    
+    takeUntil: 
+        
+        <T,>(stream: Streams<T>, predicate: (value: T) => boolean)
+        : T[] => 
+        {
+            const result: T[] = [] ;
+            const iterator = stream.generatorFunction() ;
+            while (true) 
+            {
+                const { value, done } = iterator.next() ;
+                result.push(value);
+                if (done || predicate(value)) break ;
+            } ;
+            return result;
+        },
+    
+    take: 
+        
+        <T,>(stream: Streams<T>, n: number)
+        : T[] => 
+        {
+            let count = 1;
+            return streams.takeUntil(stream, () => !(count++ < n));
+        } ,
+    
+} ;
+
+const pipe = 
+(init: any, ...funcs: Function[])
+: any => 
+    funcs.reduce((x,f) => f(x), init) ;
+~~~
+
+use: 
+
+~~~ ts
+/* simple */
+
+const s1 = streams.iterate(1, x => x + 1) ;
+const s2 = streams.map(s1, x => x * 2) ;
+const result = streams.take(s2, 5) ;
+console.log(result); // [2, 4, 6, 8, 10]
+~~~
+
+~~~ ts
+/* Fibonacci */
+
+// unfold
+const fibs = streams.unfold
+(
+    { x: 0, y: 0, z: 1 },
+    ({ x, y, z }) => ({ mapper: { x, y }, iter: { x: x + 1, y: z, z: y + z } })
+) ;
+
+// or iterate
+const fibs = 
+    
+    streams.map
+    (
+        streams.iterate
+        (
+            {x: 0, y: 0,z: 1}, 
+            ({ x, y, z }) => ({ x: x + 1, y: z, z: y + z })
+        ), 
+        ({ x, y, z }) => ({ x, y })
+    ) ;
+
+// take
+
+console.log(streams.take(fibs, 3));
+console.log(streams.take(fibs, 14));
+
+console.log(streams.take(streams.filter(fibs, ({ x, y }) => x % 2 === 1), 3) );
+console.log(streams.take(streams.filter(fibs, ({ x, y }) => x % 2 === 1), 14) );
+~~~
 
 ## Tailcall by Stream
 
@@ -309,7 +476,7 @@ class TailCall
     <T>(nextCall: () => TailCall<T>)
     : TailCall<T> 
     {
-        return new TailCall(false, null as any, nextCall);
+        return new TailCall(false, null as any, nextCall) ;
     } ;
     
     invoke
