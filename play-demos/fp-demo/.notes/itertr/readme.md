@@ -9,7 +9,8 @@ TCO and Streams ...
 
 转换 Loop 为描述迭代的接口。
 
-*idea from: [Tail Recursion in JAVA 8 - Knoldus Blogs](https://blog.knoldus.com/tail-recursion-in-java-8/)*
+*idea from :*  
+- *[Tail Recursion in JAVA 8 - Knoldus Blogs](https://blog.knoldus.com/tail-recursion-in-java-8/)*
 
 #### `class TailCall`
 
@@ -128,10 +129,9 @@ console.log(tailcall.invoke(rb(10000001,2)));
 
 转换生成器定义接口为描述迭代的接口。
 
-ref by: 
-
-- [Stream.unfold/2. The Stream module in Elixir is full of… | by Dunya Kirkali | Medium](https://haagwee.medium.com/stream-unfold-2-5c22e5cf1a3d)
-- [Scala Unfold | Genuine Blog](https://blog.genuine.com/2020/07/scala-unfold/)
+*ref by :*  
+- *[Stream.unfold/2. The Stream module in Elixir is full of… | by Dunya Kirkali | Medium](https://haagwee.medium.com/stream-unfold-2-5c22e5cf1a3d)*
+- *[Scala Unfold | Genuine Blog](https://blog.genuine.com/2020/07/scala-unfold/)*
 
 #### `class Stream`
 
