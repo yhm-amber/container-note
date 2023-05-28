@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/alpaca-lang/alpaca.git "(Apache-2.0) (Languages: Erlang 94.8%, OCaml 5.0%, Other 0.2%) Functional programming inspired by ML for the Erlang VM / 受 ML 启发的面向 Erlang VM 的函数式编程"
