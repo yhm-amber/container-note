@@ -52,6 +52,23 @@ class TailCall
 test: 
 
 ~~~ ts
+const factorial = 
+(n: number): number =>
+{
+    const iter = 
+    (acc: number, n: number)
+    : fp.TailCall<number> =>
+        
+        (n === 1) ? fp.TailCall.done(acc) 
+        : fp.TailCall.call(() => iter(n * acc, n - 1)) ;
+    
+    return iter(1, n).invoke() ;
+}
+
+console.log(factorial(5)); // ans: 120
+~~~
+
+~~~ ts
 const rb = 
 (n: number, r: number)
 : TailCall<number> =>
@@ -109,6 +126,17 @@ const tailcall =
 ~~~
 
 test: 
+
+~~~ ts
+const fac = 
+(n: number, factorial: number = 1)
+: TailCall<number> =>
+    
+    (n === 1) ? tailcall.done(factorial) 
+    : tailcall.call(() => fac(n - 1, factorial * n)) ;
+
+console.log(tailcall.invoke(() => fac(5))); // ans: 120
+~~~
 
 ~~~ ts
 const rb = 
