@@ -1,7 +1,7 @@
 
-# How Iter Transes
+# How Iter Transes on TypeScript
 
-TCO and Streams ...
+TCO and Stream ...
 
 ## Transes
 
