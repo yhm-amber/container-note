@@ -891,3 +891,575 @@ MyNamespace.myFunction();
 ```
 
 你还有其他问题吗？
+
+### 103
+
+#### 1/20
+
+> 对于 `class A { constructor(readonly x: number, readonly y: number, private readonly z: number); readonly k = () => new A(this.x + 1, this.z, this.y + this.z) }` 这样的定义，可以如何使用呢？
+
+这是一个 TypeScript 类定义。它定义了一个名为 `A` 的类，它有两个公共只读属性 `x` 和 `y`，一个私有只读属性 `z`，以及一个公共只读方法 `k`。你可以通过调用构造函数来创建一个新的 `A` 类实例，例如：`const a = new A(1, 2, 3)`。然后，你可以访问实例的公共属性和方法，例如：`a.x`, `a.y`, `a.k()`。
+
+#### 2/20
+
+> 这个定义，它对应的原型写法是什么？
+
+这个类定义对应的原型写法可能是这样的：
+
+```javascript
+function A(x, y, z) {
+  this.x = x;
+  this.y = y;
+  this.z = z;
+  this.k = function() {
+    return new A(this.x + 1, this.z, this.y + this.z);
+  }
+}
+```
+
+这样，你就可以使用 `new A(1, 2, 3)` 来创建一个新的 `A` 类实例，并使用 `a.x`, `a.y`, `a.k()` 来访问它的公共属性和方法。
+
+#### 3/20
+
+> 好。原定义中，有一个 `private` 标记，还有一些 `readonly` 标记，在新写法里要怎么做到这个效果？
+
+在 JavaScript 中，没有内置的方法来实现真正的私有属性。但是，你可以使用一些技巧来模拟私有属性。例如，你可以使用闭包来创建一个只能在构造函数内部访问的变量，如下所示：
+
+```javascript
+function A(x, y, z) {
+  this.x = x;
+  this.y = y;
+  let _z = z;
+  Object.defineProperty(this, 'z', {
+    get: function() { return _z; }
+  });
+  this.k = function() {
+    return new A(this.x + 1, _z, this.y + _z);
+  }
+}
+```
+
+这样，`_z` 变量就只能在构造函数内部访问，外部无法直接访问它。
+
+至于 `readonly` 标记，你可以使用 `Object.defineProperty` 方法来定义一个只读属性，如下所示：
+
+```javascript
+function A(x, y, z) {
+  let _x = x;
+  let _y = y;
+  let _z = z;
+  Object.defineProperty(this, 'x', {
+    get: function() { return _x; }
+  });
+  Object.defineProperty(this, 'y', {
+    get: function() { return _y; }
+  });
+  Object.defineProperty(this, 'z', {
+    get: function() { return _z; }
+  });
+  this.k = function() {
+    return new A(this.x + 1, _z, this.y + _z);
+  }
+}
+```
+
+这样，`x`, `y`, 和 `z` 属性就都变成了只读属性。
+
+#### 4/20
+
+> `new` 关键字似乎也是个语法糖，它有没有本来的写法？
+
+`new` 关键字用于创建一个对象的实例，并调用其构造函数。你可以使用以下步骤来模拟 `new` 关键字的行为：
+
+1. 创建一个新的空对象。
+2. 将这个新对象的原型设置为构造函数的 `prototype` 属性。
+3. 调用构造函数，并将 `this` 绑定到新对象上。
+4. 如果构造函数返回了一个对象，则返回这个对象；否则，返回新创建的对象。
+
+例如，下面是一个模拟 `new` 关键字行为的函数：
+
+```javascript
+function myNew(constructor, ...args) {
+  const obj = {};
+  Object.setPrototypeOf(obj, constructor.prototype);
+  const result = constructor.apply(obj, args);
+  return (typeof result === 'object' && result !== null) ? result : obj;
+}
+```
+
+使用这个函数，你可以像这样创建一个新的 `A` 类实例：`const a = myNew(A, 1, 2, 3)`。
+
+#### 5/20
+
+> 在 TS 中， `constructor` 函数的类型是什么？对于这里的定义可能需要添加类型标记
+
+在 TypeScript 中，`constructor` 函数的类型是一个特殊的类型，它表示类的构造函数。你可以使用 `constructor` 类型来定义一个类的构造函数类型，例如：
+
+```typescript
+class A {
+  x: number;
+  y: number;
+  private z: number;
+  k: () => A;
+
+  constructor(x: number, y: number, z: number) {
+    this.x = x;
+    this.y = y;
+    this.z = z;
+    this.k = () => new A(this.x + 1, this.z, this.y + this.z);
+  }
+}
+
+type AConstructor = new (x: number, y: number, z: number) => A;
+```
+
+这里，我们定义了一个名为 `AConstructor` 的类型，它表示 `A` 类的构造函数类型。这个类型使用 `new` 关键字来表示它是一个构造函数类型，并指定了构造函数的参数类型和返回值类型。
+
+#### 6/20
+
+> 额，不 …… 我是想问，对于一个普通的函数，它的类型可以是用箭头表示的 `(p1: number, p2:number, ...) => Promise<number>` （这只是个例子），也可以是 `Function` ，这应该是所有函数的共同父类（如果我没猜错的话 …… 哦，如果我说错了请指正我）。
+> 
+> 那么，对于构造函数，它应当被怎么表示它的类型？以及对于你的 `myNew` 函数，在参数列表那里应该需要增添类型标记，对于它的函数签名，应该怎样增添类型标记？
+> 
+
+在 TypeScript 中，你可以使用 `new` 关键字来定义一个构造函数的类型。例如，对于一个接受两个 `number` 类型参数并返回一个 `A` 类型对象的构造函数，你可以这样定义它的类型：
+
+```typescript
+type AConstructor = new (x: number, y: number) => A;
+```
+
+对于 `myNew` 函数，你可以这样添加类型标记：
+
+```typescript
+function myNew<T>(constructor: new (...args: any[]) => T, ...args: any[]): T {
+  const obj = Object.create(constructor.prototype);
+  const result = constructor.apply(obj, args);
+  return (typeof result === 'object' && result !== null) ? result : obj;
+}
+```
+
+这里，我们使用了泛型类型 `T` 来表示构造函数的返回值类型。`constructor` 参数的类型被定义为一个接受任意数量任意类型参数并返回 `T` 类型对象的构造函数。`args` 参数使用了剩余参数语法，并被定义为一个任意类型的数组。最后，函数的返回值类型被定义为 `T`。
+
+#### 7/20
+
+> 我听说，对于一个 JS/TS 的对象或类，它的方法和属性的界限没有那么明显，所谓方法其实只是一个值为相应匿名函数的属性。这个说法对吗？如果对，那么，对于 `constructor` 构造函数而言，是否也是这样的？还是不是？
+> 
+> 还有一个问题：通过 `function A (x,y,z) {...}` 就可以定义一个类的构造函数就像 `class A { constructor(x,y,z){}; ... }` 一样，然后还可以在 `function A` 定义后再通过 `A.prototype.k = ...` 来为其原型增添或更改方法。那么，此时的构造函数 A 的类型不该等同与 function A 这个函数的类型吗？也就是用 `(...) => ...` 就可以表示，那为什么还要用到 `new` 关键字？
+> 
+
+你说得对，JavaScript 中的方法实际上只是一个值为函数的属性。例如，下面两种定义方法的方式是等价的：
+
+```javascript
+class A {
+  constructor(x) {
+    this.x = x;
+  }
+  foo() {
+    console.log(this.x);
+  }
+}
+
+// 等价于
+
+class A {
+  constructor(x) {
+    this.x = x;
+    this.foo = function() {
+      console.log(this.x);
+    }
+  }
+}
+```
+
+对于 `constructor` 构造函数，它也只是一个特殊的方法，用于在创建对象实例时初始化对象的状态。
+
+至于你提到的 `new` 关键字，它用于定义构造函数类型，而不是普通函数类型。这是因为构造函数和普通函数在使用上有一些区别。例如，构造函数通常需要使用 `new` 关键字来调用，而普通函数则不需要。此外，构造函数还有一些特殊的行为，例如它会自动创建一个新对象并将其返回。因此，在 TypeScript 中，我们使用 `new` 关键字来定义构造函数类型，以便在类型检查时能够区分构造函数和普通函数。
+
+#### 8/20
+
+> 既然一般方法可以像这样写成一个属性，构造函数这一个特殊方法也能吗？
+
+不，构造函数不能像普通方法一样写成一个属性。构造函数是一个特殊的方法，它用于在创建对象实例时初始化对象的状态。在类定义中，你必须使用 `constructor` 关键字来定义构造函数，例如：
+
+```javascript
+class A {
+  constructor(x) {
+    this.x = x;
+  }
+}
+```
+
+你不能像这样定义构造函数：
+
+```javascript
+class A {
+  constructor = function(x) {
+    this.x = x;
+  }
+}
+```
+
+这样会导致语法错误。
+
+#### 9/20
+
+> 原型中的属性，是不是就是每个对象的公共的方法？
+
+是的，原型中的属性通常用于定义对象的公共方法。当你在一个对象上调用一个方法时，JavaScript 引擎会首先在对象自身的属性中查找这个方法。如果找不到，它会继续在对象的原型中查找。如果仍然找不到，它会继续在原型的原型中查找，直到找到这个方法或者到达原型链的顶端。
+
+因此，你可以在原型中定义一些公共方法，这样所有实例都可以共享这些方法。例如：
+
+```javascript
+function A(x) {
+  this.x = x;
+}
+
+A.prototype.foo = function() {
+  console.log(this.x);
+}
+
+const a1 = new A(1);
+const a2 = new A(2);
+
+a1.foo(); // 输出 1
+a2.foo(); // 输出 2
+```
+
+这里，我们在 `A` 的原型中定义了一个 `foo` 方法。然后，我们创建了两个 `A` 类实例 `a1` 和 `a2`。当我们在这两个实例上调用 `foo` 方法时，JavaScript 引擎会在它们的原型中查找这个方法，并调用它。
+
+#### 10/20
+
+> 给我一个体现【原型的原型】或者乃至于【原型的原型的原型】的例子
+
+下面是一个例子，它展示了如何在原型链中访问原型的原型：
+
+```javascript
+function A() {}
+
+A.prototype.foo = function() {
+  console.log('foo from A');
+}
+
+function B() {}
+
+B.prototype = Object.create(A.prototype);
+
+B.prototype.bar = function() {
+  console.log('bar from B');
+}
+
+const b = new B();
+
+b.foo(); // 输出 'foo from A'
+b.bar(); // 输出 'bar from B'
+```
+
+在这个例子中，我们定义了两个构造函数 `A` 和 `B`。`A` 的原型中定义了一个方法 `foo`。然后，我们使用 `Object.create` 方法来创建一个新对象，它的原型指向 `A` 的原型，并将这个新对象赋值给 `B` 的原型。这样，`B` 的原型就继承了 `A` 的原型。
+
+接着，我们在 `B` 的原型中定义了一个方法 `bar`。然后，我们创建了一个 `B` 类实例 `b`。当我们在这个实例上调用 `foo` 方法时，JavaScript 引擎会首先在 `b` 对象自身的属性中查找这个方法。找不到后，它会继续在 `b` 的原型（即 `B.prototype`）中查找。仍然找不到后，它会继续在 `b` 的原型的原型（即 `A.prototype`）中查找。最终，在 `A.prototype` 中找到了这个方法，并调用它。
+
+当我们在这个实例上调用 `bar` 方法时，JavaScript 引擎会首先在 `b` 对象自身的属性中查找这个方法。找不到后，它会继续在 `b` 的原型（即 `B.prototype`）中查找。最终，在 `B.prototype` 中找到了这个方法，并调用它。
+
+#### 11/20
+
+> `Object.create` 是不是等同于 `new` ？
+
+`Object.create` 和 `new` 关键字在某些方面类似，但它们并不完全相同。
+
+`Object.create` 方法用于创建一个新对象，并将这个新对象的原型设置为指定的对象。例如，下面的代码创建了一个新对象 `obj`，它的原型指向 `proto` 对象：
+
+```javascript
+const proto = { x: 1 };
+const obj = Object.create(proto);
+console.log(obj.x); // 输出 1
+```
+
+而 `new` 关键字用于创建一个对象的实例，并调用其构造函数。例如，下面的代码创建了一个新的 `A` 类实例 `a`：
+
+```javascript
+function A(x) {
+  this.x = x;
+}
+
+const a = new A(1);
+console.log(a.x); // 输出 1
+```
+
+可以看到，`Object.create` 和 `new` 关键字都可以用于创建新对象。但是，它们的工作方式不同。`Object.create` 只是简单地创建一个新对象，并将其原型设置为指定的对象。而 `new` 关键字则会创建一个新对象，并调用其构造函数来初始化这个对象。
+
+此外，使用 `Object.create` 创建的对象不会继承构造函数的属性和方法。例如：
+
+```javascript
+function A(x) {
+  this.x = x;
+}
+
+A.prototype.foo = function() {
+  console.log('foo');
+}
+
+const a = Object.create(A.prototype);
+
+console.log(a.x); // 输出 undefined
+a.foo(); // 输出 'foo'
+```
+
+在这个例子中，我们使用 `Object.create` 方法创建了一个新对象 `a`，它的原型指向 `A.prototype`。由于我们没有调用构造函数，所以 `a.x` 属性并没有被初始化。但是，由于 `a` 的原型指向了 `A.prototype`，所以它可以访问定义在原型中的方法 `foo`。
+
+#### 12/20
+
+> 我记得 `Object` 下有个方法，也能将一个类实例化（这期间也会调用其构造函数）。有没有这样一个方法？
+
+`Object` 对象下没有直接用于实例化类并调用其构造函数的方法。如果你想创建一个类的实例并调用其构造函数，你应该使用 `new` 关键字，例如：
+
+```javascript
+class A {
+  constructor(x) {
+    this.x = x;
+  }
+}
+
+const a = new A(1);
+console.log(a.x); // 输出 1
+```
+
+不过，你可以使用 `Object.create` 方法来创建一个新对象，并将其原型设置为类的原型。然后，你可以手动调用类的构造函数来初始化这个新对象。例如：
+
+```javascript
+class A {
+  constructor(x) {
+    this.x = x;
+  }
+}
+
+const a = Object.create(A.prototype);
+A.call(a, 1);
+console.log(a.x); // 输出 1
+```
+
+在这个例子中，我们使用 `Object.create` 方法创建了一个新对象 `a`，它的原型指向 `A.prototype`。然后，我们使用 `call` 方法手动调用了 `A` 类的构造函数，并将 `this` 绑定到了 `a` 对象上。这样，我们就成功地创建了一个 `A` 类的实例，并调用了其构造函数。
+
+#### 13/20
+
+> 看起来， `class` 以及其相关的关键字如 `private` `readonly` `static` 等，其实都是一些函数定义以及向特定属性赋值的代码的语法糖。那么， `interface` 和 `namespace` 这两个关键字呢？也是语法糖吗，有没有其本来的写法？
+
+`interface` 和 `namespace` 是 TypeScript 中特有的关键字，它们并不是语法糖。
+
+`interface` 关键字用于定义一个类型，它描述了一个对象的形状。例如：
+
+```typescript
+interface Point {
+  x: number;
+  y: number;
+}
+
+const p: Point = { x: 1, y: 2 };
+```
+
+在这个例子中，我们定义了一个名为 `Point` 的接口，它描述了一个具有 `x` 和 `y` 属性的对象。然后，我们创建了一个常量 `p`，并将其类型指定为 `Point`。这样，TypeScript 就会在编译时检查 `p` 对象是否符合 `Point` 接口的定义。
+
+需要注意的是，接口只存在于 TypeScript 的类型系统中，在编译为 JavaScript 代码后会被删除。因此，接口并不是语法糖，而是 TypeScript 特有的类型定义方式。
+
+`namespace` 关键字用于定义一个命名空间，它可以将一组相关的变量、函数和类组织在一起。例如：
+
+```typescript
+namespace MyMath {
+  export function add(x: number, y: number) {
+    return x + y;
+  }
+}
+
+console.log(MyMath.add(1, 2)); // 输出 3
+```
+
+在这个例子中，我们定义了一个名为 `MyMath` 的命名空间，并在其中定义了一个名为 `add` 的函数。然后，我们可以使用命名空间名称来访问这个函数。
+
+需要注意的是，命名空间在编译为 JavaScript 代码后会被转换为一个立即执行函数表达式（IIFE）。因此，命名空间并不是语法糖，而是一种组织代码的方式。
+
+#### 14/20
+
+> IIFE 是什么？
+
+IIFE（Immediately Invoked Function Expression）是一个立即调用的函数表达式。它是一种常用的 JavaScript 编程技巧，用于创建一个新的作用域来封装变量。
+
+IIFE 的基本形式如下：
+
+```javascript
+(function() {
+  // 代码
+})();
+```
+
+在这个例子中，我们定义了一个匿名函数，并立即调用了它。由于函数调用会创建一个新的作用域，所以在这个函数内部定义的变量不会污染全局作用域。
+
+IIFE 常用于模块化编程，可以将一组相关的变量、函数和类封装在一个 IIFE 中，以避免污染全局作用域。例如：
+
+```javascript
+const MyMath = (function() {
+  function add(x, y) {
+    return x + y;
+  }
+
+  return {
+    add: add
+  };
+})();
+
+console.log(MyMath.add(1, 2)); // 输出 3
+```
+
+在这个例子中，我们使用 IIFE 来定义一个名为 `MyMath` 的模块。在 IIFE 内部，我们定义了一个名为 `add` 的函数，并将它作为模块的导出返回。然后，我们可以使用模块名称来访问这个函数。
+
+#### 15/20
+
+> 我懂了， `namespace` 相当于是把一些定义在局部的值（函数或者一般的值），其中指定了 `export` 的那些给添加到要返回的那个结构体字面量内，并且由于立即执行因而外面的 `const` 常量就已经是相应的那个结构体了，因而它可以直接使用它的属性。
+> 
+> IIFE 真是个妙招。而且它看起来不仅可以用在 JS/TS 。我想看看在别的地方，比如 Lua 或 Elixir 或 Scala 或 Java ，这个手段是不是也能奏效。
+> 
+
+你对 `namespace` 的理解是正确的。它确实是一种将一组相关的变量、函数和类组织在一起的方式。在编译为 JavaScript 代码后，`namespace` 会被转换为一个 IIFE，其中导出的变量和函数会被添加到返回的对象中。
+
+至于 IIFE 这种技巧，它确实非常有用，可以用来创建一个新的作用域来封装变量。不过，它并不是所有语言都支持的。例如，在 Lua、Elixir、Scala 和 Java 等语言中，没有类似于 IIFE 的概念。这些语言通常有自己的方式来创建新的作用域和组织代码。例如，在 Lua 中，你可以使用 `do ... end` 语句来创建一个新的作用域；在 Elixir 中，你可以使用 `defmodule` 关键字来定义一个模块；在 Scala 中，你可以使用 `object` 关键字来定义一个单例对象；在 Java 中，你可以使用 `class` 关键字来定义一个类。
+
+#### 16/20
+
+> Lua 也可以定义匿名函数，并且也有结构体（字典），因而我想它能够使用类似技巧。你可以试着把你上面的代码转写为 Lua 看看。
+
+是的，你说得对。Lua 语言支持匿名函数和表（table），因此可以使用类似于 IIFE 的技巧来创建一个新的作用域并封装变量。下面是一个例子，它展示了如何在 Lua 中使用这种技巧：
+
+```lua
+local MyMath = (function()
+  local function add(x, y)
+    return x + y
+  end
+
+  return {
+    add = add
+  }
+end)()
+
+print(MyMath.add(1, 2)) -- 输出 3
+```
+
+在这个例子中，我们定义了一个局部变量 `MyMath`，并将其值设置为一个立即调用的匿名函数的返回值。在这个匿名函数内部，我们定义了一个局部函数 `add`，并将它作为表的一个字段返回。然后，我们可以使用 `MyMath.add` 来访问这个函数。
+
+可以看到，这种技巧在 Lua 中也是可行的，可以用来创建一个新的作用域并封装变量。
+
+#### 17/20
+
+> 那么，在 Scala 里按说也是可行的。可以也转写给我看看吗？
+
+是的，在 Scala 中也可以使用类似于 IIFE 的技巧来创建一个新的作用域并封装变量。下面是一个例子，它展示了如何在 Scala 中使用这种技巧：
+
+```scala
+val MyMath = {
+  def add(x: Int, y: Int): Int = x + y
+
+  new {
+    val add = MyMath.add _
+  }
+}
+
+println(MyMath.add(1, 2)) // 输出 3
+```
+
+在这个例子中，我们定义了一个值 `MyMath`，并将其值设置为一个块表达式的返回值。在这个块表达式内部，我们定义了一个方法 `add`，并将它作为一个匿名类的实例的一个字段返回。然后，我们可以使用 `MyMath.add` 来访问这个方法。
+
+可以看到，这种技巧在 Scala 中也是可行的，可以用来创建一个新的作用域并封装变量。
+
+#### 18/20
+
+> 在 Java 和 Erlang 、 Elixir 里，分别要怎么写呢？
+
+在 Java 中，你可以使用匿名类来创建一个新的作用域并封装变量。下面是一个例子，它展示了如何在 Java 中使用这种技巧：
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    MyMath myMath = new MyMath() {
+      public int add(int x, int y) {
+        return x + y;
+      }
+    };
+
+    System.out.println(myMath.add(1, 2)); // 输出 3
+  }
+
+  interface MyMath {
+    int add(int x, int y);
+  }
+}
+```
+
+在这个例子中，我们定义了一个接口 `MyMath`，它声明了一个方法 `add`。然后，在 `main` 方法中，我们创建了一个 `MyMath` 类型的匿名类实例，并重写了 `add` 方法。最后，我们可以使用这个匿名类实例的 `add` 方法。
+
+在 Erlang 和 Elixir 中，你可以使用模块来创建一个新的作用域并封装变量。下面是一个例子，它展示了如何在 Elixir 中使用这种技巧：
+
+```elixir
+defmodule MyMath do
+  def add(x, y) do
+    x + y
+  end
+end
+
+IO.puts(MyMath.add(1, 2)) # 输出 3
+```
+
+在这个例子中，我们定义了一个模块 `MyMath`，并在其中定义了一个函数 `add`。然后，我们可以使用模块名称来访问这个函数。
+
+可以看到，在 Java、Erlang 和 Elixir 中也都有类似于 IIFE 的技巧，可以用来创建一个新的作用域并封装变量。
+
+#### 19/20
+
+> 我想看【匿名函数返回结构体】的这种代码。 Java 的匿名函数本质上就是匿名内部类，所以不用重新写了， Erlang 和 Elixir 需要您重新帮我写一下。我知道它有它原本的组织代码的办法，我现在想看 IIFE 这种办法，只要能够定义匿名函数和结构体、且函数内的值可以局部化，那就应当可以做到。辛苦一下，非常感谢
+
+在 Erlang 和 Elixir 中，你可以使用匿名函数和元组或 map 来模拟类似于 IIFE 的效果。下面是一个例子，它展示了如何在 Elixir 中使用这种技巧：
+
+```elixir
+my_math = (fn ->
+  add = fn x, y -> x + y end
+
+  %{add: add}
+end).()
+
+IO.puts(my_math.add.(1, 2)) # 输出 3
+```
+
+在这个例子中，我们定义了一个匿名函数，并立即调用了它。在这个匿名函数内部，我们定义了一个局部函数 `add`，并将它作为 map 的一个键值对返回。然后，我们可以使用这个 map 的 `add` 键来访问这个函数。
+
+可以看到，在 Elixir 中也可以使用类似于 IIFE 的技巧来创建一个新的作用域并封装变量。不过，需要注意的是，这种技巧并不常用，因为 Elixir 提供了更好的方式来组织代码，例如模块。
+
+#### 20/20
+
+> 喔，但这看起来其实比模块要简单不少。 Erlang 也可以用类似的办法，但是你似乎不愿一起给出，所以，只给我一个 Erlang 里怎么写字面量结构体的代码就好，因为我还想看 Rust 用这种手段组织代码。 Rust 也有匿名函数和结构体，对吧？
+
+在 Erlang 中，你可以使用匿名函数和元组或 map 来模拟类似于 IIFE 的效果。下面是一个例子，它展示了如何在 Erlang 中使用这种技巧：
+
+```erlang
+MyMath = (fun() ->
+  Add = fun(X, Y) -> X + Y end,
+
+  {add, Add}
+end)().
+
+{add, Add} = MyMath,
+io:format("~p~n", [Add(1, 2)]). % 输出 3
+```
+
+在这个例子中，我们定义了一个匿名函数，并立即调用了它。在这个匿名函数内部，我们定义了一个局部函数 `Add`，并将它作为元组的一个元素返回。然后，我们可以使用模式匹配来从元组中提取这个函数。
+
+至于 Rust，它确实支持匿名函数和结构体。你可以使用闭包和结构体来模拟类似于 IIFE 的效果。下面是一个例子，它展示了如何在 Rust 中使用这种技巧：
+
+```rust
+let my_math = {
+    let add = |x: i32, y: i32| x + y;
+
+    (add)
+};
+
+println!("{}", my_math(1, 2)); // 输出 3
+```
+
+在这个例子中，我们定义了一个闭包 `add`，并将它赋值给变量 `my_math`。然后，我们可以使用这个变量来调用这个闭包。
+
+可以看到，在 Erlang 和 Rust 中也都可以使用类似于 IIFE 的技巧来创建一个新的作用域并封装变量。
