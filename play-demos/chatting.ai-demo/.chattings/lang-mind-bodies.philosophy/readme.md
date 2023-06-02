@@ -236,4 +236,4 @@ Source: Conversation with Bing, 6/1/2023
 (3) Review: Slavoj Žižek's "Surplus-Enjoyment: A Guide for the Non .... https://merionwest.com/2022/10/03/review-slavoj-zizeks-surplus-enjoyment-a-guide-for-the-non-perplexed/.
 (4) Surplus-Enjoyment: A Guide For The Non-Perplexed - Goodreads. https://www.goodreads.com/book/show/60457216-surplus-enjoyment.
 
-
+> *（我想到一个说法，「一切都和性有关 —— 除了性」。延迟快感，这种事情也同构地发生于人类的性行为中，且相当普遍。性行为的乐趣不在于射出，而在于尽可能延迟射出。在延迟期间，就能体验快感，这个快感是压抑性的。这就是「剩余快感」。并且，在最后释放的阶段，还会有「由于足够延迟因而多出了一部分增值的爽」这样的体验。以及，即便是性行为之前或不性行为，只是搂抱在一起，也会有一种多出来的快感。而令人类投入其中不能自己的，甚至不惜为之丢掉自己重要的利益或承担重要风险的，也不是最终的那个结果，而就是这个压抑性的快感 —— 甚至可以说，最终的释放，也已然全是由压抑性的快感的积累而构成的了。）*
