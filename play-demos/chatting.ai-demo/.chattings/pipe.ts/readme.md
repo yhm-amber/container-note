@@ -1,7 +1,7 @@
 
 # Pipe in TS
 
-### Pipe 0
+### Pipe 0 (new bing) (Precise)
 
 #### 1/20
 
@@ -964,7 +964,7 @@ console.log(result); // 9
 
 你还有什么问题吗？
 
-### Pipe 1
+### Pipe 1 (new bing) (Precise)
 
 #### 1/20
 
