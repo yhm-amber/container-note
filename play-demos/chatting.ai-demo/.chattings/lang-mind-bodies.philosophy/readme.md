@@ -2,7 +2,7 @@
 
 
 
-### Log, World, and Dialectic.
+### Log, World, and Dialectic. (new bing) (Precise)
 
 #### 1/20
 
