@@ -1,7 +1,7 @@
 # Cell with IIFE
 
 
-### IIFE
+### IIFE (new bing) (Precise)
 
 #### 1/20
 
@@ -821,7 +821,7 @@ Source: Conversation with Bing, 2023/5/31
 
 ----------------------------------------------
 
-### qas
+### qas (new bing) (Precise)
 
 #### 1/20
 
@@ -1376,7 +1376,7 @@ match f {
 
 最后，我们使用 `find` 和 `map` 方法从 `r` 数组中获取 `"sss"` 键对应的枚举值，并使用模式匹配来处理它。在这个例子中，我们匹配到了 `MyFunctions::Sss(f)` 分支，并调用了其中存储的函数。
 
-### continue...
+### continue... (new bing) (Precise)
 
 #### 1/20
 
