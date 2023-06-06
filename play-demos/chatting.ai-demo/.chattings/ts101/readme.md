@@ -1,7 +1,7 @@
 
 # TypeScript 101
 
-### 101
+### 101 (new bing) (Precise)
 
 #### 1/20
 
@@ -312,7 +312,7 @@ const obj = {
 obj.fun(a, b, c);
 ```
 
-### 102
+### 102 (new bing) (Precise)
 
 #### 1/20
 
@@ -892,7 +892,7 @@ MyNamespace.myFunction();
 
 你还有其他问题吗？
 
-### 103
+### 103 (new bing) (Precise)
 
 #### 1/20
 
