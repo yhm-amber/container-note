@@ -9,6 +9,15 @@
 
 [docs:deploy/nomad]: https://doc.arroyo.dev/deployment/nomad
 [docs:deploy/kubernetes]: https://doc.arroyo.dev/deployment/kubernetes
+[docs:start/single]: https://doc.arroyo.dev/getting-started
+
+### single oci
+
+[*ref*][docs:start/single]
+
+~~~ sh
+docker run -p 8000:8000 -p 8001:8001 -- ghcr.io/arroyosystems/arroyo-single:latest
+~~~
 
 ### nomad
 
