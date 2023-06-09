@@ -1,1 +1,1 @@
-[[../../../../streamming101.tyler-note][🐍 note]]
+[[../../../../practices-notes/streamming101.tyler-note][🐍 note]]
