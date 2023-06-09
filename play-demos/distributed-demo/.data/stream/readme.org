@@ -3,4 +3,4 @@
 
 ----
 
-- [[../../arryo-play][⛵ arroyo.sys]]
+- [[../../arroyo-play][⛵ arroyo.sys]]
