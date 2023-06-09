@@ -14,6 +14,14 @@
 
 [*ref*][docs:deploy/nomad]
 
+need: 
+
+[needs:nomad-pack]: https://developer.hashicorp.com/nomad/tutorials/nomad-pack/nomad-pack-intro "Introduction to Nomad Pack | Nomad | HashiCorp Developer"
+
+- [nomad pack][needs:nomad-pack]
+
+
+
 ~~~ sh
 nomad-pack registry add -- arroyo https://github.com/ArroyoSystems/arroyo-nomad-pack.git ;
 
