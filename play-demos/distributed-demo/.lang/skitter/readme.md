@@ -1,0 +1,2 @@
+
+[play]: ../../skitter-play
