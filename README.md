@@ -1,6 +1,6 @@
 
 ~~~ md
-note about practice . 🦎🤔
+note about things ... 🐿🐘
 ~~~
 
 repo content: 
