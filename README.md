@@ -1,6 +1,6 @@
 
 ~~~ md
-note about things ... 🐿🐘
+note about things ... 🐌🐘
 ~~~
 
 repo content: 
