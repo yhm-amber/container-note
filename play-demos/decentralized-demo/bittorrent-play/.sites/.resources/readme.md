@@ -25,6 +25,24 @@ magnet:?xt=urn:btih:7e4fc497df7b26d12004483f21dad9fe4f652bdd&dn=(%e4%b8%80%e8%88
 
 Series and Movies .
 
+### 天気の子
+
+#### [`[AI-Raws] 天気の子 (UHD HEVC 3840x2160 SDR yuv420p10le DTS-HD／FLAC 字幕)[5061BEBA].mkv`](https://bt4g.org/magnet/5178c3e5b0be4f844c8e110ab9ba94b3bb73542f)
+
+~~~ magnet
+magnet:?xt=urn:btih:5178c3e5b0be4f844c8e110ab9ba94b3bb73542f&dn=%5BAI-Raws%5D%20%E5%A4%A9%E6%B0%97%E3%81%AE%E5%AD%90%20(UHD%20HEVC%203840x2160%20SDR%20yuv420p10le%20DTS-HD%EF%BC%8FFLAC%20%E5%AD%97%E5%B9%95)%5B5061BEBA%5D.mkv&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+- `[AI-Raws] 天気の子 (UHD HEVC 3840x2160 SDR yuv420p10le DTS-HD／FLAC 字幕)[5061BEBA].mkv` `21.99GB`
+
+#### [`[LowPower-Raws] 天気の子 - MOVIE (BD 2160P x264 FLACx3).mkv`](https://bt4g.org/magnet/e7477d41f6a6d441b893fc6277d921567b40dcbd)
+
+~~~ magnet
+magnet:?xt=urn:btih:e7477d41f6a6d441b893fc6277d921567b40dcbd&dn=%5BLowPower-Raws%5D%20%E5%A4%A9%E6%B0%97%E3%81%AE%E5%AD%90%20-%20MOVIE%20(BD%202160P%20x264%20FLACx3).mkv&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+- `[LowPower-Raws] 天気の子 - MOVIE (BD 2160P x264 FLACx3).mkv` `29.64GB`
+
 ### 混沌武士 Samurai Champloo
 
 - [Official Site](https://funimation.com/samuraichamploo)
@@ -399,6 +417,94 @@ magnet:?xt=urn:btih:dfbc03762a29676954ab423326732ed2351b0706
 ~~~ magnet
 magnet:?xt=urn:btih:FYNYRWRGIARSJTL6SP77EJR7F2SPOELW&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
 magnet:?xt=urn:btih:2e1b88da26402324cd7e93fff2263f2ea4f71176
+~~~
+
+### 日本アニメ(ーター)見本市
+
+#### [`[Cornflower.Studio] 日本アニメ(ーター)見本市 BDRip X265 Main10p`](https://bt4g.org/magnet/5547c0e4a838c5f478001bc043862d5dac145136)
+
+`14.52GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:5547c0e4a838c5f478001bc043862d5dac145136&dn=%5BCornflower.Studio%5D%20%E6%97%A5%E6%9C%AC%E3%82%A2%E3%83%8B%E3%83%A1(%E3%83%BC%E3%82%BF%E3%83%BC)%E8%A6%8B%E6%9C%AC%E5%B8%82%20BDRip%20X265%20Main10p&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+~~~~
+Files
+--------
+[Cornflower.Studio] #20A ME!ME!ME! CHRONIC feat.daoko／Teddy Loid (BDRip 1080P X265 Main10p Flac).mkv 1012.02MB
+[Cornflower.Studio] #12 evangelion Another Impact（Confidential）(BDRip 1080P X265 Main10p Flac).mkv 1006.58MB
+[Cornflower.Studio] #27 ブブとブブリーナ (BDRip 1920X816 X265 Main10p Flac).mkv 865.87MB
+[Cornflower.Studio] #23 鼻下長紳士回顧録 (BDRip 1080P X265 Main10p Flac).mkv 670.69MB
+[Cornflower.Studio] #16 月影のトキオ (BDRip 1080P X265 Main10p Flac).mkv 598.77MB
+[Cornflower.Studio] #29 ヒストリー機関 (BDRip 1080P X265 Main10p Flac).mkv 592.59MB
+[Cornflower.Studio] #18 オチビサン (BDRip 1080P X265 Main10p Flac).mkv 548.01MB
+[Cornflower.Studio] #30 ザ・ウルトラマン (BDRip 1920X816 X265 Main10p Flac).mkv 507.34MB
+[Cornflower.Studio] #31 GIRL (BDRip 1920X816 X265 Main10p Flac).mkv 502.67MB
+[Cornflower.Studio] #28 ENDLESS NIGHT (BDRip 1920X1044 X265 Main10p Flac).mkv 490.00MB
+[Cornflower.Studio] #13 Kanón (BDRip 1920X816 X265 Main10p Flac).mkv 446.74MB
+[Cornflower.Studio] #35 カセットガール (BDRip 1920X1036 X265 Main10p Flac).mkv 413.19MB
+[Cornflower.Studio] #11 POWER PLANT No.33 (BDRip 1080P X265 Main10p Flac).mkv 406.60MB
+[Cornflower.Studio] #20B (Making of) evangelion Another Impact (BDRip 1080P X265 Main10p Flac).mkv 402.74MB
+[Cornflower.Studio] #02 HILL CLIMB GIRL (BDRip 1080P X265 Main10p Flac).mkv 381.67MB
+[Cornflower.Studio] #25 ハンマーヘッド (BDRip 1920X1044 X265 Main10p Flac).mkv 376.33MB
+[Cornflower.Studio] #03 ME!ME!ME! (BDRip 1080P X265 Main10p Flac).mkv 374.61MB
+[Cornflower.Studio] #21 偶像戦域 (BDRip 1920X816 X265 Main10p Flac).mkv 364.82MB
+[Cornflower.Studio] #33 世界の国からこんにちは (BDRip 1080P X265 Main10p Flac).mkv 361.39MB
+[Cornflower.Studio] #06 西荻窪駅徒歩20分2LDK敷礼2ヶ月ペット不可 (BDRip 1920X1044 X265 Main10p Flac).mkv 335.11MB
+[Cornflower.Studio] #04 Carnage (BDRip 1920X1048 X265 Main10p Flac).mkv 325.00MB
+[Cornflower.Studio] #14 SEX and VIOLENCE with MACHSPEED (BDRip 1080P X265 Main10p Flac).mkv 322.28MB
+[Cornflower.Studio] #22 イブセキヨルニ (BDRip 1920X1044 X265 Main10p Flac).mkv 309.24MB
+[Cornflower.Studio] #15 おばけちゃん (BDRip 1080P X265 Main10p Flac).mkv 304.68MB
+[Cornflower.Studio] #09 電光超人グリッドマンboys invent great hero (BDRip 1080P X265 Main10p Flac).mkv 285.21MB
+[Cornflower.Studio] #34 旅のロボから (BDRip 1920X1044 X265 Main10p Flac).mkv 282.34MB
+[Cornflower.Studio] #19 I can Friday by day! (BDRip 1920X1044 X265 Main10p Flac).mkv 276.93MB
+[Cornflower.Studio] #32 新世紀いんぱくつ。(BDRip 1080P X265 Main10p Flac).mkv 261.05MB
+[Cornflower.Studio] #17 三本の証言者 (BDRip 1920X1044 X265 Main10p Flac).mkv 231.05MB
+[Cornflower.Studio] #07 until You come to me (BDRip 1920X816 X265 Main10p Flac).mkv 223.64MB
+[Cornflower.Studio] #24 神速のRouge (BDRip 1920X816 X265 Main10p Flac).mkv 212.48MB
+[Cornflower.Studio] #01 龍の歯医者 (BDRip 1920X808 X265 Main10p Flac).mkv 170.22MB
+[Cornflower.Studio] #26 コント ころしや 1989 (BDRip 1920X1044 X265 Main10p Flac).mkv 160.12MB
+[Cornflower.Studio] #08 そこからの明日。 (BDRip 1920X1048 X265 Main10p Flac).mkv 129.64MB
+Blu-ray未収録 3話 WEB-720P/#EXTRA 機動警察パトレイバーREBOOT.mp4 111.91MB
+Blu-ray未収録 3話 WEB-720P/#05.安彦良和·板野一郎 原撮集.mp4 100.19MB
+[Cornflower.Studio] 日本アニメ(ーター)見本市 OP4 (BDRip 1080P X265 Main10p Flac).mkv 98.14MB
+Blu-ray未収録 3話 WEB-720P/#10.ヤマデロイド.mp4 86.64MB
+[Cornflower.Studio] 日本アニメ(ーター)見本市 CM3 (BDRip 1080P X265 Main10p Flac).mkv 82.83MB
+[Cornflower.Studio] 日本アニメ(ーター)見本市 CM2 (BDRip 1080P X265 Main10p Flac).mkv 65.10MB
+[Cornflower.Studio] 日本アニメ(ーター)見本市 CM1 (BDRip 1080P X265 Main10p Flac).mkv 49.92MB
+[Cornflower.Studio] 日本アニメ(ーター)見本市 OP3 (BDRip 1080P X265 Main10p Flac).mkv 39.09MB
+[Cornflower.Studio] 日本アニメ(ーター)見本市 OP2 (BDRip 1080P X265 Main10p Flac).mkv 35.97MB
+[Cornflower.Studio] 日本アニメ(ーター)見本市 OP1 (BDRip 1080P X265 Main10p Flac).mkv 32.80MB
+Screenshots/Filter(12, 6207).png 2.64MB
+Screenshots/Source(34, 4772).png 1.97MB
+Screenshots/Source(12, 6207).png 1.92MB
+Screenshots/Filter(02, 2344).png 1.89MB
+Screenshots/Filter(34, 4772).png 1.73MB
+Screenshots/Source(02, 2344).png 1.52MB
+Screenshots/Filter(13, 2946).png 1.38MB
+Screenshots/Source(13, 2946).png 1.30MB
+Screenshots/Filter(03, 3107).png 1.26MB
+Screenshots/Source(03, 3107).png 695.63KB
+MD5 & CRC32.txt 4.73KB
+~~~~
+
+### もののけ姫 (Princess.Mononoke.1997)
+
+#### [`[Cornflower.Studio][もののけ姫 (Princess.Mononoke.1997)][BDRip.1920X1036][X264.Hi10p.AAC][Rev]`](https://bt4g.org/magnet/238b539ad5d08b543bb2549da43f2054494fc689)
+
+`2.77GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:238b539ad5d08b543bb2549da43f2054494fc689&dn=%5BCornflower.Studio%5D%5B%E3%82%82%E3%81%AE%E3%81%AE%E3%81%91%E5%A7%AB%20(Princess.Mononoke.1997)%5D%5BBDRip.1920X1036%5D%5BX264.Hi10p.AAC%5D%5BRev%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+#### [`[Cornflower.Studio][もののけ姫(Princess Mononoke)][BDRIP.1920X1026][X264.Hi10p.AAC.CHT.JAP.ENG]`](https://bt4g.org/magnet/c06057e79ad5c196b52417054a09b52c417c1384)
+
+`2.35GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:c06057e79ad5c196b52417054a09b52c417c1384&dn=%5BCornflower.Studio%5D%5B%E3%82%82%E3%81%AE%E3%81%AE%E3%81%91%E5%A7%AB(Princess%20Mononoke)%5D%5BBDRIP.1920X1026%5D%5BX264.Hi10p.AAC.CHT.JAP.ENG%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
 ~~~
 
 ### Shingeki no Kyojin
