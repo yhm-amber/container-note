@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/oldratlee/translations/git "(Attribution-NonCommercial-ShareAlike 4.0, Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License) (Markdown) 🐼 Chinese translations for classic IT resources"
