@@ -6,4 +6,5 @@ Instances
 - [[https://www.phind.com][phind]]
 - [[https://osschat.io][osschat.io]]
 - [[https://chat.forefront.ai][chat.forefront.ai]]
+- [[https://pixai.art/chat][pixai.art/chat]]
 - ...
