@@ -3,4 +3,4 @@
 [app.apk/googleplay]: https://play.google.com/store/apps/details?id=dev.spiegl.flyingcarpet "(11.3 MB) Flying Carpet File Transfer | Google Play"
 [app.ipa/applestore]: https://apps.apple.com//app/flying-carpet-file-transfer/id1637377410 "(2.8 MB) Flying Carpet File Transfer | App Store"
 
-[video/youtube]: https://youtu.be/-RKiSmo-Bns
+[demo.video/youtube]: https://youtu.be/-RKiSmo-Bns
