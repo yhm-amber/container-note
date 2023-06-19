@@ -20,3 +20,9 @@
 
 [clash.src/gh]: https://github.com/Dreamacro/clash.git "(GPL-3.0) (Languages: Go 99.2%, Other 0.8%) A rule-based tunnel in Go."
 [clash.cli.src/gh]: https://github.com/Dreamacro/clash-ctl.git "(Go 100.0%) clash cli"
+
+[blog::clash-unauth-force-configs-csrf-rce]: https://0xf4n9x.github.io/2022/10/20/clash-unauth-force-configs-csrf-rce
+[youtube::4AnapDDMlyI]: https://www.youtube.com/watch?v=4AnapDDMlyI
+
+[fofa.info::clash]: https://fofa.info/result?qbase64=Ym9keT0ie1wiaGVsbG9cIjpcImNsYXNoXCJ9Ig%3D%3D 'search: `body="{\"hello\":\"clash\"}"`'
+[fofa.info::clash.Meta]: https://fofa.info/result?qbase64=Ym9keT0ie1wiaGVsbG9cIjpcImNsYXNoLk1ldGFcIn0i 'search: `body="{\"hello\":\"clash.Meta\"}"`'
