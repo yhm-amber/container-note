@@ -1,6 +1,6 @@
 
 ~~~ md
-note things that can build into (any) container ... // 身为 Container 然后记录一切 ... 🐌🐘
+note things that can be build into (any) container ... // 身为 Container 然后记录一切 ... 🐌🐘
 ~~~
 
 repo content: 
