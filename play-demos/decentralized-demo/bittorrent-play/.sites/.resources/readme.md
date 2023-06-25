@@ -23,9 +23,27 @@ magnet:?xt=urn:btih:7e4fc497df7b26d12004483f21dad9fe4f652bdd&dn=(%e4%b8%80%e8%88
 
 ## Anime
 
-### Paprika
-
 Series and Movies .
+
+### 今敏作品
+
+#### [`【諸神字幕組】[今敏所有電影合集][1080P][多語音軌][多國字幕][BD-MKV]★高清收藏版 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/348587_1080P_BD-MKV.html)
+
+`26.4GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:4bd0aae3fa555cf8a1c2a476f1aa23c5185cc0ed
+magnet:?xt=urn:btih:JPIKVY72KVOPRIOCUR3PDKRDYUMFZQHN&dn=%5BKamigami%5D+__+Kon+Satoshi+All+Movies+BDRip+1080p&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce
+~~~
+
+~~~~
+files
+--------
+mkv[Kamigami] 今敏 Kon Satoshi All Movies BDRip 1080p/Paprika/[Kamigami] Paprika [BD x264 1080p DTS(Can,Man,Jap,Eng,Fre,Por,Tha,Spa,Ita) Sub(Chs,Cht,Jap,Eng,Fre,Kor,Por,Tha,Spa,Ita)].mkv 6.6GB
+mkv[Kamigami] 今敏 Kon Satoshi All Movies BDRip 1080p/Perfect Blue/[Kamigami] Perfect Blue [BD x264 1080P FLAC(5.1ch) Sub(Chs,Cht,Jap,Eng)].mkv 4.3GB
+mkv[Kamigami] 今敏 Kon Satoshi All Movies BDRip 1080p/Tokyo Godfathers/[Kamigami] Tokyo Godfathers [BD x264 1080p FLAC(5.1ch) Sub(Chs,Cht,Jap,Eng,Fre,Spa,Por,Rus)].mkv 5.5GB
+mkv[Kamigami] 今敏 Kon Satoshi All Movies BDRip 1080p/千年女優/[Kamigami] Millennium Actress [BD x264 1080p DTS-HD(5.1ch,2.0ch) Sub(Chs,Jap,Eng)].mkv 10.0GB
+~~~~
 
 #### [`【懷念今敏-諸神】[紅辣椒/盜夢偵探][Paprika][1080P][國粵日英法葡泰西意音軌][簡繁日英法韓葡泰西意字幕][BD-MKV]★高清收藏版 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/292299_-_Paprika_1080P_BD-MKV.html)
 
@@ -45,8 +63,6 @@ magnet:?xt=urn:btih:43689968ea4877c489939bd11ae17bf534bf0f62
 magnet:?xt=urn:btih:INUJS2HKJB34JCMTTPIRVYL36U2L6D3C&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
 ~~~
 
-### 未麻的部屋
-
 #### [`【懷念今敏-諸神】[未麻之部屋/未麻的部屋/完美恐懼/完美之藍/Perfect Blue][1080P][FLAC(5.1ch)][簡繁英日文字幕][BD-MKV] ★高清收藏版 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/287731_-_Perfect_Blue_1080P_FLAC_5_1ch_BD-MKV.html)
 
 `4.3GB`
@@ -56,8 +72,6 @@ magnet:?xt=urn:btih:e4c74d4770eb513af21cda1af50b92f6626f482c
 magnet:?xt=urn:btih:4TDU2R3Q5NITV4Q43INPKC4S6ZRG6SBM&dn=%5BKamigami%5D+Perfect+Blue+%5BBD+x264+1080P+FLAC%285.1ch%29+Sub%28GB%2CBIG5%2CJP%2CEN%29%5D.mkv&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce
 ~~~
 
-### 東京教父
-
 #### [`【懷念今敏-諸神】《東京教父/Tokyo Godfathers》[1080P][FLAC_5.1ch][简繁日英法西葡俄字幕][BD-MKV] ★高清收藏版 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/283070_-_Tokyo_Godfathers_1080P_FLAC_5_1ch_BD-MKV.html)
 
 `5.5GB`
@@ -66,8 +80,6 @@ magnet:?xt=urn:btih:4TDU2R3Q5NITV4Q43INPKC4S6ZRG6SBM&dn=%5BKamigami%5D+Perfect+B
 magnet:?xt=urn:btih:e0c611db902d5a06424fcb14f8d8d65fcd2fccbe
 magnet:?xt=urn:btih:4DDBDW4QFVNAMQSPZMKPRWGWL7GS7TF6&dn=%5BKamigami%5D+Tokyo+Godfathers+%5BBD+x264+1920_1060+FLAC%285.1ch%29+Sub%28GB%2CBIG5%2CJP%2CEN%2CFR%2CSP%2CPT%2CRU%29%5D.mkv&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce
 ~~~
-
-### 千年女优
 
 #### [`【怀念今敏-诸神】[千年女优][Millennium Actress][1080P][DTS-HD][中英日文字幕][BD-MKV]★高清收藏版 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/348218_-_Millennium_Actress_1080P_DTS-HD_BD-MKV.html)
 
