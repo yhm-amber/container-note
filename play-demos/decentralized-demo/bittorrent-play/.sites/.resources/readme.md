@@ -23,7 +23,27 @@ magnet:?xt=urn:btih:7e4fc497df7b26d12004483f21dad9fe4f652bdd&dn=(%e4%b8%80%e8%88
 
 ## Anime
 
+### Paprika
+
 Series and Movies .
+
+#### [`【懷念今敏-諸神】[紅辣椒/盜夢偵探][Paprika][1080P][國粵日英法葡泰西意音軌][簡繁日英法韓葡泰西意字幕][BD-MKV]★高清收藏版 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/292299_-_Paprika_1080P_BD-MKV.html)
+
+`6.6GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:ef4fdfdbeec24a21184cd311d3c23f1c2c27727f
+magnet:?xt=urn:btih:55H57W7OYJFCCGCM2MI5HQR7DQWCO4T7&dn=%5BKamigami%5D+Paprika+%5BBD+x264+1920_1080++DTS%28Chi1%2CChi2%2CJap%2CEng%2CFre%2CPor%2CTha%2CSpa%2CIta%29+Sub%28GB%2CBig5%2CJap%2CEng%2CFre%2CKor%2CPor%2CTha%2CSpa%2CIta%29%5D.mkv&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce
+~~~
+
+#### [`[VCB-Studio] Paprika / 红辣椒 / パプリカ 10-bit 1080p HEVC BDRip [MOVIE] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/550384_VCB-Studio_Paprika_10-bit_1080p_HEVC_BDRip_MOVIE.html)
+
+`10.7GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:43689968ea4877c489939bd11ae17bf534bf0f62
+magnet:?xt=urn:btih:INUJS2HKJB34JCMTTPIRVYL36U2L6D3C&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
+~~~
 
 ### 天気の子
 
