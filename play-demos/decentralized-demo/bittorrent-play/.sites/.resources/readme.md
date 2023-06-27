@@ -604,6 +604,32 @@ magnet:?xt=urn:btih:0bb07c51d74c1dde96de49f2279bac311ca1b5d6
 
 ## Movies
 
+### 戏梦巴黎 The Dreamers (2003)
+
+#### [`戏梦巴黎.The.Dreamers.2003.BluRay.1080p.x265.10bit.MNHD-FRDS Torrent download`](https://bt4gprx.com/magnet/Ckp7Mw64XxcURecONX7GSV00KuIFMga3B)
+
+`7.83GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:7cddcedceb74c13971574706dde2f06f2ba8d6af&dn=%E6%88%8F%E6%A2%A6%E5%B7%B4%E9%BB%8E.The.Dreamers.2003.BluRay.1080p.x265.10bit.MNHD-FRDS&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+#### [`[戏梦巴黎].The.Dreamers.2003.BDRip.480p.AC3.x264-CHD.mkv Torrent download`](https://bt4gprx.com/magnet/e0Rvv2j4BvOq0Ac9Z6NegNjF4TTLQ3rSC)
+
+`2.05GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:e4c05127af6f810309252e4906d98216e047e325&dn=%5B%E6%88%8F%E6%A2%A6%E5%B7%B4%E9%BB%8E%5D.The.Dreamers.2003.BDRip.480p.AC3.x264-CHD.mkv&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+#### [`戏梦巴黎[未剪切版简繁中字].The.Dreamers.2003.UNCUT.BluRay.1080p.x264.DTS-NowYS Torrent download`](https://bt4gprx.com/magnet/ZLRyHfnjke3doHLm9t6p287eHCnDweP4L)
+
+`11.81GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:f44ad2a3869895e376eb7b6974283fec72237821&dn=%E6%88%8F%E6%A2%A6%E5%B7%B4%E9%BB%8E%5B%E6%9C%AA%E5%89%AA%E5%88%87%E7%89%88%E7%AE%80%E7%B9%81%E4%B8%AD%E5%AD%97%5D.The.Dreamers.2003.UNCUT.BluRay.1080p.x264.DTS-NowYS&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
 ### 隐入尘烟 (2022)
 
 - [隱入塵煙 | 維基百科](https://zh.wikipedia.org/wiki/%E9%9A%90%E5%85%A5%E5%B0%98%E7%83%9F)
