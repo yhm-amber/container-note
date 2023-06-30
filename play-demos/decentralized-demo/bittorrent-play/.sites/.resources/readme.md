@@ -25,6 +25,354 @@ magnet:?xt=urn:btih:7e4fc497df7b26d12004483f21dad9fe4f652bdd&dn=(%e4%b8%80%e8%88
 
 Series and Movies .
 
+### Spice and Wolf 狼と香辛料
+
+#### [`[VCB-Studio] Spice and Wolf / 狼与香辛料 / 狼と香辛料 10-bit 1080p HEVC BDRip [S1+S2 Fin] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/504056_VCB-Studio_Spice_and_Wolf_10-bit_1080p_HEVC_BDRip_S1_S2_Fin.html)
+
+`31.2GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:b928289a966ba4d22c91dc61cb0a2c55aa91c04a
+magnet:?xt=urn:btih:XEUCRGUWNOSNELER3RQ4WCRMKWVJDQCK&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=http%3A%2F%2Ft.nyaatracker.com%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2Fopentracker.acgnx.se%2Fannounce
+~~~
+
+~~~~ md
+![img](http://img.2222.moe/images/2018/11/13/SpiceAndWolf_800px.jpg)
+
+Spice and Wolf / 狼与香辛料 / 狼と香辛料 S1+S2 BDRip
+10-bit 1080p HEVC + FLAC，MKV 格式。每话约 1000 MB。
+
+狼辛的蓝光有两个版本，分卷版和 BD-BOX 版本。两者的区别主要在于第一季度上，BDBOX 大幅提升画质做了重置（或者说，避免了一些分卷版的劣化）。本次制作以 BDBOX 版本为主，并加上了分卷版单独的几个 CM。处理上，最大的难点是极其严重的色带，其次是稍有锯齿和色度偏移的线条。为了维持处理前后画风一致，以及统一官方那时有时无的加噪处理，我们在涂抹严重的区域对噪点细节进行了人为的补偿。下方的截图对比中，前 7 组来自第一季度，后 7 组来自第二季度。
+
+There are 2 official Blu-ray editions, initial volumes and later released box, where the latter gives significant improvement on season 1's image quality (say, it avoids some artifacts in the former). This project is hence based on the Blu-ray box but also includes specials which are only featured in volumes. The major difficulty in pre-processing is terrible banding and then lines with slight aliasing and chroma shift. To better preserve image style and make inconstant image noise coherent, we also apply subjective complement for noise grain in overly smoothed part. Please use attached screenshots in the bottom for intuitive comparison (the first 7 from season 1 and the other 7 from season 2).
+
+本资源扫图格式为 WebP，详情参见种子内 readme about WebP.txt
+Please refer to "readme about WebP.txt" if you have trouble viewing WebP images.
+
+----
+
+感谢所有资源提供者 / Thank to all resource providers:
+BD: U2, Share and all original providers
+CD: TSDM, Animebytes and all original providers
+
+----
+
+基础播放器教程： PotPlayer / MPC-HC / IINA
+进阶播放器教程： madVR / PotPlayer+madVR
+中文字幕分享区： VCB-Studio 分享论坛（请善用搜索）
+项目计划与列表： VCB-Studio 项目列表（每月初更新）
+
+----
+
+Comparison (right click on the image and open it in a new tab to see the full-size one)
+
+Source________________________________________________Encode
+
+![250.png](https://img.2222.moe/images/2018/11/13/250.png)
+ ![250v.png](https://img.2222.moe/images/2018/11/13/250v.png)  
+
+![1168.png](https://img.2222.moe/images/2018/11/13/1168.png)
+ ![1168v.png](https://img.2222.moe/images/2018/11/13/1168v.png)
+
+![1919.png](https://img.2222.moe/images/2018/11/13/1919.png)
+ ![1919v.png](https://img.2222.moe/images/2018/11/13/1919v.png)  
+
+![18479.png](https://img.2222.moe/images/2018/11/13/18479.png)
+ ![18479v.png](https://img.2222.moe/images/2018/11/13/18479v.png)
+
+![20565.png](https://img.2222.moe/images/2018/11/13/20565.png)
+ ![20565v.png](https://img.2222.moe/images/2018/11/13/20565v.png)
+
+![37292.png](https://img.2222.moe/images/2018/11/13/37292.png)
+ ![37292v.png](https://img.2222.moe/images/2018/11/13/37292v.png)  
+
+![49723.png](https://img.2222.moe/images/2018/11/13/49723.png)
+ ![49723v.png](https://img.2222.moe/images/2018/11/13/49723v.png)  
+
+![5002545.png](https://img.2222.moe/images/2018/11/13/5002545.png)
+ ![5002545v.png](https://img.2222.moe/images/2018/11/13/5002545v.png)  
+
+![5011180.png](https://img.2222.moe/images/2018/11/13/5011180.png)
+ ![5011180v.png](https://img.2222.moe/images/2018/11/13/5011180v.png)  
+
+![5013996.png](https://img.2222.moe/images/2018/11/13/5013996.png)
+ ![5013996v.png](https://img.2222.moe/images/2018/11/13/5013996v.png)  
+
+![5015247.png](https://img.2222.moe/images/2018/11/13/5015247.png)
+ ![5015247v.png](https://img.2222.moe/images/2018/11/13/5015247v.png)  
+
+![5024091.png](https://img.2222.moe/images/2018/11/13/5024091.png)
+ ![5024091v.png](https://img.2222.moe/images/2018/11/13/5024091v.png)  
+
+![5027845.png](https://img.2222.moe/images/2018/11/13/5027845.png)
+ ![5027845v.png](https://img.2222.moe/images/2018/11/13/5027845v.png)  
+
+![5028095.png](https://img.2222.moe/images/2018/11/13/5028095.png)
+ ![5028095v.png](https://img.2222.moe/images/2018/11/13/5028095v.png)
+~~~~
+
+~~~ ddplay
+ddplay:magnet:?xt=urn:btih:XEUCRGUWNOSNELER3RQ4WCRMKWVJDQCK&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=http%3A%2F%2Ft.nyaatracker.com%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2Fopentracker.acgnx.se%2Fannounce
+~~~
+
+~~~~ desc
+files
+--------
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢Perfect World｣／ROCKY CHACK (flac+jpg)/Scans/01.jpg 818.4KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢Perfect World｣／ROCKY CHACK (flac+jpg)/Scans/02.jpg 703.2KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢Perfect World｣／ROCKY CHACK (flac+jpg)/Scans/03.jpg 648KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢Perfect World｣／ROCKY CHACK (flac+jpg)/Scans/04.jpg 2MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢Perfect World｣／ROCKY CHACK (flac+jpg)/Scans/05.jpg 380.8KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢Perfect World｣／ROCKY CHACK (flac+jpg)/VTCL-35064.cue 676Bytes
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢Perfect World｣／ROCKY CHACK (flac+jpg)/VTCL-35064.flac 117.5MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢Perfect World｣／ROCKY CHACK (flac+jpg)/VTCL-35064.jpg 195.3KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢Perfect World｣／ROCKY CHACK (flac+jpg)/VTCL-35064.log 1.1KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢蜜の夜明け｣／新居昭乃 (flac+jpg)/Scans/01.jpg 428.8KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢蜜の夜明け｣／新居昭乃 (flac+jpg)/Scans/02.jpg 788KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢蜜の夜明け｣／新居昭乃 (flac+jpg)/Scans/03.jpg 1.5MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢蜜の夜明け｣／新居昭乃 (flac+jpg)/Scans/04.jpg 1MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢蜜の夜明け｣／新居昭乃 (flac+jpg)/Scans/05.jpg 917KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢蜜の夜明け｣／新居昭乃 (flac+jpg)/Cover.jpg 132.6KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢蜜の夜明け｣／新居昭乃 (flac+jpg)/VTCL-35063.cue 732Bytes
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢蜜の夜明け｣／新居昭乃 (flac+jpg)/VTCL-35063.flac 113.3MB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090805] ｢蜜の夜明け｣／新居昭乃 (flac+jpg)/VTCL-35063.log 1.1KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090916] ドラマ ｢狼と桃のはちみつ漬け｣ (flac+jpg)/Scans/01.jpg 372.4KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090916] ドラマ ｢狼と桃のはちみつ漬け｣ (flac+jpg)/Scans/02.jpg 286.1KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090916] ドラマ ｢狼と桃のはちみつ漬け｣ (flac+jpg)/Scans/03.jpg 289KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090916] ドラマ ｢狼と桃のはちみつ漬け｣ (flac+jpg)/Scans/04.jpg 180.2KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090916] ドラマ ｢狼と桃のはちみつ漬け｣ (flac+jpg)/Scans/05.jpg 233.7KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090916] ドラマ ｢狼と桃のはちみつ漬け｣ (flac+jpg)/Scans/06.jpg 258.7KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090916] ドラマ ｢狼と桃のはちみつ漬け｣ (flac+jpg)/Scans/07.jpg 211.3KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090916] ドラマ ｢狼と桃のはちみつ漬け｣ (flac+jpg)/Scans/08.jpg 406.1KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090916] ドラマ ｢狼と桃のはちみつ漬け｣ (flac+jpg)/Cover.jpg 372.4KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090916] ドラマ ｢狼と桃のはちみつ漬け｣ (flac+jpg)/PCCG-90037.cue 1.5KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090916] ドラマ ｢狼と桃のはちみつ漬け｣ (flac+jpg)/PCCG-90037.flac 274.4MB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090916] ドラマ ｢狼と桃のはちみつ漬け｣ (flac+jpg)/PCCG-90037.log 697Bytes
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090917] 海を渡る風 オリジナルサウンドトラック／福田康文 (flac+webp)/Scans/01.webp 205.5KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090917] 海を渡る風 オリジナルサウンドトラック／福田康文 (flac+webp)/Scans/02.webp 257.7KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090917] 海を渡る風 オリジナルサウンドトラック／福田康文 (flac+webp)/Scans/03.webp 206.5KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090917] 海を渡る風 オリジナルサウンドトラック／福田康文 (flac+webp)/Scans/04.webp 147.9KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090917] 海を渡る風 オリジナルサウンドトラック／福田康文 (flac+webp)/Scans/05.webp 87.9KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090917] 海を渡る風 オリジナルサウンドトラック／福田康文 (flac+webp)/MNCA-9035.cue 3KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090917] 海を渡る風 オリジナルサウンドトラック／福田康文 (flac+webp)/MNCA-9035.flac 262.4MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090917] 海を渡る風 オリジナルサウンドトラック／福田康文 (flac+webp)/MNCA-9035.jpg 1.2MB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090917] 海を渡る風 オリジナルサウンドトラック／福田康文 (flac+webp)/MNCA-9035.log 3.4KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/Scans/01.jpg 329.4KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/Scans/02.jpg 855KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/Scans/03.jpg 779.7KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/Scans/04.jpg 876.8KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/Scans/05.jpg 743.4KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/Scans/06.jpg 918.4KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/Scans/07.jpg 174.1KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/Scans/08.jpg 198.7KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/Scans/09.jpg 309.9KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/Scans/10.jpg 209.4KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/Scans/11.jpg 180.8KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/Scans/12.jpg 218.5KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/VTCL-60168.cue 4.2KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/VTCL-60168.flac 338.9MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/VTCL-60168.jpg 660.5KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[090923] 狼と｢幸せであり続ける物語｣の音楽／吉野裕司 (flac+jpg)/VTCL-60168.log 920Bytes
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[091118] ラジオ ｢小清水亜美・福山潤のオオカミックラジオ2｣ (flac)/Cover.jpg 70.5KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[091118] ラジオ ｢小清水亜美・福山潤のオオカミックラジオ2｣ (flac)/PCCG-90046~1.cue 957Bytes
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[091118] ラジオ ｢小清水亜美・福山潤のオオカミックラジオ2｣ (flac)/PCCG-90046~1.flac 372.3MB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[091118] ラジオ ｢小清水亜美・福山潤のオオカミックラジオ2｣ (flac)/PCCG-90046~2.cue 1.2KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/CDs/[091118] ラジオ ｢小清水亜美・福山潤のオオカミックラジオ2｣ (flac)/PCCG-90046~2.flac 386.8MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.1/EDアニメイラストカード 1.jpg 2.1MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.1/EDアニメイラストカード 2.jpg 1.7MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.1/ジャケット.jpg 9.8MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.1/ジャケットイラストカード表.jpg 5.1MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.1/ジャケットイラストカード裏.jpg 1.3MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.1/リーフレット表.jpg 8.7MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.1/リーフレット裏.jpg 7.9MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.1/レーベル.jpg 5.2MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/BOX画像 1.jpg 1.7MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/BOX画像 2.jpg 7.6MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/BOX画像 3.jpg 3.2MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/BOX画像 4.jpg 7.6MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/BOX画像 5.jpg 2.3MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/EDアニメイラストカード 1.jpg 922.3KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/EDアニメイラストカード 2.jpg 2.9MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/ジャケット.jpg 9.9MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/ジャケットイラストカード表.jpg 5.8MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/ジャケットイラストカード裏.jpg 1.5MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/リーフレット表.jpg 10.6MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/リーフレット裏.jpg 10.2MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/レーベル.jpg 5.2MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/帯.jpg 994.4KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/耐水ピンナップ 1.jpg 1.5MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/耐水ピンナップ 2.jpg 4.1MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.2/耐水ピンナップ 3.jpg 4.9MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.3/EDアニメイラストカード 1.jpg 9.7MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.3/EDアニメイラストカード 2.jpg 8.9MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.3/ジャケット.jpg 9.4MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.3/ジャケットイラストカード表.jpg 4.5MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.3/ジャケットイラストカード裏.jpg 1.3MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.3/リーフレット表.jpg 8.1MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.3/リーフレット裏.jpg 7MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.3/レーベル.jpg 4.9MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.4/EDアニメイラストカード 1.jpg 2.8MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.4/EDアニメイラストカード 2.jpg 1.6MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.4/イラストカード表.jpg 5.6MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.4/イラストカード裏.jpg 1.9MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.4/ジャケット.jpg 12.6MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.4/リーフレット表.jpg 10.5MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.4/リーフレット裏.jpg 9.7MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/Scans/Vol.4/レーベル.jpg 4.1MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf II [Drama01][Ma10p_1080p][x265_flac].mkv 441.2MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf II [Drama02][Ma10p_1080p][x265_flac].mkv 252.8MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf II [Menu01][Hi444pp_1080p][x264_flac].mkv 11.3MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf II [Menu02][Hi444pp_1080p][x264_flac].mkv 11.5MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf II [Menu03][Hi444pp_1080p][x264_flac].mkv 10.2MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf II [Menu04][Hi444pp_1080p][x264_flac].mkv 10MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf II [NCED12][Ma10p_1080p][x265_flac].mkv 94.4MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf II [NCED][Ma10p_1080p][x265_flac].mkv 55.3MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf II [NCOP][Ma10p_1080p][x265_flac].mkv 88.6MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf II [Wacchi_to_Obenkyou][Ma10p_1080p][x265_flac].mkv 50.7MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf II [Wacchi_to_Stretch][Ma10p_1080p][x265_flac].mkv 94.7MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/[VCB-Studio] Spice and Wolf II [00][Ma10p_1080p][x265_flac].mkv 904.7MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/[VCB-Studio] Spice and Wolf II [01][Ma10p_1080p][x265_flac].mkv 965.6MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/[VCB-Studio] Spice and Wolf II [02][Ma10p_1080p][x265_flac].mkv 934.3MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/[VCB-Studio] Spice and Wolf II [03][Ma10p_1080p][x265_flac].mkv 1001.6MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/[VCB-Studio] Spice and Wolf II [04][Ma10p_1080p][x265_flac].mkv 1004.1MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/[VCB-Studio] Spice and Wolf II [05][Ma10p_1080p][x265_flac].mkv 1.0GB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/[VCB-Studio] Spice and Wolf II [06][Ma10p_1080p][x265_flac].mkv 1.1GB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/[VCB-Studio] Spice and Wolf II [07][Ma10p_1080p][x265_flac].mkv 1.2GB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/[VCB-Studio] Spice and Wolf II [08][Ma10p_1080p][x265_flac].mkv 1.0GB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/[VCB-Studio] Spice and Wolf II [09][Ma10p_1080p][x265_flac].mkv 1010.9MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/[VCB-Studio] Spice and Wolf II [10][Ma10p_1080p][x265_flac].mkv 1.0GB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/[VCB-Studio] Spice and Wolf II [11][Ma10p_1080p][x265_flac].mkv 1.1GB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/[VCB-Studio] Spice and Wolf II [12][Ma10p_1080p][x265_flac].mkv 1.3GB
+:txt: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf II [Ma10p_1080p]/readme about WebP.txt 1.2KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢リンゴ日和～The Wolf Whistling Song｣／ROCKY CHACK (flac+jpg)/Scans/01.jpg 710.8KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢リンゴ日和～The Wolf Whistling Song｣／ROCKY CHACK (flac+jpg)/Scans/02.jpg 1.4MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢リンゴ日和～The Wolf Whistling Song｣／ROCKY CHACK (flac+jpg)/Scans/03.jpg 728KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢リンゴ日和～The Wolf Whistling Song｣／ROCKY CHACK (flac+jpg)/Scans/04.jpg 310.2KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢リンゴ日和～The Wolf Whistling Song｣／ROCKY CHACK (flac+jpg)/Scans/05.jpg 225.4KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢リンゴ日和～The Wolf Whistling Song｣／ROCKY CHACK (flac+jpg)/VTCL-35014.cue 796Bytes
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢リンゴ日和～The Wolf Whistling Song｣／ROCKY CHACK (flac+jpg)/VTCL-35014.flac 104.2MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢リンゴ日和～The Wolf Whistling Song｣／ROCKY CHACK (flac+jpg)/VTCL-35014.jpg 972.1KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢リンゴ日和～The Wolf Whistling Song｣／ROCKY CHACK (flac+jpg)/VTCL-35014.log 1KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢旅の途中｣／清浦夏実 (flac+jpg)/Scans/01.jpg 542KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢旅の途中｣／清浦夏実 (flac+jpg)/Scans/02.jpg 1.1MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢旅の途中｣／清浦夏実 (flac+jpg)/Scans/03.jpg 519.2KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢旅の途中｣／清浦夏実 (flac+jpg)/Scans/04.jpg 330.1KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢旅の途中｣／清浦夏実 (flac+jpg)/VTCL-35013.cue 670Bytes
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢旅の途中｣／清浦夏実 (flac+jpg)/VTCL-35013.flac 143.5MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢旅の途中｣／清浦夏実 (flac+jpg)/VTCL-35013.jpg 141KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080206] ｢旅の途中｣／清浦夏実 (flac+jpg)/VTCL-35013.log 1.1KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/Scans/01.jpg 1.2MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/Scans/02.jpg 1.2MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/Scans/03.jpg 648.9KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/Scans/04.jpg 599.8KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/Scans/05.jpg 1.9MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/Scans/06.jpg 2.4MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/Scans/07.jpg 2.3MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/Scans/08.jpg 2.6MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/Scans/09.jpg 2.4MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/Scans/10.jpg 2.7MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/Scans/11.jpg 1.5MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/Scans/12.jpg 910.8KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/Scans/13.jpg 771KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/VTCL-60021.cue 4KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/VTCL-60021.flac 437.2MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/VTCL-60021.jpg 1.1MB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080312] サウンドトラック ｢狼と旅の音楽｣／吉野裕司 (flac+jpg)/VTCL-60021.log 2.8KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080626] ｢隣にいるよ｣／ホロ (flac+webp+jpg)/Scans/01.jpg 507.9KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080626] ｢隣にいるよ｣／ホロ (flac+webp+jpg)/Scans/02.webp 5.4MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080626] ｢隣にいるよ｣／ホロ (flac+webp+jpg)/Scans/03.jpg 456.4KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080626] ｢隣にいるよ｣／ホロ (flac+webp+jpg)/Scans/04.jpg 631.1KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080626] ｢隣にいるよ｣／ホロ (flac+webp+jpg)/Scans/05.jpg 360KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080626] ｢隣にいるよ｣／ホロ (flac+webp+jpg)/MNCA-9028.cue 777Bytes
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080626] ｢隣にいるよ｣／ホロ (flac+webp+jpg)/MNCA-9028.flac 133.3MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080626] ｢隣にいるよ｣／ホロ (flac+webp+jpg)/MNCA-9028.jpg 507.9KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080626] ｢隣にいるよ｣／ホロ (flac+webp+jpg)/MNCA-9028.log 1016Bytes
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ドラマ ｢狼と琥珀色の憂鬱｣ (flac+jpg)/Scans/01.jpg 611.7KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ドラマ ｢狼と琥珀色の憂鬱｣ (flac+jpg)/Scans/02.jpg 1.2MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ドラマ ｢狼と琥珀色の憂鬱｣ (flac+jpg)/Scans/03.jpg 431.9KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ドラマ ｢狼と琥珀色の憂鬱｣ (flac+jpg)/Scans/04.jpg 643.2KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ドラマ ｢狼と琥珀色の憂鬱｣ (flac+jpg)/Scans/05.jpg 955.6KB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ドラマ ｢狼と琥珀色の憂鬱｣ (flac+jpg)/Scans/06.jpg 362.4KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ドラマ ｢狼と琥珀色の憂鬱｣ (flac+jpg)/PCCR-90026.cue 2KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ドラマ ｢狼と琥珀色の憂鬱｣ (flac+jpg)/PCCR-90026.flac 295.3MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ドラマ ｢狼と琥珀色の憂鬱｣ (flac+jpg)/PCCR-90026.jpg 611.7KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ドラマ ｢狼と琥珀色の憂鬱｣ (flac+jpg)/PCCR-90026.log 781Bytes
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ラジオ ｢小清水亜美・福山潤のオオカミックラジオ｣ (flac)/Cover.jpg 1.7MB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ラジオ ｢小清水亜美・福山潤のオオカミックラジオ｣ (flac)/PCCR-90027~1.cue 986Bytes
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ラジオ ｢小清水亜美・福山潤のオオカミックラジオ｣ (flac)/PCCR-90027~1.flac 356.3MB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ラジオ ｢小清水亜美・福山潤のオオカミックラジオ｣ (flac)/PCCR-90027~2.cue 1.1KB
+:unknown: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/CDs/[080716] ラジオ ｢小清水亜美・福山潤のオオカミックラジオ｣ (flac)/PCCR-90027~2.flac 366.3MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/Scans/BDBOX/COVER1.jpg 4.7MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/Scans/BDBOX/COVER2.jpg 4.5MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/Scans/BDBOX/DISC1.jpg 1.7MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/Scans/BDBOX/DISC2.jpg 1.9MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/Scans/BDBOX/DISC3.jpg 1.9MB
+:jpg: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/Scans/BDBOX/DISC4.jpg 1.8MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [CM01][Ma10p_1080p][x265_flac].mkv 14.3MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [CM02][Ma10p_1080p][x265_flac].mkv 5.7MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [CM03][Ma10p_1080p][x265_flac].mkv 12.7MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [CM04][Ma10p_1080p][x265_flac].mkv 6.7MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [CM05][Ma10p_720p][x265_flac].mkv 3.9MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [CM06][Ma10p_720p][x265_flac].mkv 3.2MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [CM07][Ma10p_720p][x265_flac].mkv 3.6MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [CM08][Ma10p_720p][x265_flac].mkv 5.2MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [CM09][Ma10p_720p][x265_flac].mkv 4.8MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [CM10][Ma10p_720p][x265_flac].mkv 9.4MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [CM11][Ma10p_720p][x265_flac].mkv 10.4MB
+:png: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [Menu01_1].png 3.1MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [Menu01_2][Ma10p_1080p][x265_flac].mkv 18.5MB
+:png: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [Menu02_1].png 2.9MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [Menu02_2][Ma10p_1080p][x265_flac].mkv 20.4MB
+:png: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [Menu03_1].png 3MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [Menu03_2][Ma10p_1080p][x265_flac].mkv 20.2MB
+:png: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [Menu04_1].png 3MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [Menu04_2][Ma10p_1080p][x265_flac].mkv 20.2MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [NCED13][Ma10p_1080p][x265_flac].mkv 104MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [NCED][Ma10p_1080p][x265_flac].mkv 40.6MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/SPs/[VCB-Studio] Spice and Wolf [NCOP][Ma10p_1080p][x265_flac].mkv 97.6MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/[VCB-Studio] Spice and Wolf [01][Ma10p_1080p][x265_flac].mkv 1.0GB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/[VCB-Studio] Spice and Wolf [02][Ma10p_1080p][x265_flac].mkv 1016MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/[VCB-Studio] Spice and Wolf [03][Ma10p_1080p][x265_flac].mkv 991.4MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/[VCB-Studio] Spice and Wolf [04][Ma10p_1080p][x265_flac].mkv 947.9MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/[VCB-Studio] Spice and Wolf [05][Ma10p_1080p][x265_flac].mkv 943.5MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/[VCB-Studio] Spice and Wolf [06][Ma10p_1080p][x265_flac].mkv 951.5MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/[VCB-Studio] Spice and Wolf [07][Ma10p_1080p][x265_flac].mkv 818.7MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/[VCB-Studio] Spice and Wolf [08][Ma10p_1080p][x265_flac].mkv 999.7MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/[VCB-Studio] Spice and Wolf [09][Ma10p_1080p][x265_flac].mkv 883.6MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/[VCB-Studio] Spice and Wolf [10][Ma10p_1080p][x265_flac].mkv 933.4MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/[VCB-Studio] Spice and Wolf [11][Ma10p_1080p][x265_flac].mkv 825.7MB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/[VCB-Studio] Spice and Wolf [12][Ma10p_1080p][x265_flac].mkv 1.2GB
+:mkv: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/[VCB-Studio] Spice and Wolf [13][Ma10p_1080p][x265_flac].mkv 1.1GB
+:txt: [VCB-Studio] Spice and Wolf/[VCB-Studio] Spice and Wolf [Ma10p_1080p]/readme about WebP.txt 1.2KB
+~~~~
+
+#### [`[Moozzi2] 狼与香辛料 全两季+OVA Spice and Wolf Complete BD-BOX (BD 1920x1080 x.264 Flac) - S1 + S2 + OVA - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/515299_Moozzi2_OVA_Spice_and_Wolf_Complete_BD-BOX_BD_1920x1080_x_264_Flac_-_S1_S2_OVA.html)
+
+`27.9GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:72eb3c699e357df7949967c2bac5f0d8e1412d99
+magnet:?xt=urn:btih:OLVTY2M6GV67PFEZM7BLVRPQ3DQUCLMZ&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ft.nyaatracker.com%2Fannounce&tr=http%3A%2F%2Fbigfoot1942.sektori.org%3A6969%2Fannounce
+~~~
+
+#### [`【华盟字幕社＆元古I.G部落】[Spice and Wolf 狼与香辛料][BDRip][GB_BIG5][1080P][MKV] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/231511_I_G_Spice_and_Wolf_BDRip_GB_BIG5_1080P_MKV.html)
+
+`9.6GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:dcf104c091669211950f190f23aa0768c25a4e05
+magnet:?xt=urn:btih:3TYQJQERM2JBDFIPDEHSHKQHNDBFUTQF&dn=%5BCASO%26I.G%5D%5BSpice_and_Wolf%5D&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2F61.154.116.205%3A8000%2Fannounce&tr=udp%3A%2F%2F61.154.116.205%3A8000&tr=http%3A%2F%2Ftracker.openbittorrent.com%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=http%3A%2F%2Fbt.wiiyi.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Fpost.greedland.net%3A2710%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Ftracker.dmhy.org%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.dmguo.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.levelup.cn%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker.levelup.cn%3A6060%2Fannounce
+~~~
+
+#### [`【华盟字幕社＆元古I.G部落】[Spice_and_Wolf_2nd][狼与香辛料第二季][BDRip][全4卷0-12话+特典][1080p简繁外挂] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/164372_I_G_Spice_and_Wolf_2nd_BDRip_4_0-12_1080p.html)
+
+`10.6GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:7674499ec08e98eaa155bdb67e27b0bb73dcd96c
+magnet:?xt=urn:btih:OZ2ETHWAR2MOVIKVXW3H4J5QXNZ5ZWLM&dn=%5BCASO%26I.G%5D%5BSpice_and_Wolf_2nd_Season%5D&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Fdenis.stalker.h3q.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Fbt.popgo.net%3A7456%2Fannounce&tr=http%3A%2F%2Ftracker.dmhy.org%3A8000%2Fannounce&tr=http%3A%2F%2Fbt.ktkj.com%3A8080%2Fannounce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce
+~~~
+
 ### 今敏作品
 
 #### [`【諸神字幕組】[今敏所有電影合集][1080P][多語音軌][多國字幕][BD-MKV]★高清收藏版 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/348587_1080P_BD-MKV.html)
