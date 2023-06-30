@@ -8,4 +8,4 @@
 - [[https://www.maomaovpn.me/index.php#/register?code=3dDEgIOz][来自 lzacg.one 的邀请]]
 - [[https://www.maomaovpn.me/index.php#/register?code=ZfXQVLQ1][来自 ivyypa 的邀请]]
 
-域名里的 `.com` 可以换成 `.me` 。
+域名里的 =.com= 可以换成 =.me= 。
