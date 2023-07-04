@@ -4,4 +4,4 @@
 [license]: http://www.wtfpl.net/about/ "Do What The F*ck You Want To Public License"
 [translate]: https://weblate.typeblog.net/projects/shelter/shelter/
 
-[app.apk/f-droid]: https://f-droid.org//packages/net.typeblog.shelter/ "(2.4 MiB) Shelter is a Free and Open-Source (FOSS) app that leverages the "Work Profile" feature of Android to provide an isolated space that you can install or clone apps into."
+[app.apk/f-droid]: https://f-droid.org//packages/net.typeblog.shelter/ '(2.4 MiB) Shelter is a Free and Open-Source (FOSS) app that leverages the "Work Profile" feature of Android to provide an isolated space that you can install or clone apps into.'
