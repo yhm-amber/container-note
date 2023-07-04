@@ -3,3 +3,5 @@
 [docs]: https://docs.plane.so
 
 [app]: https://app.plane.so
+
+[discord]: https://discord.com/invite/A92xrEGCge
