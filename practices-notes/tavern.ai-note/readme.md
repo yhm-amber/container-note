@@ -2,3 +2,5 @@
 [site]: https://tavernai.net/
 
 [👾]: https://discord.gg/zmK2gmr45t
+
+[actors]: https://tavernai.net/characters
