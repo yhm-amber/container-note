@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/oobabooga/text-generation-webui.git "(AGPL-3.0) (Python 95.7%, CSS 3.4%, Other 0.9%) A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, Pythia, OPT, and GALACTICA. // 用于运行 LLaMA、llama.cpp、GPT-J、Pythia、OPT 和 GALACTICA 等大型语言模型的 gradio Web UI 。 :: 它的目标是成为 文本生成领域的 AUTOMATIC1111/stable-diffusion-webui"
