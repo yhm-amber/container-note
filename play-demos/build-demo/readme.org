@@ -1,0 +1,1 @@
+Build make any symbol to cpu native.
