@@ -920,6 +920,44 @@ magnet:?xt=urn:btih:238b539ad5d08b543bb2549da43f2054494fc689&dn=%5BCornflower.St
 magnet:?xt=urn:btih:c06057e79ad5c196b52417054a09b52c417c1384&dn=%5BCornflower.Studio%5D%5B%E3%82%82%E3%81%AE%E3%81%AE%E3%81%91%E5%A7%AB(Princess%20Mononoke)%5D%5BBDRIP.1920X1026%5D%5BX264.Hi10p.AAC.CHT.JAP.ENG%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
 ~~~
 
+### JOJO's Bizarre Adventure Golden Wind
+
+#### [`【悠哈璃羽字幕社&诸神字幕组&JOJO奇妙冒险吧】[JOJO的奇妙冒险 黄金之风_JoJo's Bizarre Adventure - Golden Wind][01-39][BDRIP 1920x1080][x264_DTS-HDMA][简繁日外挂] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/540765_JOJO_JOJO_JoJo_s_Bizarre_Adventure_-_Golden_Wind_01-39_BDRIP_1920x1080_x264_DTS-HDMA.html)
+
+`49.9GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:4fb829f0995bafbe764f0ce07555bd07636f57ee
+magnet:?xt=urn:btih:J64CT4EZLOX345SPBTQHKVN5A5RW6V7O&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
+~~~
+
+#### [`【悠哈璃羽字幕社&诸神字幕组&JOJO奇妙冒险吧】[JOJO的奇妙冒险 黄金之风_JoJo's Bizarre Adventure - Golden Wind][01-39][BDRIP 1920x1080][x264_ACC][简日双语 修正合集] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/540738_JOJO_JOJO_JoJo_s_Bizarre_Adventure_-_Golden_Wind_01-39_BDRIP_1920x1080_x264_ACC.html)
+
+`26.6GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:24b05f16334374052b8692343c4d201ab24e8264
+magnet:?xt=urn:btih:ESYF6FRTIN2AKK4GSI2DYTJADKZE5ATE&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
+~~~
+
+#### [`[转]JoJo的奇妙冒险：黄金之风 JoJo's Bizarre Adventure - Golden Wind (Blu-Ray 1920x1080 FLAC) (01-39) Some-Stuffs subs - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/537390_JoJo_JoJo_s_Bizarre_Adventure_-_Golden_Wind_Blu-Ray_1920x1080_FLAC_01-39_Some-Stuffs_subs.html)
+
+`86.8GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:5ff07061a7997cbe7349b8224ba4a3e77d4ae6a9
+magnet:?xt=urn:btih:L7YHAYNHTF6L442JXAREXJFD456UVZVJ&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce
+~~~
+
+#### [`[五一节动漫礼包3][DBD-Raws][JOJO的奇妙冒险 黄金之风/JOJO's Bizarre Adventure Golden Wind/ジョジョの奇妙な冒険 黄金の风][01-39全集+NCOP&NCED][1080P][BDRip][HEVC-10bit][简繁外挂字幕][GB&BIG5][FLAC][MKV] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/567522_3_DBD-Raws_JOJO_JOJO_s_Bizarre_Adventure_Golden_Wind_01-39_NCOP_NCED_1080P_BDRip_HEVC-10bit_GB_BIG5_FLAC_MKV.html)
+
+`45.8GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:07ea0e8a84626e1152a357ffab2da7be37abe57a
+magnet:?xt=urn:btih:A7VA5CUEMJXBCUVDK772WLNHXY32XZL2&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2F1337.abcvg.info%3A80%2Fannounce
+~~~
+
 ### Shingeki no Kyojin
 
 #### [`[转载][ReinForce] 进击的巨人S1~S4(01-75)+OAD+Movie Shingeki no Kyojin (BDRip 1920x1080 x264 FLAC)`](https://share.dmhy.org/topics/view/634360_ReinForce_S1_S4_01-75_OAD_Movie_Shingeki_no_Kyojin_BDRip_1920x1080_x264_FLAC.html)
