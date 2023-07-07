@@ -1,4 +1,97 @@
 
+## Catoon
+
+### 葫芦娃
+
+#### [`葫芦兄弟 (1986) Torrent download`](https://bt4gprx.com/magnet/DkN3JygHdisZm0KXufJSYGQYxpWGA48PA)
+
+`10.87GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:3530df1450ff24e781e8a7beebde9714e04ce57a&dn=%E8%91%AB%E8%8A%A6%E5%85%84%E5%BC%9F%20(1986)&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leech.ie%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+~~~~
+files
+--------
+Season 1/葫芦兄弟 - S01E10 - 捕风捉影.mp4 924.38MB
+327261271.jpg 499.12KB
+fanart.jpg 170.92KB
+poster.jpg 116.75KB
+season02-poster.jpg 105.87KB
+tvshow.nfo 3.15KB
+Season 1/season01.jpg 296.37KB
+Season 1/葫芦兄弟 - S01E01 - 神峰奇遇.mp4 757.93MB
+Season 1/葫芦兄弟 - S01E01 - 神峰奇遇.nfo 2.71KB
+Season 1/葫芦兄弟 - S01E02 - S1E02.jpg 116.51KB
+Season 1/葫芦兄弟 - S01E02 - 七色葫芦.mp4 912.88MB
+Season 1/葫芦兄弟 - S01E02 - 七色葫芦.nfo 2.85KB
+Season 1/葫芦兄弟 - S01E03 - 误入泥潭.jpg 154.97KB
+Season 1/葫芦兄弟 - S01E03 - 误入泥潭.mp4 881.24MB
+Season 1/葫芦兄弟 - S01E03 - 误入泥潭.nfo 2.85KB
+Season 1/葫芦兄弟 - S01E04 - 梦窟迷境.jpg 159.39KB
+Season 1/葫芦兄弟 - S01E04 - 梦窟迷境.mp4 769.79MB
+Season 1/葫芦兄弟 - S01E04 - 梦窟迷境.nfo 2.90KB
+Season 1/葫芦兄弟 - S01E05 - 绝路逢生.jpg 109.27KB
+Season 1/葫芦兄弟 - S01E05 - 绝路逢生.mp4 899.10MB
+Season 1/葫芦兄弟 - S01E05 - 绝路逢生.nfo 2.84KB
+Season 1/葫芦兄弟 - S01E06 - 钢筋铁骨.jpg 175.00KB
+Season 1/葫芦兄弟 - S01E06 - 钢筋铁骨.mp4 878.50MB
+Season 1/葫芦兄弟 - S01E06 - 钢筋铁骨.nfo 2.99KB
+Season 1/葫芦兄弟 - S01E07 - 水火奇功.jpg 111.87KB
+Season 1/葫芦兄弟 - S01E07 - 水火奇功.mp4 783.37MB
+Season 1/葫芦兄弟 - S01E07 - 水火奇功.nfo 2.91KB
+Season 1/葫芦兄弟 - S01E08 - 酒酣心冰.jpg 178.08KB
+Season 1/葫芦兄弟 - S01E08 - 酒酣心冰.mp4 920.03MB
+Season 1/葫芦兄弟 - S01E08 - 酒酣心冰.nfo 2.96KB
+Season 1/葫芦兄弟 - S01E09 - 幽谷彩莲.jpg 178.66KB
+Season 1/葫芦兄弟 - S01E09 - 幽谷彩莲.mp4 902.84MB
+Season 1/葫芦兄弟 - S01E09 - 幽谷彩莲.nfo 2.92KB
+Season 1/葫芦兄弟 - S01E10 - 捕风捉影.jpg 134.93KB
+327253077.jpg 612.63KB
+Season 1/葫芦兄弟 - S01E10 - 捕风捉影.nfo 2.85KB
+Season 1/葫芦兄弟 - S01E11 - 巧夺如意.jpg 197.22KB
+Season 1/葫芦兄弟 - S01E11 - 巧夺如意.mp4 790.22MB
+Season 1/葫芦兄弟 - S01E11 - 巧夺如意.nfo 2.81KB
+Season 1/葫芦兄弟 - S01E12 - 妖迷心窍.jpg 152.18KB
+Season 1/葫芦兄弟 - S01E12 - 妖迷心窍.mp4 852.45MB
+Season 1/葫芦兄弟 - S01E12 - 妖迷心窍.nfo 2.92KB
+Season 1/葫芦兄弟 - S01E13 - 七子连心.jpg 199.64KB
+Season 1/葫芦兄弟 - S01E13 - 七子连心.mp4 855.87MB
+Season 1/葫芦兄弟 - S01E13 - 七子连心.nfo 2.79KB
+Season 1/葫芦兄弟 S1E01.jpg 147.59KB
+~~~~
+
+#### [`葫芦小金刚 (1991) Torrent download`](https://bt4gprx.com/magnet/wMPd6wGCOxY9FCG2AdhJCtr9JiIDAAPM)
+
+`11.13GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:76fff592b71b3b2ba95a1c81de75e12706cb4f6a&dn=%E8%91%AB%E8%8A%A6%E5%B0%8F%E9%87%91%E5%88%9A%20(1991)&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leech.ie%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+~~~~
+files
+--------
+Season 1/葫芦小金刚 - S01E03 - 迷梦迥旋.mp4 1.68GB
+poster.jpg 59.61KB
+tvshow.nfo 1.72KB
+Season 1/season01.jpg 76.34KB
+Season 1/葫芦小金刚 - S01E01 - 妖雾重回.mp4 1.59GB
+Season 1/葫芦小金刚 - S01E01 - 妖雾重回.nfo 2.60KB
+Season 1/葫芦小金刚 - S01E02 - 斗法比武.mp4 1.56GB
+Season 1/葫芦小金刚 - S01E02 - 斗法比武.nfo 2.45KB
+327388815.jpg 225.33KB
+Season 1/葫芦小金刚 - S01E03 - 迷梦迥旋.nfo 2.42KB
+Season 1/葫芦小金刚 - S01E04 - 势均力敌.mp4 1.63GB
+Season 1/葫芦小金刚 - S01E04 - 势均力敌.nfo 2.46KB
+Season 1/葫芦小金刚 - S01E05 - 花谷脱险.mp4 1.67GB
+Season 1/葫芦小金刚 - S01E05 - 花谷脱险.nfo 2.38KB
+Season 1/葫芦小金刚 - S01E06 - 除妖灭怪.mp4 1.52GB
+Season 1/葫芦小金刚 - S01E06 - 除妖灭怪.nfo 2.33KB
+Specials/葫芦小金刚 - S00E11 - 葫芦小金刚 Gourd Small Diamond 1991 1.mp4 1.48GB
+~~~~
+
 ## Manga
 
 ### Claymore
