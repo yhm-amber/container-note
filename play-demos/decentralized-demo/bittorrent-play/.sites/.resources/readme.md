@@ -92,6 +92,7 @@ Season 1/葫芦小金刚 - S01E06 - 除妖灭怪.nfo 2.33KB
 Specials/葫芦小金刚 - S00E11 - 葫芦小金刚 Gourd Small Diamond 1991 1.mp4 1.48GB
 ~~~~
 
+
 ## Manga
 
 ### Claymore
@@ -1174,6 +1175,53 @@ magnet:?xt=urn:btih:3ab8d59c43d2cbc5709b8cbba930200428cdbc35&dn=%E9%9A%90%E5%85%
 
 ~~~ magnet
 magnet:?xt=urn:btih:13a49a311f6e4e22dadf3c21f894b728c4b95f7d&dn=%E9%9A%90%E5%85%A5%E5%B0%98%E7%83%9F.Return%20to%20Dust.2022.4K.H264.AAC.Mandarin.CHS%26ENG-%5BBTBA%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+### How to Train Your Dragon
+
+#### [`[DBD-Raws][4K_HDR][驯龙高手/How to Train Your Dragon][2160P][BDRip][HEVC-10bit][FLAC+AC3][MKV] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/571743_DBD-Raws_4K_HDR_How_to_Train_Your_Dragon_2160P_BDRip_HEVC-10bit_FLAC_AC3_MKV.html)
+
+`6.4GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:071b3cbf703503fec6af9ea2aad3d0e1f0bd6c2d
+magnet:?xt=urn:btih:A4NTZP3QGUB75RVPT2RKVU6Q4HYL23BN&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2F1337.abcvg.info%3A80%2Fannounce
+~~~
+
+#### [`[DBD-Raws][4K_HDR][驯龙高手2/How to Train Your Dragon 2][2160P][BDRip][HEVC-10bit][FLAC+AC3][MKV] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/571744_DBD-Raws_4K_HDR_2_How_to_Train_Your_Dragon_2_2160P_BDRip_HEVC-10bit_FLAC_AC3_MKV.html)
+
+`6.7GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:0ddbf27391628beb9cc9de5baf73665f730a1964
+magnet:?xt=urn:btih:BXN7E44RMKF6XHGJ3ZN2643GL5ZQUGLE&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2F1337.abcvg.info%3A80%2Fannounce
+~~~
+
+#### [`[DBD-Raws][4K_HDR][驯龙高手3 隐秘的世界/How to Train Your Dragon 3 The Hidden World][2160P][BDRip][HEVC-10bit][FLAC+AC3][MKV] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/571745_DBD-Raws_4K_HDR_3_How_to_Train_Your_Dragon_3_The_Hidden_World_2160P_BDRip_HEVC-10bit_FLAC_AC3_MKV.html)
+
+`6.0GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:36ad1559ca0cb83659b2dd32eb167d42eec1c728
+magnet:?xt=urn:btih:G2WRKWOKBS4DMWNS3UZOWFT5ILXMDRZI&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2F1337.abcvg.info%3A80%2Fannounce
+~~~
+
+#### [`[philosophy-raws][驯龙高手/驯龙记][Moive+OVA+SP][BDRIP][1080p 10bit][国粤台日英配音][港台日英字幕][V2] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/373186_philosophy-raws_Moive_OVA_SP_BDRIP_1080p_10bit_V2.html)
+
+`40.8GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:c3858460cf210a0e54fa7a6363195def3c58c27f
+magnet:?xt=urn:btih:YOCYIYGPEEFA4VH2PJRWGGK5546FRQT7&dn=%5Bphilosophy-raws%5D%5BHow+To+Train+Your+Dragon%5D&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2F61.154.116.205%3A8000%2Fannounce&tr=http%3A%2F%2Fbt.rghost.net%3A80%2Fannounce&tr=http%3A%2F%2Fbt.edwardk.info%3A4040%2Fannounce&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannonuce&tr=http%3A%2F%2Ftracker.dmhy.org%3A8000%2Fannounce&tr=http%3A%2F%2F121.14.98.151%3A9090%2Fannounce
+~~~
+
+#### [`[philosophy-raws][驯龙高手2/驯龙记2][Moive+OVA+SP][BDRIP][1080p 10bit][国粤台日英配音][港台日英字幕] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/373181_philosophy-raws_2_2_Moive_OVA_SP_BDRIP_1080p_10bit.html)
+
+`29.7GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:ffaec4c16a197edc372485a827afa72312663b83
+magnet:?xt=urn:btih:76XMJQLKDF7NYNZEQWUCPL5HEMJGMO4D&dn=%5Bphilosophy-raws%5D%5BHow+To+Train+Your+Dragon+2%5D&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2F61.154.116.205%3A8000%2Fannounce&tr=http%3A%2F%2Fbt.rghost.net%3A80%2Fannounce&tr=http%3A%2F%2Fbt.edwardk.info%3A4040%2Fannounce&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannonuce&tr=http%3A%2F%2Ftracker.dmhy.org%3A8000%2Fannounce&tr=http%3A%2F%2F121.14.98.151%3A9090%2Fannounce
 ~~~
 
 ### 悲惨世界 Les Misérables (2012)
