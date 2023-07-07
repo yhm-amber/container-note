@@ -1052,6 +1052,17 @@ magnet:?xt=urn:btih:07ea0e8a84626e1152a357ffab2da7be37abe57a
 magnet:?xt=urn:btih:A7VA5CUEMJXBCUVDK772WLNHXY32XZL2&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2F1337.abcvg.info%3A80%2Fannounce
 ~~~
 
+### Tengoku Daimakyou
+
+#### [`[天月搬運組] 天國大魔境 / Tengoku Daimakyou - 01~13 [1080P][GB] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/644054_Tengoku_Daimakyou_-_01_13_1080P_GB.html)
+
+`6.9GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:28bd3207c74292075302b2d3839694a360ed1d57
+magnet:?xt=urn:btih:FC6TEB6HIKJAOUYCWLJYHFUUUNQO2HKX&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Fopentracker.acgnx.se%2Fannounce
+~~~
+
 ### Shingeki no Kyojin
 
 #### [`[转载][ReinForce] 进击的巨人S1~S4(01-75)+OAD+Movie Shingeki no Kyojin (BDRip 1920x1080 x264 FLAC)`](https://share.dmhy.org/topics/view/634360_ReinForce_S1_S4_01-75_OAD_Movie_Shingeki_no_Kyojin_BDRip_1920x1080_x264_FLAC.html)
