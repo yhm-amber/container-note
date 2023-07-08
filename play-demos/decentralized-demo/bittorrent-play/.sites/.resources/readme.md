@@ -467,6 +467,100 @@ magnet:?xt=urn:btih:7674499ec08e98eaa155bdb67e27b0bb73dcd96c
 magnet:?xt=urn:btih:OZ2ETHWAR2MOVIKVXW3H4J5QXNZ5ZWLM&dn=%5BCASO%26I.G%5D%5BSpice_and_Wolf_2nd_Season%5D&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Fdenis.stalker.h3q.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Fbt.popgo.net%3A7456%2Fannounce&tr=http%3A%2F%2Ftracker.dmhy.org%3A8000%2Fannounce&tr=http%3A%2F%2Fbt.ktkj.com%3A8080%2Fannounce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce
 ~~~
 
+### Psycho-Pass
+
+#### [`[诸神字幕组][心理测量者 新编辑版][Psycho-Pass Extended Edition][11话全][BDRIP][简繁日语字幕][1080P][HEVC MKV] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/634755_Psycho-Pass_Extended_Edition_11_BDRIP_1080P_HEVC_MKV.html)
+
+`5.4GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:a6c859581f28018bdf4ae9a51a8795345da3c486
+magnet:?xt=urn:btih:U3EFSWA7FAAYXX2K5GSRVB4VGRO2HREG&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
+~~~
+
+#### [`[VCB-Studio] PSYCHO-PASS 3 / 心理测量者 第三季 / サイコパス3 10-bit 1080p HEVC BDRip [TV + MOVIE Fin] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/548290_VCB-Studio_Psycho-Pass_3_3_10-bit_1080p_HEVC_BDRip_TV_MOVIE_Fin.html)
+
+`42.8GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:2821f9da84247bef9d342184d7a4f71b52600a15
+magnet:?xt=urn:btih:FAQ7TWUEER567HJUEGCNPJHXDNJGACQV&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
+~~~
+
+#### [`[Snow-Raws] 心理测量者 Sinners of the System/Psycho-Pass: Sinners of the System/PSYCHO-PASS Sinners of the System (BD 1920x1080 HEVC-YUV420P10 FLAC) - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/532124_Snow-Raws_Sinners_of_the_System_Psycho-Pass_Sinners_of_the_System_PSYCHO-PASS_Sinners_of_the_System_BD_1920x1080_HEVC-YUV420P10_FLAC.html)
+
+`24.0GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:319130efcebdd5992754297d9d22dec2c5a32b58
+magnet:?xt=urn:btih:GGITB36OXXKZSJ2UFF6Z2IW6YLC2GK2Y&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce
+~~~
+
+~~~~
+files
+--------
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/[Snow-Raws] PSYCHO-PASS Sinners of the System Case.1 罪と罰 (BD 1920x1080 HEVC-YUV420P10 FLACx4).mkv 3.8GB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/[Snow-Raws] PSYCHO-PASS Sinners of the System Case.2 First Guardian (BD 1920x1080 HEVC-YUV420P10 FLACx4).mkv 5.9GB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/[Snow-Raws] PSYCHO-PASS Sinners of the System Case.3 恩讐の彼方に______ (BD 1920x1080 HEVC-YUV420P10 FLACx4).mkv 4.7GB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System MENU01 (BD 1920x1080 HEVC-YUV420P10 FLACx2).mkv 99.2MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System MENU01_Chapter01 (BD 1920x1080 HEVC-YUV420P10 FLACx2).mkv 19.1MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System MENU01_Chapter02 (BD 1920x1080 HEVC-YUV420P10 FLACx2).mkv 16.6MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System MENU02 (BD 1920x1080 HEVC-YUV420P10 FLACx2).mkv 145.3MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System MENU02_Chapter01 (BD 1920x1080 HEVC-YUV420P10 FLACx2).mkv 23.3MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System MENU02_Chapter02 (BD 1920x1080 HEVC-YUV420P10 FLACx2).mkv 14.3MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System MENU03 (BD 1920x1080 HEVC-YUV420P10 FLACx2).mkv 157.4MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System MENU03_Chapter01 (BD 1920x1080 HEVC-YUV420P10 FLACx2).mkv 26.6MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System MENU03_Chapter02 (BD 1920x1080 HEVC-YUV420P10 FLACx2).mkv 14.5MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System SP01 (BD 1920x1080 HEVC-YUV420P10 FLAC).mkv 890.3MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System SP02 (BD 1280x720 HEVC-YUV420P10 FLAC).mkv 1.2GB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System SP03 (BD 1280x720 HEVC-YUV420P10 FLAC).mkv 916.7MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System SP04 (BD 1920x1080 HEVC-YUV420P10 FLAC).mkv 1.3GB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System SP05 (BD 1920x1080 HEVC-YUV420P10 FLAC).mkv 724.6MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System SP06 (BD 1920x1080 HEVC-YUV420P10 FLAC).mkv 691.2MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System SP07 (BD 1920x1080 HEVC-YUV420P10 FLAC).mkv 951.2MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System SP08 (BD 1920x1080 HEVC-YUV420P10 FLAC).mkv 941.3MB
+:mkv: [Snow-Raws] PSYCHO-PASS Sinners of the System/映像特典/[Snow-Raws] PSYCHO-PASS Sinners of the System SP09 (BD 1920x1080 HEVC-YUV420P10 FLAC).mkv 1.7GB
+~~~~
+
+#### [`【极影字幕社】 ★【心理测量者】【PSYCHO-PASS】【BDRip】【合集】GB MP4_1080P - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/559594_PSYCHO-PASS_BDRip_GB_MP4_1080P.html)
+
+`10.5GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:28923cfc57747c07669cc257b75cd0470c23f8d9
+magnet:?xt=urn:btih:FCJDZ7CXOR6AOZU4YJL3OXGQI4GCH6GZ&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce
+~~~
+
+#### [`[桜都字幕组] 心理测量者 3/心靈判官 3/サイコパス 3/Psycho-Pass 3 [BDRip][HEVC-10Bit FLAC][1080P][简繁外挂] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/546491_3_3_3_Psycho-Pass_3_BDRip_HEVC-10Bit_FLAC_1080P.html)
+
+`16.3GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:85b2a4e2f58e2c63390f680f973c3f50635552b5
+magnet:?xt=urn:btih:QWZKJYXVRYWGGOIPNAHZOPB7KBRVKUVV&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
+~~~
+
+#### [`[PSYCHO-PASS 剧场版][720P/1080P][BDRIP][中日双语字幕] – 诸神字幕组`](https://subs.kamigami.org/18388.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:be6626158ff8ded7d785711cca4594a41854d20&dn=[Kamigami] Psycho-Pass The Movie [BD 1080p x264 Hi10 AAC Sub(Chs,Cht,Jap)].mkv
+magnet:?xt=urn:btih:XZTCMFMP7DPNPV4FOEOMURMUUQAYKTJA&dn=%5BKamigami%5D%20Psycho-Pass%20The%20Movie%20%5BBD%201080p%20x264%20Hi10%20AAC%20Sub(Chs%2CCht%2CJap)%5D.mkv&xl=1901193013&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce
+~~~
+
+#### [`[PSYCHO-PASS 2][11话全][720P/1080P][BDRIP][中日双语字幕] – 诸神字幕组`](https://subs.kamigami.org/3289.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:cdab8988ce574bf77f7e1bf6ae349e6176fdaf60&dn=[Kamigami] Psycho-Pass 2 [BD 1080p x264 AAC Sub(Chs,Cht,Jap)]
+magnet:?xt=urn:btih:ZWVYTCGOK5F7O736DP3K4NE6MF3P3L3A&dn=%5BKamigami%5D%20Psycho-Pass%202%20%5BBD%201080p%20x264%20AAC%20Sub(Chs%2CCht%2CJap)%5D&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce
+~~~
+
+#### [`[Psycho-Pass 心理测量者][22集全][720P/1080P][BDRIP][中日双语+假名标注字幕] – 诸神字幕组`](https://subs.kamigami.org/1207.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:2231cd42bdb78c675c7365acbaa5eeb5943da&dn=[Kamigami] PSYCHO-PASS [BDRip 1920x1080 x264 FLAC MKV Sub(Chs,Jap))
+magnet:?xt=urn:btih:EIY42QV5BMDYYZ24ONS2ZOVF5YFVSQ62&dn=%5BKamigami%5D%20PSYCHO-PASS%20%5BBDRip%201920x1080%20x264%20FLAC%20MKV%20Sub(Chs%2CJap))&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce
+~~~
+
 ### 今敏作品
 
 #### [`【諸神字幕組】[今敏所有電影合集][1080P][多語音軌][多國字幕][BD-MKV]★高清收藏版 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/348587_1080P_BD-MKV.html)
