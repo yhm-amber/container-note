@@ -561,6 +561,26 @@ magnet:?xt=urn:btih:2231cd42bdb78c675c7365acbaa5eeb5943da&dn=[Kamigami] PSYCHO-P
 magnet:?xt=urn:btih:EIY42QV5BMDYYZ24ONS2ZOVF5YFVSQ62&dn=%5BKamigami%5D%20PSYCHO-PASS%20%5BBDRip%201920x1080%20x264%20FLAC%20MKV%20Sub(Chs%2CJap))&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce
 ~~~
 
+### 致不灭的你 不滅のあなたへ
+
+#### [`[千夏字幕组&VCB-Studio] 致不灭的你 / Fumetsu no Anata e / 不滅のあなたへ 10-bit 1080p HEVC BDRip [S1 Fin] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/637785_VCB-Studio_Fumetsu_no_Anata_e_10-bit_1080p_HEVC_BDRip_S1_Fin.html)
+
+`17.9GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:00e9d3a64979bc5a8e24660b4157a3ec28b4f953
+magnet:?xt=urn:btih:ADU5HJSJPG6FVDREMYFUCV5D5QULJ6KT&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
+~~~
+
+#### [`[诸神字幕组][致不灭的你 第二季][To Your Eternity S2][01-20][WEBRIP][简繁日语字幕][1080P][MKV HEVC] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/640035_To_Your_Eternity_S2_01-20_WEBRIP_1080P_MKV_HEVC.html)
+
+`12.0GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:35b9ce74f5c4995c9f7e4818607e7aa80c9bf49f
+magnet:?xt=urn:btih:GW4445HVYSMVZH36JAMGA7T2VAGJX5E7&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
+~~~
+
 ### 今敏作品
 
 #### [`【諸神字幕組】[今敏所有電影合集][1080P][多語音軌][多國字幕][BD-MKV]★高清收藏版 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/348587_1080P_BD-MKV.html)
