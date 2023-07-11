@@ -130,9 +130,11 @@ magnet:?xt=urn:btih:b31e4061b140b3773edc89a8f618ca4b13627857
 magnet:?xt=urn:btih:WMPEAYNRICZXOPW4RGUPMGGKJMJWE6CX&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Fopentracker.acgnx.se%2Fannounce
 ~~~
 
+<details>
+
+<summary><code>files</code></summary>
+
 ~~~~
-files
---------
 :mp4: [Skymoon-Raws] Mushoku Tensei S1 - 01~24 [ViuTV][WEB-DL][1080p][AVC AAC][MP4+SRT]/[Skymoon-Raws] Mushoku Tensei S1 - 01 [ViuTV][WEB-DL][1080p][AVC AAC].mp4 424.1MB
 :mp4: [Skymoon-Raws] Mushoku Tensei S1 - 01~24 [ViuTV][WEB-DL][1080p][AVC AAC][MP4+SRT]/[Skymoon-Raws] Mushoku Tensei S1 - 02 [ViuTV][WEB-DL][1080p][AVC AAC].mp4 408.3MB
 :mp4: [Skymoon-Raws] Mushoku Tensei S1 - 01~24 [ViuTV][WEB-DL][1080p][AVC AAC][MP4+SRT]/[Skymoon-Raws] Mushoku Tensei S1 - 03 [ViuTV][WEB-DL][1080p][AVC AAC].mp4 404.2MB
@@ -160,6 +162,8 @@ files
 :rar: [Skymoon-Raws] Mushoku Tensei S1 - 01~24 [ViuTV][WEB-DL][1080p][AVC AAC][MP4+SRT]/[Skymoon-Raws] Mushoku Tensei S1 [ViuTV][Subtitles].rar 246.9KB
 ~~~~
 
+</details>
+
 #### [`[AI-Raws] 無職転生〜異世界行ったら本気だす〜 Mushoku Tensei BDRip 1080p MKV - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/597054_AI-Raws_Mushoku_Tensei_BDRip_1080p_MKV.html)
 
 `27.7GB`
@@ -169,9 +173,11 @@ magnet:?xt=urn:btih:55e12778ccd56f4888346b5b7f7982095f7a4c43
 magnet:?xt=urn:btih:KXQSO6GM2VXURCBUNNNX66MCBFPXUTCD&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ft.acg.rip%3A6699%2Fannounce
 ~~~
 
+<details>
+
+<summary><code>files</code></summary>
+
 ~~~~
-files
---------
 :mkv: [AI-Raws][無職転生〜異世界行ったら本気だす〜_Mushoku Tensei][TV 01-23+EX+SP Fin][BDRip][MKV]/[AI-Raws] 無職転生 #06 (BD HEVC 1920x1080 yuv444p10le FLAC)[E8EF50B0].mkv 1.4GB
 :mkv: [AI-Raws][無職転生〜異世界行ったら本気だす〜_Mushoku Tensei][TV 01-23+EX+SP Fin][BDRip][MKV]/[AI-Raws] 無職転生 #15 (BD HEVC 1920x1080 yuv444p10le FLAC)[AEC9B274].mkv 1.2GB
 :mkv: [AI-Raws][無職転生〜異世界行ったら本気だす〜_Mushoku Tensei][TV 01-23+EX+SP Fin][BDRip][MKV]/[AI-Raws] 無職転生 #11 (BD HEVC 1920x1080 yuv444p10le FLAC)[3E1C0887].mkv 1.1GB
@@ -227,6 +233,8 @@ files
 :mkv: [AI-Raws][無職転生〜異世界行ったら本気だす〜_Mushoku Tensei][TV 01-23+EX+SP Fin][BDRip][MKV]/[AI-Raws] 無職転生 ノンクレジットOP#04 (BD HEVC 1920x1080 yuv444p10le FLAC)[CCE7A092].mkv 63.6MB
 :mkv: [AI-Raws][無職転生〜異世界行ったら本気だす〜_Mushoku Tensei][TV 01-23+EX+SP Fin][BDRip][MKV]/[AI-Raws] 無職転生 ノンクレジットOP#23 (BD HEVC 1920x1080 yuv444p10le FLAC)[C53E73EB].mkv 56.9MB
 ~~~~
+
+</details>
 
 #### [`[UCCUSS] Mushoku Tensei Isekai Ittara Honki Dasu 無職転生 異世界行ったら本気だす 第1クール (BD 1920x1080p AVC FLAC) - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/571975_UCCUSS_Mushoku_Tensei_Isekai_Ittara_Honki_Dasu_1_BD_1920x1080p_AVC_FLAC.html)
 
@@ -291,7 +299,7 @@ magnet:?xt=urn:btih:2ONUJYZWHI3GZD2FYCVLVJ4O7WHIJMKL&dn=&tr=http%3A%2F%2F104.143
 
 <details>
 
-<summary><swap>files</swap></summary>
+<summary><code>files</code></summary>
 
 ~~~~
 :ass: [Nekomoe kissaten&VCB-Studio] Mushoku Tensei ~Isekai Ittara Honki Dasu~ [Ma10p_1080p]/[Nekomoe kissaten&VCB-Studio] Mushoku Tensei ~Isekai Ittara Honki Dasu~ [01][Ma10p_1080p][x265_flac].JPSC.ass 63.3KB
