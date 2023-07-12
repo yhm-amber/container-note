@@ -1976,6 +1976,34 @@ magnet:?xt=urn:btih:0bb07c51d74c1dde96de49f2279bac311ca1b5d6
 
 ## Movies
 
+### 决裂 Breaking with Old Ideas (1975)
+
+#### [`[BD影视分享bd2020.com]决裂.Breaking.with.Old.Ideas.1975.HD1080P.国语无字.mp4 Torrent download`](https://bt4gprx.com/magnet/5pRS8zpqwxmWVtUtmPI6MGkfYHFGKY04B)
+
+[`2.68GB`](https://downloadtorrentfile.com/hash/a15f82924bdc6076bb0fc740d834e5da16a82708?name=%5BBD%E5%BD%B1%E8%A7%86%E5%88%86%E4%BA%ABbd2020.com%5D%E5%86%B3%E8%A3%82.Breaking.with.Old.Ideas.1975.HD1080P.%E5%9B%BD%E8%AF%AD%E6%97%A0%E5%AD%97.mp4)
+
+~~~ magnet
+magnet:?xt=urn:btih:a15f82924bdc6076bb0fc740d834e5da16a82708&dn=%5BBD%E5%BD%B1%E8%A7%86%E5%88%86%E4%BA%ABbd2020.com%5D%E5%86%B3%E8%A3%82.Breaking.with.Old.Ideas.1975.HD1080P.%E5%9B%BD%E8%AF%AD%E6%97%A0%E5%AD%97.mp4&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+### 疯狂的石头 Crazy Stone (2006)
+
+#### [`疯狂的石头.Crazy.Stone.2006.WEB-DL.4K.H265.AAC.2Audio-PTerWEB.mp4 Torrent download`](https://bt4gprx.com/magnet/NwBkvSvsbwciAfEVX39utdHTDfYKcFcfF)
+
+[`3.07GB`](https://downloadtorrentfile.com/hash/a8098c4ad9cbb03318e7e3ffd1968c14412540df?name=%E7%96%AF%E7%8B%82%E7%9A%84%E7%9F%B3%E5%A4%B4.Crazy.Stone.2006.WEB-DL.4K.H265.AAC.2Audio-PTerWEB.mp4)
+
+~~~ magnet
+magnet:?xt=urn:btih:a8098c4ad9cbb03318e7e3ffd1968c14412540df&dn=%E7%96%AF%E7%8B%82%E7%9A%84%E7%9F%B3%E5%A4%B4.Crazy.Stone.2006.WEB-DL.4K.H265.AAC.2Audio-PTerWEB.mp4&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+#### [`疯狂的石头.Crazy.Stone.2006.WEB-DL.4K.H265.AAC.2Audio-PTerWEB Torrent download`](https://bt4gprx.com/magnet/maOQ92eyyJAXq7jYFiKbDPuNiOfL0Ly5D)
+
+[`3.07GB`](https://downloadtorrentfile.com/hash/6bcdc8587441ba08a28b8c38992fb30636b1da39?name=%E7%96%AF%E7%8B%82%E7%9A%84%E7%9F%B3%E5%A4%B4.Crazy.Stone.2006.WEB-DL.4K.H265.AAC.2Audio-PTerWEB)
+
+~~~ magnet
+magnet:?xt=urn:btih:6bcdc8587441ba08a28b8c38992fb30636b1da39&dn=%E7%96%AF%E7%8B%82%E7%9A%84%E7%9F%B3%E5%A4%B4.Crazy.Stone.2006.WEB-DL.4K.H265.AAC.2Audio-PTerWEB&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
 ### 星际穿越 Interstellar (2014)
 
 #### [`Interstellar.2014.IMAX.2160p.10bit.HDR.BluRay.6CH.x265.HEVC-PSA Torrent download`](https://bt4gprx.com/magnet/f0XghJmhEiOypjvFC01soYGlj4aFqpQsB)
