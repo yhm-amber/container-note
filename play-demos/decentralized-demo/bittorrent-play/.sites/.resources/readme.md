@@ -1978,6 +1978,14 @@ magnet:?xt=urn:btih:0bb07c51d74c1dde96de49f2279bac311ca1b5d6
 
 ### 决裂 Breaking with Old Ideas (1975)
 
+#### [`[WEBHD]决裂 Breaking.with.Old.Ideas.1975.WEB-DL.1080P.H264.AAC-JBY@WEBHD Torrent download`](https://bt4gprx.com/magnet/3a9QY1BQjM7mOWcKsbypJ07QDN8CW8a4)
+
+[`2.23GB`](https://downloadtorrentfile.com/hash/dc516750704251c8d07a8822b0acdd0d2d798b7f?name=%5BWEBHD%5D%E5%86%B3%E8%A3%82%20Breaking.with.Old.Ideas.1975.WEB-DL.1080P.H264.AAC-JBY%40WEBHD)
+
+~~~ magnet
+magnet:?xt=urn:btih:dc516750704251c8d07a8822b0acdd0d2d798b7f&dn=%5BWEBHD%5D%E5%86%B3%E8%A3%82%20Breaking.with.Old.Ideas.1975.WEB-DL.1080P.H264.AAC-JBY%40WEBHD&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
 #### [`[BD影视分享bd2020.com]决裂.Breaking.with.Old.Ideas.1975.HD1080P.国语无字.mp4 Torrent download`](https://bt4gprx.com/magnet/5pRS8zpqwxmWVtUtmPI6MGkfYHFGKY04B)
 
 [`2.68GB`](https://downloadtorrentfile.com/hash/a15f82924bdc6076bb0fc740d834e5da16a82708?name=%5BBD%E5%BD%B1%E8%A7%86%E5%88%86%E4%BA%ABbd2020.com%5D%E5%86%B3%E8%A3%82.Breaking.with.Old.Ideas.1975.HD1080P.%E5%9B%BD%E8%AF%AD%E6%97%A0%E5%AD%97.mp4)
