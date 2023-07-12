@@ -119,6 +119,52 @@ magnet:?xt=urn:btih:7e4fc497df7b26d12004483f21dad9fe4f652bdd&dn=(%e4%b8%80%e8%88
 
 Series and Movies .
 
+
+### 天國大魔境 Tengoku Daimakyou
+
+#### [`Tengoku Daimakyou - AniLibria.TV [WEBRip 1080p] Torrent download`](https://bt4gprx.com/magnet/fD85HZe5825ei8DDeyE1y9BUgeRjBFset)
+
+[`04a54810d35ef1e3d1c03cec29732e7e6754a482`](https://downloadtorrentfile.com/hash/04a54810d35ef1e3d1c03cec29732e7e6754a482?name=Tengoku%20Daimakyou%20-%20AniLibria.TV%20%5bWEBRip%201080p%5d)
+
+`12.55GB`
+
+~~~ magnet
+
+~~~
+
+
+#### [`[DKB] Tengoku Daimakyou - (Season 01) [1080p][HEVC x265 10bit][Multi-Audio][Multi-Subs] Torrent download`](https://bt4gprx.com/magnet/U26IpMKWxjegNeuDHblya0qx3odMsAHpC)
+
+[`7956c929e1d5bdbf2bf7f6dd2e4e3f8ef9ab534b`](https://downloadtorrentfile.com/hash/7956c929e1d5bdbf2bf7f6dd2e4e3f8ef9ab534b?name=%5bDKB%5d%20Tengoku%20Daimakyou%20-%20%28Season%2001%29%20%5b1080p%5d%5bHEVC%20x265%2010bit%5d%5bMulti-Audio%5d%5bMulti-Subs%5d)
+
+`7.66GB`
+
+~~~ magnet
+
+~~~
+
+
+#### [`Tengoku Daimakyou AEROCE & Риша Torrent download`](https://bt4gprx.com/magnet/e5Xs0L3dwTL3MVZT2V0vL2RVrRcGUYZRB)
+
+[`b33b669d363c218d3db8002a86c26a19455f9154`](https://downloadtorrentfile.com/hash/b33b669d363c218d3db8002a86c26a19455f9154?name=Tengoku%20Daimakyou%20AEROCE%20%26%20%d0%a0%d0%b8%d1%88%d0%b0)
+
+`12.03GB`
+
+~~~ magnet
+
+~~~
+
+
+
+#### [`[天月搬運組] 天國大魔境 / Tengoku Daimakyou - 01~13 [1080P][GB] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/644054_Tengoku_Daimakyou_-_01_13_1080P_GB.html)
+
+`6.9GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:28bd3207c74292075302b2d3839694a360ed1d57
+magnet:?xt=urn:btih:FC6TEB6HIKJAOUYCWLJYHFUUUNQO2HKX&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Fopentracker.acgnx.se%2Fannounce
+~~~
+
 ### 無職転生〜異世界行ったら本気だす Mushoku Tensei ~ Isekai Ittara Honki Dasu
 
 #### [`[Skymoon-Raws] 無職轉生，到了異世界就拿出真本事 / Mushoku Tensei S1 - 01~24 [ViuTV][WEB-DL][1080p][AVC AAC][繁體外掛][MP4+SRT](合集版本) - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/644580_Skymoon-Raws_Mushoku_Tensei_S1_-_01_24_ViuTV_WEB-DL_1080p_AVC_AAC_MP4_SRT.html)
@@ -1870,50 +1916,6 @@ magnet:?xt=urn:btih:07ea0e8a84626e1152a357ffab2da7be37abe57a
 magnet:?xt=urn:btih:A7VA5CUEMJXBCUVDK772WLNHXY32XZL2&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2F1337.abcvg.info%3A80%2Fannounce
 ~~~
 
-### 天國大魔境 Tengoku Daimakyou
-
-#### [`Tengoku Daimakyou - AniLibria.TV [WEBRip 1080p] Torrent download`](https://bt4gprx.com/magnet/fD85HZe5825ei8DDeyE1y9BUgeRjBFset)
-
-`04a54810d35ef1e3d1c03cec29732e7e6754a482`
-
-`12.55GB`
-
-~~~ magnet
-
-~~~
-
-
-#### [`[DKB] Tengoku Daimakyou - (Season 01) [1080p][HEVC x265 10bit][Multi-Audio][Multi-Subs] Torrent download`](https://bt4gprx.com/magnet/U26IpMKWxjegNeuDHblya0qx3odMsAHpC)
-
-`7956c929e1d5bdbf2bf7f6dd2e4e3f8ef9ab534b`
-
-`7.66GB`
-
-~~~ magnet
-
-~~~
-
-
-#### [`Tengoku Daimakyou AEROCE & Риша Torrent download`](https://bt4gprx.com/magnet/e5Xs0L3dwTL3MVZT2V0vL2RVrRcGUYZRB)
-
-`b33b669d363c218d3db8002a86c26a19455f9154`
-
-`12.03GB`
-
-~~~ magnet
-
-~~~
-
-
-
-#### [`[天月搬運組] 天國大魔境 / Tengoku Daimakyou - 01~13 [1080P][GB] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/644054_Tengoku_Daimakyou_-_01_13_1080P_GB.html)
-
-`6.9GB`
-
-~~~ magnet
-magnet:?xt=urn:btih:28bd3207c74292075302b2d3839694a360ed1d57
-magnet:?xt=urn:btih:FC6TEB6HIKJAOUYCWLJYHFUUUNQO2HKX&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Fopentracker.acgnx.se%2Fannounce
-~~~
 
 ### Shingeki no Kyojin
 
@@ -2356,6 +2358,25 @@ magnet:?xt=urn:btih:BFF559F18269383C546F96DA70A55329AA1C5EB8&dn=Avatar+%282009%2
 - offical site: [Avatar: The Way of Water | Avatar.com](https://www.avatar.com/movies/avatar-the-way-of-water)
 - imdb: [Avatar: The Way of Water (2022) | IMDb](https://www.imdb.com/title/tt1630029)
 
+### The Shawshank Redemption (1994)
+
+#### [`The Shawshank Redemption (1994) [2160p x265 10bit Joy] Torrent download`](https://bt4gprx.com/magnet/PVxJFftKVWQfRqO3tkJJYEfMYjzV4QwBB)
+
+`7.74GB`
+
+[`1b111948d6d63659b56d0b372a6b94d0b1e96551`](https://downloadtorrentfile.com/hash/1b111948d6d63659b56d0b372a6b94d0b1e96551?name=The%20Shawshank%20Redemption%20%281994%29%20%20%5b2160p%20x265%2010bit%20Joy%5d)
+
+#### [`The.Shawshank.Redemption.1994.2160p.UHD.BluRay.x265.10bit.HDR.DDP5.1-RARBG Torrent download`](https://bt4gprx.com/magnet/MGflGInTdznUtXspmv20VixeodCL4IWIB)
+
+`8.63GB`
+
+[`597549004ea0f44302cb3512fbab1d8fde7c26d7`](https://downloadtorrentfile.com/hash/597549004ea0f44302cb3512fbab1d8fde7c26d7?name=The.Shawshank.Redemption.1994.2160p.UHD.BluRay.x265.10bit.HDR.DDP5.1-RARBG)
+
+#### [`The.Shawshank.Redemption.1994.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT Torrent download`](https://bt4gprx.com/magnet/iNDLsfQFkgDbo3WFGaX7UQXROrUFWfZnA)
+
+`57.98GB`
+
+[`32770c6dd35a4dd71deb80d5deff7a4e084eedab`](https://downloadtorrentfile.com/hash/32770c6dd35a4dd71deb80d5deff7a4e084eedab?name=The.Shawshank.Redemption.1994.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.5.1-FGT)
 
 ## Series
 
