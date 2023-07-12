@@ -2264,6 +2264,19 @@ writter info :
 
 - [Quentin Tarantino | IMDb](https://www.imdb.com/name/nm0000233/)
 
+
+#### [`Pulp Fiction (1994) [2160p x265 10bit Joy] Torrent download`](https://bt4gprx.com/magnet/XafQfYKkEeaeVwYAl8kUqTASLKzowXOhM)
+
+*(This one is good :)*
+
+[`8.23GB`](https://downloadtorrentfile.com/hash/5de10055ec8fb44fb1b8855ae4e022728ec3bf06?name=Pulp%20Fiction%20%281994%29%20%20%5b2160p%20x265%2010bit%20Joy%5d)
+
+~~~ magnet
+magnet:?xt=urn:btih:5de10055ec8fb44fb1b8855ae4e022728ec3bf06&dn=Pulp%20Fiction%20(1994)%20%20%5B2160p%20x265%2010bit%20Joy%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+
+
 #### [`Pulp Fiction (1994) [2160p] [4K] [BluRay] [5.1] [YTS.MX]`](https://bt4g.org/magnet/592388870fd8e5c07ae5bb6508e96cf7e0a14b0b) [`bt4gprx`](https://bt4gprx.com/magnet/oafdbdBufDLJDmrvlRYlbDznOCSLo7HaA)
 
 [`7.30GB`](https://downloadtorrentfile.com/hash/592388870fd8e5c07ae5bb6508e96cf7e0a14b0b?name=Pulp%20Fiction%20%281994%29%20%5b2160p%5d%20%5b4K%5d%20%5bBluRay%5d%20%5b5.1%5d%20%5bYTS.MX%5d)
@@ -2272,13 +2285,7 @@ writter info :
 magnet:?xt=urn:btih:592388870fd8e5c07ae5bb6508e96cf7e0a14b0b&dn=Pulp%20Fiction%20(1994)%20%5B2160p%5D%20%5B4K%5D%20%5BBluRay%5D%20%5B5.1%5D%20%5BYTS.MX%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
 ~~~
 
-#### [`Pulp Fiction (1994) [2160p x265 10bit Joy] Torrent download`](https://bt4gprx.com/magnet/XafQfYKkEeaeVwYAl8kUqTASLKzowXOhM)
 
-[`8.23GB`](https://downloadtorrentfile.com/hash/5de10055ec8fb44fb1b8855ae4e022728ec3bf06?name=Pulp%20Fiction%20%281994%29%20%20%5b2160p%20x265%2010bit%20Joy%5d)
-
-~~~ magnet
-magnet:?xt=urn:btih:5de10055ec8fb44fb1b8855ae4e022728ec3bf06&dn=Pulp%20Fiction%20(1994)%20%20%5B2160p%20x265%2010bit%20Joy%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
-~~~
 
 ### 流浪地球 (2023)
 
