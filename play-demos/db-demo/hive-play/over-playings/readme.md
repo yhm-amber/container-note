@@ -163,3 +163,133 @@ from
 
 （暂略）
 
+
+## 重复条目
+
+### 描述
+
+数据：有一个类型字段一个数值字段。  
+需求：按照数值字段排序后，每一序列类型字段相同的条目只取其第一条。
+
+思路：让每一预计只取一条的部分都能够有依据各自成为分区，然后就可以在每个分区中操作。
+
+### 流程
+
+`acc` :
+
+| T | N |
+| --- | --- |
+| "A" | 101 |
+| "B" | 102 |
+| "A" | 104 |
+| "B" | 106 |
+| "A" | 110 |
+| "A" | 111 |
+| "B" | 112 |
+| "B" | 114 |
+| "B" | 115 |
+| "A" | 120 |
+| "A" | 121 |
+| "B" | 122 |
+
+~~~ sql
+select T, N, IF( (T = lag(T) over (order by N) ), 0, 1) as pQ from acc;
+~~~
+
+`acc` :
+
+| T | N | pQ | 
+| --- | --- | --- |
+| "A" | 101 | 1 |
+| "B" | 102 | 1 |
+| "A" | 104 | 1 |
+| "B" | 106 | 1 |
+| "A" | 110 | 1 |
+| "A" | 111 | 0 |
+| "B" | 112 | 1 |
+| "B" | 114 | 0 |
+| "B" | 115 | 0 |
+| "A" | 120 | 1 |
+| "A" | 121 | 0 |
+| "B" | 122 | 1 |
+
+~~~ sql
+select T, N, sum(pQ) over (order by N rows between unbounded preceding and current row) as Q from acc;
+~~~
+
+`acc` :
+
+| T | N | Q | 
+| --- | --- | --- |
+| "A" | 101 | 1 |
+| "B" | 102 | 2 |
+| "A" | 104 | 3 |
+| "B" | 106 | 4 |
+| "A" | 110 | 5 |
+| "A" | 111 | 5 |
+| "B" | 112 | 6 |
+| "B" | 114 | 6 |
+| "B" | 115 | 6 |
+| "A" | 120 | 7 |
+| "A" | 121 | 7 |
+| "B" | 122 | 8 |
+
+到这里，分区就得到了。
+
+整理所有 SQL ：
+
+~~~ sql
+( select T, N, sum(pQ) over (order by N rows between unbounded preceding and current row) as Q from
+
+( select T, N, IF( (T = lag(T) over (order by N) ), 0, 1) as pQ from table ) ) as t
+~~~
+
+即：
+
+~~~ sql
+sum( IF( (T = lag(T) over (order by N) ), 0, 1) ) over (order by N rows between unbounded preceding and current row) order by N)
+~~~
+
+接下来就可以用来标记序号或者直接取出了。
+
+标记序号：
+
+~~~ sql
+select T, N, row_number() over (partition by T, Q order by N) as R from t ;
+~~~
+
+| T | N | R | 
+| --- | --- | --- |
+| "A" | 101 | 1 |
+| "B" | 102 | 1 |
+| "A" | 104 | 1 |
+| "B" | 106 | 1 |
+| "A" | 110 | 1 |
+| "A" | 111 | 2 |
+| "B" | 112 | 1 |
+| "B" | 114 | 2 |
+| "B" | 115 | 3 |
+| "A" | 120 | 1 |
+| "A" | 121 | 2 |
+| "B" | 122 | 1 |
+
+直接取得每个分区的最小值：
+
+~~~ sql
+select T, min(N) as N, Q from t group by T, Q order by N ;
+~~~
+
+| T | N | Q | 
+| --- | --- | --- |
+| "A" | 101 | 1 |
+| "B" | 102 | 2 |
+| "A" | 104 | 3 |
+| "B" | 106 | 4 |
+| "A" | 110 | 5 |
+| "B" | 112 | 6 |
+| "A" | 120 | 7 |
+| "B" | 122 | 8 |
+
+问题解决。
+
+
