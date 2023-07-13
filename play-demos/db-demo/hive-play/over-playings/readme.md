@@ -247,7 +247,7 @@ select T, N, sum(pQ) over (order by N rows between unbounded preceding and curre
 即：
 
 ~~~ sql
-sum( IF( (T = lag(T) over (order by N) ), 0, 1) ) over (order by N rows between unbounded preceding and current row) order by N)
+( select T, N, sum(IF( (T = lag(T) over (order by N) ), 0, 1)) over (order by N rows between unbounded preceding and current row) as Q from table )
 ~~~
 
 接下来就可以用来标记序号或者直接取出了。
