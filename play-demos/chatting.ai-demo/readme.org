@@ -7,4 +7,5 @@ Instances
 - [[https://osschat.io][osschat.io]]
 - [[https://chat.forefront.ai][chat.forefront.ai]]
 - [[https://pixai.art/chat][pixai.art/chat]]
+- [[https://claude.ai/chats][CLAUDE | ANTHROP\C]]
 - ...
