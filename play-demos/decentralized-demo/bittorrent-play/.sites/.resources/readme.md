@@ -1887,7 +1887,27 @@ Screenshots/Source(03, 3107).png 695.63KB
 MD5 & CRC32.txt 4.73KB
 ~~~~
 
+### 河童之夏
+
+#### [`[A.I.R.nesSub][Kappa_no_Coo_to_Natsuyasumi/河童之夏][BDRIP][GB/BIG5外挂] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/209720_A_I_R_nesSub_Kappa_no_Coo_to_Natsuyasumi_BDRIP_GB_BIG5.html)
+
+[`5.3GB`](https://dl.dmhy.org/2011/05/28/4b7503a2ecad3b75a286401d458522b153d14aaf.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:4b7503a2ecad3b75a286401d458522b153d14aaf
+magnet:?xt=urn:btih:JN2QHIXMVU5XLIUGIAOULBJCWFJ5CSVP&dn=%5BA.I.R.nesSub%5D%5BKappa_no_Coo_to_Natsuyasumi%5D%5BMovie%5D%5BBDRIP%5D&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fnyaatorrents.info%3A3277%2Fannounce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2F10.rarbg.com%3A80%2Fannounce&tr=http%3A%2F%2Fpow7.com%2Fannounce&tr=http%3A%2F%2Fv6.nyaatorrents.info%3A3277%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Fpow7.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%2Fannounce
+~~~
+
 ### もののけ姫 (Princess.Mononoke.1997)
+
+#### [`[SAIO-Raws] 幽灵公主 もののけ姫 Mononoke Hime [BD 1920x1036 HEVC-10bit OPUSx2 AC3][简繁内封字幕][1997]新年快乐 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/559554_SAIO-Raws_Mononoke_Hime_BD_1920x1036_HEVC-10bit_OPUSx2_AC3_1997.html)
+
+[`8.8GB`](https://dl.dmhy.org/2021/02/11/7fc51cad4dde3796e600c0ce806a3b1d1ea2d212.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:7fc51cad4dde3796e600c0ce806a3b1d1ea2d212
+magnet:?xt=urn:btih:P7CRZLKN3Y3ZNZQAYDHIA2R3DUPKFUQS&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce
+~~~
 
 #### [`[Cornflower.Studio][もののけ姫 (Princess.Mononoke.1997)][BDRip.1920X1036][X264.Hi10p.AAC][Rev]`](https://bt4g.org/magnet/238b539ad5d08b543bb2549da43f2054494fc689) [`bt4gprx`](https://bt4gprx.com/magnet/Q6KNwfOZZlp4ea7tgHM3TW9j3guC8AcbD)
 
@@ -1943,6 +1963,26 @@ magnet:?xt=urn:btih:07ea0e8a84626e1152a357ffab2da7be37abe57a
 magnet:?xt=urn:btih:A7VA5CUEMJXBCUVDK772WLNHXY32XZL2&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2F1337.abcvg.info%3A80%2Fannounce
 ~~~
 
+
+### Mushishi 蟲師
+
+#### [`[异域-11番小队][虫师合集 Mushishi][BDRIP][720P][X264-10bit_AAC] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/419185_-11_Mushishi_BDRIP_720P_X264-10bit_AAC.html)
+
+[`12.2GB`](https://dl.dmhy.org/2015/12/31/6cf1b39b04dcb3fadfb63562fec300439a26ab65.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:6cf1b39b04dcb3fadfb63562fec300439a26ab65
+magnet:?xt=urn:btih:NTY3HGYE3SZ7VX5WGVRP5QYAIONCNK3F&dn=&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftr.bangumi.moe%3A9696%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannonuce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2Fbt.careland.com.cn%3A6969%2Fannounce
+~~~
+
+#### [`[2014年4月番] 天香字幕社&A.I.R.nesSub Mushishi 虫师 续章 BDRIP 全6卷 完 1080p HEVC 简繁外挂【含TV未放映的20.5话】 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/407978_2014_4_A_I_R_nesSub_Mushishi_BDRIP_6_1080p_HEVC_TV_20_5.html)
+
+[`29.8GB`](https://dl.dmhy.org/2015/09/11/0c9ea4bd180fed40d3d3c01c8147ddf604bcbc7d.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:0c9ea4bd180fed40d3d3c01c8147ddf604bcbc7d
+magnet:?xt=urn:btih:BSPKJPIYB7WUBU6TYAOICR656YCLZPD5&dn=&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftr.bangumi.moe%3A9696%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Ftracker.btcake.com%2Fannounce
+~~~
 
 ### Shingeki no Kyojin
 
