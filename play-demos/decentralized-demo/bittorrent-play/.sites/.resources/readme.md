@@ -1216,6 +1216,102 @@ magnet:?xt=urn:btih:7674499ec08e98eaa155bdb67e27b0bb73dcd96c
 magnet:?xt=urn:btih:OZ2ETHWAR2MOVIKVXW3H4J5QXNZ5ZWLM&dn=%5BCASO%26I.G%5D%5BSpice_and_Wolf_2nd_Season%5D&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Fdenis.stalker.h3q.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Fbt.popgo.net%3A7456%2Fannounce&tr=http%3A%2F%2Ftracker.dmhy.org%3A8000%2Fannounce&tr=http%3A%2F%2Fbt.ktkj.com%3A8080%2Fannounce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce
 ~~~
 
+### 少女終末旅行
+
+#### [`[千夏字幕组&喵萌奶茶屋&VCB-Studio] Shoujo Shuumatsu Ryokou / 少女终末旅行 / 少女終末旅行 10-bit 1080p HEVC BDRip [Fin] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/515943_VCB-Studio_Shoujo_Shuumatsu_Ryokou_10-bit_1080p_HEVC_BDRip_Fin.html)
+
+[`15.5GB`](https://dl.dmhy.org/2019/04/29/cce33693e87df22e7f8b77e694f298f4212a2ff8.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:cce33693e87df22e7f8b77e694f298f4212a2ff8
+magnet:?xt=urn:btih:ZTRTNE7IPXZC474LO7TJJ4UY6QQSUL7Y&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=http%3A%2F%2Ft.nyaatracker.com%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2Fopentracker.acgnx.se%2Fannounce
+~~~
+
+#### [`[Snow-Raws] 少女终末旅行/Girls' Last Tour/少女終末旅行 (BD 1920x1080 HEVC-YUV420P10 FLAC) - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/537987_Snow-Raws_Girls_Last_Tour_BD_1920x1080_HEVC-YUV420P10_FLAC.html)
+
+[`15.3GB`](https://dl.dmhy.org/2020/03/29/02a62cf8fdb466eb0ee0338fa98aa1801958fc4a.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:02a62cf8fdb466eb0ee0338fa98aa1801958fc4a
+magnet:?xt=urn:btih:AKTCZ6H5WRTOWDXAGOH2TCVBQAMVR7CK&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce
+~~~
+
+### 六花の勇者 Rokka no Yuusha
+
+#### [`[Snow-Raws] 六花的勇者/Rokka: Braves of the Six Flowers/六花の勇者(BD 1920x1080 HEVC-YUV420P10 FLAC) - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/509809_Snow-Raws_Rokka_Braves_of_the_Six_Flowers_BD_1920x1080_HEVC-YUV420P10_FLAC.html)
+
+[`15.3GB`](https://dl.dmhy.org/2019/02/01/23be9800e6c7e3b920ea91cec22bb65eef4a579c.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:23be9800e6c7e3b920ea91cec22bb65eef4a579c
+magnet:?xt=urn:btih:EO7JQAHGY7R3SIHKSHHMEK5WL3XUUV44&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ft160905.koishi.win%2Fannounce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2Ft.nyaatracker.com%2Fannounce&tr=http%3A%2F%2Fopentracker.acgnx.se%2Fannounc&tr=http%3A%2F%2Fopentracker.acgnx.com%3A6869%2Fannounce
+~~~
+
+#### [`[neko-raws] 六花的勇者 六花の勇者 Rokka no Yuusha [BD][1080p][FLAC] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/427135_neko-raws_Rokka_no_Yuusha_BD_1080p_FLAC.html)
+
+[`22.1GB`](https://dl.dmhy.org/2016/03/27/21379c0de31f4bf70c9dc5c41001769dc2fa0f02.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:21379c0de31f4bf70c9dc5c41001769dc2fa0f02
+magnet:?xt=urn:btih:EE3ZYDPDD5F7ODE5YXCBAALWTXBPUDYC&dn=&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftr.bangumi.moe%3A9696%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce
+~~~
+
+### EVA 新世纪福音战士 Neon Genesis Evangelion
+
+#### [`[异域-11番小队][新世纪福音战士 Neon Genesis Evangelion][01-26+MOVIEX1][BDRIP][1080][X264_FLAC_5.1ch] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/418102_-11_Neon_Genesis_Evangelion_01-26_MOVIEX1_BDRIP_1080_X264_FLAC_5_1ch.html)
+
+[`41.3GB`](https://share.dmhy.org/topics/view/418102_-11_Neon_Genesis_Evangelion_01-26_MOVIEX1_BDRIP_1080_X264_FLAC_5_1ch.html)
+
+~~~ magnet
+magnet:?xt=urn:btih:6ab1d23f6aa06d7abbf7d966dd96e22862532f28
+magnet:?xt=urn:btih:NKY5EP3KUBWXVO7X3FTN3FXCFBRFGLZI&dn=&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftr.bangumi.moe%3A9696%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannonuce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce
+~~~
+
+#### [`[EVA-FANS][Evangelion_Renewal][DVDRIP][AVC_AC3][1-26Fin. + MOVIE] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/574093_EVA-FANS_Evangelion_Renewal_DVDRIP_AVC_AC3_1-26Fin_MOVIE.html)
+
+[`16.1GB`](https://dl.dmhy.org/2021/07/18/aaa44058a65cd2b4613f03ee78f2a841c2887c10.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:aaa44058a65cd2b4613f03ee78f2a841c2887c10
+magnet:?xt=urn:btih:VKSEAWFGLTJLIYJ7APXHR4VIIHBIQ7AQ&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce
+~~~
+
+#### [`[整理搬运] 新世纪福音战士 (新世紀エヴァンゲリオン／Neon Genesis Evangelion)：TV动画(初版,重制)+新老剧场版+ONA+CD+漫画+其他；日语,外挂简中&英文字幕 (整理时间：2023.05.22) - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/645177_Neon_Genesis_Evangelion_TV_ONA_CD_2023_05_22.html)
+
+[`154.2GB`](https://dl.dmhy.org/2023/07/11/7a577262543997c9b5404b6311f5b832d3b21a1f.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:7a577262543997c9b5404b6311f5b832d3b21a1f
+magnet:?xt=urn:btih:PJLXEYSUHGL4TNKAJNRRD5NYGLJ3EGQ7&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce
+~~~
+
+#### [`[AI-Raws] シン・エヴァンゲリオン劇場版 / Shin Evangelion / 福音战士新剧场版四部曲 YUV444P10LE 4K+1080p+特典 BDRip MKV - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/636446_AI-Raws_Shin_Evangelion_YUV444P10LE_4K_1080p_BDRip_MKV.html)
+
+[`120.1GB`](https://dl.dmhy.org/2023/04/05/b6209c0d26b8a9b15e331626f26958664e7e75d4.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:b6209c0d26b8a9b15e331626f26958664e7e75d4
+magnet:?xt=urn:btih:WYQJYDJGXCU3CXRTCYTPE2KYMZHH45OU&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ft.acg.rip%3A6699%2Fannounce
+~~~
+
+#### [`[AI-Raws] シン・エヴァンゲリオン劇場版 / Shin Evangelion / 福音战士新剧场版四部曲 4K BDRip MKV - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/635726_AI-Raws_Shin_Evagelion_4K_BDRip_MKV.html)
+
+[`56.0GB`](https://dl.dmhy.org/2023/03/28/75ea6ce2d63328b4c7916a288c63c3675d2decf7.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:75ea6ce2d63328b4c7916a288c63c3675d2decf7
+magnet:?xt=urn:btih:OXVGZYWWGMULJR4RNIUIYY6DM5OS33HX&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ft.acg.rip%3A6699%2Fannounce
+~~~
+
+#### [`Shinseiki Evangelion Neon Genesis Evangelion TV [1-26] [BDRip 1440x1080 x264 10-bit FLAC] 95版新世纪福音战士 20周年纪念版BDRIP(1) - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/449313_Shinseiki_Evangelion_Neon_Genesis_Evangelion_TV_1-26_BDRip_1440x1080_x264_10-bit_FLAC_95_20_BDRIP_1.html)
+
+[`115.4GB`](https://dl.dmhy.org/2016/12/12/dec018fd553fba7922e494be71eb24f4bfc7ba90.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:dec018fd553fba7922e494be71eb24f4bfc7ba90
+magnet:?xt=urn:btih:33ABR7KVH65HSIXESS7HD2ZE6S74POUQ&dn=&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftr.bangumi.moe%3A9696%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce
+~~~
+
 ### Psycho-Pass
 
 #### [`[诸神字幕组][心理测量者 新编辑版][Psycho-Pass Extended Edition][11话全][BDRIP][简繁日语字幕][1080P][HEVC MKV] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/634755_Psycho-Pass_Extended_Edition_11_BDRIP_1080P_HEVC_MKV.html)
@@ -2361,7 +2457,23 @@ magnet:?xt=urn:btih:5de10055ec8fb44fb1b8855ae4e022728ec3bf06&dn=Pulp%20Fiction%2
 magnet:?xt=urn:btih:592388870fd8e5c07ae5bb6508e96cf7e0a14b0b&dn=Pulp%20Fiction%20(1994)%20%5B2160p%5D%20%5B4K%5D%20%5BBluRay%5D%20%5B5.1%5D%20%5BYTS.MX%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
 ~~~
 
+### 追凶者也 Cock and Bull (2016)
 
+#### [`【高清影视之家首发 www.BBEDDE.com】追凶者也[国语配音+中文字幕].Cock.and.Bull.2016.2160p.WEB-DL.H265.HDR.AAC-MOMOWEB Torrent download`](https://bt4gprx.com/magnet/m4KxF5rel5Udb62g0IQdcOhGBOWGAY3MA)
+
+[`9.90GB`](https://downloadtorrentfile.com/hash/612c148122dd81a75b90e6c65964204579b01d79?name=%e3%80%90%e9%ab%98%e6%b8%85%e5%bd%b1%e8%a7%86%e4%b9%8b%e5%ae%b6%e9%a6%96%e5%8f%91%20www.BBEDDE.com%e3%80%91%e8%bf%bd%e5%87%b6%e8%80%85%e4%b9%9f%5b%e5%9b%bd%e8%af%ad%e9%85%8d%e9%9f%b3%2b%e4%b8%ad%e6%96%87%e5%ad%97%e5%b9%95%5d.Cock.and.Bull.2016.2160p.WEB-DL.H265.HDR.AAC-MOMOWEB)
+
+~~~ magnet
+magnet:?xt=urn:btih:612c148122dd81a75b90e6c65964204579b01d79&dn=%E3%80%90%E9%AB%98%E6%B8%85%E5%BD%B1%E8%A7%86%E4%B9%8B%E5%AE%B6%E9%A6%96%E5%8F%91%20www.BBEDDE.com%E3%80%91%E8%BF%BD%E5%87%B6%E8%80%85%E4%B9%9F%5B%E5%9B%BD%E8%AF%AD%E9%85%8D%E9%9F%B3%2B%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95%5D.Cock.and.Bull.2016.2160p.WEB-DL.H265.HDR.AAC-MOMOWEB&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftrackerb.jonaslsa.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+#### [`Cock.and.Bull.2016.CHINESE.1080p.AMZN.WEBRip.DDP2.0.x264-AO Torrent download`](https://bt4gprx.com/magnet/CJaAi9amMuvIOQoG0AE47NFfYgeK8lkCD)
+
+[`7.72GB`](https://downloadtorrentfile.com/hash/2ead92bdb59ec135b01a3522b8ea0509a5521d37?name=Cock.and.Bull.2016.CHINESE.1080p.AMZN.WEBRip.DDP2.0.x264-AO)
+
+~~~ magnet
+magnet:?xt=urn:btih:2ead92bdb59ec135b01a3522b8ea0509a5521d37&dn=Cock.and.Bull.2016.CHINESE.1080p.AMZN.WEBRip.DDP2.0.x264-AO&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftrackerb.jonaslsa.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
 
 ### 流浪地球 (2023)
 
