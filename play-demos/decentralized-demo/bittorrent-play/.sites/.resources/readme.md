@@ -1519,6 +1519,62 @@ magnet:?xt=urn:btih:814a5f82bee59bcd82016bb1cac10623a364f6a0
 magnet:?xt=urn:btih:QFFF7AV64WN43AQBNOY4VQIGEORWJ5VA&dn=%5BKamigami%5D+Millennium+Actress+%5BBD+x264+1080p+DTS-HD%285.1ch%2C2.0ch%29+Sub%28Chs%2CJap%2CEng%29%5D.mkv&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce
 ~~~
 
+### 永生之酒
+
+#### [`【諸神片源組】[永生之酒/為酒而狂][01-16合集][1080P][外掛DMZJ簡繁+英日文字幕][BD-MKV]★高清收藏版 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/297943_01-16_1080P_DMZJ_BD-MKV.html)
+
+[`20.4GB`](https://dl.dmhy.org/2013/04/09/98ad6080128e5c9b35b8887b54fdcd13d201b3a6.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:98ad6080128e5c9b35b8887b54fdcd13d201b3a6
+magnet:?xt=urn:btih:TCWWBAASRZOJWNNYRB5VJ7ONCPJADM5G&dn=%5BKamigami-Raws%5D+Baccano+01-16+Fin+%5BBD+x264+1920_1080+FLAC%28Jap%2CEng%29+MKV+Sub%28Jap%2CEng%29%5D&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce
+~~~
+
+### デュラララ!! Durarara!! 无头骑士异闻录
+
+#### [`[VCB-Studio] 无头骑士异闻录 / Durarara!! / デュラララ!! 10-bit 1080p HEVC BDRip [S1-S2 Fin] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/621830_VCB-Studio_Durarara%21%21_%21%21_10-bit_1080p_HEVC_BDRip_S1-S2_Fin.html)
+
+[`85.0GB`](https://dl.dmhy.org/2022/11/22/6feb855ae35dd2021ff970273996961ec4580d45.torrent)
+
+~~~~
+S1: 无头骑士异闻录 / Durarara!! / デュラララ!! BDRip
+10-bit 1080p HEVC + FLAC，MKV 格式。每话约 1.0 GB。
+内封原盘 JPN 及 ENG 字幕。
+外挂英语 FLAC 音轨和日语 AAC 评论音轨。
+
+S2: 无头骑士异闻录×2 承 / Durarara!!×2 Shou / デュラララ!!×2 承 BDRip
+S2: 无头骑士异闻录×2 转 / Durarara!!×2 Ten / デュラララ!!×2 転 BDRip
+S2: 无头骑士异闻录×2 结 / Durarara!!×2 Ketsu / デュラララ!!×2 結 BDRip
+10-bit 1080p HEVC + FLAC + AAC，MKV 格式。每话约 1.2 GB。
+内封评论音轨。
+
+原盘画质较好。两期都是原生 720p，但拉升算法不同，第一期线条比较柔和，只有轻微的锯齿和振铃；第二期线条则较为锐利，有毛茸茸的锯齿和明显的振铃，通过逆向拉伸重构可以非常完美地解决这些问题。之后就是轻微的去色带、补偿性锐化和自适应降噪。
+The source quality is fair. Both seasons are produced in native 720p, but the upscaling algorithm is different: the first season features blurry lines with only slight aliasing and ringing; the second season features sharp lines with hairy aliasing and noticeable ringing. All these problems can be solved quite perfectly by descaling and reconstruction. Then slight de-banding, compensatory sharpening and adaptive denoising.
+~~~~
+
+~~~ magnet
+magnet:?xt=urn:btih:6feb855ae35dd2021ff970273996961ec4580d45
+magnet:?xt=urn:btih:N7VYKWXDLXJAEH7ZOATTTFUWD3CFQDKF&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
+~~~
+
+#### [`[AI-Raws] 無頭騎士異聞錄 / Durarara!! / デュラララ！！ 1080p BDRip MKV - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/632699_AI-Raws_Durarara%21%21_1080p_BDRip_MKV.html)
+
+[`24.0GB`](https://dl.dmhy.org/2023/02/28/028b302abaf5adad6cbb9241affa0586014b2924.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:028b302abaf5adad6cbb9241affa0586014b2924
+magnet:?xt=urn:btih:AKFTAKV26WW223F3SJA276QFQYAUWKJE&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ft.acg.rip%3A6699%2Fannounce
+~~~
+
+#### [`[AI-Raws] 無頭騎士異聞錄x2 / Durarara!!!! / デュラララ！！x2 1080p BDRip MKV - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/632700_AI-Raws_x2_Durarara%21%21%21%21_x2_1080p_BDRip_MKV.html)
+
+[`43.9GB`](https://dl.dmhy.org/2023/02/28/f9059b39407d608b0df0493f312c05c51d70c702.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:f9059b39407d608b0df0493f312c05c51d70c702
+magnet:?xt=urn:btih:7ECZWOKAPVQIWDPQJE7TCLAFYUOXBRYC&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ft.acg.rip%3A6699%2Fannounce
+~~~
+
 ### 天気の子
 
 #### [`[AI-Raws] 天気の子 (UHD HEVC 3840x2160 SDR yuv420p10le DTS-HD／FLAC 字幕)[5061BEBA].mkv`](https://bt4g.org/magnet/5178c3e5b0be4f844c8e110ab9ba94b3bb73542f) [`bt4gprx`](https://bt4gprx.com/magnet/gKYbwQ14WediUezAKv2CifxIBJcU4FMOH)
