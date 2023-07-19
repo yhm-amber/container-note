@@ -1258,6 +1258,14 @@ magnet:?xt=urn:btih:EE3ZYDPDD5F7ODE5YXCBAALWTXBPUDYC&dn=&tr=http%3A%2F%2F208.67.
 
 ### EVA 新世纪福音战士 Neon Genesis Evangelion
 
+#### [`Neon Genesis Evangelion - Death&Rebirth (Original) [MULTI][BD 1080p 8bits][Sephirotic] Torrent download`](https://bt4gprx.com/magnet/wjlHIK8mQrHD2kx37oRz8LGyASkCG1Ru)
+
+[`11.68GB`](https://downloadtorrentfile.com/hash/eea517ba8e6423c1aaa40f72834e4f2d00575186?name=Neon%20Genesis%20Evangelion%20-%20Death%26Rebirth%20%28Original%29%20%5BMULTI%5D%5BBD%201080p%208bits%5D%5BSephirotic%5D)
+
+~~~ magnet
+magnet:?xt=urn:btih:eea517ba8e6423c1aaa40f72834e4f2d00575186&dn=Neon%20Genesis%20Evangelion%20-%20Death%26Rebirth%20(Original)%20%5BMULTI%5D%5BBD%201080p%208bits%5D%5BSephirotic%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leech.ie%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fhtz3.noho.st%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
 #### [`[异域-11番小队][新世纪福音战士 Neon Genesis Evangelion][01-26+MOVIEX1][BDRIP][1080][X264_FLAC_5.1ch] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/418102_-11_Neon_Genesis_Evangelion_01-26_MOVIEX1_BDRIP_1080_X264_FLAC_5_1ch.html)
 
 [`41.3GB`](https://share.dmhy.org/topics/view/418102_-11_Neon_Genesis_Evangelion_01-26_MOVIEX1_BDRIP_1080_X264_FLAC_5_1ch.html)
@@ -2583,7 +2591,25 @@ magnet:?xt=urn:btih:5336e4e408378d70593f3ec7ed7abf15480acedb&dn=Kill%20Bill%20-%
 magnet:?xt=urn:btih:48a79b56106fc86e508e6f3938b476c6352d943a&dn=Kill.Bill-The.Whole.Bloody.Affair.(2012).1080p.x264.9GB.DTS.5.1-BakiG&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftrackerb.jonaslsa.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
 ~~~
 
+### 喜剧之王 The King of Comedy (1982)
 
+#### [`The King of Comedy (1982) + Extras (1080p BluRay x265 HEVC 10bit AAC 1.0 afm72) Torrent download`](https://bt4gprx.com/magnet/3iEH7RPeEC4TMIYMk9APfVJd8XtKISnfG)
+
+[`5.66GB`](https://downloadtorrentfile.com/hash/2663a4bfa16f42225cb824cb3b77bd228d0f68a1?name=The%20King%20of%20Comedy%20%281982%29%20%2B%20Extras%20%281080p%20BluRay%20x265%20HEVC%2010bit%20AAC%201.0%20afm72%29)
+
+~~~ magnet
+magnet:?xt=urn:btih:2663a4bfa16f42225cb824cb3b77bd228d0f68a1&dn=The%20King%20of%20Comedy%20(1982)%20%2B%20Extras%20(1080p%20BluRay%20x265%20HEVC%2010bit%20AAC%201.0%20afm72)&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leech.ie%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fhtz3.noho.st%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+### The Truman Show (1998)
+
+#### [`The Truman Show (1998) [2160p] [4K] [WEB] [5.1] [YTS.MX] Torrent download`](https://bt4gprx.com/magnet/o8TxmFpOAzAJD9f0XxkQGsSEbYpFO6sSB)
+
+[`4.59GB`](https://downloadtorrentfile.com/hash/75a0311a5eadef077a8b4da0bd051d86fc010bcf?name=The%20Truman%20Show%20%281998%29%20%5b2160p%5d%20%5b4K%5d%20%5bWEB%5d%20%5b5.1%5d%20%5bYTS.MX%5d)
+
+~~~ magnet
+magnet:?xt=urn:btih:75a0311a5eadef077a8b4da0bd051d86fc010bcf&dn=The%20Truman%20Show%20(1998)%20%5B2160p%5D%20%5B4K%5D%20%5BWEB%5D%20%5B5.1%5D%20%5BYTS.MX%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leech.ie%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fhtz3.noho.st%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
 
 ### 流浪地球 (2023)
 
