@@ -2667,7 +2667,15 @@ magnet:?xt=urn:btih:5336e4e408378d70593f3ec7ed7abf15480acedb&dn=Kill%20Bill%20-%
 magnet:?xt=urn:btih:48a79b56106fc86e508e6f3938b476c6352d943a&dn=Kill.Bill-The.Whole.Bloody.Affair.(2012).1080p.x264.9GB.DTS.5.1-BakiG&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftrackerb.jonaslsa.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
 ~~~
 
-### 喜剧之王 The King of Comedy (1982)
+### 喜剧之王 King of Comedy (1999)
+
+#### [`[喜剧之王].King.of.Comedy.1999.WEB-DL.1080P.H264.AAC.国粤双语.内封简繁-OPS Torrent download`](https://bt4gprx.com/magnet/jkGOFAJRyWKHeDYbVMYWPHdIvlMFaQr0A)
+
+[`5.38GB`](https://downloadtorrentfile.com/hash/b23d292b59b0c3dde5d65451416288a7a49501b9?name=%5B%E5%96%9C%E5%89%A7%E4%B9%8B%E7%8E%8B%5D.King.of.Comedy.1999.WEB-DL.1080P.H264.AAC.%E5%9B%BD%E7%B2%A4%E5%8F%8C%E8%AF%AD.%E5%86%85%E5%B0%81%E7%AE%80%E7%B9%81-OPS)
+
+~~~ magnet
+magnet:?xt=urn:btih:b23d292b59b0c3dde5d65451416288a7a49501b9&dn=%5B%E5%96%9C%E5%89%A7%E4%B9%8B%E7%8E%8B%5D.King.of.Comedy.1999.WEB-DL.1080P.H264.AAC.%E5%9B%BD%E7%B2%A4%E5%8F%8C%E8%AF%AD.%E5%86%85%E5%B0%81%E7%AE%80%E7%B9%81-OPS&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftrackerb.jonaslsa.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leech.ie%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.jonaslsa.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filemail.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
 
 #### [`The King of Comedy (1982) + Extras (1080p BluRay x265 HEVC 10bit AAC 1.0 afm72) Torrent download`](https://bt4gprx.com/magnet/3iEH7RPeEC4TMIYMk9APfVJd8XtKISnfG)
 
