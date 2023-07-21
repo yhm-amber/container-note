@@ -1236,6 +1236,46 @@ magnet:?xt=urn:btih:b58e45de9a84415d26bd0e3561f196f217722a3b
 magnet:?xt=urn:btih:WWHELXU2QRAV2JV5BY2WD4MW6ILXEKR3&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftr.bangumi.moe%3A9696%2Fannounce&tr=http%3A%2F%2Ft.nyaatracker.com%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2Fopentracker.acgnx.se%2Fannounce&tr=http%3A%2F%2Ftracker.acgnx.se%2Fannounce
 ~~~
 
+### 碧蓝之海 Grand Blue
+
+#### [`[VCB-Studio] Grand Blue / 碧蓝之海 / ぐらんぶる 10-bit 1080p HEVC BDRip [Fin] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/514948_VCB-Studio_Grand_Blue_10-bit_1080p_HEVC_BDRip_Fin.html)
+
+[`16.0GB`](https://dl.dmhy.org/2019/04/14/c42efd945823e8a41a55697490f2c9c88aef9407.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:c42efd945823e8a41a55697490f2c9c88aef9407
+magnet:?xt=urn:btih:YQXP3FCYEPUKIGSVNF2JB4WJZCFO7FAH&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=http%3A%2F%2Ft.nyaatracker.com%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2Fopentracker.acgnx.se%2Fannounce
+~~~
+
+#### [`【悠哈璃羽字幕社＆西农YUI汉化组】[碧蓝之海_Grand Blue][BDRIP 1920x1080 x264 FLAC][MKV 简繁外挂] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/521836_YUI_Grand_Blue_BDRIP_1920x1080_x264_FLAC_MKV.html)
+
+[`11.2GB`](https://dl.dmhy.org/2019/08/04/bb12c474ddec818c40508818541eefd9a354bd32.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:bb12c474ddec818c40508818541eefd9a354bd32
+magnet:?xt=urn:btih:XMJMI5G55SAYYQCQRAMFIHXP3GRVJPJS&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce
+~~~
+
+### 刀语 Katana Gatari
+
+#### [`[诸神&异域][刀语][Katana_Gatari][01-12全][1920x1080][中日双语字幕][MKV][BDRip] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/217893_Katana_Gatari_01-12_1920x1080_MKV_BDRip.html)
+
+[`18.2GB`](https://dl.dmhy.org/2011/08/02/5e99e6f0ca261796f37f120b021ced2ce589dd99.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:5e99e6f0ca261796f37f120b021ced2ce589dd99
+magnet:?xt=urn:btih:L2M6N4GKEYLZN437CIFQEHHNFTSYTXMZ&dn=%5B__%26__%5D%5B__%5D%5BKatana_Gatari%5D%5B01-12_%5D%5B1920x1080%5D%5B______%5D%5BMKV%5D%5BBDRip%5D&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Fshare.yydm.com%3A2710%2Fannounce&tr=http%3A%2F%2Fbt.popgo.net%3A7456%2Fannounce&tr=http%3A%2F%2Fbt.sumisora.com%3A2710%2Fannounce&tr=http%3A%2F%2Fshare.dmhy.net%3A8000%2Fannounce&tr=http%3A%2F%2Fedu.ktkj.com%3A8080%2Fannounce&tr=http%3A%2F%2Fbt.ktkj.com%3A8080%2Fannounce&tr=http%3A%2F%2Fbt.ahcomic.com%3A8080%2Fannounce&tr=http%3A%2F%2Fbt.ai-sky.com%3A8080%2Fannounce&tr=http%3A%2F%2Fbt.dmzg.net%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.kaicn.com%3A2710%2Fannounce
+~~~
+
+#### [`[AI-Raws] Katanagatari / 刀語 BDRip 1080p MKV - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/634720_AI-Raws_Katanagatari_BDRip_1080p_MKV.html)
+
+[`25.3GB`](https://dl.dmhy.org/2023/03/19/f12a54dbbc7467472c7ea9c97c548578e7951233.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:f12a54dbbc7467472c7ea9c97c548578e7951233
+magnet:?xt=urn:btih:6EVFJW54ORTUOLD6VHEXYVEFPDTZKERT&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ft.acg.rip%3A6699%2Fannounce
+~~~
+
 ### 少女終末旅行
 
 #### [`[千夏字幕组&喵萌奶茶屋&VCB-Studio] Shoujo Shuumatsu Ryokou / 少女终末旅行 / 少女終末旅行 10-bit 1080p HEVC BDRip [Fin] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/515943_VCB-Studio_Shoujo_Shuumatsu_Ryokou_10-bit_1080p_HEVC_BDRip_Fin.html)
