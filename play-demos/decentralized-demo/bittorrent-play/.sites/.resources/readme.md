@@ -2571,6 +2571,77 @@ writter info :
 magnet:?xt=urn:btih:34d41dbbd27e89472c7e537b8297ad4d190f4505&dn=Inglourious%20Basterds%202009.4K.UHD.2160p.HDR.DTS-HDMA.5.1.HEVC-DDR%5BEtHD%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
 ~~~
 
+### 无法避免的战争 Chakravyuh 2012
+
+#### [`Download Chakravyuh.2012.1080p.10bit.WebRip.Org.DD2.0.HEVC~The.PunisheR.mkv torrent - RARBG`](https://www2.rarbggo.to/torrent/chakravyuh-2012-1080p-10bit-webrip-org-dd2-0-hevc-the-punisher-mkv-4751380.html)
+
+`6 GB`
+
+~~~ magnet
+magnet:?xt=urn:btih:227B41949AFC9E17A5AD4C72E458369ADC787E5B&dn=Chakravyuh.2012.1080p.10bit.WebRip.Org.DD2.0.HEVC%7EThe.PunisheR.mkv&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2800%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.justseed.it%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=https%3A%2F%2Ftracker.fastdownload.xyz%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce
+~~~
+
+~~~~ maininfo
+General
+Unique ID : 208553065856949393517488233636304941148 (0x9CE5DC0518B3522541CD121D70EE705C)
+Complete name : J:/Torrents/Chakravyuh.2012.1080p.10bit.WebRip.Org.DD2.0.HEVC-The.PunisheR.mkv
+Format : Matroska
+Format version : Version 4 / Version 2
+File size : 5.95 GiB
+Duration : 2 h 27 min
+Overall bit rate : 5 792 kb/s
+Encoded date : UTC 2021-01-21 13:33:59
+Writing application : mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+Writing library : libebml v1.4.1 + libmatroska v1.6.2
+
+Video
+ID : 1
+Format : HEVC
+Format/Info : High Efficiency Video Coding
+Format profile : Main [email protected]@Main
+Codec ID : V_MPEGH/ISO/HEVC
+Duration : 2 h 27 min
+Bit rate : 5 567 kb/s
+Width : 1 916 pixels
+Height : 816 pixels
+Display aspect ratio : 2.35:1
+Frame rate mode : Constant
+Frame rate : 24.000 FPS
+Color space : YUV
+Chroma subsampling : 4:2:0
+Bit depth : 10 bits
+Bits/(Pixel*Frame) : 0.148
+Stream size : 5.72 GiB (96%)
+Title : 1080p 10bit HEVC ~ The.PunisheR
+Default : Yes
+Forced : No
+Color range : Limited
+Color primaries : BT.709
+Transfer characteristics : BT.709
+Matrix coefficients : BT.709
+
+Audio
+ID : 2
+Format : AC-3
+Format/Info : Audio Coding 3
+Codec ID : A_AC3
+Duration : 2 h 27 min
+Bit rate mode : Constant
+Bit rate : 224 kb/s
+Channel(s) : 2 channels
+Channel positions : Front: L R
+Sampling rate : 48.0 kHz
+Frame rate : 31.250 FPS (1536 SPF)
+Bit depth : 16 bits
+Compression mode : Lossy
+Stream size : 236 MiB (4%)
+Title : Org DD2.0 - 224kbps ~ The.PunisheR
+Language : Hindi
+Service kind : Complete Main
+Default : Yes
+Forced : No
+~~~~
+
 ### Pulp Fiction (1994) - Quentin Tarantino
 
 - [Pulp Fiction (1994) | IMDb](https://www.imdb.com/title/tt0110912/)
