@@ -121,6 +121,26 @@ magnet:?xt=urn:btih:7e4fc497df7b26d12004483f21dad9fe4f652bdd
 magnet:?xt=urn:btih:PZH4JF67PMTNCIAEJA7SDWWZ7ZHWKK65&dn=%28______%29+%5B____%5D+CLAYMORE+-_____-+01-24&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannonuce
 ~~~
 
+### 亜人 Ajin 三浦追儺x桜井画門
+
+#### [`亜人 第01-15巻 [Ajin vol 01-15].rar Torrent download`](https://bt4gprx.com/magnet/jLWf6Gcbf1J41aeXgK4aChpktaJVwDMlE)
+
+[`1.03GB`](https://downloadtorrentfile.com/hash/704b140772034d8368957a4ea95cd8f70198db5f?name=%E4%BA%9C%E4%BA%BA%20%E7%AC%AC01-15%E5%B7%BB%20%5BAjin%20vol%2001-15%5D.rar)
+
+~~~ magnet
+magnet:?xt=urn:btih:704b140772034d8368957a4ea95cd8f70198db5f&dn=%E4%BA%9C%E4%BA%BA%20%E7%AC%AC01-15%E5%B7%BB%20%5BAjin%20vol%2001-15%5D.rar&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+#### [`[三浦追儺x桜井画門] 亜人 第16巻 [Ajin vol.16] :: Nyaa`](https://nyaa.si/view/1271698)
+
+[`116.2 MiB`](https://nyaa.si/download/1271698.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:5ea0c922585e7b344690e160b07dfed5b04247eb&dn=%5B%E4%B8%89%E6%B5%A6%E8%BF%BD%E5%84%BAx%E6%A1%9C%E4%BA%95%E7%94%BB%E9%96%80%5D%20%E4%BA%9C%E4%BA%BA%20%E7%AC%AC16%E5%B7%BB%20%5BAjin%20vol.16%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce
+~~~
+
+[`(vol.17)`](https://fikper.com/R17bArbsny/Ajin_v17.rar.html)
+
 ## Anime
 
 Series and Movies .
@@ -2253,6 +2273,16 @@ magnet:?xt=urn:btih:dc516750704251c8d07a8822b0acdd0d2d798b7f&dn=%5BWEBHD%5D%E5%8
 ~~~ magnet
 magnet:?xt=urn:btih:a15f82924bdc6076bb0fc740d834e5da16a82708&dn=%5BBD%E5%BD%B1%E8%A7%86%E5%88%86%E4%BA%ABbd2020.com%5D%E5%86%B3%E8%A3%82.Breaking.with.Old.Ideas.1975.HD1080P.%E5%9B%BD%E8%AF%AD%E6%97%A0%E5%AD%97.mp4&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.moeblog.cn%3A443%2Fannounce&tr=udp%3A%2F%2Fv2.iperson.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fv1046920.hosted-by-vdsina.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
 magnet:?xt=urn:btih:9ba20e07a42fe2a1569a70b49cbc436921f6fb6c&dn=%5BBD%E5%BD%B1%E8%A7%86%E5%88%86%E4%BA%ABbd2020.com%5D%E5%86%B3%E8%A3%82.Breaking.with.Old.Ideas.1975.HD1080P.%E5%9B%BD%E8%AF%AD%E6%97%A0%E5%AD%97.mp4&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leech.ie%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.filemail.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dump.cl%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
+### 无名之辈 A Cool Fish (2018)
+
+#### [`A.Cool.Fish.2018.4K.HEVC&1080.AVC.WEB-DL.AAC-HQC Torrent download`](https://bt4gprx.com/magnet/qu1GJwWq0V0Gq7H4udi8A552GKYCabFW)
+
+[`15.51GB`](https://downloadtorrentfile.com/hash/ff4893097bb67c044b11420863c97bad0acb4d5a?name=A.Cool.Fish.2018.4K.HEVC%261080.AVC.WEB-DL.AAC-HQC)
+
+~~~ magnet
+magnet:?xt=urn:btih:ff4893097bb67c044b11420863c97bad0acb4d5a&dn=A.Cool.Fish.2018.4K.HEVC%261080.AVC.WEB-DL.AAC-HQC&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
 ~~~
 
 ### 切腹 Harakiri (1962)
