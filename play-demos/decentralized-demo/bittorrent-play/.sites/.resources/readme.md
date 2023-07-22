@@ -1579,6 +1579,26 @@ magnet:?xt=urn:btih:814a5f82bee59bcd82016bb1cac10623a364f6a0
 magnet:?xt=urn:btih:QFFF7AV64WN43AQBNOY4VQIGEORWJ5VA&dn=%5BKamigami%5D+Millennium+Actress+%5BBD+x264+1080p+DTS-HD%285.1ch%2C2.0ch%29+Sub%28Chs%2CJap%2CEng%29%5D.mkv&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce
 ~~~
 
+### 狼的孩子雨和雪 おおかみこどもの雨と雪
+
+#### [`【諸神字幕組】[狼的孩子雨和雪][東京年度動畫獎][1080P][5.1ch][簡繁日文字幕][BD-MKV]★高清收藏版 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/292973_1080P_5_1ch_BD-MKV.html)
+
+[`8.4GB`](https://dl.dmhy.org/2013/03/03/c6317fe264cac395185404e202972d0783ae1270.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:c6317fe264cac395185404e202972d0783ae1270
+magnet:?xt=urn:btih:YYYX7YTEZLBZKGCUATRAFFZNA6B24ETQ&dn=%5BKamigami%5D+Ookami+Kodomo+no+Ame+to+Yuki+Movie+%5BBD+x264+1920_1080+FLAC%285.1ch%29+Sub%28GB%2CBig5%2CJap%29%5D.mkv&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce
+~~~
+
+#### [`[ANK-Raws] 狼的孩子雨和雪 おおかみこどもの雨と雪 Ookami Kodomo no Ame to Yuki (BDrip 1920x1080 x264 FLACx2 AC3 Hi10P SUP) - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/292539_ANK-Raws_Ookami_Kodomo_no_Ame_to_Yuki_BDrip_1920x1080_x264_FLACx2_AC3_Hi10P_SUP.html)
+
+[`10.7GB`](https://dl.dmhy.org/2013/03/01/f37b1881c29d178b54779d9c254f9df07603f815.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:f37b1881c29d178b54779d9c254f9df07603f815
+magnet:?xt=urn:btih:6N5RRAOCTULYWVDXTWOCKT456B3AH6AV&dn=%5BANK-Raws%5D+Ookami+Kodomo+no+Ame+to+Yuki+%28BDrip+1920x1080+x264+FLACx2+AC3+Hi10P+SUP%29&tr=http%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=udp%3A%2F%2F208.67.16.113%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Fwww.mp4mkv.org%2F1b%2Fannounce.php&tr=http%3A%2F%2Ftracker.ktxp.com%3A6868%2Fannounce&tr=http%3A%2F%2Ftracker.ktxp.com%3A7070%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Fbt.sc-ol.com%3A2710%2Fannounce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2F61.154.116.205%3A8000%2Fannounce&tr=http%3A%2F%2Fbt.rghost.net%3A80%2Fannounce&tr=http%3A%2F%2Fbt.edwardk.info%3A4040%2Fannounce
+~~~
+
 ### 永生之酒
 
 #### [`【諸神片源組】[永生之酒/為酒而狂][01-16合集][1080P][外掛DMZJ簡繁+英日文字幕][BD-MKV]★高清收藏版 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/297943_01-16_1080P_DMZJ_BD-MKV.html)
