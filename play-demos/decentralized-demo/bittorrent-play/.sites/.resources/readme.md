@@ -1612,6 +1612,9 @@ magnet:?xt=urn:btih:TCWWBAASRZOJWNNYRB5VJ7ONCPJADM5G&dn=%5BKamigami-Raws%5D+Bacc
 
 ### デュラララ!! Durarara!! 无头骑士异闻录
 
+sub: 
+- [无头骑士异闻录/Durarara!!/デュラララ!! 字幕 - ACG字幕分享 - Anime字幕论坛 - Powered by Discuz!](https://bbs.acgrip.com/thread-6387-1-1.html)
+
 #### [`[VCB-Studio] 无头骑士异闻录 / Durarara!! / デュラララ!! 10-bit 1080p HEVC BDRip [S1-S2 Fin] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/621830_VCB-Studio_Durarara%21%21_%21%21_10-bit_1080p_HEVC_BDRip_S1-S2_Fin.html)
 
 [`85.0GB`](https://dl.dmhy.org/2022/11/22/6feb855ae35dd2021ff970273996961ec4580d45.torrent)
@@ -2060,6 +2063,35 @@ Love.Death.and.Robots.S03E07.Masons.Rats.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.
 Love.Death.and.Robots.S03E08.In.Vaulted.Halls.Entombed.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 292.84MB
 Love.Death.and.Robots.S03E09.Jibaro.720p.NF.WEB-DL.DDP5.1.Atmos.x264-SMURF.mkv 596.75MB
 ~~~~
+
+### 言葉之庭 言の葉の庭 The Garden of Words
+
+#### [`[VCB-Studio] Kotonoha no Niwa / 言叶之庭 / 言の葉の庭 10-bit 1080p AVC BDRip [Reseed Fin] - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/479705_VCB-Studio_Kotonoha_no_Niwa_10-bit_1080p_AVC_BDRip_Reseed_Fin.html)
+
+[`6.9GB`](https://dl.dmhy.org/2018/01/15/67f2df16828a2e1dacc9b85c5c38cf5a5fb116ff.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:67f2df16828a2e1dacc9b85c5c38cf5a5fb116ff
+magnet:?xt=urn:btih:M7ZN6FUCRIXB3LGJXBOFYOGPLJP3CFX7&dn=&tr=http%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.238.198.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=http%3A%2F%2Ftr.bangumi.moe%3A6969%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Fbtfile.sdo.com%3A6961%2Fannounce&tr=http%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftr.bangumi.moe%3A9696%2Fannounce&tr=http%3A%2F%2Ft.nyaatracker.com%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=http%3A%2F%2Ft2.popgo.org%3A7456%2Fannonce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=http%3A%2F%2Fopentracker.acgnx.se%2Fannounce&tr=http%3A%2F%2Ftracker.acgnx.se%2Fannounce
+~~~
+
+#### [`[BDISO]The Garden of Words 2013 1080p BluRay AVC DTS-HD MA 5.1-RY4N 言の葉の庭/Kotonoha no Niwa/言叶之庭/言语之庭 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/618218_BDMV_The_Garden_of_Words_2013_1080p_BluRay_AVC_DTS-HD_MA_5_1-RY4N_Kotonoha_no_Niwa.html)
+
+[`42.7GB`](https://dl.dmhy.org/2022/10/24/9464fd1a76f8308ab10c65c9de2a6379e1cf6df0.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:9464fd1a76f8308ab10c65c9de2a6379e1cf6df0
+magnet:?xt=urn:btih:SRSP2GTW7AYIVMIMMXE54KTDPHQ463PQ&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce
+~~~
+
+#### [`[BDMV][アニメ][Kotonoha no Niwa][言の葉の庭][The Garden of Words][Movie+CD+BK][U2娘@Share] Kotonoha no Niwa/The Garden of Words/言叶之庭/言语之庭 - 動漫花園資源網 - 動漫愛好者的自由交流平台`](https://share.dmhy.org/topics/view/618216_BDMV_Kotonoha_no_Niwa_The_Garden_of_Words_Movie_CD_BK_U2_Share_Kotonoha_no_Niwa_The_Garden_of_Words.html)
+
+[`43.8GB`](https://dl.dmhy.org/2022/10/24/17b8dc85c23c0b50a834f322b735bff1eb024718.torrent)
+
+~~~ magnet
+magnet:?xt=urn:btih:17b8dc85c23c0b50a834f322b735bff1eb024718
+magnet:?xt=urn:btih:C64NZBOCHQFVBKBU6MRLONN76HVQERYY&dn=&tr=http%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=udp%3A%2F%2F104.143.10.186%3A8000%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.prq.to%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=https%3A%2F%2Ft-115.rhcloud.com%2Fonly_for_ylbud&tr=http%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce
+~~~
 
 ### Bocchi The Rock!
 
