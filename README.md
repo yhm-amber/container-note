@@ -8,7 +8,7 @@ repo content:
 - <kbd>[bodies](./praxis-notes)</kbd> : instances notes
 - <kbd>[heads](./play-demos)</kbd> : requests and way to play
 
-[👻](./practices-notes/container-note)
+[👻](./praxis-notes/container-note)
 
 --------
 
