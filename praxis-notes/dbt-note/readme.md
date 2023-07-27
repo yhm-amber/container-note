@@ -2,8 +2,8 @@
 [hub]: https://hub.getdbt.com
 [site]: https://getdbt.com
 
-[utils-repo]: https://github.com/dbt-labs/dbt-utils.git
-[repo]: https://github.com/dbt-labs/dbt-core.git
+[utils.src/gh]: https://github.com/dbt-labs/dbt-utils.git "(Apache-2.0) (Languages: Python 72.5%, Makefile 16.6%, Shell 10.9%) Utility functions for dbt projects. // dbt 项目的实用函数。 (https://hub.getdbt.com/dbt-labs/dbt_utils)"
+[src/gh]: https://github.com/dbt-labs/dbt-core.git "(Apache-2.0) (Languages: Python 72.4%, HTML 26.5%, Rust 0.8%, Shell 0.1%, Makefile 0.1%, Dockerfile 0.1%) dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications. // dbt 使数据分析师和工程师能够使用与软件工程师构建应用程序相同的实践来转换数据。"
 
 [ghcr]: https://github.com/dbt-labs/dbt-core/pkgs/container/dbt-core
 
@@ -23,8 +23,8 @@ links:
 
 - [Package hub | hub][hub]
 - [dbt - Transform data in your warehouse][site]
-- [dbt-labs/dbt-utils | GitHub][utils-repo]
-- [dbt-labs/dbt-core | GitHub][repo]
+- [dbt-labs/dbt-utils | GitHub][utils.src/gh]
+- [dbt-labs/dbt-core | GitHub][src/gh]
 - [dbt-labs/dbt-core | ghcr.io][ghcr]
 
 [Install with Docker | dbt Developer Hub][docs-i-docker]
