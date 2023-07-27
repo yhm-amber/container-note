@@ -14,4 +14,4 @@ require-demo // 需求
 // playing can be other words.
 ~~~
 
-对各 instance (实例) 的 (或许是不仅仅关于容器化的) 说明，见 *[`../prixis-notes`](../prixis-notes)* 目录。
+对各 instance (实例) 的 (或许是不仅仅关于容器化的) 说明，见 *[`../praxis-notes`](../praxis-notes)* 目录。
