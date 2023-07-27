@@ -1,4 +1,4 @@
-[src/gh]: https://github.com/ArroyoSystems/arroyo.git "(MIT Apache-2.0) (Languages: Rust 75.1%, TypeScript 23.8%, Dockerfile 0.5%, Smarty 0.2%, CSS 0.1%, HTML 0.1%, Other 0.2%) Distributed stream processing engine in Rust"
+[src/gh]: https://github.com/ArroyoSystems/arroyo.git "(MIT Apache-2.0) (Languages: Rust 81.3%, TypeScript 17.6%, Dockerfile 0.5%, Smarty 0.2%, CSS 0.1%, HTML 0.1%, Other 0.2%) Distributed stream processing engine in Rust"
 [site]: https://www.arroyo.dev/ "Arroyo - Serverless stream processing"
 [docs]: https://doc.arroyo.dev/ ""
 
