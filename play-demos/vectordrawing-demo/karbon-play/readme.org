@@ -1,1 +1,1 @@
-[[../../../practices-notes/karbon.calligra-note][note]]
+[[../../../praxis-notes/karbon.calligra-note][note]]

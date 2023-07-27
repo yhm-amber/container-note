@@ -1,5 +1,5 @@
 
-- [[../../../practices-notes/mpitutorial-note][🔩 mpitutorial]]
+- [[../../../praxis-notes/mpitutorial-note][🔩 mpitutorial]]
 
 ----
 

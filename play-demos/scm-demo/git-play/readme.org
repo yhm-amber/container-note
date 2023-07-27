@@ -1,1 +1,1 @@
-[[../../../practices-notes/git-note][note]]
+[[../../../praxis-notes/git-note][note]]

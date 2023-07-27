@@ -1,2 +1,2 @@
 
-- [[../../../practices-notes/ski.blynn-note][ski | blynn]]
+- [[../../../praxis-notes/ski.blynn-note][ski | blynn]]

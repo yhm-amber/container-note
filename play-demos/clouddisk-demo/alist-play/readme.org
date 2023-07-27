@@ -1,1 +1,1 @@
-[[../../../practices-notes/alist.disk-note][📓 note]]
+[[../../../praxis-notes/alist.disk-note][📓 note]]

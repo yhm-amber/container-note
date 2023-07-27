@@ -1,5 +1,5 @@
 
-[[../../../practices-notes/lunatic.elsm-note][lunatic erlized wasm]]
+[[../../../praxis-notes/lunatic.elsm-note][lunatic erlized wasm]]
 
 - code: rust
 - runtime: wasi

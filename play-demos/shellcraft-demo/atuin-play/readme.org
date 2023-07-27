@@ -1,1 +1,1 @@
-[[../../../practices-notes/atuin.sh-note][note]]
+[[../../../praxis-notes/atuin.sh-note][note]]

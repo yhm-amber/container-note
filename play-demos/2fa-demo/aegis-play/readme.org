@@ -1,4 +1,4 @@
-[[../../../practices-notes/aegis.2fa-note][note]]
+[[../../../praxis-notes/aegis.2fa-note][note]]
 
 可用于 Android 设备的两步验证工具
 

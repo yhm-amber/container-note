@@ -1,1 +1,1 @@
-async in [[../../../practices-notes/typescript.js-note][/ts/]]
+async in [[../../../praxis-notes/typescript.js-note][/ts/]]

@@ -1,1 +1,1 @@
-[[../../../practices-notes/webmachine-note][note]]
+[[../../../praxis-notes/webmachine-note][note]]

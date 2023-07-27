@@ -1,2 +1,2 @@
 
-[[../../../practices-notes/nbnhhsh-note][note]]
+[[../../../praxis-notes/nbnhhsh-note][note]]

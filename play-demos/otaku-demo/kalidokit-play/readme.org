@@ -1,2 +1,2 @@
 
-[[../../../practices-notes/kalidokit-note][note]]
+[[../../../praxis-notes/kalidokit-note][note]]

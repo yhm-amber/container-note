@@ -1,1 +1,1 @@
-[[../../../practices-notes/svgedit.web-note][📔 note]]
+[[../../../praxis-notes/svgedit.web-note][📔 note]]

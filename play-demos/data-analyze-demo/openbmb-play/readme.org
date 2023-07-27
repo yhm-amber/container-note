@@ -1,1 +1,1 @@
-[[../../../practices-notes/openbmb-note][note]]
+[[../../../praxis-notes/openbmb-note][note]]

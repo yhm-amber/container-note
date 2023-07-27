@@ -1,4 +1,4 @@
-[[../../../practices-notes/apkcombo.apks-note][note]]
+[[../../../praxis-notes/apkcombo.apks-note][note]]
 
 - 如果一个应用只提供给你用谷歌应用商店但你真的不能用这玩意儿那么这是个好去处
 - 可以直接输入谷歌应用商店链接来获取应用

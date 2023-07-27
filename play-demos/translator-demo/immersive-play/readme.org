@@ -1,1 +1,1 @@
-[[../../../practices-notes/immersive.tr-note][📔 note]]
+[[../../../praxis-notes/immersive.tr-note][📔 note]]

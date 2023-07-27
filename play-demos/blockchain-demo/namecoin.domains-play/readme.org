@@ -1,4 +1,4 @@
 
 =.bit= 的域名。
 
-[[../../../practices-notes/namecoin-note][note]]
+[[../../../praxis-notes/namecoin-note][note]]

@@ -3,9 +3,9 @@
 
 基于 `argoproj.io/v1alpha1` 的 `Application` 类型的话，可以不用在 `Node` 上用有特权 `helm` 命令部署应用实例，而是创建特定 CRD 来完成这件事。
 
-该类型说明见 [Argo 的笔记](../../../practices-notes/argo-note#Application) 。
+该类型说明见 [Argo 的笔记](../../../praxis-notes/argo-note#Application) 。
 
-该 CRD 的安装，见应用 [`argo/argo-cd` 的安装笔记](../../../practices-notes/argo-note#argo-cd) 。
+该 CRD 的安装，见应用 [`argo/argo-cd` 的安装笔记](../../../praxis-notes/argo-note#argo-cd) 。
 
 简单说，就是在 `Application.spec` 下面的 `source` 和 `destination` 分别指定实例的 *来源* 和 *去往* ，而且在 *来源* 里面，不仅可以指定 Helm Chart 为来源，还可以是 Kustomize 类型的来源。
 
@@ -44,7 +44,7 @@ spec:
     namespace: db-tools
 ~~~
 
-***名称空间注意**：在 `Application.metadata.namespace` 位置的值，上面示例里是 `argocd` ，但实际请务必是指与你安装的 `argo/argo-cd` 应用的名称空间一致！比如，如果你像[我这里](../../../practices-notes/argo-note)这样，在安装 `argo/argo-cd` 时指定了 `-n argo` ，那么，在创建如上例所示的 `application.argoproj.io` 资源时，在 `.metadata.namespace` 的位置务必配置为 `argo` ，否则不能生效。*
+***名称空间注意**：在 `Application.metadata.namespace` 位置的值，上面示例里是 `argocd` ，但实际请务必是指与你安装的 `argo/argo-cd` 应用的名称空间一致！比如，如果你像[我这里](../../../praxis-notes/argo-note)这样，在安装 `argo/argo-cd` 时指定了 `-n argo` ，那么，在创建如上例所示的 `application.argoproj.io` 资源时，在 `.metadata.namespace` 的位置务必配置为 `argo` ，否则不能生效。*
 
 其中的 `.spec.source.targetRevision` 必须要有值，否则会得到报错（我是从页面得到的）：
 
@@ -99,7 +99,7 @@ sh-4.2#
 
 </details>
 
-创建资源后，进入 Argo-cd 的 WEB 页面（[方法](../../../practices-notes/argo-note#web-gui)），也可以看到被创建的资源。
+创建资源后，进入 Argo-cd 的 WEB 页面（[方法](../../../praxis-notes/argo-note#web-gui)），也可以看到被创建的资源。
 
 
 

@@ -1,2 +1,2 @@
 
-[[../../../practices-notes/mozjpeg-note][note]]
+[[../../../praxis-notes/mozjpeg-note][note]]

@@ -1,2 +1,2 @@
 
-[[../../../practices-notes/waifuchain-note][note]]
+[[../../../praxis-notes/waifuchain-note][note]]

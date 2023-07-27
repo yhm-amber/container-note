@@ -1,1 +1,1 @@
-[[../../../practices-notes/code.onedev.io-note][note]]
+[[../../../praxis-notes/code.onedev.io-note][note]]

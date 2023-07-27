@@ -1,2 +1,2 @@
 
-[[../../../../practices-notes/numerical.elixir-note][🦝 note]]
+[[../../../../praxis-notes/numerical.elixir-note][🦝 note]]

@@ -1,1 +1,1 @@
-[[../../../practices-notes/phoenixframework-note][note]]
+[[../../../praxis-notes/phoenixframework-note][note]]

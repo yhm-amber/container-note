@@ -1,1 +1,1 @@
-[[../../../practices-notes/arweave-note][note]]
+[[../../../praxis-notes/arweave-note][note]]

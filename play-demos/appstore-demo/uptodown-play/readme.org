@@ -1,4 +1,4 @@
-[[../../../practices-notes/uptodown.apps-note][note]]
+[[../../../praxis-notes/uptodown.apps-note][note]]
 
 - 能下好多平台的应用
 - 有专题集比如开源专题（但并不会像 f-droid 那样贴心地告诉你任何重要的事）

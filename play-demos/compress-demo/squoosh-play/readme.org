@@ -1,2 +1,2 @@
 
-[[../../../practices-notes/squoosh-note][note]]
+[[../../../praxis-notes/squoosh-note][note]]

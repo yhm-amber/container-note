@@ -1,2 +1,2 @@
 
-[[../../../practices-notes/neovide-note][note]]
+[[../../../praxis-notes/neovide-note][note]]

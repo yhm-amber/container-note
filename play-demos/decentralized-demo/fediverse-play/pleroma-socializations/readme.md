@@ -1,2 +1,2 @@
 
-[`pleroma note`](../../../../practices-notes/pleroma-note)
+[`pleroma note`](../../../../praxis-notes/pleroma-note)

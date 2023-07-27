@@ -1,2 +1,2 @@
 
-[[../../../practices-notes/bilili-note][note]]
+[[../../../praxis-notes/bilili-note][note]]

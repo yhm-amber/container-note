@@ -8,7 +8,7 @@
 - 如果 ~~被划掉~~ 就是这个网页失效了（至少对我的网络环境来说）
 
 
-[👣 chatgpt-web]: ../../../../practices-notes/chatgpt.web.czy-note
+[👣 chatgpt-web]: ../../../../praxis-notes/chatgpt.web.czy-note
 
 [🎈 chatgpt.icloudnative.io]: https://chatgpt.icloudnative.io
 [🎈 chatbot.theb.ai]: https://chatbot.theb.ai "BAI Chat"

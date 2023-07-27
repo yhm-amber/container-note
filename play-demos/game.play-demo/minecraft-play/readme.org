@@ -1,1 +1,1 @@
-[[../../../practices-notes/minecraft-note][note]]
+[[../../../praxis-notes/minecraft-note][note]]

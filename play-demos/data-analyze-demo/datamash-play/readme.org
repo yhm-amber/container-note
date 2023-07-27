@@ -1,2 +1,2 @@
 
-[[../../../practices-notes/datamash-note][note]]
+[[../../../praxis-notes/datamash-note][note]]

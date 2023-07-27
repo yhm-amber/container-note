@@ -1,2 +1,2 @@
 
-[[../../../practices-notes/chatgpt.openai-note][👾 note]]
+[[../../../praxis-notes/chatgpt.openai-note][👾 note]]

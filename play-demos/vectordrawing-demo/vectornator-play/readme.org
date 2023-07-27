@@ -1,1 +1,1 @@
-[[../../../practices-notes/vectornator.linearity-note][note]]
+[[../../../praxis-notes/vectornator.linearity-note][note]]

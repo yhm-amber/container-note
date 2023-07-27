@@ -1,2 +1,2 @@
-[[../../../practices-notes/clap-note][note]],
+[[../../../praxis-notes/clap-note][note]],
  [[https://docs.rs/clap/latest/clap][docs.rs]]

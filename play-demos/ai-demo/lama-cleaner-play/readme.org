@@ -1,4 +1,4 @@
 
 用于去处图片上的 人物、杂物、文字、水印等。
 
-[[../../../practices-notes/lama-cleaner-note][note]]
+[[../../../praxis-notes/lama-cleaner-note][note]]

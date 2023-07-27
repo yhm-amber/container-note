@@ -1,2 +1,2 @@
 
-[[../../../practices-notes/danmu2ass-note][note]]
+[[../../../praxis-notes/danmu2ass-note][note]]

@@ -1,1 +1,1 @@
-[[../../../practices-notes/koblas-note][note]]
+[[../../../praxis-notes/koblas-note][note]]

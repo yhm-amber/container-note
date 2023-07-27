@@ -1,2 +1,2 @@
 
-[[../../../practices-notes/arroyo.datasys-note][⛵ note]]
+[[../../../praxis-notes/arroyo.datasys-note][⛵ note]]

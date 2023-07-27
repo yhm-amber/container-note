@@ -1,2 +1,2 @@
 
-[[../../../practices-notes/caesium-note][note]]
+[[../../../praxis-notes/caesium-note][note]]

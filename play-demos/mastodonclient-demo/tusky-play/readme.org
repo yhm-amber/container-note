@@ -1,1 +1,1 @@
-[[../../../practices-notes/tusky.masto-note][📔 note]]
+[[../../../praxis-notes/tusky.masto-note][📔 note]]

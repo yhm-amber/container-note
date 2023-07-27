@@ -1,1 +1,1 @@
-[[../../../practices-notes/sapling-note][note]]
+[[../../../praxis-notes/sapling-note][note]]

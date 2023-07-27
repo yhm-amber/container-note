@@ -1,1 +1,1 @@
-[[../../../practices-notes/dbt-note][note]]
+[[../../../praxis-notes/dbt-note][note]]

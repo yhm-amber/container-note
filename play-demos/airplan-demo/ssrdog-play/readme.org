@@ -1,4 +1,4 @@
-[[../../../practices-notes/ssrdog.iplc.iepl-note][ssrdog]]
+[[../../../praxis-notes/ssrdog.iplc.iepl-note][ssrdog]]
 
 一个服务
 

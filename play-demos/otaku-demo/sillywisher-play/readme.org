@@ -3,6 +3,6 @@
 
 作者是 sketchi ，目前的作品就是这俩：
 
-- [[../../../practices-notes/sillywisher.sketchi-note][silly-wisher note]]
-- [[../../../practices-notes/furrywisher.sketchi-note][furry-wisher note]]
+- [[../../../praxis-notes/sillywisher.sketchi-note][silly-wisher note]]
+- [[../../../praxis-notes/furrywisher.sketchi-note][furry-wisher note]]
 

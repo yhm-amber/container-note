@@ -1,1 +1,1 @@
-[[../../../practices-notes/sourcehut-note][note]]
+[[../../../praxis-notes/sourcehut-note][note]]

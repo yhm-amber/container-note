@@ -1,2 +1,2 @@
 
-[[../../../practices-notes/traduzir.tr-note][📓 note]]
+[[../../../praxis-notes/traduzir.tr-note][📓 note]]

@@ -1,1 +1,1 @@
-[[../../../practices-notes/analytics-note][note]]
+[[../../../praxis-notes/analytics-note][note]]
