@@ -4,14 +4,26 @@
 
 ----
 
-[src/gh]: https://github.com/Start9Labs/embassy-os.git "(START9 NON-COMMERCIAL LICENSE v1) (Languages: Rust 52.9%, TypeScript 33.5%, HTML 8.0%, SCSS 1.9%, JavaScript 1.9%, Shell 1.3%, Other 0.5%) Browser-based, graphical operating system for a personal server. // 用于个人服务器的基于浏览器的图形操作系统。"
+[src.old/gh]: https://github.com/Start9Labs/embassy-os.git
+
 [docs]: https://docs.start9.com/latest
 [docs.src/gh]: https://github.com/Start9Labs/documentation.git "(Languages: Python 54.2%, Makefile 22.8%, Shell 14.7%, HTML 5.0%, JavaScript 3.3%) User manual, developer documentation, and support for StartOS // StartOS 用户手册、开发人员文档和支持"
 [site]: https://start9.com
 [release/gh]: https://github.com/Start9Labs/embassy-os/releases
 
-- repo: [`Start9Labs/embassy-os`][src/gh]
-- docs: [`docs.start9`][docs] [`repo`][docs.src/gh]
+[src/gh]: https://github.com/Start9Labs/start-os.git "(START9 NON-COMMERCIAL LICENSE v1) (Languages: Rust 52.9%, TypeScript 33.5%, HTML 8.0%, SCSS 1.9%, JavaScript 1.9%, Shell 1.3%, Other 0.5%) Browser-based, graphical operating system for a personal server. // 用于个人服务器的基于浏览器的图形操作系统。"
+
+
+[blog]: https://blog.start9.com
+[t.me]: https://t.me/start9_labs
+[matrix]: https://matrix.to/#/#community:matrix.start9labs.com
+[twitter]: https://twitter.com/start9labs
+[mastodon]: http://mastodon.start9labs.com/
+[matrix-dev]: https://matrix.to/#/#community-dev:matrix.start9labs.com
+
+[🐌 src][src/gh] | [🪀 docs][docs] [`🐣`][docs.src/gh] | [👽 site][site] | [🦎 blog][blog]  
+[🦥 t.me][t.me] | [🦑 matrix][matrix] | [🪁 twitter][twitter] | [🦪 mastodon][mastodon] | [🐙 matrix dev][matrix-dev]
+
 
 > Browser-based, graphical operating system for a personal server.
 > 
