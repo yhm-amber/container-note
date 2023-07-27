@@ -1,4 +1,4 @@
 
-[[https://hashmail.dev][site]],
- [[https://app.hashmail.dev][app]],
- [[../../../praxis-notes/hashmail-note][note]]
+[[https://hashmail.dev][🦎 site]],
+ [[https://app.hashmail.dev][🐣 app]],
+ [[../../../praxis-notes/hashmail.dev-note][👽 note]]
