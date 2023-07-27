@@ -6,7 +6,7 @@
 [docs]: https://databend.rs/doc
 
 [docs:k8s]: https://databend.rs/doc/deploy/metasrv/deploying-databend-on-kubernetes "Ensure Prometheus Operator running in Kubernetes cluster, if you want to monitor the status for Databend Meta and Databend Query; helm repo add -- databend https://charts.databend.rs ; databend/databend-meta, databend/databend-query..."
-
+[docs:shuffle]: https://databend.rs/doc/contributing/rfcs/data-shuffle "Distributed Query and Shuffle | Databend ~ 分布式查询和随机播放 | 数据弯曲"
 
 [oci/dockerhub]: https://hub.docker.com/r/datafuselabs/databend "docker pull datafuselabs/databend"
 
