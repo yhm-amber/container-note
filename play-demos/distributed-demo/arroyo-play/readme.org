@@ -2,3 +2,5 @@
 serverless stream processing ...
 
 [[../../../praxis-notes/arroyo.datasys-note][⛵ note]]
+
+SQL 也是 PG 的。
