@@ -1,1 +1,1 @@
-[[../../../praxis-notes/databend-note][note]]
+[[../../../praxis-notes/databend.olap-note][👽 note]]
