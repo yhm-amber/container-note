@@ -1,1 +1,1 @@
-[[../../../praxis-notes/ambient.run-note][🍢 note]]
+[[../../../praxis-notes/ambient.webgpu-note][🍢 note]]
