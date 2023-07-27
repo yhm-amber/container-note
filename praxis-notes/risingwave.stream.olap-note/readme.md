@@ -4,6 +4,9 @@
 [docs:intro]: https://risingwave.dev/docs/current/intro/
 [docs:vs-flink]: https://www.risingwave.dev/docs/current/risingwave-flink-comparison/
 
+[app/site]: https://www.risingwave.cloud/ ""
+[play/site]: https://playground.risingwave.dev/ "RisingWave Playground is intended for quick testing purposes only. Your data will not persist after a session expires. Some functionality may be limited. // RisingWave Playground 仅用于快速测试目的。会话过期后，您的数据将不会保留。某些功能可能会受到限制。"
+
 ## Intro
 
 ref: [What is RisingWave ?][docs:intro]
@@ -137,7 +140,7 @@ ref:
 2.  [Operator][src:operator/gh] : 
     
     ~~~ sh
-    kubectl apply -f https://github.com/risingwavelabs/risingwave-operator/releases/latest/download/risingwave-operator.yaml
+    kubectl apply --server-side -f https://github.com/risingwavelabs/risingwave-operator/releases/latest/download/risingwave-operator.yaml
     ~~~
     
     检查：
@@ -147,20 +150,151 @@ ref:
     kubectl -n risingwave-operator-system get pods
     ~~~
     
-3.  [Instance][src:instance/gh] : 
-    
-    `etcd + MinIO`
-    
-    ~~~ sh
-    kubectl apply -f https://raw.githubusercontent.com/risingwavelabs/risingwave-operator/main/examples/risingwave/risingwave-etcd-minio.yaml
-    ~~~
-    
-    chk
-    
-    ~~~ sh
-    kubectl get risingwave
-    ~~~
-    
+
+### [Instance][src:instance/gh]
+
+`etcd+s3`: 
+
+~~~ sh
+kubectl create secret generic s3-credentials --from-literal AccessKeyID=${ACCESS_KEY} --from-literal SecretAccessKey=${SECRET_ACCESS_KEY}
+kubectl apply -f https://raw.githubusercontent.com/risingwavelabs/risingwave-operator/main/docs/manifests/stable/persistent/s3/risingwave.yaml
+kubectl get risingwave
+~~~
+
+`risingwave.yaml`: 
+
+~~~ yaml
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: etcd
+  labels:
+    app: etcd
+spec:
+  clusterIP: None
+  ports:
+  - port: 2388
+    name: client
+  - port: 2389
+    name: peer
+  selector:
+    app: etcd
+...
+
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: etcd
+  labels:
+    app: etcd
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: etcd
+  serviceName: etcd
+  volumeClaimTemplates:
+  - metadata:
+      name: etcd-data
+    spec:
+      accessModes: [ "ReadWriteOnce" ]
+      resources:
+        requests:
+          storage: 10Gi
+  persistentVolumeClaimRetentionPolicy:
+    whenDeleted: Delete
+    whenScaled: Retain
+  template:
+    metadata:
+      labels:
+        app: etcd
+    spec:
+      containers:
+      - name: etcd
+        image: quay.io/coreos/etcd:latest
+        imagePullPolicy: IfNotPresent
+        command:
+        - /usr/local/bin/etcd
+        args:
+        - --listen-client-urls
+        - http://0.0.0.0:2388
+        - --advertise-client-urls
+        - http://etcd-0:2388
+        - --listen-peer-urls
+        - http://0.0.0.0:2389
+        - --initial-advertise-peer-urls
+        - http://etcd-0:2389
+        - --listen-metrics-urls
+        - http://0.0.0.0:2379
+        - --name
+        - etcd
+        - --max-txn-ops
+        - "999999"
+        - --auto-compaction-mode
+        - periodic
+        - --auto-compaction-retention
+        - 1m
+        - --snapshot-count
+        - "10000"
+        - --data-dir
+        - /var/lib/etcd
+        - --max-request-byte
+        - "104857600"
+        - --quota-backend-bytes
+        - "8589934592"
+        env:
+        - name: ALLOW_NONE_AUTHENTICATION
+          value: "1"
+        ports:
+        - containerPort: 2389
+          name: peer
+          protocol: TCP
+        - containerPort: 2388
+          name: client
+          protocol: TCP
+        volumeMounts:
+        - mountPath: /var/lib/etcd
+          name: etcd-data
+...
+
+---
+apiVersion: risingwave.risingwavelabs.com/v1alpha1
+kind: RisingWave
+metadata:
+  name: risingwave
+spec:
+  image: ghcr.io/risingwavelabs/risingwave:v1.0.0
+  metaStore:
+    etcd:
+      endpoint: etcd:2388
+  stateStore:
+    dataDirectory: hummock001
+    s3:
+      bucket: risingwave
+      region: us-east-1
+      credentials:
+        secretName: s3-credentials
+  components:
+    meta:
+      nodeGroups:
+      - replicas: 1
+        name: ''
+    compactor:
+      nodeGroups:
+      - replicas: 1
+        name: ''
+    frontend:
+      nodeGroups:
+      - replicas: 1
+        name: ''
+    compute:
+      nodeGroups:
+      - replicas: 1
+        name: ''
+...
+~~~
 
 ### connect
 
