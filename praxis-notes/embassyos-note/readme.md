@@ -4,14 +4,14 @@
 
 ----
 
-[repo]: https://github.com/Start9Labs/embassy-os.git
+[src/gh]: https://github.com/Start9Labs/embassy-os.git "(START9 NON-COMMERCIAL LICENSE v1) (Languages: Rust 52.9%, TypeScript 33.5%, HTML 8.0%, SCSS 1.9%, JavaScript 1.9%, Shell 1.3%, Other 0.5%) Browser-based, graphical operating system for a personal server. // 用于个人服务器的基于浏览器的图形操作系统。"
 [docs]: https://docs.start9.com/latest
-[docs-repo]: https://github.com/Start9Labs/documentation.git
+[docs.src/gh]: https://github.com/Start9Labs/documentation.git "(Languages: Python 54.2%, Makefile 22.8%, Shell 14.7%, HTML 5.0%, JavaScript 3.3%) User manual, developer documentation, and support for StartOS // StartOS 用户手册、开发人员文档和支持"
 [site]: https://start9.com
-[release]: https://github.com/Start9Labs/embassy-os/releases
+[release/gh]: https://github.com/Start9Labs/embassy-os/releases
 
-- repo: [`Start9Labs/embassy-os`][repo]
-- docs: [`docs.start9`][docs] [`repo`][docs-repo]
+- repo: [`Start9Labs/embassy-os`][src/gh]
+- docs: [`docs.start9`][docs] [`repo`][docs.src/gh]
 
 > Browser-based, graphical operating system for a personal server.
 > 
@@ -58,7 +58,7 @@
 
 
 
-从其[分发页面][release]来看，它有 `iso` 格式的用于 `amd64` 指令集芯片的 OS 安装包，也有 `deb` 格式的用于在 Debian 上作为应用程序部署。
+从其[分发页面][release/gh]来看，它有 `iso` 格式的用于 `amd64` 指令集芯片的 OS 安装包，也有 `deb` 格式的用于在 Debian 上作为应用程序部署。
 
 其应用的打包与 [Umbrel](../umbrel-note) 一样，也是 OCI 格式的，且 [示例][docs-pkg-buildx] 同样使用了 [`docker buildx`][buildx-repo] 作为打包工具：
 
