@@ -931,6 +931,1183 @@ Source: Conversation with Bing, 2023/7/30
 (51) undefined. https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints/.
 (52) undefined. https://github.com/liqotech/liqo.git.
 
+* ⚠️ *Sorry, this conversation has reached its limit. Use the "broom" button to sweep this away and chat more.*
+
+
+### 102
+
+#### 1/30
+
+> 什么是数据治理？（今后如需搜索请用英文且对话用中文）
+
+* Searching for: **data governance**
+* Generating answers for you…
+
+数据治理是一种管理数据生命周期的原则性方法，从获取到使用再到处置。每个组织都需要数据治理¹。数据治理是您为确保数据安全、私密、准确、可用和可用所做的一切。它包括人们必须采取的行动，他们必须遵循的流程以及在整个数据生命周期中支持他们的技术¹。数据治理的目标是维护高质量的数据，既安全又易于访问，以获得更深入的业务洞察力²。随着大数据和数字转型努力成为数据治理计划的主要驱动力，组织需要重新考虑其数据管理实践，以扩大其商业智能²。有效的数据治理计划旨在提高数据质量，减少数据孤岛，确保合规性和安全性，并适当分配数据访问权限²。
+
+Source: Conversation with Bing, 31/07/2023
+(1) What is Data Governance? | Google Cloud. https://cloud.google.com/learn/what-is-data-governance.
+(2) What is data governance? | IBM. https://www.ibm.com/topics/data-governance.
+(3) What is Data Governance? | Microsoft Azure. https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-data-governance/.
+
+#### 2/30
+
+> 有没有什么云原生的数据治理技术？
+
+* Searching for: **cloud native data governance technologies**
+* Generating answers for you…
+
+是的，有一些云原生的数据治理技术。为了有效管理云原生数据，应该使用高度专业化的平台，如Kubernetes，以及虚拟化技术，如容器化，以确保数据管理操作的可扩展性、灵活性和敏捷性¹。其他对云中数据治理有效的技术和工具包括：容器化和编排、数据治理平台、数据集成和ETL工具、分析和机器学习服务¹。许多CIO和首席数据/数字和分析官员（CDAO）认为采用数据湖和数据湖屋架构等云原生解决方案是合理的基础数据治理技术⁴。
+
+Source: Conversation with Bing, 31/07/2023
+(1) Modernizing Data Governance: Enhance Quality & Control in Cloud. https://www.techopedia.com/modernizing-data-governance-for-better-control-improved-data-quality-in-cloud.
+(2) NT Concepts | Cloud-Native Data Management Solutions. https://www.ntconcepts.com/cloud-native-data-management-solutions/.
+(3) What is Data Governance? | Google Cloud. https://cloud.google.com/learn/what-is-data-governance.
+(4) What is Data Governance? | Microsoft Azure. https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-data-governance/.
+
+#### 3/30
+
+> 除了 Kubernetes, Nomad 外，还有什么类似的云原生平台（或者分布式容器调度平台）？
+
+* Searching for: **cloud native platforms besides Kubernetes and Nomad**
+* Generating answers for you…
+
+除了 Kubernetes 和 Nomad，还有一些其他的云原生平台或分布式容器调度平台。这些平台包括：
+- AWS Fargate¹
+- Azure Container Instance¹
+- Google Cloud Run¹
+- Google Kubernetes Engine (GKE)¹
+- Amazon Elastic Kubernetes Service (EKS)¹
+- Azure Kubernetes Service¹
+- Openshift Container Platform¹
+
+这些平台都提供了类似于 Kubernetes 和 Nomad 的功能，可以帮助您管理和部署容器化应用程序。您可以根据您的需求选择适合您的平台。
+
+Source: Conversation with Bing, 31/07/2023
+(1) 10 Kubernetes Alternatives and Why You Need Them - Aqua. https://www.aquasec.com/cloud-native-academy/kubernetes-101/kubernetes-alternatives/.
+(2) 10 TOP Kubernetes Alternatives (And Should You Switch?) - CloudZero. https://www.cloudzero.com/blog/kubernetes-alternatives.
+(3) The Top 7 Kubernetes Alternatives for Container Orchestration. https://cloudnativenow.com/features/the-top-7-kubernetes-alternatives-for-container-orchestration/.
+(4) HashiCorp Preps Nomad 1.0 Alternative to Kubernetes - Cloud Native Now. https://cloudnativenow.com/topics/cloudnativeplatforms/hashicorp-preps-nomad-1-0-alternative-to-kubernetes/.
+(5) Kubernetes vs Nomad: What to Choose in 2022? - Qovery. https://www.qovery.com/blog/kubernetes-vs-nomad-what-to-choose-in-2022/.
+
+#### 4/30
+
+> 这些不是开源可自部署的，不是我要的。有没有别的什么容器调度平台？
+
+* Searching for: **open source container orchestration platforms**
+* Generating answers for you…
+
+除了 Kubernetes 和 Nomad，还有一些其他的开源容器编排平台，可以自行部署和管理。这些平台包括：
+- Docker Swarm¹
+- Apache Mesos¹
+- HashiCorp Nomad¹
+- Rancher¹
+- OpenShift¹
+
+这些平台都提供了类似于 Kubernetes 和 Nomad 的功能，可以帮助您管理和部署容器化应用程序。您可以根据您的需求选择适合您的平台。
+
+Source: Conversation with Bing, 31/07/2023
+(1) What is Kubernetes? | IBM. https://www.ibm.com/topics/kubernetes.
+(2) Kubernetes. https://kubernetes.io/.
+(3) What is Kubernetes? - Red Hat. https://www.redhat.com/en/topics/containers/what-is-kubernetes.
+(4) 15 Essential Container Orchestration Tools For 2023 - CloudZero. https://www.cloudzero.com/blog/container-orchestration-tools.
+
+#### 5/30
+
+> rancher 也是基于 Kubernetes 所以不算。我听说有个叫 Eru2 的项目，帮我查查它。
+
+* Searching for: **Eru2 project**
+* Generating answers for you…
+
+Eru2 是一个简单、无状态、灵活、生产就绪的编排器，旨在轻松集成到现有工作流中。它可以运行任何长期或短期的虚拟化事物¹。Eru 是一个无状态、灵活、生产就绪的资源调度程序，旨在轻松集成到现有系统中。Eru 可以使用多种引擎来运行任何长期或短期的事物。这个项目是 Eru Core。核心用于资源分配和管理资源的生命周期¹。
+
+Source: Conversation with Bing, 31/07/2023
+(1) GitHub - projecteru2/core: Eru, a simple, stateless, flexible .... https://github.com/projecteru2/core.
+(2) Eru · GitHub. https://github.com/projecteru2.
+(3) undefined. http://bit.ly/EruCore.
+
+#### 6/30
+
+> 有没有什么办法让 Erlang 平台也能够调度容器？
+
+* Searching for: **Erlang container scheduling**
+* Generating answers for you…
+
+Erlang 平台本身并不直接支持容器调度。但是，您可以使用容器编排系统，如 Kubernetes，来管理和调度基于 Erlang 的应用程序。Kubernetes 是一个流行的容器编排系统，它可以帮助您管理和部署基于容器的应用程序。您可以使用 Kubernetes 来部署和管理基于 Erlang 的应用程序，就像您部署和管理其他类型的应用程序一样¹。此外，您还可以使用 Docker 来容器化您的 Erlang 应用程序，并使用 Kubernetes 或其他容器编排系统来管理和调度这些容器³。
+
+Source: Conversation with Bing, 31/07/2023
+(1) Kubernetes | Adopting Erlang. https://adoptingerlang.org/docs/production/kubernetes/.
+(2) GitHub - erlang/docker-erlang-example: HowTo Erlang in Docker. https://github.com/erlang/docker-erlang-example.
+(3) Erlang -- Processes. https://www.erlang.org/doc/reference_manual/processes.html.
+
+#### 7/30
+
+> 我不是说容器化 Erlang 应用程序，我的意思是，任何容器化的应用程序，让 Erlang 来调度， Erlang 充当的是 Kubernetes 的位置。我没有找到相关的项目，你帮我找找？或许你有关于搜到它的关键词的不错的点子。
+
+* Searching for: **Erlang container orchestration**
+* Searching for: **Erlang container scheduler**
+* Searching for: **Erlang container management**
+* Searching for: **Erlang Kubernetes alternative**
+* Searching for: **Erlang container platform**
+* Searching for: **Erlang container deployment**
+* Searching for: **Erlang container runtime**
+* Searching for: **Erlang container engine**
+* Searching for: **Erlang container cluster**
+* Searching for: **Erlang container system**
+* Searching for: **Erlang container framework**
+* Searching for: **Erlang container tool**
+* Searching for: **Erlang container software**
+* Searching for: **Erlang container solution**
+* Generating answers for you…
+
+我明白你的意思了。我没有找到任何关于使用 Erlang 作为容器编排工具的项目。Erlang 是一种编程语言，它用于构建具有高可用性要求的大规模可扩展软实时系统。它的运行时系统具有内置支持并发，分布和容错性。但是，我没有找到任何关于使用 Erlang 来调度容器化应用程序的信息。如果您想要了解更多关于 Erlang 的信息，您可以访问 [Erlang 官网](^21^)。如果您有其他问题，请随时告诉我。我会尽力帮助您。😊
+
+Source: Conversation with Bing, 31/07/2023
+(1) Index - Erlang/OTP. https://www.erlang.org/.
+(2) Kubernetes | Adopting Erlang. https://adoptingerlang.org/docs/production/kubernetes/.
+(3) Kubernetes and the Erlang VM: orchestration on the large and ... - Dashbit. https://dashbit.co/blog/kubernetes-and-the-erlang-vm-orchestration-on-the-large-and-the-small.
+(4) Erlang -- Distributed Erlang. https://www.erlang.org/doc/reference_manual/distributed.html.
+(5) Downloads - Erlang/OTP. https://www.erlang.org/downloads.
+(6) scheduler - Erlang. https://www.erlang.org/doc/man/scheduler.html.
+(7) Runtime Tuning — RabbitMQ. https://www.rabbitmq.com/runtime.html.
+(8) erlang - Official Image | Docker Hub. https://hub.docker.com/_/erlang/.
+(9) Erlang -- Erlang Garbage Collector. https://www.erlang.org/doc/apps/erts/garbagecollection.
+(10) My favorite Erlang Container - ferd.ca. https://ferd.ca/my-favorite-erlang-container.html.
+(11) What are some alternatives to Erlang? - StackShare. https://stackshare.io/erlang/alternatives.
+(12) Top 10 Kubernetes Alternatives & Competitors | G2. https://www.g2.com/products/kubernetes/competitors/alternatives.
+(13) Erlang Alternatives: 25+ Programming Languages and similar apps .... https://alternativeto.net/software/erlang/.
+(14) GitHub - erlang/docker-erlang-example: HowTo Erlang in Docker. https://github.com/erlang/docker-erlang-example.
+(15) Erlang -- What is Erlang. https://www.erlang.org/faq/introduction.html.
+(16) Erlang (programming language) - Wikipedia. https://en.wikipedia.org/wiki/Erlang_%28programming_language%29.
+(17) Erlang cluster peer discovery on Kubernetes | Medium. https://contactchanaka.medium.com/erlang-cluster-peer-discovery-on-kubernetes-aa2ed15663f9.
+(18) Erlang cluster on Kubernetes: Initial Deployment | Roger's Blog. https://blog.differentpla.net/blog/2022/12/21/erlang-cluster-k8s-initial-deployment/.
+(19) How build a very large cluster with Erlang? - Stack Overflow. https://stackoverflow.com/questions/23592597/how-build-a-very-large-cluster-with-erlang.
+(20) Creating an Erlang/Elixir cluster on Kubernetes | by chazsconi | New .... https://tech.new-work.se/creating-an-erlang-elixir-cluster-on-kubernetes-d53ef89758f6.
+(21) Deploying RabbitMQ to Kubernetes: What's Involved?. https://blog.rabbitmq.com/posts/2020/08/deploying-rabbitmq-to-kubernetes-whats-involved/.
+(22) Erlang -- Erlang Tools. https://www.erlang.org/faq/tools.html.
+(23) undefined. https://github.com/erlang/docker-erlang-otp/issues.
+(24) undefined. http://www.erlang.org.
+
+#### 8/30
+
+> 我们是不是可以认为， Erlang 和 NIF 程序的关系类似于 Kubernetes 和 OCI 镜像格式的程序？
+
+* Searching for: **Erlang NIF**
+* Searching for: **Kubernetes OCI**
+* Generating answers for you…
+
+Erlang 和 NIF 程序的关系与 Kubernetes 和 OCI 镜像格式的程序之间的关系有一些相似之处。NIF（Native Implemented Function）是用 C 语言而不是 Erlang 实现的函数。NIF 看起来与调用者的其他函数没有区别，属于一个模块。NIF 被编译并链接到一个动态可加载的共享库（Unix 中的 SO，Windows 中的 DLL）中。NIF 用于通过加载和执行本地软件来扩展 Erlang 软件¹。
+
+Kubernetes 是一个容器编排系统，它可以帮助您管理和部署基于容器的应用程序。OCI 镜像格式是一种标准化的容器镜像格式，它定义了如何打包和分发容器镜像。Kubernetes 可以使用 OCI 镜像格式来部署和管理容器化应用程序。
+
+因此，Erlang 和 NIF 程序之间的关系与 Kubernetes 和 OCI 镜像格式之间的关系类似，因为它们都允许在一个平台上使用不同类型的代码来扩展功能。但是，它们也有一些重要的区别，例如 Erlang 和 NIF 程序之间的关系更紧密，因为 NIF 是 Erlang 模块中的函数，而 Kubernetes 和 OCI 镜像格式之间则没有这种紧密联系。
+
+Source: Conversation with Bing, 31/07/2023
+(1) Erlang -- NIFs. https://www.erlang.org/docs/17/tutorial/nif.html.
+(2) Erlang -- NIFs. https://www.erlang.org/doc/tutorial/nif.html.
+(3) Erlang -- erl_nif. https://www.erlang.org/doc/man/erl_nif.html.
+(4) Erlang -- erl_nif. https://www.erlang.org/docs/19/man/erl_nif.html.
+(5) Adding OCI Service Operator for Kubernetes to Clusters - Oracle. https://docs.oracle.com/en-us/iaas/Content/ContEng/Tasks/contengaddingosok.htm.
+(6) Container Engine for Kubernetes | Oracle. https://www.oracle.com/cloud/cloud-native/container-engine-kubernetes/.
+(7) Overview of Container Engine for Kubernetes - Oracle. https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengoverview.htm.
+(8) Install OCI Service Operator for Kubernetes for Service Mesh. https://docs.oracle.com/en-us/iaas/Content/service-mesh/ovr-getting-started-osok.htm.
+
+#### 9/30
+
+> 如果我想基于 Elixir 实现一个容器调度平台，并且期望在这个平台上对容器的调用如同对函数的调用一样，我要如何做？是不是要实现一个特别的 NIF ？除此以外呢？
+
+* Searching for: **Elixir container scheduler**
+* Searching for: **Elixir NIF container**
+* Searching for: **Elixir container function call**
+* Searching for: **Elixir container platform**
+* Searching for: **Elixir container orchestration**
+* Searching for: **Elixir container management**
+* Searching for: **Elixir container deployment**
+* Searching for: **Elixir container runtime**
+* Searching for: **Elixir container engine**
+* Searching for: **Elixir containerization**
+* Searching for: **Elixir containerized application**
+* Searching for: **Elixir containerized service**
+* Searching for: **Elixir containerized system**
+* Searching for: **Elixir containerized infrastructure**
+* Searching for: **Elixir containerized environment**
+* Generating answers for you…
+
+如果您想基于 Elixir 实现一个容器调度平台，您可以使用 Elixir 的语言特性和库来实现。例如，您可以使用 Elixir 的并发和分布式特性来管理容器的调度和运行。此外，您可以使用 Elixir 的库，如 Quantum，来实现定时任务调度。
+
+对于容器的调用，您可以使用 Elixir 的动态函数调用特性来实现类似于函数调用的接口。这不一定需要实现 NIF，但如果您需要与底层系统进行交互，可能需要使用 NIF。
+
+总之，实现一个基于 Elixir 的容器调度平台需要结合多种技术和方法。您可以根据您的具体需求选择合适的技术和方法。如果您需要进一步了解相关技术和方法，我可以为您提供更多信息。
+
+Source: Conversation with Bing, 31/07/2023
+(1) elixir - Official Image | Docker Hub. https://hub.docker.com/_/elixir.
+(2) GitHub - quantum-elixir/quantum-core: :watch: Cron-like job scheduler .... https://github.com/quantum-elixir/quantum-core.
+(3) 3 ways to schedule tasks in Elixir I have learned in 3 years ... - Medium. https://blog.kommit.co/3-ways-to-schedule-tasks-in-elixir-i-learned-in-3-years-working-with-it-a6ca94e9e71d.
+(4) How can I schedule code to run every few hours in Elixir or Phoenix .... https://stackoverflow.com/questions/32085258/how-can-i-schedule-code-to-run-every-few-hours-in-elixir-or-phoenix-framework.
+(5) GitHub - ityonemo/zigler: zig nifs in elixir. https://github.com/ityonemo/zigler.
+(6) Using C from Elixir with NIFs – Andrea Leopardi. https://andrealeopardi.com/posts/using-c-from-elixir-with-nifs/.
+(7) Elixir and NIF: A Case Study - Medium. https://medium.com/inside-sumup/elixir-and-nif-a-case-study-f7732ce25d41.
+(8) How to call an Erlang function in Elixir - Stack Overflow. https://stackoverflow.com/questions/35283888/how-to-call-an-erlang-function-in-elixir.
+(9) Elixir - call a module function from the shell - Stack Overflow. https://stackoverflow.com/questions/49655923/elixir-call-a-module-function-from-the-shell.
+(10) Modules and functions - The Elixir programming language. https://elixir-lang.org/getting-started/modules-and-functions.html.
+(11) Intro to Elixir Functions - ElixirCasts. https://elixircasts.io/intro-to-elixir-functions.
+(12) Run an Elixir Phoenix app in containers using Google Kubernetes Engine. https://cloud.google.com/community/tutorials/elixir-phoenix-on-kubernetes-google-container-engine.
+(13) Container Orchestration | ELIXIR. https://elixir-europe.org/internal-projects/commissioned-services/container-orchestration.
+(14) Working with Elixir Releases and performing CI/CD in containers. https://dev.to/darnahsan/working-with-elixir-releases-and-performing-ci-cd-in-containers-5ag7.
+(15) Container Orchestration (2022-23) | ELIXIR. https://elixir-europe.org/internal-projects/commissioned-services/2022-ecp3.
+(16) What is container orchestration? | IBM. https://www.ibm.com/topics/container-orchestration.
+(17) Container Management: K8s - GitHub. https://github.com/joeyrosztoczy/elixir-deployment/blob/master/container-management-k8s.md.
+(18) Use Docker to Deploy Your Elixir App Anywhere - StakNine. https://staknine.com/build-an-elixir-release-with-docker-to-deploy-anywhere/.
+(19) Set Up Continuous Deployment for Elixir with GitHub Actions. https://staknine.com/set-up-continuous-deployment-for-elixir-with-github-actions/.
+(20) GoogleCloudPlatform/elixir-runtime - GitHub. https://github.com/GoogleCloudPlatform/elixir-runtime.
+(21) Installing Elixir - The Elixir programming language. https://elixir-lang.org/install.html.
+(22) Elixir: Containerized development environment - iLhub. https://ilhub.io/blog/2019/05/30/vscode-remote.
+(23) Running Elixir in Docker Containers - Poeticoding. https://www.poeticoding.com/running-elixir-in-docker-containers/.
+(24) Containerization Explained | IBM. https://www.ibm.com/topics/containerization.
+(25) A beginner's guide to the Elixir programming language - Educative. https://www.educative.io/blog/elixir-functional-programming.
+(26) Dockerizing Elixir and Phoenix Applications - Semaphore. https://semaphoreci.com/community/tutorials/dockerizing-elixir-and-phoenix-applications.
+(27) Development environment for Elixir + Phoenix with Docker and Docker .... https://dev.to/hlappa/development-environment-for-elixir-phoenix-with-docker-and-docker-compose-2g17.
+(28) Elixir / Phoenix containerized development environment - GitHub. https://github.com/dogweather/phoenix-docker-compose.
+(29) undefined. https://github.com/erlef/docker-elixir/issues.
+(30) undefined. https://hexdocs.pm/zigler.
+(31) undefined. https://elixirschool.com/en/lessons/basics/mix-tasks/#custom-mix-task.
+(32) undefined. https://geeks.wego.com.
+(33) undefined. https://darnahsan.medium.com/working-with-elixir-releases-and-performing-ci-cd-in-containers-383ba03b6768.
+
+#### 10/30
+
+> Elixir 的动态函数调用特性，那是什么？为什么它能帮助我实现 OCI 容器的函数调用接口？具体如何实现，我需要准备什么？
+
+* Searching for: **Elixir dynamic function call**
+* Searching for: **Elixir OCI container function call interface**
+* Searching for: **Elixir OCI container function call interface implementation**
+* Searching for: **Elixir OCI container function call interface prerequisites**
+* Generating answers for you…
+
+Elixir 的动态函数调用特性允许您在运行时动态调用函数。这意味着您可以在运行时确定要调用的函数，而不是在编写代码时硬编码它。这可以通过使用 `apply/3` 函数来实现，该函数接受一个模块名称、一个函数名称和一个参数列表作为输入，并调用指定模块中的指定函数。
+
+这种动态函数调用特性可以帮助您实现 OCI 容器的函数调用接口，因为它允许您在运行时确定要调用的容器化应用程序中的函数。您可以使用 Elixir 来管理和调度容器化应用程序，并使用动态函数调用特性来实现类似于函数调用的接口。
+
+具体实现方法取决于您的具体需求和应用程序架构。您可能需要使用 Elixir 的并发和分布式特性来管理容器的调度和运行，以及使用 Elixir 的库来实现定时任务调度等功能。此外，您可能需要与底层系统进行交互，例如使用 NIF 来管理容器化应用程序。
+
+总之，实现一个基于 Elixir 的 OCI 容器函数调用接口需要结合多种技术和方法。您可以根据您的具体需求选择合适的技术和方法。如果您需要进一步了解相关技术和方法，我可以为您提供更多信息。如果您有其他问题，请随时告诉我。我会尽力帮助您。😊
+
+Source: Conversation with Bing, 31/07/2023
+(1) Is there a way to use a dynamic function name in Elixir from string .... https://stackoverflow.com/questions/61089065/is-there-a-way-to-use-a-dynamic-function-name-in-elixir-from-string-interpolatio.
+(2) Elixir - Call private function dynamically - Stack Overflow. https://stackoverflow.com/questions/28929866/elixir-call-private-function-dynamically.
+(3) Elixir - Call method on module by String-name - Stack Overflow. https://stackoverflow.com/questions/36679379/elixir-call-method-on-module-by-string-name.
+(4) Define Dynamic Functions with Dynamic Arguments (Arity) using Elixir .... https://medium.com/elixirlabs/define-dynamic-functions-with-dynamic-arguments-arity-using-elixir-macros-a28241d4f119.
+(5) How do I call an ORACLE function from OCI? - Stack Overflow. https://stackoverflow.com/questions/591467/how-do-i-call-an-oracle-function-from-oci.
+(6) How OCI Functions Works - Oracle. https://docs.oracle.com/en-us/iaas/Content/Functions/Concepts/functionshowitworks.htm.
+(7) Overview of Functions - Oracle. https://docs.oracle.com/en-us/iaas/Content/Functions/Concepts/functionsoverview.htm.
+(8) Oracle Call Interface Programmer's Guide, 21c. https://docs.oracle.com/en/database/oracle/oracle-database/20/lnoci/oci-XStream-functions.html.
+(9) OCI: Introduction - Oracle Help Center. https://docs.oracle.com/en/database/oracle/oracle-database/18/lnoci/introduction.html.
+(10) OCI: Introduction - Oracle Help Center. https://docs.oracle.com/en/database/oracle/oracle-database/21/lnoci/introduction.html.
+(11) undefined. http://www.erlang.org/doc/reference_manual/code_loading.html#id86422.
+
+#### 11/30
+
+> 额，可能还是那个误会。您的方案很不错，如果我要将我的 Elixir 程序容器化后使用的话，它会很有帮助。但现在，我是想基于 Elixir 做一个能够扮演 Kubernetes 职责的工具，并能够用这个工具来调度任何容器。或者，也可以增加一个中间件，使得在 Erlang/Elixir 的 SHell 界面或程序中，可以像调用 NIF 函数那样地调用任何的 OCI 容器。这才是我想要的。
+
+* Searching for: **Elixir container orchestration**
+* Searching for: **Erlang container orchestration**
+* Searching for: **Elixir OCI container**
+* Searching for: **Erlang OCI container**
+* Searching for: **Elixir NIF OCI container**
+* Searching for: **Erlang NIF OCI container**
+* Searching for: **Elixir NIF container**
+* Searching for: **Erlang NIF container**
+* Searching for: **Elixir container management**
+* Searching for: **Erlang container management**
+* Searching for: **Elixir container runtime**
+* Searching for: **Erlang container runtime**
+* Searching for: **Elixir container runtime interface**
+* Generating answers for you…
+
+我明白了，您想要基于 Elixir 开发一个能够扮演 Kubernetes 职责的工具，用来调度任何容器。或者增加一个中间件，使得在 Erlang/Elixir 的 Shell 界面或程序中，可以像调用 NIF 函数那样地调用任何的 OCI 容器。这是一个很有趣的想法。
+
+目前我没有找到关于这方面的现成解决方案。不过，您可以考虑使用 Elixir 或 Erlang 来开发一个自定义的容器编排工具，或者使用 NIF 来调用现有的容器运行时接口（如 Docker 或 containerd）。这可能需要一些研究和开发工作，但是应该是可行的。祝您好运！
+
+Source: Conversation with Bing, 31/07/2023
+(1) Container Orchestration (2022-23) | ELIXIR. https://elixir-europe.org/internal-projects/commissioned-services/2022-ecp3.
+(2) Container Orchestration | ELIXIR. https://elixir-europe.org/internal-projects/commissioned-services/container-orchestration.
+(3) What is container orchestration? | IBM. https://www.ibm.com/topics/container-orchestration.
+(4) Kubernetes | Adopting Erlang. https://adoptingerlang.org/docs/production/kubernetes/.
+(5) Kubernetes and the Erlang VM: orchestration on the large and ... - Dashbit. https://dashbit.co/blog/kubernetes-and-the-erlang-vm-orchestration-on-the-large-and-the-small.
+(6) Erlang -- Distributed Erlang. https://www.erlang.org/doc/reference_manual/distributed.html.
+(7) Downloads - Erlang/OTP. https://www.erlang.org/downloads.
+(8) What is Podman? — Podman documentation. https://docs.podman.io/en/latest/.
+(9) Demystifying the Open Container Initiative (OCI) Specifications. https://www.docker.com/blog/demystifying-open-container-initiative-oci-specifications/.
+(10) Can't run Phoenix using docker-compose - Questions / Help - Elixir .... https://elixirforum.com/t/cant-run-phoenix-using-docker-compose/38859.
+(11) erlang - Official Image | Docker Hub. https://hub.docker.com/_/erlang/.
+(12) RabbitMQ Erlang Version Requirements - VMware Docs. https://docs.vmware.com/en/VMware-RabbitMQ/1.4/vmware-rabbitmq-oci/which-erlang.html.
+(13) oci · GitHub Topics · GitHub. https://github.com/topics/oci?l=dockerfile.
+(14) OCI Image Manifest Specification - GitHub. https://github.com/opencontainers/image-spec/blob/main/manifest.md.
+(15) Open Container Initiative Distribution Specification - GitHub. https://github.com/opencontainers/distribution-spec/blob/main/spec.md.
+(16) Erlang -- NIFs. https://www.erlang.org/doc/tutorial/nif.html.
+(17) Erlang -- erl_nif. https://www.erlang.org/doc/man/erl_nif.html.
+(18) GitHub - ityonemo/zigler: zig nifs in elixir. https://github.com/ityonemo/zigler.
+(19) Using C from Elixir with NIFs – Andrea Leopardi. https://andrealeopardi.com/posts/using-c-from-elixir-with-nifs/.
+(20) Elixir and NIF: A Case Study - Medium. https://medium.com/inside-sumup/elixir-and-nif-a-case-study-f7732ce25d41.
+(21) How to install erlang NIF for use in Livebook?. https://elixirforum.com/t/how-to-install-erlang-nif-for-use-in-livebook/53467.
+(22) Erlang -- erl_nif. https://www.erlang.org/docs/19/man/erl_nif.html.
+(23) elixir - Official Image | Docker Hub. https://hub.docker.com/_/elixir.
+(24) Run an Elixir Phoenix app in containers using Google Kubernetes Engine. https://cloud.google.com/community/tutorials/elixir-phoenix-on-kubernetes-google-container-engine.
+(25) Container Management: K8s - GitHub. https://github.com/joeyrosztoczy/elixir-deployment/blob/master/container-management-k8s.md.
+(26) Erlang -- Erlang Garbage Collector. https://www.erlang.org/doc/apps/erts/garbagecollection.
+(27) My favorite Erlang Container - ferd.ca. https://ferd.ca/my-favorite-erlang-container.html.
+(28) GoogleCloudPlatform/elixir-runtime - GitHub. https://github.com/GoogleCloudPlatform/elixir-runtime.
+(29) Installing Elixir - The Elixir programming language. https://elixir-lang.org/install.html.
+(30) Elixir: Containerized development environment - iLhub. https://ilhub.io/blog/2019/05/30/vscode-remote.
+(31) GitHub - erlang/docker-erlang-example: HowTo Erlang in Docker. https://github.com/erlang/docker-erlang-example.
+(32) Runtime Tuning — RabbitMQ. https://www.rabbitmq.com/runtime.html.
+(33) kubernetes/cri-api: Container Runtime Interface (CRI) - GitHub. https://github.com/kubernetes/cri-api.
+(34) Container Runtime Interface (CRI) | Kubernetes. https://kubernetes.io/docs/concepts/architecture/cri/.
+(35) What is Container Runtime Interface (CRI)? - Devopsschool.com. https://www.devopsschool.com/blog/list-of-top-container-runtime-interface-projects/.
+(36) Introducing Container Runtime Interface (CRI) in Kubernetes. https://kubernetes.io/blog/2016/12/container-runtime-interface-cri-in-kubernetes/.
+(37) undefined. https://github.com/erlang/docker-erlang-otp/issues.
+(38) undefined. https://avatars.githubusercontent.com/u/12563465?v=4.
+(39) undefined. https://github.com/opencontainers/image-spec/blob/main/manifest.md?raw=true.
+(40) undefined. https://desktop.github.com.
+(41) undefined. https://docs.github.com/articles/about-issue-and-pull-request-templates.
+(42) undefined. https://github.com/opencontainers/runtime-spec.
+(43) undefined. https://github.com/opencontainers/distribution-spec/blob/main/spec.md?raw=true.
+(44) undefined. https://github.com/opencontainers/image-spec.
+(45) undefined. https://github.com/moby/moby/issues/8093.
+(46) undefined. https://github.com/moby/moby/issues/9015.
+(47) undefined. https://github.com/docker/docker-registry/issues/612.
+(48) undefined. https://hexdocs.pm/zigler.
+(49) undefined. https://github.com/erlef/docker-elixir/issues.
+(50) undefined. https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/cri-api.
+
+#### 12/30
+
+> 我也认为它应该可行。所以我想先来问问，是不是已经有人做出来这样的东西了。看起来，是不是还没有？
+
+* Searching for: **Elixir container scheduler**
+* Searching for: **Erlang container scheduler**
+* Searching for: **Elixir OCI container**
+* Searching for: **Erlang OCI container**
+* Searching for: **Elixir NIF OCI container**
+* Searching for: **Erlang NIF OCI container**
+* Searching for: **Elixir NIF container runtime**
+* Searching for: **Erlang NIF container runtime**
+* Searching for: **Elixir NIF Docker**
+* Searching for: **Erlang NIF Docker**
+* Searching for: **Elixir NIF containerd**
+* Searching for: **Erlang NIF containerd**
+* Searching for: **Elixir NIF CRI-O**
+* Generating answers for you…
+
+是的，我搜索了一下，目前似乎还没有人做出来这样的东西。不过，这并不意味着它不可行。您可以尝试开发这样的项目，也许会有很大的潜力。祝您好运！
+
+Source: Conversation with Bing, 31/07/2023
+(1) elixir - Official Image | Docker Hub. https://hub.docker.com/_/elixir.
+(2) GitHub - quantum-elixir/quantum-core: :watch: Cron-like job scheduler .... https://github.com/quantum-elixir/quantum-core.
+(3) 3 ways to schedule tasks in Elixir I have learned in 3 years ... - Medium. https://blog.kommit.co/3-ways-to-schedule-tasks-in-elixir-i-learned-in-3-years-working-with-it-a6ca94e9e71d.
+(4) How can I schedule code to run every few hours in Elixir or Phoenix .... https://stackoverflow.com/questions/32085258/how-can-i-schedule-code-to-run-every-few-hours-in-elixir-or-phoenix-framework.
+(5) Kubernetes | Adopting Erlang. https://adoptingerlang.org/docs/production/kubernetes/.
+(6) scheduler - Erlang. https://www.erlang.org/doc/man/scheduler.html.
+(7) Runtime Tuning — RabbitMQ. https://www.rabbitmq.com/runtime.html.
+(8) What is Podman? — Podman documentation. https://docs.podman.io/en/latest/.
+(9) Demystifying the Open Container Initiative (OCI) Specifications. https://www.docker.com/blog/demystifying-open-container-initiative-oci-specifications/.
+(10) Can't run Phoenix using docker-compose - Questions / Help - Elixir .... https://elixirforum.com/t/cant-run-phoenix-using-docker-compose/38859.
+(11) erlang - Official Image | Docker Hub. https://hub.docker.com/_/erlang/.
+(12) oci · GitHub Topics · GitHub. https://github.com/topics/oci?l=dockerfile.
+(13) RabbitMQ Erlang Version Requirements - VMware Docs. https://docs.vmware.com/en/VMware-RabbitMQ/1.4/vmware-rabbitmq-oci/which-erlang.html.
+(14) OCI Image Manifest Specification - GitHub. https://github.com/opencontainers/image-spec/blob/main/manifest.md.
+(15) Open Container Initiative Distribution Specification - GitHub. https://github.com/opencontainers/distribution-spec/blob/main/spec.md.
+(16) Erlang -- NIFs. https://www.erlang.org/doc/tutorial/nif.html.
+(17) Erlang -- erl_nif. https://www.erlang.org/doc/man/erl_nif.html.
+(18) Elixir and NIF: A Case Study - Medium. https://medium.com/inside-sumup/elixir-and-nif-a-case-study-f7732ce25d41.
+(19) GoogleCloudPlatform/elixir-runtime - GitHub. https://github.com/GoogleCloudPlatform/elixir-runtime.
+(20) Erlang -- erl_nif. https://www.erlang.org/docs/19/man/erl_nif.html.
+(21) GitHub - elixir-lsp/elixir-ls: A frontend-independent IDE "smartness .... https://github.com/elixir-lsp/elixir-ls.
+(22) Using Docker for your Elixir Phoenix application - DEV Community. https://dev.to/eikooc/using-docker-for-your-elixir-phoenix-application-n8n.
+(23) Use Docker to Deploy Your Elixir App Anywhere - StakNine. https://staknine.com/build-an-elixir-release-with-docker-to-deploy-anywhere/.
+(24) GitHub - erlang/docker-erlang-example: HowTo Erlang in Docker. https://github.com/erlang/docker-erlang-example.
+(25) Erlang -- NIFs. https://www.erlang.org/docs/17/tutorial/nif.html.
+(26) Using C from Elixir with NIFs – Andrea Leopardi. https://andrealeopardi.com/posts/using-c-from-elixir-with-nifs/.
+(27) c - Proper resource handling in Elixir NIF - Stack Overflow. https://stackoverflow.com/questions/49218499/proper-resource-handling-in-elixir-nif.
+(28) GitHub - jeffkreeftmeijer/elixir-nif-examples. https://github.com/jeffkreeftmeijer/elixir-nif-examples.
+(29) GitHub - rusterlium/rustler: Safe Rust bridge for creating Erlang NIF .... https://github.com/rusterlium/rustler.
+(30) Chapter 1. Using the CRI-O Container Engine - Red Hat Customer Portal. https://access.redhat.com/documentation/en-us/openshift_container_platform/3.11/html/cri-o_runtime/use-crio-engine.
+(31) undefined. https://github.com/erlef/docker-elixir/issues.
+(32) undefined. https://github.com/erlang/docker-erlang-otp/issues.
+(33) undefined. https://avatars.githubusercontent.com/u/12563465?v=4.
+(34) undefined. https://github.com/opencontainers/image-spec/blob/main/manifest.md?raw=true.
+(35) undefined. https://desktop.github.com.
+(36) undefined. https://docs.github.com/articles/about-issue-and-pull-request-templates.
+(37) undefined. https://github.com/opencontainers/runtime-spec.
+(38) undefined. https://github.com/opencontainers/distribution-spec/blob/main/spec.md?raw=true.
+(39) undefined. https://github.com/opencontainers/image-spec.
+(40) undefined. https://github.com/moby/moby/issues/8093.
+(41) undefined. https://github.com/moby/moby/issues/9015.
+(42) undefined. https://github.com/docker/docker-registry/issues/612.
+(43) undefined. http://www.apache.org/licenses/LICENSE-2.0.
+(44) undefined. http://opensource.org/licenses/MIT.
+
+#### 13/30
+
+> 在数据治理的领域， GDPR, CCPA, PII 三者，分别是什么？
+
+* Searching for: **GDPR**
+* Searching for: **CCPA**
+* Searching for: **PII**
+* Generating answers for you…
+
+GDPR，CCPA 和 PII 是三个不同的概念，但它们都与数据治理和个人隐私保护有关。
+
+- GDPR（General Data Protection Regulation，通用数据保护条例）是欧盟的一项法律，旨在保护欧盟和欧洲经济区（EEA）内公民的数据隐私和安全²。GDPR 的主要目的是增强个人对其个人数据的控制和权利，并简化国际业务的监管环境²。
+
+- CCPA（California Consumer Privacy Act，加利福尼亚消费者隐私法案）是加利福尼亚州的一项法律，旨在增强加利福尼亚州居民的隐私权和消费者保护⁵。该法案赋予消费者更多控制其个人信息的权利，并为如何实施该法提供了指导⁴。
+
+- PII（Personally Identifiable Information，个人身份信息）是指能够单独或与其他相关数据一起使用来识别个人的信息⁷。PII 可能包含直接标识符（例如护照信息），也可能包含准标识符（例如种族），这些准标识符可以与其他准标识符（例如出生日期）结合使用来成功识别个人⁷。
+
+这三者之间有一些相似之处，但也有一些重要的区别。GDPR 和 CCPA 都是法律法规，旨在保护公民的数据隐私和安全。而 PII 则是指能够识别个人身份的信息。在数据治理领域中，这些概念都非常重要。
+
+Source: Conversation with Bing, 31/07/2023
+(1) General Data Protection Regulation - Wikipedia. https://en.wikipedia.org/wiki/General_Data_Protection_Regulation.
+(2) California Consumer Privacy Act - Wikipedia. https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act.
+(3) California Consumer Privacy Act (CCPA) | State of California .... https://www.oag.ca.gov/privacy/ccpa.
+(4) What Is Personally Identifiable Information (PII)? Types and Examples. https://www.investopedia.com/terms/p/personally-identifiable-information-pii.asp.
+(5) General Data Protection Regulation (GDPR) – Official Legal Text. https://gdpr-info.eu/.
+(6) What is GDPR, the EU’s new data protection law? - GDPR.eu. https://gdpr.eu/what-is-gdpr/.
+(7) What Is The CCPA? – Forbes Advisor. https://www.forbes.com/advisor/business/what-is-ccpa/.
+(8) Guidance on the Protection of Personal Identifiable Information. https://www.dol.gov/general/ppii.
+(9) Personal data - Wikipedia. https://en.wikipedia.org/wiki/Personal_data.
+
+#### 14/30
+
+> 数据孤岛是什么意思？以及，为什么有必要进行数据治理？数据治理的工作具体是完成具有怎样特征的哪些事情？
+
+* Searching for: **data silos**
+* Searching for: **data governance**
+* Searching for: **data governance tasks**
+* Generating answers for you…
+
+数据孤岛是指在一个组织中，一组原始数据与组织的其他部分隔离开来，无法被其他部分访问。这会导致组织内部缺乏透明度、效率和信任¹。
+
+数据治理是一种管理数据生命周期的原则性方法，从获取到使用再到处置。每个组织都需要数据治理⁵。数据治理是您为确保数据安全、私密、准确、可用和可用所做的一切。它包括人们必须采取的行动，他们必须遵循的流程以及在整个数据生命周期中支持他们的技术⁵。数据治理的目标是维护高质量的数据，既安全又易于访问，以获得更深入的业务洞察力⁶。随着大数据和数字转型努力成为数据治理计划的主要驱动力，组织需要重新考虑其数据管理实践，以扩大其商业智能⁶。有效的数据治理计划旨在提高数据质量，减少数据孤岛，确保合规性和安全性，并适当分配数据访问权限⁶。
+
+数据治理工作包括制定和监督政策和程序，以确保数据在其生命周期内得到充分保护，并且可用性得到保证。这些流程确定了数据所有者、数据安全措施和数据的预期用途。总体而言，数据治理的目标是维护高质量、安全且易于访问的数据，以获得更深入的业务洞察力⁸。
+
+Source: Conversation with Bing, 31/07/2023
+(1) What Is a Data Silo? | Definition & Meaning - Webopedia. https://www.webopedia.com/definitions/data-silo/.
+(2) What is Data Governance? | Google Cloud. https://cloud.google.com/learn/what-is-data-governance.
+(3) What is data governance? | IBM. https://www.ibm.com/topics/data-governance.
+(4) Data governance roles and responsibilities: What's needed. https://www.techtarget.com/searchdatamanagement/tip/Data-governance-roles-and-responsibilities-Whats-needed.
+(5) Data Silos, Why They’re a Problem, & How to Fix It | Talend. https://www.talend.com/resources/what-are-data-silos/.
+(6) Data Silos: What They Are and How to Get Rid of Them - HubSpot Blog. https://blog.hubspot.com/service/data-silos.
+(7) Data Silos 101: Definition, Challenges and Solutions | Atlan. https://atlan.com/what-are-data-silos/.
+(8) What is Data Governance? | Microsoft Azure. https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-data-governance/.
+(9) Designing data governance that delivers value | McKinsey. https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/designing-data-governance-that-delivers-value.
+(10) Federal Data Strategy Data Governance Playbook. https://resources.data.gov/assets/documents/fds-data-governance-playbook.pdf.
+(11) Data Governance: definition, goals and tasks – DataLabs. https://datalabsua.com/en/data-governance-definition-goals-and-tasks/.
+(12) Complete Set of Data Governance Roles & Responsibilities. https://tdan.com/complete-set-of-data-governance-roles-responsibilities/21589.
+(13) Data Governance: Roles, Policies, and Challenges - NetApp. https://bluexp.netapp.com/blog/data-governance-roles-policies-and-challenges-1.
+
+#### 15/30
+
+> 有没有什么有关于数据治理的应用程序，或者应用程序特性？有哪些程序是云原生的？
+
+* Searching for: **cloud native data governance applications**
+* Searching for: **data governance application features**
+* Searching for: **cloud native data governance**
+* Generating answers for you…
+
+是的，有一些云原生的数据治理应用程序。例如，Microsoft Purview¹ 和 Google Cloud² 都提供了云原生的数据治理解决方案。这些应用程序通常具有一些关键特性，包括自动分类、API 和应用程序集成、数据质量规则应用、数据目录和集成等⁶⁹ [^10^]。它们旨在帮助组织管理和治理其本地、多云和软件即服务（SaaS）数据，以便更好地利用数据资产¹²。您可以根据您的需求选择适合您的应用程序。
+
+Source: Conversation with Bing, 31/07/2023
+(1) Unified Data Governance with Microsoft Purview | Microsoft Azure. https://azure.microsoft.com/en-us/products/purview.
+(2) What is Data Governance? | Google Cloud. https://cloud.google.com/learn/what-is-data-governance.
+(3) Data Governance Framework: 4 Pillars for Success | Informatica. https://www.informatica.com/resources/articles/data-governance-framework.html.
+(4) List of Top Data Governance Software 2023 - TrustRadius. https://www.trustradius.com/data-governance.
+(5) Top 10 Data Governance Tools for 2021 - Spiceworks. https://www.spiceworks.com/tech/big-data/articles/best-data-governance-tools/.
+(6) Cloud-Native: What Is It and How Will Your Business Benefit?. https://www.informatica.com/resources/articles/what-is-cloud-native.html.
+(7) Cloud-Native Applications | Microsoft Azure. https://azure.microsoft.com/en-in/solutions/cloud-native-apps/.
+(8) Cloud-Native Applications | Microsoft Azure. https://azure.microsoft.com/en-us/solutions/cloud-native-apps/.
+(9) What is Data Governance? | Microsoft Azure. https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-data-governance/.
+(10) What is data governance? | IBM. https://www.ibm.com/topics/data-governance.
+(11) Get Ahead of the Curve with Cloud-native Data Security Governance. https://cloudlytics.com/get-ahead-of-the-curve-with-cloud-native-data-security-governance/.
+(12) Azure Purview is now Microsoft Purview. https://azure.microsoft.com/en-us/blog/azure-purview-is-now-microsoft-purview/.
+
+#### 16/30
+
+> 我还是希望被找到的软件是开源的可自行部署的软件。以及另一个问题：什么是云原生？它是一个标准吗？它具体约束或要求了什么？
+
+* Searching for: **open source data governance software**
+* Searching for: **cloud native definition**
+* Generating answers for you…
+
+根据我的搜索结果，有一些开源的数据治理软件可供选择。这些软件包括 Amundsen¹、DataHub¹、Atlas¹、Magda¹、OpenMetadata¹、Egeria¹ 和 TrueDat¹。您可以根据您的需求选择适合您的软件。
+
+云原生是指一种构建和运行应用程序的方法，以充分利用云计算环境提供的分布式计算能力。云原生应用程序利用或实现云特性，如作为服务交付的能力。云原生应用程序比云启用应用程序更灵活、更弹性和更可扩展⁵。云原生并不是一个标准，而是一种方法和理念，它旨在帮助开发人员充分利用云计算环境提供的能力来构建和运行应用程序。
+
+Source: Conversation with Bing, 31/07/2023
+(1) 7 Best Open Source Data Governance Tools for 2023 - Atlan. https://atlan.com/open-source-data-governance-tools/.
+(2) What is Cloud Native? - Everything you need to know - AWS. https://aws.amazon.com/what-is/cloud-native/.
+(3) A Metadata Platform for the Modern Data Stack | DataHub. https://datahubproject.io/.
+(4) 13 Best Data Governance Tools (Top Software Of 2023) - COFES.COM. https://cofes.com/data-governance-tools/.
+(5) Kylo is an open-source data lake. https://kylo.io/.
+(6) What Is Cloud Native | Google Cloud. https://cloud.google.com/learn/what-is-cloud-native.
+(7) What is Cloud Native? | Oracle. https://www.oracle.com/cloud/cloud-native/what-is-cloud-native/.
+(8) Cloud Native | IBM. https://www.ibm.com/topics/cloud-native.
+
+#### 17/30
+
+> 你提到了云启用，那是什么？以及，在云原生的概念出现之前，就有一些软件服务提供模式，比如 C/S, B/S 架构。它们算云原生的吗？以及， Hadoop 算云原生的吗？云原生理念的内容是什么？微服务的应用是不是云原生的？
+
+* Searching for: **cloud enabled**
+* Searching for: **C/S architecture**
+* Searching for: **B/S architecture**
+* Searching for: **Hadoop**
+* Searching for: **cloud native**
+* Searching for: **microservices**
+* Generating answers for you…
+
+云启用（Cloud-enabled）通常指那些最初在本地构建，然后迁移到云端的应用程序。这些应用程序最初是以单体架构设计的，并依赖于本地资源和硬件⁴。与云原生应用程序不同，云启用应用程序并不是为云计算环境而设计的，因此它们可能缺乏云原生应用程序所具有的灵活性和敏捷性¹。
+
+C/S（客户端/服务器）和 B/S（浏览器/服务器）架构是两种传统的软件服务提供模式。它们并不属于云原生架构，因为它们并不是为云计算环境而设计的。
+
+Hadoop 是一个开源的分布式数据处理框架，它允许用户在计算机集群上分布式处理大量数据¹⁵。Hadoop 可以在云计算环境中运行，但它并不是为云计算而设计的，因此它并不属于云原生应用程序。
+
+云原生（Cloud-native）是一种构建和运行应用程序的方法，旨在充分利用云计算环境提供的分布式计算能力。云原生应用程序利用或实现云特性，如作为服务交付的能力。云原生应用程序比云启用应用程序更灵活、更弹性和更可扩展⁵。
+
+微服务（Microservices）是一种架构方法，它将一个应用程序拆分为多个小型、松散耦合且独立部署的服务。这些服务通常具有自己的技术栈，包括数据库和数据管理模型，并通过轻量级 API 进行通信²³。微服务架构可以帮助开发人员更快地构建和部署应用程序，并支持快速创新和加速新功能上市时间。由于微服务可以独立部署和扩展，因此它们非常适合在云计算环境中使用，并且通常被认为是一种云原生架构方法。
+
+Source: Conversation with Bing, 31/07/2023
+(1) Cloud-Based, Cloud-Native, and Cloud-Enabled Applications ... - Papertrail. https://www.papertrail.com/solution/tips/cloud-based-cloud-native-and-cloud-enabled-applications-whats-the-difference/.
+(2) Cloud Native vs. Cloud Enabled vs. Cloud-Based: What's the ... - Alation. https://www.alation.com/blog/cloud-native-vs-cloud-enabled/.
+(3) Apache Hadoop. https://hadoop.apache.org/.
+(4) Cloud-Native vs Cloud-Enabled – Are You Using the Right Term?. https://www.comparethecloud.net/articles/cloud-native-vs-cloud-enabled-are-you-using-the-right-term/.
+(5) What are Microservices? | AWS. https://aws.amazon.com/microservices/.
+(6) Cloud-Enabled Development in a Remote World | Microsoft Azure. https://azure.microsoft.com/en-us/resources/cloud-enabled-development-in-a-remote-world/.
+(7) What is Cloud Enablement? - Definition from Techopedia. https://www.techopedia.com/definition/347/cloud-enablement.
+(8) What is System Design Based on B/S and C/S architecture?. https://topic.alibabacloud.com/a/what-is-system-design-based-on-bs-and-cs-architecture_1_31_31768068.html.
+(9) Design and Realize Communication System Based on LAN of C/S Architecture. https://ieeexplore.ieee.org/document/5319365/.
+(10) C/S Architecture Based Design on Financial Information System. https://ieeexplore.ieee.org/document/7488516.
+(11) Two architecture differences between C/s and b/s - Alibaba Cloud Topic .... https://topic.alibabacloud.com/a/two-architecture-differences-between-cs-and-bs_1_31_10266072.html.
+(12) Polytechnic University of the Philippines. https://www.pup.edu.ph/cadbe/bsarch.
+(13) Bachelor of Science in Architecture | School of Architecture ... - UMD. https://arch.umd.edu/programs/architecture/academics/architecture-degrees/bachelor-science-architecture.
+(14) B.S. in Architecture - University of Pittsburgh. https://www.arch.pitt.edu/current-incoming-students/bs-architecture.
+(15) What are the differences between B/S architecture and C/S architecture .... https://www.mo4tech.com/what-are-the-differences-between-b-s-architecture-and-c-s-architecture.html.
+(16) b / s and c / s architecture - Code World - 代码天地. https://www.codetd.com/en/article/7028059.
+(17) What is Hadoop and What is it Used For? | Google Cloud. https://cloud.google.com/learn/what-is-hadoop.
+(18) Apache Hadoop - Wikipedia. https://en.wikipedia.org/wiki/Apache_Hadoop.
+(19) What is Cloud Native? - Everything you need to know - AWS. https://aws.amazon.com/what-is/cloud-native/.
+(20) What is Cloud Native? | Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition.
+(21) What is Cloud Native? | Oracle. https://www.oracle.com/cloud/cloud-native/what-is-cloud-native/.
+(22) Cloud Native | IBM. https://www.ibm.com/topics/cloud-native.
+(23) What Is Cloud Native | Google Cloud. https://cloud.google.com/learn/what-is-cloud-native.
+(24) What are Microservices? | IBM. https://www.ibm.com/topics/microservices.
+(25) Microservices - Wikipedia. https://en.wikipedia.org/wiki/Microservices.
+(26) What are Microservices? - Azure DevOps | Microsoft Learn. https://learn.microsoft.com/en-us/devops/deliver/what-are-microservices.
+(27) undefined. https://ieeexplore.ieee.org/servlet/opac?punumber=5318889.
+(28) undefined. https://ieeexplore.ieee.org/servlet/opac?punumber=7474309.
+(29) undefined. https://issues.apache.org/jira/browse/HADOOP-18546.
+
+#### 18/30
+
+> 什么是云计算？云计算不是指 C/S, B/S 中的 S 端吗？如果不是，它和 S 端有什么区别？
+
+* Searching for: **what is cloud computing**
+* Searching for: **difference between cloud computing and server**
+* Generating answers for you…
+
+云计算是一种通过互联网提供计算资源（如存储和基础设施）的按需服务⁶。它消除了个人和企业自行管理物理资源的需要，只需为所使用的资源付费⁶。
+
+云计算与 C/S（客户端/服务器）和 B/S（浏览器/服务器）架构中的服务器端有一些区别。在 C/S 和 B/S 架构中，服务器端是指运行在本地或远程服务器上的软件，它负责处理客户端或浏览器的请求并返回响应。而云计算则是指通过互联网提供的一种服务，它可以让用户访问远程服务器上的计算资源，而无需自行管理这些资源。
+
+总之，云计算与 C/S 和 B/S 架构中的服务器端有一些相似之处，但也有一些重要的区别。云计算提供了更大的灵活性和可扩展性，并且可以帮助用户节省成本。
+
+Source: Conversation with Bing, 31/07/2023
+(1) What is a Cloud Server? How do Cloud Servers work? | Microsoft Azure. https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-cloud-server/.
+(2) . https://bing.com/search?q=what+is+cloud+computing.
+(3) What Is Cloud Computing? | Microsoft Azure. https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/.
+(4) Cloud computing - Wikipedia. https://en.wikipedia.org/wiki/Cloud_computing.
+(5) What is Cloud Computing? | Google Cloud. https://cloud.google.com/learn/what-is-cloud-computing.
+(6) What is cloud computing? | IBM. https://www.ibm.com/topics/cloud-computing.
+(7) Cloud vs Server: Learn the Key Differences and Benefits - Parallels. https://www.parallels.com/blogs/ras/cloud-vs-server/.
+(8) Cloud vs Server: Difference and Comparison. https://askanydifference.com/difference-between-cloud-and-server-with-table/.
+(9) Difference between cloud and client/server computing. https://studyexperts.in/blog/difference-between-cloud-and-client-server-computing/.
+(10) 5 Differences between Cloud and Dedicated Servers - ZNetLive. https://www.znetlive.com/blog/5-differences-between-cloud-and-dedicated-servers/.
+(11) undefined. http://www.oxforddictionaries.com/us/.
+
+#### 19/30
+
+> 但是，云原生应用很多可能仍然需要自行部署 Kubernetes ，而 Kubernetes 一般而言部署在裸金属会获得最佳性能（而且它调度的 OCI 容器已经是在隔离环境因此不需要虚拟化），那么，如果为了运行云原生应用而不得不自行部署 Kubernetes 的话，取得的好处可能只有平台级别提供的自动伸缩功能，但自行部署它的个人或企业还是要自行管理物理资源。所以，那句「它消除了个人和企业自行管理物理资源的需要」，要怎么理解？
+
+* Generating answers for you…
+
+您提到的问题很好。云原生应用程序通常是为云计算环境而设计的，它们可以在云计算平台上运行，也可以在本地部署 Kubernetes 来运行。如果您选择在本地部署 Kubernetes 来运行云原生应用程序，那么您仍然需要自行管理物理资源。
+
+当我说「它消除了个人和企业自行管理物理资源的需要」时，我的意思是指云计算服务提供商提供的云计算服务。这些服务允许用户通过互联网访问远程服务器上的计算资源，而无需自行管理这些资源。用户只需为所使用的资源付费，而不需要购买和维护物理硬件。
+
+总之，如果您选择在本地部署 Kubernetes 来运行云原生应用程序，那么您仍然需要自行管理物理资源。但是，如果您选择使用云计算服务提供商提供的云计算服务来运行您的应用程序，那么您就不需要自行管理物理资源了。
+
+#### 20/30
+
+> 吗如果我使用某款 C/S 架构的聊天软件，但该软件却生成服务由云计算提供，这又要怎么理解？不是说 C/S 架构不是云原生架构的吗？
+
+* Generating answers for you…
+
+C/S（客户端/服务器）架构是一种传统的软件服务提供模式，它指的是客户端软件与服务器端软件之间的通信。在这种架构中，客户端软件负责与用户交互，而服务器端软件负责处理客户端的请求并返回响应。
+
+如果您使用的 C/S 架构的聊天软件的服务器端由云计算提供，那么这意味着该聊天软件的服务器端运行在云计算环境中。云计算环境提供了分布式计算能力，可以帮助应用程序更快地处理用户请求并返回响应。
+
+C/S 架构并不属于云原生架构，因为它并不是为云计算环境而设计的。但是，这并不意味着 C/S 架构的应用程序不能在云计算环境中运行。事实上，许多传统的 C/S 架构应用程序都可以在云计算环境中运行，并从中获益。
+
+#### 21/30
+
+> Hadoop 为什么不是云原生的？ Flink 呢？云原生的分布式存储引擎和分布式查询与计算引擎，与非云原生的相比，有什么具体的区别？有什么事是云原生的能够做到而非云原生的分布式存储引擎和分布式查询与计算引擎可以做到、非云原生的则做不到的？
+
+* Searching for: **Hadoop cloud native**
+* Searching for: **Flink cloud native**
+* Searching for: **cloud native distributed storage engine**
+* Searching for: **cloud native distributed query and computing engine**
+* Searching for: **difference between cloud native and non-cloud native distributed storage engine**
+* Searching for: **difference between cloud native and non-cloud native distributed query and computing engine**
+* Searching for: **advantages of cloud native distributed storage engine**
+* Generating answers for you…
+
+Hadoop 最初并不是为云计算环境而设计的，而是为了在本地服务器集群上运行而设计的。虽然现在有基于云的 Hadoop 服务，但它们仍然落后于那些专门为云计算环境而设计的现代数据平台¹。
+
+Flink 是一个分布式流处理和批处理引擎，它可以在本地或云计算环境中运行。Flink 也可以与 Kubernetes 集成，以便在云原生环境中运行⁷。
+
+云原生分布式存储引擎和分布式查询与计算引擎与非云原生的相比，主要区别在于它们是专门为云计算环境而设计的。这意味着它们能够充分利用云计算环境提供的弹性、可扩展性、可靠性和灵活性。例如，云原生应用程序可以快速扩展以应对突发流量，也可以快速缩小以节省成本。此外，云原生应用程序还可以利用云计算环境提供的容错能力来提高可靠性。
+
+总之，云原生分布式存储引擎和分布式查询与计算引擎能够更好地适应云计算环境，并充分利用云计算环境提供的优势。它们能够做到非云原生系统做不到的事情，例如快速扩展和缩小、容错和灵活部署。这些特性使得云原生系统能够更好地满足现代应用程序的需求。
+
+Source: Conversation with Bing, 31/07/2023
+(1) Migration from Hadoop to Modern Cloud Platforms: The Case for Hadoop .... https://www.databricks.com/blog/2019/11/27/migration-from-hadoop-to-modern-cloud-platforms-the-case-for-hadoop-alternatives.html.
+(2) Flink and Prometheus: Cloud-native monitoring of streaming applications. https://flink.apache.org/2019/03/11/flink-and-prometheus-cloud-native-monitoring-of-streaming-applications/.
+(3) Hadoop vs Kubernetes: Will K8s & Cloud Native End Hadoop?. https://www.bmc.com/blogs/hadoop-cloud-native-kubernetes/.
+(4) What Is Cloud Native | Google Cloud. https://cloud.google.com/learn/what-is-cloud-native.
+(5) Hortonworks unveils roadmap to make Hadoop cloud-native. https://www.zdnet.com/article/hortonworks-unveils-roadmap-to-make-hadoop-cloud-native/.
+(6) Accelerated Hadoop migration to cloud-native stack | LeapLogic. https://www.leaplogic.io/modernization/content/accelerated-hadoop-migration-cloud-native-stack.
+(7) Apache Flink - Flink SQL on StreamNative Cloud | StreamNative. https://bing.com/search?q=Flink+cloud+native.
+(8) Announcing the Release of Apache Flink 1.15 | Apache Flink. https://flink.apache.org/2022/05/05/announcing-the-release-of-apache-flink-1.15/.
+(9) Apache Flink - Flink SQL on StreamNative Cloud | StreamNative. https://streamnative.io/blog/flink-sql-on-streamnative-cloud.
+(10) Confluent acquires Immerok to develop cloud native Apache Flink offering. https://www.cloudcomputing-news.net/news/2023/jan/09/confluent-acquires-immerok-to-develop-cloud-native-apache-flink-offering/.
+(11) Confluent to Acquire Immerok for Cloud Kafka + Flink in One. https://www.confluent.io/press-release/confluent-plans-immerok-acquisition-to-accelerate-cloud-native-apache-flink/.
+(12) CubeFS. https://www.cubefs.io/.
+(13) Longhorn - Cloud-Native Distributed Storage | Rancher. https://www.rancher.com/products/longhorn.
+(14) GitHub - longhorn/longhorn: Cloud-Native distributed storage built on .... https://github.com/longhorn/longhorn.
+(15) Getting Started with Longhorn Distributed Block Storage and Cloud .... https://www.suse.com/c/rancher_blog/getting-started-with-longhorn-distributed-block-storage-and-cloud-native-distributed-sql/.
+(16) What is BigQuery? | Google Cloud. https://cloud.google.com/bigquery/docs/introduction.
+(17) BigQuery explained: An overview of BigQuery's architecture - Google Cloud. https://cloud.google.com/blog/products/data-analytics/new-blog-series-bigquery-explained-overview.
+(18) What is Cloud Native? | Oracle. https://www.oracle.com/cloud/cloud-native/what-is-cloud-native/.
+(19) What is Cloud Native? - Everything you need to know - AWS. https://aws.amazon.com/what-is/cloud-native/.
+(20) Differences between a Cloud based vs. Non-Cloud based system. https://support.smartsourcedit.com/hc/en-us/articles/360043699754-Differences-between-a-Cloud-based-vs-Non-Cloud-based-system.
+(21) Understanding Cloud Native Storage - Cloudian. https://cloudian.com/blog/understanding-cloud-native-storage/.
+(22) Cloud-Native vs. Cloud-Based Applications: What’s the Difference? - MUO. https://www.makeuseof.com/cloud-native-vs-cloud-based-applications-whats-the-difference/.
+(23) SQL vs. NoSQL Databases: What's the Difference? | IBM. https://www.ibm.com/cloud/blog/sql-vs-nosql.
+(24) What about Cloud-Native applications? | Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/architecture/modernize-with-azure-containers/modernize-existing-apps-to-cloud-optimized/what-about-cloud-native-applications.
+(25) Cloud Native vs. Cloud Enabled vs. Cloud-Based: What's the Difference .... https://www.alation.com/blog/cloud-native-vs-cloud-enabled/.
+(26) What Is Cloud-Native? - ITPro Today: IT News, How-Tos, Trends, Case .... https://www.itprotoday.com/cloud-native/what-cloud-native.
+(27) What is Cloud Native Storage | GitLab. https://about.gitlab.com/blog/2020/09/10/cloud-native-storage-beginners/.
+(28) Distributed Cloud Computing: Benefits and Limitations - Daffodil. https://insights.daffodilsw.com/blog/distributed-cloud-computing-benefits-and-limitations.
+(29) What is Distributed Storage? Explore Distributed Cloud | Nutanix. https://www.nutanix.com/info/distributed-storage.
+(30) What is a Distributed Cloud? | VMware Glossary. https://www.vmware.com/topics/glossary/content/distributed-cloud.html.
+(31) undefined. https://github.com/longhorn/longhorn/releases.
+(32) undefined. https://github.com/longhorn/longhorn/wiki/Roadmap.
+
+#### 22/30
+
+> 那有哪些类似于 HDFS 的分布式存储引擎是为云计算环境而设计的？我还是不太懂，到底要达到怎样的标准，一个软件才能算是「为云计算环境而设计的」？
+
+* Searching for: **distributed storage engines designed for cloud computing**
+* Searching for: **what is cloud native**
+* Searching for: **cloud native storage engines**
+* Searching for: **cloud native storage engines like HDFS**
+* Searching for: **cloud native storage engines similar to HDFS**
+* Searching for: **cloud native storage engines HDFS**
+* Searching for: **cloud native storage engines Hadoop**
+* Searching for: **cloud native storage engines Hadoop ecosystem**
+* Searching for: **cloud native storage engines Hadoop ecosystem HDFS**
+* Searching for: **cloud native storage engines Hadoop ecosystem HDFS similar**
+* Searching for: **cloud native storage engines Hadoop ecosystem HDFS like**
+* Generating answers for you…
+
+云原生存储引擎是为云计算环境而设计的，它们能够利用云计算的优势，如弹性、可扩展性和容错性。这些引擎通常使用分布式架构，可以在多个节点上存储和处理数据。一些类似于 HDFS 的云原生存储引擎包括 MinIO、Portworx、Reduxio、Robin.io 和 StorageOS [^10^]。这些引擎都能够提供高效、可靠和安全的数据存储和管理，以满足云计算环境中的需求。至于什么样的软件才能算是「为云计算环境而设计的」，这个问题并没有一个明确的答案。通常来说，如果一个软件能够充分利用云计算的优势，并且能够在云计算环境中高效运行，那么它就可以被认为是「为云计算环境而设计的」。希望我的回答对您有所帮助。如果您还有其他问题，请随时告诉我。😊
+
+Source: Conversation with Bing, 31/07/2023
+(1) 5 Cloud Native Storage Startups To Watch Out For In 2019 - Forbes. https://www.forbes.com/sites/janakirammsv/2019/06/28/5-cloud-native-storage-startups-to-watch-out-for-in-2019/.
+(2) What is Hadoop and What is it Used For? | Google Cloud. https://cloud.google.com/learn/what-is-hadoop.
+(3) What is Distributed Storage? Explore Distributed Cloud | Nutanix. https://www.nutanix.com/info/distributed-storage.
+(4) A comparative experimental study of distributed storage engines for big .... https://link.springer.com/article/10.1007/s11227-021-03946-7.
+(5) What is Distributed Cloud? | IBM. https://www.ibm.com/topics/distributed-cloud.
+(6) What is Cloud Native? - Everything you need to know - AWS. https://aws.amazon.com/what-is/cloud-native/.
+(7) What is Cloud Native? | Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition.
+(8) What is Cloud Native? | Oracle. https://www.oracle.com/cloud/cloud-native/what-is-cloud-native/.
+(9) Cloud Native | IBM. https://www.ibm.com/topics/cloud-native.
+(10) What Is Cloud Native? Definition - SDxCentral. https://www.sdxcentral.com/cloud/cloud-native/definitions/what-is-cloud-native-definition/.
+(11) Cloud Native Storage | vSAN & vSphere | VMware. https://www.vmware.com/products/cloud-native-storage.html.
+(12) Introduction to Cloud Native Storage - Cloud Native Computing Foundation. https://www.cncf.io/online-programs/introduction-to-cloud-native-storage/.
+(13) Critical Capabilities For Container-Native Storage Running In ... - Forbes. https://www.forbes.com/sites/janakirammsv/2020/07/26/critical-capabilities-for-container-native-storage-running-in-kubernetes-environmentpart-1/.
+(14) Introducing Cloud Native Storage for vSphere - VMware Blogs. https://blogs.vmware.com/virtualblocks/2019/08/14/introducing-cloud-native-storage-for-vsphere/.
+(15) MinIO | High Performance, Kubernetes Native Object Storage. https://min.io/.
+(16) HDFS vs. Cloud Storage: Pros, cons and migration tips. https://cloud.google.com/blog/products/storage-data-transfer/hdfs-vs-cloud-storage-pros-cons-and-migration-tips.
+(17) Migrating from HDFS to Object Storage - hdfs:// to s3a:// - MinIO Blog. https://blog.min.io/migrating-hdfs-to-object-storage/.
+(18) What is HDFS? Architecture, Features, Benefits, and Examples - KnowledgeHut. https://www.knowledgehut.com/blog/big-data/hdfs.
+(19) CubeFS. http://www.cubefs.io/.
+(20) Iceberg FileIO: Cloud Native Tables • Tabular. https://tabular.io/blog/iceberg-fileio/.
+(21) What is HDFS? Apache Hadoop Distributed File System | IBM. https://www.ibm.com/topics/hdfs.
+(22) CubeFS. https://www.cubefs.io/docs/master/overview/introduction.html.
+(23) Hadoop vs Kubernetes: Will K8s & Cloud Native End Hadoop?. https://www.bmc.com/blogs/hadoop-cloud-native-kubernetes/.
+(24) Google Introduces Cloud Storage Connector for Hadoop Big Data ... - InfoQ. https://www.infoq.com/news/2019/09/Google-Cloud-Storage-Hadoop/.
+(25) SAP Hana Technology and Hadoop Ecosystem | SAP Blogs. https://blogs.sap.com/2019/07/08/sap-hana-technology-and-hadoop-ecosystem/.
+(26) Understanding Hadoop Ecosystem: Architecture, Components & Tools. https://www.knowledgehut.com/blog/big-data/hadoop-ecosystem.
+(27) What is Hadoop? - Cloud Computing Services. https://aws.amazon.com/emr/details/hadoop/what-is-hadoop/.
+(28) Bridging two worlds : Integration of SAP and Hadoop Ecosystems. https://blogs.sap.com/2017/07/19/bridging-two-worlds-integration-of-sap-and-hadoop-ecosystems/.
+(29) Hadoop vs Spark: Main Big Data Tools Explained - AltexSoft. https://www.altexsoft.com/blog/hadoop-vs-spark/.
+(30) What is a Hadoop Ecosystem? - Databricks. https://www.databricks.com/glossary/hadoop-ecosystem.
+(31) Hadoop Ecosystem Components and Its Architecture - ProjectPro. https://www.projectpro.io/article/hadoop-ecosystem-components-and-its-architecture/114.
+(32) HDFS (Hadoop Distributed File System) - GeeksforGeeks. https://www.geeksforgeeks.org/hadoop-hdfs-hadoop-distributed-file-system/.
+(33) Top 10 Hadoop HDFS Alternatives & Competitors | G2. https://www.g2.com/products/hadoop-hdfs/competitors/alternatives.
+(34) Cloud Native Data Platform without Hadoop Installation. https://mykidong.medium.com/cloud-native-data-platform-without-hadoop-installation-6254a8ea3473.
+(35) Hadoop Ecosystem and Their Components – A Complete Tutorial. https://data-flair.training/blogs/hadoop-ecosystem-components/.
+
+#### 23/30
+
+> Hadoop 也是分布式的，它的具体哪个特性导致它不能算是「为云计算环境而设计的」？肯定不是因为它**可以**在本地集群部署，因为 MinIO 也一样**可以**在本地集群部署。另外，你提到的「那些专门为云计算环境而设计的现代数据平台」具体指比如哪些平台？我知道 Arroyo, Databend, Risingwave 可能都算是，那么，它们具体多出了怎样的软件功能或者特性使得它们可以是云原生软件而 HDFS 却不可以？
+
+* Searching for: **Hadoop vs cloud native storage**
+* Searching for: **Arroyo, Databend, Risingwave**
+* Searching for: **Hadoop vs MinIO**
+* Searching for: **Hadoop vs cloud native storage features**
+* Searching for: **Hadoop vs cloud native storage performance**
+* Searching for: **Hadoop vs cloud native storage scalability**
+* Searching for: **Hadoop vs cloud native storage flexibility**
+* Searching for: **Hadoop vs cloud native storage cost**
+* Searching for: **Hadoop vs cloud native storage reliability**
+* Searching for: **Hadoop vs cloud native storage security**
+* Searching for: **Hadoop vs cloud native storage management**
+* Generating answers for you…
+
+Hadoop 是一个分布式的数据处理平台，它的设计初衷是为了在本地集群上运行。虽然它也可以在云计算环境中运行，但它并不是专门为云计算环境而设计的。相比之下，那些专门为云计算环境而设计的现代数据平台，如 Arroyo, Databend 和 Risingwave，它们具有更好的弹性、可扩展性、成本效益和易用性。这些平台通常采用云原生架构，能够更好地利用云计算环境提供的资源和服务。例如，它们可以利用云存储服务来存储数据，而不需要维护自己的分布式文件系统。此外，它们还可以利用云计算环境提供的自动扩展和负载均衡功能来提高性能和可靠性。总之，这些平台通过采用云原生架构和技术来更好地适应云计算环境，并为用户提供更好的体验。⁵⁶⁷ 你可以查看这些平台的官方网站了解更多信息。
+
+Source: Conversation with Bing, 31/07/2023
+(1) GitHub - risingwavelabs/risingwave: The distributed streaming database .... https://github.com/risingwavelabs/risingwave.
+(2) Distributed SQL for Stream Processing - RisingWave. https://www.risingwave.com/.
+(3) RisingWave. https://www.risingwave.dev/.
+(4) HDFS vs. Cloud Storage: Pros, cons and migration tips. https://cloud.google.com/blog/products/storage-data-transfer/hdfs-vs-cloud-storage-pros-cons-and-migration-tips.
+(5) Databases vs. Hadoop vs. Cloud Storage - DATAVERSITY. https://www.dataversity.net/databases-vs-hadoop-vs-cloud-storage/.
+(6) Cloud Computing vs Hadoop | Find Out The Top 7 Comparisons - EDUCBA. https://www.educba.com/cloud-computing-vs-hadoop/.
+(7) Migrating On-Premises Hadoop Infrastructure to Google Cloud. https://cloud.google.com/architecture/hadoop.
+(8) Hadoop vs Minio | What are the differences? - StackShare. https://stackshare.io/stackups/hadoop-vs-minio.
+(9) HDFS vs. MinIO on the 1TB MapReduce Benchmark (Sort ... - MinIO Blog. https://blog.min.io/hdfsbenchmark/.
+(10) MinIO is faster than Hadoop. Farewell, NAS and SAN?. https://blocksandfiles.com/2019/08/16/minio-object-storage-hadoop-benchmarks/.
+(11) Best of 2022: Big Data on Kubernetes: The End For Hadoop?. https://cloudnativenow.com/features/big-data-on-kubernetes-the-end-for-hadoop/.
+(12) What is Hadoop Distributed File System (HDFS) - Databricks. https://www.databricks.com/glossary/hadoop-distributed-file-system-hdfs.
+(13) Hadoop vs Google Cloud Storage | TrustRadius. https://www.trustradius.com/compare-products/apache-hadoop-vs-google-cloud-storage.
+(14) Top 5 Reasons for Choosing S3 over HDFS | Databricks Blog. https://www.databricks.com/blog/2017/05/31/top-5-reasons-for-choosing-s3-over-hdfs.html.
+(15) Hadoop vs. Spark: A Head-To-Head Comparison | Logz.io. https://logz.io/blog/hadoop-vs-spark/.
+(16) Hadoop vs. Spark: What's the Difference? | IBM. https://www.ibm.com/cloud/blog/hadoop-vs-spark.
+(17) Hadoop vs Kubernetes: Will K8s & Cloud Native End Hadoop?. https://www.bmc.com/blogs/hadoop-cloud-native-kubernetes/.
+
+#### 24/30
+
+> 云原生架构？那是什么？满足这个架构要满足什么条件吗？如何明确地判断一个软件（如 HDFS ）到底是否符合这个架构呢？
+
+* Searching for: **cloud native architecture**
+* Searching for: **HDFS cloud native**
+* Searching for: **HDFS cloud native architecture**
+* Searching for: **HDFS cloud native architecture requirements**
+* Searching for: **HDFS cloud native architecture compliance**
+* Searching for: **HDFS cloud native architecture compliance requirements**
+* Searching for: **HDFS cloud native architecture compliance requirements criteria**
+* Searching for: **HDFS cloud native architecture compliance requirements criteria standards**
+* Searching for: **HDFS cloud native architecture compliance requirements criteria standards guidelines**
+* Searching for: **HDFS cloud native architecture compliance requirements criteria standards guidelines rules**
+* Searching for: **HDFS cloud native architecture compliance requirements criteria standards guidelines rules regulations**
+* Generating answers for you…
+
+云原生架构是一种设计方法，它利用云服务来支持动态和敏捷的应用程序开发技术，使用一组基于云的微服务而不是单一的应用程序基础架构来构建、运行和更新软件。云原生架构的目标是充分利用云计算的优势，包括弹性、可扩展性和自动化。²
+
+要满足云原生架构，应用程序需要遵循一些原则，例如设计自动化、容错性、可观察性和可扩展性。²
+
+至于 HDFS 是否符合云原生架构，我并未找到相关资料。但是，HDFS 是一个分布式文件系统，旨在运行在普通硬件上，并且具有高容错性和高吞吐量访问应用程序数据的能力。它放宽了一些 POSIX 要求以实现对文件系统数据的流式访问。¹³ 这些特征与云原生架构的一些原则相符合。但是，是否符合云原生架构还需要进一步评估。你可以咨询相关专家以获得更准确的答案。
+
+Source: Conversation with Bing, 31/07/2023
+(1) 5 principles for cloud-native architecture—what it is ... - Google Cloud. https://cloud.google.com/blog/products/application-development/5-principles-for-cloud-native-architecture-what-it-is-and-how-to-master-it.
+(2) HDFS Architecture Guide - Apache Hadoop. https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html.
+(3) What is Cloud-Native Architecture? - Definition from Techopedia. https://www.techopedia.com/definition/32572/cloud-native-architecture.
+(4) What is Cloud Native? - Everything you need to know - AWS. https://aws.amazon.com/what-is/cloud-native/.
+(5) Cloud-Native Architecture: Definition, Principles, and More - Atatus. https://www.atatus.com/glossary/cloud-native-architecture/.
+(6) What is Cloud Native Architecture? - AppDynamics. https://www.appdynamics.com/topics/what-is-cloud-native-architecture.
+(7) OpenStack Docs: HDFS native driver. https://docs.openstack.org/ocata/config-reference/shared-file-systems/drivers/hdfs-native-driver.html.
+(8) Migrating HDFS Data from On-Premises to Google Cloud. https://cloud.google.com/architecture/hadoop/hadoop-gcp-migration-data.
+(9) Dataproc Hadoop Data Storage | Dataproc Documentation | Google Cloud. https://cloud.google.com/dataproc/docs/concepts/dataproc-hdfs.
+(10) What is HDFS? Apache Hadoop Distributed File System | IBM. https://www.ibm.com/topics/hdfs.
+(11) The Hadoop Distributed File System - University of Wisconsin–Madison. https://pages.cs.wisc.edu/~akella/CS838/F15/838-CloudPapers/hdfs.pdf.
+(12) HDFS Architecture Guide - Apache Hadoop. https://hadoop.apache.org/docs/r1.2.1/hdfs_design.pdf.
+(13) Apache HDFS migration to Azure - Azure Architecture Center. https://learn.microsoft.com/en-us/azure/architecture/guide/hadoop/apache-hdfs-migration.
+(14) What Is HDFS? Its Architecture, Application Scenarios ... - Alibaba Cloud. https://www.alibabacloud.com/blog/what-is-hdfs-its-architecture-application-scenarios-advantages-and-disadvantages_598405.
+(15) HDFS Architecture | Explore the Architecture of HDFS - EDUCBA. https://www.educba.com/hdfs-architecture/.
+(16) Validating data transfers between HDFS and Cloud Storage. https://cloud.google.com/architecture/hadoop/validating-data-transfers.
+(17) What is Hadoop Distributed File System (HDFS) - Databricks. https://www.databricks.com/glossary/hadoop-distributed-file-system-hdfs.
+(18) HDFS vs. Cloud Storage: Pros, cons and migration tips. https://cloud.google.com/blog/products/storage-data-transfer/hdfs-vs-cloud-storage-pros-cons-and-migration-tips.
+(19) Apache Hadoop 3.3.6 – HDFS Architecture. https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html.
+(20) 8 Cloud Compliance Standards & 7 Steps to Achieving Compliance. https://www.aquasec.com/cloud-native-academy/cloud-compliance/cloud-compliance/.
+(21) undefined. https://hadoop.apache.org/hdfs/.
+
+#### 25/30
+
+> 给我找一些云原生的开源的数据治理软件
+
+* Searching for: **cloud native open source data governance software**
+* Generating answers for you…
+
+根据我的搜索结果，目前并没有找到云原生的开源数据治理软件。不过，您可以考虑使用一些开源的数据治理工具，如 Amundsen、DataHub、Atlas、Magda、OpenMetadata、Egeria 和 TrueDat。这些工具都提供了数据治理功能，可以帮助您管理和治理您的数据。您可以根据您的需求选择适合您的工具。如果您有其他问题，请随时告诉我。我会尽力帮助您。😊
+
+Source: Conversation with Bing, 31/07/2023
+(1) Prometheus | Cloud Native Computing Foundation. https://www.cncf.io/projects/prometheus/.
+(2) Introduction to Microsoft Purview governance solutions. https://learn.microsoft.com/en-us/purview/governance-solutions-overview.
+(3) 9 open source cloud native projects to consider. https://opensource.com/article/19/8/cloud-native-projects.
+(4) Best Data Governance Tools & Software | Datamation. https://www.datamation.com/big-data/data-governance-tools/.
+
+#### 26/30
+
+> 它们具体都有什么样的功能，以至于它们能够完成数据治理的各项具体工作呢？说起来数据治理具体都有哪些工作？监控数据？具体是怎样粒度和角度的监控、监控的是数据的流量还是内容？以及，有没有什么数据治理软件是用 Rust 实现的？
+
+* Searching for: **data governance tools**
+* Searching for: **data governance tasks**
+* Searching for: **data governance software rust**
+* Generating answers for you…
+
+数据治理是一种管理数据生命周期的原则性方法，从获取到使用再到处置。每个组织都需要数据治理⁵。数据治理是您为确保数据安全、私密、准确、可用和可用所做的一切。它包括人们必须采取的行动，他们必须遵循的流程以及在整个数据生命周期中支持他们的技术⁵。
+
+数据治理工具可以帮助您完成各项具体工作，例如自动分类、API 和应用程序集成、数据质量规则应用、数据目录和集成等⁶⁹ [^10^]。这些工具旨在帮助组织管理和治理其本地、多云和软件即服务（SaaS）数据，以便更好地利用数据资产。
+
+至于您提到的「监控数据」，这可能指的是监控数据质量和使用情况。数据治理工具可以帮助您监控数据质量，确保数据准确、完整和一致。此外，它们还可以帮助您监控数据使用情况，确保数据被合理使用，并符合相关法律法规。
+
+根据我的搜索结果，目前并没有找到用 Rust 实现的开源数据治理软件。不过，您可以考虑使用其他语言实现的开源数据治理工具，如 Amundsen、DataHub、Atlas、Magda、OpenMetadata、Egeria 和 TrueDat。这些工具都提供了数据治理功能，可以帮助您管理和治理您的数据。您可以根据您的需求选择适合您的工具。
+
+Source: Conversation with Bing, 31/07/2023
+(1) Data governance roles and responsibilities: What's needed. https://www.techtarget.com/searchdatamanagement/tip/Data-governance-roles-and-responsibilities-Whats-needed.
+(2) Designing data governance that delivers value | McKinsey. https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/designing-data-governance-that-delivers-value.
+(3) Complete Set of Data Governance Roles & Responsibilities. https://tdan.com/complete-set-of-data-governance-roles-responsibilities/21589.
+(4) Data Governance: Roles, Policies, and Challenges - NetApp. https://bluexp.netapp.com/blog/data-governance-roles-policies-and-challenges-1.
+(5) Unified Data Governance with Microsoft Purview | Microsoft Azure. https://azure.microsoft.com/en-us/products/purview.
+(6) What is Data Governance? | Microsoft Azure. https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-data-governance/.
+(7) Top 10 Data Governance Tools for 2021 - Spiceworks. https://www.spiceworks.com/tech/big-data/articles/best-data-governance-tools/.
+(8) 13 Best Data Governance Tools for 2023 - Hevo Data. https://hevodata.com/learn/data-governance-tools/.
+(9) Federal Data Strategy Data Governance Playbook. https://resources.data.gov/assets/documents/fds-data-governance-playbook.pdf.
+(10) Data Governance: definition, goals and tasks – DataLabs. https://datalabsua.com/en/data-governance-definition-goals-and-tasks/.
+(11) Governance - Rust Programming Language. https://www.rust-lang.org/governance.
+(12) data-governance · GitHub Topics · GitHub. https://github.com/topics/data-governance?l=rust.
+(13) Rust Project Reveals New ‘Constitution’ in Wake of Crisis. https://thenewstack.io/rust-project-reveals-new-constitution-in-wake-of-crisis/.
+
+#### 27/30
+
+> 数据安全、私密、准确、可用，分别具体是指什么？安全指的是泄露方面的安全、内容限制方面的安全、还是 DDS Reactive 的软件的执行指令需要被限定在要求范围内？私密我知道具体来说就是写和读的权限（可能还包括对它的监控），准确和可用在很多分布式数据存储程序内部是被直接承诺得到确保的，那么它们要如何基于数据治理的技术来进一步地确保呢？
+
+* Searching for: **data security**
+* Searching for: **data privacy**
+* Searching for: **data accuracy**
+* Searching for: **data availability**
+* Searching for: **data governance**
+* Searching for: **DDS Reactive**
+* Searching for: **distributed data storage**
+* Searching for: **data security leak**
+* Searching for: **data security content restriction**
+* Searching for: **data security DDS Reactive**
+* Searching for: **data privacy read write permission**
+* Searching for: **data privacy monitoring**
+* Searching for: **data accuracy distributed data storage**
+* Searching for: **data availability distributed data storage**
+* Searching for: **data governance accuracy**
+* Searching for: **data governance availability**
+* Searching for: **data governance security**
+* Searching for: **data governance privacy**
+* Generating answers for you…
+
+数据安全、私密、准确、可用是数据治理的四个重要方面。
+
+- 数据安全：指保护数据不被未经授权的用户访问或破坏。这包括防止数据泄露，内容限制以及确保软件执行指令在要求范围内。
+- 数据私密：指保护个人信息不被未经授权的用户访问。这包括对数据的读写权限和监控。
+- 数据准确：指确保数据记录无误，可作为可靠的信息来源。在分布式数据存储系统中，可以通过错误检测和纠正技术来确保数据准确性。
+- 数据可用：指确保数据在用户和应用程序需要时可用。在分布式数据存储系统中，可以通过冗余和备份技术来提高数据可用性。
+
+数据治理通过制定和实施各种政策和标准来促进这些方面的实现。例如，可以通过实施访问控制政策来提高数据安全性；可以通过实施隐私政策来保护个人信息；可以通过实施数据质量控制流程来确保数据准确性；可以通过实施灾难恢复计划来提高数据可用性。总之，数据治理为组织提供了一种方法来管理其数据资产，以确保其安全、私密、准确和可用。【53†】 【17†】 【56†】 【58†】 【49†】 【25†】 【52†】
+
+Source: Conversation with Bing, 31/07/2023
+(1) What is Data Security? Data Security Definition and Overview - IBM. https://www.ibm.com/topics/data-security.
+(2) What is Data Security | Threats, Risks & Solutions | Imperva. https://www.imperva.com/learn/data-security/data-security/.
+(3) Data security - Wikipedia. https://en.wikipedia.org/wiki/Data_security.
+(4) Data Security: Definition, Importance, and Types | Fortinet. https://www.fortinet.com/resources/cyberglossary/data-security.
+(5) What is data privacy? | Privacy definition | Cloudflare. https://www.cloudflare.com/learning/privacy/what-is-data-privacy/.
+(6) The New Rules of Data Privacy - Harvard Business Review. https://hbr.org/2022/02/the-new-rules-of-data-privacy.
+(7) What is Data Privacy? | SNIA. https://www.snia.org/education/what-is-data-privacy.
+(8) Information privacy - Wikipedia. https://en.wikipedia.org/wiki/Information_privacy.
+(9) What is Data Accuracy, Why it Matters and How Companies ... - Data Ladder. https://dataladder.com/what-is-data-accuracy/.
+(10) What Is Data Accuracy? (And How To Improve It) - Dataconomy. https://dataconomy.com/2021/11/09/what-data-accuracy-how-improve/.
+(11) What Is Data Accuracy? Definition, Examples, and Best Practices. https://www.metaplane.dev/blog/data-accuracy-definition-examples.
+(12) What is Data Availability? - Definition from Techopedia. https://www.techopedia.com/definition/14678/data-availability.
+(13) Data Availability 101: What Data Availability Means and How ... - Precisely. https://www.precisely.com/blog/data-availability/data-availability-101.
+(14) Data Availability Definition - What is data availability? - Precisely. https://www.precisely.com/glossary/data-availability.
+(15) What is Data Availability? | TIBCO Software. https://www.tibco.com/reference-center/what-is-data-availability.
+(16) What is Data Governance? | Google Cloud. https://cloud.google.com/learn/what-is-data-governance.
+(17) What is data governance? | IBM. https://www.ibm.com/topics/data-governance.
+(18) What is Data Governance? | Microsoft Azure. https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-data-governance/.
+(19) GitHub - rticommunity/rticonnextdds-reactive: Reactive Extensions .... https://github.com/rticommunity/rticonnextdds-reactive.
+(20) Proactive Dentistry vs. Reactive Dentistry | Dr. Anita Myers. https://stunningsmilesbydrmyers.com/2019/01/31/proactive-dentistry-vs-reactive-dentistry/.
+(21) Reactive Extensions | Data Distribution Service (DDS) Community RTI .... https://community.rti.com/keywords/reactive-extensions.
+(22) What is Distribute Data Fusion? How Does It Works? - Speranza. https://www.speranzainc.com/distributed-storage-data-fusion/.
+(23) What is Distributed Storage? Explore Distributed Cloud | Nutanix. https://www.nutanix.com/info/distributed-storage.
+(24) Choose a data storage technology - Azure Architecture Center. https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-storage.
+(25) Distributed data store - Wikipedia. https://en.wikipedia.org/wiki/Distributed_data_store.
+(26) Distributed Storage: What’s Inside Amazon S3? - Cloudian. https://cloudian.com/guides/data-backup/distributed-storage/.
+(27) 8 Data Leak Prevention Strategies for 2023 | UpGuard. https://www.upguard.com/blog/data-leak-prevention-tips.
+(28) Data leak exposes tens of millions of private records from ... - CNN. https://www.cnn.com/2021/08/24/tech/data-leak-microsoft-upguard/index.html.
+(29) What Is a Data Leak? - Definition, Types & Prevention - Proofpoint. https://www.proofpoint.com/us/threat-reference/data-leak.
+(30) What is a Data Breach | Tips for Data Leak Prevention | Imperva. https://www.imperva.com/learn/data-security/data-breach/.
+(31) What is a Data Leak? Stop Giving Cybercriminals Free Access. https://www.upguard.com/blog/data-leak.
+(32) Conditional security and data restrictions - IBM. https://www.ibm.com/docs/en/SSLKT6_7.6.0/com.ibm.mt.doc/securgroup/c_conditional_security_data_restrictions.html.
+(33) Executive Order on Protecting Americans’ Sensitive Data from Foreign. https://www.whitehouse.gov/briefing-room/presidential-actions/2021/06/09/executive-order-on-protecting-americans-sensitive-data-from-foreign-adversaries/.
+(34) Content Security Policy (CSP) - HTTP | MDN - MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP.
+(35) Setting up Data Restrictions in Security Groups - IBM. https://www.ibm.com/support/pages/setting-data-restrictions-security-groups.
+(36) Data Protection Laws and Regulations Report 2023 USA. https://iclg.com/practice-areas/data-protection-laws-and-regulations/usa.
+(37) Scalable Reactive Stream Processing Using DDS and Rx: An Industry .... https://community.rti.com/sites/default/files/rx4dds-techreport.pdf.
+(38) Analyzing the Data Distribution Service (DDS) Protocol for Critical .... https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/analyzing-the-data-distribution-service-dds-protocol-for-critical-industries.
+(39) Security vulnerabilities on the Data Distribution Service (DDS). https://ubuntu.com/blog/security-vulnerabilities-on-the-data-distribution-service-dds.
+(40) read/write permission setting in windows 10 - Microsoft Community. https://answers.microsoft.com/en-us/windows/forum/all/readwrite-permission-setting-in-windows-10/c8acc14d-3c0b-4f30-bc77-b518daa47ebd.
+(41) Data Privacy Guide: Definitions, Explanations and Legislation - Varonis. https://www.varonis.com/blog/data-privacy.
+(42) File-system permissions - Wikipedia. https://en.wikipedia.org/wiki/File-system_permissions.
+(43) How to Change the Read/Write Permission on a Flash Disk/Memory Card. https://www.easeus.com/computer-instruction/change-the-read-write-permission.html.
+(44) Norton Privacy Monitor | Helps removing your personal info. https://us.norton.com/feature/privacy-monitor.
+(45) How to Monitor Employees While Respecting Data Privacy. https://www.cpomagazine.com/data-privacy/how-to-monitor-employees-while-respecting-data-privacy/.
+(46) Distributed Storage Strategy and Visual Analysis for Economic Big Data. https://www.hindawi.com/journals/jmath/2021/3224190/.
+(47) What is data quality? | IBM. https://www.ibm.com/topics/data-quality.
+(48) Data accuracy vs data integrity: What are the differences. https://www.questionpro.com/blog/data-accuracy-vs-data-integrity/.
+(49) What is a Distributed Database? - HarperDB. https://www.harperdb.io/post/what-is-a-distributed-database.
+(50) Architecture II: Distributed Data Stores | AWS Startups Blog. https://aws.amazon.com/blogs/startups/distributed-data-stores-for-mere-mortals/.
+(51) Data Replication and Placement Strategies in Distributed ... - Springer. https://link.springer.com/article/10.1007/s11277-023-10240-7.
+(52) Data Availability vs. Durability – An Important Difference. https://blog.westerndigital.com/data-availability-vs-durability/.
+(53) What Is Data Governance? A Comprehensive Guide | Databricks. https://www.databricks.com/discover/data-governance.
+(54) What is Data Governance | Frameworks, Tools & Best Practices - Imperva. https://www.imperva.com/learn/data-security/data-governance/.
+(55) Data Governance - Overview, Role and Importance, Benefits. https://corporatefinanceinstitute.com/resources/data-science/data-governance/.
+(56) Data Security Governance - IRI. https://www.iri.com/blog/vldb-operations/data-security-governance/.
+(57) Data Security Governance and Its Best Practices. https://www.ssl2buy.com/cybersecurity/data-security-governance-best-practices.
+(58) What is Data Privacy? Definition and Compliance Guide | Talend. https://www.talend.com/resources/data-privacy/.
+(59) What lives between data privacy and data governance? Better compliance. https://iapp.org/news/a/what-lives-between-data-privacy-and-data-governance-better-compliance/.
+(60) How does data governance affect data security and privacy?. https://www.techrepublic.com/article/data-governance-security-and-privacy/.
+(61) Data governance and privacy | Informatica. https://www.informatica.com/blogs/data-governance-data-privacy.html.
+(62) undefined. https://doi.org/10.1155/2021/3224190.
+
+#### 28/30
+
+> 除了这四个方面还有哪些方面？以及每一个的介绍还是不够详细。在数据治理的实践中，有哪些具体的完成这些方面的软件，具体是如何被用来完成其工作的？
+
+* Searching for: **data governance software**
+* Searching for: **data governance practices**
+* Searching for: **data governance aspects**
+* Searching for: **data governance software usage**
+* Searching for: **data governance software implementation**
+* Searching for: **data governance software features**
+* Searching for: **data governance software benefits**
+* Searching for: **data governance software comparison**
+* Searching for: **data governance software review**
+* Searching for: **data governance software open source**
+* Searching for: **data governance software rust**
+* Searching for: **data governance software cloud native**
+* Searching for: **data governance software cloud enabled**
+* Searching for: **data governance software hadoop**
+* Searching for: **data governance software flink**
+* Generating answers for you…
+
+除了数据安全、数据质量、数据目录和数据生命周期管理，数据治理还包括合规性和风险管理。这些方面涉及到确保组织遵守相关法律法规，如GDPR和CCPA等。此外，数据治理还可以帮助组织管理风险，例如通过确保敏感数据的安全性来减少数据泄露的风险。
+
+在实践中，有许多软件可以帮助组织完成这些方面的工作。例如，Apache Atlas是一个开源的元数据管理和治理框架，它可以帮助组织建立数据资产目录，对这些资产进行分类和治理，并为数据科学家、分析师和数据治理团队提供协作能力²⁷。此外，还有一些商业软件，如Informatica、Collibra和Talend等，也提供了类似的功能。
+
+这些软件通常通过提供一系列工具来完成其工作。例如，它们可能提供用于定义和执行数据质量规则的工具，以确保数据的准确性和一致性；提供用于定义和执行安全策略的工具，以确保敏感数据的安全性；提供用于管理元数据的工具，以帮助组织更好地了解其数据资产并促进数据发现。此外，这些软件还可能提供用于监控和报告的工具，以帮助组织跟踪其数据治理活动并确保遵守相关法律法规。总之，这些软件通过提供一系列工具来帮助组织更好地管理和治理其数据。
+
+Source: Conversation with Bing, 31/07/2023
+(1) Apache Atlas – Data Governance and Metadata framework for Hadoop. https://atlas.apache.org/.
+(2) List of Top Data Governance Software 2023 - TrustRadius. https://www.trustradius.com/data-governance.
+(3) Best Data Governance Software - G2. https://www.g2.com/categories/data-governance.
+(4) 6 Best Practices for Data Governance | Tableau. https://www.tableau.com/learn/articles/data-governance-best-practices.
+(5) Designing data governance that delivers value | McKinsey. https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/designing-data-governance-that-delivers-value.
+(6) What is data governance? | IBM. https://www.ibm.com/topics/data-governance.
+(7) 7 Best Practices for Data Governance in 2023 - Atlan. https://atlan.com/data-governance-best-practices/.
+(8) Top 6 Best Practices of Data Governance | Collibra. https://www.collibra.com/us/en/blog/data-governance-best-practices.
+(9) What Is Data Governance? Framework and Best Practices - Varonis. https://www.varonis.com/blog/data-governance.
+(10) Data Governance - Overview, Role and Importance, Benefits. https://corporatefinanceinstitute.com/resources/data-science/data-governance/.
+(11) Data governance - Wikipedia. https://en.wikipedia.org/wiki/Data_governance.
+(12) What is Data Governance? | Microsoft Azure. https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-data-governance/.
+(13) How to Use Data Governance Software - WebinarCare. https://webinarcare.com/best-data-governance-software/use-data-governance-software/.
+(14) What is Data Governance? | TIBCO Software. https://www.tibco.com/reference-center/what-is-data-governance.
+(15) A step-by-step guide to setting up a data governance program - IBM. https://www.ibm.com/blog/a-step-by-step-guide-to-setting-up-a-data-governance-program/.
+(16) Best Data Governance Tools & Software | Datamation. https://www.datamation.com/big-data/data-governance-tools/.
+(17) Five Steps to Implement a Data Governance Framework. https://www.searchdiscovery.com/blog/implementing-data-governance-framework/.
+(18) Unified Data Governance with Microsoft Purview | Microsoft Azure. https://azure.microsoft.com/en-us/products/purview.
+(19) 10 Key Components of Data Governance Program - EWSolutions. https://www.ewsolutions.com/10-key-components-of-data-governance-program/.
+(20) Data Governance Benefits - Solutions Review. https://solutionsreview.com/data-management/data-governance-benefits/.
+(21) Best Data Governance Tools of 2022 | IT Business Edge. https://www.itbusinessedge.com/data-center/best-data-governance-tools/.
+(22) Data Governance Software - Dataedo. https://dataedo.com/solutions/data-governance.
+(23) 10+ Best Data Governance Tools To Fulfill Your Data Needs In 2023. https://www.softwaretestinghelp.com/data-governance-tools/.
+(24) Top Data Governance Software in 2023 - Slashdot. https://slashdot.org/software/data-governance/.
+(25) Best Data Governance Software - 2023 Reviews & Pricing. https://www.softwareadvice.com/data-governance/.
+(26) Top 63 Data Governance Software of 2023: In-Depth Guide - AIMultiple. https://aimultiple.com/data-governance-software.
+(27) 7 Best Open Source Data Governance Tools for 2023 - Atlan. https://atlan.com/open-source-data-governance-tools/.
+(28) 7 Best Open Source Data Governance Tools to Consider in 2022. https://www.gudusoft.com/best-open-source-data-governance-tools/.
+(29) Kylo is an open-source data lake. https://kylo.io/.
+(30) Governance - Rust Programming Language. https://www.rust-lang.org/governance.
+(31) data-governance · GitHub Topics · GitHub. https://github.com/topics/data-governance?l=rust.
+(32) Rust Project Reveals New ‘Constitution’ in Wake of Crisis. https://thenewstack.io/rust-project-reveals-new-constitution-in-wake-of-crisis/.
+(33) Azure Purview is now Microsoft Purview. https://azure.microsoft.com/en-us/blog/azure-purview-is-now-microsoft-purview/.
+(34) What is Data Governance? | Google Cloud. https://cloud.google.com/learn/what-is-data-governance.
+(35) Introduction to Microsoft Purview governance solutions. https://learn.microsoft.com/en-us/purview/governance-solutions-overview.
+(36) Essential cloud governance disciplines and best practices. https://www.capitalone.com/software/blog/cloud-governance/.
+(37) Data Governance in the Cloud - part 2 - Tools - Google Cloud. https://cloud.google.com/blog/products/data-analytics/data-governance-in-the-cloud-part-2-tools.
+(38) Cloudera Navigator: data governance solution for Hadoop. https://www.cloudera.com/products/product-components/cloudera-navigator.html.
+(39) Big Data, Big Challenge: Got Governance for Hadoop?. https://blog.cloudera.com/big-data-big-challenge-got-governance-for-hadoop/.
+(40) Apache Flink® — Stateful Computations over Data Streams. https://flink.apache.org/.
+(41) Use Cases | Apache Flink. https://flink.apache.org/use-cases/.
+(42) Apache Flink - Wikipedia. https://en.wikipedia.org/wiki/Apache_Flink.
+
+#### 29/30
+
+> 给我一个定义数据质量规则、安全策略、以及一个元数据管理的案例。以及， Atlas 是如何确保数据准确性一致性的？数据资产是什么意思？为什么管理元数据可以促进数据发现？元数据不是已经有 Namenode 管理了吗，还是说这里的元数据是另一个意思？这类软件在监控和报告数据的时候是根据对数据的流量监控和报告还是对数据内容及其占比做监控和报告？这些，就是我看过回答后的问题 …… 麻烦帮忙回答一下，非常感谢🤝
+
+* Searching for: **define data quality rules**
+* Searching for: **define security policy**
+* Searching for: **metadata management example**
+* Searching for: **how does Atlas ensure data accuracy and consistency**
+* Searching for: **what is data asset**
+* Searching for: **why managing metadata can promote data discovery**
+* Searching for: **what is metadata**
+* Searching for: **how does Namenode manage metadata**
+* Searching for: **monitoring and reporting data**
+* Searching for: **monitoring and reporting data traffic**
+* Searching for: **monitoring and reporting data content**
+* Searching for: **monitoring and reporting data content ratio**
+* Generating answers for you…
+
+数据质量规则是一组标准，用于确保数据满足准确性、完整性、有效性、一致性、唯一性、及时性和适用性等标准。这些规则有助于确保公司能够做出基于数据的决策，以实现其业务目标。¹
+
+安全策略是一份书面文件，概述了如何保护组织免受威胁，包括计算机安全威胁，并在发生时如何处理。它定义了对系统、组织或其他实体的安全意味着什么。对于组织来说，它涉及对其成员行为的限制，以及通过诸如门、锁、钥匙和墙等机制对对手施加的限制。⁷
+
+元数据管理是指管理有关数据的数据的过程。例如，Imperva 公司提供了一个元数据管理的案例：敏感数据发现和分类。需要管理大量数据的组织必须确定哪些数据点或集合是敏感的。然而，在大型池中手动管理数据发现和分类是不切实际的。[^10^]
+
+Atlas 是 Apache Hadoop 的一个项目，它提供了可扩展且可管理的元数据管理和治理能力。我没有找到关于 Atlas 如何确保数据准确性和一致性的具体信息。
+
+数据资产是指公司期望在未来从中获得收益的任何数据。这些资产可以用来改善运营、增加收入、降低风险并创造竞争优势。[^20^]
+
+管理元数据可以促进数据发现，因为它可以帮助用户更好地理解和使用数据。元数据描述了有关数据的特定信息，如类型、长度、文本描述和其他特征。这有助于防止误解或误用，并有助于确保数据库完整性。²⁵
+
+Namenode 管理 HDFS 中文件系统命名空间中的元数据信息，包括文件名、文件路径、块数、块 ID 和复制级别等信息。这些信息存储在本地磁盘上。³¹ 这里所说的元数据与 Namenode 管理的元数据不同。
+
+监控和报告数据时，可以根据对流量或内容及其占比进行监控和报告。具体取决于监控和报告程序的目的和要求。
+
+Source: Conversation with Bing, 31/07/2023
+(1) Data Quality - Data Rules - Datacadamia. https://datacadamia.com/data/quality/data_rule.
+(2) security policy - Glossary | CSRC. https://csrc.nist.gov/glossary/term/security_policy.
+(3) What is Metadata | Types & Examples | Imperva. https://www.imperva.com/learn/data-security/metadata/.
+(4) Data as an Asset: Realizing the Economic Potential of Data - Atlan. https://atlan.com/data-as-an-asset/.
+(5) What is Metadata and Why it's important | Villanova University. https://www.villanovau.com/resources/bi/metadata-importance-in-data-driven-world/.
+(6) NameNode, DataNode And Secondary NameNode in HDFS. https://www.netjstech.com/2018/02/namenode-datanode-and-secondary-namenode-hdfs-hadoop.html.
+(7) What is data quality? | IBM. https://www.ibm.com/topics/data-quality.
+(8) What is Data Quality? | Informatica. https://www.informatica.com/resources/articles/what-is-data-quality.html.
+(9) Data Quality Rules for Data Quality Check & Improvement - CDQ. https://www.cdq.com/platform/data-quality-rules.
+(10) Data Quality Rules in Data Integration - All You Need To Know. https://dataintegrationinfo.com/data-quality-rules/.
+(11) What is a Security Policy? Definition, Elements, and Examples - Varonis. https://www.varonis.com/blog/what-is-a-security-policy.
+(12) Security policy - Wikipedia. https://en.wikipedia.org/wiki/Security_policy.
+(13) What is Security Policy? - Definition from Techopedia. https://www.techopedia.com/definition/4099/security-policy.
+(14) Metadata Management: Technical & Operational Examples & Best Practices. https://streamsets.com/learn/metadata-management/.
+(15) What is metadata management? | Informatica. https://www.informatica.com/resources/articles/what-is-metadata-management.html.
+(16) A Step-by-Step Guide to Metadata Management - OvalEdge. https://www.ovaledge.com/blog/step-step-guide-metadata-management.
+(17) Introduction to managed metadata - SharePoint in Microsoft 365. https://learn.microsoft.com/en-us/sharepoint/managed-metadata.
+(18) What Is Data Accuracy? (And How To Improve It) - Dataconomy. https://dataconomy.com/2021/11/09/what-data-accuracy-how-improve/.
+(19) What is Data Accuracy, Why it Matters and How Companies Can Ensure They .... https://dataladder.com/what-is-data-accuracy/.
+(20) What is Data Consistency? Definition, Examples, and Best Practices. https://www.metaplane.dev/blog/data-consistency-definition-examples.
+(21) Measuring Data Consistency - DATAVERSITY. https://www.dataversity.net/measuring-data-consistency/.
+(22) Data Analysis: 5 Essential Steps to Ensure Data Integrity, Accuracy .... https://simplyeducate.me/2021/11/12/data-analysis/.
+(23) data asset - Glossary | CSRC. https://csrc.nist.gov/glossary/term/data_asset.
+(24) Data Assets - Overview, Types, How to Measure Returns. https://corporatefinanceinstitute.com/resources/business-intelligence/data-assets/.
+(25) What is a data asset? (Examples of types and components). https://uk.indeed.com/career-advice/career-development/data-asset.
+(26) The Role of Metadata in Modern Discovery - Lorman. https://www.lorman.com/resources/the-role-of-metadata-in-modern-discovery-15527.
+(27) What Is Data Discovery and Why Does It Matter? - Informatica. https://www.informatica.com/blogs/what-is-data-discovery-and-why-does-it-matter.html.
+(28) Metadata Creation | U.S. Geological Survey - USGS.gov. https://www.usgs.gov/data-management/metadata-creation.
+(29) . https://bing.com/search?q=what+is+metadata.
+(30) Metadata - Wikipedia. https://en.wikipedia.org/wiki/Metadata.
+(31) Metadata | Definition, Examples, & Standards | Britannica. https://www.britannica.com/technology/metadata.
+(32) Hadoop namenode metadata - Stack Overflow. https://stackoverflow.com/questions/6267219/hadoop-namenode-metadata.
+(33) Metadata storage by Namenode for all file blocks. https://stackoverflow.com/questions/14454382/metadata-storage-by-namenode-for-all-file-blocks.
+(34) Hadoop Namenode | HDFS for Storing their Data in a Distributed Manner. https://www.educba.com/hadoop-namenode/.
+(35) In which location NameNode stores its Metadata and why?. https://data-flair.training/forums/topic/in-which-location-namenode-stores-its-metadata-and-why/.
+(36) The Complete Guide to Understanding Data Reporting. https://www.expressanalytics.com/blog/data-reporting/.
+(37) What Is Data Reporting and How to Create Data Reports for Your Business .... https://databox.com/data-reporting.
+(38) Monitoring and reporting | Data Center workflow and ... - Atlassian. https://www.atlassian.com/whitepapers/data-center-workflow-and-efficiency/monitoring-and-reporting.
+(39) Data Quality Plan: Monitoring and Reporting Process. https://ncceh.zendesk.com/hc/en-us/articles/16466754325139-Data-Quality-Plan-Monitoring-and-Reporting-Process.
+(40) What is Traffic Monitoring? | Glossary | A10 Networks. https://www.a10networks.com/glossary/what-is-traffic-monitoring/.
+(41) Data Tracking: What Is It and What Are the Best Tools - HubSpot Blog. https://blog.hubspot.com/marketing/data-tracking.
+(42) Traffic Monitoring | Department of Transportation - ADOT. https://azdot.gov/planning/data-and-information/traffic-monitoring.
+(43) Traffic Monitoring Program | NMDOT - New Mexico. https://www.dot.nm.gov/planning-research-multimodal-and-safety/planning-division/data-management-bureau/traffic-monitoring-program/.
+(44) Traffic Monitoring Guide (TMG) | FHWA - Federal Highway Administration. https://highways.dot.gov/safety/data-analysis-tools/rsdp/rsdp-tools/traffic-monitoring-guide-tmg.
+(45) Chapter 7: Monitoring, evaluation, reporting, and learning. https://pidp.eastwestcenter.org/our-work/small-grants-guide/chapter-7-monitoring-evaluation-reporting-and-learning/.
+(46) Guide To Data Quality Management & Metrics for Data Control - datapine. https://www.datapine.com/blog/data-quality-management-and-metrics/.
+(47) Quality assurance program for data reporting - Deloitte US. https://www2.deloitte.com/content/dam/Deloitte/us/Documents/regulatory/us-quality-assurance-program-for-data-reporting.pdf.
+(48) undefined. http://www.oxforddictionaries.com/us/.
+(49) undefined. http://hadoop.apache.org/hdfs/docs/r0.21.0/hdfs_imageviewer.html.
+
+#### 30/30
+
+> Atlas 的使用中是否会编写配置文件？如果会，我想看一个简单的例子。 Atlas 是一个分布式软件吗？它有没有搞可用？它是微服务架构的吗？数据治理软件必须是微服务或者分布式的吗？以及，有没有什么用 Rust 实现的软件，不一定是专门用于数据治理的软件，但是也具有数据治理的功能？ Amundsen, DataHub, Atlas, Magda, OpenMetadata, Egeria, TrueData 这些软件，分别有什么特点？它们有什么区别？
+
+* Searching for: **Atlas configuration file example**
+* Searching for: **Atlas distributed software**
+* Searching for: **Atlas high availability**
+* Searching for: **Atlas microservice architecture**
+* Searching for: **Rust software with data governance features**
+* Searching for: **Amundsen, DataHub, Atlas, Magda, OpenMetadata, Egeria, TrueData differences**
+* Searching for: **Amundsen, DataHub, Atlas, Magda, OpenMetadata, Egeria, TrueData features**
+* Searching for: **Amundsen, DataHub, Atlas, Magda, OpenMetadata, Egeria, TrueData comparison**
+* Generating answers for you…
+
+是的，Atlas 使用配置文件。一个简单的例子是 Atlas 的应用程序属性配置文件，它包含了 Atlas 的各种配置信息。这个文件通常位于 Atlas 部署位置的 conf 目录下，名为 atlas-application.properties。¹
+
+Atlas 是一个分布式软件，它支持多个服务实例以主动-被动配置运行。您可以在集群中的不同物理主机上部署多个服务实例。其中一个实例会自动被选为“活动”实例来响应用户请求。如果“活动”实例不可用（因为故意停止或意外故障），则其他实例之一会自动更改为“活动”模式并开始处理请求。⁹
+
+Atlas 使用 Zookeeper 来了解集群内所有可用的 Atlas 服务实例。它使用 Zookeeper 的选举选举来确定需要激活的实例。一旦领导者被选出，其他实例将自己设置为被动并不参与服务请求。因此，Atlas 实现了高可用性（HA）的主动-被动配置。⁹
+
+Atlas 不是微服务架构的软件。数据治理软件并不一定是微服务或分布式的。
+
+我没有找到用 Rust 实现的具有数据治理功能的软件。
+
+Amundsen, DataHub, Atlas, Magda, OpenMetadata, Egeria 和 TrueData 都是流行的开源元数据目录工具，它们都有许多共同点，但也有一些重要区别。例如，Amundsen 和 OpenMetadata 都支持基本的数据治理功能，如基于角色的访问控制（RBAC）、标签和业务词汇表。Amundsen 的架构方法是在安全性和数据民主化之间取得平衡，团队成员可以自由发现和使用数据。[^20^] 但是，我没有找到关于 Magda, Egeria 和 TrueData 的详细信息。
+
+Source: Conversation with Bing, 31/07/2023
+(1) Configuring Apache Atlas - Application Properties. https://atlas.apache.org/0.8.4/Configuration.html.
+(2) About Atlas High Availability - Cloudera. https://docs.cloudera.com/cdp-private-cloud-base/7.1.4/atlas-ha/topics/atlas-high-availability-overview.html.
+(3) OpenMetadata vs. Amundsen: Architecture, Integrations & More - Atlan. https://atlan.com/openmetadata-vs-amundsen/.
+(4) Cluster Configuration File — Atlas Command Line Interface - MongoDB. https://www.mongodb.com/docs/atlas/cli/stable/reference/json/cluster-config-file/.
+(5) atlas config — Atlas Command Line Interface - MongoDB. https://www.mongodb.com/docs/atlas/cli/stable/command/atlas-config/.
+(6) How to pass atlas-application.properties configuration file from a .... https://community.cloudera.com/t5/Community-Articles/How-to-pass-atlas-application-properties-configuration-file/ta-p/322158.
+(7) Compass: Improve Your Distributed Architecture | Atlassian. https://www.atlassian.com/software/compass.
+(8) Film Distribution Apps - Atlas Distribution. https://atlasdistribution.com/apps/.
+(9) Film Distribution - Atlas Distribution. https://atlasdistribution.com/.
+(10) About - Atlas Distribution. https://atlasdistribution.com/about/.
+(11) Apache Atlas High Availability. https://docs.cloudera.com/cdp-private-cloud-base/7.1.4/atlas-ha/atlas-ha.pdf.
+(12) Apache Atlas – Fault Tolerance and High Availability Options. https://atlas.apache.org/2.0.0/HighAvailability.html.
+(13) Microservices Architecture | Atlassian. https://www.atlassian.com/microservices/microservices-architecture.
+(14) How to build microservices | Atlassian. https://www.atlassian.com/microservices/microservices-architecture/building-microservices.
+(15) Microservices Architecture: Features, Advantages, Examples - KnowledgeHut. https://www.knowledgehut.com/blog/programming/microservice-architecture.
+(16) Microservices principles | Atlassian. https://www.atlassian.com/microservices.
+(17) Governance - Rust Programming Language. https://www.rust-lang.org/governance.
+(18) data-governance · GitHub Topics · GitHub. https://github.com/topics/data-governance?l=rust.
+(19) Rust Software Security: A Current State Assessment - SEI Blog. https://insights.sei.cmu.edu/blog/rust-software-security-a-current-state-assessment/.
+(20) Rust Project Reveals New ‘Constitution’ in Wake of Crisis. https://thenewstack.io/rust-project-reveals-new-constitution-in-wake-of-crisis/.
+(21) Amundsen vs DataHub: Comparison, Differences & Similarities - Atlan. https://atlan.com/amundsen-vs-datahub/.
+(22) Amundsen vs Atlas: Comparison, Differences & Similarities. https://atlan.com/amundsen-vs-atlas/.
+(23) OpenMetadata vs. DataHub: Architecture, Integrations & More - Atlan. https://atlan.com/openmetadata-vs-datahub/.
+(24) undefined. https://dochub.mongodb.org/core/atlas-cli-env-variables.
+(25) undefined. https://dochub.mongodb.org/core/atlas-cli-save-connection-settings.
+(26) undefined. https://docs.cloudera.com/.
+
+* ⚠️ *Sorry, this conversation has reached its limit. Use the "broom" button to sweep this away and chat more.*
 
 
 
