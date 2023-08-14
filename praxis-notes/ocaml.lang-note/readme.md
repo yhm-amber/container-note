@@ -9,4 +9,4 @@
 [dune.site]: https://dune.build
 [dune.src/gh]: https://github.com/ocaml/dune.git "(MIT) (Languages: OCaml 94.2%, PowerShell 3.2%, C 1.0%, Emacs Lisp 0.7%, Shell 0.3%, Nix 0.2%, Other 0.4%) A composable build system for OCaml."
 
-[🐙 site][site] | [🦑 play][play] | [🐫 src][src/gh] | [🥫 opam][opam.site] [🐫][opam.src/gh] | [🦔 dune][dune.site] [🐫][dune.src/gh]
+[🐙 site][site] | [🦑 play][play] | [🐫 src][src/gh] | [🥫 opam][opam.site] [🐫 src][opam.src/gh] | [🦔 dune][dune.site] [🐫 src][dune.src/gh]
