@@ -27,11 +27,13 @@ ConfigVersion=1
 DBGConsoleOn=true
 ~~~
 
-然后游戏中用 <kbd>`</kbd> 可呼出控制台。
+然后游戏中用 <kbd>`</kbd> 键可呼出控制台。
 
 ### 控台指令
 
-#### `additem`
+#### 添加物品
+
+##### `additem`
 
 添加物品。
 
@@ -60,21 +62,33 @@ additem("Netflix steel sword 2")
 additem("Netflix silver sword 2")
 ~~~~
 
-#### `resurrect`
+##### `adddrinks`
+
+##### `addbolts`
+
+##### `addherbs`
+
+##### `addmutagens`
+
+##### `learnallschematics`
+
+#### 人物状态
+
+##### `resurrect`
 
 死亡复活： `resurrect()`
 
-#### `Cat`
+##### `Cat`
 
 猫眼药剂效果：
 - 打开： `Cat(1)`
 - 关闭： `Cat(0)`
 
-#### `spawnBoatAndMount`
+##### `spawnBoatAndMount`
 
 生成一条船并且坐在上面： `spawnBoatAndMount()`
 
-#### `addskillpoints`
+##### `addskillpoints`
 
 增加技能点： `addskillpoints(64)` （这是增加 64 点技能点）
 
