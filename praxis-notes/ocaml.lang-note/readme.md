@@ -20,7 +20,7 @@ Apps:
 [try-ocamlpro.webapp]: https://try.ocamlpro.com/ "Try OCaml is Free Software, and the source code is available under the GNU Affero GPL. It is proudly presented to you by OCamlPro, and made using OCaml and js_of_ocaml, in the hope it will ease OCaml learning and adoption. All processing and storage is done client-side. // Try OCaml 是自由软件，源代码可在 GNU Affero GPL 下获取。它由 OCamlPro 自豪地向您展示，用 OCaml 和 js_of_ocaml 制作，希望它能简化 OCaml 的学习和编排。所有处理和存储都在客户端完成。"
 [try-ocamlpro.webapp.src/gl]: https://gitlab.ocamlpro.com/OCamlPro/learn-ocaml.git "(MIT) (OCaml 94.8%, CSS 2.5%, Shell 1.0%, HTML 0.8%, Makefile 0.4%) Application at try.ocamlpro.com, based on a fork of learn-ocaml"
 
-[learn-ocaml.webapp]：https://ocaml-sf.org/learn-ocaml-public/
+[learn-ocaml.webapp]: https://ocaml-sf.org/learn-ocaml-public/
 [learn-ocaml.webapp.src/gh]: https://github.com/ocaml-sf/learn-ocaml.git "(MIT) (Languages: JavaScript 50.7%, OCaml 43.2%, CSS 4.5%, Shell 0.9%, HTML 0.4%, Makefile 0.2%, Other 0.1%) A Web Application for Learning OCaml"
 [learn-ocaml.site]: https://ocaml-sf.org/learn-ocaml/ "Learn-OCaml | learn-ocaml"
 [learn-ocaml.oci/dockerhub]: https://hub.docker.com/r/ocamlsf/learn-ocaml "(SPONSORED OSS) This is Learn-OCaml, a platform for learning the OCaml language, featuring a Web toplevel, an exercise environment, and a directory of lessons and tutorials. // :: docker pull ocamlsf/learn-ocaml"
