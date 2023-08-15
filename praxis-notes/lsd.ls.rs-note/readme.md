@@ -1,5 +1,8 @@
 [src/gh]: https://github.com/lsd-rs/lsd.git "(Apache-2.0) (Languages: Rust 99.0%, Shell 1.0%) The next gen ls command // 下一代 ls 命令"
+[pkg/crates.io]: https://crates.io/crates/lsd ":: cargo install lsd"
 [stat/repology]: https://repology.org/project/lsd/versions "lsd package versions - Repology"
+
+[🦪 src][src/gh] | [🐚 crates][pkg/crates.io]
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/lsd.svg?columns=3)][stat/repology]
 
