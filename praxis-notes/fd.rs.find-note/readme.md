@@ -1,5 +1,5 @@
 [src/gh]: https://github.com/sharkdp/fd.git "(Apache-2.0, MIT) (Languages: Rust 94.5%, Shell 5.0%, Makefile 0.5%) sharkdp/fd: A simple, fast and user-friendly alternative to 'find'"
-[pkg/crates.io]: https://crates.io/crates/fd-find "cargo install fd-find"
+[pkg/crates.io]: https://crates.io/crates/fd-find ":: cargo install fd-find"
 [pkg/lib.rs]: https://lib.rs/crates/fd-find "(~9–42MB, ~726K SLoC)"
 [docs/docs.rs]: https://docs.rs/crate/fd-find "fd is a simple, fast and user-friendly alternative to find."
 
