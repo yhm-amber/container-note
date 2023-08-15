@@ -20,16 +20,16 @@ More Packages:
 
 Statues: 
 
-[![Repository status](https://repology.org/badge/repository-big/gnuguix.svg)](https://repology.org/repository/gnuguix "guix install fd")
-[![Repository status](https://repology.org/badge/repository-big/alpine_edge.svg)](https://repology.org/repository/alpine_edge "apk add fd")
-[![Repository status](https://repology.org/badge/repository-big/homebrew.svg)](https://repology.org/repository/homebrew "brew install fd")
-[![Repository status](https://repology.org/badge/repository-big/arch.svg)](https://repology.org/repository/arch "pacman -S fd")
-[![Repository status](https://repology.org/badge/repository-big/opensuse_tumbleweed.svg)](https://repology.org/repository/opensuse_tumbleweed "zypper in fd")
-[![Repository status](https://repology.org/badge/repository-big/debian_unstable.svg)](https://repology.org/repository/debian_unstable "sudo apt-get install fd-find")
-[![Repository status](https://repology.org/badge/repository-big/winget.svg)](https://repology.org/repository/winget "winget install sharkdp.fd")
-[![Repository status](https://repology.org/badge/repository-big/msys2_mingw.svg)](https://repology.org/repository/msys2_mingw "pacman -S mingw-w64-x86_64-fd")
-[![Repository status](https://repology.org/badge/repository-big/macports.svg)](https://repology.org/repository/macports "sudo port install fd")
-[![Repository status](https://repology.org/badge/repository-big/freebsd.svg)](https://repology.org/repository/freebsd "pkg install fd-find")
-[![Repository status](https://repology.org/badge/repository-big/gentoo.svg)](https://repology.org/repository/gentoo "emerge -av fd")
-[![Repository status](https://repology.org/badge/repository-big/fedora_rawhide.svg)](https://repology.org/repository/fedora_rawhide "dnf install fd-find")
+[![GNU Guix repository information | Repology | Repository status](https://repology.org/badge/repository-big/gnuguix.svg)](https://repology.org/repository/gnuguix "guix install fd")
+[![Alpine Linux Edge repository information | Repology | Repository status](https://repology.org/badge/repository-big/alpine_edge.svg)](https://repology.org/repository/alpine_edge "apk add fd")
+[![Homebrew repository information | Repology | Repository status](https://repology.org/badge/repository-big/homebrew.svg)](https://repology.org/repository/homebrew "brew install fd")
+[![Arch repository information | Repology | Repository status](https://repology.org/badge/repository-big/arch.svg)](https://repology.org/repository/arch "pacman -S fd")
+[![openSUSE Tumbleweed repository information | Repology | Repository status](https://repology.org/badge/repository-big/opensuse_tumbleweed.svg)](https://repology.org/repository/opensuse_tumbleweed "zypper in fd")
+[![Debian Unstable repository information | Repology | Repository status](https://repology.org/badge/repository-big/debian_unstable.svg)](https://repology.org/repository/debian_unstable "sudo apt-get install fd-find")
+[![winget repository information | Repology | Repository status](https://repology.org/badge/repository-big/winget.svg)](https://repology.org/repository/winget "winget install sharkdp.fd")
+[![MSYS2 mingw repository information | Repology | Repository status](https://repology.org/badge/repository-big/msys2_mingw.svg)](https://repology.org/repository/msys2_mingw "pacman -S mingw-w64-x86_64-fd")
+[![MacPorts repository information | Repology | Repository status](https://repology.org/badge/repository-big/macports.svg)](https://repology.org/repository/macports "sudo port install fd")
+[![FreeBSD Ports repository information | Repology | Repository status](https://repology.org/badge/repository-big/freebsd.svg)](https://repology.org/repository/freebsd "pkg install fd-find")
+[![Gentoo repository information | Repology | Repository status](https://repology.org/badge/repository-big/gentoo.svg)](https://repology.org/repository/gentoo "emerge -av fd")
+[![Fedora Rawhide repository information | Repology | Repository status](https://repology.org/badge/repository-big/fedora_rawhide.svg)](https://repology.org/repository/fedora_rawhide "dnf install fd-find")
 
