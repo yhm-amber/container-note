@@ -7,3 +7,14 @@
 
 [ide/firefox]: https://addons.mozilla.org/en-GB/firefox/addon/selenium-ide/ "(4.01 MB) Selenium IDE - Get this Extension for 🦊 Firefox"
 [ide/chrome]: https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd "(3.96MiB) Selenium IDE - Chrome Web Store"
+
+[oci.src/gh]: https://github.com/SeleniumHQ/docker-selenium.git "(Apache-2.0) (Languages: Shell 35.5%, Dockerfile 22.7%, Makefile 20.1%, Python 14.4%, Smarty 7.3%) Docker images for Selenium Grid // https://hub.docker.com/u/selenium // :: docker run -d -p 4444:4444 -p 7900:7900 --shm-size=2g selenium/standalone-firefox:4.11.0-20230801 ;: curl http://localhost:4444 ;: http://localhost:7900/?autoconnect=1&resize=scale&password=secret // "
+
+[standalone-firefox.oci/dockerhub]: https://hub.docker.com/r/selenium/standalone-firefox ":: docker pull selenium/standalone-firefox"
+[node-firefox.oci/dockerhub]: https://hub.docker.com/r/selenium/node-firefox ":: docker pull selenium/node-firefox"
+[standalone-edge.oci/dockerhub]: https://hub.docker.com/r/selenium/standalone-edge ":: docker pull selenium/standalone-edge"
+[node-edge.oci/dockerhub]: https://hub.docker.com/r/selenium/node-edge ":: docker pull selenium/node-edge"
+[standalone-chrome.oci/dockerhub]: https://hub.docker.com/r/selenium/standalone-chrome ":: docker pull selenium/standalone-chrome"
+[node-chrome.oci/dockerhub]: https://hub.docker.com/r/selenium/node-chrome ":: docker pull selenium/node-chrome"
+
+[grid/docs]: https://www.selenium.dev/documentation/grid/ "Want to run tests in parallel across multiple machines? Then, Grid is for you. // 想要在多台机器上并行运行测试吗？那么，Grid 适合您。 // Selenium Grid allows the execution of WebDriver scripts on remote machines by routing commands sent by the client to remote browser instances. // Selenium Grid 允许通过将客户端发送的命令路由到远程浏览器实例来在远程计算机上执行 WebDriver 脚本。 // Grid aims to: 网格的目标是： // Provide an easy way to run tests in parallel on multiple machines // 提供一种在多台机器上并行运行测试的简单方法 // Allow testing on different browser versions // 允许在不同的浏览器版本上进行测试 // Enable cross platform testing // 启用跨平台测试 // :: docker network create grid && docker run -d -p 4442-4444:4442-4444 --net grid --name selenium-hub selenium/hub ; (printf %s'\n' firefox chrome edge | xargs -i -P1 -- docker run -d --net grid -e SE_EVENT_BUS_HOST=selenium-hub --shm-size=2g -e SE_EVENT_BUS_PUBLISH_PORT=4442 -e SE_EVENT_BUS_SUBSCRIBE_PORT=4443 -- selenium/node-{}:4.11.0-20230801"
