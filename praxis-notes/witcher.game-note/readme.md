@@ -35,11 +35,13 @@ DBGConsoleOn=true
 
 ##### `additem`
 
-添加物品。
+指定物品和数量添加
 
 例：
 
-~~~~
+几个特殊套装
+
+~~~~ lua
 additem("Dol Blathanna Armor")
 additem("Dol Blathanna Gloves")
 additem("Dol Blathanna Pants")
@@ -62,6 +64,24 @@ additem("Netflix steel sword 2")
 additem("Netflix silver sword 2")
 ~~~~
 
+染色
+
+~~~~ lua
+additem("Dye Default", 100)
+additem("Dye Red", 100)
+additem("Dye Orange", 100)
+additem("Dye Yellow", 100)
+additem("Dye Green", 100)
+additem("Dye Turquoise", 100)
+additem("Dye Blue", 100)
+additem("Dye Purple", 100)
+additem("Dye Pink", 100)
+additem("Dye Gray", 100)
+additem("Dye Black", 100)
+additem("Dye White", 100)
+additem("Dye Brown", 100)
+~~~~
+
 ##### `adddrinks`
 
 ##### `addbolts`
@@ -71,6 +91,10 @@ additem("Netflix silver sword 2")
 ##### `addmutagens`
 
 ##### `learnallschematics`
+
+##### `addmoney`
+
+加钱： `addmoney(4096)` （增加 4096 货币）
 
 #### 人物状态
 
@@ -90,7 +114,7 @@ additem("Netflix silver sword 2")
 
 ##### `addskillpoints`
 
-增加技能点： `addskillpoints(64)` （这是增加 64 点技能点）
+增加技能点： `addskillpoints(64)` （增加 64 点技能点）
 
 
 
