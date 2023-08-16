@@ -4,7 +4,7 @@
 
 [🦪 src][src/gh] | [🐚 crates][pkg/crates.io]
 
-[![Packaging status](https://repology.org/badge/vertical-allrepos/lsd.svg?columns=3)][stat/repology]
+[![Packaging status](https://repology.org/badge/vertical-allrepos/lsd.svg?columns=4)][stat/repology]
 
 | OS/Distro                       | Command                                                                                                                                          |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
