@@ -13,7 +13,7 @@
 
 [docs/learnxinyminutes.com]: https://learnxinyminutes.com/docs/ocaml/
 
-[🐙 site][site] | [🦑 play][play] | [🐫 src][src/gh] | [🥫 opam][opam.site] [🐫][opam.src/gh] | [🦔 dune][dune.site] [🐫][dune.src/gh] | [🐾 Learn X in Y][docs/learnxinyminutes.com] | [🐚 OCI][oci/dockerhub]
+[🐙 site][site] | [🦑 play][play] | [🐫 src][src/gh] | [🐫][opam.src/gh] [🥫 opam][opam.site] | [🐫][dune.src/gh] [🦔 dune][dune.site] | [🐾 Learn X in Y][docs/learnxinyminutes.com] | [🐚 OCI][oci/dockerhub]
 
 
 
