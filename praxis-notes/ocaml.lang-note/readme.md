@@ -11,7 +11,9 @@
 
 [oci/dockerhub]: https://hub.docker.com/r/ocaml/ocaml "Various builds of the OCaml compiler // OCaml 编译器的多种构建版本 // :: docker pull ocaml/ocaml"
 
-[🐙 site][site] | [🦑 play][play] | [🐫 src][src/gh] | [🥫 opam][opam.site] [🐫][opam.src/gh] | [🦔 dune][dune.site] [🐫][dune.src/gh] | [🐚 OCI][oci/dockerhub]
+[docs/learnxinyminutes.com]: https://learnxinyminutes.com/docs/ocaml/
+
+[🐙 site][site] | [🦑 play][play] | [🐫 src][src/gh] | [🥫 opam][opam.site] [🐫][opam.src/gh] | [🦔 dune][dune.site] [🐫][dune.src/gh] | [🐾 Learn X in Y][docs/learnxinyminutes.com] | [🐚 OCI][oci/dockerhub]
 
 
 
