@@ -1,0 +1,2 @@
+
+- [[../../../praxis-notes/lsd.ls.rs-note][🐾 lsd ls note]]
