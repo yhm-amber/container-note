@@ -155,7 +155,7 @@ class Stream
                 } ;
             } ;
             
-        } ).bind(this));
+        } ).bind(this)) ;
     
     
     readonly zip = 
@@ -270,7 +270,7 @@ console.log(naturals.take(8)); // [2, 3, 4, 5, 6, 7, 8, 9]
 const primes = Stream.unfold(naturals, naturals => 
     {
         const [[h], t] = naturals.took(1) ;
-        return { bloom: h, iter: t.filter(x => x % h != 0) }
+        return { bloom: h, iter: t.filter(x => x % h != 0) } ;
     } ) ;
 console.log(primes.take(20)); // [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71]
 
