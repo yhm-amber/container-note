@@ -247,11 +247,11 @@ class Stream
     } ;
     
     readonly took = 
-    (n: number)
+    (limit: number)
     : [T[], Stream<T>] => 
     {
         let count = 1;
-        return this.tookUntil(() => !(count++ < n));
+        return this.tookUntil(() => !(count++ < limit));
     } ;
     
     
@@ -262,10 +262,10 @@ class Stream
         this.tookUntil(when)[0] ;
     
     readonly take = 
-    (n: number)
+    (limit: number)
     : T[] => 
         
-        this.took(n)[0] ;
+        this.took(limit)[0] ;
     
     
     readonly dropUntil = 
@@ -275,10 +275,10 @@ class Stream
         this.tookUntil(when)[1] ;
     
     readonly drop = 
-    (n: number)
+    (limit: number)
     : Stream<T> => 
         
-        this.took(n)[1] ;
+        this.took(limit)[1] ;
     
     
     
@@ -358,4 +358,3 @@ const sbs2 = sbs.zip(sbs.map(x=>x*2)) ;
 console.log(sbs2.drop(1).take(20)); // [[2, 4], [3, 6], [4, 8], [5, 10], [6, 12], [7, 14]]
 console.log(sbs2.drop(1).take(20)); // [[2, 4], [3, 6], [4, 8], [5, 10], [6, 12], [7, 14]]
 console.log(sbs.drop(1).takeUntil(x=>false)); // [2, 3, 4, 5, 6, 7]
-
