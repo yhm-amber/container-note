@@ -8147,6 +8147,8 @@ Source: Conversation with Bing, 2023/8/17
 
 希望这些信息对您有所帮助！如果您还有其他问题，请随时告诉我。😊
 
+* ⚠ *Sorry, this conversation has reached its limit. Use the "broom" button to sweep this away and chat more.*
+
 > 一直说正确，但其实不对。总之， GPT 没解决这个问题。问 [Stackoverflow](https://stackoverflow.com/questions/76921821/js-ts-why-my-generator-function-code-have-different-behavior-on-the-idempotenc) 了。
 
 
