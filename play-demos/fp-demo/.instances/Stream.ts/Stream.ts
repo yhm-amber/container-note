@@ -47,6 +47,22 @@ class Stream
         } ) ;
     
     
+    static readonly bySeq = 
+    <T,> (headedSeq: Iterable<T>)
+    : Stream<T> => 
+        
+        new Stream
+        ( function* ()
+        : Generator<T> 
+        {
+            
+            for (const head of headedSeq) 
+            { yield head } ;
+            
+        } ) ;
+    
+    
+    
     readonly map = 
     <R,> (f: Fn<T, R>)
     : Stream<R> => 
@@ -58,8 +74,9 @@ class Stream
             const iterator = this.generatorFunction() ;
             while (true) 
             {
-                const { value: head, done } = iterator.next() ;
+                const { value: head, done } = iterator.next();
                 if (done) break;
+                
                 yield f(head) ;
             } ;
         } ).bind(this)) ;
@@ -76,34 +93,51 @@ class Stream
             const iterator = this.generatorFunction() ;
             while (true) 
             {
-                const { value: head, done } = iterator.next() ;
+                const { value: head, done } = iterator.next();
                 if (done) break;
+                
                 if (f(head)) yield head ;
             }
+        } ).bind(this)) ;
+    
+    
+    readonly follows = 
+    (headedSeq: Iterable<T>)
+    : Stream<T> => 
+        
+        new Stream
+        (( function* (this: Stream<T>)
+        : Generator<T> 
+        {
+            
+            yield* Stream.bySeq(headedSeq) ;
+            yield* this ;
+            
         } ).bind(this)) ;
     
     
     readonly scan = 
     (f: (acc: T, x: T) => T)
     : Stream<T> => 
-                    
+        
         new Stream
         (( function* (this: Stream<T>)
         : Generator<T> 
         {
             const iterator = this.generatorFunction() ;
             const { value: head, done } = iterator.next();
-            
             if (done) return;
+            
             let acc = head;
-            yield acc;
+            yield acc ;
             
             while (true) 
             {
-                const { value: head, done } = iterator.next() ;
+                const { value: head, done } = iterator.next();
                 if (done) break;
+                
                 acc = f(acc, head);
-                yield acc;
+                yield acc ;
             } ;
         } ).bind(this)) ;
     
@@ -111,14 +145,14 @@ class Stream
     readonly fold = 
     (f: (acc: T, x: T) => T, initHead: T)
     : Stream<T> => 
-            
+        
         new Stream
         (( function* (this: Stream<T>)
         : Generator<T> 
         {
             
-            yield initHead;            
-            yield* this.scan(f);
+            yield initHead ;
+            yield* this.scan(f) ;
             
         } ).bind(this)) ;
     
@@ -143,14 +177,14 @@ class Stream
             
             while (true) 
             {
-                const { value: head, done } = iterator.next() ;
+                const { value: head, done } = iterator.next();
                 
                 if (done) break;
                 buffer.push(head);
                 
                 if (buffer.length === size) 
                 {
-                    yield buffer;
+                    yield buffer ;
                     buffer = buffer.slice(step);
                 } ;
             } ;
@@ -174,8 +208,8 @@ class Stream
                 const [{ value: head0, done: done0 }, { value: head1, done: done1 }] = 
                     [iteratorz[0].next(), iteratorz[1].next()] ;
                 
-                if (done0 || done1) break;
-                yield [head0, head1];
+                if (done0 && done1) break;
+                yield [head0, head1] ;
             }
         } ).bind(this)) ;
     
@@ -189,12 +223,27 @@ class Stream
         
         while (true) 
         {
-            const { value: head, done } = iterator.next() ;
+            const { value: head, done } = iterator.next();
+            if (done) break;
+            
             result.push(head);
-            if (done || when(head)) break;
+            if (when(head)) break;
         } ;
         
-        return [result, new Stream(() => iterator)] ;
+        const drops = iterator ;
+        
+        return [result, new Stream
+        (( function* (this: Stream<T>)
+        : Generator<T> 
+        {
+            while (true) 
+            {
+                const { value, done } = drops.next();
+                if (done) break;
+                
+                yield value ;
+            }
+        } ).bind(this)), ] ;
     } ;
     
     readonly took = 
@@ -241,6 +290,7 @@ console.log("--------")
 
 const fibonacci = Stream.iterate([0, 1], ([a, b]) => [b, a + b]).map(([x]) => x) ;
 console.log(fibonacci.take(16)); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]
+console.log(fibonacci.take(16)); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]
 console.log(fibonacci.drop(10).take(6)); // [55, 89, 144, 233, 377, 610]
 
 const fibacc_scan = fibonacci.scan((acc, x) => acc + x) ;
@@ -284,17 +334,28 @@ const primenums = Stream.unfold
         return { bloom: h, iter: t.filter(x => x < h * h || x % h != 0) } ;
     } , 
 ) ;
-console.log(primenums.take(20)); // [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71]
 
-// fibo
-const primesfibo = Stream.unfold
-(
-    Stream.iterate([0, 1], ([a, b]) => [b, a + b]).map(([x]) => x).dropUntil(x => !(x < 2)) ,
-    fibonacci => 
-    {
-        const [[h], t] = fibonacci.took(1) ;
-        return { bloom: h, iter: t.filter(x => x < h * h || x % h != 0) } ;
-    } , 
-) ;
+console.log(primenums.take(21)); // [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73]
+console.log(primenums.take(21)); // [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73]
+console.log(primenums.follows([0,1,1,0]).take(12)); // [0, 1, 1, 0, 2, 3, 5, 7, 11, 13, 17, 19]
 
-console.log(primesfibo.take(12)); // [3, 5, 8, 13, 34, 89, 233, 1597, 4181, 28657, 514229, 1346269]
+
+const xs = Stream.unfold(3, x => ({bloom: x-1, iter: x+1})) ;
+console.log(xs.take(10)); // [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+console.log(xs.take(10)); // [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+const ys = Stream.iterate(2, x => x + 1).dropUntil(x => !(x < 2)) ;
+console.log(ys.take(10)); // [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+console.log(ys.take(10)); // [13, 14, 15, 16, 17, 18, 19, 20, 21, 22] ？？？？
+
+const zs = Stream.iterate(2, x => x + 1).map(x => x * 2) ;
+console.log(zs.take(6)); // [4, 6, 8, 10, 12, 14]
+console.log(zs.take(6)); // [4, 6, 8, 10, 12, 14]
+
+
+const sbs = Stream.bySeq([1,2,3,4,5,6,7]) ;
+const sbs2 = sbs.zip(sbs.map(x=>x*2)) ;
+console.log(sbs2.drop(1).take(20)); // [[2, 4], [3, 6], [4, 8], [5, 10], [6, 12], [7, 14]]
+console.log(sbs2.drop(1).take(20)); // [[2, 4], [3, 6], [4, 8], [5, 10], [6, 12], [7, 14]]
+console.log(sbs.drop(1).takeUntil(x=>false)); // [2, 3, 4, 5, 6, 7]
+
