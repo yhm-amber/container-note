@@ -27,7 +27,7 @@ class Stream
     
     
     static readonly unfold = 
-    <T, R> (initHead: T, f: Fn<T, { mapper: R; iter: T } | undefined>)
+    <T, R> (initHead: T, f: Fn<T, { bloom: R; iter: T } | undefined>)
     : Stream<R> => 
         
         new Stream
@@ -35,11 +35,11 @@ class Stream
         : Generator<R> 
         {
             let head = initHead;
-            let next: { mapper: R, iter: T } | undefined = f(head);
+            let next: { bloom: R, iter: T } | undefined = f(head);
             
             while (!(next === undefined)) 
             {
-                yield next.mapper ;
+                yield next.bloom ;
                 
                 head = next.iter;
                 next = f(head);
@@ -159,7 +159,7 @@ class Stream
     
     
     readonly zip = 
-    <U,> (other: Stream<U>)
+    <U,> (stream: Stream<U>)
     : Stream<[T, U]> => 
         
         new Stream
@@ -167,7 +167,7 @@ class Stream
         : Generator<[T, U]> 
         {
             const iteratorz = 
-                [this.generatorFunction(), other.generatorFunction()] ;
+                [this.generatorFunction(), stream.generatorFunction()] ;
             
             while (true) 
             {
@@ -263,3 +263,25 @@ console.log(fibw.drop(2).take(3)); // [[3, 5, 8], [8, 13, 21], [21, 34, 55]]
 const fibz = fibonacci.zip(fibacc_scan) ;
 console.log(fibz.take(7)); // [[0, 0], [1, 1], [1, 2], [2, 4], [3, 7], [5, 12], [8, 20]]
 console.log(fibz.drop(5).take(2)); // [[5, 12], [8, 20]]
+
+
+const naturals = Stream.iterate(2, x => x + 1) ;
+console.log(naturals.take(8)); // [2, 3, 4, 5, 6, 7, 8, 9]
+const primes = Stream.unfold(naturals, naturals => 
+    {
+        const [[h], t] = naturals.took(1) ;
+        return { bloom: h, iter: t.filter(x => x % h != 0) }
+    } ) ;
+console.log(primes.take(20)); // [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71]
+
+// better
+const primenums = Stream.unfold
+(
+    Stream.iterate(2, x => x + 1) , 
+    naturals => 
+    {
+        const [[h], t] = naturals.took(1) ;
+        return { bloom: h, iter: t.filter(x => x < h * h || x % h != 0) }
+    } , 
+) ;
+console.log(primenums.take(20)); // [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71]
