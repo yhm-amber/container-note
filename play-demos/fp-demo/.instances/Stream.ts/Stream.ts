@@ -58,15 +58,15 @@ class Stream
             const iterator = this.generatorFunction() ;
             while (true) 
             {
-                const { value, done } = iterator.next() ;
+                const { value: head, done } = iterator.next() ;
                 if (done) break;
-                yield f(value) ;
+                yield f(head) ;
             } ;
         } ).bind(this)) ;
     
     
     readonly filter = 
-    (predicate: Fn<T, boolean>)
+    (f: Fn<T, boolean>)
     : Stream<T> => 
         
         new Stream
@@ -76,9 +76,9 @@ class Stream
             const iterator = this.generatorFunction() ;
             while (true) 
             {
-                const { value, done } = iterator.next() ;
+                const { value: head, done } = iterator.next() ;
                 if (done) break;
-                if (predicate(value)) yield value ;
+                if (f(head)) yield head ;
             }
         } ).bind(this)) ;
     
@@ -92,17 +92,17 @@ class Stream
         : Generator<T> 
         {
             const iterator = this.generatorFunction() ;
-            const { value, done } = iterator.next();
+            const { value: head, done } = iterator.next();
             
             if (done) return;
-            let acc = value;
+            let acc = head;
             yield acc;
             
             while (true) 
             {
-                const { value, done } = iterator.next() ;
+                const { value: head, done } = iterator.next() ;
                 if (done) break;
-                acc = f(acc, value);
+                acc = f(acc, head);
                 yield acc;
             } ;
         } ).bind(this)) ;
@@ -143,10 +143,10 @@ class Stream
             
             while (true) 
             {
-                const { value, done } = iterator.next() ;
+                const { value: head, done } = iterator.next() ;
                 
                 if (done) break;
-                buffer.push(value);
+                buffer.push(head);
                 
                 if (buffer.length === size) 
                 {
@@ -166,42 +166,70 @@ class Stream
         (( function* (this: Stream<T>)
         : Generator<[T, U]> 
         {
-            const iterator1 = this.generatorFunction() ;
-            const iterator2 = other.generatorFunction() ;
+            const iteratorz = 
+                [this.generatorFunction(), other.generatorFunction()] ;
             
             while (true) 
             {
-                const { value: value1, done: done1 } = iterator1.next() ;
-                const { value: value2, done: done2 } = iterator2.next() ;
+                const [{ value: head0, done: done0 }, { value: head1, done: done1 }] = 
+                    [iteratorz[0].next(), iteratorz[1].next()] ;
                 
-                if (done1 || done2) break;
-                yield [value1, value2];
+                if (done0 || done1) break;
+                yield [head0, head1];
             }
-        } ).bind(this));
+        } ).bind(this)) ;
     
     
-    readonly takeUntil = 
-    (predicate: Fn<T, boolean>)
-    : T[] => 
+    readonly tookUntil = 
+    (when: Fn<T, boolean>)
+    : [T[], Stream<T>] => 
     {
         const result: T[] = [] ;
         const iterator = this.generatorFunction() ;
+        
         while (true) 
         {
-            const { value, done } = iterator.next() ;
-            result.push(value);
-            if (done || predicate(value)) break;
+            const { value: head, done } = iterator.next() ;
+            result.push(head);
+            if (done || when(head)) break;
         } ;
-        return result ;
+        
+        return [result, new Stream(() => iterator)] ;
     } ;
+    
+    readonly took = 
+    (n: number)
+    : [T[], Stream<T>] => 
+    {
+        let count = 1;
+        return this.tookUntil(() => !(count++ < n));
+    } ;
+    
+    
+    readonly takeUntil = 
+    (when: Fn<T, boolean>)
+    : T[] => 
+        
+        this.tookUntil(when)[0] ;
     
     readonly take = 
     (n: number)
     : T[] => 
-    {
-        let count = 1;
-        return this.takeUntil(() => !(count++ < n));
-    } ;
+        
+        this.took(n)[0] ;
+    
+    
+    readonly dropUntil = 
+    (when: Fn<T, boolean>)
+    : Stream<T> => 
+        
+        this.tookUntil(when)[1] ;
+    
+    readonly drop = 
+    (n: number)
+    : Stream<T> => 
+        
+        this.took(n)[1] ;
     
     
     
@@ -212,7 +240,8 @@ class Stream
 console.log("--------")
 
 const fibonacci = Stream.iterate([0, 1], ([a, b]) => [b, a + b]).map(([x]) => x) ;
-console.log(fibonacci.take(16)); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610] 
+console.log(fibonacci.take(16)); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]
+console.log(fibonacci.drop(10).take(6)); // [55, 89, 144, 233, 377, 610]
 
 const fibacc_scan = fibonacci.scan((acc, x) => acc + x) ;
 console.log(fibacc_scan.take(10)); // [0, 1, 2, 4, 7, 12, 20, 33, 54, 88]
@@ -225,9 +254,12 @@ console.log(fibb.take(10)); // [777, 0, 1, 1, 2, 3, 5, 8, 13, 21]
 
 const fibh = fibonacci.follow(88).follow(99) ;
 console.log(fibh.take(10)); // [99, 88, 0, 1, 1, 2, 3, 5, 8, 13]
+console.log(fibh.drop(4).take(10)); // [1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 
 const fibw = fibonacci.window(3,2) ;
 console.log(fibw.take(5)); // [[0, 1, 1], [1, 2, 3], [3, 5, 8], [8, 13, 21], [21, 34, 55]]
+console.log(fibw.drop(2).take(3)); // [[3, 5, 8], [8, 13, 21], [21, 34, 55]]
 
 const fibz = fibonacci.zip(fibacc_scan) ;
 console.log(fibz.take(7)); // [[0, 0], [1, 1], [1, 2], [2, 4], [3, 7], [5, 12], [8, 20]]
+console.log(fibz.drop(5).take(2)); // [[5, 12], [8, 20]]
