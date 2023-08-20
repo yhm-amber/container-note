@@ -12,5 +12,6 @@
 [业力花/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Karma_Flower/zh-hans
 [雨眠/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Hibernation/zh-hans
 [猫崽/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Slugpup/zh-hans
+[操作/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Controls/zh-hans
 
 [twitter]: https://twitter.com/RainWorldGame
