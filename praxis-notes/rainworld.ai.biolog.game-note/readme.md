@@ -9,5 +9,8 @@
 [爬杆/wiki]: https://rainworld.miraheze.org/wiki/Pole_Movement
 [业力/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Karma/zh-hans
 [通行证/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Passages/zh-hans
+[业力花/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Karma_Flower/zh-hans
+[雨眠/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Hibernation/zh-hans
+[猫崽/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Slugpup/zh-hans
 
 [twitter]: https://twitter.com/RainWorldGame
