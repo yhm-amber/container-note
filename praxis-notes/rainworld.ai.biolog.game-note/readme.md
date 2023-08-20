@@ -13,5 +13,15 @@
 [雨眠/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Hibernation/zh-hans
 [猫崽/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Slugpup/zh-hans
 [操作/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Controls/zh-hans
+[蜥蜴/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Lizards/zh-hans
+[拾荒者/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Scavenger/zh-hans
+[烈焰蜥蜴/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Red_Lizard/zh-hans
+[工匠/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Artificer/zh-hans
+[???/wiki]: https://rainworld.miraheze.org/wiki/%3F%3F%3F
+[倾盆大雨/wiki]: https://rainworld.miraheze.org/wiki/Downpour
+[拾荒者酋长/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Chieftain_Scavenger/zh-hans
+[监视者/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Overseer/zh-hans
+[僧侣/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Monk/zh-hans
+
 
 [twitter]: https://twitter.com/RainWorldGame
