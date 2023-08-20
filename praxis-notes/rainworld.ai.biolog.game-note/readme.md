@@ -44,7 +44,7 @@
 [墨鱼/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Hazer/zh-hans
 [波动龟/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Snail/zh-hans
 [监察者/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Inspector/zh-hans
-
+[蝉乌贼/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Squidcada/zh-hans
 
 
 
