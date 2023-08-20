@@ -22,6 +22,30 @@
 [拾荒者酋长/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Chieftain_Scavenger/zh-hans
 [监视者/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Overseer/zh-hans
 [僧侣/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Monk/zh-hans
+[迭代器/wiki]: https://rainworld.miraheze.org/wiki/Iterator
+[雨世界传说/wiki]: https://rainworld.miraheze.org/wiki/Lore_of_Rain_World
+[雨世界传说：倾盆大雨DLC/wiki]: https://rainworld.miraheze.org/wiki/Lore_of_Rain_World:_Downpour
+[回响/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Echo/zh-hans
+[矛大师/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Spearmaster/zh-hans
+[蓝香菇/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Daddy_Long_Legs/zh-hans
+[黄香菇/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Brother_Long_Legs/zh-hans
+[紫香菇/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Mother_Long_Legs/zh-hans
+[腐化之地/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/The_Rot/zh-hans
+[暴雨/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Rain/zh-hans
+[珍珠/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Pearl/zh-hans
+[质量稀释电池/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Rarefaction_Cell/zh-hans
+[秃鹫/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Vulture/zh-hans
+[魔王鹫/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/King_Vulture/zh-hans
+[利维坦/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Leviathan/zh-hans
+[钢鸟/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Miros_Bird/zh-hans
+[钢秃鹫/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Miros_Vulture/zh-hans
+[面条蝇/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Noodlefly/zh-hans
+[舌草/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Worm_Grass/zh-hans
+[墨鱼/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Hazer/zh-hans
+[波动龟/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Snail/zh-hans
+[监察者/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Inspector/zh-hans
+
+
 
 
 [twitter]: https://twitter.com/RainWorldGame
