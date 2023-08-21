@@ -45,7 +45,8 @@
 [波动龟/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Snail/zh-hans
 [监察者/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Inspector/zh-hans
 [蝉乌贼/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Squidcada/zh-hans
-
+[鲑鱼/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Jetfish/zh-hans
+[雨鹿/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Rain_Deer/zh-hans
 
 
 [twitter]: https://twitter.com/RainWorldGame
