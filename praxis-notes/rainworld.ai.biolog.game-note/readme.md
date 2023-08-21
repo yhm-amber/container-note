@@ -47,6 +47,11 @@
 [蝉乌贼/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Squidcada/zh-hans
 [鲑鱼/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Jetfish/zh-hans
 [雨鹿/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Rain_Deer/zh-hans
+[光鼠/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Lantern_Mouse/zh-hans
+[习性/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Behavior/zh-hans
+
+
+
 
 
 [twitter]: https://twitter.com/RainWorldGame
