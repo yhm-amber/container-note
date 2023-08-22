@@ -50,6 +50,14 @@
 [光鼠/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Lantern_Mouse/zh-hans
 [习性/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Behavior/zh-hans
 [蛋虫/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Eggbug/zh-hans
+[垃圾堆/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Garbage_Wastes/zh-hans
+[无声构造/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Silent_Construct/zh-hans
+[地下/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Subterranean/zh-hans
+[神经元/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Neuron_Fly/zh-hans
+[剧情/wiki]: https://rainworld.miraheze.org/wiki/Plot
+[区域/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Regions/zh-hans
+[虚空蠕虫/wiki]: https://rainworld.miraheze.org/wiki/Void_Worm
+[海岸线/wiki.zh-hans]: https://rainworld.miraheze.org/wiki/Shoreline/zh-hans
 
 
 
