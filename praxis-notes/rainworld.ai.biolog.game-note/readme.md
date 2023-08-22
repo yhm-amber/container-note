@@ -55,3 +55,23 @@
 
 
 [twitter]: https://twitter.com/RainWorldGame
+
+
+
+[倾盆大雨:rwm.app.web/ghio]: https://rain-world-map.github.io/map.html
+[倾盆大雨:rwm.app.web.fg.src/gh]: https://github.com/rain-world-map/rain-world-map.github.io.git "(CC0-1.0) (Languages: HTML 56.5%, CSS 31.7%, JavaScript 11.8%) Front-end code. See https://github.com/rain-world-map/generation for how this was made."
+[倾盆大雨:rwm.app.web.bg.src/gh]: https://github.com/rain-world-map/generation.git "(CC0-1.0) (Languages: C# 42.8%, Python 38.6%, HTML 18.6%) A Rain World interactive map using leaflet and GeoJSON data exported from the game files. By @henpemaz"
+
+[无DLC:rwim.app.web/ghio]: https://henpemaz.github.io/Rain-World-Interactive-Map/map.html
+[无DLC:rwim.app.web.data/gh]: https://github.com/henpemaz/Rain-World-Interactive-Map.git "(MIT) (Json) A Rain World interactive map using leaflet and GeoJSON data exported from the game files."
+
+
+
+
+
+
+
+
+
+
+
