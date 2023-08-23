@@ -75,7 +75,8 @@
 
 
 
-
+[auth.site]: https://videocultmedia.com/
+[auth.twitter]: https://twitter.com/VideocultMedia
 
 
 
