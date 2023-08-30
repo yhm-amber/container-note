@@ -1,0 +1,1 @@
+- [[../../../praxis-notes/spakhm.fp.blog-note][fp basic]]
