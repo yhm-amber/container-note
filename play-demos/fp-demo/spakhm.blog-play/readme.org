@@ -1,1 +1,3 @@
+
+- [[../../../praxis-notes/spakhm.lisp.blog-note][lisp what]]
 - [[../../../praxis-notes/spakhm.fp.blog-note][fp basic]]
