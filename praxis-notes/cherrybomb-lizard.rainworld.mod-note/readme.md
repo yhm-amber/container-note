@@ -1,3 +1,3 @@
-[site/steam]: https://steamcommunity.com/sharedfiles/filedetails/?id=3022299605 "(0.724 MB)"
+[site/steam]: https://steamcommunity.com/sharedfiles/filedetails/?id=3022299605 "(0.724 MB) Cherrybomb Lizards, or Cherry Lizard, are highly aggressive lizards that mainly spawn for Hunter and Artificier. They are fast, durable and extremely hostile. // 樱桃炸弹蜥蜴，或称樱桃蜥蜴，是一种高度攻击性的蜥蜴，主要为猎人和技工生成。它们速度快、耐用且极具敌意。 // Can spit grenades 可以吐手榴弹 Eats anything 什么都吃 Very resistant to explosive damage 非常耐爆炸损坏 // Will prioritize anything over slug-cat, making it possible to distract one. // 会优先考虑任何事情而不是蛞蝓猫，从而可以分散注意力。 // For a hard-mode lizard, it's taming difficulty is below average, making it somewhat easier to tame than a Red or Train Lizard. // 相比于困难模式蜥蜴，它的驯服难度低于平均水平，从而比红色蜥蜴或火车蜥蜴更容易驯服。 // Noodlefly and Scavenger are always hostile to Cherry Lizards. // 面条蝇和清道夫总是对樱桃蜥蜴怀有敌意。"
 
 [raindb]: https://andrew.fm/rainworld/raindb/Cherrybomb_Lizard.zip
