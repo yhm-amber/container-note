@@ -1,6 +1,6 @@
 
-[add-repo/docs/zh] https://f-droid.org/zh/tutorials/add-repo
-[add-repo/docs] https://f-droid.org/tutorials/add-repo
+[add-repo/docs/zh]: https://f-droid.org/zh/tutorials/add-repo
+[add-repo/docs]: https://f-droid.org/tutorials/add-repo
 [app.web]: https://f-droid.org
 
 [app.apk/f-droid]: https://f-droid.org//packages/org.fdroid.fdroid/ "(10 MiB)"
