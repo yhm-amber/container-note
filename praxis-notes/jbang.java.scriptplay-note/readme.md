@@ -20,3 +20,4 @@
 [ide.web/gitpod]: https://gitpod.io/#https://github.com/jbangdev/jbang-devcontainer-template
 [ide.web/jdoodle]: https://www.jdoodle.com/try-jbang/
 
+[jdoodle.app.ipa/apple]: https://apps.apple.com//app/jdoodle/id1544598494 "(38.3 MB) JDoodle | App Store"
