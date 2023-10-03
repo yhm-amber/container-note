@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/influxdata/influxdb.git "(Apace-2.0, MIT) (Languages: Rust 99.5%, Shell 0.3%, Java 0.1%, Python 0.1%, PLpgSQL 0.0%, HCL 0.0%) Scalable datastore for metrics, events, and real-time analytics // 用于度量、事件和实时分析的可扩展数据存储"
+[site]: https://influxdata.com/ "Real-time insights from any time series data with a single, purpose-built database. Run at any scale in any environment in the cloud, on-premises, or at the edge. // 通过一个专门构建的数据库，从任何时间序列数据中获得实时见解。在云中、本地或边缘的任何环境中以任何规模运行。"
