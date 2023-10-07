@@ -1,5 +1,6 @@
-[web:app]: https://bing.com/chat
-[web:new]: https://bing.com/new
+[app.web]: https://bing.com/chat
+[new.web]: https://bing.com/new
+[app.web/edge]: https://edgeservices.bing.com/edgesvc/chat
 
 [crack:edge/all-browsers.app/chrome]: https://chrome.google.com/webstore/detail/bing-chat-for-all-browser/jofbglonpbndadajbafmmaklbfbkggpo "(95.57KiB) Bing Chat for All Browsers | Chrome Store"
 [crack:edge/all-browsers.app/firefox]: https://addons.mozilla.org//firefox/addon/bing-chat-for-all-browsers/ "(101.64 KB) Bing Chat for All Browsers | Get this Extension for 🦊 Firefox"
