@@ -10,4 +10,4 @@
 [crack:save/bing-chat-saver.app/chrome]: https://chrome.google.com/webstore/detail/bing-chat-saver/ficbllnhlgldegblbimkeldcdhfjppkg "(169KiB) 必应聊天保存器 | Chrome 应用商店"
 [crack:save/bing-chat-saver.src/gh]: https://github.com/gantrol/Bing-Chat-Saver.git "(Languages: TypeScript 64.4%, Svelte 22.6%, HTML 8.0%, JavaScript 5.0%) Save Bing chat with PNG，JPG、JSON and Markdown"
 
-[crack:app/dice2o:BingGPT:src/gh]: https://github.com/dice2o/BingGPT.git
+[crack:app/dice2o:BingGPT:src/gh]: ../binggpt.app.dice2o-note
