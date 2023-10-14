@@ -194,6 +194,8 @@ from
 
 ~~~ sql
 select T, N, IF( (T = lag(T) over (order by N) ), 0, 1) as pQ from acc;
+
+-- （分组内）本条与（排序 N）的上条 T 相同则本条标记 0 否则 1
 ~~~
 
 `acc` :
@@ -215,6 +217,8 @@ select T, N, IF( (T = lag(T) over (order by N) ), 0, 1) as pQ from acc;
 
 ~~~ sql
 select T, N, sum(pQ) over (order by N rows between unbounded preceding and current row) as Q from acc;
+
+-- 以 scan 逻辑（开始行到本行的聚合）聚合 0 1 标记的字段得到应有行号 Q
 ~~~
 
 `acc` :
@@ -252,7 +256,26 @@ select T, N, sum(pQ) over (order by N rows between unbounded preceding and curre
 
 接下来就可以用来标记序号或者直接取出了。
 
-标记序号：
+可以在每 Q 组内按照 N 字段取最大或最小值。
+
+简例：直接取得每个分区的最小值：
+
+~~~ sql
+select T, min(N) as N, Q from t group by T, Q order by N ;
+~~~
+
+| T | N | Q | 
+| --- | --- | --- |
+| "A" | 101 | 1 |
+| "B" | 102 | 2 |
+| "A" | 104 | 3 |
+| "B" | 106 | 4 |
+| "A" | 110 | 5 |
+| "B" | 112 | 6 |
+| "A" | 120 | 7 |
+| "B" | 122 | 8 |
+
+通用性例：标记序号：
 
 ~~~ sql
 select T, N, row_number() over (partition by T, Q order by N) as R from t ;
@@ -272,23 +295,6 @@ select T, N, row_number() over (partition by T, Q order by N) as R from t ;
 | "A" | 120 | 1 |
 | "A" | 121 | 2 |
 | "B" | 122 | 1 |
-
-直接取得每个分区的最小值：
-
-~~~ sql
-select T, min(N) as N, Q from t group by T, Q order by N ;
-~~~
-
-| T | N | Q | 
-| --- | --- | --- |
-| "A" | 101 | 1 |
-| "B" | 102 | 2 |
-| "A" | 104 | 3 |
-| "B" | 106 | 4 |
-| "A" | 110 | 5 |
-| "B" | 112 | 6 |
-| "A" | 120 | 7 |
-| "B" | 122 | 8 |
 
 问题解决。
 
