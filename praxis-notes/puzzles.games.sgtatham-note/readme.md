@@ -1,5 +1,7 @@
 [site]: https://www.chiark.greenend.org.uk/~sgtatham/puzzles/ "Simon Tatham's Portable Puzzle Collection"
 [app.web]: https://chiark.greenend.org.uk/~sgtatham/puzzles/ "Simon Tatham's Portable Puzzle Collection"
+[app.msi/site]: https://www.chiark.greenend.org.uk/~sgtatham/puzzles/puzzles-installer.msi
+
 [src.git/tartarus.org]: https://git.tartarus.org/?p=simon/puzzles.git "(git.tartarus.org/simon/puzzles.git) git.tartarus.org Git - simon/puzzles.git/summary"
 
 [port.apk:src.git/gh]: https://github.com/chrisboyle/sgtpuzzles.git "() (Languages: C 80.9%, HTML 9.2%, Kotlin 4.8%, JavaScript 1.2%, Objective-C 0.9%, Perl 0.9%, Other 2.1%) Android port of Simon Tatham's Puzzles"
