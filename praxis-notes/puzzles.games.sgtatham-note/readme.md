@@ -1,4 +1,6 @@
 [site]: https://www.chiark.greenend.org.uk/~sgtatham/puzzles/ "Simon Tatham's Portable Puzzle Collection"
+[doc]: https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/ "Simon Tatham's Portable Puzzle Collection"
+
 [app.web]: https://chiark.greenend.org.uk/~sgtatham/puzzles/ "Simon Tatham's Portable Puzzle Collection"
 [app.msi/site]: https://www.chiark.greenend.org.uk/~sgtatham/puzzles/puzzles-installer.msi
 
