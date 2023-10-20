@@ -3,6 +3,8 @@
 [app.oci/dockerhub]: https://hub.docker.com/r/svenstaro/miniserve ": pull svenstaro/miniserve : docker run -v /tmp:/tmp -p 8080:8080 --rm -it docker.io/svenstaro/miniserve /tmp"
 [app.cargo/crates.io]: https://crates.io/crates/miniserve ": cargo add miniserve"
 
+[repology]: https://repology.org/project/miniserve
+
 [app.linux:arch:amd64]: https://archlinux.org/packages/extra/x86_64/miniserve "(1.7 MB :: 4.9 MB) : pacman -S miniserve"
 [app.linux:arch:aarch64]: https://archlinuxarm.org/packages/aarch64/miniserve "(-- :: 4.0MiB) : pacman -S miniserve"
 
