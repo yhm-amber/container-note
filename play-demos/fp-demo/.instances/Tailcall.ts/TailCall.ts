@@ -1,4 +1,4 @@
-//// classic type ////
+/*/// Classic Type ///*/
 
 class TailCall
 <T> 
