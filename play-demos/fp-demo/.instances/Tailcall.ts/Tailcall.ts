@@ -1,4 +1,4 @@
-/*//// CPS type ////*/
+/*//// CPS Type ////*/
 
 type Tailcall <T> = { head: T, tail: () => Tailcall<T>, done: boolean } ;
 
