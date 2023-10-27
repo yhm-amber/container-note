@@ -145,6 +145,16 @@ magnet:?xt=urn:btih:5ea0c922585e7b344690e160b07dfed5b04247eb&dn=%5B%E4%B8%89%E6%
 
 Series and Movies .
 
+### 風の谷のナウシカ Nausicaä of the Valley of the Wind
+
+#### [`Kaze no tani no Naushika (1984) BDRip 1080p H.265 [7xRUS_2xUKR_JPN] [RIPS-CLUB].mkv Torrent download`](https://bt4gprx.com/magnet/zkLV1nVXX6DPzyhwanx39Nw4jB7CQgz8)
+
+[`12.20GB`](https://downloadtorrentfile.com/hash/3f3f501669259d720a81625ca2fabd96f8354969?name=Kaze%20no%20tani%20no%20Naushika%20%281984%29%20BDRip%201080p%20H.265%20%5B7xRUS_2xUKR_JPN%5D%20%5BRIPS-CLUB%5D.mkv)
+
+~~~ magnet
+magnet:?xt=urn:btih:3f3f501669259d720a81625ca2fabd96f8354969&dn=Kaze%20no%20tani%20no%20Naushika%20(1984)%20BDRip%201080p%20H.265%20%5B7xRUS_2xUKR_JPN%5D%20%5BRIPS-CLUB%5D.mkv&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=https%3A%2F%2Ftracker.renfei.net%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.renfei.net%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
+~~~
+
 ### 天國大魔境 Tengoku Daimakyou
 
 #### [`Tengoku Daimakyou - AniLibria.TV [WEBRip 1080p] Torrent download`](https://bt4gprx.com/magnet/fD85HZe5825ei8DDeyE1y9BUgeRjBFset)
