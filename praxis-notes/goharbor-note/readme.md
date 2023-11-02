@@ -67,7 +67,7 @@ expose.tls.enabled=false
 
 对此：
 
-- 技术交流群里一个朋友帮我找到了[一个 nodeport 模式的示例](https://kubesphere.com.cn/docs/application-store/built-in-apps/harbor-app/#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)。
+- 技术交流群里一个朋友帮我找到了[一个 nodeport 模式的示例](https://kubesphere.io/zh/docs/application-store/built-in-apps/harbor-app/#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98) 。
 - 同样的解决思路在[这里](https://github.com/goharbor/harbor-helm/issues/75#issuecomment-940080379)也被暗示过。
 
 根据示例，我找到对应配置在 `values.yaml` 中的位置，我发现在 `expose.tls.auto.commonName` 附近有这样的注释：
