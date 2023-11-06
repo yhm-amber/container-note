@@ -52,7 +52,6 @@ but can't play some more like:
 ~~~ rust
 let add = curry! (|a: u8, b: u8| -> u8 { a + b }) ;
 assert_eq! (curry! (|f, a, b| f(a)(b)) (add) (3) (4), 7); /// error: cannot infer type
-}
 ~~~
 
 see: 
