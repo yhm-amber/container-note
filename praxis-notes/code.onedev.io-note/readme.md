@@ -178,7 +178,9 @@ hibernate_connection_password=onedev
 
 这些变量仅在服务实例初始化阶段有效。
 
-### Kubernetes
+### [Kubernetes][kubernetes/docs]
+
+[kubernetes/docs]: https://docs.onedev.io/installation-guide/deploy-into-k8shttps://docs.onedev.io/installation-guide/deploy-into-k8s
 
 #### Helm
 
