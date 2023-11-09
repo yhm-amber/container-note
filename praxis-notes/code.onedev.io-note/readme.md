@@ -28,7 +28,9 @@
 [docs.in.repo]: https://code.onedev.io/onedev/manual/~files/main/pages/installation-guide.md "installation-guide.md at main - onedev/manual"
 [docs.in]: https://docs.onedev.io/category/installation-guide "Installation Guide | OneDev Documentation"
 
-## 部署在操作系统
+## [部署在操作系统][deploies:bare/docs]
+
+[deploies:bare/docs]: https://docs.onedev.io/installation-guide/run-on-bare-metal
 
 [app.release]: https://code.onedev.io/onedev/server/~builds?query=%22Job%22+is+%22Release%22
 [app.release.gh]: https://github.com/theonedev/onedev/releases
@@ -55,7 +57,9 @@ Containerized Deploy.
 [docs.k8s.repo]: https://code.onedev.io/onedev/manual/~files/main/pages/deploy-into-k8s.md "deploy-into-k8s.md at main - onedev/manual"
 [docs.k8s]: https://code.onedev.io/onedev/manual/~files/main/pages/deploy-into-k8s.md "Deploy into Kubernetes Cluster | OneDev Documentation"
 
-### Docker
+### [Docker][deploies:docker/docs]
+
+[deploies:docker/docs]: https://docs.onedev.io/installation-guide/run-as-docker-container
 
 #### docker
 
@@ -178,9 +182,9 @@ hibernate_connection_password=onedev
 
 这些变量仅在服务实例初始化阶段有效。
 
-### [Kubernetes][kubernetes/docs]
+### [Kubernetes][deploies:kubernetes/docs]
 
-[kubernetes/docs]: https://docs.onedev.io/installation-guide/deploy-into-k8shttps://docs.onedev.io/installation-guide/deploy-into-k8s
+[deploies:kubernetes/docs]: https://docs.onedev.io/installation-guide/deploy-into-k8shttps://docs.onedev.io/installation-guide/deploy-into-k8s
 
 #### Helm
 
