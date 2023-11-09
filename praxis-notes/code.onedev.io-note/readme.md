@@ -190,6 +190,13 @@ helm install --namespace onedev --create-namespace \
   -- onedev onedev
 ~~~
 
+or `add repo` for a many times use: 
+
+~~~ sh
+helm repo add -- onedev https://dl.cloudsmith.io/public/onedev/onedev/helm/charts &&
+helm repo update -- onedev ;
+~~~
+
 配置值见 [`values.yaml`][helm/values.yaml] 。
 
 
