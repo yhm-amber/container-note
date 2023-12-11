@@ -1,0 +1,2 @@
+[package/cran]: https://cran.r-project.org/web/packages/curry/ "(Version: 0.1.1) (Published: 2016-09-28) (Author: Thomas Lin Pedersen) (Maintainer: Thomas Lin Pedersen <thomasp85 at gmail.com>) (License: GPL-2 | GPL-3 [expanded from: GPL (≥ 2)]) curry: Partial Function Application with %<%, %-<%, and %><%"
+[src/gh]: https://github.com/thomasp85/curry.git "(R 100%) Partial Function Application with %<%, %-<%, and %><%"
