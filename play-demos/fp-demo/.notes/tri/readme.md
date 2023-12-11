@@ -17,6 +17,9 @@
 [🍈]: https://www.tryclojure.com
 [Clojure]: https://clojure.org
 
+[🐝]: https://webr.r-wasm.org/latest/
+[R]: https://cran.r-project.org/web/packages/
+
 # Tail recursion, Reduce, and (lazy) Iterator
 
 尾递归、聚合、与惰性迭代器
