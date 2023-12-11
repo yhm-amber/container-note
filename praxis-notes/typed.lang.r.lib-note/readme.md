@@ -1,0 +1,2 @@
+[package/cran]: https://cran.r-project.org/web/packages/typed/ "(Version: 0.0.1) (Imports: waldo) (Suggests: testthat, covr) (Published: 2021-03-19) (Author: Antoine Fabri [aut, cre]) (Maintainer: Antoine Fabri <antoine.fabri at gmail.com>) (License: GPL-3) typed: Support Types for Variables, Arguments, and Return Values"
+[src/gh]: https://github.com/moodymudskipper/typed.git "(R 100%) Support Types for Variables, Arguments, and Return Values // 对变量、自变量和返回值的类型标识的支持"
