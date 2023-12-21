@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/randy3k/radian.git "(MIT) (Languages: Python 95.8%, R 3.8%, Other 0.4%) A 21 century R console /// radian is an alternative console for the R program with multiline editing and rich syntax highlight. One would consider radian as a ipython clone for R, though its design is more aligned to julia. // radian 是 R 程序的替代控制台，具有多行编辑和丰富的语法突出显示。人们会认为 radian 是 R 的 ipython 克隆，尽管它的设计更符合 julia 。"
+[pip/pypi]: https://pypi.org/project/radian/ ": pip3 install -U radian"
