@@ -6,3 +6,5 @@
 [vignettes:nozzle/packages/cran]: https://cran.r-project.org/web/packages/rmonad/vignettes/nozzle.html "Vignettes: 'rmonad' with 'Nozzle.R1'"
 
 [src/gh]: https://github.com/arendsee/rmonad.git "(Languages: R 97.9%, TeX 2.0%, Makefile 0.1%) Pipelines you can compute on // 能让你可以在上面计算的管道"
+
+[help/refmans]: https://search.r-project.org/CRAN/refmans/rmonad/html/rmonad.html "rmonad: handling pipes, errors, and everything with monads | R Documentation"
