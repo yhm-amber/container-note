@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/WinMerge/winmerge.git "(GPL-2.0) (Languages: C++ 64.0%, Inno Setup 17.7%, C 14.7%, Batchfile 0.9%, VBScript 0.9%, Python 0.5%, Other 1.3%) WinMerge is an Open Source differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle. // WinMerge 是一个适用于 Windows 的开源差异和合并工具。 WinMerge 可以比较文件夹和文件，以易于理解和处理的可视文本格式呈现差异。"
+[site]: https://winmerge.org/
