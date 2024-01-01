@@ -109,6 +109,39 @@ ref: [The introduction 🎏][introduction/docs]
 >   
 > 
 
+## Use Cases | 使用场景
 
+> Nelson is designed to handle a specific set of use-cases; comprehending these use-cases will allow you to understand if Nelson is a good fit for the challenges you are looking to solve.
+> 
+> Nelson 旨在处理一组特定的使用场景；理解它们将使您了解 Nelson 是否适合您想要解决的挑战。
+> 
+
+### Deployment | 部署
+
+> At its core, Nelson is a system that deploys containers to schedulers like Kubernetes and Nomad. This alone however does not make Nelson unique: those tools provide a means to deploy containers in a myriad of different ways, and therein lies the source of a great deal of friction. Scheduler interfaces expose a discrete set of trade-offs to the user, and more often than not they make hard things easier, but easy things hard. This is typically not what most organizations are looking for: easy things should be easy. Nelson provides users a simple interface to deploy the What, Where and How of their deployment.
+> 
+> Nelson 的核心是一个将容器部署到 Kubernetes 和 Nomad 等调度程序的系统。然而，仅此一点并不使 Nelson 独一无二：这些工具提供了一种以多种不同方式部署容器的方法，而这正是大量摩擦的根源。调度程序接口向用户公开了一组离散的权衡，并且它们常常使困难的事情变得更容易，但让简单的事情变得困难。这通常不是大多数组织所寻求的：简单的事情应该很简单。 Nelson 为用户提供了一个简单的界面来部署其部署的内容、地点和方式。
+> 
+
+### Dependency Graph | 依赖关系图
+
+> Topographical security auditing: can answer questions like “show me all the systems available at the edge”, or “show me all systems that use system X”. Every action conducted against Nelson is also stored in an audit trail, so you always know what user did what action, even if that user is Nelson itself (for example, why did Nelson destroy system X).
+> 
+> 拓扑安全审计：可以回答诸如“向我显示边缘可用的所有系统”或“向我显示使用系统 X 的所有系统”等问题。针对 Nelson 进行的每项操作也都存储在审计跟踪中，因此您始终知道哪个用户做了什么操作，即使该用户是 Nelson 本身（例如，为什么 Nelson 摧毁了系统 X）。
+> 
+
+### Policy Management | 政策管理
+
+> Automatic policy management with Vault. When you launch something onto a cluster, there is nearly always the problem of policy management and a process flow (often manual) that involves security to sign off and approval for systems accessing certain credentials. Nelson automates this workflow by generating and deploying policies on a per-stack basis. This makes it easy to reason about orphan policies (they don’t exist because Nelson cleans them up).
+> 
+> 使用 Vault 进行自动策略管理。当您在集群上启动某些内容时，几乎总是存在策略管理和流程（通常是手动）的问题，其中涉及安全性签署和批准系统访问某些凭据。 Nelson 通过在每个堆栈上生成和部署策略来自动化此工作流程。这使得孤儿政策的推理变得很容易（它们不存在，因为 Nelson 清理了它们）。
+> 
+
+### Unopinionated CI | 不限定 CI
+
+> Nelson does not put any constraints on the CI system you choose to use. Jenkins, Travis, etc… use whatever you want! This is a crucial design choice as it means that Nelson is not trying to own other parts of your system, making it easier to integrate into multi-team, multi-CI workflows.
+> 
+> Nelson 不会对您选择使用的 CI 系统施加任何限制。 Jenkins、Travis 等......使用任何你想要的！这是一个至关重要的设计选择，因为它意味着 Nelson 不会尝试拥有系统的其他部分，从而更容易集成到多团队、多 CI 工作流程中。
+> 
 
 
