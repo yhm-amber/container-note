@@ -8,5 +8,5 @@ finfs ()
 		xargs -i -P0 -- sh -c 'echo ":::::::: {} ::: $(cat -n -- {} | fgrep '"'$1'"' -- -)"' | 
 		fgrep "$1" | 
 		sed s'/ ::: / ::: \n/' &&
-  
-  : )
+	
+	: )
