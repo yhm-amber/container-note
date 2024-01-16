@@ -171,14 +171,18 @@ from
 （暂略）
 
 
-## 重复条目
+## 排序后有字段连续重复的条目之分组
 
 ### 描述
 
-数据：有一个类型字段一个数值字段。  
-需求：按照数值字段排序后，每一序列类型字段相同的条目只取其第一条。
+数据：有一个类型字段 T 一个数值字段 N 。  
+目的：实现连续项去重，即每组中只取一条即可。  
 
-思路：让每一预计只取一条的部分都能够有依据各自成为分区，然后就可以在每个分区中操作。
+思路：让每一预计只取一条的部分都能够有依据各自成为分区，然后就可以在每个分区中操作。  
+需求：按照数值字段排序后，将类型字段中**连续**相同的条目归纳为一组。  
+
+方案：很简单。先依据 N 排序，然后加一个字段：当 T 本条和上一条一样时设为 0 否则为 1 ，然后再用类似 scan 的逻辑得到该字段的聚合字段。那么，它就是分组依据了。  
+关键： SQL 里的 scan 没有在 FP HOF 里那么优雅： `sum(laged_res) over (order by N rows between unbounded preceding and current row)` 。其中的 `rows between unbounded preceding and current row` 似乎是默认的所以可以不写，它用于指定开窗范围。
 
 ### 流程
 
@@ -282,7 +286,9 @@ select T, min(N) as N, Q from t group by T, Q order by N ;
 | "A" | 120 | 7 |
 | "B" | 122 | 8 |
 
-通用性例：标记序号：
+问题解决。
+
+通用例：标记序号：
 
 ~~~ sql
 select T, N, row_number() over (partition by T, Q order by N) as R from t ;
@@ -303,6 +309,6 @@ select T, N, row_number() over (partition by T, Q order by N) as R from t ;
 | "A" | 121 | 2 |
 | "B" | 122 | 1 |
 
-问题解决。
+*这（只是比较明显一些地）意味着你可以比较随意地在去重中拿到你想要的那个而已。 :P*
 
 
