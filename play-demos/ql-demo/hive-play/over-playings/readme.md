@@ -175,14 +175,12 @@ from
 
 ### 描述
 
-数据：有一个类型字段 T 一个数值字段 N 。  
-目的：实现连续项去重，即每组中只取一条即可。  
-
-思路：让每一预计只取一条的部分都能够有依据各自成为分区，然后就可以在每个分区中操作。  
-需求：按照数值字段排序后，将类型字段中**连续**相同的条目归纳为一组。  
-
-方案：很简单。先依据 N 排序，然后加一个字段：当 T 本条和上一条一样时设为 0 否则为 1 ，然后再用类似 scan 的逻辑得到该字段的聚合字段。那么，它就是分组依据了。  
-关键： SQL 里的 scan 没有在 FP HOF 里那么优雅： `sum(laged_res) over (order by N rows between unbounded preceding and current row)` 。其中的 `rows between unbounded preceding and current row` 似乎是默认的所以可以不写，它用于指定开窗范围。
+- 数据：有一个类型字段 T 一个数值字段 N 。
+- 目的：实现连续项去重，即每组中只取一条即可。
+- 思路：让每一预计只取一条的部分都能够有依据各自成为分区，然后就可以在每个分区中操作。
+- 需求：按照数值字段排序后，将类型字段中**连续**相同的条目归纳为一组。
+- 方案：很简单。先依据 N 排序，然后加一个字段：当 T 本条和上一条一样时设为 0 否则为 1 ，然后再用类似 `scan` 的逻辑得到该字段的聚合字段。那么，它就是分组依据了。
+- 关键： SQL 里的 `scan` 没有在 FP HOF 里那么优雅： `sum(laged_res) over (order by N rows between unbounded preceding and current row)` 。其中的 `rows between unbounded preceding and current row` 似乎是默认的所以可以不写，它用于指定开窗范围。
 
 ### 流程
 
