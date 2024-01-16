@@ -269,7 +269,7 @@ select T, N, sum(pQ) over (order by N rows between unbounded preceding and curre
 
 可以在每 Q 组内按照 N 字段取最大或最小值。
 
-简例：直接取得每个分区的最小值：
+例：直接取得每个分区的最小值 ——
 
 ~~~ sql
 select T, min(N) as N, Q from t group by T, Q order by N ;
@@ -288,7 +288,7 @@ select T, min(N) as N, Q from t group by T, Q order by N ;
 
 问题解决。
 
-通用例：标记序号：
+通用例：标记序号 ——
 
 ~~~ sql
 select T, N, row_number() over (partition by T, Q order by N) as R from t ;
