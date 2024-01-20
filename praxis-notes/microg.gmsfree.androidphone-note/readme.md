@@ -5,4 +5,4 @@
 [UnifiedNlp.apk/f-droid]: https://f-droid.org//packages/org.microg.nlp/ "(Apache-2.0) 位置提供商中间件 (UnifiedNlp)"
 
 [site]: https://microg.org/ "A free-as-in-freedom re-implementation of Google’s proprietary Android user space apps and libraries. // 完全自由地重新实现 Google 专有的 Android 用户空间应用程序和库。"
-[apks/site]: https://microg.org/download.html "(com.google.android.gms, com.android.vending, com.google.android.gsf)"
+[apks/site]: https://microg.org/download.html "(com.google.android.gms: microG Services, com.android.vending: microG Companion, com.google.android.gsf: Services Framework Proxy)"
