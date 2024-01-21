@@ -1,3 +1,4 @@
+[site]: https://userland.tech/ "UserLAnd: Use Linux Anywhere /// The easiest way to run a Linux distribution or application on an Android device. With UserLAnd the power to do or create whatever you want will never be out of reach. // UserLAnd: 随处使用 Linux /// 在 Android 设备上运行 Linux 发行版或应用程序的最简单方法。 有了 UserLAnd ，您就可以做或创造任何您想做的事情，这将永远不会遥不可及。"
 [wiki/gh]: https://github.com/CypherpunkArmory/UserLAnd/wiki
 [src/gh]: https://github.com/CypherpunkArmory/UserLAnd.git "(GPL-3.0, Apache-2.0, CC-BY-SA-4.0) (Languages: Kotlin 52.0%, Java 47.1%, Other 0.9%) Main UserLAnd Repository /// UserLAnd was created and is being actively maintained by the folks behind the popular Android application, GNURoot Debian. It is meant as a replacement for the original GNURoot Debian app. // UserLAnd 是由流行的 Android 应用 GNURoot Debian 背后的人员创建并积极维护的。它旨在取代原来的 GNURoot Debian 应用。"
 [apk/f-droid]: https://f-droid.org/zh_Hans/packages/tech.ula/ "(MIT) (15 MiB) 在 Android 上运行 GNU/Linux 发行版的最简单方法 —— 不需要 root 。"
