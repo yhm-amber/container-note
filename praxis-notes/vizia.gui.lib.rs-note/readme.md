@@ -3,3 +3,5 @@
 [demo]: https://demo.vizia.dev/
 [book]: https://book.vizia.dev/
 [docs]: https://docs.vizia.dev/
+
+[discord]: https://discord.gg/aNkTPsRm2w
