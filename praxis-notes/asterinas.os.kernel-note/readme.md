@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/asterinas/asterinas.git "(MPL-2.0) (Languages: Rust 95.9%, C 2.2%, Assembly 1.2%, Other 0.7%) Asterinas is a safe, fast, and general-purpose OS kernel, written in Rust and providing Linux-compatible ABI. // Asterinas 是一个安全、快速、通用的操作系统内核，用 Rust 编写并提供与 Linux 兼容的 ABI 。"
+[book]: https://asterinas.github.io/book/ "Welcome to the documentation for Asterinas, an open-source project and community focused on developing cutting-edge Rust OS kernels."
