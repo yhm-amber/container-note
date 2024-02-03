@@ -5,4 +5,4 @@
 [faq/wiki/gh]: https://github.com/kylecorry31/Trail-Sense/wiki/Frequently-Asked-Questions-(FAQ)
 
 [auther:mail]: mailto:trailsense@protonmail.com "Note: Trail Sense is built and supported by a single developer. I only have a single phone to work with, so my troubleshooting may be limited if I can't reproduce issues on my phone. // 注意: Trail Sense 由单个开发人员构建和支持。我只有一部手机可以使用，所以我的故障排除可能由于我无法在手机上重现问题而受到限制。"
-[auther:blog/site]
+[auther:blog/site]: https://kylecorry.com
