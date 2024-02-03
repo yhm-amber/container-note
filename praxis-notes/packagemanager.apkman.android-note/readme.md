@@ -1,0 +1,3 @@
+[apk/f-droid]: https://f-droid.org/en/packages/com.smartpack.packagemanager/ "(2.7 MiB) (GPL-3.0) A powerful application to manage your apps!  /// Package Manager is a highly powerful application to manage apps, both system and user, installed on an android device. // 一个强大的应用程序来管理您的应用程序！ /// 包管理器 是一个功能强大的应用程序，用于管理安装在 Android 设备上的系统和用户应用程序。"
+[site/ghio]: https://smartpack.github.io/PackageManager/
+[src/gh]: https://github.com/SmartPack/PackageManager.git "(GPL-3.0) (Java 99.9%, AIDL 0.1%) Source code of Package Manager, an Application to Manage your Apps. // 包管理器的源代码，一个用于管理您的应用程序的应用程序。 /// 可以批量地：导出、卸载、安装。"
