@@ -1,0 +1,3 @@
+[apk/f-droid]: https://f-droid.org/app/com.beemdevelopment.aegis "(5.5 MiB) (GPL-3.0) Free, secure and open source 2FA app to manage tokens for your online services // 自由、安全和开源的双重认证（2FA）应用，用于管理您的在线服务令牌"
+[src/gh]: https://github.com/beemdevelopment/Aegis.git "(GPL-3.0) (Languages: Java 96.1%, HTML 2.0%, Roff 1.9%) A free, secure and open source app for Android to manage your 2-step verification tokens. // 一款自由、安全且开源的 Android 应用程序，用于管理您的两步验证令牌。"
+[site]: https://getaegis.app "Aegis Authenticator: Aegis Authenticator is a free, secure and open source app for Android to manage your 2-step verification tokens for your online services. // 神盾认证器: Aegis Authenticator 是一款自由、安全且开源的应用程序 Android 管理您在线服务的两步验证令牌。"
