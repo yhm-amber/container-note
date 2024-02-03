@@ -3,4 +3,6 @@
 [site]: https://kylecorry.com/Trail-Sense/ "TRAIL SENSE: Explore beyond the reaches of the Internet. // 轨迹感应: 探索互联网之外的领域。 /// Designed for hiking, backpacking, camping, and geocaching. - Nearby: View nearby beacons and paths on your compass. - Backtrack: Trace back your steps. - Weather: Get hyperlocal weather forecasts and alerts. - Astronomy: View the positions of the sun and moon. - Photo Maps: Use a photo as a map. - Tools: Flashlight, clinometer, ruler, clock, level, packing lists and more. /// 专为徒步旅行、背包旅行、露营和寻宝而设计。 - 附近: 在指南针上查看附近的信标和路径。 - 回溯: 追溯你的脚步。 - 天气: 获取超本地天气预报和警报。 - 天文学: 查看太阳和月亮的位置。 - 照片地图: 使用照片作为地图。 - 工具: 手电筒、测角仪、尺子、时钟、水平仪、装箱单、以及更多。"
 [use-cases/wiki/gh]: https://github.com/kylecorry31/Trail-Sense/wiki/Use-Cases
 [faq/wiki/gh]: https://github.com/kylecorry31/Trail-Sense/wiki/Frequently-Asked-Questions-(FAQ)
-[mail]: mailto:trailsense@protonmail.com "Note: Trail Sense is built and supported by a single developer. I only have a single phone to work with, so my troubleshooting may be limited if I can't reproduce issues on my phone. // 注意: Trail Sense 由单个开发人员构建和支持。我只有一部手机可以使用，所以我的故障排除可能由于我无法在手机上重现问题而受到限制。"
+
+[auther:mail]: mailto:trailsense@protonmail.com "Note: Trail Sense is built and supported by a single developer. I only have a single phone to work with, so my troubleshooting may be limited if I can't reproduce issues on my phone. // 注意: Trail Sense 由单个开发人员构建和支持。我只有一部手机可以使用，所以我的故障排除可能由于我无法在手机上重现问题而受到限制。"
+[auther:blog/site]
