@@ -5,4 +5,7 @@
 [android.src/gh]: https://github.com/openhab/openhab-android.git "(EPL-2.0) (Languages: Kotlin 92.4%, Java 7.0%, Other 0.6%) openHAB client for Android"
 
 [addons/site]: https://openhab.org/addons/
+
 [android.apk/f-droid]: https://f-droid.org//packages/org.openhab.habdroid/ "(7.7 MiB) (EPL-2.0) Vendor and technology agnostic open source home automation // 开源家居自动化供应商与技术"
+[android.beta.apk/f-droid]: https://f-droid.org/zh_Hans/packages/org.openhab.habdroid.beta/ "(7.7 MiB) (EPL-2.0) Vendor and technology agnostic open source home automation // 开源家居自动化供应商与技术"
+
