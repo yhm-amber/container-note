@@ -1,0 +1,2 @@
+[apk/f-droid]: https://f-droid.org//packages/player.phonograph.plus/ "(5.6 MiB) (GPL-3.0 ONLY) A revived classic material designed local music player for Android // 本地 Material Design 音乐播放器"
+[src/gh]: https://github.com/chr56/Phonograph_Plus.git "(GPL-3.0) (Languages: Kotlin 95.2%, HTML 4.6%, Shell 0.2%) A fork of kabouzeid/Phonograph under maintenance and development // 正在维护和开发的 kabouzeid/留声机 的一个分支"
