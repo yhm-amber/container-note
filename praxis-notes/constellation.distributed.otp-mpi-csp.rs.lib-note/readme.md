@@ -1,3 +1,6 @@
+[org.site]: https://constellation.rs/
+[site]: https://constellation.rs/constellation
+
 [src/gh]: https://github.com/constellation-rs/constellation.git "(Apache-2.0) (Languages: Rust 99.6%, Dockerfile 0.4%) Distributed programming for Rust. // Rust 的分布式编程。 /// A project to make Rust the cutting edge of distributed computing. // 一个使 Rust 成为分布式计算前沿的项目。 (old: https://github.com/alecmocatta/constellation.git)"
 [docs.rs]: https://docs.rs/constellation-rs ": cargo install constellation-rs"
 [crates.io]: https://crates.io/crates/constellation-rs ": cargo add constellation-rs"
@@ -13,3 +16,5 @@
 [futures-rs.docs/docs.rs]: https://docs.rs/futures
 [futures-rs.site/ghio]: https://rust-lang.github.io/futures-rs/
 [futures-rs.pkg/crates.io]: https://crates.io/crates/futures ": cargo add futures"
+
+
