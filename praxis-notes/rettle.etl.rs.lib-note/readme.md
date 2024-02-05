@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/slaterb1/rettle.git '(Apache-2.0, MIT) (Languages: Rust 100.0%) Rust based ETL inspired by "keras" // 基于 Rust 的 ETL 灵感来自“keras” /// This library is a multithreaded ETL (Extract, Transfrom, Load), with inspiration drawn from Keras, to allow a "Brew Master" to define any order of operations for data transformations and outputs. // 该库是一个多线程 ETL （即：提取、传输、加载），灵感来自 Keras ，允许 “Brew Master” 定义数据转换和输出的任何操作顺序。'
+[crates.io]: https://crates.io/crates/rettle
