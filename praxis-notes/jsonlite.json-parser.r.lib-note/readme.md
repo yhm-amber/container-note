@@ -5,3 +5,5 @@
 
 [auth.site]: https://jeroen.r-universe.dev
 [src/gh]: https://github.com/jeroen/jsonlite.git "(YEAR: 2020: COPYRIGHT HOLDER: Jeroen Ooms, MIT) (Languages: C 48.8%, R 32.2%, TeX 18.2%, C++ 0.8%) A Robust, High Performance JSON Parser and Generator for R // 用于 R 的健壮、高性能 JSON 解析器和生成器"
+
+[knows.by]: https://stackoverflow.com/questions/2061897/parse-json-with-r/2062865#2062865
