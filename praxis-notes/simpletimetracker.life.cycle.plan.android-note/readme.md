@@ -1,0 +1,2 @@
+[apk/f-droid]: https://f-droid.org/en/packages/com.razeeman.util.simpletimetracker/ "(14 MiB) Track how much time you spend on different activities during the day. // 跟踪您一天中花在不同活动上的时间。"
+[src/gh]: https://github.com/Razeeman/Android-SimpleTimeTracker.git "(GPL-3.0) (Kotlin 100.0%) Simple app that tracks time. /// Simple app that helps track how much time you spend on all the useless activities in the world. // 简单的应用程序，可以帮助跟踪您在世界上所有没啥用的活动上花费了多少时间。 /// 简单说就是：指定一堆你日常可能会做的事，然后在你开始这件事的时候点一下相应按钮然后它就会给你计时。"
