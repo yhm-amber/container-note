@@ -1,0 +1,3 @@
+[apk/f-droid]: https://f-droid.org//packages/org.revengate.revengate/ "(79 MiB) A steampunk roguelike dungeon crawling game. // 一款蒸汽朋克 Roguelike 地牢爬行游戏。"
+[site]: http://revengate.org/ "Boiler Pressure: Maximum! // 锅炉压力：最大！ /// Revengate is a Rogue-like dungeon crawler set in a steampunk universe full of technology and magic. // 《复仇之门》是一款类似 Rogue 的地下城探索游戏，背景设定在充满科技和魔法的蒸汽朋克宇宙中。"
+[src/gl]: https://gitlab.com/ygingras/revengate.git "(GPL-3.0) (GDScript 67.7%, Python 30.2%, kvlang 1.2%, C# 0.6%, Scheme 0.3%) This is Revengate, a roguelike dungeon crawler for Android set in a Steampunk universe. // 这是《Revengate》，一款以蒸汽朋克宇宙为背景的 Android 类 Rogue 地下城探索游戏。"
