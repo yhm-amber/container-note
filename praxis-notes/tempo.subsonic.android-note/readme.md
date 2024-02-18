@@ -1,0 +1,2 @@
+[apk/f-droid]: https://f-droid.org//packages/com.cappielloantonio.notquitemy.tempo/ "(5.9 MiB) (GPL-3.0 ONLY) An open-source and lightweight music client for Subsonic // Subsonic 的开源轻量级音乐客户端"
+[src/gh]: https://github.com/CappielloAntonio/tempo.git "(GPL-3.0) (Languages: Java 89.6%, Kotlin 10.4%) An open source and lightweight music client for Subsonic, designed and built natively for Android. // Subsonic 的开源轻量级音乐客户端，专为 Android 设计和构建。"
