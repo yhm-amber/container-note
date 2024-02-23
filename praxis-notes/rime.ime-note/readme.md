@@ -25,6 +25,15 @@
 
 
 
+[scheme:luna.src/gh:git]: https://github.com/rime/rime-luna-pinyin.git "(LGPL-3.0) 【朙月拼音】輸入方案"
+
+[scheme:SivanLaai.rime-pure.src/gh:git]: https://github.com/SivanLaai/rime-pure.git "(MIT) (Languages: C 55.0%, C++ 25.1%, Lua 11.0%, Python 8.9%) 【rime 小狼毫\trime 同文】手机/PC一站式配置【简约皮肤\拼音搜狗词库\原创trime同文 四叶草 九宫格 拼音方案\四叶草拼音\四叶草地球拼音\小鹤双拼\极品五笔\QQ五笔\徐码\郑码】"
+
+[scheme:SivanLaai.rime-pure.site/blog.author]: https://blog.laais.cn/posts/projects/rime/info/ "README"
+[scheme:SivanLaai.rime-pure.author.blog]: https://blog.laais.cn/
+[scheme:SivanLaai.rime-pure.docs/blog.author]: https://blog.laais.cn/posts/projects/rime/installation/ "(目录： SD/trime/ ~/Rime/ 。重命名原目录后将解包后的编译结果替换到对应位置即可)"
+
+
 
 
 
