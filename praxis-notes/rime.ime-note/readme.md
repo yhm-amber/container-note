@@ -8,6 +8,13 @@
 [web-app:my_rime.src/gh]: https://github.com/LibreService/my_rime.git "(AGPL-3.0) (Languages: TypeScript 64.3%, Vue 30.3%, C++ 3.4%, JavaScript 0.6%, Dockerfile 0.6%, HTML 0.5%, Other 0.3%) Free and Open Source online Chinese IME powered by RIME. 自由开源在线中文输入法 拼音 双拼 粤语 注音 五笔 仓颉 速成"
 [web-app:my_rime.app/vercel]: https://my-rime.vercel.app/
 
+[lib:librime.src/gh]: https://github.com/rime/librime.git "(BSD-3-Clause) (Languages: C++ 79.7%, C 15.9%, CMake 2.2%, Batchfile 0.7%, JavaScript 0.5%, Shell 0.5%, Other 0.5%) Rime Input Method Engine, the core library // Rime 输入法引擎，核心库。 (Contributors: 佛振, 鄒旭, Weng Xuetian, Chongyu Zhu, Zhiwei Liu, BYVoid, 雪齋, 瑾昀, osfans, jakwings, Prcuvu, hchunhui, Qijia Liu, WhiredPlanck)"
+
+[conf:plum.src/gh]: https://github.com/rime/plum.git "(LGPL-3.0) (Languages: Shell 64.2%, Batchfile 31.6%, Makefile 4.2%) 東風破 /plum/: Rime configuration manager and input schema repository"
+
+[app.Linux:ibus-rime.src/gh]: https://github.com/rime/ibus-rime.git "(GPL-3.0) (Languages: C 82.6%, CMake 8.8%, Shell 6.5%, Makefile 2.1%) 【中州韻】Rime for Linux/IBus"
+
+
 
 
 
