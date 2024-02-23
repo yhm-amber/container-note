@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/ofajardo/pyreadr.git "(AGPL-3.0, LGPL-3.0, MIT) (Languages: C 87.2%, Python 8.9%, Cython 3.2%, Other 0.7%) Python package to read and write R RData and Rds files into/from pandas dataframes. No R or other external dependencies required. // 用于从 pandas 数据帧读取和写入 R RData 和 Rds 文件的 Python 包。不需要 R 或其他外部依赖项。"
+[pkg/pypi]: https://pypi.org/project/pyreadr/ "Reads/writes R RData and Rds files into/from pandas data frames. // 将 R RData 和 Rds 文件读取/写入 pandas 数据帧。 (: pip install pyreadr)"
