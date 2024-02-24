@@ -33,7 +33,8 @@
 [scheme:SivanLaai.rime-pure.author.blog]: https://blog.laais.cn/
 [scheme:SivanLaai.rime-pure.docs/blog.author]: https://blog.laais.cn/posts/projects/rime/installation/ "(目录： SD/trime/ ~/Rime/ 。重命名原目录后将解包后的编译结果替换到对应位置即可)"
 
-[scheme:Mintimate.oh-my-rimge.src/gh:git]: https://github.com/Mintimate/oh-my-rime.git "(GPL-3.0) (Languages: Lua 100.0%) The Simple Config Template Of Rime By Mintimate. QQ Chat-Group: 703260572"[scheme:Mintimate.oh-my-rimge.site/gh:git]: https://www.mintimate.cc/ "oh-my-rime 输入法 /// 快速初始化rime⚡，同时适配多个平台💻 /// 也可以叫它『薄荷输入法』，亦或者『Mint』。"
+[scheme:Mintimate.oh-my-rimge.src/gh:git]: https://github.com/Mintimate/oh-my-rime.git "(GPL-3.0) (Languages: Lua 100.0%) The Simple Config Template Of Rime By Mintimate. QQ Chat-Group: 703260572"
+[scheme:Mintimate.oh-my-rimge.site]: https://mintimate.cc/ "oh-my-rime 输入法 /// 快速初始化rime⚡，同时适配多个平台💻 /// 也可以叫它『薄荷输入法』，亦或者『Mint』。"
 
 
 
