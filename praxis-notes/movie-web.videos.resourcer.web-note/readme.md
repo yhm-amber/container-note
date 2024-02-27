@@ -18,5 +18,8 @@
 
 [movie-web.oci/ghcr]: https://ghcr.io/movie-web/movie-web:latest "(: pull -- ghcr.io/movie-web/movie-web:latest) (:: https://github.com/movie-web/movie-web/pkgs/container/movie-web)"
 
+[docs.src/gh]: https://github.com/movie-web/docs.git "(MIT) (Languages: TypeScript 72.1%, Vue 16.4%, JavaScript 11.5%) Find it at https://movie-web.github.io/docs"
+
+[providers.src/gh]: https://github.com/movie-web/providers.git "(MIT) (Languages: TypeScript 97.8%, JavaScript 2.0%, Other 0.2%) Package that contains all the providers of movie-web // 包含 movie-web 的所有提供商的包 /// package that holds all providers of movie-web. Feel free to use for your own projects. /// features: - scrape popular streaming websites - works in both browser and server-side // 包含所有电影网络提供商的包。 请随意用于您自己的项目。 // 特征： - 抓取流行的流媒体网站 - 在浏览器和服务器端都可以工作"
 
 
