@@ -4,3 +4,11 @@
 
 [appdemo/vercel]: https://movieweb-static.vercel.app/
 [appdemo/co.Namecheap]: https://movie-web.app/
+
+[simple-proxy.oci/ghcr]: https://ghcr.io/movie-web/simple-proxy:latest "(: pull -- ghcr.io/movie-web/simple-proxy:latest)"
+[backend.oci/ghcr]: https://ghcr.io/movie-web/backend:latest "(: pull -- ghcr.io/movie-web/backend:latest)"
+
+[simple-proxy.src/gh]: https://github.com/movie-web/simple-proxy.git "(MIT) (Languages: TypeScript 83.7%, JavaScript 13.0%, Dockerfile 3.3%) Simple proxy for a cloudflare worker"
+
+
+
