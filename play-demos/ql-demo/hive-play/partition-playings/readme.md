@@ -55,5 +55,8 @@ select * from part_test where h in (0,-2,-4)
 
 如果想要覆盖插入，改用 `INSERT OVERWRITE` 即可。
 
+相关资料： [hadoop - Hive : Insert overwrite multiple partitions | Stack Overflow]
+
+[hadoop - Hive : Insert overwrite multiple partitions | Stack Overflow]: https://stackoverflow.com/questions/18667553/hive-insert-overwrite-multiple-partitions
 
 
