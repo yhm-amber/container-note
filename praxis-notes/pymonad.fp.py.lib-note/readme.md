@@ -5,3 +5,4 @@
 [pkg/pypi]: https://pypi.org/project/PyMonad/ "(: pip install PyMonad) (: @pymonad.tools.curry (argslen)) Data structures and utilities for monadic style functional programming. // 用于一元风格函数式编程的数据结构和实用程序。"
 
 [intro:whats-a-monad/docs]: https://jasondelaat.github.io/pymonad_docs/explanations/whats-a-monad.html
+[intro:monads-in-python-with-pymonad/miguelfarrajota.blog]: https://www.miguelfarrajota.com/2021/06/monads-in-python-with-pymonad/
