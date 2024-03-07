@@ -14,3 +14,7 @@
 [vignettes:promises_01_motivation/articles/site]: https://rstudio.github.io/promises/articles/promises_01_motivation.html
 
 [src/gh]: https://github.com/rstudio/promises.git "(MIT, YEAR: 2016-2023 - COPYRIGHT HOLDER: (Posit Software) (PBC)) (Languages: R 97.9%, C++ 2.1%) A promise library for R"
+
+[usecase/sof]: https://stackoverflow.com/questions/57192690/get-value-from-r-fullfilled-promise/78060099#78060099
+
+[reference/site]: https://rstudio.github.io/promises/reference/
