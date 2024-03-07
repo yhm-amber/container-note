@@ -15,3 +15,13 @@
 [discord]: https://discord.gg/vlang
 [twitter]: https://twitter.com/v_language
 [youtube]: https://www.youtube.com/c/VLang/videos
+
+
+
+[community:vosca.site]: https://vosca.dev/ "Open Source Community Association of the V Programming Language /// Non-profit organization dedicated to the development and evolution of the V (aka Vlang) programming language // V 编程语言的开源社区协会 /// 致力于 V（又名 Vlang）编程语言的开发和演变的非营利组织"
+[community:vosca.play/site]: https://play.vosca.dev/ "(一个依赖于站点存放代码内容的可分享的 playground)"
+[community:vosca.docs/site]: https://docs.vosca.dev/
+[community:vosca.closures/docs]: https://docs.vosca.dev/concepts/functions/closures.html
+
+
+
