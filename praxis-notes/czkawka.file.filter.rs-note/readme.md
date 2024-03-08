@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/qarmin/czkawka.git "(all: MIT; krokiet: MIT, GPL-3.0 due Slint) (Languages: Rust 58.5%, Fluent 41.4%, Other 0.1%) Multi functional app to find duplicates, empty folders, similar images etc. // 多功能应用程序可查找重复项、空文件夹、相似图像等。"
