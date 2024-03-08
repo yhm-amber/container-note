@@ -1,0 +1,1 @@
+[winecx.Gcenx.src/gh]: https://github.com/Gcenx/winecx.git "(LGPL-2.1) (Languages: C 93.4%, Ruby 3.7%, POV-Ray SDL 0.8%, Perl 0.4%, Yacc 0.4%, Python 0.3%, Other 1.0%) Codeweavers modified wine version. This repository is just a mirror of https://media.codeweavers.com/pub/crossover/source/"
