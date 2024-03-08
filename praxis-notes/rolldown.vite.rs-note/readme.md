@@ -1,0 +1,4 @@
+[about/site]: https://rolldown.rs/about "Rolldown is a JavaScript bundler written in Rust intended to serve as the future bundler used in Vite. It provides Rollup-compatible APIs and plugin interface, but will be more similar to esbuild in scope. // Rolldown 是一个用 Rust 编写的 JavaScript 捆绑器，旨在作为 Vite 中使用的未来捆绑器。它提供与 Rollup 兼容的 API 和插件接口，但在范围上与 esbuild 更相似。"
+[site]: https://rolldown.rs/ "Rolldown /// Fast Rust-based bundler for JavaScript /// with Rollup-compatible API // 滚下来 /// 用于 JavaScript 的基于 Rust 的快速捆绑器 /// 具有兼容 Rollup 的 API "
+
+[src/gh]: https://github.com/rolldown-rs/rolldown.git "(MIT) (Languages: Rust 57.5%, JavaScript 35.0%, TypeScript 6.0%, Vue 0.9%, Just 0.3%, CSS 0.2%, HTML 0.1%) Fast Rust bundler for JavaScript with Rollup-compatible API. // 用于 JavaScript 的快速 Rust 捆绑器，具有兼容 Rollup 的 API。"
