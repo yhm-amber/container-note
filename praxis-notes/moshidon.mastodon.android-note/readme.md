@@ -1,0 +1,5 @@
+[apk/f-droid]: https://f-droid.org/packages/org.joinmastodon.android.moshinda/ "(4.2 MiB) (GPL-3.0 ONLY) 面向 Mastodon 的 Android 客户端，适配 Material You 并且提供更多功能 /// Moshidon 是官方 Mastodon Android 应用 (mastodon/mastodon-android.git) 的修改版本，添加了官方应用中缺少的重要功能，例如跨站时间线、不公开发帖和图像描述查看器。 // Mastodon for Android but it's Material You and has more features /// Moshidon is a modified version of the official Mastodon Android app adding important features that are missing in the official app, such as the federated timeline, unlisted posting and an image description viewer."
+[src/gh]: https://github.com/LucasGGamerM/moshidon.git "(GPL-3.0) (Languages: Java 99.9%, Other 0.1%) Better modification of the official Mastodon for Android app (forked from sk22/megalodon.git forked from mastodon/mastodon-android.git)"
+[site/ghio]: https://lucasggamerm.github.io/moshidon/ "Moshidon, the material you mastodon client! // Moshidon，您乳齿象客户的素材！"
+[matrix]: https://matrix.to/#/#moshidon:floss.social
+[mastodon]: https://floss.social/@moshidon "@moshidon@floss.social"
