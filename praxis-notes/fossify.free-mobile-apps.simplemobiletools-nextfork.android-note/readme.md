@@ -31,6 +31,8 @@
 [contacts.apk/f-droid]: https://f-droid.org/packages/org.fossify.contacts/ "(9 MiB) (GPL-3.0 ONLY) Manage your contacts privately and efficiently with vCard support // 通过 vCard 支持私密且高效地管理您的联系人"
 [contacts.src/gh]: https://github.com/FossifyOrg/Contacts.git "(GPL-3.0 ONLY) (Languages: Kotlin 99.7%, Ruby 0.3%) Easy and quick contact management with no ads, handles groups and favorites too. // 轻松快速的联系人管理，无广告，还可以处理群组和收藏夹。"
 
+[voicerecorder.apk/f-droid]: https://f-droid.org/packages/org.fossify.voicerecorder/ "(9 MiB) (GPL-3.0 ONLY) Record anything with this Open-source and Ad-free recorder // 使用这款开源且无广告的录音机录制任何内容"
+[voicerecorder.src/gh]: https://github.com/FossifyOrg/Voice-Recorder.git "(GPL-3.0) (Languages: Kotlin 99.2%, Ruby 0.8%) An easy way of recording any discussion or sounds without ads or internet access // 一种录制任何讨论或声音的简单方法，无需广告或互联网访问"
 
 
 
