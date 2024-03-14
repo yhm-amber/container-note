@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/breezy-weather/breezy-weather.git "(LGPL-3.0) (Languages: Kotlin 100.0%) A Material Design Weather Application (Forked from WangDaYeeeeee/GeometricWeather.git (LGPL-3.0) (Languages: Java 84.6%, Kotlin 15.4%) main branch is 1679 commits ahead of WangDaYeeeeee/GeometricWeather:master (fdroid: 7.3MB))"
+[apk/apt.izzysoft.de:fdroid]: https://apt.izzysoft.de/fdroid/index/apk/org.breezyweather/ "(11 M) (LGPL-3.0-only) A powerful, open-source Material Design weather app."
