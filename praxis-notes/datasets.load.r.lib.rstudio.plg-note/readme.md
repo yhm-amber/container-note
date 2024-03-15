@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/bquast/datasets.load.git "(GPL-3.0) (Languages: R 100.0%) Visual interface for loading datasets in RStudio from all installed (including unloaded) packages, also includes command line interfaces. // 用于从所有已安装（包括卸载）的软件包在 RStudio 中加载数据集的可视化界面，还包括命令行界面。"
