@@ -2,6 +2,11 @@
 [rs.src/gh]: https://github.com/lunatic-solutions/lunatic-rs "This library contains higher level Rust wrappers for low level Lunatic syscalls. :: This library allows you to build Rust applications that run on top of Lunatic. :: old url: https://github.com/lunatic-solutions/rust-lib "
 [ts.src/gh]: https://github.com/lunatic-solutions/as-lunatic "This library contains higher level AssemblyScript wrappers for low level Lunatic syscalls."
 
+[pub090/gh]: https://github.com/lunatic-solutions/lunatic-rs/releases/tag/v0.9.0 "This is one of the most anticipated lunatic releases and it's finally here! 🎉 /// It's the result of almost 2 years of research on how to fit Erlang/Elixir abstractions into the Rust type system. There is a lot of awesome stuff here, so let's get started. // 这是最令人期待的疯狂版本之一，它终于来了！ 🎉 /// 这是近 2 年关于如何将 Erlang/Elixir 抽象融入 Rust 类型系统的研究的结果。 这里有很多很棒的东西，所以让我们开始吧。"
+
+[comp/y-comb]: https://www.ycombinator.com/companies/lunatic
+
+
 [crates]: https://crates.io/crates/lunatic "cargo install -- lunatic-runtime"
 [rslib]: https://docs.rs/lunatic "use lunatic::... ;"
 [npm]: https://www.npmjs.com/package/as-lunatic "npm install --save-dev assemblyscript -- as-lunatic"
