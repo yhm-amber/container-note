@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/microsoft/garnet.git "(MIT) (Languages: C# 97.9%, C++ 1.5%, PowerShell 0.5%, JavaScript 0.1%, CMake 0.0%, CSS 0.0%) Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication features. Garnet can work with existing Redis clients. // Garnet 是 Microsoft Research 的远程缓存存储，提供强大的性能（吞吐量和延迟）、可伸缩性、存储、恢复、群集分片、密钥迁移和复制功能。Garnet 可以与现有的 Redis 客户端配合使用。"
+[site/ghio]: https://microsoft.github.io/garnet/ "Garnet /// A high-performance cache-store from Microsoft Research // 石榴石 /// 来自 Microsoft Research 的高性能缓存存储"
+[docs/site]: https://microsoft.github.io/garnet/docs
