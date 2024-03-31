@@ -5,6 +5,11 @@
 
 [site]: https://trackercontrol.org/ "TrackerControl allows you to monitor and control the widespread, ongoing, hidden data collection in mobile apps about user behaviour (tracking). // TrackerControl 允许您监视和控制移动应用程序中有关用户行为的广泛、持续、隐藏的数据收集（跟踪）。"
 
-[ios.ana.webapp/site]: https://ios.trackercontrol.org/ "This is an early version for testing. Use with care and only for educational purposes. Displayed information might be incorrect, incomplete or outdated. // 这是用于测试的早期版本。请谨慎使用，且仅用于教育目的。显示的信息可能不正确、不完整或过时。 /// Service status: Currently not accepting new apps for analysis. // 服务状态：目前不接受新应用程序进行分析。"
+[ios.ana.webapp/site]: https://ios.trackercontrol.org/ "This project was motivated by Exodus Privacy, which is a similar project for Android apps. Some of the underlying code as well as the design of this website is based on this project. // 该项目是由 Exodus Privacy 发起的，这是一个类似的 Android 应用项目。本网站的一些底层代码以及设计都是基于这个项目的。 /// This is an early version for testing. Use with care and only for educational purposes. Displayed information might be incorrect, incomplete or outdated. // 这是用于测试的早期版本。请谨慎使用，且仅用于教育目的。显示的信息可能不正确、不完整或过时。 /// Service status: Currently not accepting new apps for analysis. // 服务状态：目前不接受新应用程序进行分析。"
 [ios.ana.src/gh]: https://github.com/TrackerControl/tracker-control-ios.git "(AGPL-3.0) (Languages: JavaScript 33.3%, Pug 28.7%, Python 24.1%, CSS 7.0%, Shell 6.9%) TrackerControl iOS: analysis trackers in apps. // TrackerControl iOS：分析应用程序中的跟踪器。"
 [ios.auth]: https://kollnig.net/ "(The underlying analysis technique for iOS apps was developed in the PhD research of Konrad Kollnig at the Department of Computer Science of the University of Oxford. This research was published in a range of academic papers and is available at PlatformControl.org. This research was, in turn, based on previous work by the Oxford research group led by Sir Nigel Shadbolt and led to TrackerControl for Android. // iOS 应用程序的底层分析技术是由牛津大学计算机科学系 Konrad Kollnig 的博士研究开发的。这项研究发表在一系列学术论文中，可在 PlatformControl.org 上获取。这项研究又以 Nigel Shadbolt 爵士领导的牛津研究小组之前的工作为基础，并催生了 Android 版 TrackerControl。)"
+
+[mother:platformcontrol.site]: https://platformcontrol.org/ "The development of PlatformControl was led by Konrad Kollnig. // PlatformControl 的开发由 Konrad Kollnig 领导。"
+[mother:platformcontrol.paper]: https://arxiv.org/abs/2109.13722 "Are iPhones Really Better for Privacy? Comparative Study of iOS and Android Apps"
+[mother:platformcontrol]: https://github.com/TrackerControl/PlatformControl.git "Download and privacy analysis of iOS and Android apps at scale."
+
