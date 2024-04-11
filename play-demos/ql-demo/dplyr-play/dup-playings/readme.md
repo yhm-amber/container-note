@@ -48,6 +48,7 @@ Such as:
 
 ~~~ r
 base::data.frame (
+	
 	RIC = base::c (
 		'S1A.PA', 'ABC.PA', 'EFG.PA', 
 		'S1A.PA', 'ABC.PA', 'EFG.PA'), 
