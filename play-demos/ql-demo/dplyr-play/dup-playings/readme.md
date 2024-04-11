@@ -1,7 +1,7 @@
 
 ## Show Duped Rows
 
-<sup>*from: [stachoverflow](https://stackoverflow.com/questions/6986657/find-duplicated-rows-based-on-2-columns-in-data-frame-in-r/78303407#78303407)*</sup>
+<sup>*duplicate from: [stachoverflow](https://stackoverflow.com/questions/6986657/find-duplicated-rows-based-on-2-columns-in-data-frame-in-r/78303407#78303407)*</sup>
 
 The way of `df [df [, base::c ('key1', 'key2')] |> base::duplicated.data.frame () |> base::which ()]` could only show the surpluses part of the duplicates.
 
