@@ -1,5 +1,7 @@
 (re-lefted-revol)
 
+![head](9YCoOqQcFXuRAFapkkAoswRsAKZmAYF7OvkWfq7UiaDVdr4032mwravmO51y6CW8iaaQTqcrZnXmVRMjKU0xw9EQ-0.jpg)
+
 # 左翼从不哀悼死亡，而是在忧郁中拥抱希望 —— 关于今日的暴力与斗争
 
 - <sup>文 / Misaki Offiziell</sup>
