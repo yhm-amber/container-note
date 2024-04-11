@@ -1,3 +1,5 @@
+(left-of-revol)
+
 # 左翼从不哀悼死亡，而是在忧郁中拥抱希望 —— 关于今日的暴力与斗争
 
 - <sup>文 / Misaki Offiziell</sup>
