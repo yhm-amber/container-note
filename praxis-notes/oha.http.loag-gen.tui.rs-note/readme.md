@@ -4,3 +4,5 @@
 [pkg/arch]: https://archlinux.org/packages/extra/x86_64/oha/ "(: pacman -S -- oha)"
 [pkg/debian]: http://packages.azlux.fr/ "(: apt install -- oha)"
 [pkg/brew]: https://formulae.brew.sh/formula/oha "(: brew install -- oha)"
+
+[knowsby]: https://rustcc.cn/article?id=bcd9d73b-d8fb-439d-9299-a453542e7955 "【Rust日报】2024-04-10 aichat - Rust AI集成器"
