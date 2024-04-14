@@ -8,3 +8,5 @@
 [pkg/alpine]: https://pkgs.alpinelinux.org/packages?name=monolith "(: apk add -- monolith)"
 
 
+[knowsby]: https://rustcc.cn/article?id=bcd9d73b-d8fb-439d-9299-a453542e7955 "【Rust日报】2024-04-10 aichat - Rust AI集成器"
+
