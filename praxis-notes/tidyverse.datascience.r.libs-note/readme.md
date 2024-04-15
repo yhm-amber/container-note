@@ -41,6 +41,10 @@
 [intro:hadley/r4ds.book]: https://r4ds.hadley.nz/ "R for Data Science (E2: Jun 2023)"
 [intro:hadley/r4ds.src/gh]: https://github.com/hadley/r4ds.git "(CC-BY-NC-ND-3.0 us) (Languages: R 76.5%, SCSS 21.7%, HTML 1.8%) R for data science: a book"
 
+[intro:jennybc/purrr-tutorial.src/gh]: https://github.com/jennybc/purrr-tutorial.git "(CC-BY-NC-4.0) (Languages: HTML 93.1%, JavaScript 4.5%, CSS 1.9%, R 0.5%) Materials for getting to the know the R package purrr // 了解 R 包 purrr 的材料"
+[intro:jennybc/purrr-tutorial.site/ghio]: https://jennybc.github.io/purrr-tutorial/ "purrr tutorial: Lessons and Examples"
+
+
 
 
 
