@@ -31,6 +31,17 @@
 
 
 
+[intro:gadenbuie/tidyexplain.src/gh]: https://github.com/gadenbuie/tidyexplain.git "(CC0-1.0) (Languages: R 100.0%) 🤹‍♀ Animations of tidyverse verbs using R, the tidyverse, and gganimate // 🤹‍♀ 使用 R、tidyverse 和 gganimate 制作 tidyverse 动词动画"
+[intro:gadenbuie/tidyexplain.book]: https://www.garrickadenbuie.com/project/tidyexplain/ "Garrick Aden-Buie - 🤹 tidyexplain"
+
+[intro:enixam/rfordatascience.src/gh]: https://github.com/qiushiyan/rfordatascience.git "(Languages: R 56.0%, TeX 44.0%) 📔 Notes for \"R for Data Science\""
+[intro:enixam/rfordatascience.book/bookdown]: https://bookdown.org/Maxine/r4ds/ "R for data science: tidyverse and beyond"
+
+[intro:had.co.nz/r4ds.book]: https://r4ds.had.co.nz/ "R for Data Science (E1: Jan 2017)"
+[intro:hadley/r4ds.book]: https://r4ds.hadley.nz/ "R for Data Science (E2: Jun 2023)"
+[intro:hadley/r4ds.src/gh]: https://github.com/hadley/r4ds.git "(CC-BY-NC-ND-3.0 us) (Languages: R 76.5%, SCSS 21.7%, HTML 1.8%) R for data science: a book"
+
+
 
 
 
