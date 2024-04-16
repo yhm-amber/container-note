@@ -1,4 +1,3 @@
-(re-lefted-revol)
 
 ![head](9YCoOqQcFXuRAFapkkAoswRsAKZmAYF7OvkWfq7UiaDVdr4032mwravmO51y6CW8iaaQTqcrZnXmVRMjKU0xw9EQ-0.jpg)
 
