@@ -5,3 +5,4 @@
 [pkg.crates/cargo]: https://crates.io/crates/cozo
 
 [site]: https://cozodb.org/
+[playground/site]: https://cozodb.org/wasm-demo/
