@@ -1,0 +1,2 @@
+[The Great Rewriting In Rust]: https://deprogrammaticaipsum.com/the-great-rewriting-in-rust/ "The Great Rewriting In Rust – De Programmatica Ipsum"
+[Rewriting the CLI in Rust: Was It Worth It?]: https://blog.railway.app/p/rust-cli-rewrite "This is the story of how we did a CLI rewrite for the second time in as many years and brought a new CLI to production powered by Rust. Hope you brought your glasses, because we are going to be reading some code. Let’s get started. // 这是我们如何多年来第二次重写 CLI 并将由 Rust 支持的新 CLI 引入生产的故事。 希望您带上眼镜，因为我们将阅读一些代码。让我们开始吧。"
