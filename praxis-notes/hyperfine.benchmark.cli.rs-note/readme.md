@@ -3,4 +3,6 @@
 [pkg/crates]: https://crates.io/crates/hyperfine "(: cargo install -- hyperfine)"
 [repology]: https://repology.org/project/hyperfine/
 
+[sponsor:bencher]: https://bencher.dev/hyperfine/ "Track your hyperfine benchmarks"
+
 [zh-translate.src/gh]: https://github.com/chinanf-boy/hyperfine-zh.git "(课外知识：李永乐老师：一秒究竟有多长： av34102893 | cXX_f_pWLQI)"
