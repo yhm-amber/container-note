@@ -5,3 +5,5 @@
 [pkg/brew]: https://formulae.brew.sh/formula/gitu "(: brew install -- gitu)"
 
 [repology]: https://repology.org/project/gitu/versions
+
+[knowsby]: https://rustcc.cn/article?id=0cea525a-a198-424f-a5f8-037798d9e79b "【Rust日报】2024-04-26 SkipDB - 又一个内存数据库引擎"
