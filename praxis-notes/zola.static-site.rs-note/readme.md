@@ -6,13 +6,13 @@
 
 [site]: https://getzola.org
 [docs]: https://getzola.org/documentation
-[repo]: https://github.com/getzola/zola.git
-[ghcr]: https://github.com/getzola/zola/pkgs/container/zola
+[src/gh]: https://github.com/getzola/zola.git "(MIT) (Languages: Rust 97.4%, HTML 1.8%, Python 0.7%, Dockerfile 0.1%, SCSS 0.0%, CSS 0.0%) A fast static site generator in a single binary with everything built-in."
+[oci/ghcr]: https://github.com/getzola/zola/pkgs/container/zola "(: pull ghcr.io/getzola/zola:latest)"
 
 - [Zola][site]
 - [Documentation Overview | Zola][docs]
-- [getzola/zola | GitHub][repo]
-- [getzola/zola | ghcr.io][ghcr]
+- [getzola/zola | GitHub][src/gh]
+- [getzola/zola | ghcr.io][oci/ghcr]
 
 
 ~~~ sh
