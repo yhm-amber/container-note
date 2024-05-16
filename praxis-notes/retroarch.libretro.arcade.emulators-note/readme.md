@@ -6,3 +6,5 @@
 
 [app.apk/f-droid]: https://f-droid.org//packages/com.retroarch/ "(负面特征 此应用推广或完全依赖不可更改的或非自由的网络服务) (24 MiB) (GPL-3.0 ONLY) Retro games and emulators on your device! // 您设备上的复古游戏和模拟器！"
 [app.ipa/apple]: https://apps.apple.com//app/retroarch/id6499539433 "(519.4 MB)"
+
+[app/itch.io]: https://retroarchofficial.itch.io/retroarch
