@@ -9,6 +9,6 @@
 [pkg.bin/brew]: https://formulae.brew.sh/formula/rustscan "(: brew install -- rustscan)"
 [pkg.bin/macports]: https://ports.macports.org/port/rustscan/ "(: sudo port install -- rustscan)"
 [pkg.bin/parabola]: https://www.parabola.nu/packages/?q=rustscan "(: pacman -S -- rustscan)"
-[pkg.bin/termux]: https://github.com/termux/termux-packages/tree/c92e61ed4/packages/rustscan "(: pkg install -- rustscan)"
+[pkg.bin/termux]: https://github.com/termux/termux-packages/tree/c92e61ed4/packages/rustscan "(: pkg install -- rustscan) (6508 kB of archives, 32.2 MB of additional disk space.)"
 
 [repology]: https://repology.org/project/rustscan/
