@@ -15,5 +15,5 @@
 [app.linux:brew]: https://formulae.brew.sh/formula/miniserve ": brew install -- miniserve"
 
 [app.linux:parabola]: https://www.parabola.nu/packages/?q=miniserve ""
-[app.linux:termux.git/gh]: https://github.com/termux/termux-packages/tree/8cd4f4d92/packages/miniserve ": pkg install -- miniserve"
+[app.linux:termux.git/gh]: https://github.com/termux/termux-packages/tree/8cd4f4d92/packages/miniserve "(: pkg install -- miniserve) (1994 kB of archives, 6328 kB of additional disk.)"
 [app.win:winget]: https://winstall.app/apps/svenstaro.miniserve ": winget install svenstaro.miniserve"
