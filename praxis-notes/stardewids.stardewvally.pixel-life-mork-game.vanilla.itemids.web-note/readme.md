@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/MateusAquino/stardewids.git "(Languages: JavaScript 54.0%, CSS 19.6%, HTML 15.5%,Pug 10.9%) 🐥 Stardew Valley Vanilla IDs /// This is a tool developed to help you find the IDs of items in Stardew Valley updated for the 1.6 update. It programmatically compiles all unpacked assets to generate a standardized item list separated by item type. // Web 上的一个可以分类检索的资源代码查看器"
+[bbs/forums]: https://forums.stardewvalley.net/threads/spoiler-full-item-list-ids-1-6-update.28135/ "Hey guys o/ /// I've been working on a tool to help you find the IDs of every single item in Stardew Valley updated for the 1.6 update"
+[app.web/ghio]: https://mateusaquino.github.io/stardewids/
