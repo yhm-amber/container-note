@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/r-lib/sloop.git "(Languages: R 100.0%) S language OOP ⛵️"
+[package/cran]: https://cran.r-project.org/web/packages/sloop/ "(Version: 	1.0.1) (Depends: 	R (≥ 3.3)) (Imports: 	codetools, crayon, methods, purrr, rlang, tibble (≥ 2.0.1)) (Suggests: 	covr, testthat) (Published: 	2019-02-17) (Author: 	Hadley Wickham [aut, cre], RStudio [cph]) (Maintainer: 	Hadley Wickham <hadley at rstudio.com>) (License: 	GPL-3) (NeedsCompilation: 	no) sloop: Helpers for 'OOP' in R /// A collection of helper functions designed to help you to better understand object oriented programming in R, particularly using 'S3'. // 帆船： R 中 OOP 的辅助函数 /// 帮助函数集，旨在帮助您更好地理解 R 中的面向对象编程，尤其是使用 S3 。"
+[site]: https://sloop.r-lib.org/
