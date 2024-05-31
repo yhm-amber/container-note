@@ -36,3 +36,11 @@
 [missav list (with some 無修正リーク)](https://missav.com/dm383/ja/actresses/Karen%20Kaede)
 
 - [PPPE-223 巨乳の生徒が在籍した3年間、抵抗できない状態でいいなりオナホになるまで調教してやった 楪カレン](https://missav.com/ja/pppe-223-uncensored-leak)
+
+
+## Saotome Rui
+
+[missav list (with some 無修正リーク)](https://missav.com/dm62/ja/actresses/%E6%97%A9%E4%B9%99%E5%A5%B3%E3%83%AB%E3%82%A4)
+
+- [SHKD-399 若妻はアナル快楽に目覚めた… 早乙女ルイ](https://missav.com/dm39/ja/shkd-399-uncensored-leak)
+- [SVDVD-192 強●家畜露出 - 早乙女ルイ](https://missav.com/dm13/ja/svdvd-192-uncensored-leak)
