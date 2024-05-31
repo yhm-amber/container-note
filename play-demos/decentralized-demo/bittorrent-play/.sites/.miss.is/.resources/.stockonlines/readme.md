@@ -44,3 +44,5 @@
 
 - [SHKD-399 若妻はアナル快楽に目覚めた… 早乙女ルイ](https://missav.com/dm39/ja/shkd-399-uncensored-leak)
 - [SVDVD-192 強●家畜露出 - 早乙女ルイ](https://missav.com/dm13/ja/svdvd-192-uncensored-leak)
+- [SHKD-345 悲しみの母子 早乙女ルイ](https://missav.com/dm52/ja/shkd-345)
+- [SHKD-352 狂った肉体関係 早乙女ルイ](https://missav.com/dm45/ja/shkd-352)
