@@ -2,11 +2,7 @@
 
 ## Asumi Mirai (Tomorrow Future)
 
-[twi](https://twitter.com/asumi_mirai_)
-
-[wiki](https://ja.wikipedia.org/wiki/%E6%98%8E%E6%97%A5%E8%A6%8B%E6%9C%AA%E6%9D%A5)
-
-[missav list (with some 無修正リーク)](https://missav.com/dm25/ja/actresses/%E6%98%8E%E6%97%A5%E8%A6%8B%E6%9C%AA%E6%9D%A5)
+[twi](https://twitter.com/asumi_mirai_) | [wiki](https://ja.wikipedia.org/wiki/%E6%98%8E%E6%97%A5%E8%A6%8B%E6%9C%AA%E6%9D%A5) | [missav list (with some 無修正リーク)](https://missav.com/dm25/ja/actresses/%E6%98%8E%E6%97%A5%E8%A6%8B%E6%9C%AA%E6%9D%A5)
 
 - [MIDV-163 性欲が強すぎる巨乳義理姉が両親が旅行で不在中に10回射精しても、寝たくなってもただひたすら犯●れる！ 明日見未来](https://missav.com/dm52/ja/midv-163-uncensored-leak)
 - [MIDV-306 囚われの女捜査官ミライ 媚薬漬け拷問アクメ孕ませ中出し地獄 明日見未来](https://missav.com/dm52/ja/midv-306-uncensored-leak)
