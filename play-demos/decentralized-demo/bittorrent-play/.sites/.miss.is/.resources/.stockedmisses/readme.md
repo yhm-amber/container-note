@@ -1,6 +1,10 @@
 
 
-## Tomorrow Future
+## Asumi Mirai (Tomorrow Future)
+
+[twi](https://twitter.com/asumi_mirai_)
+
+[wiki](https://ja.wikipedia.org/wiki/%E6%98%8E%E6%97%A5%E8%A6%8B%E6%9C%AA%E6%9D%A5)
 
 [missav list (with some 無修正リーク)](https://missav.com/dm25/ja/actresses/%E6%98%8E%E6%97%A5%E8%A6%8B%E6%9C%AA%E6%9D%A5)
 
