@@ -1,5 +1,7 @@
 # [分田单干为何让埃及人挨饿？](https://mp.weixin.qq.com/s/btGUCFjnZjPyixW7n-gyOQ)
 
+<sup>*原创 子夜呐喊 子夜呐喊 2024-05-28 17:20 四川*</sup>
+
 <sup>文 / 子午</sup>
 
 以色列再次制造了令人发指的大屠杀。
