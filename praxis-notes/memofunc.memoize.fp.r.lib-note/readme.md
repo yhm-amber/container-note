@@ -1,0 +1,4 @@
+[package/cran]: https://cran.r-project.org/web/packages/memofunc/ "(Version: 	1.0.2) (Depends: 	R (≥ 3.5.0)) (Imports: 	digest, uuid, magrittr) (Suggests: 	testthat, devtools, roxygen2, covr) (Published: 	2021-02-22) (DOI: 	10.32614/CRAN.package.memofunc) (Author: 	Roy Wetherall) (Maintainer: 	Roy Wetherall <rwetherall at gmail.com>) (License: 	GPL-3) (NeedsCompilation: 	no) memofunc: Function Memoization /// A simple way to memoize function results to improve performance by eliminating unnecessary computation or data retrieval activities. // memofunc: 函数的记忆化 /// 一种将函数结果记忆化的简单方法，可消除不必要的计算或数据检索活动，从而提高性能。"
+
+[site/ghio]: https://rwetherall.github.io/memofunc/
+[src/gh]: https://github.com/rwetherall/memofunc.git "(R 100%) A simple way to memoize R function results to improve performance by eliminating unnecessary computation or data retrieval activities. // 对 R 函数结果进行记忆的简单方法，可消除不必要的计算或数据检索活动，从而提高性能。"
