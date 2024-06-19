@@ -53,6 +53,12 @@ In R:
 ~~~ R
 df0 |> reticulate::py_save_object("df0.pkl") # to save
 reticulate::py_load_object("df0.pkl") # to read again
+
+#' you can see one more attribute 'pandas.index'
+#' added at 'attributes(df0a)'
+#' rather than 'attributes(df0)'.
+#' 
+reticulate::py_load_object("df0.pkl") -> df0a
 ~~~
 
 In Python: 
