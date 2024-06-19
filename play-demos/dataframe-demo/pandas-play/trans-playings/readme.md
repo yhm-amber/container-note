@@ -26,7 +26,7 @@ Same things in py and R:
 
 ### Demos
 
-#### For `df1`
+#### For `df1` From Python
 
 In Python: 
 
@@ -39,13 +39,14 @@ In R:
 
 ~~~ R
 reticulate::py_load_object("df1.pkl") # to read
+reticulate::py_load_object("df1.pkl") -> df1 # you can see more by 'attributes(df1)'
 
 # read and save again
 reticulate::py_load_object("df1.pkl") |> 
 	reticulate::py_save_object("df1x.pkl")
 ~~~
 
-#### For `df0`
+#### For `df0` From R
 
 In R: 
 
