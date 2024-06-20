@@ -1,4 +1,4 @@
-#### Claude 3 - Haiku
+#### [Claude 3 - Haiku](https://duckduckgo.com/?q=a&ia=chat)
 
 ##### 保险行业中 IBNR 是什么？和理赔有什么关系？
 
