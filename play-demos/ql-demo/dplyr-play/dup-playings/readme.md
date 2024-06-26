@@ -66,7 +66,7 @@ base::data.frame (
 df %>% check_duprows (RIC, Date)
 ~~~
 
-And you can also:  
+And you can also define a uniquer by this function:  
 
 ~~~ R
 unique_duprows = 
