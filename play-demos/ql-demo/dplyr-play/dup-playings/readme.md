@@ -22,7 +22,7 @@ You can use this to filt rows which key(s) is appears more than once:
 #' - sort/order/arrange: [ans-6871968](https://stackoverflow.com/questions/1296646/sort-order-data-frame-rows-by-multiple-columns/6871968#6871968)
 #' 
 check_duprows = 
-function (df, ..., show.all = F) df %>% 
+function (df, ..., .show_all = F) df %>% 
 	dplyr::group_by (...) %>% 
 	dplyr::mutate (
 		.dup_count = dplyr::n (), 
