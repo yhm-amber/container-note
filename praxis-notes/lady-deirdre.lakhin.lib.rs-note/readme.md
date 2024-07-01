@@ -4,3 +4,4 @@
 [crate]: https://crates.io/crates/lady-deirdre
 [api]: https://docs.rs/lady-deirdre
 
+[knowsby]: https://rustcc.cn/article?id=5ee0b9e4-969d-4118-adf1-2420908336b0
