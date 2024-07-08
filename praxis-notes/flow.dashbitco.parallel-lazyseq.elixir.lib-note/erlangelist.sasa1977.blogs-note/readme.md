@@ -1,0 +1,4 @@
+[knowsby]: https://stackoverflow.com/questions/32589216/task-async-in-elixir-stream/ "[: https://theerlangelist.com/2015/07/beyond-taskasync.html – Raj] [: https://theerlangelist.com/article/beyond_taskasync – Julien Poulin]"
+
+[site]: https://theerlangelist.com/ "(not only) Erlang related musings /// Hi, I'm Saša Jurić, a software developer with many years of professional experience in programming of web and desktop applications using various languages, such as Elixir, Erlang, Ruby, JavaScript, C# and C++. I'm also the author of the Elixir in Action book. In this blog you can read about Elixir, Erlang, and other programming related topics. You can subscribe to the feed, follow me on Twitter or fork me on GitHub."
+[src/gh]: https://github.com/sasa1977/erlangelist.git "(CC BY-NC 4.0, Copyright 2015, Saša Jurić) (Languages: Elixir 61.6%, Shell 18.5%, JavaScript 8.5%, HTML 6.5%, CSS 3.5%, Dockerfile 1.2%, Lua 0.2%) Source code of The Erlangelist blog"
