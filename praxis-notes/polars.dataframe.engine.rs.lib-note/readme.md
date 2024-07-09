@@ -11,6 +11,7 @@
 
 
 [r-universe]: https://rpolars.r-universe.dev/
+[r-universe.src/gh]: https://github.com/r-universe/rpolars.git "Source universe for: rpolars"
 
 
 [lib.rs/crates]: https://crates.io/crates/polars
@@ -18,8 +19,16 @@
 [lib.py/pypi]: https://pypi.org/project/polars/
 [lib.js/nodejs]: https://npmjs.com/package/nodejs-polars
 
+
+[lib.r.src/gh]: https://github.com/pola-rs/r-polars.git "(YEAR: 2022, COPYRIGHT HOLDER: Søren Havelund Welling) (Languages: R 78.7%, Rust 20.9%, Other 0.4%) Bring polars to R"
+
+
 [polarssql.lib.r/r-unicerse]: https://rpolars.r-universe.dev/polarssql
 [polarssql.docs.r/r-unicerse]: https://rpolars.github.io/r-polarssql/ "(: utils::install.packages('polarssql', repos = base::c('https://rpolars.r-universe.dev', base::getOption('repos'))))"
+[polarssql.src/gh]: https://github.com/rpolars/r-polarssql.git "(MIT) (R 100%) A Polars backend for R DBI and dbplyr // 一个为 R DBI 和 dbplyr 准备的 Polars 后端"
+
+
+
 
 
 
