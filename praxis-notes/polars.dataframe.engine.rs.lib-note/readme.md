@@ -7,7 +7,7 @@
 [docs.r/gh.io]: https://pola-rs.github.io/r-polars/
 [docs.rs/docs.rs]: https://docs.rs/polars/
 [docs.py/docs]: https://docs.pola.rs/api/python/stable/
-[docs.js/gh.io]: https://pola-rs.github.io/nodejs-polars/
+[docs.nodejs/gh.io]: https://pola-rs.github.io/nodejs-polars/
 
 
 [r-universe]: https://rpolars.r-universe.dev/
@@ -18,10 +18,12 @@
 [lib.r/r-universe]: https://rpolars.r-universe.dev/polars
 [lib.r/r-multiverse]: https://community.r-multiverse.org/polars "(: utils::install.packages('polars', repos = 'https://community.r-multiverse.org'))"
 [lib.py/pypi]: https://pypi.org/project/polars/ "(: pip install -- polars)"
-[lib.js/nodejs]: https://npmjs.com/package/nodejs-polars "(: npm i -- nodejs-polars)"
+[lib.nodejs/npmjs]: https://npmjs.com/package/nodejs-polars "(: npm i -- nodejs-polars)"
 
 
 [lib.r.src/gh]: https://github.com/pola-rs/r-polars.git "(YEAR: 2022, COPYRIGHT HOLDER: Søren Havelund Welling) (Languages: R 78.7%, Rust 20.9%, Other 0.4%) Bring polars to R"
+[lib.nodejs.src/gh]: https://github.com/pola-rs/nodejs-polars.git "(MIT) (Languages: TypeScript 71.1%, Rust 27.4%, JavaScript 1.5%) nodejs front-end of polars"
+[lib.browserjs.src/gh]: https://github.com/pola-rs/js-polars.git "(MIT) (Languages: Rust 92.8%, TypeScript 6.7%, Python 0.5%) JS bindings to polars"
 
 
 [polarssql.lib.r/r-unicerse]: https://rpolars.r-universe.dev/polarssql
@@ -37,8 +39,9 @@
 [tidypolars.py.src/gh]: https://github.com/markfairbanks/tidypolars "(MIT) (Languages: Python 87.0%, Jupyter Notebook 13.0%) Tidy interface to polars // Polars 的 Tidy 风格的前端界面"
 
 
-
-
+[cli.ql.src/gh]: https://github.com/pola-rs/polars-cli.git "(MIT) (Languages: Rust 94.4%, Python 5.6%) CLI interface for running SQL queries with Polars as backend // 就是能在 shell 上也用上这个库了，但是数据操作语言是 SQL ，但是并没有什么数据库， FROM 子句只是用于描述你打算从哪里导入数据（比如 CSV 文本文件）。"
+[cli.ql.app/crates]: https://crates.io/crates/polars-cli "(: cargo install --locked -- polars-cli)"
+[cli.ql.app/pypi]: https://pypi.org/project/polars-cli "(: pip install -- polars-cli)"
 
 
 
