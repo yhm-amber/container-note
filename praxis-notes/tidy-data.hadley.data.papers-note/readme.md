@@ -1,2 +1,4 @@
 [pdf]: https://vita.had.co.nz/papers/tidy-data.pdf
 [src/gh]: https://github.com/hadley/tidy-data.git "(Languages: TeX 90.8%, R 9.2%) A paper on data tidying"
+
+[knows.by]: https://github.com/elixir-explorer/explorer "The API is heavily influenced by Tidy Data and borrows much of its design from dplyr. The philosophy is heavily influenced by this passage from dplyr's documentation: By constraining your options, it helps you think about your data manipulation challenges; It provides simple “verbs”, functions that correspond to the most common data manipulation tasks, to help you translate your thoughts into code; It uses efficient backends, so you spend less time waiting for the computer. // 该应用程序接口深受 Tidy Data 的影响，并借鉴了 dplyr 的许多设计。其理念深受 dplyr 文档中这段话的影响： 通过限制你的选项，它可以帮助你思考数据处理的挑战；它提供了简单的“动词”，即与最常见的数据处理任务相对应的函数，以帮助你将想法转化为代码；它使用高效的后端，因此你在等待计算机上的耗时更少。"
