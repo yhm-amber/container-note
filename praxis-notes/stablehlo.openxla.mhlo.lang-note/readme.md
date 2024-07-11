@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/openxla/stablehlo.git "(Apache-2.0) (Languages: MLIR 68.7%, C++ 28.2%, Starlark 0.8%, Python 0.8%, CMake 0.7%, Shell 0.5%, C 0.3%) Backward compatible ML compute opset inspired by HLO/MHLO // 受 HLO/MHLO 启发的向后兼容 ML 计算操作集 // 这个是用于 ML 模型的 HLO 即高级操作的操作集合。旨在构建一个在前 (PyTorch, Nx, ...) 后 (XLA, IREE, ...) 端之间建立更多互操作性，通过让前者可编译为它而后者可以使用它。基于 MHLO 方言、以 MLIR (https://mlir.llvm.org) 为字节码序列化，以及提供向后兼容。资源库提供规范、基于 MILR 的实现 (cpp, python) ，可用于定义 StableHLO 程序供后端如 XLA 编译器使用。"
+[docs/openxla]: https://openxla.org/stablehlo
