@@ -825,7 +825,12 @@
 - [DASS-142 幼い頃、一緒にお風呂に入っていた叔母さんと再び入浴…嬉し恥ずかし甥っ子バスタイム。 水谷心音 - 水谷心音（藤崎りお）](https://missav.com/dm39/ja/dass-142-uncensored-leak)
 
 
+## Kawakami Nanami
 
+[missav list (with some 無修正リーク)](https://missav.com/dm24/ja/actresses/%E5%B7%9D%E4%B8%8A%E5%A5%88%E3%80%85%E7%BE%8E)
+
+- [SHKD-649 脱獄者 川上奈々美](https://missav.com/ja/shkd-649-uncensored-leak)
+- [DASD-933 女体化した俺は親友に求められるがまま、受け入れて、心も女になっていた。 川上奈々美](https://missav.com/dm53/ja/dasd-933-uncensored-leak)
 
 
 
