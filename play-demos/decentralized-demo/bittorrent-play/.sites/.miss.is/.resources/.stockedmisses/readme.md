@@ -865,8 +865,11 @@
 
 - [NSFS-071 投稿実話 妻がまわされた17 ～旅館女将の汚された肉体～ 七瀬いおり](https://missav.com/ja/nsfs-071-uncensored-leak)
 
+## Aoi Yurika
 
+[missav list (with some 無修正リーク)](https://missav.com/dm34/ja/actresses/%E8%91%B5%E7%99%BE%E5%90%88%E9%A6%99)
 
+- [NSFS-008 投稿実話 妻がまわされた14 ～夫婦に起こった二度目の悲劇～ 葵百合香](https://missav.com/dm13/ja/nsfs-008)
 
 
 
