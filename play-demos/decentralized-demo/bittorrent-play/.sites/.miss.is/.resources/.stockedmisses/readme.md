@@ -215,6 +215,8 @@
 [missav list (with some 無修正リーク)](https://missav.com/dm18/ja/actresses/%E4%B8%8A%E5%8E%9F%E7%91%9E%E7%A9%82)
 
 - [ABP-347 人生初・トランス状態 激イキ絶頂セックス 上原瑞穂](https://missav.com/dm13/ja/abp-347-uncensored-leak)
+- [ABP-361 働く痴女系お姉さん vol.02 上原瑞穂](https://missav.com/dm12/ja/abp-361-uncensored-leak)
+- [ABS-070 僕を誘惑する隣の綺麗なお姉さん 上原瑞穂](https://missav.com/dm13/ja/abs-070-uncensored-leak)
 
 ## Momonogi Kana
 
