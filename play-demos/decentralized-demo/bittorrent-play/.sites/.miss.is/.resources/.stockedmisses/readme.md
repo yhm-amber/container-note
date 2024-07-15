@@ -86,6 +86,15 @@
 - [SAME-010 オフパコオヤジの中出し個人撮影会。](https://missav.com/dm52/ja/same-010-uncensored-leak)
 
 
+## Yoshitaka Nene
+
+[wiki](https://ja.wikipedia.org/wiki/%E5%90%89%E9%AB%98%E5%AF%A7%E3%80%85) | [site](https://yoshitakanene.com/) | [twi](https://twitter.com/yoshitakanene) | [ins](https://instagram.com/_yoshitaka_nene/) | [missav list (with some 無修正リーク)](https://missav.com/dm42/ja/actresses/%E5%90%89%E9%AB%98%E5%AF%A7%E3%80%85) | [8man](https://8man.jp/models/yoshitaka/) | [faleno](https://faleno.jp/top/actress/nene_yoshitaka/)
+
+- [FSDSS-672 「私、犯され続けています…」地方の美人妻が都会からやってきた若者に、旦那の近くでいいなり調教肉弾ピストン堕ち　吉高寧々 910 6](https://missav.com/ja/fsdss-672-uncensored-leak)
+- [FSDSS-099 地元に帰省してきた従姉妹と近親SEXに明け暮れた真夏の3日間 吉高寧々](https://missav.com/dm18/ja/fsdss-099)
+- [FSDSS-425 乳首責め専門ナースが24時間 いつでも乳首射精のお手伝い(ハート)舌と指で施される最高の乳首SEXが話題のニップルクリニック 吉高寧々](https://missav.com/dm13/ja/fsdss-425-uncensored-leak)
+- [FSDSS-275 腰が砕けても逃がさない！ひたすら膣奥を貫く強●立ちバックハンドル 吉高寧々](https://missav.com/ja/fsdss-275-uncensored-leak)
+
 
 ## Ohashi Miku
 
@@ -795,7 +804,7 @@
 
 ## Kamiki Ran
 
-[missav list (with some 無修正リーク)](https://missav.com/dm13/ja/actresses/%E7%A5%9E%E6%9C%A8%E8%98%AD)
+[tiktok](https://tiktok.com/@kamiki_ran_) | [ins](https://instagram.com/kamiki_ran/) | [twi](https://twitter.com/kamiki_ran) | [fanza-dmm](https://fanza-dmm-vr.com/sp/av/AV_ka_273-000.html) | [missav list (with some 無修正リーク)](https://missav.com/dm13/ja/actresses/%E7%A5%9E%E6%9C%A8%E8%98%AD)
 
 - [FSDSS-569 隣のゴミ部屋キモオッサンに軟禁され絶倫チ〇ポで犯され続けた私 神木蘭](https://missav.com/ja/fsdss-569-uncensored-leak)
 - [FSDSS-511 スレンダーBODYライン特化騎乗位性交 神木蘭](https://missav.com/dm13/ja/fsdss-511-uncensored-leak)
