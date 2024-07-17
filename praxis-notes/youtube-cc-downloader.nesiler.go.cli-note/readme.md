@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/nesiler/youtube-cc-downloader.git "(GPL-3.0) (Go 100%) This Go project automates the download of YouTube video subtitles and generates a CSV file containing video details and subtitle content."
