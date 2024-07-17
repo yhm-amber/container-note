@@ -8,4 +8,5 @@ Instances
 - [[https://chat.forefront.ai][chat.forefront.ai]]
 - [[https://pixai.art/chat][pixai.art/chat]]
 - [[https://claude.ai/chats][CLAUDE | ANTHROP\C]]
+- [[https://copilot.microsoft.com/][MS Copilot]]
 - ...
