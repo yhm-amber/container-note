@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/hum/vcat.git "(MIT) (Go 100%) ▶️ Get transcriptions of YouTube videos. No API key required. Just like cat(1), but for videos. // ▶️ 获取 YouTube 视频的转录。无需 API 密钥。就像 cat(1) 一样，但用于视频。"
