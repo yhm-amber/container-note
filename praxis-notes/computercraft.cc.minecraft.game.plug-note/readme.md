@@ -1,0 +1,7 @@
+[youcube.src/gh]: https://github.com/CC-YouCube/client.git "(GPL-3.0) (Languages: Lua 95.4%, Common Lisp 3.4%, Makefile 1.2%) ComputerCraft client for YouCube"
+[youcube.site/madefor.cc]: https://youcube.madefor.cc/
+[tweaked.src/gh]: https://github.com/cc-tweaked/CC-Tweaked.git "(Languages: Java 69.6%, Lua 23.6%, Kotlin 5.3%, TypeScript 0.7%, Python 0.4%, GLSL 0.1%, Other 0.3%) Just another ComputerCraft fork"
+[tweaked.site/cc]: https://tweaked.cc/ "CC: Tweaked is a mod for Minecraft which adds programmable computers, turtles and more to the game. A fork of the much-beloved ComputerCraft, it continues its legacy with improved performance and stability, along with a wealth of new features."
+[computercraft.src/gh]: https://github.com/dan200/ComputerCraft.git "(MIT) (Languages: Lua 54.6%, Java 45.4%) Programmable Computers for Minecraft"
+[computercraft.site/info]: https://computercraft.info/ "computercraft.info is no more :( --- New landing page coming soon. In the meantime, check out CC: Tweaked."
+[computercraft.wiki/site]: https://www.computercraft.info/wiki/ "ComputerCraft is a mod created for Minecraft by dan200 that adds Computers, Monitors, Modems, Turtles and more! ComputerCraft's Computers and Turtles are programmed with the easy-to-learn Lua programming language. You can use Redstone, RedPower or even MineFactory Reloaded alongside with your devices for the best experience."
