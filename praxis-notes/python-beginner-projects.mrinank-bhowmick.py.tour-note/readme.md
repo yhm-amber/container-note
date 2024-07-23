@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/Mrinank-Bhowmick/python-beginner-projects.git "(MIT) (Languages: Python 73.1%, Jupyter Notebook 26.3%, Other 0.6%) Explore a collection of beginner-friendly Python projects that can be completed with minimal code. Perfect for learning the basics and improving your coding skills. // 探索一系列适合初学者的 Python 项目，这些项目可以用最少的代码完成。非常适合学习基础知识和提高编码技能。"
