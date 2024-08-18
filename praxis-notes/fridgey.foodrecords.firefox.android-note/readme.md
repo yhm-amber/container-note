@@ -1,0 +1,2 @@
+[apk/f-droid]: https://f-droid.org/zh_Hans/packages/lying.fengfeng.foodrecords/ "(Apache-2.0) (12 MiB) 一个记录食物的应用程序，可以让你轻松输入食物的照片、名称、生产日期和保质期；该应用程序会帮你按食物即将过期的时间进行排序，并在食物即将过期时（如果你需要）发送通知提醒你处理它们。"
+[src/gh]: https://github.com/NielsLee/FoodRecords.git "(Apache-2.0) (Languages: Kotlin 100.0%) A simple recording app for keeping track of the ingredients at home; with just a few simple setup steps, you can start recording. The app will notify you when ingredients are nearing their expiration, so you no longer have to worry about food spoilage at home!"
