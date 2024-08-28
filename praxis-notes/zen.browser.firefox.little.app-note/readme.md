@@ -17,6 +17,7 @@
 
 [surfer.src/gh]: https://github.com/zen-browser/surfer.git "(MPL-2.0) (Languages: TypeScript 94.2%, JavaScript 3.3%, Shell 1.8%, FreeMarker 0.7%) Simplifying building firefox forks! // 简化 Firefox fork 的构建！ /// Surfer is a fork of Gluon but the author has stoped working on it. Gluon has been extracted from melon, the build tool for the desktop version of Dot Browser under MPL v2.0. // Surfer 是 Gluon 的一个分叉，但作者已经停止了对它的开发。 Gluon 是从 melong 中提取出来的， melong 是 MPL v2.0 下桌面版 Dot 浏览器的构建工具。"
 
-[site/gh]: https://github.com/zen-browser "Your browser, your way!"
+[github]: https://github.com/zen-browser "Your browser, your way!"
 [mastdon]: https://fosstodon.org/@zenbrowser "@zenbrowser@fosstodon.org"
+[discord]: https://discord.com/invite/nnShMQzR4b "Mauro's little sweatshop ✌"
 
