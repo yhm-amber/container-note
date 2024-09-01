@@ -10,4 +10,4 @@
 [codium.app.win/winstall]: https://winstall.app/apps/VSCodium.VSCodium "(: winget install --id VSCodium.VSCodium -e)"
 [codium-i.app.win/winstall]: https://winstall.app/apps/VSCodium.VSCodium.Insiders "(: winget install --id VSCodium.VSCodium.Insiders -e)"
 
-
+[coder.src/gh]: https://github.com/coder/code-server.git "(MIT) (Languages: TypeScript 81.6%, Shell 14.9%, HTML 1.0%, HCL 0.7%, CSS 0.7%, Mustache 0.5%, Other 0.6%) VS Code in the browser"
