@@ -1,0 +1,7 @@
+[package/cran]: https://cran.r-project.org/web/packages/emayili/ "(Version: 	0.9.1) (Imports: 	base64enc, commonmark, curl (≥ 4.0), digest, dplyr, glue, htmltools, httr, logger, magrittr (≥ 2.0.1), mime, purrr, rmarkdown, rvest, stringi, stringr, tidyr, urltools, xfun, xml2) (Suggests: 	cld2, cld3, gpg, here, jinjar, lintr, memoise, testthat (≥ 2.1.0), roxygen2, showtext, Microsoft365R) (Published: 	2024-06-24) (DOI: 	10.32614/CRAN.package.emayili) (Author: 	Andrew B. Collier [aut, cre, cph], Matt Dennis [ctb], Antoine Bichat ORCID iD [ctb], Daniel Fahey [ctb], Johann R. Kleinbub [ctb], Panagiotis Moulos [ctb], Swechhya Bista [ctb], Colin Fay ORCID iD [ctb]) (Maintainer: 	Andrew B. Collier <andrew.b.collier at gmail.com>) (License: 	GPL-3) (NeedsCompilation: 	no) (SystemRequirements: 	The function render() requires Pandoc (http://pandoc.org). To use PGP/GnuPG encryption requires gpg.) (Language: 	en-GB) emayili: Send Email Messages /// A light, simple tool for sending emails with minimal dependencies. // emayili: 发送电子邮件 /// 一款轻便、简单的电子邮件发送工具，依赖性极低。"
+[knows.by]: https://stackoverflow.com/questions/23412265/how-do-you-send-email-from-r/
+
+[site/ghio]: https://datawookie.github.io/emayili/ "{emayili}"
+[package/doi]: https://doi.org/10.32614/CRAN.package.emayili
+
+[src/gh]: https://github.com/datawookie/emayili.git "(GPL-3.0) (Languages: R 97.6%, HTML 2.4%) An R package for sending email messages."
