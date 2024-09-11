@@ -1,1 +1,6 @@
-R
+Demos on R.
+
+Libs: 
+
+- [[../../../praxis-notes/emayili.email.smtp.r.lib-note][{emayili}]]
+- [[../../../praxis-notes/blastula.email.smtp.r.lib-note][{blastula}]]
