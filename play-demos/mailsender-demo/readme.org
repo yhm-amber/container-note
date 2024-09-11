@@ -1,0 +1,1 @@
+Send email in code/command by such as smtp server.
