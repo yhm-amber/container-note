@@ -84,7 +84,7 @@ for sun + cloud photos:
 			to = "receiver@mail.server.to", 
 			from = "sender@mail.server.from", 
 			subject = "Testing the `blastula::smtp_send()` function", 
-			verbose = F) -> report.will_be_null_if_send...
+			verbose = F) -> report.will_be_null_after_send...
 }
 ~~~
 
