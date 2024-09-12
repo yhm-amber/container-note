@@ -41,7 +41,7 @@ Have curry in it.
 Attachments can be add like this before send: 
 
 ~~~ R
-email = attachment_path |> purrr::reduce(blastula::add_attachment, .init = email)
+
 ~~~
 
 ### `blastula`
@@ -94,6 +94,11 @@ for sun + cloud photos:
 }
 ~~~
 
+Attachments can be add like this before send: 
+
+~~~ R
+email = attachment_path |> purrr::reduce(blastula::add_attachment, .init = email)
+~~~
 
 
 ### `mailR` (Not recommended)
