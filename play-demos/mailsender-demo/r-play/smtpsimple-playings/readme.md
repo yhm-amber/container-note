@@ -38,6 +38,12 @@ Have curry in it.
 }
 ~~~
 
+Attachments can be add like this before send: 
+
+~~~ R
+email = attachment_path |> purrr::reduce(blastula::add_attachment, .init = email)
+~~~
+
 ### `blastula`
 
 Much more prescriptive and careful.
