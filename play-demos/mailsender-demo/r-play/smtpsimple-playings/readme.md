@@ -41,7 +41,7 @@ Have curry in it.
 Attachments can be add like this before send: 
 
 ~~~ R
-
+email = attachment_path |> purrr::reduce(emayili::attachmentent, .init = email)
 ~~~
 
 ### `blastula`
