@@ -1,0 +1,3 @@
+[package/cran]: https://cran.r-project.org/web/packages/mime/ "(Version:	0.12) (Imports:	tools) (Published:	2021-09-28) (DOI:	10.32614/CRAN.package.mime) (Author:	Yihui Xie ORCID iD [aut, cre], Jeffrey Horner [ctb], Beilei Bian [ctb]) (Maintainer:	Yihui Xie <xie at yihui.name>) (License:	GPL-2 | GPL-3 [expanded from: GPL]) (NeedsCompilation:	yes) mime: Map Filenames to MIME Types /// Guesses the MIME type from a filename extension using the data derived from /etc/mime.types in UNIX-type systems. // mime: 将文件名映射到 MIME 类型 /// 在 UNIX 类型系统中，使用从 /etc/mime.types 导出的数据，从文件名扩展名猜测 MIME 类型。"
+[src/gh]: https://github.com/yihui/mime.git "(Languages: R 97.0%, C 3.0%) Map filenames to MIME types"
+[wiki:Media_type]: https://en.wikipedia.org/wiki/Media_type "Media type | Wikipedia"
