@@ -1,2 +1,4 @@
 [site]: https://myrlang.org/ "(.myr) Myrddin is a programming language. It aims for control and simplicity. It features strong type checking, generics, type inference, closures, and traits. It aims to fit into a similar niche as C, but with fewer bullets in your feet. // Myrddin 是一种编程语言。它的目标是控制和简单性。它具有强大的类型检查、泛型、类型推断、闭包和特征。它的目标是适应与 C 类似的利基市场，但你脚上的子弹更少。 /// Myrddin does not aim to explore the forefront of type theory or compiler technology. It does not focus on guaranteeing perfect safety. It is satisfied to be a practical, small language. // Myrddin 的目的并不是探索类型理论或编译器技术的前沿。它并不专注于保证完美的安全。做个实用的小语言就满足了。"
 [setup/site]: https://myrlang.org/setup "(: git clone -- git://git.eigenstate.org/ori/mc.git) (: hg clone -- https://bitbucket.org/oridb/mc)"
+
+[name.wiki]: https://cy.wikipedia.org/wiki/Myrddin
