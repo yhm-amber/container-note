@@ -9,4 +9,7 @@
 [auth.twitter]: https://twitter.com/mr_ligi
 [auth.site]: https://ligi.de/
 
+[forums/f-droid]: https://f-droid.org/forums/topic/gobandroid-gobandroid-ai-gnugo/
+
 [name::wiki]: https://ja.wikipedia.org/wiki/%E7%A2%81%E7%9B%A4 "碁盤 | Wikipedia"
+
