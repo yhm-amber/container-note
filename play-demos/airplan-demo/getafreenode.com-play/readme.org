@@ -1,0 +1,3 @@
+[[https://getafreenode.com][getafreenode.com]]
+
+可以获得 free 节点。具体操作看他们的 [[https://getafreenode.com/guide][guides]] 。
