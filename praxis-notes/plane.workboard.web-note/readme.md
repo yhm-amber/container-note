@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/makeplane/plane.git "(AGPL-3.0) (Languages: TypeScript 67.5%, Python 26.2%, HTML 4.5%, CSS 1.2%, JavaScript 0.3%, Shell 0.3%) 🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and product roadmaps in the simplest way possible. // 🔥 🔥 🔥 开源 JIRA、Linear、Monday 和 Asana 替代软件。 Plane 可帮助您以最简单的方式跟踪问题、史诗和产品路线图。"
+[site]: https://plane.so/ "Built for your projects / Designed for your progress"
