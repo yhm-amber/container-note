@@ -9,4 +9,15 @@
 
 [auther.site]: https://valeriansaliou.name/
 
-[blog:first-journal/auther.site]: https://journal.valeriansaliou.name/announcing-sonic-a-super-light-alternative-to-elasticsearch/
+[blog:first-journal/auther.site]: https://journal.valeriansaliou.name/announcing-sonic-a-super-light-alternative-to-elasticsearch/ "- A GDPR-ready search system: when text is pushed to the index, Sonic splits sentences in words and then hashes each word, before they get stored and linked to a result object. Hashes cannot be traced back to their source word, you can only know which hash form a sentence together, but you cannot re-constitute the sentence with readable words. Sonic still stores non-hashed legible words in a graph for result suggestions and typo corrections, but those words are not linked together to form sentences. It means that the original text that was pushed cannot be guessed by someone hacking into your server and dumping Sonic's database. Sonic helps in designing \"privacy first\" apps. // 支持 GDPR 的搜索系统：当文本被推送到索引时，Sonic 将句子按单词拆分，然后对每个单词进行哈希处理，然后再将它们存储并链接到结果对象。哈希无法追溯到它们的源单词，你只能知道哪个哈希一起组成了一个句子，但你无法用可读的单词重新构成句子。 Sonic 仍将未散列的清晰单词存储在图表中，以提供结果建议和拼写错误更正，但这些单词不会链接在一起形成句子。这意味着侵入您的服务器并转储 Sonic 数据库的人无法猜出推送的原始文本。 Sonic 帮助设计“隐私第一”的应用程序。 /// - Reduced data dissemination: Sonic does not store nor return matched documents, it returns identifiers that refer to primary keys in another database (eg. MySQL, MongoDB, etc.). Once you get the ID results from Sonic for a search query, you need to fetch the pointed-to documents in your main database (eg. you fetch the user full name and email address from MySQL if you built a CRM search engine). Data stores synchronization is known to be hard, so you don't have to do it at all with Sonic. // 减少数据传播： Sonic 不存储也不返回匹配的文档，它返回引用另一个数据库（例如 MySQL、MongoDB 等）中主键的标识符。一旦从 Sonic 获得搜索查询的 ID 结果，您需要在主数据库中获取指向的文档（例如，如果您构建了 CRM 搜索引擎，则从 MySQL 获取用户全名和电子邮件地址）。众所周知，数据存储同步很困难，因此您根本不必使用 Sonic 来实现这一点。"
+
+
+[client/rs.lib.src/gh]: https://github.com/FrontMage/sonic_client.git "(Languages: Rust 100.0%) sonic fulltext search client"
+[client/ex.lib.src/gh]: https://github.com/imerkle/sonix.git "(Languages: Elixir 100.0%) An Elixir client for Sonic Search"
+
+
+
+
+
+
+
