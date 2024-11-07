@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/etchdroid/etchdroid.git "(GPL-3.0) (Languages: Kotlin 94.3%, Python 5.1%, Other 0.6%) An application to write OS images to USB drives, on Android, no root required. // 一款在 Android 上将操作系统映像写入 USB 驱动器的应用程序，无需 root 。"
+[site]: https://etchdroid.app/ "EtchDroid is an open-source application that writes disk images to USB drives. // EtchDroid (蚀刻机器人) 是一个开源应用程序，可将磁盘映像写入 USB 驱动器。 /// Use it to make a bootable operating system USB drive when your laptop is dead. // 当你的笔记本电脑没电时，用它制作一个可启动操作系统的 USB 驱动器。 /// No root required, no ads, no tracking, no nonsense. // 不需要root，没有广告，没有跟踪，没有废话。"
+[apk/f-droid]: https://f-droid.org/packages/eu.depau.etchdroid/ "(4.7 MiB) (GPL-3.0 ONLY) 将系统 ISO 镜像写入 USB 驱动器"
