@@ -433,6 +433,29 @@
 - [SSIS-032 大嫌いな女上司が3000円ポッキリの激安大衆ピンサロ店で副業！？即尺・イラマチオ・本番強要で立場逆転させた話。 三宮つばき](https://missav.com/dm52/ja/ssis-032-uncensored-leak)
 
 
+
+## Kumakura Shyouko
+
+[missav list (with some 無修正リーク)](https://missav.com/ja/actresses/%E7%86%8A%E5%80%89%E3%81%97%E3%82%87%E3%81%86%E3%81%93)
+
+- [ABP-588 【MGSだけのおまけ映像付き+10分】人生初・トランス状態 激イキ絶頂セックス 37 熊倉しょ](https://missav.com/dm13/ja/abp-588-uncensored-leak)
+- [ABP-597 【MGSだけのおまけ映像付き+45分】ヲタサーの姫。 07 熊倉しょうこ](https://missav.com/dm13/ja/abp-597) [ヲタサーの姫。](https://missav.com/ja/series/%E3%83%B2%E3%82%BF%E3%82%B5%E3%83%BC%E3%81%AE%E5%A7%AB%E3%80%82)
+
+## Hasegawa Rui
+
+[missav list (with some 無修正リーク)](https://missav.com/dm31/ja/actresses/%E9%95%B7%E8%B0%B7%E5%B7%9D%E3%82%8B%E3%81%84)
+
+- [ABP-510 ヲタサーの姫。01 長谷川るい](https://missav.com/dm18/ja/abp-510)
+- [ABP-342 プレステージ夏祭 2015 日焼けトランス 長谷川るい](https://missav.com/ja/abp-342-uncensored-leak)
+- [HRV-001 濃密過ぎるキス魔の接吻性交 8時間 キス好き女優8名による愛ある唾液ダラダラ濃厚セックス - あやみ旬果](https://missav.com/ja/hrv-001)
+- [ABP-660 絶対的美少女、お貸しします。 全国縦断Special 沖縄、九州、関西、中部 長谷川るい](https://missav.com/dm18/ja/abp-660)
+- [ABP-691 神イカせ 完全ガチ拘束強●アクメ 02 過剰な絶頂が引き起こす快楽と苦痛の両天秤で膀胱崩壊絶頂！！ 長谷川るい](https://missav.com/dm5/ja/abp-691)
+- [GNE-179 美人過ぎる彼女のお姉さんに誘惑されて 2 - 北野のぞみ](https://missav.com/dm18/ja/gne-179)
+- [ABP-596 超 やりたい放題 2 長谷川るい](https://missav.com/dm18/ja/abp-596)
+- [HRV-033 絶対的美少女がご奉仕しちゃう 超最新やみつきエステ 8時間 BEST VOLUME.04 - 冬月かえで](https://missav.com/dm1/ja/hrv-033-uncensored-leak)
+- [ABP-476 長谷川るいドッキリSP 専属女優・長谷川るいを即ハメドッキリでイカせちゃいます！！](https://missav.com/ja/abp-476-uncensored-leak)
+
+
 ## Pentagram
 
 [missav list (with some 無修正リーク)](https://missav.com/dm15/ja/actresses/%E4%BA%94%E8%8A%AD)
