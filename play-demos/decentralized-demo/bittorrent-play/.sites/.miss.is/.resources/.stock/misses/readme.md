@@ -1091,5 +1091,14 @@
 - [ABP-194 溢れる母性と卑猥なカラダでみんなの悩みを解決する新妻教師 さよ先生。 武智沙世](https://missav.com/ja/abp-194-uncensored-leak)
 
 
+## Yuiki Rumina
+
+[missav list (with some 無修正リーク)](https://missav.com/dm18/ja/actresses/%E7%B5%90%E5%9F%8E%E3%82%8B%E3%81%BF%E3%81%AA)
+
+- [ABW-178 ※胸糞NTR 最悪の鬱勃起映像 幸せを約束した大好きな彼女がおっさんに寝取られて、壊されました。 結城るみな【MGSだけのおまけ映像付き+15分】](https://missav.com/ja/abw-178-uncensored-leak) ([※胸糞NTR](https://missav.com/ja/series/%E2%80%BB%E8%83%B8%E7%B3%9ENTR))
+- [FIR-048 超！透け透けスケベ学園 BEST 8時間 vol.02 美しい裸身が透き通る透けフェチ特濃SEX！ - 涼森れむ](https://missav.com/dm13/ja/fir-048)
+- [HEO-017 中出しやりたい放題 BEST 8時間 VOL.02 野々浦暖 涼森れむ 美ノ嶋めぐり 結城るみな 白石あこ](https://missav.com/ja/heo-017)
+- [ABW-132 結城るみな なまなかだし 40 正真正銘ミスコン女王に只管中出し！！！ 【MGSだけのおまけ映像付き+25分】](https://missav.com/ja/abw-132-uncensored-leak)
+- [DIC-071 今期最大の衝撃 ミスキャンパスグランプリ 結城るみな AVデビュー](https://missav.com/ja/dic-071-uncensored-leak)
 
 
