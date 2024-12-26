@@ -5,3 +5,5 @@
 
 [oci/dockerhub]: https://hub.docker.com/r/mageai/mageai "(: docker pull -- mageai/mageai:latest)"
 [pkg.pip/pypi]: https://pypi.org/project/mage-ai/ "(: pip install -- mage-ai)"
+
+[knowsby]: https://mp.weixin.qq.com/s/FQaHb89KMgOdmb7fmwpLhA
