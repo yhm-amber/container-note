@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/wumpf/blub.git "(MIT) (Languages: Rust 84.0%, GLSL 16.0%) 3D fluid simulation experiments in Rust, using WebGPU-rs (WIP) // 使用 WebGPU-rs 在 Rust 中进行 3D 流体模拟实验（WIP） /// Experimenting with GPU driven 3D fluid simulation on the GPU using wgpu. // 使用 wgpu 在 GPU 上进行 GPU 驱动的 3D 流体模拟实验。 /// Focusing on hybrid lagrangian/eularian approaches here (PIC/FLIP/APIC..). // 这里重点关注混合拉格朗日/欧拉方法（PIC/FLIP/APIC..）。 /// For SPH (pure lagrangian) fluid simulation, check out my simple 2D DFSPH fluid simulator, YASPH2D (Wumpf/yasph2d.git). // 对于 SPH （纯拉格朗日）流体模拟，请查看我的简单 2D DFSPH 流体模拟器 YASPH2D 。"
+
+[knows-by]: https://wgpu.rs/ "Blub // 布卢布 /// A GPU fluid solver (APIC) // GPU 流体求解器 (APIC)"
