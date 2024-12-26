@@ -2,3 +2,5 @@
 [flatpak/flathub]: https://flathub.org/apps/com.github.polymeilex.neothesia "(: flatpak install flathub -- com.github.polymeilex.neothesia)"
 
 [discord]: https://discord.gg/sgeZuVA
+
+[knows-by]: https://wgpu.rs/ "Neothesia // 新忒西亚 /// Cross-platform GPU accelerated midi visualizer // 跨平台 GPU 加速 midi 可视化工具"
