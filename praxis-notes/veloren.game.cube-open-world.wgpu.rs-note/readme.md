@@ -5,4 +5,6 @@
 [launcher.src/gl]: https://gitlab.com/veloren/airshipper.git "(GPL-3.0) (Languages: Rust 97.0%, NSIS 1.7%, Nix 1.1%, Shell 0.1%, Dockerfile 0.1%) A cross-platform Veloren launcher."
 [launcher.src/gh]: https://github.com/veloren/airshipper.git "(GPL-3.0) (Languages: Rust 97.0%, NSIS 1.7%, Nix 1.1%, Other 0.2%) The official Veloren launcher! This repository is a mirror. Please submit all PRs and issues on our GitLab page // Veloren 官方启动器！这个存储库是一面镜子。请在我们的 GitLab 页面上提交所有 PR 和问题"
 
+[launcher.cargo/crates.io]: https://crates.io/crates/airshipper "(: cargo install -- airshipper)"
+
 [sponsr]: https://opencollective.com/veloren
