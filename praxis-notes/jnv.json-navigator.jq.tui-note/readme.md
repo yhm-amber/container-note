@@ -2,7 +2,7 @@
 
 [bin/brew]: https://formulae.brew.sh/formula/jnv "(: brew install -- jnv) (: brew install -- ynqa/tap/jnv)"
 [bin/macports]: https://ports.macports.org/port/jnv/ "(: sudo -- port install -- jnv)"
-[bin/nixos]: https://search.nixos.org/packages?query=jnv "(: nix-shell -p jnv)"
+[bin/nixos]: https://search.nixos.org/packages?query=jnv&show=jql "(: nix-shell -p jnv)"
 [bin/crates]: https://crates.io/crates/jnv "(: cargo install -- jnv)"
 
 [knowsby]: https://rustcc.cn/article?id=2d10b6f8-fe51-4a4b-8733-b94131b40c08 "jnv - 超好用的 json 交互查阅工具 /// 已收获近5k星。"
