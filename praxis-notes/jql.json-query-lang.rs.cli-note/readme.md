@@ -4,6 +4,7 @@
 [cli/alpine]: https://pkgs.alpinelinux.org/packages?name=jql "(: apk add -- jql) (:have { ./package/edge/community/x86_64/jql })"
 [cli/brew]: https://formulae.brew.sh/formula/jql "(: brew install -- jql)"
 [cli/crates]: https://crates.io/crates/jql "(: cargo install -- jql) (: cargo binstall -- jql)"
+[cli/nixos]: https://search.nixos.org/packages?show=jql&query=jql "(: nix-shell -p jql)"
 [cli/fedora]: https://packages.fedoraproject.org/pkgs/rust-jql/jql/ "(: dnf install -- jql)"
 
 [knowsby]: https://github.com/01mf02/jaq.git "I drew inspiration from another Rust program, namely jql. However, unlike jql, jaq aims to closely imitate jq's syntax and semantics. This should allow users proficient in jq to easily use jaq. // 我从另一个 Rust 程序 jql 中获得了灵感。然而，与 jql 不同的是，jaq 的目标是紧密模仿 jq 的语法和语义。这应该可以让精通 jq 的用户能够轻松使用 jaq。"
