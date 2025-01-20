@@ -58,7 +58,7 @@
 
 ## Muto Ayaka
 
-[missav list (with some 無修正リーク)](https://missav.com/dm23/ja/actresses/%E6%AD%A6%E8%97%A4%E3%81%82%E3%82%84%E3%81%8B) | [twi.0](https://twitter.com/mutou_ayaka) | [twi.1](https://twitter.com/mutoayaka12/) | [ins](https://instagram.com/mutou_ayaka/) | [wiki](https://ja.wikipedia.org/wiki/%E6%AD%A6%E8%97%A4%E3%81%82%E3%82%84%E3%81%8B) | [livedoor](https://blog.livedoor.jp/mutou_ayaka/) [actress](https://blog.livedoor.jp/dbjam/actress/%E6%AD%A6%E8%97%A4%E3%81%82%E3%82%84%E3%81%8B.html)
+[SUPJAV](https://supjav.com/ja/category/cast/mutou-ayaka) | [missav list (with some 無修正リーク)](https://missav.com/dm23/ja/actresses/%E6%AD%A6%E8%97%A4%E3%81%82%E3%82%84%E3%81%8B) | [twi.0](https://twitter.com/mutou_ayaka) | [twi.1](https://twitter.com/mutoayaka12/) | [ins](https://instagram.com/mutou_ayaka/) | [wiki](https://ja.wikipedia.org/wiki/%E6%AD%A6%E8%97%A4%E3%81%82%E3%82%84%E3%81%8B) | [livedoor](https://blog.livedoor.jp/mutou_ayaka/) [actress](https://blog.livedoor.jp/dbjam/actress/%E6%AD%A6%E8%97%A4%E3%81%82%E3%82%84%E3%81%8B.html)
 
 - [ATID-535 僕は21歳引きこもり無職です。毎日大好きなお母さんに性処理をしてもらっています。 武藤あやか](https://missav.com/dm58/ja/atid-535-uncensored-leak)
 - [NSFS-160 投稿実話 妻がまわされた21 ～セレブ夫婦を襲った悲劇～ 武藤あやか](https://missav.com/dm13/ja/nsfs-160-uncensored-leak) [投稿実話](https://missav.com/ja/series/%E6%8A%95%E7%A8%BF%E5%AE%9F%E8%A9%B1)
@@ -70,6 +70,9 @@
 - [TPIN-064 前略 幼馴染と私は結婚して夏の田舎で種付け中出し生活を過ごしてます。最高の2人暮らし 武藤あやか](https://missav.com/dm2/ja/tpin-064)
 - [JUL-708 焦らして…焦らして…焦らして…焦らして…、最も濡れた瞬間に挿入する愛液グチョグチョ不倫性交。 武藤あやか](https://missav.com/dm39/ja/jul-708-uncensored-leak)
 - [ZMAR-114 まるっと！武藤あやか2](https://missav.com/ja/zmar-114-uncensored-leak)
+- [[モザイク破壊]ATID-535 僕は21歳引きこもり無職です。毎日大好きなお母さんに性処理をしてもらっています。 武藤あやか](https://supjav.com/ja/198155.html)
+- [[モザイク破壊]JUQ-977 密着セックス ～深夜のバーで店長と密会不倫を重ねた私～ 武藤あやか](https://supjav.com/ja/318780.html)
+- [JUL-572 離れられない私たち ～過ちの連鎖に堕ちた愛欲母子相姦～ 武藤あやか](https://supjav.com/ja/316183.html)
 - [ADN-497 軽蔑する夫の上司に声を出せない状況でイカされた人妻エステティシャン 武藤あやか](https://missav.com/dm26/ja/adn-497-uncensored-leak)
 - [SHKD-992 未亡人、哀しみの妊娠報告。 武藤あやか](https://missav.com/dm80/ja/shkd-992-uncensored-leak)
 - [JUL-850 一ヵ月に1度の禁欲逢瀬―。 中出しに溺れゆく遠距離不貞―。 武藤あやか](https://missav.com/dm26/ja/jul-850-uncensored-leak)
