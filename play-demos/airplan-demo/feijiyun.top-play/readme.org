@@ -1,6 +1,6 @@
 [[https://jichang.cfd/#/login?code=j8F2x41k][JiChang CFD]]
 
-非免费为亚太告诉节点。最低一月一元 =50G= ，最高一月三元 =300G= ，以及其它半年与年费。
+非免费为亚太高速节点。最低一月一元 =50G= ，最高一月三元 =300G= ，以及其它半年与年费。
 
 还有免费机场为欧美公共节点： [[https://free.sub.kcjb.org/free][FREE]]
 
