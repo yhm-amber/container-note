@@ -6,6 +6,8 @@
 [missav list (with some 無修正リーク)](https://missav.com/dm23/ja/actresses/%E3%81%8B%E3%81%99%E3%81%BF%E6%9E%9C%E7%A9%82)
 
 - [SHKD-576 脱獄者 かすみ果穂](https://missav.com/ja/shkd-576-uncensored-leak)
+- [PGD-760 犯●れた美人妻 〜夫の目の前で徹底凌●〜 かすみ果穂](https://missav.ai/dm40/ja/pgd-760-uncensored-leak "夫と義弟、3人で平穏な日々を過ごしていた若妻・果穂。しかしある日、果穂が夫の部下にキスをされる現場を見てしまった義弟の中で何かが壊れ、日常は終わりを告げる…かすみ果穂主演で送る、人気凌●シリーズ作！逃げ場の無い自宅での義弟からのレ●プ、羞恥のオナニー、そして夫の目の前での輪●…絶望と屈辱、快感で彩られた、美しきかすみ果穂の痴態をお見逃しなく！") ([m3u8](https://surrit.com/8c2c4270-496a-4772-99f7-fc028cc56488/1920x1080/video.m3u8 "1920 x 1080"))
+- [SHKD-557 私は、あなたに犯●れて…。 かすみ果穂](https://missav.ai/dm2/ja/shkd-557-uncensored-leak "新聞配達業を営む治と妻の礼子（かすみ）。礼子の唯一の気がかりは、従業員の一人、黒田の存在。彼には元妻への傷害事件の過去があり、皆から敬遠されてしまっていた。そんな黒田を不憫に思った礼子は彼に優しく接するが…。") ([m3u8](https://surrit.com/f713d7b8-f932-4d8a-bfe7-1ed8695047bb/1080p/video.m3u8 "1920 x 1080"))
 - [RBD-654 美人妻変態調教 開発されてしまった私のカラダ かすみ果穂](https://missav.com/ja/rbd-654-uncensored-leak)
 - [JUX-517 奪われた兄嫁〜義弟への同情から生まれた姦係〜 かすみ果穂](https://missav.com/dm13/ja/jux-517-uncensored-leak)
 - [MEYD-047 夫の親友に犯●れ感じてしまった私… かすみ果穂](https://missav.com/dm53/ja/meyd-047)
