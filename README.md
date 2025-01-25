@@ -1,6 +1,6 @@
 
 ~~~ md
-note all container (sys) about ... 🐌🐘
+Human save things from world to container ... Here note it. 🐌🐘
 ~~~
 
 repo content: 
