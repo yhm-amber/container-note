@@ -28,5 +28,6 @@
 [janus.src/gh]: https://github.com/deepseek-ai/Janus.git "(MIT, DEEPSEEK-1.0) (Languages: Python 98.5%, Makefile 1.5%) Janus-Series: Unified Multimodal Understanding and Generation Models"
 
 [ios-shortcuts/icloud]: https://www.icloud.com/shortcuts/b75899492ead45ef9a47cfce89334bf0 "深度求索"
+[ollama/ollama]: https://ollama.com/library/deepseek-r1 "(: ollama run deepseek-r1:latest # 0a8c26691023 • 4.7GB) DeepSeek's first-generation of reasoning models with comparable performance to OpenAI-o1, including six dense models distilled from DeepSeek-R1 based on Llama and Qwen."
 
 [twitter]: https://twitter.com/deepseek_ai
