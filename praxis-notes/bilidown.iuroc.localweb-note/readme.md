@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/iuroc/bilidown.git "(Apache-2.0) (Languages: TypeScript 54.5%, Go 44.7%, Other 0.8%) 哔哩哔哩视频解析下载工具，支持 8K 视频、Hi-Res 音频、杜比视界下载、批量解析，可扫码登录，常驻托盘。"
+[base.oci/dockerhub]: https://hub.docker.com/r/iuroc/cgo-cross-build "集成 CGO、Goreleaser 和 osxcross，支持 Linux（amd64）、Windows 和 macOS 编译。 (: docker pull -- iuroc/cgo-cross-build:latest ;: git clone -- https://github.com/iuroc/bilidown.git) (: [交叉编译 Releases] ;: cd bilidown/server ;: docker run --rm -v .:/usr/src/data -- iuroc/cgo-cross-build goreleaser release --snapshot --clean) (: [交互式终端] ;: cd bilidown ;: docker run --rm -it -v .:/usr/src/data -- iuroc/cgo-cross-build)"
+[auth/dockerhub]: https://hub.docker.com/u/iuroc "欧阳鹏 . Community User"
