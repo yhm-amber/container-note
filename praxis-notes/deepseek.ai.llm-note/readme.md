@@ -25,7 +25,7 @@
 [Math/hf]: https://huggingface.co/collections/deepseek-ai/deepseek-math-65f2962739da11599e441681
 [Prover/hf]: https://huggingface.co/collections/deepseek-ai/deepseek-prover-66beb212ae70890c90f24176
 
-
+[janus.src/gh]: https://github.com/deepseek-ai/Janus.git "(MIT, DEEPSEEK-1.0) (Languages: Python 98.5%, Makefile 1.5%) Janus-Series: Unified Multimodal Understanding and Generation Models"
 
 [ios-shortcuts/icloud]: https://www.icloud.com/shortcuts/b75899492ead45ef9a47cfce89334bf0 "深度求索"
 
