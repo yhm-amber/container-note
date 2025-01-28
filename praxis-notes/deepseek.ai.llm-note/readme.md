@@ -1,4 +1,7 @@
 
+[site]: https://deepseek.com/
+[chat/site]: https://chat.deepseek.com/
+[api.plat/site]: https://platform.deepseek.com/
 
 [site/hf]: https://huggingface.co/deepseek-ai "DeepSeek (深度求索), founded in 2023, is a Chinese company dedicated to making AGI a reality. /// Unravel the mystery of AGI with curiosity. Answer the essential question with long-termism."
 [site/gh]: https://github.com/deepseek-ai
