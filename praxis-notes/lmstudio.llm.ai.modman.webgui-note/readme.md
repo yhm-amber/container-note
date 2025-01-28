@@ -15,3 +15,5 @@
 
 [docs/site]: https://lmstudio.ai/docs
 [blog/site]: https://lmstudio.ai/blog
+
+[tur:weight-quantization/mlabonne]: https://towardsdatascience.com/introduction-to-weight-quantization-2494701b9c0c "(gh: mlabonne/llm-course:main Introduction_to_Weight_Quantization.ipynb)"
