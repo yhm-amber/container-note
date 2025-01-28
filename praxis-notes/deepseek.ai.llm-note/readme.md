@@ -28,6 +28,8 @@
 [janus.src/gh]: https://github.com/deepseek-ai/Janus.git "(MIT, DEEPSEEK-1.0) (Languages: Python 98.5%, Makefile 1.5%) Janus-Series: Unified Multimodal Understanding and Generation Models"
 
 [ios-shortcuts/icloud]: https://www.icloud.com/shortcuts/b75899492ead45ef9a47cfce89334bf0 "深度求索"
-[ollama/ollama]: https://ollama.com/library/deepseek-r1 "(: ollama run deepseek-r1:latest # 0a8c26691023 • 4.7GB) DeepSeek's first-generation of reasoning models with comparable performance to OpenAI-o1, including six dense models distilled from DeepSeek-R1 based on Llama and Qwen."
+[r1.ollama/ollama]: https://ollama.com/library/deepseek-r1 "(: ollama run deepseek-r1:latest # 0a8c26691023 • 4.7GB) DeepSeek's first-generation of reasoning models with comparable performance to OpenAI-o1, including six dense models distilled from DeepSeek-R1 based on Llama and Qwen."
+[r1-llama-8b.gguf/lmstudio]: https://lmstudio.ai/model/deepseek-r1-llama-8b "(4.92 GB) (huggingface.co: lmstudio-community/DeepSeek-R1-Distill-Llama-8B-GGUF) DeepSeek R1 distilled into Llama 8B: a powerful reasoning model in a small package"
+[r1-qwen-7b.gguf/lmstudio]: https://lmstudio.ai/model/deepseek-r1-qwen-7b "(4.68 GB) (huggingface.co: lmstudio-community/DeepSeek-R1-Distill-Qwen-7B-GGUF) DeepSeek R1 distilled into Qwen 7B: a powerful reasoning model in a small package"
 
 [twitter]: https://twitter.com/deepseek_ai
