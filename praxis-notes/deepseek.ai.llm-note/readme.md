@@ -37,6 +37,10 @@ Janusflow 推出了一种简约的体系结构，该体系结构将自回归语�
 [janus.paper/arxiv]: https://arxiv.org/abs/2410.13848 "Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation // Janus: 将视觉编码解耦，以进行统一的多模态理解和生成"
 [janusflow.paper/arxiv]: https://arxiv.org/abs/2411.07975 "JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation // Janusflow: 统一自动化和整流流程，以进行统一的多模态理解和生成"
 
+[Janus-Pro-7B.show/hf]: https://huggingface.co/spaces/deepseek-ai/Janus-Pro-7B
+[Janus-1.3B.show/hf]: https://huggingface.co/spaces/deepseek-ai/Janus-1.3B
+[JanusFlow-1.3B.show/hf]: https://huggingface.co/spaces/deepseek-ai/JanusFlow-1.3B
+
 [ios-shortcuts/icloud]: https://www.icloud.com/shortcuts/b75899492ead45ef9a47cfce89334bf0 "深度求索"
 [r1.ollama/ollama]: https://ollama.com/library/deepseek-r1 "(: ollama run deepseek-r1:latest # 0a8c26691023 • 4.7GB) DeepSeek's first-generation of reasoning models with comparable performance to OpenAI-o1, including six dense models distilled from DeepSeek-R1 based on Llama and Qwen."
 [r1-llama-8b.gguf/lmstudio]: https://lmstudio.ai/model/deepseek-r1-llama-8b "(4.92 GB) (huggingface.co: lmstudio-community/DeepSeek-R1-Distill-Llama-8B-GGUF) DeepSeek R1 distilled into Llama 8B: a powerful reasoning model in a small package"
