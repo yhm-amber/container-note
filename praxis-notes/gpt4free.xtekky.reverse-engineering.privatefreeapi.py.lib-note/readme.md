@@ -1,0 +1,4 @@
+[g4f.src/gh]: https://github.com/xtekky/gpt4free.git "(GPL-3.0) (Languages: Python 84.4%, JavaScript 9.8%, HTML 3.2%, CSS 2.5%, Other 0.1%) The official gpt4free repository | various collection of powerful language models | gpt-4o and deepseek v3 & r1 // 官方的 GPT4Free 存储库 | 各种强大的语言模型集合 | GPT-4O 和 DeepSeek V3 & R1"
+[g4f.pip/pypi]: https://pypi.org/project/g4f/ "(: pip install -U -- g4f[all])"
+[g4f.oci/pypi]: https://hub.docker.com/r/hlohaus789/g4f '(: docker pull -- hlohaus789/g4f) (: docker run -it -p 8080:8080 -p 1337:1337 -p 7900:7900 --shm-size="2g" -v ${PWD}/har_and_cookies:/app/har_and_cookies -v ${PWD}/generated_images:/app/generated_images -- hlohaus789/g4f:latest) (: docker run -p 1337:1337 -v ${PWD}/har_and_cookies:/app/har_and_cookies -v ${PWD}/generated_images:/app/generated_images -- hlohaus789/g4f:latest-slim python -m g4f.cli api --gui --debug)'
+[g4f.show/hf]: https://huggingface.co/spaces/roxky/g4f
