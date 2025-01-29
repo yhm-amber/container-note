@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/xtekky/deepseek4free.git "(MIT) (Languages: Python 100.0%) Deepseek V3 and R1 private API, deep thinking, search, full requests. pow challenge reversed. deepseek api. // DeepSeek V3 和 R1 私人 API ，深思熟虑，搜索，完整请求。战俘挑战反转。 DeepSeek API 。"
