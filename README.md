@@ -1,6 +1,6 @@
 
 ~~~ md
-Human save things from world to container ... Here note it. 🐌🐘
+Human save things from world to container ... Here to note it. 🐌🐘
 ~~~
 
 repo content: 
