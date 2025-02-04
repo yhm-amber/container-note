@@ -3,6 +3,7 @@
 
 [site]: https://delta.chat/ "Delta Chat，去中心化的安全聊天软件"
 [servers/site]: https://delta.chat/chatmail "Chatmail 服务器为 Delta Chat 优化，提供保护隐私且快速的用户体验，与 Chatmail 和传统电子邮件服务器安全互操作。点击 Chatmail 服务器链接 查看主页，然后点击那里的 QR 邀请码"
+[mails/site]: https://providers.delta.chat/ "这里有不同邮件服务（即数据存储提供方）的测试"
 [bots/site]: https://bots.delta.chat/ "A Delta Chat bot only needs a running computer and a network connection. That might be a server in a data center, your laptop, or a raspberry pi at home. Most bots don’t even need a publicly reachable IP-address or port. // Delta Chat Bot只需要运行的计算机和网络连接。这可能是数据中心，您的笔记本电脑或Raspberry Pi的服务器。大多数机器人甚至不需要公开访问的IP地址或端口。 /// The bot doesn’t even have to be connected all the time. It obviously can’t read or send messages while offline, but it will resume doing so every time its connectivity is back. // 该机器人甚至不必一直连接。显然，它在离线时无法读取或发送消息，但是每次连接又回来时会恢复。"
 
 [core.rs.src/gh]: https://github.com/deltachat/deltachat-core-rust.git "(MPL-2.0) (Languages: Rust 76.4%, Python 10.4%, C 7.7%, TypeScript 1.7%, DIGITAL Command Language 1.3%, JavaScript 1.2%, Other 1.3%) Delta Chat Rust Core library, used by Android/iOS/desktop apps, bindings and bots 📧"
