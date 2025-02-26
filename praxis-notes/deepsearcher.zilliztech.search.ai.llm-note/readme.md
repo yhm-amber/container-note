@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/zilliztech/deep-searcher.git "(Apache-2.0) (Languages: Python 99.9%, Makefile 0.1%) Open Source Deep Research Alternative to Reason and Search on Private Data. Written in Python. // 开源深度研究替代方案：在私有数据上替代 Reason 和 Search。用 Python 编写。"
