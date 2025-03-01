@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/fish-shell/fish-shell.git "(GPL-2.0, LGPL-2.0, MIT) (Languages: Rust 71.4%, Shell 19.5%, Python 5.8%, CMake 1.4%, JavaScript 0.5%, HTML 0.5%, Other 0.9%) The user-friendly command line shell. // 用户友好的命令行外壳。"
+[site]: https://fishshell.com/ "fish is a smart and user-friendly command line shell for Linux, macOS, and the rest of the family. // 鱼是一款智能且用户友好的 Linux、macOS 及其它系统的命令行外壳。"
