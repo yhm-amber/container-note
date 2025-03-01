@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/jamsocket/forevervm.git "(MIT) (Languages: Rust 42.7%, TypeScript 33.8%, Python 13.7%, JavaScript 9.8%) Securely run AI-generated code in stateful sandboxes that run forever. // 安全运行在永久运行的具有状态沙盒中的 AI 生成代码。"
+[site]: https://forevervm.com/ " The sessionless code interpreter // 无会话代码解释器 /// Securely run AI-generated code in stateful sandboxes that run forever. // 安全运行在永久运行的具有状态沙盒中的 AI 生成代码。"
