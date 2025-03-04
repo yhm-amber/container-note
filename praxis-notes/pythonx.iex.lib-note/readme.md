@@ -1,0 +1,4 @@
+[knowsby]: https://samrat.me/running-ml-models-in-elixir-using-pythonx/ "I just discovered Pythonx, which runs a Python interpreter in the same OS process as Elixir. // 我刚刚发现了 Pythonx，它可以在与 Elixir 相同的操作系统进程中运行 Python 解释器。 /// Looks like it also wraps uv so it sets up a virtual environment with all the Python dependencies your code needs. // 看起来它还包装了 uv，因此它会设置一个包含你代码所需所有 Python 依赖项的虚拟环境。"
+[.livebook.src/gh]: https://github.com/livebook-dev/pythonx.git "(Apache-2.0) (Languages: C++ 48.1%, Elixir 46.8%, Python 4.5%, Makefile 0.6%) Python interpreter embedded in Elixir // 嵌入在 Elixir 中的 Python 解释器"
+[.cocoa-xu.src/gh]: https://github.com/cocoa-xu/pythonx.git "(Apache-2.0) (Languages: Elixir 60.2%, C++ 35.0%, CMake 2.1%, Shell 1.4%, Makefile 1.3%) Python Interpreter in Elixir"
+[pkg/hex.pm]: https://hexdocs.pm/pythonx/Pythonx.html '(: Mix.install([{:pythonx, "~> 0.4.2"}]))'
