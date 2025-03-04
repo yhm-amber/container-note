@@ -4,3 +4,5 @@
 [demo/OpenDataLab]: https://mineru.net/OpenSourceTools/Extractor
 [demo/huggingface]: https://huggingface.co/spaces/opendatalab/MinerU
 [demo/modelscope]: https://modelscope.cn/studios/OpenDataLab/MinerU
+
+[model/hf]: https://huggingface.co/kitjesen/MinerU "这个模型可以将PDF文档转换为Markdown格式。"
