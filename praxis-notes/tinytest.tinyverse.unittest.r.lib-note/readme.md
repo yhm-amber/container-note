@@ -4,5 +4,5 @@
 [doi]: https://doi.org/10.32614/CRAN.package.tinytest
 
 [org.site]: https://tinyverse.org/ "Lightweight is the right weight // 轻就对啦"
-[org.intro/pacs:vignettes/cran]: https://cran.r-project.org/web/packages/pacs/vignettes/tinyverse.html
+[org.intro/pacs:vignettes/cran]: https://cran.r-project.org/web/packages/pacs/vignettes/tinyverse.html "The tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures. On the other hand, the tinyvere is only a R community movement that is trying to make a new programming standard. There is no tinyverse package collection; any package which has less than 5 direct dependencies (in the Depends/Imports/LinkingTo fields) are treated as a decent one. The best is to have zero dependencies. Even tidyverse looks to go toward tinyverse if we check their lower-level packages like purrr, forcats, renv or rlang. // tidyverse 是一个针对数据科学的 R 包的具有偏见的集合。所有包都共享一个基本的设计理念、语法和数据结构。另一方面， tinyvere 只是一个 R 社区运动，试图制定一个新的编程标准。没有 tinyverse 包集合；任何在 Depends / Imports / LinkingTo 字段中具有少于 5 个直接依赖项的包都被视为一个不错的包。最好是零依赖。即使 tidyverse 也倾向于走向 tinyverse ，只要你检查它们的底层包如 purrr 、 forcats 、 renv 或 rlang 。"
 
