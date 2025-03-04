@@ -2,3 +2,7 @@
 [package/cran]: https://cran.r-project.org/web/packages/tinytest/ "(Version:	1.4.1) (Depends:	R (≥ 3.0.0)) (Imports:	parallel, utils) (Published:	2023-02-22) (DOI:	10.32614/CRAN.package.tinytest) (Author:	Mark van der Loo ORCID iD [aut, cre]) (Maintainer:	Mark van der Loo <mark.vanderloo at gmail.com>) (License:	GPL-3) (NeedsCompilation:	no) tinytest: Lightweight and Feature Complete Unit Testing Framework // 轻量级且功能完整的单元测试框架 /// Provides a lightweight (zero-dependency) and easy to use unit testing framework. Main features: install tests with the package. Test results are treated as data that can be stored and manipulated. Test files are R scripts interspersed with test commands, that can be programmed over. Fully automated build-install-test sequence for packages. Skip tests when not run locally (e.g. on CRAN). Flexible and configurable output printing. Compare computed output with output stored with the package. Run tests in parallel. Extensible by other packages. Report side effects. // 提供轻量级（零依赖）且易于使用的单元测试框架。主要功能：与包一起安装测试。测试结果被视为可存储和操作的数据。测试文件是穿插测试命令的 R 脚本，可进行编程。为包提供全自动的构建-安装-测试序列。在本地不运行时跳过测试（例如在 CRAN 上）。灵活且可配置的输出打印。将计算出的输出与存储在包中的输出进行比较。并行运行测试。可由其他包扩展。报告副作用。"
 
 [doi]: https://doi.org/10.32614/CRAN.package.tinytest
+
+[org.site]: https://tinyverse.org/ "Lightweight is the right weight // 轻就对啦"
+[org.intro/pacs:vignettes/cran]: https://cran.r-project.org/web/packages/pacs/vignettes/tinyverse.html
+
