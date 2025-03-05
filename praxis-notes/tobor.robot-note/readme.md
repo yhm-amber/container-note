@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/evezor/tobor_v00.git "(CERN-OHL-P-2.0 license) (Languages: Python 66.9%, JavaScript 29.3%, CSS 2.2%, HTML 1.6%) Tobor (robot spelled backwards), was built to be the most versatile open-source robotics system // Tobor（倒过来拼写为 robot），被构建成最通用的开源机器人系统"
