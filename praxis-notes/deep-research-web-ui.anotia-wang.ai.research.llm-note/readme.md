@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/AnotiaWang/deep-research-web-ui.git "(MIT) (Languages: Vue 54.8%, TypeScript 40.7%, JavaScript 3.6%, Other 0.9%) (Supports DeepSeek R1) An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models. // (支持 DeepSeek R1) 一款由人工智能驱动的科研助手，通过结合搜索引擎、网络爬虫和大型语言模型，对任何主题进行迭代、深度研究。"
+[demo]: https://deep-research.ataw.top/ "Deep Research 是  dzhng/deep-research  的可视化 UI，可以让 AI 根据特定问题联网搜索并自行深挖，并输出研究报告。 /// 本项目可以流式传输 AI 的回答来实时反馈，并使用树状结构可视化搜索过程。 /// 全部 API 请求都在浏览器本地完成。"
