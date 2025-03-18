@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/PrimalZed/CloudSync.git "(GPL-3.0) (Languages: C# 100.0%) Sync Windows directory with remote directory using Windows Cloud Files API // 使用 Windows Cloud Files API 同步 Windows 目录与远程目录"
