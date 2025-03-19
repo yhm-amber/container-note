@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/deepshit2025/tuboshu.git "(Languages: Vue 47.4%, JavaScript 46.1%, CSS 4.7%, HTML 1.8%) Transform Your Favorite Websites into Seamless Desktop Experiences✨! // 把常用的网站集合到一个桌面程序里。 (基于 Electron ，支持账户多开。)"
