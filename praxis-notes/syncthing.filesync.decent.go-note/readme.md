@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/syncthing/syncthing.git "(MPL-2.0) (Languages: Go 82.6%, HTML 6.8%, JavaScript 5.4%, TypeScript 2.6%, Shell 1.7%, CSS 0.7%, Other 0.2%)"
+[site]: https://syncthing.net/ "Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Your data is your data alone and you deserve to choose where it is stored, whether it is shared with some third party, and how it’s transmitted over the internet. // Syncthing 是一个持续文件同步程序。它实时同步两台或多台计算机之间的文件，安全地保护免受窥探。您的数据属于您自己，您有权选择其存储位置、是否与第三方共享以及如何通过互联网传输。"
+[docs]: https://docs.syncthing.net/
