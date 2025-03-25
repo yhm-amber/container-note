@@ -1,0 +1,4 @@
+[src/gh]: https://github.com/marimo-team/marimo.git "(Apache-2.0) (Languages: Python 59.7%, TypeScript 37.8%, CSS 1.2%, HTML 0.8%, JavaScript 0.3%, MDX 0.1%, Other 0.1%) A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. All in a modern, AI-native editor. // 一个适用于 Python 的响应式笔记本——运行可重复的实验、使用 SQL 查询、作为脚本执行、作为应用程序部署，并使用 git 进行版本控制。所有这些都在一个现代、AI 原生编辑器中完成。"
+[site]: https://marimo.io/ "The future of Python notebooks // Python 笔记本的未来 /// marimo is an open-source reactive notebook for Python — reproducible, git-friendly, SQL built-in, executable as a script, and shareable as an app. // marimo 是一个开源的 Python 反应式笔记本 — 可重复、Git 友好、内置 SQL、可作为脚本执行，并可作为应用程序分享。"
+
+[pip/pypi]: https://pypi.org/project/marimo/ "(: pip install -- marimo &&: marimo tutorial intro)"
