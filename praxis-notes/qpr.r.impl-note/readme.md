@@ -3,3 +3,6 @@
 [src/gh]: https://github.com/radfordneal/pqR.git "(GPL-2.0) (Languages: C 52.1%, R 23.4%, Fortran 22.0%, Tcl 0.8%, TeX 0.7%, C++ 0.6%, Other 0.4%) pqR - a \"pretty quick\" version of R"
 [oci.src/gh]: https://github.com/nuest/pqr-docker.git "(GPL-3.0) (Languages: Dockerfile 90.0%, Shell 10.0%) Pretty Quick R on Docker"
 [oci/dockerhub]: https://hub.docker.com/r/nuest/pqr "(: docker run -it --rm -- nuest/pqr)"
+
+
+[knowsby]: https://glizen.com/radfordneal/ftp/pqR-guelph.pdf
