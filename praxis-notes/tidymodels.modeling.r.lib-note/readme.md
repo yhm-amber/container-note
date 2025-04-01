@@ -5,3 +5,7 @@
 
 
 
+[knows.by]: https://spark.posit.co/guides/tidymodels.html "tidymodels is a collection of packages for modeling and machine learning. Just like sparklyr, tidymodels uses tidyverse principles. // tidymodels 是用于建模和机器学习的包集合。就像 sparklyr 一样， tidymodels 使用 tidyverse 原则。"
+
+
+
