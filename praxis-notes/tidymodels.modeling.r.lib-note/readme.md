@@ -11,6 +11,19 @@
 [parsnip:models/site]: https://tidymodels.org/find/parsnip/ "Search parsnip models // 搜索胡萝卜模型 /// Find model types, engines, and arguments to fit and predict in the tidymodels framework. // 查找适合在 tidymodels 框架中进行拟合和预测的模型类型、引擎和参数。"
 
 
+[corrr.src/gh]: https://github.com/tidymodels/corrr.git "(YEAR: 2016, COPYRIGHT HOLDER: Simon Jackson) (Languages: R 54.2%, HTML 45.8%) Explore correlations in R // 探索 R 中的相关性"
+[corrr.site]: https://corrr.tidymodels.org/ "corrr is a package for exploring correlations in R. It focuses on creating and working with data frames of correlations (instead of matrices) that can be easily explored via corrr functions or by leveraging tools like those in the tidyverse. // corrr 是一个用于在 R 中探索相关性的包。它专注于创建和使用相关性数据框（而不是矩阵），这些数据框可以通过 corrr 函数或利用 tidyverse 等工具轻松探索。"
+
+[corrr.package/cran]: https://cran.r-project.org/web/packages/corrr/ "(Version: 	0.4.4) (Depends: 	R (≥ 3.4)) (Imports: 	dplyr (≥ 1.0.0), ggplot2 (≥ 2.2.0), ggrepel (≥ 0.6.5), glue (≥ 1.4.2), purrr (≥ 0.2.2), rlang (≥ 0.4.0), seriation (≥ 1.2-0), tibble (≥ 2.0)) (Suggests: 	covr, DBI, dbplyr (≥ 1.2.1), knitr (≥ 1.13), rmarkdown (≥ 0.9.6), RSQLite, sparklyr (≥ 0.9), testthat (≥ 3.0.0)) (Published: 	2022-08-16) (DOI: 	10.32614/CRAN.package.corrr) (Author: 	Max Kuhn [aut, cre], Simon Jackson [aut], Jorge Cimentada [aut]) (Maintainer: 	Max Kuhn <max at rstudio.com>) (License: 	MIT + file LICENSE) (NeedsCompilation: 	no) corrr: Correlations in R // corrr: R 中的相关性 /// A tool for exploring correlations. It makes it possible to easily perform routine tasks when exploring correlation matrices such as ignoring the diagonal, focusing on the correlations of certain variables against others, or rearranging and visualizing the matrix in terms of the strength of the correlations. // 一个用于探索相关性的工具。它使得在探索相关性矩阵时轻松执行常规任务成为可能，例如忽略对角线、关注某些变量与其他变量的相关性，或根据相关性的强度重新排列和可视化矩阵。"
+
+
+
+
+
+
+
+
+
 [knows.by]: https://spark.posit.co/guides/tidymodels.html "tidymodels is a collection of packages for modeling and machine learning. Just like sparklyr, tidymodels uses tidyverse principles. // tidymodels 是用于建模和机器学习的包集合。就像 sparklyr 一样， tidymodels 使用 tidyverse 原则。"
 
 
