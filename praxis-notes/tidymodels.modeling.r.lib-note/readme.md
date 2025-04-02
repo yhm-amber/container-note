@@ -11,6 +11,15 @@
 [parsnip:models/site]: https://tidymodels.org/find/parsnip/ "Search parsnip models // 搜索胡萝卜模型 /// Find model types, engines, and arguments to fit and predict in the tidymodels framework. // 查找适合在 tidymodels 框架中进行拟合和预测的模型类型、引擎和参数。"
 
 
+
+[workflow.src/gh]: https://github.com/tidymodels/workflows.git "(MIT) (Languages: R 100.0%) Modeling Workflows // 建模工作流程"
+
+[workflow.site]: https://workflows.tidymodels.org/ "(类似于函数的组合器一样。可按照符合理解的层次组装相关联的数据，但在底层仍按照它们实际需要的顺序执行。)"
+
+[workflow.package/cran]: https://cran.r-project.org/web/packages/workflows/ "(Version: 	1.2.0) (Depends: 	R (≥ 4.0)) (Imports: 	cli (≥ 3.3.0), generics (≥ 0.1.2), glue (≥ 1.6.2), hardhat (≥ 1.4.1), lifecycle (≥ 1.0.3), modelenv (≥ 0.1.0), parsnip (≥ 1.3.0), recipes (≥ 1.1.1), rlang (≥ 1.1.0), tidyselect (≥ 1.2.0), sparsevctrs (≥ 0.2.0), vctrs (≥ 0.4.1), withr) (Suggests: 	butcher (≥ 0.2.0), covr, dials (≥ 1.0.0), glmnet, knitr, magrittr, Matrix, methods, modeldata (≥ 1.0.0), probably, rsample, rmarkdown, testthat (≥ 3.0.0)) (Published: 	2025-02-19) (DOI: 	10.32614/CRAN.package.workflows) (Author: 	Davis Vaughan [aut], Simon Couch ORCID iD [aut, cre], Posit Software, PBC [cph, fnd]) (Maintainer: 	Simon Couch <simon.couch at posit.co>) (License: 	MIT + file LICENSE) (NeedsCompilation: 	no) workflows: Modeling Workflows // 工作流程：建模工作流程 /// Managing both a 'parsnip' model and its data preparation steps, such as a model formula or recipe from 'recipes', can often be challenging. The goal of 'workflows' is to streamline this process by bundling the model with its data preparation, all within the same object. // 管理一个 'parsnip' 模型及其数据准备步骤，例如来自 'recipes' 的模型公式或配方，通常具有挑战性。'workflows' 的目标是通过对模型及其数据准备进行捆绑，在同一对象中简化此过程。"
+
+
+
 [corrr.src/gh]: https://github.com/tidymodels/corrr.git "(YEAR: 2016, COPYRIGHT HOLDER: Simon Jackson) (Languages: R 54.2%, HTML 45.8%) Explore correlations in R // 探索 R 中的相关性"
 [corrr.site]: https://corrr.tidymodels.org/ "corrr is a package for exploring correlations in R. It focuses on creating and working with data frames of correlations (instead of matrices) that can be easily explored via corrr functions or by leveraging tools like those in the tidyverse. // corrr 是一个用于在 R 中探索相关性的包。它专注于创建和使用相关性数据框（而不是矩阵），这些数据框可以通过 corrr 函数或利用 tidyverse 等工具轻松探索。"
 
