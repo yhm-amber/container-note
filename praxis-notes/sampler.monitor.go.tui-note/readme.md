@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/sqshq/sampler.git "(GPL-3.0) (Languages: Go 99.7%, Dockerfile 0.3%) Tool for shell commands execution, visualization and alerting. Configured with a simple YAML file. // 工具用于执行、可视化和警报 shell 命令。通过简单的 YAML 文件进行配置。 /// Sampler. Visualization for any shell command. // 采样器。任何 shell 命令的可视化。 /// Sampler is a tool for shell commands execution, visualization and alerting. Configured with a simple YAML file. // 采样器是一个用于执行、可视化和警报 shell 命令的工具。通过简单的 YAML 文件进行配置。"
+[site]: https://sampler.dev/
