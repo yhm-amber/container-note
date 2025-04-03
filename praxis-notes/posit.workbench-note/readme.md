@@ -1,0 +1,3 @@
+[.optmi:nfs-readahead-15mb/posit]: https://docs.posit.co/posit-team/index.html#setting-the-read_ahead_kb-size-to-15-mb "Setting the read_ahead_kb size to 15 MB /// Linux kernels (5.4.*) use a read_ahead_kb of 128 KB, however the AWS docs recommend 15 MB"
+[.optmi:nfs-readahead-15mb/aws]: https://docs.aws.amazon.com/zh_cn/efs/latest/ug/performance.html#efs-perf-optimize-nfs-read-ahead "NFS read_ahead_kb 属性定义了 Linux 内核在顺序读取操作期间要提前读取或预取的千字节数。 // 对于 5.4.* 之前的 Linux 内核版本，read_ahead_kb 值是通过 NFS_MAX_READAHEAD 乘以 rsize（挂载选项中设置的客户端配置的读取缓冲区大小）的值来设置的。使用推荐的挂载选项时，此公式将 read_ahead_kb 设置为 15 MB。"
+[.optmi:nfs-readahead-15mb.more/aws]: https://docs.aws.amazon.com/zh_cn/efs/latest/ug/mounting-fs-mount-cmd-general.html "Linux 的挂载注意事项"
