@@ -3,3 +3,8 @@
 [pkg/crates]: https://crates.io/crates/dua-cli "(: cargo install -- dua-cli)"
 [pkg/x-cmd]: https://www.x-cmd.com/pkg/dua "(: x env use -- dua)"
 [pkg/brew]: https://formulae.brew.sh/formula/dua-cli "(: brew install -- dua-cli)"
+
+[author:github]: https://github.com/Byron "Sebastian Thiel | 🇨🇳 Working from home"
+[author:email]: mailto:sebastian.thiel@icloud.com
+[author:keybase]: https://keybase.io/byronbates
+[author:twitter]: https://twitter.com/theelbasian
