@@ -2,3 +2,5 @@
 
 [pkg/crates]: https://crates.io/crates/diskonaut "(: cargo install -- diskonaut)"
 [pkg/brew]: https://formulae.brew.sh/formula/diskonaut "(: brew install -- diskonaut)"
+
+[knowsby]: https://dev.yorhel.nl/ncdu "Similar projects -- There’s no shortage of alternatives to ncdu nowadays. In no particular order: diskonaut - TUI, Rust, treemap."
