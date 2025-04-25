@@ -8,3 +8,5 @@
 [author:email]: mailto:sebastian.thiel@icloud.com
 [author:keybase]: https://keybase.io/byronbates
 [author:twitter]: https://twitter.com/theelbasian
+
+[knowsby]: https://dev.yorhel.nl/ncdu "Similar projects -- There’s no shortage of alternatives to ncdu nowadays. In no particular order: dua - CLI, Rust."
