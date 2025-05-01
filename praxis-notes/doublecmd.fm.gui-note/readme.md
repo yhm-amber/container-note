@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/doublecmd/doublecmd.git "(GPL-2.0) (Languages: Pascal 96.4%, Assembly 2.0%, HTML 0.6%, Shell 0.4%, C++ 0.2%, C 0.2%, Other 0.2%) Double Commander is a free cross platform open source file manager with two panels side by side. // 双命令是一个自由的跨平台开源文件管理器，具有两个并排的面板。"
+[site]: https://doublecmd.sourceforge.io/ " Double Commander is a free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features new ideas. // Double Commander 是一个自由的跨平台开源文件管理器，具有两个并排的面板。它受到 Total Commander 的启发，并具有新想法。"
