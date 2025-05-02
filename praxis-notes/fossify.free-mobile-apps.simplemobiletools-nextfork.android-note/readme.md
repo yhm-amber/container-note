@@ -34,6 +34,6 @@
 [voicerecorder.apk/f-droid]: https://f-droid.org/packages/org.fossify.voicerecorder/ "(9 MiB) (GPL-3.0 ONLY) Record anything with this Open-source and Ad-free recorder // 使用这款开源且无广告的录音机录制任何内容"
 [voicerecorder.src/gh]: https://github.com/FossifyOrg/Voice-Recorder.git "(GPL-3.0) (Languages: Kotlin 99.2%, Ruby 0.8%) An easy way of recording any discussion or sounds without ads or internet access // 一种录制任何讨论或声音的简单方法，无需广告或互联网访问"
 
-
-
+[notes.apk/f-droid]: https://f-droid.org/packages/org.fossify.notes/ "(8.9 MiB) (GPL-3.0 ONLY) To do list widget with a notebook organizer, checklist, simple shopping list // 待办事项列表微件，带有笔记本管理器、清单和简单购物清单"
+[notes.src/gh]: https://github.com/FossifyOrg/Notes.git "(GPL-3.0 ONLY) (Languages: Kotlin 99.6%, Ruby 0.4%) A simple text field for adding quick notes without ads. // 一个简单的文本场所，用于无广告地添加快速记注。"
 
