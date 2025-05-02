@@ -1,0 +1,2 @@
+[apk/f-droid]: https://f-droid.org/packages/cn.rbc.termuc/ "(163 KiB) (GPL-3.0 OR LATER) TermuC is a simple C/C++ IDE backed on powerful Termux. Install Termux first and install clang in Termux to supply the compiler and language server. // TermuC 是一个基于强大 Termux 的简单 C/C++ IDE。请先安装 Termux，然后在 Termux 中安装 clang 以提供编译器和语言服务器。"
+[src/gh]: https://github.com/RainbowC0/TermuC.git "(GPL-3.0) (Languages: Java 100.0%) A simple C/C++ IDE for Android, backed on powerfull Termux"
