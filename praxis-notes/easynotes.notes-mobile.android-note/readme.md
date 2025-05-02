@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/Kin69/EasyNotes.git "(GPL-3.0) (Languages: Kotlin 100.0%) EasyNotes: Jetpack Compose MVVM for seamless note-taking. Effortless creation, editing, and organization. // EasyNotes: Jetpack Compose MVVM 实现无缝笔记。轻松创建、编辑和组织。"
+[app.apk/f-droid]: https://f-droid.org/packages/com.kin.easynotes/ "(3.4 MiB) (GPL-3.0 OR LATER) Private, Material, Markdown supported notes app. // 隐私、贴纸风格、支持 Markdown 的笔记应用。"
