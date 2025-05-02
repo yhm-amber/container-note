@@ -12,3 +12,5 @@
 [cell.src/sr]: https://gitweb.stoutner.com/?p=PrivacyCell.git;a=summary "(: git clone -- https://git.stoutner.com/PrivacyCell.git)"
 
 [mastodon]: https://fosstodon.org/@privacybrowser
+
+[knowsby]: https://codeberg.org/monocles/monocles_browser.git "(GPL-3.0) (HTML 63.8%, Kotlin 36.1%) Release of the monocles browser. A open source privacy respecting android browser. Based on the privacy browser by Soren Stoutner. // 单眼镜浏览器发布。一个尊重隐私的开源安卓浏览器。基于 Soren Stoutner 的隐私浏览器。"
