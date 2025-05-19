@@ -1,0 +1,3 @@
+[docs/gitbook/watfaq]: https://watfaq.gitbook.io/clashrs-user-manual "ClashRS is a network proxy software that you can use to control how you want to divert your internet traffic through different proxy servers with flexible rules and multiple different supported outbound protocols. // ClashRS 是一款网络代理软件，您可以使用它通过不同的代理服务器，使用灵活的规则和多种不同的支持出站协议来控制您想要如何分流您的互联网流量。"
+[oci/ghcr]: https://github.com/Watfaq/clash-rs/pkgs/container/clash-rs "(: docker pull -- ghcr.io/watfaq/clash-rs)"
+[src/gh]: https://github.com/Watfaq/clash-rs.git "(Apache-2.0) (Languages: Rust 99.2%, Other 0.8%) custom protocol network proxy"
