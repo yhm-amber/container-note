@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/xwmx/nb.git "(AGPL-3.0) (Languages: Shell 99.5%, Other 0.5%) CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script. // CLI 和本地网页纯文本笔记、书签和存档，带链接、标签、筛选、搜索、Git 版本控制和同步、Pandoc 转换等功能，全部集成在一个便携式脚本中。"
