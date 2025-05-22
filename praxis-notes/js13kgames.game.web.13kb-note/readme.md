@@ -22,6 +22,11 @@
 [ghosted:forkfrom.src/gh]: https://github.com/jani-nykanen/ghosted.git "(MIT) (Languages: TypeScript 97.4%, Python 1.4%, Other 1.2%) A puzzle game for js13k 2024."
 
 
+[path-to-glory.webapp/play]: https://play.js13kgames.com/path-to-glory/ '"这是一款制作精良的格斗游戏，拥有令人印象深刻的操作手感与战斗体验。你将扮演一名孤独的士兵，迎战一波又一波的敌人，直至最终 Boss 登场。" "游戏细节丰富：角色进入水中会被减速，风、雨、摇曳的草丛与闪电等环境元素为战场增添了沉浸感。击败敌人时的慢动作特写，更是令人热血沸腾。视野范围的控制机制也极为实用，尤其适合 2D 动作砍杀类 roguelike 游戏，令人回味无穷。"'
+[path-to-glory.src/gh]: https://github.com/js13kGames/path-to-glory.git "(MIT) (Languages: JavaScript 97.3%, HTML 2.2%, Other 0.5%) Path to Glory - a js13kGames 2023 competition entry by @remvst. (This repository was archived by the owner on Sep 6, 2024. It is now read-only.)"
+[path-to-glory:forkfrom.src/gh]: https://github.com/remvst/knight.git "(MIT) (Languages: JavaScript 97.3%, HTML 2.2%, Other 0.5%) My entry for 2023's js13k competition /// Path To Glory is my entry for 2023's JS13K. The theme for the competition was 13th century. /// The game is a historically inaccurate beat 'em up where you fight waves of enemies until you reach the final boss. /// You can play the game at https://glory.tap2play.io/"
+[path-to-glory.webapp/tap2play.io]: https://glory.tap2play.io/
+
 
 
 
