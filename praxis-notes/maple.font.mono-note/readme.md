@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/subframe7536/maple-font.git "(OFL-1.1) (Languages: Python 99.8%, Dockerfile 0.2%) Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美 2:1 ，细粒度的自定义选项"
+[site]: https://font.subf.dev/ "Maple Mono /// Smooth your coding flow /// 我们用代码将创意构筑成产品，而字体如同旅途中沉默的基石，熟视无睹，却塑造着每天编码的体验。Maple Mono 专为极客匠心打造，它以一种内敛的优雅，提升您的工作效率，让您在阅读和编写每一行代码时都能感受到丝滑和愉悦。"
+[play]: https://font.subf.dev/zh-cn/playground/
