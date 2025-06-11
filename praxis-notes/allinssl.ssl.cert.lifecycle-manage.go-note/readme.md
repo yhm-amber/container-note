@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/allinssl/allinssl.git "(AGPL-3.0) (Languages: TypeScript 51.5%, Go 25.4%, Shell 14.5%, JavaScript 5.8%, CSS 2.7%, HTML 0.1%) AllinSSL 是一个集证书申请、管理、部署和监控于一体的SSL证书全生命周期管理工具。AllinSSL is an all-in-one SSL certificate lifecycle management tool that integrates certificate application, management, deployment, and monitoring."
+[site]: https://allinssl.com/ "All in SSL /// 开源免费的 SSL 证书自动化管理平台 /// 一键自动化申请、续期、部署、监控所有 SSL/TLS 证书，支持跨云环境和多 CA (coding~)，告别繁琐配置和高昂费用。"
