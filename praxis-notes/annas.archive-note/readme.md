@@ -1,0 +1,1 @@
+[site]: https://annas-archive.org/ "📚 The largest truly open library in human history. ⭐️ We mirror Sci-Hub and LibGen. We scrape and open-source Z-Lib, DuXiu, and more. Learn more… // 📚 人类历史上规模最大的真正开放图书馆。⭐️ 我们镜像 Sci-Hub 和 LibGen。我们抓取并开源 Z-Lib、DuXiu 等。了解更多……"
