@@ -1,0 +1,2 @@
+[knows.by]: https://mattferraro.dev/posts/cadmium "Thankfully, there is a new open-source b-rep kernel being developed right now called Truck! Unlike every other b-rep kernel, this one is modern and it is written is Rust. // 幸运的是，目前正在开发一个名为 Truck 的新开源 b-rep 内核！与所有其他 b-rep 内核不同，这个内核是现代的，并且是用 Rust 编写的。"
+[src/gh]: https://github.com/ricosjp/truck.git "(Apache-2.0) (Languages: Rust 97.0%, WGSL 2.1%, Other 0.9%) Truck is a Rust CAD Kernel."
