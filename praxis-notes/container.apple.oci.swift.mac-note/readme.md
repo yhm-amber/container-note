@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/apple/container.git "(Apache-2.0) (Languages: Swift 97.8%, Makefile 1.1%, Other 1.1%) A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It's written in Swift, and optimized for Apple silicon. // 一个在 Mac 上使用轻量级虚拟机创建和运行 Linux 容器的工具。它使用 Swift 编写，并针对 Apple 芯片进行了优化。"
+[docs/ghio]: https://apple.github.io/container/documentation/
+[knowsby]: https://hellogithub.com/repository/apple/container "这是一款苹果官方开源的轻量级虚拟化容器工具，用于在 Mac 上创建和运行 Linux 容器。它采用 Swift 开发，并针对 Apple 芯片（如 M1、M2 芯片）进行了优化，旨在为 macOS 用户提供高效、原生的容器体验，支持 OCI 标准容器镜像，并可无缝对接 Docker Hub 等主流镜像仓库。"
