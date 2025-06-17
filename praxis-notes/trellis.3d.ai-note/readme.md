@@ -1,4 +1,4 @@
 [src/gh]: https://github.com/microsoft/TRELLIS.git "(MIT) (Languages: Python 96.6%, Shell 1.8%, Cuda 1.1%, Other 0.5%) Official repo for paper \"Structured 3D Latents for Scalable and Versatile 3D Generation\" (CVPR'25 Spotlight). // 官方论文《可扩展和通用的 3D 生成结构化 3D 潜在》的仓库（CVPR'25 Spotlight）。"
 [paper.html/arxiv]: https://arxiv.org/html/2412.01506v3 "Structured 3D Latents for Scalable and Versatile 3D Generation† // 结构化 3D 潜在表示，实现可扩展和通用的 3D 生成 † "
-[site/ghio]: https://microsoft.github.io/TRELLIS/ "Structured 3D Latents // 结构化 3D 潜在表示 /// for Scalable and Versatile 3D Generation // 用于可扩展和灵活的 3D 生成"
+[site/ghio]: https://microsoft.github.io/TRELLIS/ "Structured 3D Latents // 结构化 3D 潜在表示 /// for Scalable and Versatile 3D Generation // 用于可扩展和灵活的 3D 生成 /// TL;DR: A native 3D generative model built on a unified Structured Latent representation and Rectified Flow Transformers, enabling versatile and high-quality 3D asset creation. // 简而言之：一个基于统一的结构化潜空间表示和整流流转换器的原生 3D 生成模型，能够实现多功能和高品质的 3D 资产创建。"
 [model.demo/hf]: https://huggingface.co/spaces/microsoft/TRELLIS
