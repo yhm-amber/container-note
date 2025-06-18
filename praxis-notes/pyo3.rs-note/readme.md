@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/PyO3/pyo3.git "(Apache-2.0, MIT) (Languages: Rust 97.0%, Python 2.6%, Shell 0.2%, Makefile 0.1%, JavaScript 0.1%, HTML 0.0%) Rust bindings for the Python interpreter // Python 解释器的 Rust 绑定 /// Rust bindings for Python, including tools for creating native Python extension modules. Running and interacting with Python code from a Rust binary is also supported. // 用于 Python 的 Rust 绑定，包括创建原生 Python 扩展模块的工具。从 Rust 二进制程序运行和与 Python 代码交互也受支持。"
+[crates]: https://crates.io/crates/pyo3 "(: cargo add -- pyo3)"
