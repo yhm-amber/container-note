@@ -2,6 +2,6 @@
 [docs]: https://jan.ai/docs
 [qs/docs]: https://jan.ai/docs/quickstart
 
-[site]: https://jan.ai/
+[site]: https://jan.ai/ "Chat with AI without privacy concerns // 在不担心隐私的情况下与 AI 聊天 /// Jan is an open source ChatGPT-alternative that runs 100% offline. // Jan 是一个开源的 ChatGPT 替代品，可 100% 离线运行。"
 
 [discord]: https://discord.com/invite/AsJ8krTT3N
