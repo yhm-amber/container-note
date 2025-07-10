@@ -10,6 +10,7 @@
 
 [lex.src/gh]: https://github.com/moonbitlang/moonlex.git "(Apache-2.0) (Languages: JavaScript 64.5%, MoonBit 35.5%) moonlex /// Simple lexer generator for MoonBit. // MoonBit 的简单词法分析器生成器。 /// The non-unicode version is in the non-unicode branch. // 非 Unicode 版本位于 non-unicode 分支。"
 [yacc.src/gh]: https://github.com/moonbitlang/moonyacc.git "(GPL-2.0) (Languages: MoonBit 83.5%, JavaScript 15.8%, Other 0.7%) MoonYacc is an LR(1) parser generator for MoonBit programming language. // MoonYacc 是 MoonBit 编程语言的 LR(1) 语法分析器生成器。"
+[argparser.src/gh]: https://github.com/moonbit-community/ArgParser.git "(Languages: MoonBit 100.0%) command line argument parser for MoonBit // MoonBit 命令行参数解析器 (简单说就是按照某种规则解析一个 cli opt 的 argv 字串组就可以隐式地对相应名称的变量赋值)"
 
 [yacc.play/netlify]: https://moonyacc-playground.netlify.app/
 [toolchain/docs]: https://docs.moonbitlang.com/en/latest/toolchain/
