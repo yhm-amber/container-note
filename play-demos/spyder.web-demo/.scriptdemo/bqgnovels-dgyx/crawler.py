@@ -3,7 +3,6 @@ from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 import polars as pl
-import os
 
 librewolf_path = 'C:/ProgramFiles/LibreWolf/librewolf.exe'
 
