@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/AzurIce/ranim.git "(MIT) (Languages: Rust 92.5%, WGSL 6.6%, Other 0.9%) An animation engine implemented in rust, inspired by manim and JAnim // 一个用 Rust 实现的动画引擎，灵感来源于 manim 和 JAnim"
+[site/ghio]: https://azurice.github.io/ranim/ "Ranim 是一个使用 Rust 编写的程序化动画引擎， 受 3b1b/manim 和 jkjkil4/JAnim 启发 /// - 矢量图形基于二阶贝塞尔曲线表示，使用 SDF 渲染 /// - 使用 wgpu，兼容多种后端图形 API /// - 可编译到 wasm 支持 Web 平台"
