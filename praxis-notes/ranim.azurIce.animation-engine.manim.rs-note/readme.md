@@ -1,2 +1,4 @@
-[src/gh]: https://github.com/AzurIce/ranim.git "(MIT) (Languages: Rust 92.5%, WGSL 6.6%, Other 0.9%) An animation engine implemented in rust, inspired by manim and JAnim // 一个用 Rust 实现的动画引擎，灵感来源于 manim 和 JAnim"
+[src/gh]: https://github.com/AzurIce/ranim.git "(MIT) (Languages: Rust 92.5%, WGSL 6.6%, Other 0.9%) An animation engine implemented in rust, inspired by manim and JAnim // 一个用 Rust 实现的动画引擎，灵感来源于 manim 和 JAnim /// Manim is an animation engine for explanatory math videos. It's used to create precise animations programmatically, as demonstrated in the videos of 3Blue1Brown. // Manim 是一个用于制作解释性数学视频的动画引擎。它用于以编程方式创建精确的动画，就像在 3Blue1Brown 的视频中所展示的那样。 (gh: ManimCommunity/manim.git) /// Manim is an engine for precise programmatic animations, designed for creating explanatory math videos. // Manim 是一个用于精确程序化动画的引擎，专为制作解释性数学视频而设计。 (gh: 3b1b/manim.git)"
 [site/ghio]: https://azurice.github.io/ranim/ "Ranim 是一个使用 Rust 编写的程序化动画引擎， 受 3b1b/manim 和 jkjkil4/JAnim 启发 /// - 矢量图形基于二阶贝塞尔曲线表示，使用 SDF 渲染 /// - 使用 wgpu，兼容多种后端图形 API /// - 可编译到 wasm 支持 Web 平台"
+
+[crates]: https://crates.io/crates/ranim "(: cargo install -- ranim)"
