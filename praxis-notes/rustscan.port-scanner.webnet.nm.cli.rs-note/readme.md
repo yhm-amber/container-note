@@ -1,6 +1,9 @@
 [crates]: https://crates.io/crates/rustscan "(MIT) (: cargo install -- rustscan)"
+
 [src/gh]: https://github.com/RustScan/RustScan.git "(GPL-3.0) (Languages: Rust 96.3%, Dockerfile 1.1%, Other 2.6%) 🤖 The Modern Port Scanner 🤖 // 现代的端口搜索器"
-[site]: https://rustscan.github.io/RustScan/
+
+[site/ghio.rustscan]: https://rustscan.github.io/RustScan/
+[site/ghio.bee-san]: https://bee-san.github.io/RustScan/
 
 [pkg.oci/dockerhub]: https://hub.docker.com/r/cmnatic/rustscan "(: docker pull -- cmnatic/rustscan) (: docker run -it --rm --name rustscan -- rustscan/rustscan:v1.9.0 <rustscan arguments here> -- <ip address to scan>)"
 [pkg.bin/alpine]: https://pkgs.alpinelinux.org/packages?name=rustscan "(: apk add -- rustscan)"
