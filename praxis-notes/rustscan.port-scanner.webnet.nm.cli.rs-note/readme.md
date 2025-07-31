@@ -1,6 +1,7 @@
 [crates]: https://crates.io/crates/rustscan "(MIT) (: cargo install -- rustscan)"
 
-[src/gh]: https://github.com/RustScan/RustScan.git "(GPL-3.0) (Languages: Rust 96.3%, Dockerfile 1.1%, Other 2.6%) 🤖 The Modern Port Scanner 🤖 // 现代的端口搜索器"
+[src/gh.RustScan]: https://github.com/RustScan/RustScan.git "(GPL-3.0) (Languages: Rust 96.3%, Dockerfile 1.1%, Other 2.6%) 🤖 The Modern Port Scanner 🤖 // 现代的端口搜索器"
+[src/gh.bee-san]: https://github.com/bee-san/RustScan.git "(GPL-3.0) (Languages: Rust 97.2%, Perl 0.6%, Makefile 0.6%, Shell 0.5%, Python 0.4%, Just 0.4%, Dockerfile 0.3%) 🤖 The Modern Port Scanner 🤖 // 现代的端口搜索器"
 
 [site/ghio.rustscan]: https://rustscan.github.io/RustScan/
 [site/ghio.bee-san]: https://bee-san.github.io/RustScan/
