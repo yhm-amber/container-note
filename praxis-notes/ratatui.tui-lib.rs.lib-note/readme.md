@@ -10,6 +10,7 @@
 
 
 [knowsby]: https://github.com/hatoo/oha
+[alsosaw]: https://github.com/kdheepak
 
 [forum/site]: https://forum.ratatui.rs/
 [matrix]: https://matrix.to/#/#ratatui:matrix.org
