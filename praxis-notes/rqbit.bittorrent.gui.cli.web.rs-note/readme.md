@@ -3,3 +3,6 @@
 
 [pkg/crates]: https://crates.io/crates/rqbit "(: cargo install -- rqbit)"
 [pkg/homebrew]: https://formulae.brew.sh/formula/rqbit "(: brew install -- rqbit)"
+
+
+[knowsby]: https://rustcc.cn/article?id=c8bd08c2-d2f9-4b72-9e7e-ce7b274d9b1d "我把它优化到下载 torrent 文件既可靠又相当快的地步，我自己也用了几个月。它对我来说已经足够好了，在写这篇文章的时候，我不打算进一步扩展它，因为它对我来说是有效的。 /// 所以简而言之，它不是“功能完整”，但是“对我来说足够好”。 /// 开源的目的仅仅是希望任何人发现它有用或者想要做出贡献。"
