@@ -1,3 +1,5 @@
 [src/gh]: https://github.com/boa-dev/boa.git "(MIT) (Languages: Rust 99.9%, Other 0.1%) Boa is an embeddable Javascript engine written in Rust. // Boa 是一个用 Rust 编写的可嵌入的 Javascript 引擎。 /// Boa is an experimental JavaScript lexer, parser and interpreter written in Rust 🦀, it has support for more than 90% of the latest ECMAScript specification. We continuously improve the conformance to keep up with the ever-evolving standard. // Boa 是一个用 Rust 🦀 编写的实验性 JavaScript 词法分析器、解析器和解释器，它支持超过 90% 的最新 ECMAScript 规范。我们持续改进其兼容性，以跟上不断发展的标准。"
 [site]: https://boajs.dev/ "An ECMAScript engine written in Rust"
 [play/site]: https://boajs.dev/playground
+
+[knowsby]: https://rustcc.cn/article?id=c8bd08c2-d2f9-4b72-9e7e-ce7b274d9b1d
