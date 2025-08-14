@@ -21,17 +21,17 @@ url_base = 'https://somesite.com/book/50416/1'
 driver.get(url_base)
 
 nvl_50416 = pl.DataFrame({
-    "link": pl.Series(dtype=pl.Utf8),    # 字符串类型
-    "title": pl.Series(dtype=pl.Utf8),   # 字符串类型
-    "content": pl.Series(dtype=pl.Utf8)  # 字符串类型
+	"link": pl.Series(dtype=pl.Utf8),    # 字符串类型
+	"title": pl.Series(dtype=pl.Utf8),   # 字符串类型
+	"content": pl.Series(dtype=pl.Utf8)  # 字符串类型
 })
 
 i = 0
 while True:
 	i = i+1
 	input(f"({i}) Press Enter to continue...")
-  # 表里新增一行
-  # 这三项要校验效果、以及要根据实际网页情况调整
+	# 表里新增一行
+	# 这三项要校验效果、以及要根据实际网页情况调整
 	newrow = pl.DataFrame({
 		"link": [driver.current_url],
 		"title": [driver.find_element("tag name", "h1").text],
@@ -41,7 +41,7 @@ while True:
 	print(newrow)
 	nvl_50416.extend(newrow)
 	print(f"Done {i}. Next ...")
-  # 翻页
+	# 翻页
 	driver.find_element("tag name", "body").send_keys(Keys.ARROW_RIGHT)
 
 nvl_50416.write_parquet(r"E:\repos\nvl_50416.parquet")
