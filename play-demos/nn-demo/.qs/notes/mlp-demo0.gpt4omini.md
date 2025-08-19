@@ -265,6 +265,7 @@ o4-mini:
 User prompt 5 of 5 - 8/19/2025, 4:41:30 PM:
 Python 里有个数据集为 dfply.diamonds ，其预览大体如下：
 
+~~~~~
 	carat	cut	color	clarity	depth	table	price	x	y	z
 0	0.23	Ideal	E	SI2	61.5	55.0	326	3.95	3.98	2.43
 1	0.21	Premium	E	SI1	59.8	61.0	326	3.89	3.84	2.31
@@ -277,6 +278,7 @@ Python 里有个数据集为 dfply.diamonds ，其预览大体如下：
 53937	0.70	Very Good	D	SI1	62.8	60.0	2757	5.66	5.68	3.56
 53938	0.86	Premium	H	SI2	61.0	58.0	2757	6.15	6.12	3.74
 53939	0.75	Ideal	D	SI2	62.2	55.0	2757	5.83	5.87	3.64
+~~~~~
 
 现在，我想把它们当作训练数据，做一个模型出来；模型输入需要有 carat	cut	color	clarity	depth	table	这些列、输出是 price	x	y	z 四列。
 
