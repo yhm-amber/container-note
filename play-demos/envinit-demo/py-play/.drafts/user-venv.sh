@@ -11,4 +11,4 @@ jupyter labextension list
 jupyter server extension list
 
 # axon like torch
-pip install -U -- torch pytorch-lightning
+pip install -U -- torch torchvision pytorch-lightning
