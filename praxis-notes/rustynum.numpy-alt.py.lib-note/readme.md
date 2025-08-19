@@ -1,2 +1,3 @@
 [src/gh]: https://github.com/IgorSusmelj/rustynum.git "(Apache-2.0) (Languages: Rust 67.5%, Python 32.4%, Makefile 0.1%) RustyNum: A NumPy Alternative powered by Rust’s Portable SIMD // RustyNum: 由 Rust 实现的可移植 SIMD 驱动的 NumPy 替代方案"
 [pkg.pip/pypi]: https://pypi.org/project/rustynum "(: pip install -- rustynum)"
+[site]: https://rustynum.com/ "RustyNum is a high-performance numerical computation library written in Rust, designed to be faster, lighter, and simpler than traditional solutions. With seamless Python bindings, RustyNum empowers developers and data scientists to achieve efficient computation with minimal overhead. // RustyNum 是一款用 Rust 编写的高性能数值计算库，旨在比传统解决方案更快、更轻量、更简单。凭借无缝的 Python 绑定，RustyNum 使开发者和数据科学家能够在最小的开销下实现高效的计算。"
