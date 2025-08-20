@@ -4,3 +4,7 @@
 [evcxr_repl.pkg.cargo/crates]: https://crates.io/crates/evcxr_repl "(: :prepare src: rustup component add -- rust-src) (: :get bin: cargo install --locked -- evcxr_repl)"
 [evcxr.pkg.cargo/crates]: https://crates.io/crates/evcxr "(: cargo install -- evcxr)"
 [evcxr_runtime.pkg.cargo/crates]: https://crates.io/crates/evcxr_runtime "(: cargo add -- evcxr_runtime) Provides functionality that may be of use by code running inside Evcxr. In particular inside the Evcxr Jupyter kernel. // 提供了一些可能在 Evcxr 内运行的代码中使用的功能。特别是 Evcxr Jupyter 内核中。 /// At the moment, all that's provided is functions and traits for emitting mime-typed data to Evcxr. // 目前提供的内容仅是用于向 Evcxr 发送 MIME 类型数据的函数和特征。"
+
+[knowsby]: https://github.com/sigmaSd/IRust/blob/master/crates/irust_repl/irust_kernel/evcxr.ipynb
+
+
