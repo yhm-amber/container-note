@@ -18,6 +18,7 @@
 
 
 [demo.blog:neural_networks_elixir/happihacking]: https://happihacking.com/blog/posts/2023/neural_networks_elixir/ "The model successfully learned the XOR function and was able to predict the output for the inputs [0] and [1]. // 模型成功学习了 XOR 函数，并且能够预测输入 [0] 和 [1] 的输出。"
+[demo.blog:axon-deep-learning-in-elixir/seanmoriarity]: https://seanmoriarity.com/2021/04/08/axon-deep-learning-in-elixir/
 
 
 
