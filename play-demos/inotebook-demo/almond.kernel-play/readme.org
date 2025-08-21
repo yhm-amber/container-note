@@ -1,1 +1,1 @@
-scala kernel
+能作为 scala lang 的 inb kernel
