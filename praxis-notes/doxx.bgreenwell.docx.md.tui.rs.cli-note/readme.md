@@ -1,0 +1,4 @@
+[src/gh]: https://github.com/bgreenwell/doxx.git "(MIT) (Languages: Rust 94.9%, Nix 3.5%, Shell 1.4%, Ruby 0.2%) Expose the contents of .docx files without leaving your terminal. Fast, safe, and smart — no Office required! // 在不离开终端的情况下，暴露 .docx 文件的内容。快速、安全、智能——无需 Office！ /// .docx files in your terminal — no Microsoft Word required // 在您的终端中查看 .docx 文件 — 无需 Microsoft Word /// A fast, terminal-native document viewer for Word files. View, search, and export .docx documents without leaving your command line. // 一个快速、原生终端的 Word 文件查看器。查看、搜索和导出 .docx 文档，无需离开命令行。 (: doxx contract.docx --search payment) (: doxx report.docx --export markdown > report.md)"
+[site/ghio]: https://bgreenwell.github.io/doxx/
+[pkg.brew/homebrew]: https://formulae.brew.sh/formula/doxx/ "(: brew install -- doxx)"
+[pkg.cargo/crates]: https://crates.io/crates/doxx "(: cargo install -- doxx)"
