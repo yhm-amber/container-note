@@ -1,0 +1,6 @@
+[src/gh]: https://github.com/rust-lang/rustup.git "(Apache-2.0, MIT) (Languages: Rust 91.6%, Shell 3.9%, HTML 1.2%, Dockerfile 1.0%, Python 0.8%, JavaScript 0.7%, Other 0.8%) The Rust toolchain installer // Rust 工具链安装程序"
+[site]: https://rustup.rs/ "An installer for the systems programming language Rust // 系统编程语言 Rust 的安装程序"
+[book/ghio]: https://rust-lang.github.io/rustup/ "rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated. It makes cross-compiling simpler with binary builds of the standard library for common platforms. And it runs on all platforms Rust supports. // rustup 从官方发布渠道安装《Rust 编程语言》，使您能够轻松切换稳定版、测试版和夜间版编译器，并保持它们更新。它通过为常见平台提供标准库的二进制构建简化了交叉编译。它适用于 Rust 支持的所有平台。"
+[components-history.src/gh]: https://github.com/rust-lang/rustup-components-history.git "(Apache-2.0, MIT) (Languages: Rust 91.3%, HTML 7.9%, Shell 0.8%) Rustup package status history // Rustup 软件包状态历史 /// A library and some binaries to monitor rustup components availability history on different platforms. // 一个库和一些二进制文件，用于监控不同平台上 rustup 组件的可用性历史。"
+[components-history.web/ghio]: https://rust-lang.github.io/rustup-components-history/ ""
+
