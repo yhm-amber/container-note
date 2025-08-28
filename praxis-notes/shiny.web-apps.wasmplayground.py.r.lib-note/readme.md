@@ -46,3 +46,9 @@
 [shinylive.playground.r/shinylive.io]: https://shinylive.io/py/editor/ "这是一个可以分享代码且有 shiny WEB UI 预览的基于 WASM (WebR) 的本地的 web app 编译器"
 [shinylive.runapp.r/shinylive.io]: https://shinylive.io/r/app/ "这个是没有代码编辑界面的专供用户使用 Shiny APP 的界面。可以点击右上角编辑按钮进入对应的编辑界面。"
 
+
+
+
+[shiny.vsix.src/gh]: https://github.com/posit-dev/shiny-vscode.git "(MIT) (Languages: TypeScript 92.5%, R 5.8%, Other 1.7%) Shiny VS Code Extension // Shiny VS Code 扩展"
+[shiny.vsix/ovsx]: https://open-vsx.org/extension/posit/shiny
+[shiny.vsix/msvs]: https://marketplace.visualstudio.com/items?itemName=posit.shiny
