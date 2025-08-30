@@ -3,7 +3,7 @@
 Human save things from world to container ... Here to note the cosmos. 🐌🐘
 ~~~
 
-<sup>*Kind of [Pyrrhophyta](https://en.wikipedia.org/wiki/Pyrrhophyta "甲藻") huh !? ...*</sup>
+<sup>*Kind of [Pyrrhophyta](https://en.wikipedia.org/wiki/Pyrrhophyta "甲藻虫") huh !? ...*</sup>
 
 repo content: 
 
