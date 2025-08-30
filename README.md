@@ -3,6 +3,8 @@
 Human save things from world to container ... Here to note the cosmos. 🐌🐘
 ~~~
 
+Kind of [Pyrrhophyta](https://en.wikipedia.org/wiki/Pyrrhophyta) huh !? ...
+
 repo content: 
 
 - <kbd>[bodies](./praxis-notes)</kbd> : instances notes
