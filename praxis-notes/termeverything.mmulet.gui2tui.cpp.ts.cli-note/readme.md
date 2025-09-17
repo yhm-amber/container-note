@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/mmulet/term.everything.git "(AGPL-3.0) (Languages: TypeScript 82.3%, C++ 15.2%, Other 2.5%) Run any GUI app in the terminal❗ // 在终端中运行任何 GUI 应用程序❗ /// Works on both x11 and Wayland host systems. // 支持 x11 和 Wayland 主机系统。 /// (图片演示将一个 GUI Window 直接拖拽到此应用的 TUI 区域然后 GUI Window 就被 TUI 模拟显示) /// Bonus: // 奖励： /// This is Gwerm the Term Worm. // 这是终端蠕虫 Gwerm 。 /// He is doing okay. Thanks for asking. // 他一切都好。谢谢关心。"
+
