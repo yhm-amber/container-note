@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/pythops/impala.git "(GPL-3.0) (Languages: Rust 99.4%, Other 0.6%) 🛜 TUI for managing wifi on Linux // 🛜 用于在 Linux 上管理 Wi-Fi 的 TUI /// 💡 Prerequisites // 💡 前置条件 /// A Linux based OS with iwd (https://iwd.wiki.kernel.org) installed. // 基于 Linux 的操作系统，已安装 iwd。 /// You might need to install nerdfonts for the icons to be displayed correctly. // 为了正确显示图标，您可能需要安装 nerdfonts。"
+[crates]: https://crates.io/crates/impala "(: cargo install -- impala) (GPL-3.0) (53.5 KiB)"
