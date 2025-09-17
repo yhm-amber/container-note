@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/pythops/bluetui.git "(GPL-3.0) (Languages: Rust 98.7%, Nix 1.3%) 🛜 TUI for managing bluetooth on Linux // 🛜 用于在 Linux 上管理蓝牙的 TUI /// 💡 Prerequisites // 💡 前置条件 /// A Linux based OS with bluez (bluez.org) installed. // 一个基于 Linux 的操作系统，已安装 bluez。 ///  You might need to install nerdfonts for the icons to be displayed correctly. // 为了正确显示图标，您可能需要安装 nerdfonts。"
+[crates]: https://crates.io/crates/bluetui "(: cargo install -- bluetui) (GPL-3.0) (60.7 KiB)"
