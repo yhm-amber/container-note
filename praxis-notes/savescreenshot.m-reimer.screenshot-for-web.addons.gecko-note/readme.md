@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/M-Reimer/savescreenshot.git "(GPL-3.0) (Languages: JavaScript 80.9%, HTML 10.2%, CSS 5.7%, Makefile 3.2%) Save Screenshot Add-on for Firefox. Simple website screenshot maker for Firefox. // Firefox 截图扩展。简单的网站截图制作工具。"
+[plg.xpi/amo]: https://addons.mozilla.org/firefox/addon/savescreenshot/ "(Available on Firefox for Android™ // 可在 Firefox for Android™ 上使用) Saves the current page as image file or copies it to clipboard. // 将当前页面保存为图像文件或复制到剪贴板。"
