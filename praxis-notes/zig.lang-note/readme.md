@@ -1,0 +1,2 @@
+[site]: https://ziglang.org/ "Focus on debugging your application rather than debugging your programming language knowledge. // 专注于调试你的应用程序，而不是调试你的编程语言知识。 /// - No hidden control flow. // 没有隐藏的控制流。 /// - No hidden memory allocations. // 没有隐藏的内存分配。 /// - No preprocessor, no macros. // 没有预处理器，没有宏。"
+[src/gh]: https://github.com/ziglang/zig.git "(MIT) (Languages: Zig 98.4%, C 1.1%, C++ 0.2%, Python 0.1%, CMake 0.1%, JavaScript 0.1%) General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software. // 通用编程语言和工具链，用于维护健壮、优化和可重用的软件。"
