@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/Olow304/memvid.git "(MIT) (Languages: Python 92.9%, Makefile 3.5%, Shell 3.1%, Dockerfile 0.5%) Video-based AI memory library. Store millions of text chunks in MP4 files with lightning-fast semantic search. No database needed. // 基于视频的 AI 记忆库。将数百万个文本片段存储在 MP4 文件中，实现闪电般的语义搜索。无需数据库。"
+[pkg.pip/pypi]: https://pypi.org/project/memvid/ "(: pip install -- memvid)"
+[site]: https://memvid.com/ "The first memory infrastructure // 第一个记忆基础设施 /// for real world AI applications. // 用于真实世界 AI 应用。 /// Store millions of context chunks as compressed, rewindable video frames. // 将数百万个上下文块存储为压缩的、可倒带的视频帧。/// Stop spending thousands querying your entire dataset on every prompt. // 停止在每次提示时查询整个数据集而花费数千元。"
