@@ -2,6 +2,8 @@
 [crates]: https://crates.io/crates/procs "(: cargo install -- procs)"
 [repology]: https://repology.org/project/procs/
 
+[pkg.x/x-cmd]: https://x-cmd.com/install/procs "(: xd alp -- procs) (: x install -- procs ;: x env use procs)"
+
 [pkg/gentoo]: https://packages.gentoo.org/packages/sys-process/procs "(: )"
 [pkg/brew]: https://formulae.brew.sh/formula/procs "(: brew install -- procs)"
 [pkg/alpine]: https://pkgs.alpinelinux.org/packages?name=procs "(: sudo apk add -- procs)"
