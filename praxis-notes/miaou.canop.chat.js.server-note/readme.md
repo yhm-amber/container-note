@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/Canop/miaou.git "(MIT, Copyright (C) 2012 by Dave Gandy) (Languages: JavaScript 75.7%, SCSS 16.9%, Pug 5.1%, HTML 1.0%, PLpgSQL 0.6%, CSS 0.5%, Other 0.2%) A chat server with OAuth2 authentication, persistent and searchable history, video and audio, markdown formatting, private and public rooms, stars, votes, embedded games, and many other features // 一个具有 OAuth2 认证、持久化且可搜索的历史记录、视频和音频、Markdown 格式化、私人及公共房间、点赞、投票、嵌入式游戏以及其他许多功能的聊天服务器"
+[app/site]: http://miaou.dystroy.org/
