@@ -1,0 +1,5 @@
+[src/gh]: https://github.com/Canop/rhit.git "(MIT) (Languages: Rust 91.0%, CSS 5.8%, Shell 2.2%, Other 1.0%) A nginx log explorer // 一个 nginx 日志探索器"
+[pkg.cargo/crates]: https://crates.io/crates/rhit "(: cargo install -- rhit) (4.59 MiB)"
+[pkg.x/x-cmd]: https://x-cmd.com/install/rhit "(: xd alp -- rhit) (: x install -- rhit)"
+[site]: https://dystroy.org/rhit/ "Clean and Immediate // 干净快捷 /// Rhit works from your standard nginx logs, with no preparation. // Rhit 直接从您的标准 nginx 日志中工作，无需任何准备。 /// You run it in your console, it leaves nothing behind, no temp file, no database. // 您在控制台中运行它，不会留下任何痕迹，没有临时文件，也没有数据库。"
+[chat.miaou/dystroy.org]: https://miaou.dystroy.org/3768?rust "Miaou is a multi-room persistent chat server. It's free to use and anybody can create public or private rooms. // Miaou 是一个多房间的持久聊天服务器。它免费使用，任何人都可以创建公共或私人房间。"
