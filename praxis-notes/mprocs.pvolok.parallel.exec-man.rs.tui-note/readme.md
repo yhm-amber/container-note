@@ -1,0 +1,9 @@
+[src/gh]: https://github.com/pvolok/mprocs.git "(MIT) (Languages: Rust 97.8%, Shell 1.3%, Other 0.9%) Run multiple commands in parallel // 并行运行多个命令 /// mprocs runs multiple commands in parallel and shows output of each command separately. // mprocs 可以并行运行多个命令，并分别显示每个命令的输出。 /// When you work on a project you very often need the same list of commands to be running. For example: webpack serve, jest --watch, node src/server.js. With mprocs you can list these command in mprocs.yaml and run all of them by running mprocs. Then you can switch between outputs of running commands and interact with them. // 当你在项目上工作时，你经常需要运行相同的命令列表。例如： webpack serve 、 jest --watch 、 node src/server.js 。使用 mprocs，你可以在 mprocs.yaml 中列出这些命令，并通过运行 mprocs 来运行所有这些命令。然后，你可以在运行命令的输出之间切换并与之交互。 /// It is similar to concurrently (gh: open-cli-tools/concurrently.git) but mprocs shows output of each command separately and allows to interact with processes (you can even work in vim inside mprocs). // 这类似于 concurrently，但 mprocs 会分别显示每个命令的输出，并允许与进程交互（你甚至可以在 mprocs 中在 vim 中工作）。"
+[pkg.cargo/crates]: https://crates.io/crates/mprocs "(: cargo install -- mprocs) (MIT) (61.8 KiB)"
+[pkg.cargo/libraries.io]: https://libraries.io/cargo/mprocs "(: cargo install -- mprocs) (License: MIT) (Repository size: 2.36 MB)"
+[pkg.brew/homebrew]: https://formulae.brew.sh/formula/mprocs "(: brew install -- mprocs)"
+[pkg.npm/npm.io]: https://npm.io/package/mprocs "(: npm i -g -- mprocs) (License: MIT)"
+[pkg.npm/npmjs.com]: https://npmjs.com/package/mprocs "(: npm i -g -- mprocs) (License: MIT) (Unpacked Size: 10.8 MB)"
+[pkg.yarn/npmjs.com]: https://classic.yarnpkg.com/package/mprocs "(: yarn global add -- mprocs) (Dependents: 0) (Size in browser: 1.21KB) (yarn.pm/mprocs)"
+[pkg.x/x-cmd]: https://x-cmd.com/install/mprocs "(: xd alp -- mprocs) (: x install -- mprocs)"
+
