@@ -1,4 +1,4 @@
-[pkg.x/x-cmd]: https://www.x-cmd.com/install/omekasy "(: xd alp -- omekasy) (: x install -- omekasy)"
+[pkg.x/x-cmd]: https://x-cmd.com/install/omekasy "(: xd alp -- omekasy) (: x install -- omekasy)"
 [src/gh]: https://github.com/ikanago/omekasy.git "(MIT) (Languages: Rust 100.0%) 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 𝙡𝙞𝙣𝙚 𝙖𝙥𝙥𝙡𝙞𝙘𝙖𝙩𝙞𝙤𝙣 𝕥𝕙𝕒𝕥 𝕔𝕠𝕟𝕧𝕖𝕣𝕥𝕤 𝕒𝕝𝕡𝕙𝕒𝕟𝕦𝕞𝕖𝕣𝕚𝕔 𝕔𝕙𝕒𝕣𝕒𝕔𝕥𝕖𝕣𝕤 𝒕𝒐 𝒗𝒂𝒓𝒊𝒐𝒖𝒔 𝒔𝒕𝒚𝒍𝒆𝒔 𝚍𝚎𝚏𝚒𝚗𝚎𝚍 𝚒𝚗 𝚄𝚗𝚒𝚌𝚘𝚍𝚎. // 命令行应用程序，将字母数字字符转换为多种定义的样式。 /// omekasy is a command line application that converts alphanumeric characters in your input to various styles defined in Unicode. omekasy means \"dress up\" in Japanese. // omekasy 是一个命令行应用程序，将您输入中的字母数字字符转换为 Unicode 中定义的各种样式。 omekasy 在日语中意为“打扮”。"
 [show.asciinema/asciinema]: https://asciinema.org/a/490055 "[ macOS ◆ xterm-256color ◆ zsh ]"
 [pkg.brew/homebrew]: https://formulae.brew.sh/formula/omekasy "(: brew install -- ikanago/tap/omekasy) (License: MIT)"
