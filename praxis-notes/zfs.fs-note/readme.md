@@ -1,0 +1,11 @@
+[pkg.x/x-cmd]: https://x-cmd.com/install/zfs "(: x install -- zfs)"
+[src/gh]: https://github.com/openzfs/zfs.git "(CDDL-1.0 -- COMMON DEVELOPMENT AND DISTRIBUTION LICENSE Version 1.0) (Languages: C 71.4%, Shell 19.0%, Assembly 4.9%, M4 1.9%, Python 1.6%, Makefile 0.8%, Other 0.4%) OpenZFS on Linux and FreeBSD // Linux 和 FreeBSD 上的 OpenZFS /// OpenZFS is an advanced file system and volume manager which was originally developed for Solaris and is now maintained by the OpenZFS community. This repository contains the code for running OpenZFS on Linux and FreeBSD. // OpenZFS 是一个高级文件系统和卷管理器，最初为 Solaris 开发，现在由 OpenZFS 社区维护。此存储库包含在 Linux 和 FreeBSD 上运行 OpenZFS 的代码。"
+[site/org]: https://openzfs.org/ "OpenZFS is an open-source storage platform. It includes the functionality of both traditional file systems and volume manager. It has many advanced features including: // OpenZFS 是一个开源存储平台。它集成了传统文件系统和卷管理器的功能。它具有许多高级特性，包括： /// - Protection against data corruption. Integrity checking for both data and metadata. // 防止数据损坏。对数据和元数据进行完整性检查。 /// - Continuous integrity verification and automatic “self-healing” repair // 持续完整性验证和自动“自我修复”修复 /// - - Data redundancy with mirroring, RAID-Z1/2/3 [and DRAID] // 通过镜像、RAID-Z1/2/3[以及 DRAID]实现数据冗余 /// - Support for high storage capacities — up to 256 trillion yobibytes (2^128 bytes) // 支持高存储容量——最高可达 256 万亿 yobibytes（2^128 字节） /// - Space-saving with transparent compression using LZ4, GZIP or ZSTD // 使用 LZ4、GZIP 或 ZSTD 进行透明压缩，节省空间 /// - Hardware-accelerated native encryption // 硬件加速的本地加密 /// - Efficient storage with snapshots and copy-on-write clones // 通过快照和写时复制克隆实现高效存储 /// - Efficient local or remote replication — send only changed blocks with ZFS send and receive // 高效本地或远程复制——使用 ZFS 发送和接收仅发送更改的块"
+[wiki/site]: https://openzfs.org/wiki/Main_Page ""
+[site.linux/org]: https://zfsonlinux.org/ ""
+[docs/ghio]: https://openzfs.github.io/openzfs-docs/ ""
+[pkg.emerge/gentoo]: https://wiki.gentoo.org/wiki/ZFS "(: sudo emerge --ask -- sys-fs/zfs)"
+[pkg.apt/debian]: https://search.debian.org/cgi-bin/omega?P=zfs "(: sudo apt install -- zfs-dkms zfsutils-linux)"
+[pkg.dnf/fedora]: https://packages.fedoraproject.org/search?query=zfs "(: sudo dnf install -y -- zfs)"
+[pkg.apk/alpine]: https://pkgs.alpinelinux.org/packages?name=zfs "(: apk add -- zfs zfs-lts)"
+[pkg.linux/pkgs.org]: https://pkgs.org/search/?q=zfs
