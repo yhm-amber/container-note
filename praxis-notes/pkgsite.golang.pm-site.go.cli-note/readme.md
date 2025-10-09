@@ -1,0 +1,6 @@
+[src/cs.opensource.google]: https://cs.opensource.google/go/x/pkgsite "(~ x/pkgsite)"
+[reference/pkg.go.dev]: https://pkg.go.dev/golang.org/x/pkgsite "(License: BSD-3-Clause)"
+[src/google]: https://go.googlesource.com/pkgsite "Home of the pkg.go.dev website // pkg.go.dev 网站的家园"
+[mirror.src/gh]: https://github.com/golang/pkgsite.git "(BSD-3-Clause) (Languages: Go 83.8%, PLpgSQL 6.4%, TypeScript 4.4%, CSS 3.9%, Shell 1.5%) [mirror] Home of the pkg.go.dev website // [mirror] pkg.go.dev 网站的家园 /// golang.org/x/pkgsite /// This repository hosts the source code of the pkg.go.dev website, and pkgsite, a documentation server program. // 该存储库托管了 pkg.go.dev 网站的源代码，以及 pkgsite ，一个文档服务器程序。 /// Pkg.go.dev is a website for discovering and evaluating Go packages and modules. // Pkg.go.dev 是一个用于发现和评估 Go 包和模块的网站。 /// pkgsite program extracts and generates documentation for Go projects. // pkgsite 程序用于提取和生成 Go 项目的文档。"
+[app.web/go.dev]: https://pkg.go.dev/ "Go Packages"
+[cli.pkg.go/pkg.go.dev]: https://pkg.go.dev/golang.org/x/pkgsite/cmd/pkgsite "(: go install -- golang.org/x/pkgsite/cmd/pkgsite@latest)"
