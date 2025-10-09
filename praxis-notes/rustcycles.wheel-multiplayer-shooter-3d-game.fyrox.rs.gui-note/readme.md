@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/rustcycles/rustcycles.git "(AGPL-3.0) (Languages: Rust 98.2%, Other 1.8%) A fast multiplayer shooter on wheels written in Rust using the Fyrox engine. Free and open source. // 一款使用 Rust 语言和 Fyrox 引擎编写的轮式多人射击游戏。免费且开源。"
+[cli.cargo/crates]: https://crates.io/crates/rustcycles "(: cargo install -- rustcycles) (AGPL-3.0) (3.6K SLoC) (920 KiB) A fast multiplayer shooter on wheels in Fyrox"
