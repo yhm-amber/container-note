@@ -1,0 +1,6 @@
+[src/gh]: https://github.com/o2sh/onefetch.git "(MIT) (Languages: Rust 99.2%, Other 0.8%) Command-line Git information tool // 命令行 Git 信息工具"
+[pkg.x/x-cmd]: https://x-cmd.com/install/onefetch "(: xd alp -- onefetch) (: x install -- onefetch) (: x env use -- onefetch)"
+[pkg.x-env/x-cmd]: https://x-cmd.com/pkg/onefetch "(: x env use -- onefetch)"
+[pkg.brew/homebrew]: https://formulae.brew.sh/formula/onefetch "(: brew install -- onefetch)"
+[pkg.cargo/crates.io]: https://crates.io/crates/onefetch "(: cargo install -- onefetch) (MIT) (4.5K SLoC) (1.75 MiB)"
+[site]: https://onefetch.dev/ "This page displays an ASCII preview for all the programming languages supported by onefetch. Like the binary, the data is sourced from the Languages.yaml file, and the layout aims to replicate how the logo would appear inside a terminal. // 此页面显示 onefetch 支持的所有编程语言的 ASCII 预览。与二进制文件一样，数据来源于 Languages.yaml 文件，布局旨在重现标志在终端中的显示方式。"
