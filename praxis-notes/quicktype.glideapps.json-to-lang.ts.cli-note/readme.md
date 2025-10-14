@@ -1,0 +1,8 @@
+[src/gh]: https://github.com/glideapps/quicktype.git "(Apache-2.0) (Languages: TypeScript 97.7%, JavaScript 1.6%, Other 0.7%) Generate types and converters from JSON, Schema, and GraphQL // 从 JSON、Schema 和 GraphQL 生成类型和转换器 /// There are many ways to use quicktype. app.quicktype.io is the most powerful and complete UI. The web app also works offline and doesn't send your sample data over the Internet, so paste away! // 使用 quicktype 的方法有很多。app.quicktype.io 是最强大和最完整的 UI。这个网络应用也支持离线使用，不会将您的示例数据发送到互联网上，所以请随意粘贴！ /// For the best CLI, we recommend installing quicktype globally via npm // 对于最好的 CLI，我们推荐通过 npm 全局安装 quicktype "
+[site]: https://quicktype.io/ "Convert JSON into gorgeous, typesafe code in any language. // 将 JSON 转换为任何语言的精美、类型安全的代码。"
+[cli.npm/npmjs.com]: https://npmjs.com/package/quicktype "(: npm i -g -- quicktype) (License: Apache-2.0) (Unpacked Size: 68.4 kB) (Total Files: 13)"
+[lib-ts.npm/npmjs.com]: https://npmjs.com/package/quicktype-core "(: npm i -g -- quicktype-core) (License: Apache-2.0) (Unpacked Size: 2.32 MB) (Total Files: 413)"
+[gui.web/.site]: https://app.quicktype.io/
+[vsix-old.src/gh]: https://github.com/glideapps/quicktype-vscode.git "{archived by owner on: Apr 13, 2024} (Apache-2.0) (Languages: TypeScript 87.5%, Shell 11.5%, Swift 1.0%) VS Code extension to convert JSON to TypeScript, C#, Go, and many more // VS Code 扩展，用于将 JSON 转换为 TypeScript、C#、Go 等更多语言 /// Contents moved to main repo: https://github.com/glideapps/quicktype // 内容已移至主仓库：https://github.com/glideapps/quicktype"
+[vsix/msvs]: https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype
+[vsix/ovsx]: https://open-vsx.org/extension/quicktype/quicktype
