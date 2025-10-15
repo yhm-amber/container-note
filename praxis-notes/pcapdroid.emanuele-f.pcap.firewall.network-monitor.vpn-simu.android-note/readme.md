@@ -1,0 +1,4 @@
+[src/gh]: https://github.com/emanuele-f/PCAPdroid.git "(GPL-3.0) (Languages: Java 51.9%, C 46.9%, Lua 0.5%, Python 0.3%, CMake 0.3%, Shell 0.1%) No-root network monitor, firewall and PCAP dumper for Android // 无 root 网络监控、防火墙和 PCAP 转储工具 for Android"
+[site/ghio]: https://emanuele-f.github.io/PCAPdroid
+[apk/f-droid]: https://f-droid.org/packages/com.emanuelef.remote_capture/ "(14 MiB) (GPL-3.0 OR LATER) PCAPdroid is a privacy-friendly app which lets you track and analyze the connections made by the other apps in your device. // PCAPdroid 是一款注重隐私的应用，它允许您跟踪和分析您设备上其他应用程序建立的网络连接。 /// It also allows you to export a PCAP dump of the traffic, inspect HTTP, decrypt TLS traffic and much more. // 它还允许您导出流量 PCAP 转储，检查 HTTP，解密 TLS 流量等等。 /// PCAPdroid simulates a VPN in order to capture the network traffic without root. It does not use a remote VPN server, instead data is processed locally on the device. // PCAPdroid 通过模拟 VPN 来捕获网络流量，而无需 root 权限。它不使用远程 VPN 服务器，而是将数据在设备本地处理。"
+
