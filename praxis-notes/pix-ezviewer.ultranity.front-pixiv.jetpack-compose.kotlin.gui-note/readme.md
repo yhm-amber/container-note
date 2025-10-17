@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/ultranity/Pix-EzViewer.git "(MIT) (Languages: Kotlin 97.9%, Java 2.0%, CSS 0.1%) 一个支持免代理直连+多种额外特性功能优化的第三方 Pixiv android 客户端 | A third-party Pixiv Android client with modern design and many other enhancements /// 一个支持免代理直连 + 多种额外特性功能优化的第三方 Pixiv android 客户端 。（Android 5.0+） /// A third-party Pixiv Android client with modern design and many other enhancements. (Android 5.0+)"
+[apk/f-droid]: https://f-droid.org/packages/com.perol.asdpl.play.pixivez.libre/ "(! This app promotes or depends entirely on a non-free network service // 此应用推广或完全依赖非自由的网络服务) (10 MiB) (MIT) A third-party Pixiv Android client. (Android 5.0+)"
+[apk/jekyll-fdroid/glio]: https://fdroid.gitlab.io/jekyll-fdroid/packages/com.perol.asdpl.play.pixivez.libre/
