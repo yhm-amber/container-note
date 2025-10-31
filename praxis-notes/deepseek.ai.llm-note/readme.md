@@ -20,6 +20,24 @@
 [R1-Distill-Qwen-7B.model/hf]: https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B "(Model size: 7.62B params) (Tensor type: BF16) (MIT, Apache-2.0)"
 [R1-Distill-Qwen-1.5B.model/hf]: https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B "(Model size: 1.78B params) (Tensor type: BF16) (MIT, Apache-2.0)"
 
+
+
+
+
+
+[OCR.src/gh]: https://github.com/deepseek-ai/DeepSeek-OCR.git "(MIT) (Languages: Python 100.0%) Contexts Optical Compression // 上下文光学压缩"
+[OCR.paper/arxiv]: https://arxiv.org/abs/2510.18234 "We present DeepSeek-OCR as an initial investigation into the feasibility of compressing long contexts via optical 2D mapping. DeepSeek-OCR consists of two components: DeepEncoder and DeepSeek3B-MoE-A570M as the decoder. Specifically, DeepEncoder serves as the core engine, designed to maintain low activations under high-resolution input while achieving high compression ratios to ensure an optimal and manageable number of vision tokens. Experiments show that when the number of text tokens is within 10 times that of vision tokens (i.e., a compression ratio < 10x), the model can achieve decoding (OCR) precision of 97%. Even at a compression ratio of 20x, the OCR accuracy still remains at about 60%. This shows considerable promise for research areas such as historical long-context compression and memory forgetting mechanisms in LLMs. Beyond this, DeepSeek-OCR also demonstrates high practical value. On OmniDocBench, it surpasses GOT-OCR2.0 (256 tokens/page) using only 100 vision tokens, and outperforms MinerU2.0 (6000+ tokens per page on average) while utilizing fewer than 800 vision tokens. In production, DeepSeek-OCR can generate training data for LLMs/VLMs at a scale of 200k+ pages per day (a single A100-40G). // 我们提出 DeepSeek-OCR 作为一项初步研究，探索通过光学二维映射压缩长上下文的可行性。DeepSeek-OCR 包含两个组件：DeepEncoder 和 DeepSeek3B-MoE-A570M 作为解码器。具体而言，DeepEncoder 作为核心引擎，设计用于在高清输入下保持低激活状态，同时实现高压缩率，以确保视觉 token 数量达到最优且易于管理。实验表明，当文本 token 数量是视觉 token 数量的 10 倍以内（即压缩率 < 10x）时，模型可以实现 97% 的解码（OCR）精度。即使在 20x 的压缩率下，OCR 准确率仍保持在约 60%。这为历史长上下文压缩和 LLMs 中的记忆遗忘机制等研究领域展现了相当大的潜力。除此之外，DeepSeek-OCR 也展现出很高的实用价值。在 OmniDocBench 上，它使用仅 100 个视觉 token 就超越了 GOT-OCR2.0（每页 256 个 token），同时使用少于 800 个视觉 token 就优于 MinerU2.0（平均每页 6000+ 个 token）。 在生产环境中，DeepSeek-OCR 能够以每天 20 万页（单台 A100-40G）的规模为 LLMs/VLMs 生成训练数据。"
+[OCR.model/hf]: https://huggingface.co/deepseek-ai/DeepSeek-OCR "(Model size: 3B params) (Tensor type: BF16) (MIT) (ArXiv: 2510.18234)"
+[OCR.site/<some-unofficial-A>]: https://deepseek-ocr.ai/ "(This site is not affiliated with DeepSeek.com. // 本网站与 DeepSeek.com 无关。) Features // 特性 /// Everything you need to turn images and PDFs into usable text. // 将图像和 PDF 转换为可用文本所需的一切。 /// - Fast extraction // 快速提取 ///: Processes pages quickly and keeps formatting stable for consistent results. // 快速处理页面并保持格式稳定，以获得一致的结果。 /// - Works on long documents // 适用于长文档 ///: Handles multi‑page PDFs and large scans without skipping content. // 可处理多页 PDF 和大文件扫描，不会遗漏内容。 /// - Lower cost with fewer tokens // 使用更少的 token 降低成本 ///: Efficient processing uses fewer tokens so you pay less. // 高效处理使用更少的 token，因此支付更少。 /// - Accurate tables and layout // 精确的表格和布局 ///: Extracts clean CSV tables and preserves page structure where it matters. // 提取干净的 CSV 表格，并在重要位置保留页面结构。 /// - Handles complex layouts // 处理复杂的布局 ///: Understands columns, headers, captions, and figures for clean output. // 理解列、标题、说明文字和图表，以获得清晰的输出。 /// - Multilingual text // 多语言文本 ///: Recognizes English, Chinese, and mixed documents with proper punctuation. // 识别英语、中文和混合文档，并正确使用标点符号。"
+[OCR.try/<some-unofficial-A>]: https://.deepseek-ocr.ai/app "(This site is not affiliated with DeepSeek.com. // 本网站与 DeepSeek.com 无关。)"
+
+
+
+
+
+
+
+
 [Coder.coll/hf]: https://huggingface.co/collections/deepseek-ai/deepseek-coder-65f295d7d8a0a29fe39b4ec4
 [Coder-V2.coll/hf]: https://huggingface.co/collections/deepseek-ai/deepseekcoder-v2-666bf4b274a5f556827ceeca
 [Math.coll/hf]: https://huggingface.co/collections/deepseek-ai/deepseek-math-65f2962739da11599e441681
