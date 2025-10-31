@@ -1,0 +1,10 @@
+[site]: https://flatbuffers.dev/ "FlatBuffers is an efficient cross platform serialization library for C++, C#, C, Go, Java, Kotlin, JavaScript, Lobster, Lua, TypeScript, PHP, Python, Rust and Swift. It was originally created at Google for game development and other performance-critical applications. // FlatBuffers 是一个高效的跨平台序列化库，支持 C++、C#、C、Go、Java、Kotlin、JavaScript、Lobster、Lua、TypeScript、PHP、Python、Rust 和 Swift。它最初由 Google 为游戏开发和其他性能关键型应用创建。"
+[lib:rust.cargo/crates.io]: https://crates.io/crates/flatbuffers "(: cargo add -- flatbuffers) (Apache-2.0) (2.1K SLoC) (26.7 KiB)"
+[lib:go.go/pkg.go.dev]: https://pkg.go.dev/github.com/google/flatbuffers "(: go get -- github.com/google/flatbuffers@latest) (Apache-2.0)"
+[lib:dart.{{dart|flutter}}/pub.dev]: https://pub.dev/packages/flat_buffers/ "(: dart pub add -- flat_buffers) (: flutter pub add -- flat_buffers) (Apache-2.0)"
+[lib:csharp.dotnet/nuget.org]: https://nuget.org/packages/Google.FlatBuffers "(: dotnet add package Google.FlatBuffers) (Apache-2.0) (Prefix Reserved)"
+[lib:python.{{pip|uv}}/pypi.org]: https://pypi.org/project/flatbuffers/ "(: pip install -U -- flatbuffers) (Apache-2.0)"
+[lib:swift.spi~/swiftpackageindex.com]: https://swiftpackageindex.com/google/flatbuffers "(~ spi-playgrounds://open?dependencies=google/flatbuffers) (Apache-2.0) (i: No executables) (i: No plugins) (i: No macros) (i: Zero data race safety errors)"
+[lib:{{js|ts}}.npm/npmjs.com]: https://npmjs.com/package/flatbuffers "(: npm i -- flatbuffers) (Apache-2.0) (Unpacked Size: 288 kB) (Total Files: 89)"
+[knows_by]: https://arrow.apache.org/docs/format/Columnar.html "This document is intended to provide adequate detail to create a new implementation of the columnar format without the aid of an existing implementation. We utilize Google’s Flatbuffers (. gh: google/flatbuffers.git) project for metadata serialization, so it will be necessary to refer to the project’s [Flatbuffers protocol definition files] (. gh: apache/arrow.git @main/format) while reading this document. // 本文档旨在提供足够的细节，以便在不依赖现有实现的情况下创建列式格式的新实现。我们使用 Google 的 Flatbuffers 项目进行元数据序列化，因此在阅读本文档时，将有必要参考该项目的 Flatbuffers 协议定义文件。"
+
