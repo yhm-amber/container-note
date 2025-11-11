@@ -1,0 +1,6 @@
+[src/gh]: https://github.com/OpenCut-app/OpenCut.git "(MIT) (Languages: TypeScript 98.7%, Other 1.3%) The open-source CapCut alternative // 开源剪映替代品 /// A free, open-source video editor for web, desktop, and mobile. // 一个适用于网络、桌面和移动设备的免费、开源视频编辑器。 /// Why? // 为什么？ /// - Privacy: Your videos stay on your device // 隐私：您的视频将保留在您的设备上 /// - Free features: Every basic feature of CapCut is paywalled now // 免费功能：CapCut 的所有基本功能现在都需要付费 /// - Simple: People want editors that are easy to use - CapCut proved that // 简单：人们想要易于使用的编辑器 - CapCut 证明了这一点 /// Features // 特性 /// - Timeline-based editing // 基于时间轴的编辑 /// - Multi-track support // 多轨道支持 /// - Real-time preview // 实时预览 /// - No watermarks or subscriptions // 无水印或订阅 /// - Analytics provided by Databuddy, 100% Anonymized & Non-invasive. // 由 Databuddy 提供分析，100% 匿名化且非侵入式。 /// - Blog powered by Marble, Headless CMS. // 由 Marble 驱动的博客，无头 CMS。"
+[site]: https://opencut.app/ "The Open Source Video Editor // 开源的视频编辑器 /// A simple but powerful video editor that gets the job done. Works on any platform. // 一个简单但功能强大的视频编辑器，能高效完成任务。适用于任何平台。"
+[app.wui/.site]: https://opencut.app/projects "Start creating your first video project. Import media, edit, and export professional videos. // 开始创建您的第一个视频项目。导入媒体，编辑，并导出专业视频。"
+[twitter]: https://twitter.com/OpenCutApp
+[discord]: https://discord.com/invite/Mu3acKZvCp
+
