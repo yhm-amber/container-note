@@ -1,0 +1,1 @@
+[src/gh]: https://github.com/lzdyes/douyin-downloader.git "(Languages: Vue 35.8%, Pug 20.4%, TypeScript 16.4%, Rust 12.8%, JavaScript 8.7%, Stylus 5.0%, HTML 0.9%) A cross-platform download douyin video tool built with tauri // 一个使用 tauri 构建的跨平台抖音视频下载工具"
