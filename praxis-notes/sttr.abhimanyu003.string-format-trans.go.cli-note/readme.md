@@ -1,0 +1,5 @@
+[pkg.x/x-cmd]: https://x-cmd.com/install/sttr "(: xd alp -- sttr) (: x install -- sttr)"
+[src/gh]: https://github.com/abhimanyu003/sttr.git "(MIT) (Languages: Go 95.8%, Shell 4.2%) cross-platform, cli app to perform various operations on string // 跨平台，命令行工具，用于对字符串执行各种操作"
+[pkg.oci/ghcr]: https://github.com/abhimanyu003/sttr/pkgs/container/sttr "(: docker run --rm -it -e TERM=xterm-256color -- ghcr.io/abhimanyu003/sttr:latest)"
+[pkg.go/pkg.go.dev]: https://pkg.go.dev/github.com/abhimanyu003/sttr "(go install -- github.com/abhimanyu003/sttr@latest)"
+[site/ghio]: https://abhimanyu003.github.io/sttr/ "(: sttr # With input prompt) (: sttr md5 -- 'Hello World' # Direct input) (: sttr md5 -- file.text # Text file input ;: sttr base64-encode -- image.jpg # Pic file input) (: echo 'Hello World' | sttr md5 ;: cat file.txt | sttr md5) (: sttr yaml-json -- file-inpot.yaml > file-output.json)"
