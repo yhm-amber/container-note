@@ -1,0 +1,2 @@
+- base: [rustfs](../../../../../praxis-notes/rustfs-note)
+- front: [dioxus](../../../../../praxis-notes/dioxus.fullstack-app-framework.wui.cross-platform.app-bud.rs.lib-note)
