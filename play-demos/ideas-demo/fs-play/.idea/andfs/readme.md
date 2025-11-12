@@ -1,2 +1,4 @@
 - base: [rustfs](../../../../../praxis-notes/rustfs-note)
 - front: [dioxus](../../../../../praxis-notes/dioxus.fullstack-app-framework.wui.cross-platform.app-bud.rs.lib-note)
+- net: [trystero](../../../../../praxis-notes
+/trystero.dmotz.p2p.decentralized.api.js.lib-note)
