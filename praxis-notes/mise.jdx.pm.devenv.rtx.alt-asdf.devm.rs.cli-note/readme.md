@@ -2,7 +2,9 @@
 [src/gh]: https://github.com/jdx/mise.git "(MIT) (Languages: YAML 56.7%, Rust 35.0%, Shell 5.3%, TypeScript 2.2%, Lua 0.5%, PowerShell 0.2%, Other 0.1%) dev tools, env vars, task runner // 开发工具、环境变量、任务运行器 /// What is it?  它是什么？ /// - Like asdf (or nvm or pyenv but for any language) it manages dev tools like node, python, cmake, terraform, and hundreds more. // 就像 asdf（或者 nvm 或 pyenv 但适用于任何语言）一样，它管理开发工具，如 node、python、cmake、terraform 等数百种工具。 /// - Like direnv it manages environment variables for different project directories. // 就像 direnv 一样，它管理不同项目目录的环境变量。 /// - Like make it manages tasks used to build and test projects. // 像 make 一样管理用于构建和测试项目的任务。"
 [site]: https://mise.jdx.dev/ "mise-en-place /// The front-end to your dev env // 你的开发环境前端 /// Pronounced \"MEEZ ahn plahs\" // 发音为“米斯安普拉”"
 
-[usage-lang:erlang/.site]: https://mise.jdx.dev/lang/erlang.html "(: mise ls-remote -- erlang # See available versions) (: mise use -g -- erlang elixir) (: mise use -g -- erlang@27)"
+[usage-lang:erlang/.site]: https://mise.jdx.dev/lang/erlang.html "(: mise ls-remote -- erlang # See available versions) (: mise use -g -- erlang@27) (: mise use -g -- erlang elixir)"
+[usage-lang:elixir/.site]: https://mise.jdx.dev/lang/elixir.html "(: mise ls-remote -- elixir # See available versions) (: mise use -g -- erlang elixir)"
+[usage-lang:python/.site]: https://mise.jdx.dev/lang/python.html "(: mise ls-remote -- python # See available versions) (: mise use -g -- uv@latest) (: mise use -g -- python@3.14 python@anaconda)"
 
 [pkg.cargo/crates]: https://crates.io/crates/mise "(MIT) (815 KiB) (: cargo install -- mise) (: cargo install -- cargo-binstall ;: cargo binstall -- mise)"
 [pkg.x/x-cmd]: https://x-cmd.com/install/mise "(: x install -- mise)"
