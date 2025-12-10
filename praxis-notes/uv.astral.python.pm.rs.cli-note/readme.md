@@ -1,4 +1,5 @@
 [src/gh]: https://github.com/astral-sh/uv.git "(Apache-2.0, MIT) (Languages: Rust 98.1%, Python 1.7%, Shell 0.1%, Mustache 0.1%, Batchfile 0.0%, Nushell 0.0%) An extremely fast Python package and project manager, written in Rust. // 一个极快的 Python 包和项目管理器，用 Rust 编写。 (替代 pip, 像 cargo 那样管理项目, 更好的存储结构和缓存, 更快)"
-[oci/ghcr]: https://github.com/astral-sh/uv/pkgs/container/uv "(: docker pull ghcr.io/astral-sh/uv:latest)"
-[app/pypi]: https://pypi.org/project/uv/ "(: pip install -- uv)"
+[cli.oci/ghcr]: https://github.com/astral-sh/uv/pkgs/container/uv "(: docker pull ghcr.io/astral-sh/uv:latest)"
+[cli.pip/pypi]: https://pypi.org/project/uv/ "(: pip install -- uv)"
 [docs]: https://docs.astral.sh/uv/ "(: uvx pycowsay 'hello world!') `uvx` like `pipx` is an alias for `uv tool run`"
+[cli.mise/mise]: https://mise.jdx.dev/lang/python.html "(: mise get -g -- uv) mise & uv /// If you have installed uv (for example, with mise use -g uv@latest), mise will use it to create virtual environments. Otherwise, it will use the built-in python -m venv command. // 如果你已经安装了 uv （例如，使用 mise use -g uv@latest 安装）， mise 将使用它来创建虚拟环境。否则，它将使用内置的 python -m venv 命令。 /// Note that uv does not include pip by default (as uv provides uv pip instead). If you need the pip package, add the uv_create_args = ['--seed'] option. // 请注意， uv 默认不包括 pip （因为 uv 提供了 uv pip ）。如果您需要 pip 包，请添加 uv_create_args = ['--seed'] 选项。"
