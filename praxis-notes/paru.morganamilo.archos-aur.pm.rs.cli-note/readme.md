@@ -2,3 +2,4 @@
 [irc/libera.chat]: https://web.libera.chat/#paru "Created on 2021/6/25 /// Paru support and discussion channel /// Set by morganamilo on 2024/11/15"
 [demo.asciinema/asciinema]: https://asciinema.org/a/sEh1ZpZZUgXUsgqKxuDdhpdEE
 [cli.cargo/crates]: https://crates.io/crates/paru "(: cargo install -- paru) (GPL-3.0) (7.7K SLoC) (89.4 KiB) Feature packed AUR helper (src: gh:Morganamilo/paru.git)"
+[knowsby]: https://yalter.github.io/niri/Getting-Started.html "Arch Linux (via paru): /// (: sudo pacman -Syu niri xwayland-satellite xdg-desktop-portal-gnome xdg ;: desktop-portal-gtk alacritty ;: paru -S dms-shell-bin matugen wl-clipboard cliphist cava qt6-multimedia-ffmpeg ;: systemctl --user add-wants niri.service dms)"
