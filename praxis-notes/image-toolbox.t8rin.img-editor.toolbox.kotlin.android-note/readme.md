@@ -1,2 +1,3 @@
 [apk/f-droid]: https://f-droid.org/packages/ru.tech.imageresizershrinker/ "(57 MiB) (Apache-2.0) Filter, Resize, Compare, Crop - do anything with your images"
 [src/gh]: https://github.com/T8RIN/ImageToolbox.git "(Apache-2.0) (Languages: Kotlin 100.0%) 🖼️ Image Toolbox is an powerful picture editor, which can crop, apply filters, add some drawing, erase background, edit EXIF or even create PDF file // 🖼️ Image Toolbox 是一款功能强大的图片编辑器，它可以裁剪、应用滤镜、添加绘图、擦除背景、编辑 EXIF 甚至创建 PDF 文件。"
+[mail]: mailto:t8rin@bk.ru
