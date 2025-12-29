@@ -1,0 +1,21 @@
+[[https://disroot.org/][site]]
+
+
+- [[https://webmail.disroot.org/][Email]]: Free and secure email accounts for your desktop IMAP client or via a Web-interface.
+- [[https://cloud.disroot.org/][Cloud]]: Your data under your control! Collaborate, sync & share files, calendars, contacts and more.
+- [[https://webchat.disroot.org/][XMPP Chat]]: Decentralized instant messaging.
+- [[https://pad.disroot.org/][Pad]]: Create and edit documents collaboratively in real-time directly in the web browser.
+- [[https://bin.disroot.org/][Paste Bin]]^{/E2EE/}: Encrypted online paste-bin/discussion board.
+- [[https://upload.disroot.org/][Upload]]^{/E2EE/}: Encrypted, temporary file hosting and sharing software.
+- [[https://search.disroot.org/][Search]]: An anonymous multi search engine platform.
+- [[https://calls.disroot.org/][Calls]]: A videoconferencing tool.
+- [[https://git.disroot.org/][Git]]: A code hosting and project collaboration.
+- [[https://mumble.disroot.org][Audio]]: A low latency, high quality voice chat application.
+- [[https://cryptpad.disroot.org/][CryptPad]]^{/E2EE/}: A private-by-design alternative to popular office tools.
+- [[https://fe.disroot.org/][Akkoma]]: A microblogging tool that can federate with other servers that support ActivityPub.
+- [[https://translate.disroot.org/][Translate]]: A translation application.
+- [[https://scribe.disroot.org/][D·Scribe]]: A link aggregation and discussion platform that can federate with other servers that support ActivityPub.
+
+
+
+
