@@ -1,0 +1,11 @@
+[[https://envs.net/][site]]
+
+- [[https://pad.envs.net/][cryptpad]]: collaborative real time editing
+- [[https://twtxt.envs.net/][getwtxt]]: twtxt registry service - microblogging for hackers
+- [[https://hedgedoc.envs.net/][hedgedoc]]: collaborative real time markdown
+- [[https://matrix.envs.net/][matrix]]: open network for secure, decentralized communication
+- [[https://pleroma.envs.net][pleroma]]: federated social network - microblogging
+- [[https://pb.envs.net][privatebin]]: graphical pastebin
+- [[https://searx.envs.net][searxng]]: privacy-respecting metasearch engine
+
+
