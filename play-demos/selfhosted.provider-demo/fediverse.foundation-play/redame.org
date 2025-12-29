@@ -1,0 +1,4 @@
+[[https://fediverse.foundation/services/][services]]
+
+- [[https://docs.fediverse.foundation/][CryptPad]] ist eine kollaborative Office Suite, die Ende-zu-Ende-verschlüsselt und Open-Source ist. Hier könnt ihr einfach und schnell Dokumente aller Art in einem benutzerfreundlichen Webinterface bearbeiten und teilen, oder beliebige Dateien sicher speichern.
+- [[https://meet.fediverse.foundation/][Pollaris]] stellt eine sehr schöne Alternative zu Doodle dar, und die wollen wir euch natürlich nicht vorenthalten. könnt ihr schnell, einfach und gewohnt datensparsam zusammen mit Freund*innen und Kolleg*innen einen Termin finden. Keine endlosen Chat- oder Emailkonversationen - einfach Tage bzw. Uhrzeiten eintragen, Link aussenden, fertig!
