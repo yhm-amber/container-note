@@ -1,0 +1,32 @@
+
+[[https://unredacted.org/][site]]
+
+Unredacted is a 501(c)(3) non-profit organization that builds Internet infrastructure and services to help people evade censorship and protect their right to *privacy*.
+
+We believe that privacy is a right and that free, open access to *information* is deeply important.
+
+Together, these principles allow humanity to *develop freely*.
+
+*** Censorship Evasion (CE)
+
+- [[https://freesocks.org/][freesocks]]: FreeSocks is a service that provides free, open & uncensored Outline (Shadowsocks) proxies to people in countries experiencing a high level of Internet censorship.
+- [[https://unredacted.org/services/ce/tor/][Tor Relays & Bridges]]: Giving back to the internet, we run several Tor relays and bridges on a stable and performant infrastructure with the help of automation & secure-by-default configuration.
+- [[https://unredacted.org/services/ce/proxies/signal/][Signal Proxies]]
+  - [[https://signal.tube/#envoy1-sig.tunnelwizard.net][Server 1: envoy1-sig.tunnelwizard.net, Port: 443]]
+  - [[https://signal.tube/#envoy2-sig.tunnelwizard.net][Server 2: envoy2-sig.tunnelwizard.net, Port: 443]]
+  - [[https://signal.tube/#envoy1-sig.freevideochats.org][Server 3: envoy1-sig.freevideochats.org, Port: 443]]
+- [[https://unredacted.org/services/ce/proxies/telegram/][Telegram Proxies]]
+  - [[tg://proxy?port=443&secret=7lpZ7barqkVJeyOWoDGVwRFkYXJ0bm9kZS5jb20&server=envoy1-tel.tunnelwizard.net][Server: envoy1-tel.tunnelwizard.net, Protocol: MTProto, Port: 443]]
+
+*** Secure Infrastructure (SI)
+
+- [[https://xmpp.is/][XMPP/Jabber server]]: We’ve been operating since May 2015, that’s over 8 years of continuous operation! Wow, we’re sure feeling pretty old now… While there hasn’t been many new features on XMPP.is, it sort of just runs itself for the most part (of course we patch for security updates regularly).
+- [[https://matrix.unredacted.org][Unredacted Matrix Server]]: Unredacted hosts a public and security focused Matrix server for you to chat securely and privately on the decentralized Matrix ecosystem. Matrix offers a lot, including a vast network of homeservers consisting of many communities and is often end-to-end encrypted by default.
+  - [[https://cinny.unredacted.org/login/https%3A%2F%2Fmatrix.unredacted.org][cinny.unredacted.org]]: alt modern web client
+  - [[https://hydrogen.unredacted.org/][hydrogen.unredacted.org]]: legacy friendly web client
+- [[https://etherpad.unredacted.org/][etherpad]]: Create and share documents in real time. Etherpad allows you to edit documents collaboratively in real-time, much like a live multi-player editor that runs in your browser.
+- [[https://jitsi.unredacted.org/][Jitsi Meet]]: Secure and open source video conferencing
+
+
+
+
