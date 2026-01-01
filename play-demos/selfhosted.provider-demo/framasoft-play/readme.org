@@ -3,4 +3,31 @@
 [[https://degooglisons-internet.org/][Services libres]]
 
 ** Créer des outils pratiques
-
+- [[https://framacarte.org/][Framacarte]] ^{/alt: Google Maps/} - Personnalisez vos cartes géographiques en ligne.
+- [[https://framaforms.org/][Framaforms]] ^{/alt: Google Forms/} - Créez simplement des questionnaires.
+- [[https://framindmap.org/][Framindmap]] ^{/alt: Bubbl.us/} - Fabriquez vos cartes mentales.
+- [[https://framapdf.org/][FramaPDF]] ^{/alt: I Love PDF/} - Un outil libre pour modifier, manipuler et signer vos PDFs.
+- [[https://framapetitions.org/][Framapetitions]] ^{/alt: Avaaz/} - Un service de pétitions qui respecte vos données personnelles
+- [[https://framatoolbox.org/][Framatoolbox]] ^{/alt: FreeConvert/} - Plus d'une centaine d'outils pratiques pour se simplifier la vie.
+- [[https://beta.framaforms.org/][Framaforms (beta)]] ^{/alt: Google Forms/} - Des formulaires en ligne (nouvelle version !)
+** Échanger à plusieurs
+- [[https://framagroupes.org/][Framagroupes]] ^{/alt: Google Groups/} - Créez un groupe de discussion par email.
+- [[https://framatalk.org/][Framatalk]] ^{/alt: Zoom/} - Échangez en audio-vidéo en trois clics seulement.
+- [[https://framateam.org/][Framateam]] ^{/alt: Slack/} - Discutez avec votre équipe sur un tchat boosté aux stéroïdes.
+** Se divertir
+- [[https://framagames.org/][Framagames]] ^{/alt: Kongregate/} - Une compilation de jeux libre.
+- [[https://sepiasearch.org/][Sepia Search]] ^{/alt: Youtube/} - Cherchez des vidéos, listes de lecture et chaînes PeerTube.
+** S’organiser ensemble
+- [[https://framagenda.org/][Framagenda]] ^{/alt: Google Agenda/} - Choisissez qui verra votre planning.
+- [[https://framacount.org/][Framacount]] ^{/alt: Tricount/} - Gérez facilement vos dépenses partagées.
+- [[https://framadate.org/][Framadate]] ^{/alt: Doodle/} - Planifiez vos réunions ou prenez des décisions
+- [[https://mobilizon.fr/][Mobilizon]] ^{/alt: Facebook Event/} - Trouvez, créez et organisez vos événements. Animez vos groupes.
+- [[https://framaspace.org/][Framaspace]] ^{/alt: Workplace/} - Cloud convivial pour collectifs solidaires.
+- [[https://framavox.org/][Framavox]] ^{/alt: Shrtct/} - Prenez vos décisions ensemble, collaborativement.
+** Collaborer
+- [[https://framacalc.org/][Framacalc]] ^{/alt: Google Spreadsheet/} - Partagez vos tableaux et collaborez !
+- [[https://framapad.org/][Framapad]] ^{/alt: Google Docs/} - Rédigez vos textes en ligne et à plusieurs
+- [[https://drawio.framalab.org/][Draw (beta)]] ^{/alt: Lucidchart/} - Créez des schémas et gérez vos tableaux blancs.
+- [[https://excalidraw.framalab.org/][Excalidraw (beta)]] ^{/alt: Lucidchart/} - Créez des schémas et gérez vos tableaux blancs.
+** Développer
+- [[https://framagit.org/][Framagit]] ^{/alt: GitHub/} - Publiez votre code (libre) sur une plateforme libre !
