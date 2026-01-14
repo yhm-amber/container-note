@@ -1,25 +1,34 @@
-version: 19
+version: 43
 jobs:
 - name: pusher all-branch commit
   steps:
-  - !PushRepository
-    name: force to gh yhm-amber/container-note
+  - type: PushRepository
+    name: (not force) to gh yhm-amber/container-note
     remoteUrl: https://github.com/yhm-amber/container-note.git
     userName: yhm-amber
     passwordSecret: github.yhm-amber
-    withLfs: true
-    force: true
+    force: false
     condition: ALWAYS
-  - !PushRepository
-    name: force to cb yhm-ypa/container-note
+    optional: false
+  - type: PushRepository
+    name: (force) to cb yhm-ypa/container-note
     remoteUrl: https://codeberg.org/yhm-ypa/container-note.git
     userName: yhm
     passwordSecret: codeberg.yhm
-    withLfs: true
     force: true
     condition: ALWAYS
+    optional: false
+  - type: PushRepository
+    name: (force) to disrootfj ypayhm/container-note
+    remoteUrl: https://git.disroot.org/ypayhm/container-note.git
+    userName: ypayhm
+    passwordSecret: disroot.ypayhm
+    force: true
+    condition: ALWAYS
+    optional: false
   triggers:
-  - !BranchUpdateTrigger
+  - type: BranchUpdateTrigger
+    userMatch: anyone
     projects: yhm-ypa/container-note
   retryCondition: never
   maxRetries: 3
@@ -27,24 +36,32 @@ jobs:
   timeout: 3600
 - name: puller all-branch cron.03:20:10
   steps:
-  - !PullRepository
-    name: from gh yhm-amber/container-note
+  - type: PullRepository
+    name: (not force) from gh yhm-amber/container-note
     remoteUrl: https://github.com/yhm-amber/container-note.git
-    syncToChildProject: false
     refs: refs/heads/* refs/tags/*
     withLfs: true
     force: false
     condition: ALWAYS
-  - !PullRepository
-    name: from cb yhm-ypa/container-note
+    optional: false
+  - type: PullRepository
+    name: (not force) from cb yhm-ypa/container-note
     remoteUrl: https://codeberg.org/yhm-ypa/container-note.git
-    syncToChildProject: false
     refs: refs/heads/* refs/tags/*
     withLfs: true
     force: false
     condition: ALWAYS
+    optional: false
+  - type: PullRepository
+    name: (not force) from disrootfj ypayhm/container-note
+    remoteUrl: https://git.disroot.org/ypayhm/container-note.git
+    refs: refs/heads/* refs/tags/*
+    withLfs: true
+    force: false
+    condition: ALWAYS
+    optional: false
   triggers:
-  - !ScheduleTrigger
+  - type: ScheduleTrigger
     cronExpression: 10 20 3 * * ?
     projects: yhm-ypa/container-note
   retryCondition: never
