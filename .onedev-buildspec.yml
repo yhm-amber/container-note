@@ -26,6 +26,14 @@ jobs:
     force: true
     condition: ALWAYS
     optional: false
+  - type: PushRepository
+    name: (force) to framagl ypayhm/container-note
+    remoteUrl: https://framagit.org/ypayhm/container-note.git
+    userName: ypayhm
+    passwordSecret: framagl.ypayhm
+    force: true
+    condition: ALWAYS
+    optional: false
   triggers:
   - type: BranchUpdateTrigger
     userMatch: anyone
@@ -55,6 +63,14 @@ jobs:
   - type: PullRepository
     name: (not force) from disrootfj ypayhm/container-note
     remoteUrl: https://git.disroot.org/ypayhm/container-note.git
+    refs: refs/heads/* refs/tags/*
+    withLfs: true
+    force: false
+    condition: ALWAYS
+    optional: false
+  - type: PullRepository
+    name: (not force) from framagl ypayhm/container-note
+    remoteUrl: https://framagit.org/ypayhm/container-note.git
     refs: refs/heads/* refs/tags/*
     withLfs: true
     force: false
