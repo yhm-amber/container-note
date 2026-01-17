@@ -1,0 +1,3 @@
+[gui.src/gh]: https://github.com/Tokeii0/LovelyMem.git "(MIT) (Python 100%) LovelyMem /// ✨ 基于 Memprocfs 和 Volatility 的可视化内存取证工具 ✨ /// 一款基于 MemProcFS、Volatility2、Volatility3 的快捷内存取证工具。 /// 区别于 VolatilityPro (. gh:Tokeii0/VolatilityPro.git) ， LovelyMem 提供了更快的取证速度和更便捷的功能。 /// 功能特点 /// - 工具集成：集成了 MemProcFS、Volatility2、Volatility3 等多种内存取证工具。 /// - 快速检查：提供常用取证功能的快速访问。 /// - 任务编排：可以创建和执行自定义的取证任务流程。 /// - 报告编辑器：方便生成和编辑取证报告。 /// - AI助手：提供AI辅助分析功能。 /// - 配置设置：通过图形界面轻松配置工具路径、LLM设置和代理设置。"
+[plg.src/gh]: https://github.com/Tokeii0/Lovelymem-Plugin.git "(Rust 100%) 一个专为内存取证分析设计的高性能工具集，包含两个核心组件：字符串提取工具和路径转换器。 /// 🚀 项目概述 /// 本项目提供了两个强大的内存取证工具： /// - memstrap - 高性能CLI内存取证字符串提取工具 /// - openMemprocfsPath - memprocfs路径转换器，用于在Windows资源管理器中快速定位文件"
+
