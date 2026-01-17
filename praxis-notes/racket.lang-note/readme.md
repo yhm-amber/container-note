@@ -1,0 +1,4 @@
+[site/org]: https://racket-lang.org/ "Racket, the Language-Oriented Programming Language // Racket，一种面向语言的编程语言"
+[src/gh]: https://github.com/racket/racket.git "(Apache-2.0, LGPL-3.0 OR LATER, MIT) (Languages: Racket 43.4%, Scheme 25.8%, C 23.4%, C++ 2.5%, Shell 1.3%, TeX 0.9%, Other 2.7%) The Racket repository /// Racket is a general-purpose programming language and an ecosystem for language-oriented programming. // Racket 是一种通用编程语言，也是一个面向语言的编程生态系统。 /// By making a contribution, you are agreeing that your contribution is licensed under the LGPLv3, Apache 2.0, and MIT licenses. Those licenses are available in this repository in the files racket/src/LICENSE-LGPL.txt, racket/src/LICENSE-APACHE.txt, and racket/src/LICENSE-MIT.txt. // 您提交贡献即表示同意您的贡献将根据 LGPLv3、Apache 2.0 和 MIT 许可证进行授权。这些许可证可在本仓库的 racket/src/LICENSE-LGPL.txt、racket/src/LICENSE-APACHE.txt 和 racket/src/LICENSE-MIT.txt 文件中找到。"
+[pm.reg/.site]: https://pkgs.racket-lang.org/ "Racket Packages"
+
