@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/dtolnay/anyhow.git "(Apache-2.0, MIT) (Languages: Rust 100.0%) Flexible concrete Error type built on std::error::Error // 基于 std::error::Error 构建的灵活具体错误类型 /// Anyhow ¯\_(°ペ)_/¯ // 无论如何 ¯\_(°ペ)_/¯ /// (: use anyhow::{ anyhow, bail } ;: bail!(your_message_str) ;: /* same as */ return Err(anyhow!(your_message_str)) ;: /* also tmpl */ bail!(\"Missing attribute: {}\", missing) ;: // ...)"
+[lib.cargo/crates]: https://crates.io/crates/anyhow "(: cargo add -- anyhow) (MIT OR Apache-2.0) (2.9K SLoC) (52.8 KiB) Flexible concrete Error type built on std::error::Error // 基于 std::error::Error 构建的灵活具体错误类型 (src: gh:dtolnay/anyhow.git)"
+
