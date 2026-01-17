@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/ithacaxyz/metrics-derive.git "(Apache-2.0, MIT) (Languages: Rust 100.0%) Procedural macro for automatically implementing metrics description and initialization. // 用于自动实现指标描述和初始化的过程宏。 /// metrics-derive provides the Metrics derive macro, allowing you to automatically implement metrics description and initialization. // metrics-derive 提供了 Metrics derived 宏，允许您自动实现指标描述和初始化。 /// Originally introduced in gh:paradigmxyz/reth.git repository in its issue #592. // 最初在 gh:paradigmxyz/reth.git 存储库中于 #592 引入。"
+[lib.cargo/crates]: https://crates.io/crates/metrics-derive "(: cargo add -- metrics-derive) (MIT OR Apache-2.0) (461 SLoC) (12.8 KiB)  (src: gh:ithacaxyz/metrics-derive.git)"
+
