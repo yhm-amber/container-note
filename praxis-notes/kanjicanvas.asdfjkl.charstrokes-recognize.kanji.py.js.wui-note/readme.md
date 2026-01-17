@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/asdfjkl/kanjicanvas.git "(MIT) (Languages: Python 99.6%, Shell 0.4%) Online Kanji (Japanese Character) Recognition in Javascript // 使用 Javascript 进行在线汉字（日语字符）识别 /// This is an implementation of stroke order and stroke number free online Japanese (Kanji) Handwriting Recognition in client side only Javascript. Subjectively it provides much more robust recognition than many other implementations out there. // 这是一个完全基于客户端 JavaScript 的免费在线日语（汉字）手写识别程序，支持笔顺和笔画数识别。主观来说，它的识别效果比许多其他同类程序都要好得多。"
+[demo.wui/ghio]: https://asdfjkl.github.io/kanjicanvas/ "Draw a kanji on the canvas, then click “Recognize” for a list of matches. // 在画布上画一个汉字，然后点击“识别”按钮，即可获得匹配结果列表。"
+
