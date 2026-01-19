@@ -1,0 +1,6 @@
+[src/gh]: https://github.com/pythops/tenere.git "(GPL-3.0) (Languages: Rust 99.2%, Just 0.8%) 🤖 TUI for LLMs // 🤖 用于 LLMs 的 TUI /// ## 🪄 Features // 🪄 功能 /// - Syntax highlights // 语法高亮 /// - Chat history // 聊天历史 /// - Save chats to files // 将聊天保存到文件 /// - Vim keybinding (most common ops) // Vim 键绑定（常用操作） /// - Copy text from/to clipboard (works only on the prompt) // 从/到剪贴板复制文本（仅在提示符中有效） /// - Multiple backends // 多个后端 /// - Automatically load the last saved chat into history // 自动将上次保存的聊天加载到历史记录中 /// ## 💎 Supported Backends // 💎 支持的后端 /// - ChatGPT /// - llama.cpp /// - ollama"
+[cli.x/x-cmd]: https://x-cmd.com/install/tenere "(: xd alp -- tenere) (: x install -- tenere)"
+[repology]: https://repology.org/project/tenere
+[cli.cargo/crates]: https://crates.io/crates/tenere "(: cargo install -- tenere) (GPL-3.0-or-later) (1.7K SLoC) (460 KiB) TUI interface for LLMs written in Rust (src: gh:pythops/tenere.git)"
+[cli.brew/homebrew]: https://formulae.brew.sh/formula/tenere "(: brew install -- tenere) TUI interface for LLMs written in Rust (src: gh:pythops/tenere.git)"
+[cli.nix/nixos]: https://search.nixos.org/packages?show=tenere "(: nix profile install -- 'nixpkgs#tenere') (: nix-shell -p tenere --)"
