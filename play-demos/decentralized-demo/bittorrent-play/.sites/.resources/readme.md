@@ -2765,6 +2765,22 @@ magnet:?xt=urn:btih:592388870fd8e5c07ae5bb6508e96cf7e0a14b0b&dn=Pulp%20Fiction%2
 
 ### 追凶者也 Cock and Bull (2016)
 
+#### [`追凶者也[4KHDR.CN]Cock.and.Bull.2016.2160p.WEB-DL.H265.HDR.AAC-4KHDR世界.mp4`](https://bt4gprx.com/magnet/0vnAf4uEKhAfQMVIFmDpf6i7eeKnBUTmH)
+
+[`9.90GB`](https://downloadtorrentfile.com/hash/18897a3938f74bdc559bd17eef4f01df42a977c3?name=%e8%bf%bd%e5%87%b6%e8%80%85%e4%b9%9f%5b4KHDR.CN%5dCock.and.Bull.2016.2160p.WEB-DL.H265.HDR.AAC-4KHDR%e4%b8%96%e7%95%8c.mp4)
+
+~~~ magnet
+magnet:?xt=urn:btih:18897a3938f74bdc559bd17eef4f01df42a977c3
+~~~
+
+#### [`【高清影视之家发布 www.HDBTHD.com】追凶者也[国语配音+中文字幕].Cock.and.Bull.2016.2160p.WEB-DL.H265.HDR.AAC-MOMOWEB Torrent download`](https://bt4gprx.com/magnet/qC6Es5OoRrlJkeYlpScET3Zm0rXG67BUA)
+
+[`9.90GB`](https://downloadtorrentfile.com/hash/f1360c166ec0c88050bab7431a8cef55ad42a9da?name=%e3%80%90%e9%ab%98%e6%b8%85%e5%bd%b1%e8%a7%86%e4%b9%8b%e5%ae%b6%e5%8f%91%e5%b8%83%20www.HDBTHD.com%e3%80%91%e8%bf%bd%e5%87%b6%e8%80%85%e4%b9%9f%5b%e5%9b%bd%e8%af%ad%e9%85%8d%e9%9f%b3%2b%e4%b8%ad%e6%96%87%e5%ad%97%e5%b9%95%5d.Cock.and.Bull.2016.2160p.WEB-DL.H265.HDR.AAC-MOMOWEB)
+
+~~~ magnet
+magnet:?xt=urn:btih:f1360c166ec0c88050bab7431a8cef55ad42a9da
+~~~
+
 #### [`【高清影视之家首发 www.BBEDDE.com】追凶者也[国语配音+中文字幕].Cock.and.Bull.2016.2160p.WEB-DL.H265.HDR.AAC-MOMOWEB Torrent download`](https://bt4gprx.com/magnet/m4KxF5rel5Udb62g0IQdcOhGBOWGAY3MA)
 
 [`9.90GB`](https://downloadtorrentfile.com/hash/612c148122dd81a75b90e6c65964204579b01d79?name=%e3%80%90%e9%ab%98%e6%b8%85%e5%bd%b1%e8%a7%86%e4%b9%8b%e5%ae%b6%e9%a6%96%e5%8f%91%20www.BBEDDE.com%e3%80%91%e8%bf%bd%e5%87%b6%e8%80%85%e4%b9%9f%5b%e5%9b%bd%e8%af%ad%e9%85%8d%e9%9f%b3%2b%e4%b8%ad%e6%96%87%e5%ad%97%e5%b9%95%5d.Cock.and.Bull.2016.2160p.WEB-DL.H265.HDR.AAC-MOMOWEB)
