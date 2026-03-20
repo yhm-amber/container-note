@@ -2933,123 +2933,6 @@ magnet:?xt=urn:btih:2663a4bfa16f42225cb824cb3b77bd228d0f68a1&dn=The%20King%20of%
 magnet:?xt=urn:btih:75a0311a5eadef077a8b4da0bd051d86fc010bcf&dn=The%20Truman%20Show%20(1998)%20%5B2160p%5D%20%5B4K%5D%20%5BWEB%5D%20%5B5.1%5D%20%5BYTS.MX%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker2.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fuploads.gamecoast.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leech.ie%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.4.babico.name.tr%3A3131%2Fannounce&tr=udp%3A%2F%2Fsanincode.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fprivate.anonseed.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fhtz3.noho.st%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
 ~~~
 
-### 流浪地球 (2023)
-
-- [流浪地球2 | 維基百科](https://zh.wikipedia.org/wiki/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%832)
-- [The Wandering Earth 2 | Wikipedia](https://en.wikipedia.org/wiki/The_Wandering_Earth_2)
-
-#### `BTBA`
-
-- [`流浪地球2.The Wandering Earth II.2023.4K.H264.DDP5.1&AAC.Mandarin.CHS&ENG-[BTBA]`](https://bt4g.org/magnet/81081b8512f96cca395a6750de10be433ba99c88) `5.55GB`
-- [`流浪地球2.The Wandering Earth II.2023.4K.H265.DDP5.1&AAC.Mandarin.CHS&ENG-[BTBA]`](https://bt4g.org/magnet/de2e7c86d5aae2488296d58545de21da4bbda86e) `24.47GB`
-
-~~~ magnet
-magnet:?xt=urn:btih:81081b8512f96cca395a6750de10be433ba99c88&dn=%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%832.The%20Wandering%20Earth%20II.2023.4K.H264.DDP5.1%26AAC.Mandarin.CHS%26ENG-%5BBTBA%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
-
-magnet:?xt=urn:btih:de2e7c86d5aae2488296d58545de21da4bbda86e&dn=%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%832.The%20Wandering%20Earth%20II.2023.4K.H265.DDP5.1%26AAC.Mandarin.CHS%26ENG-%5BBTBA%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
-~~~
-
-#### `4KSJ`
-
-- [`[4K世界]流浪地球2.The.Wandering.Earth.II.2023.2160p.HQ.WEB-DL.H265.DDP5.1-4KSJ`](https://bt4g.org/magnet/00e14802558b3f9d19220947e457f4371dbc8d08) `24.46GB`
-- [`[4K世界]流浪地球2.The.Wandering.Earth.II.2023.2160p.WEB-DL.H265.DV.DDP5.1-4KSJ`](https://bt4g.org/magnet/5763efc29b4e1f284f9263f8319b16d8c9211d6b) `8.09GB`
-
-~~~ magnet
-magnet:?xt=urn:btih:00e14802558b3f9d19220947e457f4371dbc8d08&dn=%5B4K%E4%B8%96%E7%95%8C%5D%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%832.The.Wandering.Earth.II.2023.2160p.HQ.WEB-DL.H265.DDP5.1-4KSJ&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
-
-magnet:?xt=urn:btih:5763efc29b4e1f284f9263f8319b16d8c9211d6b&dn=%5B4K%E4%B8%96%E7%95%8C%5D%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%832.The.Wandering.Earth.II.2023.2160p.WEB-DL.H265.DV.DDP5.1-4KSJ&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
-~~~
-
-#### `TJUPT`
-
-- [`The.Wandering.Earth.2.2023.4K.WEB-DL.H265.AAC-TJUPT.mp4`](https://bt4g.org/magnet/c7f302e8f170b56e3c9fa4fbf35b657b90a63d09) `2.21GB`
-- [`The.Wandering.Earth.2.2023.4K.WEB-DL.H265.AAC-TJUPT.mp4`](https://bt4g.org/magnet/b95872cf631e4d8c19ca9d3b14c8514131d5b69a) `2.21GB`
-
-~~~ magnet
-magnet:?xt=urn:btih:c7f302e8f170b56e3c9fa4fbf35b657b90a63d09&dn=The.Wandering.Earth.2.2023.4K.WEB-DL.H265.AAC-TJUPT.mp4&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
-
-magnet:?xt=urn:btih:b95872cf631e4d8c19ca9d3b14c8514131d5b69a&dn=The.Wandering.Earth.2.2023.4K.WEB-DL.H265.AAC-TJUPT.mp4&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.bt4g.com%3A443%2Fannounce
-~~~
-
-### Avatar (2009)
-
-- offical site: [Avatar (2009) | Avatar.com](https://www.avatar.com/movies/avatar)
-- imdb: [Avatar (2009) | IMDb](https://www.imdb.com/title/tt0499549)
-
-- wiki: 
-  
-  - [Avatar Wiki | Fandom](https://avatar.fandom.com)
-  - [Avatar Wiki | Fandom](https://james-camerons-avatar.fandom.com)
-  - [Eywa | Avatar Wiki | Fandom](https://james-camerons-avatar.fandom.com/wiki/Eywa)
-
-#### `阿凡达.加长版.特效中英字幕.第三版.Avatar.Extended.Collector's.Edition.2009.BD1080P.X264.DTS-HD.MA.5.1.Mandarin&English.CHS-ENG.FFans@星星`
-
-- *找到这些分享站：*
-  
-  - [`[磁链][19.9GB][国英双语/双字][阿凡达 加长版 2009]BDRIP.1080p.x264～09年就没看说 - 水客驿站 - 星空论坛 - SEIKUU.COM`](https://bbs2.seikuu.com/thread-250574-1-1.html)
-  - [`阿凡达.加长版.特效中英字幕.第三版.avatar.extended.collector's.edition[email protected]星星[19.9g]下载 - 比兔TV`](https://www.btutv.com/down/Avatar2009/qYvDJ7m.html)
-  - [`阿凡达 加长版 特效中英字幕 第三版 Avatar Extended Collector's Edition 2009 BD1080P X264 DTS-HD MA 5.1 Mandarin&English CHS-ENG FFans@星星 Torrent Download`](https://www.torlock.com/torrent/40298027/%E9%98%BF%E5%87%A1%E8%BE%BE-%E5%8A%A0%E9%95%BF%E7%89%88-%E7%89%B9%E6%95%88%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95-%E7%AC%AC%E4%B8%89%E7%89%88-avatar-extended-collector%27s-edition-bd1080p-dts-hd-.html)
-  - [`阿凡达 加长版 特效中英字幕 第三版 Avatar Extended Collector's Edition 2009 BD1080P X264 DTS-HD MA 5.1 Mandarin&English CHS-ENG FFans@星星 Torrent Download`](https://yourbittorrent.com/torrent/33679053/.html)
-  - [`Avatar Extended Collector 039 s Edition BD1080P DTS MA 5 1 Mandarin amp CHS Torrent - TorrentFunk`](https://www.torrentfunk.com/torrent/37743229/%E9%98%BF%E5%87%A1%E8%BE%BE-%E5%8A%A0%E9%95%BF%E7%89%88-%E7%89%B9%E6%95%88%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95-%E7%AC%AC%E4%B8%89%E7%89%88-avatar-extended-collector%26%23039%3Bs-edition-bd1080p-dt.html)
-  
-
-~~~ magnet
-magnet:?xt=urn:btih:8932f0a5d351fd192ff525aaf705846e2ec67162&dn=%E9%98%BF%E5%87%A1%E8%BE%BE.%E5%8A%A0%E9%95%BF%E7%89%88.%E7%89%B9%E6%95%88%E4%B8%AD%E8%8B%B1%E5%AD%97%E5%B9%95.%E7%AC%AC%E4%B8%89%E7%89%88.Avatar.Extended.Collector's.Edition.2009.BD1080P.X264.DTS-HD.MA.5.1.Mandarin%26English.CHS-ENG.FFans%40%E6%98%9F%E6%98%9F
-~~~
-
-#### [`Avatar (2009) Extended 1080p DS4K SDR BluRay (Hindi-5.1)(Eng-5.1) 10bit HEVC - PeruGuy torrent download`](https://rargb.to/torrent/avatar-2009-extended-1080p-ds4k-sdr-bluray-hindi-5-1-eng-5-1-10bit-hevc-peruguy-5040062.html)
-
-- *这个**清晰度一般***
-
-~~~ magnet
-magnet:?xt=urn:btih:089837FBC9E467F4BF1077335E199A432EB0612C&dn=Avatar+%282009%29+Extended+1080p+DS4K+SDR+BluRay+%28Hindi-5.1%29%28Eng-5.1%29+10bit+HEVC+-+PeruGuy&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Fopenbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fwww.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fvibe.community%3A6969%2Fannounce&tr=udp%3A%2F%2Fu.wwwww.wtf%3A1%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker0.ufibox.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zerobytes.xyz%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce
-~~~
-
-#### [`Avatar (2009) Extended 1080p [HQ] DS4K SDR BluRay (Hindi-5.1)(Eng-5.1) 10bit HEVC - PeruGuy torrent download`](https://rargb.to/torrent/avatar-2009-extended-1080p-hq-ds4k-sdr-bluray-hindi-5-1-eng-5-1-10bit-hevc-peruguy-5040066.html)
-
-~~~ magnet
-magnet:?xt=urn:btih:2D49725E5D3688AFBEC67BEDB8DA7993D389AF56&dn=Avatar+%282009%29+Extended+1080p+%5BHQ%5D+DS4K+SDR+BluRay+%28Hindi-5.1%29%28Eng-5.1%29+10bit+HEVC+-+PeruGuy&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Fopenbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fwww.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fvibe.community%3A6969%2Fannounce&tr=udp%3A%2F%2Fu.wwwww.wtf%3A1%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker0.ufibox.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zerobytes.xyz%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce
-~~~
-
-#### [`Avatar (2009) Extended 2160p [4K] SDR BluRay (Hindi-5.1)(Eng-5.1) 10bit HEVC - PeruGuy torrent download`](https://rargb.to/torrent/avatar-2009-extended-2160p-4k-sdr-bluray-hindi-5-1-eng-5-1-10bit-hevc-peruguy-5040067.html)
-
-- *这个**清晰度一般***
-
-~~~ magnet
-magnet:?xt=urn:btih:7575E30892AAF15F5A0AC496BEA150FDA7426D7C&dn=Avatar+%282009%29+Extended+2160p+%5B4K%5D+SDR+BluRay+%28Hindi-5.1%29%28Eng-5.1%29+10bit+HEVC+-+PeruGuy&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Fopenbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fwww.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fvibe.community%3A6969%2Fannounce&tr=udp%3A%2F%2Fu.wwwww.wtf%3A1%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker0.ufibox.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zerobytes.xyz%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce
-~~~
-
-#### [`AVATAR (2009) Extended Collector's Cut 1080p {120FPS} BluRay x264 AVC [Org Hindi BD 5.1 448Kbps + English DD 5.1] ESubs ~ Tiberiumsun69 [MrStrange] torrent download`](https://rargb.to/torrent/avatar-2009-extended-collector-s-cut-1080p-120fps-bluray-x264-avc-org-hindi-bd-5-1-448kbps-english-dd-5-1-esubs-tiberiumsun69-mrstrange-5240799.html)
-
-- *这个视频比较清晰*
-- *高帧率*
-
-~~~ magnet
-magnet:?xt=urn:btih:C2C8A54AD0E0CFE5FCE185F5468A58DAA3227235&dn=AVATAR+%282009%29+Extended+Collector%26%23039%3Bs+Cut+1080p+%7B120FPS%7D+BluRay+x264+AVC+%5BOrg+Hindi+BD+5.1+448Kbps+%2B+English+DD+5.1%5D+ESubs+%7E+Tiberiumsun69+%5BMrStrange%5D&tr=http%3A%2F%2Fgwp2-v19.rinet.ru%3A80%2Fannounce&tr=http%3A%2F%2Fh4.trakx.nibba.trade%3A80%2Fannounce&tr=http%3A%2F%2Fopen.acgtracker.com%3A1096%2Fannounce&tr=http%3A%2F%2Fopen.trackerlist.xyz%3A80%2Fannounce&tr=http%3A%2F%2Fretracker.sevstar.net%3A2710%2Fannounce&tr=http%3A%2F%2Ft.acg.rip%3A6699%2Fannounce&tr=http%3A%2F%2Ft.nyaatracker.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce&tr=http%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.files.fm%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.torrentyorg.pl%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.ygsub.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce
-~~~
-
-#### [`Avatar.2009.EXTENDED.IMAX.1080p.10bit.BluRay.6CH.x265.HEVC-PSA torrent download`](https://rargb.to/torrent/avatar-2009-extended-imax-1080p-10bit-bluray-6ch-x265-hevc-psa-5039429.html)
-
-- *这个视频比较清晰*
-
-~~~ magnet
-magnet:?xt=urn:btih:69D9AC73D470DBDCEC5F0ADF8428F2784EF3E91A&dn=Avatar.2009.EXTENDED.IMAX.1080p.10bit.BluRay.6CH.x265.HEVC-PSA&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fretracker.lanta-net.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fwww.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fretracker.netbynet.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Fopentor.org%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce
-~~~
-
-#### [`Avatar (2009) [2160p - 4K - Extended - HEVC - x265 - [Tamil + Telugu + Hindi + Eng] - 19.1GB - ESubs] torrent download`](https://rargb.to/torrent/avatar-2009-2160p-4k-extended-hevc-x265-tamil-telugu-hindi-eng-19-1gb-esubs-4855784.html)
-
-- *这个视频比较清晰*
-- *声轨会占用一部分文件大小*
-
-~~~ magnet
-magnet:?xt=urn:btih:BFF559F18269383C546F96DA70A55329AA1C5EB8&dn=Avatar+%282009%29+%5B2160p+-+4K+-+Extended+-+HEVC+-+x265+-+%5BTamil+%2B+Telugu+%2B+Hindi+%2B+Eng%5D+-+19.1GB+-+ESubs%5D&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.lanta-net.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fzephir.monocul.us%3A6969%2Fannounce&tr=udp%3A%2F%2Fwww.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fvibe.community%3A6969%2Fannounce&tr=udp%3A%2F%2Fvalakas.rollo.dnsabr.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fu.wwwww.wtf%3A1%2Fannounce&tr=udp%3A%2F%2Ftracker0.ufibox.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zerobytes.xyz%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.zemoj.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce
-~~~
-
-### Avatar (2022)
-
-- offical site: [Avatar: The Way of Water | Avatar.com](https://www.avatar.com/movies/avatar-the-way-of-water)
-- imdb: [Avatar: The Way of Water (2022) | IMDb](https://www.imdb.com/title/tt1630029)
-
 ### The Shawshank Redemption (1994)
 
 #### [`The Shawshank Redemption (1994) [2160p x265 10bit Joy] Torrent download`](https://bt4gprx.com/magnet/PVxJFftKVWQfRqO3tkJJYEfMYjzV4QwBB)
@@ -3077,6 +2960,40 @@ magnet:?xt=urn:btih:32770c6dd35a4dd71deb80d5deff7a4e084eedab&dn=The.Shawshank.Re
 ~~~
 
 ## Series
+
+### 太平年
+
+#### [【DDHDTV.com】太平年[全48集][国语配音+中文字幕].Swords.Into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-BlackTV](https://bt4gprx.com/magnet/7q3dyDHQQ0kiEOQl8X1XUfAGVfTNUDbDA)
+
+[`75.49GB`](https://downloadtorrentfile.com/hash/c14c89fa0df075875e93fe5b218cf3b909b89a3c?name=%e3%80%90%e9%ab%98%e6%b8%85%e5%89%a7%e9%9b%86%e7%bd%91%e5%8f%91%e5%b8%83%20www.DDHDTV.com%e3%80%91%e5%a4%aa%e5%b9%b3%e5%b9%b4%5b%e5%85%a848%e9%9b%86%5d%5b%e5%9b%bd%e8%af%ad%e9%85%8d%e9%9f%b3%2b%e4%b8%ad%e6%96%87%e5%ad%97%e5%b9%95%5d.Swords.Into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-BlackTV)
+
+~~~ magnet
+magnet:?xt=urn:btih:099a12cc77fb1198323a21d3a340cca79ffd9fc0
+~~~
+
+#### [【DDHDTV.com】太平年[全48集][无字片源].Swords.into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-ColorWEB](https://bt4gprx.com/magnet/Lf5V3sFZJ5OUypX9kdZZOTyYNEoGuZbeC)
+
+[`249.47GB`](https://downloadtorrentfile.com/hash/4e0d2a107c95e38f3dacb4a6ee1c16964cdd311e?name=%e3%80%90%e9%ab%98%e6%b8%85%e5%89%a7%e9%9b%86%e7%bd%91%e5%8f%91%e5%b8%83%20www.DDHDTV.com%e3%80%91%e5%a4%aa%e5%b9%b3%e5%b9%b4%5b%e5%85%a848%e9%9b%86%5d%5b%e6%97%a0%e5%ad%97%e7%89%87%e6%ba%90%5d.Swords.into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-ColorWEB)
+
+~~~ magnet
+magnet:?xt=urn:btih:4e0d2a107c95e38f3dacb4a6ee1c16964cdd311e
+~~~
+
+#### [太平年.1080p高码版](https://bt4gprx.com/magnet/7WGxlB7BZFuJEAyVfdZfB78WTXXNMT7MD)
+
+[`120.80GB`](https://downloadtorrentfile.com/hash/292935278d13dfac7852f1701217e14ad83b38a7?name=%e5%a4%aa%e5%b9%b3%e5%b9%b4.1080p%e9%ab%98%e7%a0%81%e7%89%88)
+
+~~~ magnet
+magnet:?xt=urn:btih:292935278d13dfac7852f1701217e14ad83b38a7
+~~~
+
+#### [太平年.2160p](https://bt4gprx.com/magnet/AnE2BOZnFgiceHTjiK7WACfVTk1NMjZHA)
+
+[`57.60GB`](https://downloadtorrentfile.com/hash/9835fa5fcedb4849dcd2f4f553a7a05359eb1108?name=%e5%a4%aa%e5%b9%b3%e5%b9%b4.2160p)
+
+~~~ magnet
+magnet:?xt=urn:btih:9835fa5fcedb4849dcd2f4f553a7a05359eb1108
+~~~
 
 ### Game Of Thrones
 
