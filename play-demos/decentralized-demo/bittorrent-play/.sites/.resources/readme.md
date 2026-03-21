@@ -2916,15 +2916,6 @@ magnet:?xt=urn:btih:32770c6dd35a4dd71deb80d5deff7a4e084eedab&dn=The.Shawshank.Re
 
 ### 太平年
 
-#### [【DDHDTV.com】太平年[全48集][国语配音+中文字幕].Swords.Into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-BlackTV](https://bt4gprx.com/magnet/7q3dyDHQQ0kiEOQl8X1XUfAGVfTNUDbDA)
-
-[`75.49GB`](https://downloadtorrentfile.com/hash/c14c89fa0df075875e93fe5b218cf3b909b89a3c?name=%e3%80%90%e9%ab%98%e6%b8%85%e5%89%a7%e9%9b%86%e7%bd%91%e5%8f%91%e5%b8%83%20www.DDHDTV.com%e3%80%91%e5%a4%aa%e5%b9%b3%e5%b9%b4%5b%e5%85%a848%e9%9b%86%5d%5b%e5%9b%bd%e8%af%ad%e9%85%8d%e9%9f%b3%2b%e4%b8%ad%e6%96%87%e5%ad%97%e5%b9%95%5d.Swords.Into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-BlackTV)
-
-~~~ magnet
-magnet:?xt=urn:btih:099a12cc77fb1198323a21d3a340cca79ffd9fc0
-# 这片源是芒果首播
-~~~
-
 #### [【DDHDTV.com】太平年[全48集][无字片源].Swords.into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-ColorWEB](https://bt4gprx.com/magnet/Lf5V3sFZJ5OUypX9kdZZOTyYNEoGuZbeC)
 
 [`249.47GB`](https://downloadtorrentfile.com/hash/4e0d2a107c95e38f3dacb4a6ee1c16964cdd311e?name=%e3%80%90%e9%ab%98%e6%b8%85%e5%89%a7%e9%9b%86%e7%bd%91%e5%8f%91%e5%b8%83%20www.DDHDTV.com%e3%80%91%e5%a4%aa%e5%b9%b3%e5%b9%b4%5b%e5%85%a848%e9%9b%86%5d%5b%e6%97%a0%e5%ad%97%e7%89%87%e6%ba%90%5d.Swords.into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-ColorWEB)
@@ -2939,6 +2930,15 @@ magnet:?xt=urn:btih:4e0d2a107c95e38f3dacb4a6ee1c16964cdd311e
 
 ~~~ magnet
 magnet:?xt=urn:btih:292935278d13dfac7852f1701217e14ad83b38a7
+~~~
+
+#### [【DDHDTV.com】太平年[全48集][国语配音+中文字幕].Swords.Into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-BlackTV](https://bt4gprx.com/magnet/7q3dyDHQQ0kiEOQl8X1XUfAGVfTNUDbDA)
+
+[`75.49GB`](https://downloadtorrentfile.com/hash/c14c89fa0df075875e93fe5b218cf3b909b89a3c?name=%e3%80%90%e9%ab%98%e6%b8%85%e5%89%a7%e9%9b%86%e7%bd%91%e5%8f%91%e5%b8%83%20www.DDHDTV.com%e3%80%91%e5%a4%aa%e5%b9%b3%e5%b9%b4%5b%e5%85%a848%e9%9b%86%5d%5b%e5%9b%bd%e8%af%ad%e9%85%8d%e9%9f%b3%2b%e4%b8%ad%e6%96%87%e5%ad%97%e5%b9%95%5d.Swords.Into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-BlackTV)
+
+~~~ magnet
+magnet:?xt=urn:btih:099a12cc77fb1198323a21d3a340cca79ffd9fc0
+# 这片源是芒果首播
 ~~~
 
 #### [太平年.2160p](https://bt4gprx.com/magnet/AnE2BOZnFgiceHTjiK7WACfVTk1NMjZHA)
