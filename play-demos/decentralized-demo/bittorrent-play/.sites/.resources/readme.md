@@ -2922,6 +2922,7 @@ magnet:?xt=urn:btih:32770c6dd35a4dd71deb80d5deff7a4e084eedab&dn=The.Shawshank.Re
 
 ~~~ magnet
 magnet:?xt=urn:btih:4e0d2a107c95e38f3dacb4a6ee1c16964cdd311e
+# 片源芒果 无水印无广告 高清晰度 版权方内嵌字幕
 ~~~
 
 #### [太平年.1080p高码版](https://bt4gprx.com/magnet/7WGxlB7BZFuJEAyVfdZfB78WTXXNMT7MD)
@@ -2930,6 +2931,7 @@ magnet:?xt=urn:btih:4e0d2a107c95e38f3dacb4a6ee1c16964cdd311e
 
 ~~~ magnet
 magnet:?xt=urn:btih:292935278d13dfac7852f1701217e14ad83b38a7
+# 片源不详 无水印无广告 低清晰度 内嵌字幕来源不详
 ~~~
 
 #### [【DDHDTV.com】太平年[全48集][国语配音+中文字幕].Swords.Into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-BlackTV](https://bt4gprx.com/magnet/7q3dyDHQQ0kiEOQl8X1XUfAGVfTNUDbDA)
@@ -2938,7 +2940,7 @@ magnet:?xt=urn:btih:292935278d13dfac7852f1701217e14ad83b38a7
 
 ~~~ magnet
 magnet:?xt=urn:btih:099a12cc77fb1198323a21d3a340cca79ffd9fc0
-# 这片源是芒果首播
+# 片源芒果首播 有硕大水印与广告 高清晰度 版权方内嵌字幕
 ~~~
 
 #### [太平年.2160p](https://bt4gprx.com/magnet/AnE2BOZnFgiceHTjiK7WACfVTk1NMjZHA)
