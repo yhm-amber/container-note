@@ -2990,6 +2990,15 @@ magnet:?xt=urn:btih:4e0d2a107c95e38f3dacb4a6ee1c16964cdd311e
 # 片源芒果 无水印无广告 高清晰度 版权方内嵌字幕
 ~~~
 
+#### [太平年.2160p](https://bt4gprx.com/magnet/AnE2BOZnFgiceHTjiK7WACfVTk1NMjZHA)
+
+[`57.60GB`](https://downloadtorrentfile.com/hash/9835fa5fcedb4849dcd2f4f553a7a05359eb1108?name=%e5%a4%aa%e5%b9%b3%e5%b9%b4.2160p)
+
+~~~ magnet
+magnet:?xt=urn:btih:9835fa5fcedb4849dcd2f4f553a7a05359eb1108
+# 片源腾讯 无水印与广告 高清晰度 版权方内嵌字幕
+~~~
+
 #### [太平年.1080p高码版](https://bt4gprx.com/magnet/7WGxlB7BZFuJEAyVfdZfB78WTXXNMT7MD)
 
 [`120.80GB`](https://downloadtorrentfile.com/hash/292935278d13dfac7852f1701217e14ad83b38a7?name=%e5%a4%aa%e5%b9%b3%e5%b9%b4.1080p%e9%ab%98%e7%a0%81%e7%89%88)
@@ -3006,14 +3015,6 @@ magnet:?xt=urn:btih:292935278d13dfac7852f1701217e14ad83b38a7
 ~~~ magnet
 magnet:?xt=urn:btih:099a12cc77fb1198323a21d3a340cca79ffd9fc0
 # 片源芒果首播 有硕大水印与广告 高清晰度 版权方内嵌字幕
-~~~
-
-#### [太平年.2160p](https://bt4gprx.com/magnet/AnE2BOZnFgiceHTjiK7WACfVTk1NMjZHA)
-
-[`57.60GB`](https://downloadtorrentfile.com/hash/9835fa5fcedb4849dcd2f4f553a7a05359eb1108?name=%e5%a4%aa%e5%b9%b3%e5%b9%b4.2160p)
-
-~~~ magnet
-magnet:?xt=urn:btih:9835fa5fcedb4849dcd2f4f553a7a05359eb1108
 ~~~
 
 ### Game Of Thrones
