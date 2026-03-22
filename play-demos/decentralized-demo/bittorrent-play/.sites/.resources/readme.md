@@ -2996,7 +2996,7 @@ magnet:?xt=urn:btih:4e0d2a107c95e38f3dacb4a6ee1c16964cdd311e
 
 ~~~ magnet
 magnet:?xt=urn:btih:9835fa5fcedb4849dcd2f4f553a7a05359eb1108
-# 片源腾讯 无水印但有广告 高清晰度 版权方内嵌字幕
+# 片源腾讯 无水印但有广告 普通清晰度 版权方内嵌字幕
 ~~~
 
 #### [太平年.1080p高码版](https://bt4gprx.com/magnet/7WGxlB7BZFuJEAyVfdZfB78WTXXNMT7MD)
