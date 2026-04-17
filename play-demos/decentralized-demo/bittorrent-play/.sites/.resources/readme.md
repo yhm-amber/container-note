@@ -12,7 +12,7 @@ magnet:?xt=urn:btih:f15edaff28084530f81a89283e27908144f387be&xt=urn:btmh:12202f7
 ~~~
 
 ~~~~
-Directory: E:\localsend\长沙马王堆汉墓简帛集成【PDF】
+Directory: .../长沙马王堆汉墓简帛集成【PDF】
 
 Length      Name
 ------      ----
