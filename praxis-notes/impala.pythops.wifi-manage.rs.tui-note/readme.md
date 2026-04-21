@@ -1,0 +1,3 @@
+[src/gh]: https://github.com/pythops/impala.git "(GPL-3.0) (Languages: Rust 99.7%, Other 0.3%) 🛜 TUI for managing wifi on Linux // 🛜 用于在 Linux 上管理 Wi-Fi 的 TUI /// ✨ Features // ✨ 功能 /// - WPA Enterprise (802.1X) Support // WPA 企业版（802.1X）支持 /// - Station & Access Point Modes // 站点和接入点模式 /// - QR Code Network Sharing // 二维码网络共享 /// - Support hidden networks // 支持隐藏网络"
+[cli.cargo/crates]: https://crates.io/crates/impala "(: cargo install -- impala) (GPL-3.0) (6.6K SLoC) (65.3 KiB) TUI for managing wifi // 用于管理 Wi-Fi 的 TUI (src: gh:pythops/impala.git)"
+[cli.x/x-cmd]: https://x-cmd.com/install/impala "(: xd alp impala) (: x install impala)"
