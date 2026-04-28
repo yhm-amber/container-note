@@ -6,5 +6,5 @@
 - 10块 80G 30d
 - 50块 300G ever
 
-[[https://ermao.org/blog/vpn-recommendation/][REF]], [[https://ermao.org/blog/%E9%98%BF%E8%BE%BE%E8%A5%BF/][REF]]
+[[https://ermao.org/blog/vpn-recommendation/#阿达西][REF]], [[https://ermao.org/blog/%E9%98%BF%E8%BE%BE%E8%A5%BF/][REF]]
 
