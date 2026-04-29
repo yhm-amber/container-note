@@ -1,3 +1,16 @@
+## Yoshitaka Nene
+
+[wiki](https://ja.wikipedia.org/wiki/%E5%90%89%E9%AB%98%E5%AF%A7%E3%80%85) | [site](https://yoshitakanene.com/) | [twi](https://twitter.com/yoshitakanene) | [ins](https://instagram.com/_yoshitaka_nene/) | [missav list (with some 無修正リーク)](https://missav.com/dm42/ja/actresses/%E5%90%89%E9%AB%98%E5%AF%A7%E3%80%85) | [8man](https://8man.jp/models/yoshitaka/) | [faleno](https://faleno.jp/top/actress/nene_yoshitaka/)
+
+- [FNS-089 全裸で羞恥宴会芸をさせられた僕の妻 吉高寧々](https://missav.ai/ja/fns-089 "配信開始日: 2025-08-29 | 寧々は夫と一緒に「家族同伴」の社員旅行に参加することに…しかし、旅行当日社員以外の家族で参加したのは寧々だけという事実が発覚、はめられたのだ。夜には宴会が開かれ、新人社員の妻ということで、上司が寧々に宴会芸をすることを提案。パワハラで押し切られて、社員たちの要求はエスカレート。終いには旦那の目の前で上司たちから○○れるのだった。") ([m3u8](https://surrit.com/2c289fb3-8f2b-41a4-b33d-7df755e714c1/1080p/video.m3u8 "1080p"))
+- [FSDSS-703 女であることを放棄したガサツな実家暮らしアラサー干物女のマ〇コが覚醒した日 吉高寧々](https://missav.ai/ja/fsdss-703-uncensored-leak "配信開始日: 2024-01-11 | 19 歳で少女漫画の読み切りでデビューした寧々。何度か読み切りを描いた後に「彼は牛頭」通称カレゴズで連載作家の仲間入りを果たす。元々は純真な女性だったが、カレゴズの人気低迷した際にエゴサで闇堕ち、遂には連載が打ち切りになった後は 7 年間ヒキニートになっていた。過去作品のファンであった編集者の熱い要望で新たに漫画を書き始めるのだが、久しぶりに嗅いだ男の匂いに溜まった欲望が爆発！むっつり妄想で生きていた7年間が遂に…「お前の匂いで、ムラムラしてきた」") ([m3u8](https://surrit.com/a8b58fae-bdd4-468e-89a6-5591669981d0/1080p/video.m3u8 "1080p"))
+- [FSDSS-672 「私、犯●れ続けています…」地方の美人妻が都会からやってきた若者に、旦那の近くでいいなり調教肉弾ピストン堕ち 吉高寧々](https://missav.ai/ja/fsdss-672-uncensored-leak "配信開始日: 2023-11-23 | 人妻寧々は結婚6年目を迎える。旦那の家業でもある焼肉屋を営むある日、東京から若者がやってきた。無口なその男を寧々は親切心でバイトとして雇うのだが、この男は東京で同僚をレ●プし、不起訴になったが会社をクビになり、実家に戻って来た強●魔だった。旦那とは3年前からセックスレスだった寧々は強●魔に狙われ犯され身も心も奪われていく「あなたごめんなさいイクッ…ああっ」愛する夫の近くでイカされ身体中が熱くなる。") ([m3u8](https://surrit.com/e70b6039-fcd7-443f-bf78-c8051f8661d6/1080p/video.m3u8 "1080p"))
+- [FSDSS-099 地元に帰省してきた従姉妹と近親SEXに明け暮れた真夏の3日間 吉高寧々](https://missav.ai/ja/fsdss-099-uncensored-leak "配信開始日: 2020-09-24 | いとこの寧々が久々に帰省し我が家に宿泊。当時、僕に対して密かに恋心を抱いていたという彼女は、都会暮らしですっかり大人の女性に変貌。溶けるような蒸し暑さの中、はだけて見える寧々の白肌に思わず女を感じてしまい、ダメだと分かっていながらも禁断の関係に。そして3日間両親に隠れひたすら快楽を求め合い続けた。") ([m3u8](https://surrit.com/bbf7d32c-dab1-4bb1-9e7c-101c70405307/720p/video.m3u8 "720p"))
+- [FSDSS-185 季節外れのゲリラ豪雨でびしょ濡れになった女上司と朝までひたすら徹夜性交 吉高寧々](https://missav.ai/ja/fsdss-185-uncensored-leak "配信開始日: 2021-03-11 | 季節外れのゲリラ豪雨。会社で残業していた僕のもとに先に帰ったはずの寧々先輩がびしょ濡れになって戻ってきた。濡れた髪に透けたブラジャー…予報より早く降り出した雨に愚痴を漏らしながらも寒そうに凍える姿に思わず欲情。性欲を抑えきれなくなった僕をはじめは窘めていた先輩も、次第に上司から女の表情になってゆき…。") ([m3u8](https://surrit.com/b8a8e072-c28b-4167-a710-f3a4581c39ae/720p/video.m3u8 "720p"))
+- [FSDSS-489 偶然バイト先の後輩としたキスの相性が彼氏よりもよくて…。誰にもバレないように濃厚接吻淫行 吉高寧々](https://missav.ai/dm13/ja/fsdss-489-uncensored-leak "配信開始日: 2022-10-06 | 彼氏と一緒に上京し、同棲をしながら同じコンビニでバイトをする寧々。最近は既に冷め切った関係の二人だったが、バイト先に新入りの祐貴がやってきた事をきっかけに全てが狂い始める。酔った勢いでしたキスが寧々の持て余していた性欲に火を付け、彼氏の直ぐ側でも欲望のまま貪る禁断の関係に…。") ([m3u8](https://surrit.com/ae7ba00b-67bd-48fa-8149-22fe076e1274/1280x720/video.m3u8 "1280x720"))
+- [FSDSS-425 乳首責め専門ナースが24時間 いつでも乳首射精のお手伝い(ハート)舌と指で施される最高の乳首SEXが話題のニップルクリニック 吉高寧々](https://missav.com/dm13/ja/fsdss-425-uncensored-leak)
+- [FSDSS-275 腰が砕けても逃がさない！ひたすら膣奥を貫く強●立ちバックハンドル 吉高寧々](https://missav.com/ja/fsdss-275-uncensored-leak)
+
 
 ## Takeuchi Makoto
 
@@ -601,15 +614,6 @@
 - [FSDSS-627 もっとキミを好きになった… デートして触れ合う手、重ねた唇、ココロとカラダで感じた恋焦がれセックス 田中レモン](https://missav.com/dm13/ja/fsdss-627-uncensored-leak)
 - [IPZZ-308 婚前同窓会NTR ボクの愛する婚約者が性格最悪セックス最高なクズ元カレの絶倫ピストンに朝までイカされ続けた浮気映像 楓カレン - 楓カレン (田中レモン)](https://missav.ai/dm14/ja/ipzz-308-uncensored-leak "元カレは救いようのない最低なクズ男だけど……ああぁぁダメッ！どうしよう！やっぱりこの人のセックス凄すぎるッ！結婚を数日後に控えたある日、結婚報告も兼ね大学時代のサークル同窓会へ出席。みんなに祝福され嬉しさのあまりお酒が進んでしまう。そんな中、昔の彼氏に遭遇。酔い過ぎて立てない私を元カレが運んでくれた先は…。「やめて…私結婚するんだよ…」拒みながらもイキまくるカレン。何度も何度も痙攣仰け反りアクメ！朝まで続く汗まみれの絶倫ハードピストン！元カレとのセックスの相性が婚約者との絆を上回ってしまう。") ([m3u8](https://surrit.com/2464c4f4-1fd4-4301-a6bc-db60c1830412/1080p/video.m3u8 "1920 x 1080"))
 
-
-## Yoshitaka Nene
-
-[wiki](https://ja.wikipedia.org/wiki/%E5%90%89%E9%AB%98%E5%AF%A7%E3%80%85) | [site](https://yoshitakanene.com/) | [twi](https://twitter.com/yoshitakanene) | [ins](https://instagram.com/_yoshitaka_nene/) | [missav list (with some 無修正リーク)](https://missav.com/dm42/ja/actresses/%E5%90%89%E9%AB%98%E5%AF%A7%E3%80%85) | [8man](https://8man.jp/models/yoshitaka/) | [faleno](https://faleno.jp/top/actress/nene_yoshitaka/)
-
-- [FSDSS-672 「私、犯され続けています…」地方の美人妻が都会からやってきた若者に、旦那の近くでいいなり調教肉弾ピストン堕ち　吉高寧々 910 6](https://missav.com/ja/fsdss-672-uncensored-leak)
-- [FSDSS-099 地元に帰省してきた従姉妹と近親SEXに明け暮れた真夏の3日間 吉高寧々](https://missav.com/dm18/ja/fsdss-099)
-- [FSDSS-425 乳首責め専門ナースが24時間 いつでも乳首射精のお手伝い(ハート)舌と指で施される最高の乳首SEXが話題のニップルクリニック 吉高寧々](https://missav.com/dm13/ja/fsdss-425-uncensored-leak)
-- [FSDSS-275 腰が砕けても逃がさない！ひたすら膣奥を貫く強●立ちバックハンドル 吉高寧々](https://missav.com/ja/fsdss-275-uncensored-leak)
 
 
 ## Tsukinoe Sui
