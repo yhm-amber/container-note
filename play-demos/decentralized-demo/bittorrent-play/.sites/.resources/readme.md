@@ -3007,6 +3007,65 @@ magnet:?xt=urn:btih:32770c6dd35a4dd71deb80d5deff7a4e084eedab&dn=The.Shawshank.Re
 
 ### 太平年
 
+#### [[BBTTBA.COM]太平年.全48集.2026.4K | Bitsearch](https://bitsearch.to/torrent/69e1de3102685fd7b8063f90)
+
+[`40.87 GB`](https://bitsearch.to/download/torrent/A19B878D9EEF559F7F7DBA587768A0B145880319?title=[BBTTBA.COM]%E5%A4%AA%E5%B9%B3%E5%B9%B4.%E5%85%A848%E9%9B%86.2026.4K)
+
+~~~ magnet
+magnet:?xt=urn:btih:A19B878D9EEF559F7F7DBA587768A0B145880319&dn=%5BBitsearch.to%5D%20%5BBBTTBA.COM%5D%E5%A4%AA%E5%B9%B3%E5%B9%B4.%E5%85%A848%E9%9B%86.2026.4K&tr=DHT&tr=udp%3A%2F%2Fevan.im%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fmartin-gebhardt.eu%3A25%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce
+~~~
+
+~~~~
+太平年.E01.mp4	1 GB
+太平年.E02.mp4	888.65 MB
+太平年.E03.mp4	875.23 MB
+太平年.E04.mp4	859.96 MB
+太平年.E05.mp4	932.61 MB
+太平年.E06.mp4	913.08 MB
+太平年.E07.mp4	902.1 MB
+太平年.E08.mp4	1.03 GB
+太平年.E09.mp4	985.08 MB
+太平年.E10.mp4	899.78 MB
+太平年.E11.mp4	853.63 MB
+太平年.E12.mp4	856.11 MB
+太平年.E13.mp4	886.21 MB
+太平年.E14.mp4	850.03 MB
+太平年.E15.mp4	809.23 MB
+太平年.E16.mp4	973.43 MB
+太平年.E17.mp4	833.67 MB
+太平年.E18.mp4	811.61 MB
+太平年.E19.mp4	810.34 MB
+太平年.E20.mp4	842.58 MB
+太平年.E21.mp4	790.96 MB
+太平年.E22.mp4	828.54 MB
+太平年.E23.mp4	818.11 MB
+太平年.E24.mp4	943.44 MB
+太平年.E25.mp4	867.22 MB
+太平年.E26.mp4	894.87 MB
+太平年.E27.mp4	830.12 MB
+太平年.E28.mp4	839.64 MB
+太平年.E29.mp4	926.9 MB
+太平年.E30.mp4	815.96 MB
+太平年.E31.mp4	842.83 MB
+太平年.E32.mp4	895.99 MB
+太平年.E33.mp4	866.3 MB
+太平年.E34.mp4	802.53 MB
+太平年.E35.mp4	853.34 MB
+太平年.E36.mp4	892 MB
+太平年.E37.mp4	909.59 MB
+太平年.E38.mp4	819.74 MB
+太平年.E39.mp4	804.06 MB
+太平年.E40.mp4	807.83 MB
+太平年.E41.mp4	836.09 MB
+太平年.E42.mp4	760.21 MB
+太平年.E43.mp4	861.4 MB
+太平年.E44.mp4	869.56 MB
+太平年.E45.mp4	952.31 MB
+太平年.E46.mp4	831.55 MB
+太平年.E47.mp4	873.83 MB
+太平年.E48.mp4	949.28 MB
+~~~~
+
 #### [【DDHDTV.com】太平年[全48集][无字片源].Swords.into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-ColorWEB](https://bt4gprx.com/magnet/Lf5V3sFZJ5OUypX9kdZZOTyYNEoGuZbeC)
 
 [`249.47GB`](https://downloadtorrentfile.com/hash/4e0d2a107c95e38f3dacb4a6ee1c16964cdd311e?name=%e3%80%90%e9%ab%98%e6%b8%85%e5%89%a7%e9%9b%86%e7%bd%91%e5%8f%91%e5%b8%83%20www.DDHDTV.com%e3%80%91%e5%a4%aa%e5%b9%b3%e5%b9%b4%5b%e5%85%a848%e9%9b%86%5d%5b%e6%97%a0%e5%ad%97%e7%89%87%e6%ba%90%5d.Swords.into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-ColorWEB)
@@ -3042,6 +3101,68 @@ magnet:?xt=urn:btih:292935278d13dfac7852f1701217e14ad83b38a7
 magnet:?xt=urn:btih:099a12cc77fb1198323a21d3a340cca79ffd9fc0
 # 片源芒果首播 有硕大水印与广告 高清晰度 版权方内嵌字幕
 ~~~
+
+#### [【高清剧集网发布 www.DDHDTV.com】太平年[全48集][国语配音+中文字幕].Swords.Into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-BlackTV | Bitsearch](https://bitsearch.to/torrent/69ebcc4302685fd7b80d8ce4)
+
+[`75.49 GB`](https://bitsearch.to/download/torrent/C14C89FA0DF075875E93FE5B218CF3B909B89A3C?title=%E3%80%90%E9%AB%98%E6%B8%85%E5%89%A7%E9%9B%86%E7%BD%91%E5%8F%91%E5%B8%83%20www.DDHDTV.com%E3%80%91%E5%A4%AA%E5%B9%B3%E5%B9%B4[%E5%85%A848%E9%9B%86][%E5%9B%BD%E8%AF%AD%E9%85%8D%E9%9F%B3+%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95].Swords.Into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-BlackTV)
+
+~~~ magnet
+magnet:?xt=urn:btih:C14C89FA0DF075875E93FE5B218CF3B909B89A3C&dn=%5Bbitsearch.to%5D%20%E3%80%90%E9%AB%98%E6%B8%85%E5%89%A7%E9%9B%86%E7%BD%91%E5%8F%91%E5%B8%83%20www.DDHDTV.com%E3%80%91%E5%A4%AA%E5%B9%B3%E5%B9%B4%5B%E5%85%A848%E9%9B%86%5D%5B%E5%9B%BD%E8%AF%AD%E9%85%8D%E9%9F%B3%2B%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95%5D.Swords.Into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-BlackTV&tr=DHT&tr=udp%3A%2F%2Fbittorrent-tracker.e-n-c-r-y-p-t.net%3A1337%2Fannounce&tr=udp%3A%2F%2Fevan.im%3A6969%2Fannounce&tr=udp%3A%2F%2Fmartin-gebhardt.eu%3A25%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce
+~~~
+
+~~~~
+Swords.Into.Plowshares.S01E01.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	2.01 GB
+Swords.Into.Plowshares.S01E02.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.5 GB
+Swords.Into.Plowshares.S01E03.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.6 GB
+Swords.Into.Plowshares.S01E04.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.63 GB
+Swords.Into.Plowshares.S01E05.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.68 GB
+Swords.Into.Plowshares.S01E06.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.74 GB
+Swords.Into.Plowshares.S01E07.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.53 GB
+Swords.Into.Plowshares.S01E08.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.96 GB
+Swords.Into.Plowshares.S01E09.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.78 GB
+Swords.Into.Plowshares.S01E10.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.67 GB
+Swords.Into.Plowshares.S01E11.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.5 GB
+Swords.Into.Plowshares.S01E12.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.51 GB
+Swords.Into.Plowshares.S01E13.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.66 GB
+Swords.Into.Plowshares.S01E14.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.44 GB
+Swords.Into.Plowshares.S01E15.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.31 GB
+Swords.Into.Plowshares.S01E16.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.71 GB
+Swords.Into.Plowshares.S01E17.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.5 GB
+Swords.Into.Plowshares.S01E18.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.41 GB
+Swords.Into.Plowshares.S01E19.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.22 GB
+Swords.Into.Plowshares.S01E20.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.21 GB
+Swords.Into.Plowshares.S01E21.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.59 GB
+Swords.Into.Plowshares.S01E22.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.54 GB
+Swords.Into.Plowshares.S01E23.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.41 GB
+Swords.Into.Plowshares.S01E24.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.81 GB
+Swords.Into.Plowshares.S01E25.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.56 GB
+Swords.Into.Plowshares.S01E26.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.8 GB
+Swords.Into.Plowshares.S01E27.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.44 GB
+Swords.Into.Plowshares.S01E28.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.61 GB
+Swords.Into.Plowshares.S01E29.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.4 GB
+Swords.Into.Plowshares.S01E30.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.5 GB
+Swords.Into.Plowshares.S01E31.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.49 GB
+Swords.Into.Plowshares.S01E32.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.74 GB
+Swords.Into.Plowshares.S01E33.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.49 GB
+Swords.Into.Plowshares.S01E34.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.3 GB
+Swords.Into.Plowshares.S01E35.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.67 GB
+Swords.Into.Plowshares.S01E36.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.62 GB
+Swords.Into.Plowshares.S01E37.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.6 GB
+Swords.Into.Plowshares.S01E38.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.44 GB
+Swords.Into.Plowshares.S01E39.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.51 GB
+Swords.Into.Plowshares.S01E40.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.55 GB
+Swords.Into.Plowshares.S01E41.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.65 GB
+Swords.Into.Plowshares.S01E42.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.45 GB
+Swords.Into.Plowshares.S01E43.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.51 GB
+Swords.Into.Plowshares.S01E44.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.5 GB
+Swords.Into.Plowshares.S01E45.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.75 GB
+Swords.Into.Plowshares.S01E46.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.63 GB
+Swords.Into.Plowshares.S01E47.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.57 GB
+Swords.Into.Plowshares.S01E48.2026.2160p.WEB-DL.H265.AAC-BlackTV.mkv	1.77 GB
+更多电视剧集下载请访问 高清剧集网官网（www.BPHDTV.com）.png	1.86 MB
+更多电视剧集下载请访问 高清剧集网官网（www.BTHDTV.com）.png	1.14 MB
+更多电视剧集下载请访问 高清剧集网官网（www.DDHDTV.com）.png	1.14 MB
+~~~~
 
 ### Game Of Thrones
 
