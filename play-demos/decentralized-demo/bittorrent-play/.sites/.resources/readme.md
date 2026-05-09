@@ -3108,6 +3108,7 @@ magnet:?xt=urn:btih:099a12cc77fb1198323a21d3a340cca79ffd9fc0
 
 ~~~ magnet
 magnet:?xt=urn:btih:C14C89FA0DF075875E93FE5B218CF3B909B89A3C&dn=%5Bbitsearch.to%5D%20%E3%80%90%E9%AB%98%E6%B8%85%E5%89%A7%E9%9B%86%E7%BD%91%E5%8F%91%E5%B8%83%20www.DDHDTV.com%E3%80%91%E5%A4%AA%E5%B9%B3%E5%B9%B4%5B%E5%85%A848%E9%9B%86%5D%5B%E5%9B%BD%E8%AF%AD%E9%85%8D%E9%9F%B3%2B%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95%5D.Swords.Into.Plowshares.S01.2026.2160p.WEB-DL.H265.AAC-BlackTV&tr=DHT&tr=udp%3A%2F%2Fbittorrent-tracker.e-n-c-r-y-p-t.net%3A1337%2Fannounce&tr=udp%3A%2F%2Fevan.im%3A6969%2Fannounce&tr=udp%3A%2F%2Fmartin-gebhardt.eu%3A25%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce
+# 片源芒果首播 有硕大水印与广告 高清晰度 版权方内嵌字幕
 ~~~
 
 ~~~~
