@@ -5,6 +5,7 @@ website:
 
 | Name | Desc |
 | ---- | ---- |
+| [Bitsearch][bitsearch.to] | 各种资源 |
 | [Csze BT][orzx.im] | 各种 ACG 资源 |
 | [海盗湾][hdw] | 几乎各种资源 |
 | [FitGirl][fitgirl] | 游戏整合包 |
@@ -14,6 +15,7 @@ website:
 | [BT4G.org] | 这个站点支持 TOR |
 | [Cilisousuo][cilisousuo] | 一个普通的网站 |
 
+[bitsearch.to]: https://bitsearch.to/
 [orzx.im]: https://bt.orzx.im/
 [hdw]: https://thepiratebay.org
 [fitgirl]: https://fitgirl-repacks.site
