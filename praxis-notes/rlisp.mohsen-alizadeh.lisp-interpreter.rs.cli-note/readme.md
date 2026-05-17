@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/mohsen-alizadeh/rlisp.git "(MIT) (Languages: Rust 100.0%) experimental lisp interpreter in rust // Rust 编写的实验性 Lisp 解释器 /// The goal of this project is to learn Rust basics and able to run follwing snippet only. // 这个项目的目标是学习 Rust 的基础知识，并且能够运行以下代码片段。 /// (: (let name \"Mohsen\") (let marks (4 5 6)) (print name) (print (+ marks)) )"
+[cli.cargo/crates]: https://crates.io/crates/rlisp "(: cargo install -- rlisp) (MIT) (419 SLoC) (3.98 KiB) experimental lisp interpreter in rust // Rust 编写的实验性 Lisp 解释器 (src: gh:mohsen-alizadeh/rlisp.git)"
