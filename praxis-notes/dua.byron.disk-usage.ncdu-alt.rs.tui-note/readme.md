@@ -9,4 +9,5 @@
 [author:keybase]: https://keybase.io/byronbates
 [author:twitter]: https://twitter.com/theelbasian
 
-[knowsby]: https://dev.yorhel.nl/ncdu "Similar projects -- There’s no shortage of alternatives to ncdu nowadays. In no particular order: dua - CLI, Rust."
+[knowsby/gdu]: https://github.com/dundee/gdu.git "Alternatives // 替代方案 /// - ... /// - dua - Tool written in Rust with interface similar to gdu (and ncdu) // dua - 一个用 Rust 编写的工具，其接口类似于 gdu（和 ncdu）。"
+[knowsby/ncdu]: https://dev.yorhel.nl/ncdu "Similar projects -- There’s no shortage of alternatives to ncdu nowadays. In no particular order: dua - CLI, Rust."
