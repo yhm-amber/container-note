@@ -8,7 +8,7 @@ Hi! I'm ononoki. Glad to see you!
 - 🌱 I'm a PhD student at University of Science and Technology of China. | 🌱 我是一名中国科学技术大学的博士生。
 - 🔭 I'm currently working in the field of AI for Science and Computer Vision. | 🔭 我目前从事科学人工智能和计算机视觉领域的工作。
 - 🔧 I use Python, C++, C, and MATLAB most. | 🔧 我最常使用 Python、C++、C 和 MATLAB。
-- 💬 Want to say something to me? Contact me via Email or directly use the comments section here. | 💬 想跟我说点什么吗？请通过以下方式联系我 电子邮件或 直接在评论区留言 这里 。
+- 💬 Want to say something to me? Contact me via [[mailto:me@ononoki.org][Email]] or directly use the comments section [[https://blog.ononoki.org/about/#waline][here]]. | 💬 想跟我说点什么吗？请通过 [[mailto:me@ononoki.org][电子邮件]] 联系我、或直接在 [[https://blog.ononoki.org/about/#waline][这里的]] 评论区留言。
 
 Instances: 
 
