@@ -1,9 +1,9 @@
-[[https://ononoki.org/][site]]
+[[https://ononoki.org/][Site]]
 
 
 Hi there 👋 | 你好👋
 
-Hi! I'm ononoki. Glad to see you! | 你好！我是斧乃木，很高兴认识你！
+Hi! I'm ononoki. Glad to see you! | 嗨！我是斧乃木，很高兴认识你！
 
 - 🌱 I'm a PhD student at University of Science and Technology of China. | 🌱 我是一名中国科学技术大学的博士生。
 - 🔭 I'm currently working in the field of AI for Science and Computer Vision. | 🔭 我目前从事科学人工智能和计算机视觉领域的工作。
