@@ -16,6 +16,7 @@
 [instance/bolha]: https://cryptpad.bolha.tools/ "(Hosted in Canada/Brasil // 托管于加拿大/巴西) The is the Cryptpad instance of Bolha.io Collective // 这是 Bolha.io Collective 的 Cryptpad 实例"
 [instance/private.coffee]: https://cryptpad.private.coffee/ "(Hosted in Austria // 托管于奥地利) An independent community instance of CryptPad brought to you by Private.coffee. // 由 Private.coffee 提供的 CryptPad 独立社区实例。"
 [instance/blablalinux]: https://cryptpad.blablalinux.be/ "(Hosted in Belgique // 托管于比利时) Ceci est une instance communautaire et indépendante de CryptPad. // 这是一个由社区运营的独立 CryptPad 实例。"
+[instance/oss.zone]: https://pad.oss.zone/ "协作套件 - 端到端加密且开放源代码"
 [matrix]: https://matrix.to/#/#cryptpad:matrix.xwiki.com
 [mastodon]: https://social.xwiki.com/@CryptPad
 [peertube]: https://peertube.xwiki.com/c/cryptpad_channel/
