@@ -1,0 +1,2 @@
+[src/gh]: https://github.com/HeyPuter/blender-wasm.git "(GPL-2.0) (Languages: JavaScript 64.6%, Shell 21.2%, C 5.1%, Makefile 4.3%, CMake 3.7%, Python 0.6%, C++ 0.5%) 🧊 Blender in the Browser // 🧊 浏览器中的 Blender"
+[play.wui/puterdev-labs]: https://developer.puter.com/labs/blender-web/ "Blender in the Browser // 浏览器中的 Blender /// Blender compiled to WebAssembly with a WebGPU backend. // Blender 编译为 WebAssembly，后端采用 WebGPU。 /// The real Blender interface, rendering entirely inside this browser tab. // 真正的 Blender 界面，完全在此浏览器标签页内渲染。"
