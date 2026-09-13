@@ -1,4 +1,5 @@
 
+~~~ sh
 #. (tui) gdu du
 apk add --no-cache -- gdu # gdu-doc
 
@@ -43,6 +44,6 @@ apk add --no-cache -- skim # skim-tmux skim-bash-plugin skim-doc
 
 #. (websrv) zola
 apk add --no-cache -- zola # zola-bash-completion
-
+~~~
 
 
